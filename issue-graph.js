@@ -359,7 +359,8 @@
       const kind = n.kind === 'core' ? '오늘 핵심' : '과거 이슈';
       const box = el('div', 'position:absolute;left:0;top:0;width:' + W + 'px;background:' + (full ? '#1f1f1f' : 'rgba(31,31,31,.95)') +
         ';border:1px solid ' + (full ? '#ec3013' : '#3a3a3a') + ';padding:' + (full ? '13px 15px 14px' : '10px 11px 11px') +
-        ';font-family:Archivo,sans-serif;color:#e6e3e1;box-shadow:0 10px 26px rgba(0,0,0,.55);transition:opacity .16s;pointer-events:' + (full ? 'auto' : 'none'));
+        ';font-family:Archivo,sans-serif;color:#e6e3e1;box-shadow:0 10px 26px rgba(0,0,0,.55)' +
+        ';transition:opacity .16s,border-color .16s;pointer-events:auto' + (full ? '' : ';cursor:pointer'));
       const head = el('div', 'display:flex;align-items:baseline;gap:8px;font:700 9px/1 Archivo,sans-serif;letter-spacing:.18em;text-transform:uppercase');
       head.append(el('span', 'color:#ec3013', kind), el('span', 'color:#8a8683', n.date));
       box.append(head, el('div', 'margin-top:7px;font:700 ' + (full ? '15px/1.32' : '12.5px/1.35') + ' Archivo,sans-serif;letter-spacing:-.01em;text-wrap:pretty', n.title));
@@ -380,6 +381,19 @@
         close.addEventListener('click', () => this.pin(null));
         acts.append(jump, close);
         box.append(chips, acts);
+      }
+      /* a standing card stands in for its node: clicking or hovering it has to
+         read as clicking or hovering the dot it points at */
+      if (!full) {
+        box.addEventListener('click', () => this.pin(this.pinned === n ? null : n));
+        box.addEventListener('pointerenter', () => {
+          this.hover = n;
+          box.style.borderColor = '#ec3013';
+        });
+        box.addEventListener('pointerleave', () => {
+          if (this.hover === n) this.hover = null;
+          box.style.borderColor = '#3a3a3a';
+        });
       }
       return box;
     }
@@ -507,6 +521,9 @@
     pin(n) {
       this.pinned = n;
       this.tip.style.display = 'none';
+      /* the card under the cursor is about to be rebuilt, so its pointerleave
+         will never fire — drop the hover here or the dimming outlives the pin */
+      this.hover = null;
       this._cardSig = null;
       this.syncToolbar();          /* also brings the hint back when unpinning */
       this._fitUntil = performance.now() + 1400;
