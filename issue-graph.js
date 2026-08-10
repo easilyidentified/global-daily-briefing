@@ -542,7 +542,7 @@
 
     buildToolbar() {
       this.toolbar = el('div', 'position:absolute;left:14px;top:14px;z-index:8;display:flex;background:rgba(26,26,26,.96);border:1px solid #3a3a3a');
-      this._tbBtns = [['on', '관계 요약'], ['off', '그래프만']].map(([v, label]) => {
+      this._tbBtns = [['on', 'on'], ['off', 'off']].map(([v, label]) => {
         const b = el('button', 'background:none;color:#8a8683;border:none;padding:10px 13px;font:700 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;text-align:left', label);
         b.addEventListener('click', () => this.setSummaries(v === 'on'));
         this.toolbar.appendChild(b);
@@ -562,8 +562,8 @@
       });
       /* narrow shows nothing until a node is tapped, so say so */
       this.hint.textContent = this.narrow
-        ? '노드를 탭하면 그 이슈의 핵심이 아래에 펼쳐집니다'
-        : '노드를 클릭하면 연결된 이슈의 핵심이 함께 펼쳐집니다';
+        ? '기본 창 토글'
+        : '기본 창 토글';
       this.hint.style.display = (on && !this.pinned) ? 'block' : 'none';
     }
 
