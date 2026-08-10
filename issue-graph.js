@@ -375,7 +375,7 @@
         const chips = el('div', 'margin-top:11px;display:flex;flex-wrap:wrap;gap:5px');
         (n.topics || []).forEach(k => chips.appendChild(el('span', 'font:600 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:#d9d7d5;border:1px solid #3f3f3f;padding:4px 7px', k)));
         const acts = el('div', 'margin-top:12px;display:flex;gap:8px');
-        const jump = el('button', 'flex:1;background:#ec3013;color:#f3f2f2;border:none;padding:9px 11px;font:700 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;text-align:left', '요약으로 이동');
+        const jump = el('button', 'flex:1;background:#ec3013;color:#f3f2f2;border:none;padding:9px 11px;font:700 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;text-align:left', '더 자세히 보기');
         jump.addEventListener('click', () => this.dispatchEvent(new CustomEvent('issuejump', { bubbles: true, detail: { key: n.key, category: n.category } })));
         const close = el('button', 'background:none;color:#8a8683;border:1px solid #3f3f3f;padding:9px 11px;font:700 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer', '닫기');
         close.addEventListener('click', () => this.pin(null));

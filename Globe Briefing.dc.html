@@ -205,9 +205,9 @@
       <div style="display:flex;align-items:center;gap:28px;flex-wrap:wrap;padding:14px 0 0;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">
         <span>스크롤 확대 · 드래그 이동 · 노드 드래그</span>
         <div class="graph-note" style="margin-left:auto;text-align:right;color:#9a9694;line-height:1.75">
-          <span style="display:block">창을 클릭하면 연관된 과거의 이슈들이 보입니다.</span>
+          <span style="display:block">창/노드를 클릭하면 연관 이슈를 볼 수 있습니다.</span>
           <span style="display:block">(작은 화면 비율에서는 보이지 않을 수 있으니, 화면을 돌려주세요)</span>
-          <span style="display:block">* 본 사이트는 데스크탑에서 가장 잘 작동합니다.</span>
+          <span style="display:block">본 사이트는 데스크탑에서 가장 잘 작동합니다.</span>
         </div>
       </div>
 
@@ -226,7 +226,7 @@
         </thead>
         <tbody>
           <sc-for list="{{ rows }}" as="r" hint-placeholder-count="6">
-            <tr onClick="{{ r.onClick }}" style="cursor:pointer" style-hover="background:#e6e4e2">
+            <tr id="{{ r.domId }}" onClick="{{ r.onClick }}" style="cursor:pointer;scroll-margin-top:24px;background:{{ r.rowBg }}" style-hover="background:#e6e4e2">
               <td class="c-tag" style="padding:18px 16px 18px 0;border-bottom:1px solid #dedcda;vertical-align:top"><span style="display:inline-block;padding:3px 9px;font-size:11px;font-weight:700;letter-spacing:.06em;background:{{ r.tagBg }};color:{{ r.tagFg }}">{{ r.tag }}</span></td>
               <td class="c-why" data-label="Why · 배경 원인" style="padding:18px 24px 18px 0;border-bottom:1px solid #dedcda;font-size:14px;line-height:1.55;vertical-align:top;text-wrap:pretty">{{ r.why }}</td>
               <td class="c-sowhat" data-label="So What · 향후 영향" style="padding:18px 0 18px 0;border-bottom:1px solid #dedcda;font-size:14px;line-height:1.55;vertical-align:top;text-wrap:pretty">{{ r.soWhat }}</td>
@@ -409,7 +409,9 @@ class Component extends DCLogic {
   jump(item) {
     this.setState({ cat: item.category, focus: item.key }, () => {
       requestAnimationFrame(() => {
-        const el = document.getElementById('issue-' + item.key);
+        /* 오늘 이슈는 '오늘의 주요 이슈' 표의 해당 행으로 보낸다.
+           과거 이슈는 그 표에 행이 없으므로 '분야별 …' 스트림 항목으로 떨어뜨린다. */
+        const el = document.getElementById('row-' + item.key) || document.getElementById('issue-' + item.key);
         if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 24, behavior: 'smooth' });
       });
     });
@@ -554,6 +556,9 @@ class Component extends DCLogic {
           indexLabel: String(i + 1).padStart(2, '0'),
           tag: `${n.categoryLabel} ${seen[n.category]}`,
           tagBg: tag[n.category][0], tagFg: tag[n.category][1],
+          /* 관계도에서 넘어온 점프가 착지하는 지점 */
+          domId: 'row-' + n.id,
+          rowBg: this.state.focus === n.id ? '#ffe9e5' : 'transparent',
           onClick: () => this.jump({ key: n.id, category: n.category })
         };
       }),
