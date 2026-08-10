@@ -27,6 +27,17 @@ jobs:
             그 파일 외의 다른 파일은 수정하지 마라.
           claude_args: '--allowedTools "Read,Write,Edit,WebSearch,WebFetch"'
 
+      # 턴 단위 실행 기록(어떤 검색을 했고 무엇을 골랐는지)은 이 파일에만 남는다.
+      # 올려두지 않으면 러너와 함께 사라져서 나중에 원인 추적이 불가능하다.
+      - name: Upload Claude execution log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-execution-output
+          path: /home/runner/work/_temp/claude-execution-output.json
+          if-no-files-found: warn
+          retention-days: 14
+
       - name: Commit result
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
