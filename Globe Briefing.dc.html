@@ -406,12 +406,18 @@ class Component extends DCLogic {
     }
   }
 
-  jump(item) {
+  /* 같은 이슈라도 어디서 눌렀느냐에 따라 갈 곳이 다르다.
+       - 관계도 카드('더 자세히 보기') → '오늘의 주요 이슈' 표의 해당 행
+       - 표의 행 → '분야별 주요 소식 및 맥락 분석'의 해당 항목 (dest: 'stream')
+     찾는 쪽이 없으면 반대쪽으로 떨어진다. 과거 이슈는 표에 행이 없기 때문이다.
+     dest를 안 주면 표 행을 먼저 찾는데, 표에서 부를 때 그대로 두면 제자리걸음이 된다. */
+  jump(item, dest) {
     this.setState({ cat: item.category, focus: item.key }, () => {
       requestAnimationFrame(() => {
-        /* 오늘 이슈는 '오늘의 주요 이슈' 표의 해당 행으로 보낸다.
-           과거 이슈는 그 표에 행이 없으므로 '분야별 …' 스트림 항목으로 떨어뜨린다. */
-        const el = document.getElementById('row-' + item.key) || document.getElementById('issue-' + item.key);
+        const ids = dest === 'stream'
+          ? ['issue-' + item.key, 'row-' + item.key]
+          : ['row-' + item.key, 'issue-' + item.key];
+        const el = ids.map(id => document.getElementById(id)).find(Boolean);
         if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 24, behavior: 'smooth' });
       });
     });
@@ -559,7 +565,7 @@ class Component extends DCLogic {
           /* 관계도에서 넘어온 점프가 착지하는 지점 */
           domId: 'row-' + n.id,
           rowBg: this.state.focus === n.id ? '#ffe9e5' : 'transparent',
-          onClick: () => this.jump({ key: n.id, category: n.category })
+          onClick: () => this.jump({ key: n.id, category: n.category }, 'stream')
         };
       }),
       streamLabel: `${ordered.length}건 · 최신 ${anchor}`,
