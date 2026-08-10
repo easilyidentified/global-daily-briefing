@@ -48,6 +48,18 @@
     /* 지구본 상단 바 — 날짜 박스를 걷어낸 뒤 남은 제목만 접히게 */
     .globe-top{padding:16px 18px!important;gap:12px!important}
 
+    /* 국가 칩 바 — 12열이면 칸당 32px라 국가명이 한 글자로 잘렸다.
+       4열 × 3행으로 접는다. 가장 긴 '우크라이나'(5자)가 들어가는 최소 열 수다. */
+    .globe-chips{grid-template-columns:repeat(4,1fr)!important}
+    .globe-chip{padding:9px 8px!important;gap:3px!important;
+                border-bottom:1px solid rgba(243,242,242,.12)!important}
+    .globe-chip>span:first-child{font-size:9px!important;letter-spacing:.14em!important}
+    .globe-chip>span:last-child{font-size:12px!important}
+
+    /* 칩 바가 3행으로 높아진 만큼 스크롤 안내를 위로 올린다.
+       그대로 두면 안내 문구가 칩 바에 깔린다. */
+    .globe-cue{left:0!important;right:0!important;transform:none!important;bottom:152px!important}
+
     /* 탭 바 — 정치/경제/기타 3개가 가로로 넘쳐 페이지 전체에
        가로 스크롤을 만들던 지점. 전체 폭을 3등분해 채운다. */
     .stream-bar{gap:0!important}
@@ -99,7 +111,7 @@
       </div>
     </div>
 
-    <div data-cue="1" style="position:absolute;left:50%;bottom:96px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;color:rgba(243,242,242,.7);font-size:11px;letter-spacing:.2em;text-transform:uppercase;pointer-events:none;animation:cue 2.6s ease-in-out infinite">
+    <div data-cue="1" class="globe-cue" style="position:absolute;left:50%;bottom:96px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;color:rgba(243,242,242,.7);font-size:11px;letter-spacing:.2em;text-transform:uppercase;pointer-events:none;animation:cue 2.6s ease-in-out infinite">
       <span>{{ cueLabel }}</span>
       <svg width="14" height="20" viewBox="0 0 14 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 1v16M1.5 12L7 18l5.5-6"></path></svg>
     </div>
@@ -129,9 +141,9 @@
     </sc-if>
 
     <div style="position:absolute;left:0;right:0;bottom:0;border-top:2px solid rgba(243,242,242,.22);background:rgba(7,8,10,.72);backdrop-filter:blur(6px);z-index:4">
-      <div style="display:grid;grid-template-columns:repeat(12,1fr)">
+      <div class="globe-chips" style="display:grid;grid-template-columns:repeat(12,1fr)">
         <sc-for list="{{ chips }}" as="c" hint-placeholder-count="12">
-          <button onClick="{{ c.onClick }}" style="text-align:left;padding:11px 10px;background:{{ c.bg }};color:{{ c.fg }};border:none;border-right:1px solid rgba(243,242,242,.12);cursor:pointer;display:flex;flex-direction:column;gap:4px;overflow:hidden;opacity:{{ c.opacity }}">
+          <button class="globe-chip" onClick="{{ c.onClick }}" style="text-align:left;padding:11px 10px;background:{{ c.bg }};color:{{ c.fg }};border:none;border-right:1px solid rgba(243,242,242,.12);cursor:pointer;display:flex;flex-direction:column;gap:4px;overflow:hidden;opacity:{{ c.opacity }}">
             <span style="font:500 10px/1 Archivo,sans-serif;letter-spacing:.18em;color:{{ c.codeColor }}">{{ c.code }}</span>
             <span style="font:700 12px/1.1 Archivo,sans-serif;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%">{{ c.name }}</span>
           </button>
