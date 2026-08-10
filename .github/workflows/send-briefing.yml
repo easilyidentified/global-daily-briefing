@@ -1,0 +1,36 @@
+name: Send Briefing Email
+
+# 매일 08:00 KST에 data/issues.json을 읽어 KR 브리핑 이메일을 Gmail SMTP로 발송한다.
+# 수집 워크플로(daily-briefing.yml, 06:40 KST)가 끝난 뒤 실행되도록 시각을 벌려 둔다.
+on:
+  workflow_dispatch:        # 수동 실행(먼저 버튼으로 테스트)
+  schedule:
+    - cron: "0 23 * * *"    # UTC 23:00 = KST 익일 08:00
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compute today's KST date (freshness guard)
+        id: kst
+        run: echo "date=$(TZ=Asia/Seoul date +%Y.%m.%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Render and send briefing
+        env:
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          BRIEFING_TO:        ${{ vars.BRIEFING_TO }}
+          BRIEFING_FROM_NAME: ${{ vars.BRIEFING_FROM_NAME }}
+          BRIEFING_COUNTRY:   KR
+          EXPECT_DATE:        ${{ steps.kst.outputs.date }}
+        run: python3 scripts/send_briefing.py
