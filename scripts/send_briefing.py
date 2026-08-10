@@ -10,7 +10,9 @@ data/issues.json에서 '오늘'(date == latestDate) 기사를 읽어
 필요 환경변수 (GitHub Actions에서 secrets/vars로 주입):
   GMAIL_USER          발신 Gmail 주소. 예: "kimgt0530@gmail.com"        (필수)
   GMAIL_APP_PASSWORD  Gmail 앱 비밀번호 16자리(공백 무시). 2단계 인증 후 발급 (필수, secret)
-  BRIEFING_TO         수신자. 콤마로 구분. 예: "a@x.com, b@y.com"        (필수)
+  BRIEFING_TO         수신자 전원. 콤마로 구분. 예: "a@x.com, b@y.com"    (필수)
+  BRIEFING_TO_VISIBLE To 헤더에 노출할 주소. 나머지는 전부 숨은 참조(BCC).
+                      비워 두면 BRIEFING_TO의 맨 앞 주소 하나만 보인다.  (선택)
   BRIEFING_FROM_NAME  발신자 표시 이름. 기본 "Daily News Briefing"       (선택)
   BRIEFING_COUNTRY    국가코드. 기본 KR                                  (선택)
 
@@ -199,7 +201,14 @@ def render_html(country_code, data, banner_src=None):
     return subject, html_doc, text_doc
 
 
-def send_via_gmail(user, app_password, from_name, recipients, subject, html_doc, text_doc, inline_image=None):
+def send_via_gmail(user, app_password, from_name, recipients, subject, html_doc, text_doc,
+                   inline_image=None, visible=None):
+    """recipients 전원에게 배달하되, To 헤더에는 visible만 적는다.
+
+    SMTP는 '실제 배달 목록'(sendmail의 두 번째 인자, 봉투)과 '메일에 적힌 수신자'(To 헤더)를
+    따로 다룬다. 헤더에서 빠진 주소는 받는 사람 눈에 보이지 않으므로 그대로 숨은 참조가 된다.
+    Bcc 헤더는 절대 넣지 않는다 — 넣으면 숨기려던 주소가 그대로 노출된다.
+    """
     # 앱 비밀번호는 표시상 공백이 들어가므로 제거
     app_password = app_password.replace(" ", "")
     alt = MIMEMultipart("alternative")
@@ -218,15 +227,18 @@ def send_via_gmail(user, app_password, from_name, recipients, subject, html_doc,
     else:
         msg = alt
 
+    visible = visible or recipients
     msg["Subject"] = str(Header(subject, "utf-8"))
     msg["From"] = formataddr((str(Header(from_name, "utf-8")), user))
-    msg["To"] = ", ".join(recipients)
+    msg["To"] = ", ".join(visible)
+    hidden = len(recipients) - len(visible)
     try:
         ctx = ssl.create_default_context()
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ctx, timeout=30) as s:
             s.login(user, app_password)
             s.sendmail(user, recipients, msg.as_string())
-        print(f"[send] 발송 완료 → {len(recipients)}명: {', '.join(recipients)}")
+        # 공개 리포의 Actions 로그는 누구나 볼 수 있다. 주소는 찍지 않고 숫자만 남긴다.
+        print(f"[send] 발송 완료 → 총 {len(recipients)}명 (표시 {len(visible)}명 / 숨은참조 {hidden}명)")
         return 0
     except smtplib.SMTPAuthenticationError as e:
         print(f"[send] 인증 실패(앱 비밀번호/2단계 인증 확인): {e}", file=sys.stderr)
@@ -250,6 +262,15 @@ def main():
         return 2
 
     recipients = [x.strip() for x in to_raw.split(",") if x.strip()]
+
+    # To 헤더에 이름이 뜨는 주소. 나머지 BRIEFING_TO 주소는 전부 숨은 참조로 나간다.
+    # BRIEFING_TO_VISIBLE을 두지 않으면 BRIEFING_TO의 맨 앞 주소 하나만 보인다.
+    vis_raw = os.environ.get("BRIEFING_TO_VISIBLE", "").strip()
+    visible = [x.strip() for x in vis_raw.split(",") if x.strip()] or recipients[:1]
+    # 표시용 주소가 배달 목록에 빠져 있으면 본인은 메일을 못 받는다. 채워 넣는다.
+    for v in visible:
+        if v not in recipients:
+            recipients.append(v)
 
     with open(os.path.join(os.path.dirname(__file__), "..", "data", "issues.json"), encoding="utf-8") as f:
         data = json.load(f)
@@ -292,7 +313,8 @@ def main():
         return 0
 
     inline_image = (BANNER_PATH, BANNER_CID) if has_banner else None
-    return send_via_gmail(user, app_pw, from_name, recipients, subject, html_doc, text_doc, inline_image=inline_image)
+    return send_via_gmail(user, app_pw, from_name, recipients, subject, html_doc, text_doc,
+                          inline_image=inline_image, visible=visible)
 
 
 if __name__ == "__main__":

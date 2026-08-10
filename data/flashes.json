@@ -19,17 +19,55 @@
       "color": "#1f6feb"
     },
     {
-      "id": "kr-sidecar",
+      "id": "co-quake-choco",
       "kind": "country",
-      "code": "KR",
+      "code": "CO",
+      "latlng": [
+        4.89,
+        -76.23
+      ],
       "label": "!",
-      "date": "2026.08.10 09:59",
+      "date": "2026.08.10",
+      "category": "재난",
+      "title": "규모 7.4 지진, 400km 밖 수도까지 흔들렸다",
+      "summary": "콜롬비아 서부 초코주 산호세델팔마르 인근에서 규모 7.4 지진이 나 최소 20명이 숨졌습니다. 페레이라 18명, 마니살레스 2명입니다. 진원이 107km로 깊었는데도 400km 떨어진 보고타에서 건물 대피가 이어졌고 흔들림은 에콰도르까지 닿았습니다. 초코주 주도 키브도는 건물 피해가 컸습니다.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20",
+      "color": "#ec3013"
+    },
+    {
+      "id": "ru-nizhnekamsk-drone",
+      "kind": "country",
+      "code": "RU",
+      "latlng": [
+        55.64,
+        51.82
+      ],
+      "label": "!",
+      "date": "2026.08.10",
+      "category": "국제",
+      "title": "드론이 모스크바 동쪽 800km 정유공장을 때렸다",
+      "summary": "우크라이나 드론이 러시아 타타르스탄의 니즈네캄스크 정유공장을 타격해 어린이를 포함해 최소 13명이 숨지고 39명이 다쳤습니다. 모스크바에서 동쪽으로 800km, 전선에서 한참 물러난 후방입니다. 러시아 최대급 정유시설이 이만큼 깊은 내륙에서 뚫렸다는 뜻입니다.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/at-least-13-killed-in-ukrainian-drone-attack-on-russias-nizhnekamsk",
+      "color": "#ec3013"
+    },
+    {
+      "id": "hormuz-lng-tanker",
+      "kind": "country",
+      "code": "OM",
+      "latlng": [
+        26.57,
+        56.25
+      ],
+      "label": "!",
+      "date": "2026.08.03",
       "category": "경제",
-      "title": "코스닥 급등... 매수 사이드카 발동",
-      "summary": "코스닥 지수가 급등하며 매수 사이드카가 발동됐습니다.",
-      "source": "YTN",
-      "url": "https://www.ytn.co.kr/_cs/_ln_0102_202608100959564300_005.html",
-      "color": "#1f6feb"
+      "title": "한 달 새 LNG 유조선 두 척 피격, 유럽 겨울이 걸렸다",
+      "summary": "카타르산 LNG를 싣고 호르무즈 해협을 빠져나가던 유조선 가스로그 상하이가 발사체에 맞았습니다. 7월 7일 알레카야트에 이어 한 달 새 두 번째입니다. 카타르에너지는 9월까지 24개 화물, 약 30억㎥ 분량에 계약이행 불능(force majeure)을 선언했습니다. 유럽이 겨울용 가스 저장을 채워야 하는 시기와 겹쳐 가스값과 보험료가 함께 뛰고 있습니다.",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2026/08/03/second-tanker-with-qatari-lng-struck-in-hormuz-within-a-month-as-force-majeure-widens",
+      "color": "#ec3013"
     }
   ]
 }

@@ -330,7 +330,9 @@ class GlobeStage extends HTMLElement {
     const accent = f.color || '#ec3013';
     let anchor, holder;
     if (f.kind === 'country') {
-      const c = COORDS[f.code];
+      /* 속보는 12개 마커 국가에 매이지 않는다. latlng를 주면 그 지점에 그대로 꽂힌다.
+         (COORDS에만 의존하면 목록 밖 국가의 속보가 조용히 사라진다) */
+      const c = f.latlng || COORDS[f.code];
       if (!c) return;
       anchor = new THREE.Object3D();
       anchor.position.copy(toVec(c[0], c[1], R * 1.03));
@@ -389,7 +391,7 @@ class GlobeStage extends HTMLElement {
     chip.addEventListener('pointerleave', () => { chip.style.background = accent; tip.style.borderTopColor = accent; });
     chip.addEventListener('click', ev => {
       ev.stopPropagation();
-      if (f.kind === 'country' && f.code) this.focusOn(f.code);
+      if (f.kind === 'country') this.focusOn(f.code, f.latlng);
       this.dispatchEvent(new CustomEvent('newsflash', { detail: f.id, bubbles: true }));
     });
     this.flashLayer.appendChild(chip);
@@ -458,8 +460,8 @@ class GlobeStage extends HTMLElement {
     });
   }
 
-  focusOn(code) {
-    const c = COORDS[code];
+  focusOn(code, latlng) {
+    const c = latlng || COORDS[code];
     if (!c) return;
     let ty = Math.PI / 2 - (c[1] + 180) * DEG;
     const tx = c[0] * DEG * 0.75;
