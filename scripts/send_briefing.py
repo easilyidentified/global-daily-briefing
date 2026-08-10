@@ -238,7 +238,7 @@ def send_via_gmail(user, app_password, from_name, recipients, subject, html_doc,
             s.login(user, app_password)
             s.sendmail(user, recipients, msg.as_string())
         # 공개 리포의 Actions 로그는 누구나 볼 수 있다. 주소는 찍지 않고 숫자만 남긴다.
-        print(f"[send] 발송 완료 → 총 {len(recipients)}명 (표시 {len(visible)}명 / 숨은참조 {hidden}명)")
+        print(f"[send] 발송 완료 → 배달 {len(recipients)}명 · To 헤더 {len(visible)}개 · 숨은참조 {hidden}명")
         return 0
     except smtplib.SMTPAuthenticationError as e:
         print(f"[send] 인증 실패(앱 비밀번호/2단계 인증 확인): {e}", file=sys.stderr)
