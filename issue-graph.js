@@ -61,7 +61,8 @@
       this.appendChild(this.tip);
 
       /* summary cards ride above the canvas, anchored to node positions each frame */
-      this.cardLayer = el('div', 'position:absolute;inset:0;z-index:9;pointer-events:none');
+      /* overflow:hidden is the backstop — a card must never spill onto the page below the graph */
+      this.cardLayer = el('div', 'position:absolute;inset:0;z-index:9;pointer-events:none;overflow:hidden');
       this.appendChild(this.cardLayer);
 
       this.buildToolbar();
@@ -93,6 +94,7 @@
       this.w = r.width; this.h = r.height;
       this.canvas.width = Math.round(r.width * dpr); this.canvas.height = Math.round(r.height * dpr);
       this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      if (this._tbBtns) this.syncToolbar();   /* hint wording follows the breakpoint */
       this._fitUntil = performance.now() + 1200;
     }
 
@@ -220,11 +222,14 @@
         x0 = Math.min(x0, n.x - r); x1 = Math.max(x1, n.x + r);
         y0 = Math.min(y0, n.y - r); y1 = Math.max(y1, n.y + r);
       });
-      const wide = this.w > 720;
-      const room = this.s.summaries;
-      const padL = room ? (wide ? 240 : 24) : 40;
-      const padR = room ? (wide ? 260 : 190) : (wide ? 300 : 40);
-      const padT = room ? 60 : 40, padB = room ? 60 : 90;
+      const wide = !this.narrow;
+      const room = this.cardsOn;
+      /* narrow keeps its full width — the card docks at the bottom, so only
+         the bottom edge has to be cleared for it */
+      const padL = room && wide ? 240 : 40;
+      const padR = room && wide ? 260 : (wide ? 300 : 40);
+      const padT = room && wide ? 60 : 40;
+      const padB = room && !wide ? (this._dockH || 210) + 26 : (room ? 60 : 90);
       const bw = Math.max(80, this.w - padL - padR), bh = Math.max(80, this.h - padT - padB);
       const s = Math.max(0.3, Math.min(1.6, Math.min(bw / (x1 - x0), bh / (y1 - y0))));
       const tx = padL + bw / 2 - this.w / 2 - ((x0 + x1) / 2) * s;
@@ -308,29 +313,49 @@
     }
 
     /* ---------- summary cards ---------- */
+    /* A narrow screen has no gutter to spare: a side card would leave the node
+       cloud about 80px to live in. So below the breakpoint no card stands on its
+       own — one appears, docked along the bottom, only while a node is pinned. */
+    /* NB: `pin(n)` below is the setter-ish action, so this reader needs its own name */
+    get narrow() { return this.w <= 720; }
+    get activePin() { return this.pinned && this.visible(this.pinned) ? this.pinned : null; }
+    get cardsOn() { return !!this.s.summaries && (!this.narrow || !!this.activePin); }
+
+    /* how many cards the gutters hold before the stack outgrows the graph */
+    cardBudget() {
+      if (this.narrow) return 1;
+      return Math.max(2, Math.floor((this.h - 80) / 140) * 2);
+    }
+
     /* which nodes deserve a standing card: today's core issues by default,
        or the pinned node plus everything it links to */
     cardTargets() {
       const out = new Map();
-      if (!this.s.summaries) return out;
-      const pin = this.pinned && this.visible(this.pinned) ? this.pinned : null;
+      if (!this.cardsOn) return out;
+      const pin = this.activePin;
+      const cap = this.cardBudget();
       if (pin) {
         if (pin.kind !== 'hub') out.set(pin.key, { node: pin, mode: 'full' });
         const nb = this.neighbors(pin);
-        this.nodes.forEach(n => {
-          if (n.kind === 'hub' || n === pin || !nb.has(n.key) || !this.visible(n)) return;
-          out.set(n.key, { node: n, mode: 'mini' });
-        });
+        /* nearest links first, so what gets cut is what sits furthest out */
+        this.nodes
+          .filter(n => n.kind !== 'hub' && n !== pin && nb.has(n.key) && this.visible(n))
+          .sort((a, b) => ((a.x - pin.x) ** 2 + (a.y - pin.y) ** 2) - ((b.x - pin.x) ** 2 + (b.y - pin.y) ** 2))
+          .slice(0, Math.max(0, cap - out.size))
+          .forEach(n => out.set(n.key, { node: n, mode: 'mini' }));
         return out;
       }
-      this.nodes.forEach(n => { if (n.kind === 'core' && this.visible(n)) out.set(n.key, { node: n, mode: 'mini' }); });
+      this.nodes.filter(n => n.kind === 'core' && this.visible(n))
+        .slice(0, cap)
+        .forEach(n => out.set(n.key, { node: n, mode: 'mini' }));
       return out;
     }
 
     buildCard(n, mode) {
       const full = mode === 'full';
       const wide = this.w > 720;
-      const W = full ? (wide ? 300 : 230) : (wide ? 200 : 168);
+      /* docked cards span the graph instead of squeezing into a gutter */
+      const W = full ? (wide ? 300 : Math.max(180, this.w - 20)) : (wide ? 200 : 168);
       const kind = n.kind === 'core' ? '오늘 핵심' : '과거 이슈';
       const box = el('div', 'position:absolute;left:0;top:0;width:' + W + 'px;background:' + (full ? '#1f1f1f' : 'rgba(31,31,31,.95)') +
         ';border:1px solid ' + (full ? '#ec3013' : '#3a3a3a') + ';padding:' + (full ? '13px 15px 14px' : '10px 11px 11px') +
@@ -361,7 +386,8 @@
 
     syncCards() {
       const want = this.cardTargets();
-      let sig = (this.w > 720 ? 'w|' : 'n|');
+      /* docked width tracks the graph, so the width belongs in the rebuild key */
+      let sig = (this.narrow ? 'n' + Math.round(this.w) : 'w') + '|';
       want.forEach((v, k) => { sig += k + ':' + v.mode + '|'; });
       if (sig !== this._cardSig) {
         this._cardSig = sig;
@@ -373,7 +399,24 @@
           this.cardMap.set(k, { el: node, node: v.node, mode: v.mode, w: node.offsetWidth, h: node.offsetHeight });
         });
       }
-      if (!this.cardMap.size) return;
+      if (!this.cardMap.size) { this._dockH = 0; return; }
+
+      /* narrow: the one pinned card docks along the bottom edge, full width.
+         fitStep keeps the node cloud above it, so nothing is covered. */
+      if (this.narrow) {
+        let tall = 0;
+        this.cardMap.forEach(c => {
+          c.w = c.el.offsetWidth || c.w; c.h = c.el.offsetHeight || c.h;
+          c.tx = 10;
+          c.ty = Math.max(10, this.h - c.h - 10);
+          c.side = 'B';
+          tall = Math.max(tall, c.h);
+        });
+        this._dockH = tall;
+        this.placeCards();
+        return;
+      }
+      this._dockH = 0;
 
       /* cards live in left and right gutters — never over the node cloud.
          each card stacks near its node's height, then a leader line ties the two. */
@@ -421,7 +464,11 @@
         }
       };
       pack(L, 'L'); pack(R, 'R');
+      this.placeCards();
+    }
 
+    /* ease every card from where it is to the slot just computed for it */
+    placeCards() {
       this.cardMap.forEach(c => {
         const jump = c.px == null || c._side !== c.side;
         c._side = c.side;
@@ -439,6 +486,7 @@
       if (!this.cardMap.size) return;
       this.cardMap.forEach(k => {
         if (k.px == null) return;
+        if (k.side === 'B') return;   /* docked card spans the width — a leader would just cut across it */
         const [x, y] = this.toScreen(k.node);
         const right = k.px > x;
         const ex = right ? k.px : k.px + k.w;
@@ -460,7 +508,7 @@
       this.pinned = n;
       this.tip.style.display = 'none';
       this._cardSig = null;
-      if (n && this.hint) this.hint.style.display = 'none';
+      this.syncToolbar();          /* also brings the hint back when unpinning */
       this._fitUntil = performance.now() + 1400;
     }
 
@@ -495,7 +543,11 @@
         b.style.background = act ? '#ec3013' : 'none';
         b.style.color = act ? '#f3f2f2' : '#8a8683';
       });
-      this.hint.style.display = on ? 'block' : 'none';
+      /* narrow shows nothing until a node is tapped, so say so */
+      this.hint.textContent = this.narrow
+        ? '노드를 탭하면 그 이슈의 핵심이 아래에 펼쳐집니다'
+        : '노드를 클릭하면 연결된 이슈의 핵심이 함께 펼쳐집니다';
+      this.hint.style.display = (on && !this.pinned) ? 'block' : 'none';
     }
 
     /* ---------- interaction ---------- */
