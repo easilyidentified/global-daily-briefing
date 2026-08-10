@@ -1,0 +1,18 @@
+# Claude Code 작업 디렉터리 (워크트리·세션 상태). 리포에 올릴 것이 없다.
+.claude/
+
+# 외부에서 수정한 파일을 넘겨받는 스테이징 폴더. 반영이 끝나면 지워도 된다.
+claude-design-변경사항/
+
+# send_briefing.py의 DRY_RUN=1 결과물.
+# 배너가 data URI로 박혀 400KB가 넘는다 — 절대 커밋하지 않는다.
+preview_*.html
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

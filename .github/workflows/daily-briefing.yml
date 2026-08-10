@@ -17,11 +17,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 러너는 UTC로 돈다. 이 워크플로가 뜨는 21:40 UTC는 KST로 이미 '다음 날'이다.
+      # 에이전트에게는 Bash가 없어 스스로 날짜를 확인할 수단이 없으므로,
+      # KST 날짜를 여기서 계산해 프롬프트에 박아 넣는다. (send-briefing.yml과 같은 방식)
+      - name: Compute today's KST date
+        id: kst
+        run: echo "date=$(TZ=Asia/Seoul date +%Y.%m.%d)" >> "$GITHUB_OUTPUT"
+
       - name: Collect and summarise today's briefing
+        env:
+          TZ: Asia/Seoul
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
+            오늘 날짜는 KST 기준 ${{ steps.kst.outputs.date }} 이다.
+            지시서에서 '오늘 날짜'라고 하는 것은 전부 이 값을 뜻한다.
+            네가 아는 날짜나 실행 환경의 시계(UTC)로 추정하지 마라 — 하루가 어긋난다.
+
             저장소 루트의 scripts/collect-prompt.md 파일을 먼저 읽고,
             거기에 적힌 지시를 그대로 따라 data/issues.json을 갱신하라.
             그 파일 외의 다른 파일은 수정하지 마라.
