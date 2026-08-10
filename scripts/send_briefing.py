@@ -231,7 +231,7 @@ def send_via_gmail(user, app_password, from_name, recipients, subject, html_doc,
     msg["Subject"] = str(Header(subject, "utf-8"))
     msg["From"] = formataddr((str(Header(from_name, "utf-8")), user))
     msg["To"] = ", ".join(visible)
-    hidden = len(recipients) - len(visible)
+    hidden = len([r for r in recipients if r not in visible])
     try:
         ctx = ssl.create_default_context()
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ctx, timeout=30) as s:
@@ -265,12 +265,10 @@ def main():
 
     # To 헤더에 이름이 뜨는 주소. 나머지 BRIEFING_TO 주소는 전부 숨은 참조로 나간다.
     # BRIEFING_TO_VISIBLE을 두지 않으면 BRIEFING_TO의 맨 앞 주소 하나만 보인다.
+    # 배달 대상은 BRIEFING_TO가 전부다. VISIBLE은 '보이기'만 바꾸지 배달을 늘리지 않는다
+    # (대표 주소를 표시용으로만 쓰는 경우가 있어, 여기에 배달을 붙이면 오배송이 된다).
     vis_raw = os.environ.get("BRIEFING_TO_VISIBLE", "").strip()
     visible = [x.strip() for x in vis_raw.split(",") if x.strip()] or recipients[:1]
-    # 표시용 주소가 배달 목록에 빠져 있으면 본인은 메일을 못 받는다. 채워 넣는다.
-    for v in visible:
-        if v not in recipients:
-            recipients.append(v)
 
     with open(os.path.join(os.path.dirname(__file__), "..", "data", "issues.json"), encoding="utf-8") as f:
         data = json.load(f)

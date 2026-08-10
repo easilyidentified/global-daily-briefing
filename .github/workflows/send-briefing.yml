@@ -4,6 +4,11 @@ name: Send Briefing Email
 # 수집 워크플로(daily-briefing.yml, 06:40 KST)가 끝난 뒤 실행되도록 시각을 벌려 둔다.
 on:
   workflow_dispatch:        # 수동 실행(먼저 버튼으로 테스트)
+    inputs:
+      force:
+        description: "신선도 검사를 건너뛰고 지금 있는 데이터로 발송 (테스트용)"
+        type: boolean
+        default: false
   schedule:
     - cron: "0 23 * * *"    # UTC 23:00 = KST 익일 08:00
 
@@ -32,5 +37,7 @@ jobs:
           BRIEFING_TO:        ${{ vars.BRIEFING_TO }}
           BRIEFING_FROM_NAME: ${{ vars.BRIEFING_FROM_NAME }}
           BRIEFING_COUNTRY:   KR
-          EXPECT_DATE:        ${{ steps.kst.outputs.date }}
+          # force=true면 빈 값이 되어 신선도 검사가 통째로 비활성화된다.
+          # 스케줄 실행에는 inputs가 없으므로 항상 검사가 걸린다 — 오발송 방지는 그대로다.
+          EXPECT_DATE:        ${{ inputs.force && '' || steps.kst.outputs.date }}
         run: python3 scripts/send_briefing.py
