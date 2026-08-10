@@ -2,13 +2,13 @@
   const CATS = [['politics', '정치'], ['economy', '경제'], ['other', '기타']];
   const BG = '#131313';
   const PAL = {
-    level: { hub: '#ec3013', core: '#e6e3e1', past: '#7e7a78' },
+    level: { hub: '#f3f2f2', core: '#ec3013', past: '#6b6866' },
     category: { politics: '#ec3013', economy: '#e6e3e1', other: '#7e7a78' },
     age: ['#ec3013', '#c25a45', '#8f8a87', '#6b6866', '#4d4a48']
   };
   const DEFAULTS = {
     cats: { politics: true, economy: true, other: true },
-    days: 40, coreOnly: false, group: 'level', linkMode: 'both',
+    days: 40, coreOnly: false, group: 'level', linkMode: 'both', summaries: true,
     simThreshold: 0.25, maxDeg: 3,
     textZoom: 1.1, nodeSize: 1, gravity: 1, repel: 1, linkDist: 110
   };
@@ -44,6 +44,7 @@
       this.nodes = []; this.pairs = []; this.catLinks = [];
       this.scale = 1; this.panX = 0; this.panY = 0;
       this.hover = null; this.drag = null; this.panning = null;
+      this.pinned = null; this.cardMap = new Map();
 
       this.style.display = 'block';
       this.style.position = 'relative';
@@ -59,6 +60,11 @@
       this.tip = el('div', 'position:absolute;z-index:6;width:min(330px,70vw);background:#1f1f1f;border:1px solid #3a3a3a;color:#e6e3e1;padding:13px 15px 14px;pointer-events:none;display:none;box-shadow:0 12px 34px rgba(0,0,0,.6);font-family:Archivo,sans-serif');
       this.appendChild(this.tip);
 
+      /* summary cards ride above the canvas, anchored to node positions each frame */
+      this.cardLayer = el('div', 'position:absolute;inset:0;z-index:9;pointer-events:none');
+      this.appendChild(this.cardLayer);
+
+      this.buildToolbar();
       this.buildPanel();
       this.buildLegend();
       this.bind();
@@ -214,7 +220,11 @@
         x0 = Math.min(x0, n.x - r); x1 = Math.max(x1, n.x + r);
         y0 = Math.min(y0, n.y - r); y1 = Math.max(y1, n.y + r);
       });
-      const padL = 40, padR = this.w > 720 ? 300 : 40, padT = 40, padB = 90;
+      const wide = this.w > 720;
+      const room = this.s.summaries;
+      const padL = room ? (wide ? 240 : 24) : 40;
+      const padR = room ? (wide ? 260 : 190) : (wide ? 300 : 40);
+      const padT = room ? 60 : 40, padB = room ? 60 : 90;
       const bw = Math.max(80, this.w - padL - padR), bh = Math.max(80, this.h - padT - padB);
       const s = Math.max(0.3, Math.min(1.6, Math.min(bw / (x1 - x0), bh / (y1 - y0))));
       const tx = padL + bw / 2 - this.w / 2 - ((x0 + x1) / 2) * s;
@@ -236,11 +246,16 @@
       this.step();
       if (this._fitUntil && performance.now() < this._fitUntil) this.fitStep();
 
-      const c = this.ctx, hv = this.hover;
+      const c = this.ctx;
+      const pin = this.pinned && this.visible(this.pinned) ? this.pinned : null;
+      const hv = this.hover || pin;
       const nb = hv ? this.neighbors(hv) : null;
+      this._dimHv = hv; this._dimNb = nb;
       c.clearRect(0, 0, this.w, this.h);
       c.fillStyle = BG; c.fillRect(0, 0, this.w, this.h);
       this.drawGrid(c);
+
+      this.syncCards();
 
       this._live.forEach(l => {
         const [ax, ay] = this.toScreen(l.a), [bx, by] = this.toScreen(l.b);
@@ -252,19 +267,21 @@
       });
 
       const act = this.nodes.filter(n => this.visible(n));
+      this.drawLeaders(c);
       act.forEach(n => {
         const [x, y] = this.toScreen(n);
         const r = this.radius(n) * this.scale;
         c.globalAlpha = hv ? (nb.has(n.key) ? 1 : 0.18) : 1;
         c.beginPath(); c.arc(x, y, r, 0, Math.PI * 2);
         c.fillStyle = this.color(n); c.fill();
-        if (hv === n) { c.lineWidth = 2; c.strokeStyle = '#ec3013'; c.stroke(); }
+        if (hv === n || this.pinned === n) { c.lineWidth = 2; c.strokeStyle = n.kind === 'core' ? '#f3f2f2' : '#ec3013'; c.stroke(); }
       });
 
       const show = this.scale >= this.s.textZoom;
       c.textAlign = 'center'; c.textBaseline = 'top';
       act.forEach(n => {
         if (n.kind !== 'hub' && !show && hv !== n) return;
+        if (this.cardMap.has(n.key)) return;
         const [x, y] = this.toScreen(n);
         const r = this.radius(n) * this.scale;
         const big = n.kind === 'hub';
@@ -288,6 +305,197 @@
       for (let x = ox; x < this.w; x += step) { c.moveTo(Math.round(x) + 0.5, 0); c.lineTo(Math.round(x) + 0.5, this.h); }
       for (let y = oy; y < this.h; y += step) { c.moveTo(0, Math.round(y) + 0.5); c.lineTo(this.w, Math.round(y) + 0.5); }
       c.stroke();
+    }
+
+    /* ---------- summary cards ---------- */
+    /* which nodes deserve a standing card: today's core issues by default,
+       or the pinned node plus everything it links to */
+    cardTargets() {
+      const out = new Map();
+      if (!this.s.summaries) return out;
+      const pin = this.pinned && this.visible(this.pinned) ? this.pinned : null;
+      if (pin) {
+        if (pin.kind !== 'hub') out.set(pin.key, { node: pin, mode: 'full' });
+        const nb = this.neighbors(pin);
+        this.nodes.forEach(n => {
+          if (n.kind === 'hub' || n === pin || !nb.has(n.key) || !this.visible(n)) return;
+          out.set(n.key, { node: n, mode: 'mini' });
+        });
+        return out;
+      }
+      this.nodes.forEach(n => { if (n.kind === 'core' && this.visible(n)) out.set(n.key, { node: n, mode: 'mini' }); });
+      return out;
+    }
+
+    buildCard(n, mode) {
+      const full = mode === 'full';
+      const wide = this.w > 720;
+      const W = full ? (wide ? 300 : 230) : (wide ? 200 : 168);
+      const kind = n.kind === 'core' ? '오늘 핵심' : '과거 이슈';
+      const box = el('div', 'position:absolute;left:0;top:0;width:' + W + 'px;background:' + (full ? '#1f1f1f' : 'rgba(31,31,31,.95)') +
+        ';border:1px solid ' + (full ? '#ec3013' : '#3a3a3a') + ';padding:' + (full ? '13px 15px 14px' : '10px 11px 11px') +
+        ';font-family:Archivo,sans-serif;color:#e6e3e1;box-shadow:0 10px 26px rgba(0,0,0,.55);transition:opacity .16s;pointer-events:' + (full ? 'auto' : 'none'));
+      const head = el('div', 'display:flex;align-items:baseline;gap:8px;font:700 9px/1 Archivo,sans-serif;letter-spacing:.18em;text-transform:uppercase');
+      head.append(el('span', 'color:#ec3013', kind), el('span', 'color:#8a8683', n.date));
+      box.append(head, el('div', 'margin-top:7px;font:700 ' + (full ? '15px/1.32' : '12.5px/1.35') + ' Archivo,sans-serif;letter-spacing:-.01em;text-wrap:pretty', n.title));
+      const ans = el('div', 'margin-top:' + (full ? '10px' : '7px') + ';padding-top:' + (full ? '10px' : '7px') + ';border-top:1px solid #3a3a3a');
+      ans.append(
+        el('div', 'font:700 8.5px/1 Archivo,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#ec3013;margin-bottom:5px', 'Answer First'),
+        el('div', 'font:400 ' + (full ? '12px/1.55' : '11px/1.5') + ' Archivo,sans-serif;color:#b9b6b4;text-wrap:pretty' +
+          (full ? '' : ';display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden'), n.answer)
+      );
+      box.appendChild(ans);
+      if (full) {
+        const chips = el('div', 'margin-top:11px;display:flex;flex-wrap:wrap;gap:5px');
+        (n.topics || []).forEach(k => chips.appendChild(el('span', 'font:600 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:#d9d7d5;border:1px solid #3f3f3f;padding:4px 7px', k)));
+        const acts = el('div', 'margin-top:12px;display:flex;gap:8px');
+        const jump = el('button', 'flex:1;background:#ec3013;color:#f3f2f2;border:none;padding:9px 11px;font:700 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;text-align:left', '요약으로 이동');
+        jump.addEventListener('click', () => this.dispatchEvent(new CustomEvent('issuejump', { bubbles: true, detail: { key: n.key, category: n.category } })));
+        const close = el('button', 'background:none;color:#8a8683;border:1px solid #3f3f3f;padding:9px 11px;font:700 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer', '닫기');
+        close.addEventListener('click', () => this.pin(null));
+        acts.append(jump, close);
+        box.append(chips, acts);
+      }
+      return box;
+    }
+
+    syncCards() {
+      const want = this.cardTargets();
+      let sig = (this.w > 720 ? 'w|' : 'n|');
+      want.forEach((v, k) => { sig += k + ':' + v.mode + '|'; });
+      if (sig !== this._cardSig) {
+        this._cardSig = sig;
+        this.cardMap.forEach((c, k) => { if (!want.has(k) || want.get(k).mode !== c.mode) { c.el.remove(); this.cardMap.delete(k); } });
+        want.forEach((v, k) => {
+          if (this.cardMap.has(k)) return;
+          const node = this.buildCard(v.node, v.mode);
+          this.cardLayer.appendChild(node);
+          this.cardMap.set(k, { el: node, node: v.node, mode: v.mode, w: node.offsetWidth, h: node.offsetHeight });
+        });
+      }
+      if (!this.cardMap.size) return;
+
+      /* cards live in left and right gutters — never over the node cloud.
+         each card stacks near its node's height, then a leader line ties the two. */
+      const bottomOf = e => (e && e.style.display !== 'none' && e.offsetWidth) ? e.offsetTop + e.offsetHeight : 0;
+      const topOf = e => (e && e.style.display !== 'none' && e.offsetWidth) ? e.offsetTop : this.h;
+      const bounds = {
+        L: [Math.max(10, Math.max(bottomOf(this.toolbar), bottomOf(this.hint)) + 12), Math.min(this.h - 10, topOf(this.legend) - 12)],
+        R: [Math.max(10, bottomOf(this.panelEl) + 12), this.h - 10]
+      };
+      const L = [], R = [];
+      const wideCols = this.w > 720;
+      this.cardMap.forEach(c => {
+        const [x, y] = this.toScreen(c.node);
+        c.nx = x; c.ny = y;
+        (wideCols && x < this.w / 2 ? L : R).push(c);
+      });
+      const GAP = 6;
+      const sum = list => list.reduce((t, c) => t + c.h, 0) + Math.max(0, list.length - 1) * GAP;
+      /* spill the most central card to the emptier side when one column can't hold its stack */
+      const balance = (from, to, fb, tb) => {
+        let guard = 0;
+        while (from.length > 1 && sum(from) > (fb[1] - fb[0]) && sum(to) + 8 < (tb[1] - tb[0]) && guard++ < 8) {
+          from.sort((a, b) => Math.abs(a.nx - this.w / 2) - Math.abs(b.nx - this.w / 2));
+          to.push(from.shift());
+        }
+      };
+      balance(L, R, bounds.L, bounds.R);
+      if (wideCols) balance(R, L, bounds.R, bounds.L);
+
+      const pack = (list, side) => {
+        const [top, bot] = bounds[side];
+        list.sort((a, b) => a.ny - b.ny);
+        let cur = top;
+        list.forEach(c => {
+          c.tx = side === 'L' ? 10 : this.w - c.w - 10;
+          c.ty = Math.max(cur, c.ny - c.h / 2);   /* unclamped — the cursor must win */
+          cur = c.ty + c.h + GAP;
+          c.side = side;
+        });
+        /* only now pull the stack up off the bottom edge, keeping the gaps */
+        if (cur - GAP > bot) {
+          let back = bot;
+          for (let i = list.length - 1; i >= 0; i--) { const c = list[i]; c.ty = Math.min(c.ty, back - c.h); back = c.ty - GAP; }
+          if (list.length && list[0].ty < top) { const d = top - list[0].ty; list.forEach(c => { c.ty += d; }); }
+        }
+      };
+      pack(L, 'L'); pack(R, 'R');
+
+      this.cardMap.forEach(c => {
+        const jump = c.px == null || c._side !== c.side;
+        c._side = c.side;
+        c.px = jump ? c.tx : c.px + (c.tx - c.px) * 0.35;
+        c.py = jump ? c.ty : c.py + (c.ty - c.py) * 0.35;
+        c.el.style.transform = 'translate(' + Math.round(c.px) + 'px,' + Math.round(c.py) + 'px)';
+        /* hovering a node fades every card that isn't part of its cluster */
+        const dim = this._dimNb && !this._dimNb.has(c.node.key);
+        c.alpha = dim ? 0.16 : 1;
+        if (c._alpha !== c.alpha) { c._alpha = c.alpha; c.el.style.opacity = c.alpha; }
+      });
+    }
+
+    drawLeaders(c) {
+      if (!this.cardMap.size) return;
+      this.cardMap.forEach(k => {
+        if (k.px == null) return;
+        const [x, y] = this.toScreen(k.node);
+        const right = k.px > x;
+        const ex = right ? k.px : k.px + k.w;
+        const ey = Math.max(k.py + 10, Math.min(k.py + k.h - 10, y));
+        const bend = ex + (right ? -18 : 18);
+        c.globalAlpha = k.alpha == null ? 1 : k.alpha;
+        c.setLineDash([2, 4]);
+        c.strokeStyle = k.mode === 'full' ? '#ec3013' : '#5f5c5a';
+        c.lineWidth = 1;
+        c.beginPath();
+        c.moveTo(x, y); c.lineTo(bend, y); c.lineTo(ex, ey);
+        c.stroke();
+        c.setLineDash([]);
+      });
+      c.globalAlpha = 1;
+    }
+
+    pin(n) {
+      this.pinned = n;
+      this.tip.style.display = 'none';
+      this._cardSig = null;
+      if (n && this.hint) this.hint.style.display = 'none';
+      this._fitUntil = performance.now() + 1400;
+    }
+
+    setSummaries(on) {
+      this.s.summaries = on;
+      if (!on) this.pinned = null;
+      this._cardSig = null;
+      this.cardMap.forEach(c => c.el.remove());
+      this.cardMap.clear();
+      this.syncToolbar();
+      this._fitUntil = performance.now() + 1400;
+      this.savePrefs();
+    }
+
+    buildToolbar() {
+      this.toolbar = el('div', 'position:absolute;left:14px;top:14px;z-index:8;display:flex;background:rgba(26,26,26,.96);border:1px solid #3a3a3a');
+      this._tbBtns = [['on', '관계 요약'], ['off', '그래프만']].map(([v, label]) => {
+        const b = el('button', 'background:none;color:#8a8683;border:none;padding:10px 13px;font:700 10px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;text-align:left', label);
+        b.addEventListener('click', () => this.setSummaries(v === 'on'));
+        this.toolbar.appendChild(b);
+        return [v, b];
+      });
+      this.appendChild(this.toolbar);
+      this.hint = el('div', 'position:absolute;left:14px;top:52px;z-index:8;font:600 10px/1.4 Archivo,sans-serif;letter-spacing:.08em;color:#8a8683;max-width:220px', '노드를 클릭하면 연결된 이슈의 핵심이 함께 펼쳐집니다');
+      this.appendChild(this.hint);
+      this.syncToolbar();
+    }
+    syncToolbar() {
+      const on = this.s.summaries;
+      this._tbBtns.forEach(([v, b]) => {
+        const act = (v === 'on') === on;
+        b.style.background = act ? '#ec3013' : 'none';
+        b.style.color = act ? '#f3f2f2' : '#8a8683';
+      });
+      this.hint.style.display = on ? 'block' : 'none';
     }
 
     /* ---------- interaction ---------- */
@@ -367,14 +575,16 @@
         const n = this.pick(mx, my);
         this.hover = n;
         cv.style.cursor = n ? 'pointer' : 'grab';
-        if (n) this.showTip(n, mx, my); else this.tip.style.display = 'none';
+        if (n && !this.cardMap.has(n.key)) this.showTip(n, mx, my); else this.tip.style.display = 'none';
       });
       cv.addEventListener('pointerup', () => {
         if (this.drag && this._moved < 3) {
           const n = this.drag.node;
-          if (n.kind !== 'hub') this.dispatchEvent(new CustomEvent('issuejump', { bubbles: true, detail: { key: n.key, category: n.category } }));
-          else this.dispatchEvent(new CustomEvent('issuecategory', { bubbles: true, detail: n.category }));
+          if (n.kind === 'hub') this.dispatchEvent(new CustomEvent('issuecategory', { bubbles: true, detail: n.category }));
+          else if (this.s.summaries) this.pin(this.pinned === n ? null : n);
+          else this.dispatchEvent(new CustomEvent('issuejump', { bubbles: true, detail: { key: n.key, category: n.category } }));
         }
+        if (this.panning && this._moved < 3 && this.pinned) this.pin(null);
         this.drag = null; this.panning = null; cv.style.cursor = 'grab';
       });
       cv.addEventListener('pointercancel', () => { this.drag = null; this.panning = null; });
@@ -395,6 +605,7 @@
         caret.textContent = open ? '+' : '−';
       });
       wrap.append(head, body);
+      this.panelEl = wrap;
       this.appendChild(wrap);
 
       const section = (name) => {
@@ -449,6 +660,7 @@
       radio(g, 'group', [['level', '핵심 수준별'], ['category', '카테고리별'], ['age', '기간별']], () => this.s.group, v => { this.s.group = v; });
 
       const d = section('표시 · Display');
+      check(d, '핵심 요약 카드', () => this.s.summaries, v => this.setSummaries(v));
       range(d, '제목 표시 배율', 'textZoom', 0.4, 3, 0.1, v => '×' + v.toFixed(1));
       range(d, '노드 크기', 'nodeSize', 0.5, 2, 0.1, v => '×' + v.toFixed(1));
 
