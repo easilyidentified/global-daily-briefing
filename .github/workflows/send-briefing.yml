@@ -37,7 +37,10 @@ jobs:
           BRIEFING_TO:        ${{ vars.BRIEFING_TO }}
           BRIEFING_FROM_NAME: ${{ vars.BRIEFING_FROM_NAME }}
           BRIEFING_COUNTRY:   KR
-          # force=true면 빈 값이 되어 신선도 검사가 통째로 비활성화된다.
-          # 스케줄 실행에는 inputs가 없으므로 항상 검사가 걸린다 — 오발송 방지는 그대로다.
-          EXPECT_DATE:        ${{ inputs.force && '' || steps.kst.outputs.date }}
+          EXPECT_DATE:        ${{ steps.kst.outputs.date }}
+          # 수동 실행에서만 켤 수 있는 테스트 스위치. 스케줄 실행에는 inputs가 없어
+          # 빈 값이 들어가므로 오발송 방지 검사는 그대로 살아 있다.
+          # (GitHub 표현식으로 EXPECT_DATE를 비우려 하면 안 된다 —
+          #  `cond && '' || x`는 빈 문자열이 falsy라 항상 x로 떨어진다.)
+          FORCE_SEND:         ${{ inputs.force }}
         run: python3 scripts/send_briefing.py

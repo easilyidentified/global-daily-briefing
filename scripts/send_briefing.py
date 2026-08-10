@@ -278,6 +278,11 @@ def main():
 
     ld = data["COUNTRIES"][country]["latestDate"]
     expect = os.environ.get("EXPECT_DATE", "").strip()
+    # 수동 실행에서만 켜는 테스트 스위치. 스케줄 실행에서는 항상 꺼져 있다.
+    force = os.environ.get("FORCE_SEND", "").strip().lower() in ("1", "true", "yes")
+    if force and expect and ld != expect:
+        print(f"[force] latestDate({ld}) != 오늘({expect}) 이지만 FORCE_SEND로 검사를 건너뜁니다.")
+        expect = ""
     if expect and ld != expect:
         # 오늘 수집이 실패/미반영이면 어제치를 보내지 않고 건너뛴다(오발송 방지).
         print(f"[skip] latestDate({ld}) != 오늘({expect}) — 수집 미반영으로 판단, 발송하지 않습니다.")
