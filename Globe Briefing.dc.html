@@ -34,6 +34,20 @@
     .sec-head{flex-wrap:wrap!important;gap:6px 12px!important}
     .sec-head h2{font-size:13px!important;letter-spacing:.1em!important}
 
+    /* '오늘의 주요 이슈' 표 — 3열을 카드 한 장으로 접는다.
+       분야 태그가 맨 위, 그 아래 Why, 그 아래 So What 순.
+       헤더 행을 숨기는 대신 각 칸이 data-label을 제 라벨로 띄운다. */
+    .issue-table thead{display:none!important}
+    .issue-table tr{display:block!important;padding:18px 0 20px!important;border-bottom:1px solid #dedcda!important}
+    .issue-table td{display:block!important;width:auto!important;padding:0!important;border:none!important}
+    .issue-table td[data-label]::before{content:attr(data-label);display:block;
+      font:700 10px/1.4 Archivo,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6b6866;margin-bottom:6px}
+    .issue-table .c-why{margin-top:13px!important}
+    .issue-table .c-sowhat{margin-top:15px!important;padding-left:12px!important;border-left:2px solid #ec3013!important}
+
+    /* 지구본 상단 바 — 날짜 박스를 걷어낸 뒤 남은 제목만 접히게 */
+    .globe-top{padding:16px 18px!important;gap:12px!important}
+
     /* 탭 바 — 정치/경제/기타 3개가 가로로 넘쳐 페이지 전체에
        가로 스크롤을 만들던 지점. 전체 폭을 3등분해 채운다. */
     .stream-bar{gap:0!important}
@@ -73,30 +87,16 @@
 <div style="font-family:Archivo,ui-sans-serif,system-ui,sans-serif;color:#201e1d;background:#f3f2f2">
 
   <section data-screen-label="Globe" style="position:relative;height:100svh;min-height:420px;background:radial-gradient(120% 90% at 18% 12%, #12161d 0%, #07080a 62%);overflow:hidden">
-    <globe-stage ref="{{ globeRef }}" selected="{{ code }}" region="{{ region }}" accent="{{ accent }}" autorotate="{{ autorotate }}" showlinks="{{ showlinks }}" style="position:absolute;inset:0"></globe-stage>
+    <globe-stage ref="{{ globeRef }}" selected="{{ code }}" accent="{{ accent }}" autorotate="{{ autorotate }}" showlinks="{{ showlinks }}" style="position:absolute;inset:0"></globe-stage>
 
     <div style="position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 220px 60px rgba(0,0,0,.65)"></div>
 
-    <div style="position:absolute;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 32px;border-bottom:1px solid rgba(243,242,242,.14);pointer-events:none">
-      <div style="display:flex;align-items:baseline;gap:14px;pointer-events:auto">
+    <div class="globe-top" style="position:absolute;top:0;left:0;right:0;display:flex;align-items:center;gap:24px;padding:22px 32px;border-bottom:1px solid rgba(243,242,242,.14);pointer-events:none">
+      <div style="display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;pointer-events:auto">
         <div style="width:10px;height:10px;background:#ec3013"></div>
         <div style="font-size:15px;font-weight:800;letter-spacing:.14em;color:#f3f2f2;text-transform:uppercase">Global Daily News Briefing</div>
         <div style="font-size:11px;font-weight:500;letter-spacing:.18em;color:rgba(243,242,242,.5);text-transform:uppercase">08:00 KST Daily</div>
       </div>
-      <div style="display:flex;align-items:center;gap:10px;pointer-events:auto">
-        <span style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(243,242,242,.5)">Date</span>
-        <select value="{{ date }}" onChange="{{ onDate }}" style="background:transparent;color:#f3f2f2;border:1px solid rgba(243,242,242,.3);padding:7px 10px;font:600 12px/1 Archivo,sans-serif;letter-spacing:.06em;outline:none;cursor:pointer">
-          <sc-for list="{{ dates }}" as="d" hint-placeholder-count="3">
-            <option value="{{ d }}" style="color:#201e1d">{{ d }}</option>
-          </sc-for>
-        </select>
-      </div>
-    </div>
-
-    <div style="position:absolute;left:32px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:0;border-left:2px solid rgba(243,242,242,.18);z-index:4">
-      <sc-for list="{{ regions }}" as="r" hint-placeholder-count="7">
-        <button onClick="{{ r.onClick }}" style="text-align:left;background:{{ r.bg }};color:{{ r.fg }};border:none;border-bottom:1px solid rgba(243,242,242,.10);padding:9px 18px 9px 14px;font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;min-width:150px">{{ r.label }}</button>
-      </sc-for>
     </div>
 
     <div data-cue="1" style="position:absolute;left:50%;bottom:96px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;color:rgba(243,242,242,.7);font-size:11px;letter-spacing:.2em;text-transform:uppercase;pointer-events:none;animation:cue 2.6s ease-in-out infinite">
@@ -197,7 +197,7 @@
         <span style="font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">Why &amp; So What</span>
       </div>
 
-      <table style="width:100%;border-collapse:collapse;margin-top:0">
+      <table class="issue-table" style="width:100%;border-collapse:collapse;margin-top:0">
         <thead>
           <tr>
             <th style="text-align:left;padding:14px 16px 14px 0;width:120px;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;border-bottom:1px solid #cfcdcb">분야</th>
@@ -208,9 +208,9 @@
         <tbody>
           <sc-for list="{{ rows }}" as="r" hint-placeholder-count="6">
             <tr onClick="{{ r.onClick }}" style="cursor:pointer" style-hover="background:#e6e4e2">
-              <td style="padding:18px 16px 18px 0;border-bottom:1px solid #dedcda;vertical-align:top"><span style="display:inline-block;padding:3px 9px;font-size:11px;font-weight:700;letter-spacing:.06em;background:{{ r.tagBg }};color:{{ r.tagFg }}">{{ r.tag }}</span></td>
-              <td style="padding:18px 24px 18px 0;border-bottom:1px solid #dedcda;font-size:14px;line-height:1.55;vertical-align:top;text-wrap:pretty">{{ r.why }}</td>
-              <td style="padding:18px 0 18px 0;border-bottom:1px solid #dedcda;font-size:14px;line-height:1.55;vertical-align:top;text-wrap:pretty">{{ r.soWhat }}</td>
+              <td class="c-tag" style="padding:18px 16px 18px 0;border-bottom:1px solid #dedcda;vertical-align:top"><span style="display:inline-block;padding:3px 9px;font-size:11px;font-weight:700;letter-spacing:.06em;background:{{ r.tagBg }};color:{{ r.tagFg }}">{{ r.tag }}</span></td>
+              <td class="c-why" data-label="Why · 배경 원인" style="padding:18px 24px 18px 0;border-bottom:1px solid #dedcda;font-size:14px;line-height:1.55;vertical-align:top;text-wrap:pretty">{{ r.why }}</td>
+              <td class="c-sowhat" data-label="So What · 향후 영향" style="padding:18px 0 18px 0;border-bottom:1px solid #dedcda;font-size:14px;line-height:1.55;vertical-align:top;text-wrap:pretty">{{ r.soWhat }}</td>
             </tr>
           </sc-for>
         </tbody>
@@ -320,7 +320,7 @@
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#ec3013&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#ec3013&quot;,&quot;#A50034&quot;,&quot;#1f6feb&quot;,&quot;#e8b400&quot;]},&quot;autoRotate&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;showLinks&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
 class Component extends DCLogic {
-  state = { code: 'KR', region: 'All', date: '2026.08.09', data: null, cat: 'politics', order: 'desc', focus: null, extra: {}, generating: false, notice: null };
+  state = { code: 'KR', data: null, cat: 'politics', order: 'desc', focus: null, extra: {}, generating: false, notice: null };
   globeRef = React.createRef();
 
   componentDidMount() {
@@ -444,9 +444,15 @@ class Component extends DCLogic {
     };
   }
 
+  /* 데이터에 실제로 들어 있는 가장 최근 브리핑 날짜.
+     날짜 선택 박스를 없애면서 하드코딩된 날짜 목록도 함께 걷어냈다. */
+  latestDate(d) {
+    const ds = Object.values(d?.COUNTRIES || {}).map(c => c.latestDate).filter(Boolean).sort();
+    return ds.length ? ds[ds.length - 1] : '';
+  }
+
   renderVals() {
     const d = this.state.data;
-    const regionDefs = [['All', '전체'], ['Asia', '아시아'], ['North America', '북미'], ['Europe', '유럽'], ['Middle East', '중동'], ['South America', '남미'], ['Oceania', '오세아니아']];
     const accent = this.props.accent ?? '#ec3013';
     const base = {
       globeRef: this.globeRef,
@@ -454,10 +460,7 @@ class Component extends DCLogic {
       autorotate: String(this.props.autoRotate ?? true),
       showlinks: String(this.props.showLinks ?? true),
       code: this.state.code,
-      region: this.state.region,
-      date: this.state.date,
-      dates: ['2026.08.09', '2026.08.08', '2026.08.07'],
-      onDate: e => this.setState({ date: e.target.value }),
+      date: this.latestDate(d),
       cueLabel: '국가를 선택하면 브리핑으로 이동',
       ...this.flashVals(),
       topOpacity: this.state.past ? '1' : '0',
@@ -468,11 +471,7 @@ class Component extends DCLogic {
         if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 24, behavior: 'smooth' });
       },
       countryName: '', countryNameEn: '', period: '', issueCount: '', updatedLabel: '',
-      flagBg: this.flagBg(this.state.code),
-      regions: regionDefs.map(([id, label]) => {
-        const on = this.state.region === id;
-        return { id, label, bg: on ? accent : 'rgba(7,8,10,.45)', fg: on ? '#f3f2f2' : 'rgba(243,242,242,.72)', onClick: () => this.setState({ region: id }) };
-      })
+      flagBg: this.flagBg(this.state.code)
     };
     if (!d) return base;
 
@@ -483,7 +482,7 @@ class Component extends DCLogic {
     const seen = {};
     const cat = this.state.cat;
     const relTag = { '유사': ['#dedcda', '#201e1d'], '반박': ['#ec3013', '#f3f2f2'], '다름': ['#201e1d', '#f3f2f2'] };
-    const anchor = b ? b.latestDate : this.state.date;
+    const anchor = b ? b.latestDate : this.latestDate(d);
     const gap = ds => Math.round((Date.parse(anchor.replace(/\./g, '-')) - Date.parse(ds.replace(/\./g, '-'))) / 86400000);
     const pool = !b ? [] : b.issues.map(n => ({
       key: n.id, category: n.category, date: n.date, isToday: n.date === anchor,
@@ -503,15 +502,15 @@ class Component extends DCLogic {
 
     return {
       ...base,
+      date: anchor,
       chips: all.map(c => {
         const on = c.code === this.state.code;
-        const dim = this.state.region !== 'All' && c.region !== this.state.region;
         return {
           code: c.code, name: c.name,
           bg: on ? accent : 'transparent',
           fg: on ? '#f3f2f2' : 'rgba(243,242,242,.85)',
           codeColor: on ? 'rgba(243,242,242,.75)' : 'rgba(243,242,242,.45)',
-          opacity: dim ? '0.3' : '1',
+          opacity: '1',
           onClick: () => this.select(c.code)
         };
       }),
@@ -526,7 +525,7 @@ class Component extends DCLogic {
       generateLabel: this.state.generating ? 'AI 뉴스 수집·요약 중…' : 'AI 실시간 브리핑 생성',
       onGenerate: () => this.generate(this.state.code),
       emptyTitle: `${geo.name} 브리핑 준비 중`,
-      emptyBody: `${geo.name}(${geo.nameEn})의 ${this.state.date} 브리핑은 아직 수집되지 않았습니다. AI 실시간 수집을 실행하면 정치·경제·기타 6대 이슈가 이 자리에 채워집니다.`,
+      emptyBody: `${geo.name}(${geo.nameEn})의 브리핑은 아직 수집되지 않았습니다. AI 실시간 수집을 실행하면 정치·경제·기타 6대 이슈가 이 자리에 채워집니다.`,
       notice: this.state.notice,
       hasNotice: !!this.state.notice,
       rows: today.map((n, i) => {
