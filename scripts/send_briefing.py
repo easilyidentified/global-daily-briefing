@@ -16,17 +16,29 @@ data/issues.json에서 '오늘'(date == latestDate) 기사를 읽어
 
 의존성 없음: 표준 라이브러리(smtplib, email)만 사용.
 """
-import json, os, sys, html, smtplib, ssl
+import json, os, sys, html, base64, smtplib, ssl
 from email.mime.text import MIMEText
+from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 from email.utils import formataddr
 
-ACCENT = "#a50034"
-INK    = "#111827"
-SUB    = "#4b5563"
-LINE   = "#e5e7eb"
-BG     = "#f4f5f7"
+SITE_URL = "https://easilyidentified.github.io/global-daily-briefing/"
+BANNER_PATH = os.path.join(os.path.dirname(__file__), "..", "assets", "email_banner.png")
+BANNER_CID = "briefing-banner"
+BANNER_ALT = "세계의 이슈로 온톨로지를 구축합니다 · 글로벌 데일리 브리핑"
+
+# ── 다크(야간모드) 팔레트 ─────────────────────────────
+ACCENT     = "#ff5c77"   # 밝은 크림슨 (다크 배경용)
+INK        = "#e9edf4"   # 제목·본문 밝은 텍스트
+SUB        = "#969fb0"   # 보조 텍스트
+LINE       = "#2a3142"   # 얇은 구분선
+BG         = "#05070d"   # 페이지 바깥 배경(우주 블랙)
+CARD       = "#141824"   # 컨테이너 카드 배경
+SUMMARY_BG = "#241019"   # 핵심요약 박스(다크 크림슨 틴트)
+SOFT_BG    = "#1b2030"   # 함께읽기·푸터 블록
+CHIP_BG    = "#eef1f6"   # 카테고리 뱃지 배경(밝은 칩)
+CHIP_TX    = "#14171f"   # 뱃지 텍스트
 CATLABEL = {"politics": "정치", "economy": "경제", "other": "기타"}
 ORDER    = {"politics": 0, "economy": 1, "other": 2}
 
@@ -45,7 +57,7 @@ def _today_issues(country):
     return ld, groups
 
 
-def render_html(country_code, data):
+def render_html(country_code, data, banner_src=None):
     c = data["COUNTRIES"][country_code]
     ld, groups = _today_issues(c)
     cname  = c.get("countryName", country_code)
@@ -58,7 +70,7 @@ def render_html(country_code, data):
             tag = f"{CATLABEL[cat]} {n}"
             map_rows.append(f'''
       <tr><td style="padding:14px 0;border-bottom:1px solid {LINE};">
-        <span style="display:inline-block;background:{INK};color:#ffffff;font-size:12px;font-weight:700;padding:3px 9px;border-radius:4px;">{esc(tag)}</span>
+        <span style="display:inline-block;background:{CHIP_BG};color:{CHIP_TX};font-size:12px;font-weight:700;padding:3px 9px;border-radius:4px;">{esc(tag)}</span>
         <div style="margin-top:9px;font-size:15px;line-height:1.55;color:{SUB};"><span style="color:{ACCENT};font-weight:700;">Why</span>&nbsp; {esc(iss.get("why",""))}</div>
         <div style="margin-top:5px;font-size:15px;line-height:1.55;color:{INK};font-weight:600;"><span style="color:{ACCENT};font-weight:700;">So What</span>&nbsp; {esc(iss.get("soWhat",""))}</div>
       </td></tr>''')
@@ -85,15 +97,15 @@ def render_html(country_code, data):
         rel_html = ""
         if related.get("title"):
             rel_html = f'''
-        <div style="margin-top:12px;padding:10px 12px;background:#f9fafb;border-radius:6px;font-size:13px;line-height:1.5;color:{SUB};">
+        <div style="margin-top:12px;padding:10px 12px;background:{SOFT_BG};border-radius:6px;font-size:13px;line-height:1.5;color:{SUB};">
           <span style="font-weight:700;color:{INK};">함께 읽기</span> ·
           <a href="{esc(related.get("url",""))}" style="color:{SUB};text-decoration:underline;">{esc(related.get("title",""))}</a>
-          <span style="color:#9ca3af;">({esc(related.get("source",""))}·{esc(related.get("type",""))})</span>
+          <span style="color:{SUB};">({esc(related.get("source",""))}·{esc(related.get("type",""))})</span>
         </div>'''
         return f'''
       <tr><td style="padding:22px 0 4px 0;">
         <div style="font-size:16px;font-weight:700;line-height:1.45;color:{INK};margin-bottom:11px;">{n}. {esc(iss.get("title",""))}</div>
-        <div style="background:#fdf2f4;border-left:4px solid {ACCENT};border-radius:5px;padding:12px 14px;font-size:15px;line-height:1.6;font-weight:700;color:{INK};margin-bottom:14px;">{esc(iss.get("summary",""))}</div>
+        <div style="background:{SUMMARY_BG};border-left:4px solid {ACCENT};border-radius:5px;padding:12px 14px;font-size:15px;line-height:1.6;font-weight:700;color:{INK};margin-bottom:14px;">{esc(iss.get("summary",""))}</div>
         {"".join(rows)}
         <div style="margin-top:10px;font-size:13px;color:{SUB};">출처 · {src_html}</div>{rel_html}
       </td></tr>
@@ -110,12 +122,20 @@ def render_html(country_code, data):
     body_sections = "".join(sections)
     preheader = f"{cname} 데일리 뉴스 브리핑 · {ld}"
 
+    banner = ""
+    if banner_src:
+        banner = f'''<tr><td style="padding:20px 20px 4px 20px;">
+        <a href="{SITE_URL}" style="display:block;text-decoration:none;border:0;">
+          <img src="{banner_src}" width="560" alt="{esc(BANNER_ALT)}" style="width:100%;max-width:560px;height:auto;display:block;border:0;outline:none;text-decoration:none;">
+        </a>
+      </td></tr>'''
+
     html_doc = f'''<!DOCTYPE html>
 <html lang="ko"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="color-scheme" content="light only">
-<meta name="supported-color-schemes" content="light">
+<meta name="color-scheme" content="dark">
+<meta name="supported-color-schemes" content="dark">
 <title>{esc(preheader)}</title>
 <style>
   body{{margin:0;padding:0;background:{BG};}}
@@ -129,7 +149,8 @@ def render_html(country_code, data):
 <div style="display:none;max-height:0;overflow:hidden;opacity:0;">{esc(preheader)}</div>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{BG};">
   <tr><td align="center" style="padding:20px 10px;">
-    <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:600px;background:#ffffff;border-radius:10px;overflow:hidden;font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','맑은 고딕',Roboto,'Helvetica Neue',Arial,sans-serif;">
+    <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:600px;background:{CARD};border-radius:10px;overflow:hidden;font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','맑은 고딕',Roboto,'Helvetica Neue',Arial,sans-serif;">
+      {banner}
       <tr><td class="pad" style="padding:26px 32px 18px 32px;border-bottom:2px solid {INK};">
         <div style="font-size:22px;font-weight:800;color:{INK};letter-spacing:-0.5px;">DAILY NEWS SUMMARY BRIEFING</div>
         <div style="margin-top:7px;font-size:13px;color:{SUB};line-height:1.5;"><span style="font-weight:700;color:{INK};">{esc(cname)}</span> &nbsp;·&nbsp; 기간 {esc(period)}</div>
@@ -141,7 +162,7 @@ def render_html(country_code, data):
           {body_sections}
         </table>
       </td></tr>
-      <tr><td class="pad" style="padding:22px 32px 30px 32px;background:#fafafa;border-top:1px solid {LINE};">
+      <tr><td class="pad" style="padding:22px 32px 30px 32px;background:{SOFT_BG};border-top:1px solid {LINE};">
         <div style="font-size:12px;color:#9ca3af;line-height:1.6;">자동 생성 · {esc(ld)} 08:00 KST 브리핑 · Global Daily Briefing<br>데이터 출처: easilyidentified/global-daily-briefing</div>
       </td></tr>
     </table>
@@ -149,7 +170,8 @@ def render_html(country_code, data):
 </table></body></html>'''
 
     # 플레인텍스트 대체본 (스팸 점수↓, 접근성↑)
-    lines = [f"DAILY NEWS SUMMARY BRIEFING — {cname} · {period}", ""]
+    lines = [f"세계의 이슈로 온톨로지를 구축합니다 · {SITE_URL}", "",
+             f"DAILY NEWS SUMMARY BRIEFING — {cname} · {period}", ""]
     lines.append("[주요 이슈 요약]")
     for cat in ("politics", "economy", "other"):
         for n, iss in enumerate(groups[cat], 1):
@@ -174,15 +196,28 @@ def render_html(country_code, data):
     return subject, html_doc, text_doc
 
 
-def send_via_gmail(user, app_password, from_name, recipients, subject, html_doc, text_doc):
+def send_via_gmail(user, app_password, from_name, recipients, subject, html_doc, text_doc, inline_image=None):
     # 앱 비밀번호는 표시상 공백이 들어가므로 제거
     app_password = app_password.replace(" ", "")
-    msg = MIMEMultipart("alternative")
+    alt = MIMEMultipart("alternative")
+    alt.attach(MIMEText(text_doc, "plain", "utf-8"))
+    alt.attach(MIMEText(html_doc, "html", "utf-8"))   # 마지막 part가 우선 표시(HTML)
+
+    if inline_image:
+        path, cid = inline_image
+        msg = MIMEMultipart("related")
+        msg.attach(alt)
+        with open(path, "rb") as f:
+            img = MIMEImage(f.read())
+        img.add_header("Content-ID", f"<{cid}>")
+        img.add_header("Content-Disposition", "inline", filename="banner.png")
+        msg.attach(img)
+    else:
+        msg = alt
+
     msg["Subject"] = str(Header(subject, "utf-8"))
     msg["From"] = formataddr((str(Header(from_name, "utf-8")), user))
     msg["To"] = ", ".join(recipients)
-    msg.attach(MIMEText(text_doc, "plain", "utf-8"))
-    msg.attach(MIMEText(html_doc, "html", "utf-8"))   # 마지막 part가 우선 표시(HTML)
     try:
         ctx = ssl.create_default_context()
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ctx, timeout=30) as s:
@@ -226,10 +261,22 @@ def main():
         print(f"[skip] latestDate({ld}) != 오늘({expect}) — 수집 미반영으로 판단, 발송하지 않습니다.")
         return 0
 
-    subject, html_doc, text_doc = render_html(country, data)
+    has_banner = os.path.exists(BANNER_PATH)
+    if not has_banner:
+        print(f"[banner] {BANNER_PATH} 없음 — 배너 없이 발송합니다.")
+
+    # 발송 시엔 인라인(cid:), 미리보기 시엔 data URI로 배너 삽입
+    if dry and has_banner:
+        with open(BANNER_PATH, "rb") as f:
+            b64 = base64.b64encode(f.read()).decode("ascii")
+        banner_src = f"data:image/png;base64,{b64}"
+    else:
+        banner_src = f"cid:{BANNER_CID}" if has_banner else None
+
+    subject, html_doc, text_doc = render_html(country, data, banner_src=banner_src)
     _, groups = _today_issues(data["COUNTRIES"][country])
     n_today = sum(len(v) for v in groups.values())
-    print(f"[render] {country} {ld}: 오늘 {n_today}건, 제목='{subject}', HTML {len(html_doc)}B")
+    print(f"[render] {country} {ld}: 오늘 {n_today}건, 배너={'있음' if has_banner else '없음'}, 제목='{subject}', HTML {len(html_doc)}B")
 
     if n_today == 0:
         print("[skip] 오늘자 기사가 없어 발송하지 않습니다.")
@@ -241,7 +288,8 @@ def main():
         print(f"[dry-run] 발송 생략, 미리보기 저장: {out}")
         return 0
 
-    return send_via_gmail(user, app_pw, from_name, recipients, subject, html_doc, text_doc)
+    inline_image = (BANNER_PATH, BANNER_CID) if has_banner else None
+    return send_via_gmail(user, app_pw, from_name, recipients, subject, html_doc, text_doc, inline_image=inline_image)
 
 
 if __name__ == "__main__":
