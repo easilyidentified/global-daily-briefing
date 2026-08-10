@@ -39,8 +39,11 @@
 | `data/flashes.json` | 속보·이벤트. **자동화 대상 아님 — 사람이 직접 관리** |
 | `data/README.md` | 데이터 스키마·필드 규칙·자주 하는 실수 (수정 전 필독) |
 | `scripts/collect-prompt.md` | AI 수집 지시서. **수집 로직은 코드가 아니라 이 마크다운에 있다** |
-| `.github/workflows/daily-briefing.yml` | 스케줄 실행 + 자동 커밋 |
+| `scripts/send_briefing.py` | 브리핑 이메일 렌더링·발송 (Gmail SMTP, 표준 라이브러리만) |
+| `.github/workflows/daily-briefing.yml` | **수집** 스케줄 실행 + 자동 커밋 |
+| `.github/workflows/send-briefing.yml` | **발송** 스케줄 실행 |
 | `flags/` | 12개국 국기 PNG |
+| `assets/email_banner.png` | 메일 상단 배너 (`cid:`로 인라인 첨부) |
 | `shots/`, `uploads/`, `_ds/` | 스크린샷·업로드 이미지·디자인 에셋 (약 2.7MB) |
 | `PIPELINE.md` | 파이프라인 설치·운영 안내 |
 | `github.md` | 최신 동기화 스냅샷 (기존 관례 파일) |
@@ -61,14 +64,22 @@
 
 ## 자동화 파이프라인
 
+**크론이 둘이다. 수집이 먼저 돌고, 그 결과를 발송이 읽는다.**
+
 ```
-매일 06:40 KST (cron "40 21 * * *" UTC)
+06:40 KST  daily-briefing.yml   (cron "40 21 * * *" UTC)
   GitHub Actions
     → anthropics/claude-code-action@v1 이 scripts/collect-prompt.md 를 읽고 실행
     → data/issues.json 갱신
     → 변경 있으면 briefing-bot 이름으로 자동 커밋 & 푸시
   이후 사람이 검수
+
+08:00 KST  send-briefing.yml    (cron "0 23 * * *" UTC)
+    → scripts/send_briefing.py 가 data/issues.json 의 '오늘'치를 HTML로 렌더
+    → Gmail SMTP로 BRIEFING_TO 수신자에게 발송
 ```
+
+### 수집 (daily-briefing.yml)
 
 - 인증: 리포 시크릿 `CLAUDE_CODE_OAUTH_TOKEN` (`claude setup-token`으로 발급). **등록 완료 상태.**
 - **별도 API 과금 없음** — 구독(Max 플랜) 쿼터로 돈다.
@@ -77,6 +88,18 @@
 - Actions는 UTC로 돈다. 날짜는 반드시 `TZ=Asia/Seoul`로 계산할 것.
 - 검증 실패 시 저장하지 않는다 — 어제 데이터가 남는 편이 잘못된 기사보다 낫다.
 - 기사 전문은 저장하지 않는다. 요약과 링크만.
+
+### 발송 (send-briefing.yml)
+
+- 시크릿 `GMAIL_USER` / `GMAIL_APP_PASSWORD`(앱 비밀번호 16자리),
+  변수 `BRIEFING_TO`(콤마 구분) / `BRIEFING_FROM_NAME`. **모두 등록 완료 상태.**
+- **오발송 방지**: 워크플로가 넘긴 `EXPECT_DATE`(KST 오늘)와 `latestDate`가 다르면
+  **발송하지 않고 그냥 끝낸다.** 수집이 실패한 날 어제치를 다시 보내는 사고를 막는 장치다.
+  오늘자 기사가 0건일 때도 마찬가지로 건너뛴다.
+- 로컬 미리보기: `DRY_RUN=1 python scripts/send_briefing.py` → `preview_<국가>.html` 생성.
+  **이 파일은 커밋하지 말 것** (배너가 data URI로 박혀 400KB가 넘는다).
+- 의존성 없음 — `smtplib`/`email` 등 표준 라이브러리만 쓴다.
+- 메일 본문의 `why` / `soWhat`은 `context` 안이 아니라 **이슈 최상위 필드**다.
 
 ---
 
