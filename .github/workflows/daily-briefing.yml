@@ -2,8 +2,8 @@ name: Daily Briefing
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "40 21 * * *"
+  schedule:
+    - cron: "40 21 * * *"   # UTC 21:40 = KST 06:40 (다음 날)
 
 permissions:
   contents: write
