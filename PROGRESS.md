@@ -5,7 +5,73 @@
 
 ---
 
-## 2026-08-10 — 로컬 개발 환경 연결, 파이프라인 현황 점검
+## 2026-08-10 (2) — 워크플로 재실행: 수집 성공, **푸시 인증 실패** 원인 규명 및 수정
+
+### 결론
+
+**수집 로직은 정상이었다. 문제는 마지막 `git push` 단계의 인증이었다.**
+
+### 실행 결과 — run `31361075139`
+
+| 항목 | 값 |
+| --- | --- |
+| 소요 시간 | **24분** (06:11:55Z → 06:36:10Z) |
+| Claude 실행 | `is_error: false`, `num_turns: 88`, `total_cost_usd: **$9.14**` |
+| 데이터 변경 | ✅ `data/issues.json` **897 insertions, 12 deletions** |
+| 로컬 커밋 | ✅ `bb24423 브리핑 2026.08.10` |
+| 푸시 | ❌ `remote: Invalid username or token` → exit 128 |
+| 최종 결론 | **failure** — 러너가 폐기되며 수집한 데이터도 함께 사라졌다 |
+
+> 12 deletions는 4개국 × (`latestDate`/`period`/`updatedAt`) = 12줄 교체와 정확히 일치한다.
+> 지시서대로 동작했다는 뜻이다.
+
+### 원인
+
+로그 타임라인이 원인을 그대로 보여준다.
+
+```
+06:12:00  actions/checkout@v4 이 http.https://github.com/.extraheader 에 GITHUB_TOKEN 심음
+06:12:06  claude-code-action: "Using GITHUB_TOKEN from OIDC" — 자체 앱 토큰을 OIDC로 발급
+06:36:06.9  claude-code-action: "Revoke app token" — 스텝 종료하며 그 앱 토큰을 폐기
+06:36:07.3  Commit result 스텝의 git push → 폐기된 토큰을 사용 → 401
+```
+
+즉 `claude-code-action`이 자신의 앱 토큰을 git 자격증명에 심어두고 스텝이 끝날 때 폐기하는데,
+그 다음 스텝의 `git push`가 그 폐기된 자격증명을 그대로 집어 든다.
+**워크플로 자체의 `GITHUB_TOKEN`은 멀쩡했지만 쓰이지 않았다.**
+
+### 적용한 수정 — `.github/workflows/daily-briefing.yml`
+
+1. `Commit result` 스텝에 `env: GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}` 추가
+2. 푸시 직전에 오염된 자격증명을 제거하고 워크플로 토큰으로 명시적으로 푸시
+
+```bash
+git config --local --unset-all http.https://github.com/.extraheader || true
+git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
+```
+
+3. 폭주 방지용 `timeout-minutes: 45` 추가 (실측 24분 기준)
+
+### 짚고 넘어갈 것 — 비용
+
+**1회 실행에 $9.14, 24분.** 매일 돌리면 월 $270 상당의 구독 쿼터를 쓴다.
+`PIPELINE.md`에는 "무료 범위"로 적혀 있으나 실측치는 그렇지 않다. cron을 켜기 전에 결정이 필요하다.
+
+줄이는 선택지:
+- 국가 수를 4개 → 2개로 (`scripts/collect-prompt.md`의 '대상')
+- 국가당 6건 → 3~4건으로
+- `related` 기사 필수 조건 완화 — 기사마다 검색이 2배로 드는 주범
+- 매일 → 격일 또는 주 3회
+
+### 다음 할 일
+
+1. 수정된 워크플로로 **재실행해 푸시까지 통과하는지 확인** (다시 ~$9, ~24분 소요)
+2. 통과하면 그래프에서 새 노드가 기존 노드와 이어지는지 확인
+3. 비용 정책을 정한 뒤 cron 활성화
+
+---
+
+## 2026-08-10 (1) — 로컬 개발 환경 연결, 파이프라인 현황 점검
 
 ### 한 일
 

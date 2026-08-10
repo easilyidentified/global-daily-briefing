@@ -12,6 +12,8 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    # 2026-08-10 실측: 4개국 24건 수집에 24분 소요. 폭주 시 쿼터를 계속 태우지 않도록 상한을 둔다.
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -26,6 +28,8 @@ jobs:
           claude_args: '--allowedTools "Read,Write,Edit,WebSearch,WebFetch"'
 
       - name: Commit result
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "briefing-bot"
           git config user.email "briefing-bot@users.noreply.github.com"
@@ -34,5 +38,8 @@ jobs:
             echo "변경 없음 — 커밋하지 않습니다."
           else
             git commit -m "브리핑 $(TZ=Asia/Seoul date +%Y.%m.%d)"
-            git push
+            # claude-code-action이 자신의 앱 토큰을 git 자격증명에 심고 스텝 종료 시 폐기한다.
+            # 그대로 push하면 폐기된 토큰을 써서 401이 난다. 워크플로 GITHUB_TOKEN으로 다시 밀어준다.
+            git config --local --unset-all http.https://github.com/.extraheader || true
+            git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
           fi
