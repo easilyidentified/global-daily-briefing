@@ -128,6 +128,9 @@ def render_html(country_code, data, banner_src=None):
         <a href="{SITE_URL}" style="display:block;text-decoration:none;border:0;">
           <img src="{banner_src}" width="560" alt="{esc(BANNER_ALT)}" style="width:100%;max-width:560px;height:auto;display:block;border:0;outline:none;text-decoration:none;">
         </a>
+        <div style="text-align:center;margin-top:9px;font-size:12px;letter-spacing:0.2px;color:{SUB};">
+          <a href="{SITE_URL}" style="color:{SUB};text-decoration:none;">배너 클릭하여 사이트 접속 ↗</a>
+        </div>
       </td></tr>'''
 
     html_doc = f'''<!DOCTYPE html>
