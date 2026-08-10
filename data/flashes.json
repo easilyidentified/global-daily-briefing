@@ -1,0 +1,35 @@
+{
+  "flashes": [
+    {
+      "id": "starship-moon",
+      "kind": "space",
+      "ship": true,
+      "position": [
+        1.72,
+        0.42,
+        -0.9
+      ],
+      "label": "!",
+      "date": "2026.02.25",
+      "category": "우주",
+      "title": "머스크가 화성보다 달에 도시 만들려는 까닭",
+      "summary": "머스크가 화성 대신 달을 먼저 택했습니다. 화성은 26개월 주기를 기다려 6개월을 날아가야 하지만, 달은 10일 주기로 발사해 이틀이면 닿습니다. 스페이스X는 스타십으로 달 남극에 도시 ‘문베이스 알파’를 짓고, 그곳에 매장된 꿈의 연료 헬륨3를 확보해 화성 진출의 시험장으로 삼겠다는 구상입니다.",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/kid/kid_literacy/2026/02/25/AKXYDXM7DZFYXDJ6SXRCQSUCAA/",
+      "color": "#1f6feb"
+    },
+    {
+      "id": "kr-sidecar",
+      "kind": "country",
+      "code": "KR",
+      "label": "!",
+      "date": "2026.08.10 09:59",
+      "category": "경제",
+      "title": "코스닥 급등... 매수 사이드카 발동",
+      "summary": "코스닥 지수가 급등하며 매수 사이드카가 발동됐습니다.",
+      "source": "YTN",
+      "url": "https://www.ytn.co.kr/_cs/_ln_0102_202608100959564300_005.html",
+      "color": "#1f6feb"
+    }
+  ]
+}

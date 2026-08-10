@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="_ds/modernist-af7cf2f0-cdc0-40b3-b2fa-baaeecd71698/styles.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"}}</script>
+<script type="module" src="globe.js?v=7"></script>
+<style>
+  html,body{margin:0;padding:0;background:#07080a;}
+  *{box-sizing:border-box;}
+  a{color:#201e1d;}
+  a:hover{color:#ec3013;}
+  @keyframes cue{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(6px);opacity:1}}
+  ::selection{background:#ec3013;color:#fff;}
+</style>
+</helmet>
+<div style="font-family:Archivo,ui-sans-serif,system-ui,sans-serif;color:#201e1d;background:#f3f2f2">
+
+  <section data-screen-label="Globe" style="position:relative;height:100svh;min-height:420px;background:radial-gradient(120% 90% at 18% 12%, #12161d 0%, #07080a 62%);overflow:hidden">
+    <globe-stage ref="{{ globeRef }}" selected="{{ code }}" region="{{ region }}" accent="{{ accent }}" autorotate="{{ autorotate }}" showlinks="{{ showlinks }}" style="position:absolute;inset:0"></globe-stage>
+
+    <div style="position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 220px 60px rgba(0,0,0,.65)"></div>
+
+    <div style="position:absolute;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 32px;border-bottom:1px solid rgba(243,242,242,.14);pointer-events:none">
+      <div style="display:flex;align-items:baseline;gap:14px;pointer-events:auto">
+        <div style="width:10px;height:10px;background:#ec3013"></div>
+        <div style="font-size:15px;font-weight:800;letter-spacing:.14em;color:#f3f2f2;text-transform:uppercase">Global Daily News Briefing</div>
+        <div style="font-size:11px;font-weight:500;letter-spacing:.18em;color:rgba(243,242,242,.5);text-transform:uppercase">08:00 KST Daily</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;pointer-events:auto">
+        <span style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(243,242,242,.5)">Date</span>
+        <select value="{{ date }}" onChange="{{ onDate }}" style="background:transparent;color:#f3f2f2;border:1px solid rgba(243,242,242,.3);padding:7px 10px;font:600 12px/1 Archivo,sans-serif;letter-spacing:.06em;outline:none;cursor:pointer">
+          <sc-for list="{{ dates }}" as="d" hint-placeholder-count="3">
+            <option value="{{ d }}" style="color:#201e1d">{{ d }}</option>
+          </sc-for>
+        </select>
+      </div>
+    </div>
+
+    <div style="position:absolute;left:32px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:0;border-left:2px solid rgba(243,242,242,.18);z-index:4">
+      <sc-for list="{{ regions }}" as="r" hint-placeholder-count="7">
+        <button onClick="{{ r.onClick }}" style="text-align:left;background:{{ r.bg }};color:{{ r.fg }};border:none;border-bottom:1px solid rgba(243,242,242,.10);padding:9px 18px 9px 14px;font:600 12px/1 Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;min-width:150px">{{ r.label }}</button>
+      </sc-for>
+    </div>
+
+    <div data-cue="1" style="position:absolute;left:50%;bottom:96px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;color:rgba(243,242,242,.7);font-size:11px;letter-spacing:.2em;text-transform:uppercase;pointer-events:none;animation:cue 2.6s ease-in-out infinite">
+      <span>{{ cueLabel }}</span>
+      <svg width="14" height="20" viewBox="0 0 14 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 1v16M1.5 12L7 18l5.5-6"></path></svg>
+    </div>
+
+    <sc-if value="{{ flashOpen }}" hint-placeholder-val="{{ false }}">
+      <div style="position:absolute;right:32px;top:50%;transform:translateY(-50%);z-index:12;width:min(420px,44vw);background:rgba(12,13,16,.94);border:1px solid rgba(243,242,242,.22);border-left:3px solid {{ flashColor }};backdrop-filter:blur(10px);box-shadow:0 24px 60px rgba(0,0,0,.55)">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;border-bottom:1px solid rgba(243,242,242,.16)">
+          <div style="display:flex;align-items:center;gap:10px">
+            <span style="display:flex;align-items:center;justify-content:center;min-width:24px;height:24px;background:{{ flashColor }};color:#f3f2f2;padding:0 8px;font:800 13px/1 Archivo,sans-serif">{{ flashLabel }}</span>
+            <span style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:rgba(243,242,242,.5)">{{ flashMeta }}</span>
+          </div>
+          <button onClick="{{ onFlashClose }}" style="background:transparent;border:none;color:rgba(243,242,242,.6);font:700 16px/1 Archivo,sans-serif;cursor:pointer;padding:4px 2px" style-hover="color:#f3f2f2">✕</button>
+        </div>
+        <div style="padding:20px 18px 22px">
+          <h3 style="margin:0;font-size:21px;line-height:1.3;font-weight:800;letter-spacing:-.02em;color:#f3f2f2;text-wrap:pretty">{{ flashTitle }}</h3>
+          <div style="margin-top:16px;padding-left:14px;border-left:2px solid {{ flashColor }}">
+            <div style="font:700 9px/1 Archivo,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:{{ flashColor }};margin-bottom:7px">Answer First</div>
+            <p style="margin:0;font-size:14px;line-height:1.62;color:rgba(243,242,242,.86);text-wrap:pretty">{{ flashSummary }}</p>
+          </div>
+          <sc-if value="{{ flashHasUrl }}" hint-placeholder-val="{{ true }}">
+            <a href="{{ flashUrl }}" target="_blank" rel="noreferrer" style="margin-top:20px;display:inline-flex;align-items:center;gap:10px;background:#f3f2f2;color:#201e1d;padding:12px 16px;font:700 11px/1 Archivo,sans-serif;letter-spacing:.16em;text-transform:uppercase;text-decoration:none" style-hover="background:#1f6feb;color:#f3f2f2">
+              <span>{{ flashSource }} 원문 보기</span>
+            </a>
+          </sc-if>
+        </div>
+      </div>
+    </sc-if>
+
+    <div style="position:absolute;left:0;right:0;bottom:0;border-top:2px solid rgba(243,242,242,.22);background:rgba(7,8,10,.72);backdrop-filter:blur(6px);z-index:4">
+      <div style="display:grid;grid-template-columns:repeat(12,1fr)">
+        <sc-for list="{{ chips }}" as="c" hint-placeholder-count="12">
+          <button onClick="{{ c.onClick }}" style="text-align:left;padding:11px 10px;background:{{ c.bg }};color:{{ c.fg }};border:none;border-right:1px solid rgba(243,242,242,.12);cursor:pointer;display:flex;flex-direction:column;gap:4px;overflow:hidden;opacity:{{ c.opacity }}">
+            <span style="font:500 10px/1 Archivo,sans-serif;letter-spacing:.18em;color:{{ c.codeColor }}">{{ c.code }}</span>
+            <span style="font:700 12px/1.1 Archivo,sans-serif;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%">{{ c.name }}</span>
+          </button>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section id="briefing" data-screen-label="Briefing" style="background:#f3f2f2;scroll-margin-top:0">
+    <div style="max-width:1240px;margin:0 auto;padding:72px 32px 96px">
+
+      <div style="position:relative;overflow:hidden;display:flex;align-items:flex-end;justify-content:space-between;gap:32px;flex-wrap:wrap;padding:24px 0 20px;border-bottom:2px solid #201e1d">
+        <div aria-hidden="true" style="position:absolute;top:0;right:-58px;bottom:0;width:62%;pointer-events:none;opacity:.2;background:{{ flagBg }};-webkit-mask-image:radial-gradient(118% 132% at 100% 46%, #000 20%, rgba(0,0,0,.6) 50%, transparent 80%);mask-image:radial-gradient(118% 132% at 100% 46%, #000 20%, rgba(0,0,0,.6) 50%, transparent 80%)"></div>
+        <div style="position:relative">
+          <div style="font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#ec3013;margin-bottom:14px">{{ code }} · Daily Briefing · {{ date }}</div>
+          <h1 style="margin:0;font-size:66px;line-height:.95;font-weight:800;letter-spacing:-.035em;color:#201e1d">{{ countryName }}</h1>
+          <div style="margin-top:10px;font-size:15px;font-weight:500;letter-spacing:.02em;color:#6b6866">{{ countryNameEn }}</div>
+        </div>
+        <div style="position:relative;display:flex;gap:40px;padding-bottom:6px">
+          <div>
+            <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;margin-bottom:6px">조회 기간</div>
+            <div style="font-size:13px;font-weight:600">{{ period }}</div>
+          </div>
+          <div>
+            <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;margin-bottom:6px">이슈</div>
+            <div style="font-size:13px;font-weight:600">{{ issueCount }}</div>
+          </div>
+        </div>
+      </div>
+
+      <sc-if value="{{ noBriefing }}" hint-placeholder-val="{{ false }}">
+        <div style="margin-top:56px;border-top:2px solid #201e1d;border-bottom:1px solid #cfcdcb;padding:56px 0;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end">
+          <div>
+            <div style="font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#ec3013;margin-bottom:14px">No briefing yet</div>
+            <h2 style="margin:0;font-size:32px;line-height:1.15;font-weight:800;letter-spacing:-.03em">{{ emptyTitle }}</h2>
+            <p style="margin:16px 0 0;font-size:15px;line-height:1.65;max-width:40em;color:#4a4746;text-wrap:pretty">{{ emptyBody }}</p>
+            <sc-if value="{{ hasNotice }}" hint-placeholder-val="{{ false }}">
+              <p style="margin:18px 0 0;padding-left:14px;border-left:2px solid #ec3013;font-size:13px;font-weight:600;color:#ec3013">{{ notice }}</p>
+            </sc-if>
+          </div>
+          <button onClick="{{ onGenerate }}" disabled="{{ generating }}" style="background:#201e1d;color:#f3f2f2;border:none;padding:18px 28px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;text-align:left;white-space:nowrap" style-hover="background:#ec3013">{{ generateLabel }}</button>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasBriefing }}" hint-placeholder-val="{{ true }}">
+
+      <div style="margin-top:56px;display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding-bottom:12px;border-bottom:2px solid #201e1d">
+        <h2 style="margin:0;font-size:15px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">이슈 관계도</h2>
+        <span style="font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">Issue Graph</span>
+      </div>
+
+      <div style="padding:20px 0 0">
+        <x-import component-from-global-scope="issue-graph" from="./issue-graph.js" country="{{ code }}" hint-size="100%,600px" style="display:block;width:100%;height:600px"></x-import>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:28px;flex-wrap:wrap;padding:14px 0 0;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">
+        <span>스크롤 확대 · 드래그 이동 · 노드 드래그</span>
+        <span style="margin-left:auto;color:#9a9694">점을 클릭하면 해당 이슈 요약으로 이동</span>
+      </div>
+
+      <div id="today-issues" style="margin-top:56px;scroll-margin-top:24px;display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding-bottom:12px;border-bottom:2px solid #201e1d">
+        <h2 style="margin:0;font-size:15px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">오늘의 주요 이슈</h2>
+        <span style="font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">Why &amp; So What</span>
+      </div>
+
+      <table style="width:100%;border-collapse:collapse;margin-top:0">
+        <thead>
+          <tr>
+            <th style="text-align:left;padding:14px 16px 14px 0;width:120px;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;border-bottom:1px solid #cfcdcb">분야</th>
+            <th style="text-align:left;padding:14px 24px 14px 0;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;border-bottom:1px solid #cfcdcb">Why · 배경 원인</th>
+            <th style="text-align:left;padding:14px 0;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;border-bottom:1px solid #cfcdcb">So What · 향후 영향</th>
+          </tr>
+        </thead>
+        <tbody>
+          <sc-for list="{{ rows }}" as="r" hint-placeholder-count="6">
+            <tr onClick="{{ r.onClick }}" style="cursor:pointer" style-hover="background:#e6e4e2">
+              <td style="padding:18px 16px 18px 0;border-bottom:1px solid #dedcda;vertical-align:top"><span style="display:inline-block;padding:3px 9px;font-size:11px;font-weight:700;letter-spacing:.06em;background:{{ r.tagBg }};color:{{ r.tagFg }}">{{ r.tag }}</span></td>
+              <td style="padding:18px 24px 18px 0;border-bottom:1px solid #dedcda;font-size:14px;line-height:1.55;vertical-align:top;text-wrap:pretty">{{ r.why }}</td>
+              <td style="padding:18px 0 18px 0;border-bottom:1px solid #dedcda;font-size:14px;line-height:1.55;vertical-align:top;text-wrap:pretty">{{ r.soWhat }}</td>
+            </tr>
+          </sc-for>
+        </tbody>
+      </table>
+
+      <div style="margin-top:72px;display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding-bottom:12px;border-bottom:2px solid #201e1d">
+        <h2 style="margin:0;font-size:15px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">분야별 주요 소식 및 맥락 분석</h2>
+        <span style="font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">{{ streamLabel }}</span>
+      </div>
+
+      <div style="display:flex;align-items:stretch;justify-content:space-between;gap:24px;flex-wrap:wrap;border-bottom:1px solid #cfcdcb">
+        <div style="display:flex">
+          <sc-for list="{{ tabs }}" as="t" hint-placeholder-count="3">
+            <button onClick="{{ t.onClick }}" style="background:{{ t.bg }};color:{{ t.fg }};border:none;border-right:1px solid #cfcdcb;padding:16px 26px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.1em;cursor:pointer;display:flex;align-items:baseline;gap:10px;text-align:left">
+              <span>{{ t.label }}</span>
+              <span style="font-size:11px;font-weight:600;opacity:.6">{{ t.count }}</span>
+            </button>
+          </sc-for>
+        </div>
+        <div style="display:flex;align-items:center">
+          <sc-for list="{{ orders }}" as="o" hint-placeholder-count="2">
+            <button onClick="{{ o.onClick }}" style="background:transparent;border:none;padding:16px 12px;font:600 11px/1 Archivo,sans-serif;letter-spacing:.14em;color:{{ o.fg }};cursor:pointer;border-bottom:2px solid {{ o.bar }};text-align:left">{{ o.label }}</button>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="border-left:2px solid #dedcda;margin-top:10px">
+        <sc-for list="{{ stream }}" as="e" hint-placeholder-count="4">
+          <article id="{{ e.domId }}" style="position:relative;display:grid;grid-template-columns:150px 1fr;gap:0 28px;padding:36px 0 40px 30px;border-bottom:1px solid #cfcdcb;scroll-margin-top:24px;background:{{ e.rowBg }}">
+            <div style="position:absolute;left:-7px;top:44px;width:12px;height:12px;background:{{ e.dotBg }}"></div>
+            <div>
+              <div style="font-size:14px;font-weight:800;letter-spacing:-.01em;color:{{ e.dateColor }}">{{ e.dateLabel }}</div>
+              <div style="margin-top:6px;font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#6b6866">{{ e.badge }}</div>
+              <div style="margin-top:16px;font-size:11px;font-weight:700;letter-spacing:.14em;color:#ec3013">{{ e.indexLabel }}</div>
+            </div>
+            <div>
+              <h3 style="margin:0;font-size:25px;line-height:1.24;font-weight:700;letter-spacing:-.02em;max-width:24em;text-wrap:pretty">{{ e.title }}</h3>
+              <p style="margin:14px 0 0;padding-left:16px;border-left:2px solid #ec3013;font-size:16px;line-height:1.6;font-weight:600;color:#ec3013;max-width:44em;text-wrap:pretty">{{ e.summary }}</p>
+              <div style="margin-top:26px;border-top:1px solid #dedcda">
+                <sc-for list="{{ e.panels }}" as="p" hint-placeholder-count="4">
+                  <div style="display:grid;grid-template-columns:170px 1fr;gap:0 24px;padding:15px 0;border-bottom:1px solid #dedcda;align-items:start">
+                    <div style="display:flex;align-items:baseline;gap:9px">
+                      <span style="font:700 10px/1.5 Archivo,sans-serif;letter-spacing:.1em;color:#a5a19f">{{ p.step }}</span>
+                      <span style="font-size:10px;font-weight:700;line-height:1.5;letter-spacing:.2em;text-transform:uppercase;color:{{ p.color }}">{{ p.label }}</span>
+                    </div>
+                    <p style="margin:0;font-size:14px;line-height:1.6;text-wrap:pretty">{{ p.text }}</p>
+                  </div>
+                </sc-for>
+              </div>
+              <div style="margin-top:20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+                <span style="font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#6b6866">출처</span>
+                <sc-for list="{{ e.sources }}" as="s" hint-placeholder-count="2">
+                  <a href="{{ s.url }}" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:9px;background:#201e1d;color:#f3f2f2;padding:11px 15px;font:700 11px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none" style-hover="background:#ec3013;color:#f3f2f2">
+                    <span>{{ s.name }} 원문 보기</span>
+                  </a>
+                </sc-for>
+              </div>
+              <div style="margin-top:20px;border:1px solid #cfcdcb;background:#eceae8;padding:15px 18px 16px">
+                <div style="font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;padding-bottom:11px;border-bottom:1px solid #dedcda">함께 읽으면 좋은 기사</div>
+                <div style="margin-top:13px;display:grid;grid-template-columns:auto 1fr;gap:0 14px;align-items:start">
+                  <span style="display:inline-block;padding:4px 10px;font-size:11px;font-weight:700;letter-spacing:.08em;background:{{ e.relTagBg }};color:{{ e.relTagFg }}">{{ e.relType }}</span>
+                  <div>
+                    <a href="{{ e.relUrl }}" target="_blank" rel="noreferrer" style="font-size:16px;font-weight:700;line-height:1.35;letter-spacing:-.01em;text-decoration:none;border-bottom:2px solid #cfcdcb;padding-bottom:2px;text-wrap:pretty">{{ e.relTitle }}</a>
+                    <div style="margin-top:9px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">{{ e.relSource }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </sc-for>
+      </div>
+
+      </sc-if>
+
+      <div style="margin-top:64px;background:#ec3013;color:#f3f2f2;padding:56px 40px;display:flex;align-items:flex-end;justify-content:space-between;gap:32px;flex-wrap:wrap">
+        <div>
+          <div style="font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;opacity:.8;margin-bottom:14px">Newsletter</div>
+          <div style="font-size:38px;line-height:1.05;font-weight:800;letter-spacing:-.03em;max-width:16em">매일 아침 8시, 12개국 브리핑을 메일로 받아보세요</div>
+        </div>
+        <button style="background:#201e1d;color:#f3f2f2;border:none;padding:16px 28px;font:700 13px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;text-align:left">구독 신청</button>
+      </div>
+
+      <div style="margin-top:40px;padding-top:20px;border-top:2px solid #201e1d;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">
+        <span>Global Daily News Briefing</span>
+        <span>{{ updatedLabel }}</span>
+        <span>© 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <div style="position:fixed;right:28px;bottom:48px;z-index:40;display:flex;flex-direction:column;gap:10px;opacity:{{ topOpacity }};pointer-events:{{ topEvents }};transition:opacity .25s ease">
+    <button onClick="{{ onTop }}" title="지구로 돌아가기" style="width:58px;height:58px;display:flex;align-items:center;justify-content:center;background:#201e1d;color:#f3f2f2;border:2px solid #201e1d;cursor:pointer;transition:background .18s ease, transform .18s ease" style-hover="background:#ec3013;border-color:#ec3013;transform:translateY(-4px)">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91 0z"></path>
+        <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+        <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+        <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+      </svg>
+    </button>
+    <button onClick="{{ onIssues }}" title="오늘의 주요 이슈로 이동" style="width:58px;height:58px;display:flex;align-items:center;justify-content:center;background:#f3f2f2;color:#201e1d;border:2px solid #201e1d;cursor:pointer;transition:background .18s ease, color .18s ease, transform .18s ease" style-hover="background:#ec3013;color:#f3f2f2;border-color:#ec3013;transform:translateY(-4px)">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"></path>
+      </svg>
+    </button>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#ec3013&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#ec3013&quot;,&quot;#A50034&quot;,&quot;#1f6feb&quot;,&quot;#e8b400&quot;]},&quot;autoRotate&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;showLinks&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  state = { code: 'KR', region: 'All', date: '2026.08.09', data: null, cat: 'politics', order: 'desc', focus: null, extra: {}, generating: false, notice: null };
+  globeRef = React.createRef();
+
+  componentDidMount() {
+    fetch('data/issues.json').then(r => r.json())
+      .then(data => this.setState({ data }))
+      .catch(e => console.error('data load failed', e));
+    this._onScroll = () => {
+      const past = window.scrollY > window.innerHeight * 0.55;
+      if (past !== this.state.past) this.setState({ past });
+    };
+    window.addEventListener('scroll', this._onScroll, { passive: true });
+    this._onScroll();
+    fetch('data/flashes.json', { cache: 'no-cache' }).then(r => r.json())
+      .then(j => this.setState({ flashes: j.flashes || [] }))
+      .catch(e => console.error('flash load failed', e));
+    this._onFlash = e => this.setState(s => ({ flash: s.flash === e.detail ? null : e.detail }));
+    document.addEventListener('newsflash', this._onFlash);
+    this._onSelect = e => this.select(e.detail);
+    this._onFocusEnd = () => this.runScroll();
+    this._onJump = e => this.jump(e.detail);
+    this._onCat = e => this.setState({ cat: e.detail });
+    document.addEventListener('countryselect', this._onSelect);
+    document.addEventListener('globefocusend', this._onFocusEnd);
+    document.addEventListener('issuejump', this._onJump);
+    document.addEventListener('issuecategory', this._onCat);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this._onScroll);
+    document.removeEventListener('newsflash', this._onFlash);
+    document.removeEventListener('countryselect', this._onSelect);
+    document.removeEventListener('globefocusend', this._onFocusEnd);
+    document.removeEventListener('issuejump', this._onJump);
+    document.removeEventListener('issuecategory', this._onCat);
+    clearTimeout(this._scrollT);
+  }
+
+  runScroll() {
+    if (!this._pending) return;
+    this._pending = false;
+    clearTimeout(this._scrollT);
+    const el = document.getElementById('briefing');
+    if (el) window.scrollTo({ top: el.offsetTop, behavior: 'smooth' });
+  }
+
+  async generate(code) {
+    const d = this.state.data;
+    const geo = d && d.SUPPORTED_COUNTRIES.find(c => c.code === code);
+    if (!geo || this.state.generating) return;
+    this.setState({ generating: true, notice: null });
+    try {
+      const res = await fetch('/api/news/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ countryCode: geo.code, countryName: geo.name, countryNameEn: geo.nameEn, flagEmoji: geo.flag })
+      });
+      const json = await res.json();
+      if (json.success && json.briefing) {
+        this.setState(s => ({ extra: { ...s.extra, [code]: json.briefing }, generating: false }));
+      } else {
+        throw new Error(json.message || '생성 실패');
+      }
+    } catch (e) {
+      this.setState({ generating: false, notice: 'AI 브리핑 수집에 실패했습니다. 잠시 후 다시 시도해 주세요.' });
+    }
+  }
+
+  jump(item) {
+    this.setState({ cat: item.category, focus: item.key }, () => {
+      requestAnimationFrame(() => {
+        const el = document.getElementById('issue-' + item.key);
+        if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 24, behavior: 'smooth' });
+      });
+    });
+    clearTimeout(this._focusT);
+    this._focusT = setTimeout(() => this.setState({ focus: null }), 2600);
+  }
+
+  select(code) {
+    const same = code === this.state.code;
+    this.setState({ code, notice: null });
+    this._pending = true;
+    if (same) { this.runScroll(); return; }
+    clearTimeout(this._scrollT);
+    this._scrollT = setTimeout(() => this.runScroll(), 1300);
+  }
+
+  /* real flag artwork where we have it; otherwise a reduced color-field stand-in */
+  flagBg(code) {
+    const IMG = ['KR', 'US', 'CN', 'JP', 'GB', 'DE', 'FR', 'IL', 'UA', 'IN', 'BR', 'AU'];
+    if (IMG.indexOf(code) >= 0) return 'url("flags/' + code + '.png") 50% 50%/cover no-repeat';
+    const F = {
+      KR: 'radial-gradient(circle at 58% 38%, #cd2e3a 0 14%, transparent 14.3%), radial-gradient(circle at 58% 60%, #0047a0 0 14%, transparent 14.3%), linear-gradient(#ffffff,#ffffff)',
+      JP: 'radial-gradient(circle at 58% 48%, #bc002d 0 18%, transparent 18.3%), linear-gradient(#ffffff,#ffffff)',
+      CN: 'radial-gradient(circle at 40% 34%, #ffde00 0 10%, transparent 10.3%), radial-gradient(circle at 58% 22%, #ffde00 0 4%, transparent 4.3%), radial-gradient(circle at 64% 38%, #ffde00 0 4%, transparent 4.3%), linear-gradient(#ee1c25,#ee1c25)',
+      US: 'linear-gradient(135deg,#0a3161 0 30%, transparent 30%), repeating-linear-gradient(180deg,#b31942 0 7.7%,#ffffff 7.7% 15.4%)',
+      GB: 'linear-gradient(#c8102e,#c8102e) 50% 50%/100% 20% no-repeat, linear-gradient(#c8102e,#c8102e) 50% 50%/16% 100% no-repeat, linear-gradient(#012169,#012169)',
+      DE: 'linear-gradient(180deg,#201e1d 0 33.3%,#dd0000 33.3% 66.6%,#ffce00 66.6%)',
+      FR: 'linear-gradient(90deg,#0055a4 0 33.3%,#ffffff 33.3% 66.6%,#ef4135 66.6%)',
+      IL: 'linear-gradient(180deg,#ffffff 0 18%,#0038b8 18% 28%,#ffffff 28% 72%,#0038b8 72% 82%,#ffffff 82%)',
+      UA: 'linear-gradient(180deg,#0057b7 0 50%,#ffd700 50%)',
+      IN: 'linear-gradient(180deg,#ff9933 0 33.3%,#ffffff 33.3% 66.6%,#138808 66.6%)',
+      BR: 'radial-gradient(circle at 50% 50%, #002776 0 15%, transparent 15.3%), linear-gradient(135deg, transparent 24%, #ffdf00 24% 76%, transparent 76%), linear-gradient(#009c3b,#009c3b)',
+      AU: 'radial-gradient(circle at 72% 62%, #ffffff 0 6%, transparent 6.3%), radial-gradient(circle at 60% 30%, #ffffff 0 4%, transparent 4.3%), linear-gradient(135deg,#cc0000 0 26%, #00247d 26%)'
+    };
+    return F[code] || 'linear-gradient(180deg,#cfcdcb 0 50%,#a5a19f 50%)';
+  }
+
+  flashVals() {
+    const f = (this.state.flashes || []).find(x => x.id === this.state.flash);
+    return {
+      flashOpen: !!f,
+      flashLabel: f ? (f.label || '속보') : '',
+      flashColor: f && f.color ? f.color : '#1f6feb',
+      flashMeta: f ? [f.date, f.category].filter(Boolean).join(' · ') : '',
+      flashTitle: f ? f.title : '',
+      flashSummary: f ? f.summary : '',
+      flashSource: f ? f.source : '',
+      flashUrl: f && f.url ? f.url : '#',
+      flashHasUrl: !!(f && f.url),
+      onFlashClose: () => this.setState({ flash: null })
+    };
+  }
+
+  renderVals() {
+    const d = this.state.data;
+    const regionDefs = [['All', '전체'], ['Asia', '아시아'], ['North America', '북미'], ['Europe', '유럽'], ['Middle East', '중동'], ['South America', '남미'], ['Oceania', '오세아니아']];
+    const accent = this.props.accent ?? '#ec3013';
+    const base = {
+      globeRef: this.globeRef,
+      accent,
+      autorotate: String(this.props.autoRotate ?? true),
+      showlinks: String(this.props.showLinks ?? true),
+      code: this.state.code,
+      region: this.state.region,
+      date: this.state.date,
+      dates: ['2026.08.09', '2026.08.08', '2026.08.07'],
+      onDate: e => this.setState({ date: e.target.value }),
+      cueLabel: '국가를 선택하면 브리핑으로 이동',
+      ...this.flashVals(),
+      topOpacity: this.state.past ? '1' : '0',
+      topEvents: this.state.past ? 'auto' : 'none',
+      onTop: () => window.scrollTo({ top: 0, behavior: 'smooth' }),
+      onIssues: () => {
+        const el = document.getElementById('today-issues');
+        if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 24, behavior: 'smooth' });
+      },
+      countryName: '', countryNameEn: '', period: '', issueCount: '', updatedLabel: '',
+      flagBg: this.flagBg(this.state.code),
+      regions: regionDefs.map(([id, label]) => {
+        const on = this.state.region === id;
+        return { id, label, bg: on ? accent : 'rgba(7,8,10,.45)', fg: on ? '#f3f2f2' : 'rgba(243,242,242,.72)', onClick: () => this.setState({ region: id }) };
+      })
+    };
+    if (!d) return base;
+
+    const all = d.SUPPORTED_COUNTRIES;
+    const geo = all.find(c => c.code === this.state.code) || all[0];
+    const b = this.state.extra[this.state.code] || d.COUNTRIES[this.state.code];
+    const tag = { politics: ['#201e1d', '#f3f2f2'], economy: ['#ec3013', '#f3f2f2'], other: ['#dedcda', '#201e1d'] };
+    const seen = {};
+    const cat = this.state.cat;
+    const relTag = { '유사': ['#dedcda', '#201e1d'], '반박': ['#ec3013', '#f3f2f2'], '다름': ['#201e1d', '#f3f2f2'] };
+    const anchor = b ? b.latestDate : this.state.date;
+    const gap = ds => Math.round((Date.parse(anchor.replace(/\./g, '-')) - Date.parse(ds.replace(/\./g, '-'))) / 86400000);
+    const pool = !b ? [] : b.issues.map(n => ({
+      key: n.id, category: n.category, date: n.date, isToday: n.date === anchor,
+      title: n.title, summary: n.summary, sources: n.sources, related: n.related,
+      panels: [
+        { step: '01', label: '배경 · 기존', text: n.context.background, color: '#6b6866' },
+        { step: '02', label: '문제 · 이슈 맥락', text: n.context.issueContext, color: '#6b6866' },
+        { step: '03', label: '질문 · 핵심 Q', text: n.context.coreQuestion, color: '#6b6866' },
+        { step: '04', label: '결론 · 이슈', text: n.context.resolution, color: '#6b6866' }
+      ]
+    }));
+    const today = !b ? [] : b.issues.filter(n => n.date === anchor);
+    const desc = pool.filter(x => x.category === cat).sort((p, q) => q.date.localeCompare(p.date));
+    const ordered = this.state.order === 'asc' ? desc.slice().reverse() : desc;
+    const counts = { politics: 0, economy: 0, other: 0 };
+    pool.forEach(x => { counts[x.category] = (counts[x.category] || 0) + 1; });
+
+    return {
+      ...base,
+      chips: all.map(c => {
+        const on = c.code === this.state.code;
+        const dim = this.state.region !== 'All' && c.region !== this.state.region;
+        return {
+          code: c.code, name: c.name,
+          bg: on ? accent : 'transparent',
+          fg: on ? '#f3f2f2' : 'rgba(243,242,242,.85)',
+          codeColor: on ? 'rgba(243,242,242,.75)' : 'rgba(243,242,242,.45)',
+          opacity: dim ? '0.3' : '1',
+          onClick: () => this.select(c.code)
+        };
+      }),
+      hasBriefing: !!b,
+      noBriefing: !b,
+      countryName: b ? b.countryName : geo.name,
+      countryNameEn: b ? b.countryNameEn : geo.nameEn,
+      period: b ? b.period : '수집된 브리핑 없음',
+      issueCount: b ? `${today.length}건` : '준비 중',
+      updatedLabel: b ? `Updated ${b.updatedAt}` : 'Not yet collected',
+      generating: this.state.generating,
+      generateLabel: this.state.generating ? 'AI 뉴스 수집·요약 중…' : 'AI 실시간 브리핑 생성',
+      onGenerate: () => this.generate(this.state.code),
+      emptyTitle: `${geo.name} 브리핑 준비 중`,
+      emptyBody: `${geo.name}(${geo.nameEn})의 ${this.state.date} 브리핑은 아직 수집되지 않았습니다. AI 실시간 수집을 실행하면 정치·경제·기타 6대 이슈가 이 자리에 채워집니다.`,
+      notice: this.state.notice,
+      hasNotice: !!this.state.notice,
+      rows: today.map((n, i) => {
+        seen[n.category] = (seen[n.category] || 0) + 1;
+        return {
+          ...n, ...n.context,
+          indexLabel: String(i + 1).padStart(2, '0'),
+          tag: `${n.categoryLabel} ${seen[n.category]}`,
+          tagBg: tag[n.category][0], tagFg: tag[n.category][1],
+          onClick: () => this.jump({ key: n.id, category: n.category })
+        };
+      }),
+      streamLabel: `${ordered.length}건 · 최신 ${anchor}`,
+      tabs: [['politics', '정치'], ['economy', '경제'], ['other', '기타']].map(([id, label]) => {
+        const on = cat === id;
+        return { id, label, count: `${counts[id] || 0}`, bg: on ? '#201e1d' : 'transparent', fg: on ? '#f3f2f2' : '#6b6866', onClick: () => this.setState({ cat: id }) };
+      }),
+      orders: [['desc', '최신순'], ['asc', '과거순']].map(([id, label]) => {
+        const on = this.state.order === id;
+        return { id, label, fg: on ? '#201e1d' : '#9a9694', bar: on ? '#ec3013' : 'transparent', onClick: () => this.setState({ order: id }) };
+      }),
+      stream: ordered.map((x, i) => {
+        const r = x.related || {};
+        const t = relTag[r.type] || relTag['유사'];
+        return {
+          ...x,
+          domId: 'issue-' + x.key,
+          rowBg: this.state.focus === x.key ? '#ffe9e5' : 'transparent',
+          dateLabel: x.date,
+          dateColor: x.isToday ? '#ec3013' : '#201e1d',
+          dotBg: x.isToday ? '#ec3013' : '#a5a19f',
+          badge: x.isToday ? '오늘 브리핑' : `${gap(x.date)}일 전`,
+          indexLabel: String(i + 1).padStart(2, '0'),
+          relType: r.type || '유사', relTitle: r.title || '', relUrl: r.url || '#', relSource: r.source || '',
+          relTagBg: t[0], relTagFg: t[1]
+        };
+      })
+    };
+  }
+}
+</script>
+</body>
+</html>

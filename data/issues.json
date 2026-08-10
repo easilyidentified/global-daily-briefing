@@ -1,0 +1,1881 @@
+{
+  "SUPPORTED_COUNTRIES": [
+    {
+      "code": "KR",
+      "name": "대한민국",
+      "nameEn": "South Korea",
+      "flag": "🇰🇷",
+      "region": "Asia",
+      "x": 80,
+      "y": 38
+    },
+    {
+      "code": "US",
+      "name": "미국",
+      "nameEn": "United States",
+      "flag": "🇺🇸",
+      "region": "North America",
+      "x": 22,
+      "y": 34
+    },
+    {
+      "code": "CN",
+      "name": "중국",
+      "nameEn": "China",
+      "flag": "🇨🇳",
+      "region": "Asia",
+      "x": 74,
+      "y": 37
+    },
+    {
+      "code": "JP",
+      "name": "일본",
+      "nameEn": "Japan",
+      "flag": "🇯🇵",
+      "region": "Asia",
+      "x": 84,
+      "y": 36
+    },
+    {
+      "code": "GB",
+      "name": "영국",
+      "nameEn": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "Europe",
+      "x": 47,
+      "y": 26
+    },
+    {
+      "code": "DE",
+      "name": "독일",
+      "nameEn": "Germany",
+      "flag": "🇩🇪",
+      "region": "Europe",
+      "x": 50,
+      "y": 27
+    },
+    {
+      "code": "FR",
+      "name": "프랑스",
+      "nameEn": "France",
+      "flag": "🇫🇷",
+      "region": "Europe",
+      "x": 48,
+      "y": 30
+    },
+    {
+      "code": "IL",
+      "name": "이스라엘",
+      "nameEn": "Israel",
+      "flag": "🇮🇱",
+      "region": "Middle East",
+      "x": 57,
+      "y": 40
+    },
+    {
+      "code": "UA",
+      "name": "우크라이나",
+      "nameEn": "Ukraine",
+      "flag": "🇺🇦",
+      "region": "Europe",
+      "x": 56,
+      "y": 28
+    },
+    {
+      "code": "IN",
+      "name": "인도",
+      "nameEn": "India",
+      "flag": "🇮🇳",
+      "region": "Asia",
+      "x": 67,
+      "y": 44
+    },
+    {
+      "code": "BR",
+      "name": "브라질",
+      "nameEn": "Brazil",
+      "flag": "🇧🇷",
+      "region": "South America",
+      "x": 35,
+      "y": 68
+    },
+    {
+      "code": "AU",
+      "name": "호주",
+      "nameEn": "Australia",
+      "flag": "🇦🇺",
+      "region": "Oceania",
+      "x": 83,
+      "y": 72
+    }
+  ],
+  "COUNTRIES": {
+    "KR": {
+      "countryName": "대한민국",
+      "countryNameEn": "South Korea",
+      "latestDate": "2026.08.09",
+      "period": "2026.08.08 08:00 ~ 2026.08.09 08:00",
+      "updatedAt": "2026.08.09 08:00 KST",
+      "issues": [
+        {
+          "id": "kr-pol-1",
+          "date": "2026.08.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "여야, 첨단 반도체 국가전략기술 세액공제 연장안 전격 합의",
+          "summary": "여야가 첨단 반도체 설비 투자 세액공제율을 기존 15%에서 20%로 상향하고 일몰 기한을 3년 연장하는 조세특례제한법 개정안에 전격 합의했습니다.",
+          "why": "글로벌 반도체 공급망 재편 및 미·중 기술 패권 경쟁 격화 속 국내 첨단 제조 기반 사수 필요성 증대",
+          "soWhat": "국내 주요 반도체 기업들의 50조 원 규모 차세대 파운드리 및 HBM 시설 투자 집행 가속화 전망",
+          "context": {
+            "background": "2024년 도입되었던 반도체 K-칩스법의 세액공제 혜택 일몰 시한이 다가오면서 업계의 투자 유인 위축 우려가 지속되었습니다.",
+            "issueContext": "글로벌 경쟁국들이 자국 내 반도체 공장 유치를 위해 수십조 원의 직간접 보조금을 지급하는 상황에서 한국의 세제 지원 연장이 난항을 겪고 있었습니다.",
+            "coreQuestion": "이번 세제 혜택 연장이 국내 반도체 생태계 전반의 설비 투자를 끌어올리고 글로벌 주도권을 사수할 수 있을까요?",
+            "resolution": "여야는 정책적 연속성을 위해 법안을 이달 임시국회 본회의에서 최우선 통과시키고, 연구개발(R&D) 현금 환급제 도입도 추가 논의하기로 했습니다."
+          },
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "url": "https://www.yna.co.kr"
+            },
+            {
+              "name": "한국경제",
+              "url": "https://www.hankyung.com"
+            }
+          ],
+          "related": {
+            "title": "반도체 세액공제 20% 상향, 투자 유인 효과는 제한적이라는 분석",
+            "source": "조선비즈",
+            "url": "https://biz.chosun.com",
+            "type": "반박"
+          },
+          "topics": [
+            "반도체",
+            "세액공제",
+            "국회",
+            "투자",
+            "산업정책"
+          ]
+        },
+        {
+          "id": "kr-pol-2",
+          "date": "2026.08.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "정부, 한미 안보·경제 유기적 긴급 점검 회의 개최",
+          "summary": "정부는 대통령실 주재로 관계부처 합동 안보·경제 점검 회의를 열고 대미 통상 정책 과제와 한미 동맹 발전 방안을 논의했습니다.",
+          "why": "미국 차기 행정부의 방위비 분담금 및 첨단 기술 수출 통제 강화 기조에 선제적으로 대응하기 위함",
+          "soWhat": "대미 외교 전략 재정비 및 안보·산업 협력 태스크포스(TF) 가동을 통한 통상 불확실성 완화 기대",
+          "context": {
+            "background": "글로벌 통상 환경의 지정학적 변동성이 확대됨에 따라 안보와 산업 정책을 일체화하는 전략의 중요성이 커졌습니다.",
+            "issueContext": "공급망 다변화 및 방위비 분담 협상 과정에서 발생할 수 있는 대외 리스크를 최소화해야 하는 과제가 제기되었습니다.",
+            "coreQuestion": "안보와 통상이 결합된 복합위기 상황에서 정부가 국익을 극대화하는 협상력을 발휘할 수 있을까요?",
+            "resolution": "정부는 안보실과 산업부가 공동 참석하는 상시 협의체를 신설하고, 대미 주력 수출 품목에 대한 맞춤형 리스크 관리 체계를 가동하기로 했습니다."
+          },
+          "sources": [
+            {
+              "name": "KBS 뉴스",
+              "url": "https://news.kbs.co.kr"
+            },
+            {
+              "name": "동아일보",
+              "url": "https://www.donga.com"
+            }
+          ],
+          "related": {
+            "title": "한미 안보협의, 방위비와 통상 의제 분리 논의로 가닥",
+            "source": "KBS 뉴스",
+            "url": "https://news.kbs.co.kr",
+            "type": "유사"
+          },
+          "topics": [
+            "한미",
+            "안보",
+            "통상",
+            "외교"
+          ]
+        },
+        {
+          "id": "kr-eco-1",
+          "date": "2026.08.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "한국은행, 기준금리 동결 속 가계부채 모니터링 강화 발표",
+          "summary": "한국은행 금융통화위원회가 현 기준금리 수준을 유지하고, 상반기 가계부채 추이를 면밀히 모니터링하겠다고 밝혔습니다.",
+          "why": "수도권 중심의 주택 거래 회복세와 가계대출 증가 흐름에 따른 금융 불균형 위험 완화 목적",
+          "soWhat": "당분간 금리 인하 신중론 유지에 따라 시중은행의 부동산 담보대출 규제 문턱이 더욱 높아질 것으로 예상",
+          "context": {
+            "background": "내수 회복 지연으로 금리 인하 요구가 거세졌으나, 부동산 가격 상승과 가계대출 증가세가 발목을 잡았습니다.",
+            "issueContext": "물가 안정세 진입에도 불구하고 가계부채 누증과 환율 변동성이 금리 결정의 주요 걸림돌로 작용했습니다.",
+            "coreQuestion": "금리 동결 기조 유지가 내수 침체 심화 없이 자산 시장 불균형을 안정시킬 수 있을까요?",
+            "resolution": "한은은 금융당국과의 스트레스 DSR 확대 적용 등 거시건전성 정책 공조를 강화하며 금리 인하 시점을 유연하게 결정하기로 했습니다."
+          },
+          "sources": [
+            {
+              "name": "매일경제",
+              "url": "https://www.mk.co.kr"
+            },
+            {
+              "name": "조선비즈",
+              "url": "https://biz.chosun.com"
+            }
+          ],
+          "related": {
+            "title": "가계부채 증가세, 금리보다 주택 공급이 변수라는 시각",
+            "source": "매일경제",
+            "url": "https://www.mk.co.kr",
+            "type": "다름"
+          },
+          "topics": [
+            "금리",
+            "가계부채",
+            "통화정책",
+            "한국은행"
+          ]
+        },
+        {
+          "id": "kr-eco-2",
+          "date": "2026.08.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "K-배터리 3사, 차세대 전고체 배터리 파일럿 라인 가동 본격화",
+          "summary": "국내 배터리 3사가 꿈의 배터리로 불리는 전고체 배터리 양산 파일럿 라인을 준공하고 고객사 테스트용 샘플 출하를 시작했습니다.",
+          "why": "중국산 LFP 배터리의 저가 공세에 맞서 프리미엄 및 초격차 기술 경쟁력 확보 가속화",
+          "soWhat": "2027년 상용화를 목표로 글로벌 완성차 업체들과의 차세대 전기차 배터리 공급 협상이 진전될 전망",
+          "context": {
+            "background": "글로벌 전기차 캐즘(일시적 수요 둔화) 현상 속에서 화재 안전성이 높고 에너지 밀도가 극대화된 전고체 기술 선점이 사활 과제로 부상했습니다.",
+            "issueContext": "고비용 구조와 기술적 난제로 인해 양산 시점 지연 우려가 제기되어 왔습니다.",
+            "coreQuestion": "전고체 배터리의 수율 확보와 제조 단가 낮추기가 성공하여 차세대 배터리 시장을 주도할 수 있을까요?",
+            "resolution": "배터리 3사는 국책 과제 연계 및 소재 기업들과의 공동 R&D를 통해 양산 수율을 조기 확보하고 2027~2028년 상용화를 차질 없이 추진할 방침입니다."
+          },
+          "sources": [
+            {
+              "name": "전자신문",
+              "url": "https://www.etnews.com"
+            },
+            {
+              "name": "머니투데이",
+              "url": "https://news.mt.co.kr"
+            }
+          ],
+          "related": {
+            "title": "전고체 배터리 상용화 시점, 2030년 이후로 미뤄질 가능성",
+            "source": "전자신문",
+            "url": "https://www.etnews.com",
+            "type": "반박"
+          },
+          "topics": [
+            "배터리",
+            "전고체",
+            "투자",
+            "제조"
+          ]
+        },
+        {
+          "id": "kr-oth-1",
+          "date": "2026.08.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "정부, 초거대 AI 선도 프로젝트에 1조 원 신규 투입 확정",
+          "summary": "과학기술정보통신부가 독자적 AI 기술 주권 확보를 위한 초거대 AI 선도 프로젝트에 1조 원 규모의 예산을 투입하기로 확정했습니다.",
+          "why": "글로벌 빅테크의 AI 독점에 대응하여 독자적 한국어·국산 소버린 AI 인프라 구축 추진",
+          "soWhat": "국산 NPU 기반 데이터센터 확충 및 의료·법률·행정 특화 AI 모델 개발이 크게 탄력을 받을 예정",
+          "context": {
+            "background": "미국 빅테크 주도의 AI 생태계 확산으로 국내 ICT 산업의 기술 종속 우려가 심화되었습니다.",
+            "issueContext": "고성능 GPU 수급 난항과 방대한 데이터 컴퓨팅 비용 부담이 국내 스타트업 및 연구진의 발목을 잡아왔습니다.",
+            "coreQuestion": "정부 차원의 AI 데이터센터 인프라 및 컴퓨팅 자원 지원이 국산 AI 생태계의 자립을 이끌어낼 수 있을까요?",
+            "resolution": "과기정통부는 국산 AI 반도체 바우처를 대폭 확대하고 공공 데이터 개방을 적극 추진하여 AI 산업 생태계를 전방위로 육성합니다."
+          },
+          "sources": [
+            {
+              "name": "디지털타임스",
+              "url": "https://www.dt.co.kr"
+            },
+            {
+              "name": "아이뉴스24",
+              "url": "https://www.inews24.com"
+            }
+          ],
+          "related": {
+            "title": "초거대 AI 예산 1조, 인프라보다 인재에 배분해야",
+            "source": "디지털타임스",
+            "url": "https://www.dt.co.kr",
+            "type": "다름"
+          },
+          "topics": [
+            "AI",
+            "투자",
+            "정부예산",
+            "인프라"
+          ]
+        },
+        {
+          "id": "kr-oth-2",
+          "date": "2026.08.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "전국 기온 폭염특보 속 기후변화 대응 재난안전대책 가동",
+          "summary": "행정안전부가 전국적인 폭염 지속에 따라 중앙재난안전대책본부 비상 단계를 가동하고 예찰 활동을 강화했습니다.",
+          "why": "한반도 근해 해수면 온도 상승에 따른 이상 고온 및 기습적 폭우 발생 빈도 증가",
+          "soWhat": "취약계층 보호 대책 및 에너지 수급 관리 비상체계 구축으로 폭염 피해 최소화 도모",
+          "context": {
+            "background": "지구 온난화 심화로 한반도 summer 클라이밋이 아열대화되면서 매년 폭염 피해 기록이 경신되고 있습니다.",
+            "issueContext": "전력 수요 폭증으로 인한 정전 리스크와 온열질환자 급증, 농축산물 피해가 재난 수준으로 확대되었습니다.",
+            "coreQuestion": "이상 기후 현상 장기화에 대처할 실시간 스마트 재난 예경보 시스템과 전력 인프라가 충분히 강화되었을까요?",
+            "resolution": "정부는 시군구별 살수차 동원, 무더위 쉼터 24시간 개방 및 전력 수급 비상 대응반을 적극 가동하고 있습니다."
+          },
+          "sources": [
+            {
+              "name": "경향신문",
+              "url": "https://www.khan.co.kr"
+            },
+            {
+              "name": "YTN",
+              "url": "https://www.ytn.co.kr"
+            }
+          ],
+          "related": {
+            "title": "폭염 재난 대응, 전력 수급보다 취약계층 보호가 관건",
+            "source": "경향신문",
+            "url": "https://www.khan.co.kr",
+            "type": "유사"
+          },
+          "topics": [
+            "폭염",
+            "기후",
+            "재난",
+            "전력"
+          ]
+        },
+        {
+          "id": "kr-a-pol-1",
+          "date": "2026.08.06",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "K-칩스법 연장 논의, 재정 부담 이견으로 상임위 계류",
+          "summary": "기획재정위원회에서 세액공제 상향 폭을 두고 여야 이견이 좁혀지지 않아 조세특례제한법 심사가 한 차례 미뤄졌습니다.",
+          "why": "세수 감소를 우려하는 재정당국과 투자 유인 확대를 요구하는 산업계의 입장이 정면으로 충돌했습니다.",
+          "soWhat": "8월 임시국회 처리 여부가 하반기 설비 투자 집행 계획의 최대 변수로 남았습니다.",
+          "context": {
+            "background": "2024년 도입된 반도체 세액공제는 2026년 말 일몰을 앞두고 있었고, 업계는 연초부터 연장을 요구해 왔습니다.",
+            "issueContext": "기획재정부는 연간 수조 원대 세수 감소를 근거로 상향 폭 축소를 주장했고, 산업 부처와 업계는 경쟁국 수준의 지원을 요구했습니다.",
+            "coreQuestion": "재정 건전성과 산업 경쟁력 중 어느 쪽에 우선순위를 두어야 할까요?",
+            "resolution": "상임위 심사가 8월 임시국회로 넘어가며 결론이 미뤄졌습니다."
+          },
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "url": "https://www.yna.co.kr"
+            }
+          ],
+          "related": {
+            "title": "세액공제 확대, 대기업 쏠림 우려는 여전하다",
+            "source": "한겨레",
+            "url": "https://www.hani.co.kr",
+            "type": "반박"
+          },
+          "topics": [
+            "반도체",
+            "세액공제",
+            "국회",
+            "재정",
+            "산업정책"
+          ]
+        },
+        {
+          "id": "kr-a-eco-1",
+          "date": "2026.08.04",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "금통위, 가계부채 증가세에 금리 인하 시점 신중론 확산",
+          "summary": "7월 금통위 의사록에서 다수 위원이 가계부채 재확대를 이유로 인하 시점을 늦춰야 한다는 의견을 냈습니다.",
+          "why": "주택담보대출을 중심으로 한 대출 잔액이 상반기 내내 증가세를 유지했습니다.",
+          "soWhat": "연내 인하 폭 축소 전망이 강해지며 채권 금리와 대출 금리가 동반 상승했습니다.",
+          "context": {
+            "background": "한국은행은 상반기 내내 기준금리를 동결하며 인하 시점을 저울질해 왔습니다.",
+            "issueContext": "물가는 목표 수준에 근접했지만 주택담보대출을 중심으로 가계부채가 다시 늘며 금융안정 부담이 커졌습니다.",
+            "coreQuestion": "물가가 안정된 뒤에도 가계부채가 통화정책을 계속 제약하게 될까요?",
+            "resolution": "다수 위원이 인하 지연을 지지하며 연내 인하 폭 전망이 축소되었습니다."
+          },
+          "sources": [
+            {
+              "name": "매일경제",
+              "url": "https://www.mk.co.kr"
+            }
+          ],
+          "related": {
+            "title": "가계부채와 금리, 인과관계는 생각보다 약하다",
+            "source": "조선비즈",
+            "url": "https://biz.chosun.com",
+            "type": "반박"
+          },
+          "topics": [
+            "금리",
+            "가계부채",
+            "통화정책",
+            "한국은행"
+          ]
+        },
+        {
+          "id": "kr-a-oth-1",
+          "date": "2026.08.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "국가 AI 컴퓨팅 센터 부지 선정 착수",
+          "summary": "과기정통부가 국가 AI 컴퓨팅 센터 후보지 공모를 시작하고 전력 공급 여건을 1차 평가 기준으로 제시했습니다.",
+          "why": "GPU 확보 경쟁과 함께 대규모 전력을 안정적으로 공급할 입지가 핵심 제약으로 떠올랐습니다.",
+          "soWhat": "부지 확정 이후 초거대 AI 예산의 집행 구조가 구체화됩니다.",
+          "context": {
+            "background": "정부는 초거대 AI 경쟁력 확보를 위해 국가 단위 컴퓨팅 인프라 구축을 예고해 왔습니다.",
+            "issueContext": "GPU 확보만큼이나 수백 MW 규모 전력을 안정적으로 공급할 입지가 제약으로 떠올랐습니다.",
+            "coreQuestion": "AI 인프라의 병목은 반도체일까요, 전력일까요?",
+            "resolution": "전력 공급 여건을 1차 평가 기준으로 삼아 후보지 공모가 시작되었습니다."
+          },
+          "sources": [
+            {
+              "name": "디지털타임스",
+              "url": "https://www.dt.co.kr"
+            }
+          ],
+          "related": {
+            "title": "AI 데이터센터 전력 수요, 지역 수용성이 관건",
+            "source": "아이뉴스24",
+            "url": "https://www.inews24.com",
+            "type": "유사"
+          },
+          "topics": [
+            "AI",
+            "인프라",
+            "전력",
+            "데이터센터"
+          ]
+        },
+        {
+          "id": "kr-a-pol-2",
+          "date": "2026.07.29",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "정부, 반도체 클러스터 전력·용수 인프라 국비 지원안 발표",
+          "summary": "용인 반도체 클러스터의 송전선로와 공업용수 확보에 국비를 우선 투입하는 지원안이 국무회의를 통과했습니다.",
+          "why": "민간 투자 규모에 비해 기반 인프라 구축 속도가 뒤처진다는 지적이 반복적으로 제기되었습니다.",
+          "soWhat": "인프라 병목이 해소되면 클러스터 1단계 가동 시점이 앞당겨질 수 있습니다.",
+          "context": {
+            "background": "용인 반도체 클러스터는 지정 이후 부지 조성이 진행됐지만 전력과 용수 공급 계획은 확정되지 않았습니다.",
+            "issueContext": "민간이 수백조 원 투자를 예고한 반면 송전선로 건설은 주민 반대와 인허가 절차로 지연되어 왔습니다.",
+            "coreQuestion": "기반 인프라를 국가가 어디까지 부담해야 할까요?",
+            "resolution": "국비 우선 투입이 결정되며 1단계 가동 일정의 불확실성이 일부 해소되었습니다."
+          },
+          "sources": [
+            {
+              "name": "한국경제",
+              "url": "https://www.hankyung.com"
+            }
+          ],
+          "related": {
+            "title": "클러스터 전력 공급, 원전·재생에너지 배분이 쟁점",
+            "source": "전자신문",
+            "url": "https://www.etnews.com",
+            "type": "다름"
+          },
+          "topics": [
+            "반도체",
+            "인프라",
+            "전력",
+            "투자",
+            "산업정책"
+          ]
+        },
+        {
+          "id": "kr-a-eco-2",
+          "date": "2026.07.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "상반기 배터리 3사 수주잔고 사상 최대…수익성은 제자리",
+          "summary": "국내 배터리 3사의 합산 수주잔고가 사상 최대를 기록했지만 영업이익률은 전년 대비 개선되지 않았습니다.",
+          "why": "북미 보조금 축소와 원자재 가격 변동이 동시에 마진을 압박했습니다.",
+          "soWhat": "차세대 전고체 라인 투자 재원 조달 방식이 하반기 실적의 분기점이 됩니다.",
+          "context": {
+            "background": "국내 배터리 3사는 북미 중심으로 대규모 공급 계약을 확보하며 외형을 키워 왔습니다.",
+            "issueContext": "북미 보조금 축소와 원자재 가격 변동이 겹치며 수주 규모가 이익으로 이어지지 않는 구조가 드러났습니다.",
+            "coreQuestion": "수주잔고가 실제 수익성을 얼마나 담보할 수 있을까요?",
+            "resolution": "합산 잔고는 사상 최대를 기록했지만 영업이익률은 전년 수준에 머물렀습니다."
+          },
+          "sources": [
+            {
+              "name": "머니투데이",
+              "url": "https://news.mt.co.kr"
+            }
+          ],
+          "related": {
+            "title": "배터리 수주잔고, 실제 매출 전환율은 절반 수준",
+            "source": "전자신문",
+            "url": "https://www.etnews.com",
+            "type": "다름"
+          },
+          "topics": [
+            "배터리",
+            "수주",
+            "수익성",
+            "제조"
+          ]
+        },
+        {
+          "id": "kr-a-oth-2",
+          "date": "2026.07.21",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "역대급 폭염 장기화…전력 수요 최고치 경신",
+          "summary": "전국 대부분 지역에 폭염경보가 이어지며 최대 전력 수요가 종전 기록을 넘어섰습니다.",
+          "why": "평년보다 이른 열대야와 산업용 냉방 수요가 겹쳤습니다.",
+          "soWhat": "기후 재난 대응 예산과 전력 예비율 기준을 재검토하는 논의로 이어졌습니다.",
+          "context": {
+            "background": "최근 몇 년간 여름철 최대 전력 수요는 매년 기록을 경신해 왔습니다.",
+            "issueContext": "평년보다 이른 열대야와 산업용 냉방 수요가 겹치며 예비율이 한 자릿수까지 떨어졌습니다.",
+            "coreQuestion": "현행 전력 예비율 기준이 기후 변동성을 감당할 수 있을까요?",
+            "resolution": "수요 기록이 경신되며 예비율 기준과 기후 재난 예산의 재검토 논의가 시작되었습니다."
+          },
+          "sources": [
+            {
+              "name": "YTN",
+              "url": "https://www.ytn.co.kr"
+            }
+          ],
+          "related": {
+            "title": "전력 피크, 수요 관리로 감당 가능하다는 반론",
+            "source": "경향신문",
+            "url": "https://www.khan.co.kr",
+            "type": "반박"
+          },
+          "topics": [
+            "폭염",
+            "기후",
+            "전력",
+            "에너지"
+          ]
+        }
+      ]
+    },
+    "US": {
+      "countryName": "미국",
+      "countryNameEn": "United States",
+      "latestDate": "2026.08.09",
+      "period": "2026.08.08 08:00 ~ 2026.08.09 08:00",
+      "updatedAt": "2026.08.09 08:00 EST",
+      "issues": [
+        {
+          "id": "us-pol-1",
+          "date": "2026.08.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "미 의회, 연방 부채한도 조정 법안 초당적 최종 타결",
+          "summary": "미 상원과 하원이 연방 부채한도를 상향 조정하는 초당적 합의안을 가결하여 셧다운 위기를 피했습니다.",
+          "why": "연방정부 셧다운 위험 해소 및 글로벌 금융 시장의 신용 리스크 사전 차단 필요",
+          "soWhat": "미국 국채 시장 불안 요소 제거로 글로벌 증시 안정화 및 정부 지출안 집행 정상화 기대",
+          "context": {
+            "background": "연방정부의 채무 한도 도달 시점이 임박함에 따라 국채 이자 미지급(디폴트) 우려가 심화되었습니다.",
+            "issueContext": "양당 간 예산 감축 규모를 둘러싼 입장 차이로 대치 국면이 길어졌습니다.",
+            "coreQuestion": "이번 부채한도 합의가 장기적인 미국 재정 적자 구조를 개선할 발판이 될 수 있을까요?",
+            "resolution": "양당은 향후 2년간 재량적 지출을 동결하는 조건으로 한도를 상향하고 대통령 서명을 거쳐 최종 발효시켰습니다."
+          },
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com"
+            },
+            {
+              "name": "CNN",
+              "url": "https://edition.cnn.com"
+            }
+          ],
+          "related": {
+            "title": "부채한도 타결 이후에도 남는 재정 구조의 문제",
+            "source": "The Wall Street Journal",
+            "url": "https://www.wsj.com",
+            "type": "다름"
+          },
+          "topics": [
+            "부채한도",
+            "재정",
+            "의회",
+            "국채"
+          ]
+        },
+        {
+          "id": "us-pol-2",
+          "date": "2026.08.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "백악관, 차세대 글로벌 AI 안보 가이드라인 공식 서명",
+          "summary": "미 백악관이 안보 위험을 초래할 수 있는 고성능 AI 개발 규제를 담은 대통령 행정명령에 서명했습니다.",
+          "why": "생성형 AI의 무기화 및 사이버 공격 악용 방지를 위한 국가 안보 차원의 규제 틀 마련",
+          "soWhat": "글로벌 빅테크 기업들의 AI 모델 공개 및 평가 절차 의무화로 안전성 기준 강화",
+          "context": {
+            "background": "AI 기술의 급격한 발전으로 허위 정보 유포 및 국가 주요 인프라 사이버 공격 위험이 부각되었습니다.",
+            "issueContext": "혁신 위축을 우려하는 테크 업계와 강력한 규제를 요구하는 안보 당국 간 갈등이 계속되었습니다.",
+            "coreQuestion": "미국의 선제적 AI 규제 가이드라인이 글로벌 표준으로 정착할 수 있을까요?",
+            "resolution": "정부는 안전성 평가 통과 조항을 신설하되 벤처 투자를 촉진하는 공공 인프라 지원책도 병행 추진합니다."
+          },
+          "sources": [
+            {
+              "name": "AP News",
+              "url": "https://apnews.com"
+            },
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com"
+            }
+          ],
+          "related": {
+            "title": "AI 안보 가이드라인, 업계는 과잉 규제라 반발",
+            "source": "Reuters",
+            "url": "https://www.reuters.com",
+            "type": "반박"
+          },
+          "topics": [
+            "AI",
+            "규제",
+            "안보",
+            "행정명령"
+          ]
+        },
+        {
+          "id": "us-eco-1",
+          "date": "2026.08.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "연준(Fed), 인플레이션 2%대 안착 평가 속 연착륙 기대감 고조",
+          "summary": "미 연방준비제도가 물가상승률이 목표치에 지속 수렴함에 따라 금리 정책의 유연성을 강화하겠다고 밝혔습니다.",
+          "why": "소비자물가지수(CPI) 상승률 둔화 및 노동시장 고용지표의 균형 회복 지속",
+          "soWhat": "피벗(통화정책 전환) 가능성 제기로 신흥국 자금 유출 압력 완화 및 글로벌 증시 훈풍",
+          "context": {
+            "background": "고금리 장기화로 인한 상업용 부동산 부실 우려와 경기 침체 경고음이 지속되었습니다.",
+            "issueContext": "물가 둔화세가 확실해짐에 따라 실질 금리 부담을 낮춰 경기 연착륙을 유도할 시점이 다가왔습니다.",
+            "coreQuestion": "연준이 경기 후퇴 없이 물가 목표치를 달성하는 완벽한 연착륙을 성공시킬 수 있을까요?",
+            "resolution": "제롬 파월 의장은 향후 발표될 경제 데이터에 기반하여 연내 단계적 금리 조정을 검토하겠다고 유연한 입장을 밝혔습니다."
+          },
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com"
+            },
+            {
+              "name": "The Wall Street Journal",
+              "url": "https://www.wsj.com"
+            }
+          ],
+          "related": {
+            "title": "연준의 연착륙 평가, 고용지표는 다른 신호를 보낸다",
+            "source": "Bloomberg",
+            "url": "https://www.bloomberg.com",
+            "type": "반박"
+          },
+          "topics": [
+            "금리",
+            "물가",
+            "연준",
+            "통화정책"
+          ]
+        },
+        {
+          "id": "us-eco-2",
+          "date": "2026.08.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "빅테크 기업 2분기 어닝 서프라이즈, AI 클라우드 매출 폭발",
+          "summary": "엔비디아, 마이크로소프트, 구글 등 주요 빅테크 2분기 실적이 시장 전망치를 크게 상회했습니다.",
+          "why": "기업들의 엔터프라이즈 AI 전환 가속화에 따른 수혜 가시화",
+          "soWhat": "나스닥 지수 신고가 경신 및 대형 기술주 중심의 시장 주도권 강화",
+          "context": {
+            "background": "AI 과잉 투자론 및 수익화 지연 우려로 거품 논란이 일기도 했습니다.",
+            "issueContext": "그러나 실제 클라우드 서비스 및 AI 소프트웨어 매출이 호조를 보이면서 수익성이 입증되었습니다.",
+            "coreQuestion": "AI 관련 실적 모멘텀이 지수 전반을 견인하는 구조가 하반기에도 지속될 수 있을까요?",
+            "resolution": "기업들은 AI 인프라 자본지출(CAPEX)을 지속 확대하고 차세대 클라우드 데이터센터 증설을 가속화하기로 했습니다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com"
+            },
+            {
+              "name": "Financial Times",
+              "url": "https://www.ft.com"
+            }
+          ],
+          "related": {
+            "title": "빅테크 AI 매출 급증, 설비투자 회수 기간이 관건",
+            "source": "Financial Times",
+            "url": "https://www.ft.com",
+            "type": "다름"
+          },
+          "topics": [
+            "빅테크",
+            "AI",
+            "클라우드",
+            "실적"
+          ]
+        },
+        {
+          "id": "us-oth-1",
+          "date": "2026.08.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "NASA, 유인 달 탐사 아르테미스 미션 최종 비행 점검 완료",
+          "summary": "NASA가 우주비행사를 탑승시켜 달 궤도를 회행하는 아르테미스 II 미션의 발사전 심층 테스트를 통과시켰습니다.",
+          "why": "인류의 달 재착륙 및 화성 탐사를 위한 전초기지 구축 프로젝트 단계별 이행",
+          "soWhat": "글로벌 우주 탐사 경쟁의 주도권 확보 및 관련 우주 항공 산업 생태계 활성화",
+          "context": {
+            "background": "아폴로 계획 이후 반세기 만에 추진되는 인류의 본격적인 달 거주 및 자원 탐사 사업입니다.",
+            "issueContext": "기술적 결함 우려로 발사 일정이 수차례 연기되는 진통을 겪었습니다.",
+            "coreQuestion": "아르테미스 미션 성공이 우주 자원 확보 및 상업적 우주 여행 시대를 열어젖힐 수 있을까요?",
+            "resolution": "NASA는 민간 우주기업 스페이스X와의 긴밀한 공조를 통해 올해 안에 역사적 발사를 추진할 계획입니다."
+          },
+          "sources": [
+            {
+              "name": "NASA Official",
+              "url": "https://www.nasa.gov"
+            },
+            {
+              "name": "SpaceNews",
+              "url": "https://spacenews.com"
+            }
+          ],
+          "related": {
+            "title": "아르테미스 유인 착륙, 예산 초과와 일정 압박 지속",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com",
+            "type": "반박"
+          },
+          "topics": [
+            "우주",
+            "NASA",
+            "아르테미스",
+            "탐사"
+          ]
+        },
+        {
+          "id": "us-oth-2",
+          "date": "2026.08.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "미 서부 연안 초대형 태양광·풍력 복합 에너지 단지 가동",
+          "summary": "캘리포니아주에 2GW 규모의 미국 최대 태양광·에너지저장장치(ESS) 복합 단지가 상업 운전을 시작했습니다.",
+          "why": "청정에너지 전환 의무화 목표 달성 및 AI 데이터센터 전력 수요 급증 대응",
+          "soWhat": "탄소 배출 절감과 동시에 서부 지역 전력망의 획기적 안정화 기여",
+          "context": {
+            "background": "AI 데이터센터와 전기차 보급 확대로 미국 내 전력 소비량이 사상 최고치를 경신하고 있습니다.",
+            "issueContext": "기존 화석연료 발전소 폐쇄 속에서 신재생 에너지의 출력 변동성 보완이 시급했습니다.",
+            "coreQuestion": "대규모 ESS 결합형 청정에너지가 AI 시대 전력난 극복의 현실적 해법이 될 수 있을까요?",
+            "resolution": "주정부는 연방 인센티브 조항을 적용하여 재생에너지 연계 전력망 구축 사업을 대폭 늘려갈 계획입니다."
+          },
+          "sources": [
+            {
+              "name": "Los Angeles Times",
+              "url": "https://www.latimes.com"
+            },
+            {
+              "name": "Reuters Energy",
+              "url": "https://www.reuters.com/business/energy"
+            }
+          ],
+          "related": {
+            "title": "서부 재생에너지 단지, 송전망 병목이 최대 변수",
+            "source": "The New York Times",
+            "url": "https://www.nytimes.com",
+            "type": "다름"
+          },
+          "topics": [
+            "재생에너지",
+            "전력망",
+            "태양광",
+            "인프라"
+          ]
+        },
+        {
+          "id": "us-a-pol-1",
+          "date": "2026.08.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "부채한도 협상 막판 진통, 셧다운 우려 재점화",
+          "summary": "지출 삭감 규모를 두고 양당 협상이 교착되며 연방정부 일시 폐쇄 가능성이 다시 거론되었습니다.",
+          "why": "중간선거를 앞두고 재정 지출이 정치 쟁점으로 부상했습니다.",
+          "soWhat": "협상 지연은 국채 금리와 신용등급 전망에 직접적인 압력으로 작용합니다.",
+          "context": {
+            "background": "연방 부채한도는 수년째 시한 직전 타결이 반복되는 정치 쟁점이었습니다.",
+            "issueContext": "중간선거를 앞두고 양당이 지출 삭감 규모에서 물러서지 않으며 협상이 교착되었습니다.",
+            "coreQuestion": "이번에도 벼랑 끝 타결이라는 패턴이 반복될까요?",
+            "resolution": "협상 지연으로 셧다운 가능성이 다시 거론되며 국채 시장의 경계감이 높아졌습니다."
+          },
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com"
+            }
+          ],
+          "related": {
+            "title": "셧다운 리스크, 시장은 이미 가격에 반영했다",
+            "source": "Bloomberg",
+            "url": "https://www.bloomberg.com",
+            "type": "반박"
+          },
+          "topics": [
+            "부채한도",
+            "재정",
+            "의회",
+            "셧다운"
+          ]
+        },
+        {
+          "id": "us-a-eco-1",
+          "date": "2026.08.03",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "7월 CPI 둔화…시장은 9월 인하 기대 선반영",
+          "summary": "7월 소비자물가 상승률이 예상을 밑돌며 선물시장의 9월 금리 인하 확률이 큰 폭으로 올랐습니다.",
+          "why": "에너지와 중고차 가격 하락이 헤드라인 물가를 끌어내렸습니다.",
+          "soWhat": "근원 서비스 물가가 여전히 높아 연준의 판단은 신중할 수 있습니다.",
+          "context": {
+            "background": "연준은 물가가 목표에 안착하는지 확인한 뒤 인하에 나서겠다는 입장을 유지해 왔습니다.",
+            "issueContext": "에너지와 중고차 가격이 헤드라인 물가를 끌어내렸지만 서비스 물가는 여전히 높은 수준입니다.",
+            "coreQuestion": "헤드라인 둔화만으로 금리 인하를 정당화할 수 있을까요?",
+            "resolution": "선물시장의 9월 인하 확률이 크게 올랐지만 연준은 신중한 기조를 유지했습니다."
+          },
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com"
+            }
+          ],
+          "related": {
+            "title": "헤드라인 물가 둔화, 근원 지표는 다른 이야기",
+            "source": "Financial Times",
+            "url": "https://www.ft.com",
+            "type": "다름"
+          },
+          "topics": [
+            "금리",
+            "물가",
+            "연준",
+            "통화정책"
+          ]
+        },
+        {
+          "id": "us-a-oth-1",
+          "date": "2026.08.01",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "아르테미스 발사 일정, 기상 변수로 조정",
+          "summary": "발사장 인근 기상 악화로 최종 리허설 일정이 연기되며 발사 윈도가 재조정되었습니다.",
+          "why": "허리케인 시즌과 발사 윈도가 겹치는 구조적 제약이 반복되고 있습니다.",
+          "soWhat": "일정 지연은 국제 협력 파트너의 후속 미션 계획에 연쇄 영향을 줍니다.",
+          "context": {
+            "background": "아르테미스 유인 미션은 이미 여러 차례 일정이 조정되어 왔습니다.",
+            "issueContext": "허리케인 시즌과 발사 윈도가 겹치는 구조적 제약에 검증 절차 지연이 더해졌습니다.",
+            "coreQuestion": "일정 압박과 안전 검증 사이의 균형을 어떻게 잡아야 할까요?",
+            "resolution": "최종 리허설이 연기되며 발사 윈도가 재조정되었습니다."
+          },
+          "sources": [
+            {
+              "name": "NASA",
+              "url": "https://www.nasa.gov"
+            }
+          ],
+          "related": {
+            "title": "발사 지연의 진짜 원인은 기상보다 검증 절차",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com",
+            "type": "다름"
+          },
+          "topics": [
+            "우주",
+            "NASA",
+            "아르테미스",
+            "일정"
+          ]
+        },
+        {
+          "id": "us-a-pol-2",
+          "date": "2026.07.28",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "백악관 AI 행정명령 후속 규칙 초안 공개",
+          "summary": "연방기관의 AI 조달 기준과 고위험 모델 신고 의무를 담은 후속 규칙 초안이 의견 수렴 절차에 들어갔습니다.",
+          "why": "모델 성능이 빠르게 향상되며 기존 지침만으로는 통제가 어렵다는 판단이 작용했습니다.",
+          "soWhat": "규칙 확정 시 대형 모델 개발사의 배포 절차가 실질적으로 바뀝니다.",
+          "context": {
+            "background": "백악관은 AI 행정명령을 통해 연방기관의 AI 활용 원칙을 제시한 바 있습니다.",
+            "issueContext": "모델 성능이 빠르게 향상되면서 기존 지침만으로는 고위험 모델을 통제하기 어렵다는 판단이 나왔습니다.",
+            "coreQuestion": "연방 조달 기준이 민간 개발 관행까지 바꿀 수 있을까요?",
+            "resolution": "고위험 모델 신고 의무를 담은 초안이 의견 수렴 절차에 들어갔습니다."
+          },
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com"
+            }
+          ],
+          "related": {
+            "title": "AI 규제 초안, 오픈소스 생태계를 위축시킬 것",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com",
+            "type": "반박"
+          },
+          "topics": [
+            "AI",
+            "규제",
+            "행정명령",
+            "조달"
+          ]
+        },
+        {
+          "id": "us-a-eco-2",
+          "date": "2026.07.26",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "빅테크 AI 설비투자 급증, 자본지출 가이던스 일제 상향",
+          "summary": "주요 클라우드 기업들이 2분기 실적 발표에서 연간 자본지출 전망을 일제히 올려 잡았습니다.",
+          "why": "AI 학습·추론 수요가 데이터센터 증설 속도를 앞지르고 있습니다.",
+          "soWhat": "감가상각 부담이 커지며 내년 이익률 전망의 변수가 됩니다.",
+          "context": {
+            "background": "주요 클라우드 기업들은 AI 수요에 맞춰 데이터센터 증설을 계속해 왔습니다.",
+            "issueContext": "학습과 추론 수요가 증설 속도를 앞지르며 자본지출 계획이 분기마다 상향되고 있습니다.",
+            "coreQuestion": "이 투자 사이클의 회수 기간은 얼마나 될까요?",
+            "resolution": "연간 자본지출 전망이 일제히 상향되며 감가상각 부담이 새로운 변수로 떠올랐습니다."
+          },
+          "sources": [
+            {
+              "name": "The Wall Street Journal",
+              "url": "https://www.wsj.com"
+            }
+          ],
+          "related": {
+            "title": "AI 자본지출 사이클, 과잉투자 국면 진입 신호",
+            "source": "Financial Times",
+            "url": "https://www.ft.com",
+            "type": "반박"
+          },
+          "topics": [
+            "빅테크",
+            "AI",
+            "설비투자",
+            "클라우드"
+          ]
+        },
+        {
+          "id": "us-a-oth-2",
+          "date": "2026.07.19",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "서부 폭염 속 전력망 부하 경보 발령",
+          "summary": "캘리포니아 계통 운영기관이 저녁 시간대 예비력 부족을 경고하며 절전 요청을 발령했습니다.",
+          "why": "태양광 출력이 급감하는 일몰 직후 시간대의 수급 불균형이 심화되었습니다.",
+          "soWhat": "저장장치 확충 속도가 재생에너지 확대의 실질적 병목으로 확인되었습니다.",
+          "context": {
+            "background": "캘리포니아는 태양광 비중을 빠르게 늘려 왔지만 저장장치 확충은 뒤따르지 못했습니다.",
+            "issueContext": "일몰 직후 태양광 출력이 급감하는 시간대에 냉방 수요가 겹치며 예비력이 부족해졌습니다.",
+            "coreQuestion": "재생에너지 확대의 실질적 병목은 발전일까요, 저장일까요?",
+            "resolution": "계통 운영기관이 절전 요청을 발령하며 저장장치 확충 속도가 쟁점이 되었습니다."
+          },
+          "sources": [
+            {
+              "name": "The New York Times",
+              "url": "https://www.nytimes.com"
+            }
+          ],
+          "related": {
+            "title": "배터리 저장장치 확대로 피크 대응은 개선 중",
+            "source": "Reuters",
+            "url": "https://www.reuters.com",
+            "type": "반박"
+          },
+          "topics": [
+            "전력망",
+            "재생에너지",
+            "폭염",
+            "인프라"
+          ]
+        }
+      ]
+    },
+    "CN": {
+      "countryName": "중국",
+      "countryNameEn": "China",
+      "latestDate": "2026.08.09",
+      "period": "2026.08.08 08:00 ~ 2026.08.09 08:00",
+      "updatedAt": "2026.08.09 08:00 CST",
+      "issues": [
+        {
+          "id": "cn-pol-1",
+          "date": "2026.08.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 국무원, 내수 진작 및 제조업 고도화 10대 특단책 발표",
+          "summary": "중국 정부가 소비 촉진과 첨단 기술 부문 투자를 결합한 고강도 내수 자극 패키지를 공식 수립했습니다.",
+          "why": "부동산 경기 침체 장기화와 저물가(디플레이션) 우려 속 경제 활력 제고 모색",
+          "soWhat": "가전·자동차 보상판매(이구환신) 지원금 대폭 확대 및 국유기업 구조개혁 가속화",
+          "context": {
+            "background": "부동산 개발업체들의 부실 우려와 소비 심리 위축이 성장률 목표 달성의 악재로 작용했습니다.",
+            "issueContext": "단순 재정 지출 확대를 넘어 실질적인 가계 소득 증대 및 소비 유인책이 부재하다는 지적이 지속되었습니다.",
+            "coreQuestion": "10대 부양책이 중국 가계의 소비 심리를 돌려놓고 디플레이션 압력을 해소할 수 있을까요?",
+            "resolution": "중앙정부는 지방정부 특별채권 발행 한도를 늘리고 소비 쿠폰 지급 및 첨단 제조업 금융 지원을 다각도로 집행하기로 했습니다."
+          },
+          "sources": [
+            {
+              "name": "신화통신",
+              "url": "http://www.xinhuanet.com"
+            },
+            {
+              "name": "인민일보",
+              "url": "http://paper.people.com.cn"
+            }
+          ],
+          "related": {
+            "title": "중국 내수 부양책, 규모보다 집행 속도가 관건",
+            "source": "Caixin",
+            "url": "https://www.caixinglobal.com",
+            "type": "다름"
+          },
+          "topics": [
+            "내수",
+            "제조업",
+            "경기부양",
+            "정책"
+          ]
+        },
+        {
+          "id": "cn-pol-2",
+          "date": "2026.08.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중·아세안(ASEAN) 자유무역협정(FTA) 3.0 개정안 타결",
+          "summary": "중국과 아세안 10개국이 디지털 경제와 공급망 연결성을 대폭 강화하는 FTA 3.0 업그레이드 협상을 타결했습니다.",
+          "why": "미국의 대중국 통상 압박 극복 및 동남아 지역 역내 공급망 결속력 강화",
+          "soWhat": "디지털 커머스, 친환경 에너지 및 반도체 후공정 협력 증대로 대외 교역 다변화",
+          "context": {
+            "background": "미국 중심의 공급망 재편 움직임에 맞서 중국은 최대 교역 상대국인 아세안과의 우호적 관계가 절실했습니다.",
+            "issueContext": "남중국해 영유권 갈등 속에서도 경제적 실리와 역내 통합 가속화가 당면 과제로 부상했습니다.",
+            "coreQuestion": "아세안과의 FTA 3.0 타결이 미국 우방국의 통상망 압박을 분산시키는 유효한 카드가 될 수 있을까요?",
+            "resolution": "양측은 관세 장벽을 대폭 낮추고 전자상거래 통관 및 역내 원산지 기준 통합 작업을 빠르게 마무리 짓기로 했습니다."
+          },
+          "sources": [
+            {
+              "name": "CCTV",
+              "url": "https://news.cctv.com"
+            },
+            {
+              "name": "Global Times",
+              "url": "https://www.globaltimes.cn"
+            }
+          ],
+          "related": {
+            "title": "중·아세안 FTA 3.0, 역내 공급망 재편 가속 전망",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com",
+            "type": "유사"
+          },
+          "topics": [
+            "FTA",
+            "아세안",
+            "무역",
+            "외교"
+          ]
+        },
+        {
+          "id": "cn-eco-1",
+          "date": "2026.08.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 EV·태양광 굴기, 글로벌 수출액 사상 최고치 경신",
+          "summary": "중국의 전기차, 리튬배터리, 태양광 등 신에너지 3대 제품 수출액이 전년 대비 20% 이상 급증했습니다.",
+          "why": "자국 내 공급과잉 물량의 해외 시장 적극 개척 및 가격 경쟁력 압도",
+          "soWhat": "유럽연합(EU) 및 서방 국가들의 상계관세 부과 조치 등 무역 마찰 심화 우려",
+          "context": {
+            "background": "중국 정부의 파격적 보조금과 수직계열화 생태계 덕분에 세계 신에너지 시장 주도권을 확보했습니다.",
+            "issueContext": "미국과 EU가 중국산 신에너지 제품의 덤핑 수출을 문제 삼아 높은 관세 장벽을 쌓고 있습니다.",
+            "coreQuestion": "서방의 통상 규제 장벽을 넘기 위해 중국 업체들이 현지 공장 설립 전략으로 전환하게 될까요?",
+            "resolution": "BYD 등 주요 기업들은 헝가리, 브라질, 동남아 등 현지 생산 기지 구축을 대폭 앞당기고 있습니다."
+          },
+          "sources": [
+            {
+              "name": "차이신",
+              "url": "https://www.caixin.com"
+            },
+            {
+              "name": "South China Morning Post",
+              "url": "https://www.scmp.com"
+            }
+          ],
+          "related": {
+            "title": "중국 EV 수출 최고치, 유럽 관세 장벽이 하반기 변수",
+            "source": "Nikkei Asia",
+            "url": "https://asia.nikkei.com",
+            "type": "반박"
+          },
+          "topics": [
+            "전기차",
+            "태양광",
+            "수출",
+            "무역"
+          ]
+        },
+        {
+          "id": "cn-eco-2",
+          "date": "2026.08.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 인민은행, 유동성 공급 확대를 위한 단기 금리 전격 인하",
+          "summary": "중국 인민은행이 7일물 역레포 금리를 인하하고 시장에 대규모 유동성을 직접 주입했습니다.",
+          "why": "금융 시장 자금난 해소 및 자산시장 부양을 위한 적극적 통화 완화 시그널",
+          "soWhat": "시중 유동성 급증에 따른 위안화 가치 변동성 확대 및 증시 자금 유입 타진",
+          "context": {
+            "background": "실물 경기 회복세가 더딘 가운데 실질 금리 부담으로 기업 투자가 위축된 상태였습니다.",
+            "issueContext": "미국과의 금리 차이로 인한 자본 유출 위험과 국내 유동성 공급 필요성 사이의 균형 잡기가 과제였습니다.",
+            "coreQuestion": "돈 풀어 경기 살리기가 자산 거품 부작용 없이 실물 투자로 연결될 수 있을까요?",
+            "resolution": "인민은행은 맞춤형 재대출 창구를 확대하여 중소기업과 첨단 제조 기술 기업에 직접 자금이 흘러가도록 관리합니다."
+          },
+          "sources": [
+            {
+              "name": "중국증권보",
+              "url": "http://www.cs.com.cn"
+            },
+            {
+              "name": "Nikkei Asia",
+              "url": "https://asia.nikkei.com"
+            }
+          ],
+          "related": {
+            "title": "인민은행 금리 인하, 부동산 신용 경색 해소엔 역부족",
+            "source": "Bloomberg",
+            "url": "https://www.bloomberg.com",
+            "type": "반박"
+          },
+          "topics": [
+            "금리",
+            "유동성",
+            "인민은행",
+            "통화정책"
+          ]
+        },
+        {
+          "id": "cn-oth-1",
+          "date": "2026.08.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "중국 독자 우주정거장 텐궁, 차세대 생명과학 실험 성공",
+          "summary": "중국 텐궁 우주정거장에 체류 중인 우주비행사들이 미세중력 환경에서의 단백질 결정 육성 실험에 성공했습니다.",
+          "why": "우주 강국 도약 목표 달성 및 우주 환경 활용 바이오 신약 개발 속도",
+          "soWhat": "글로벌 우주 연구 협력 플랫폼으로서의 입지 다지기 및 독자적 기술 확보",
+          "context": {
+            "background": "미국 주도의 국제우주정거장(ISS) 배제에 맞서 중국은 독자 우주정거장을 성공적으로 운영 중입니다.",
+            "issueContext": "장기 우주 체류 기술과 상업적 연구 활용 가능성을 입증해야 하는 단계에 진입했습니다.",
+            "coreQuestion": "텐궁 우주정거장이 국제 연구자들에게 개방되어 글로벌 우주 연구의 허브가 될 수 있을까요?",
+            "resolution": "중국 국가항천국(CNSA)은 유럽 및 남미 연구기관들과 공동 프로젝트를 확대 발주하기로 했습니다."
+          },
+          "sources": [
+            {
+              "name": "신화망 기술",
+              "url": "http://www.xinhuanet.com/tech"
+            },
+            {
+              "name": "China Daily",
+              "url": "https://www.chinadaily.com.cn"
+            }
+          ],
+          "related": {
+            "title": "텐궁 생명과학 실험, 국제 협력 확대의 신호탄",
+            "source": "Xinhua",
+            "url": "https://english.news.cn",
+            "type": "유사"
+          },
+          "topics": [
+            "우주",
+            "텐궁",
+            "과학실험",
+            "탐사"
+          ]
+        },
+        {
+          "id": "cn-oth-2",
+          "date": "2026.08.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "양자강 대규모 수자원 이동 서조동수 프로젝트 2단계 착공",
+          "summary": "중국 남부의 풍부한 수자원을 북부 건조 지대로 끌어오는 남수북조 관련 대형 수로 건설 사업이 시작되었습니다.",
+          "why": "북부 지역 심각한 가뭄 극복 및 수자원 불균형 해소를 통한 식량·산업 인프라 안정화",
+          "soWhat": "건설 수주 확대를 통한 친환경 인프라 경기 부양 효과 창출",
+          "context": {
+            "background": "기후변화로 북부 주요 곡창지대의 용수 부족 사태가 심화되어 국가적 차원의 물 관리가 시급했습니다.",
+            "issueContext": "막대한 공사비와 생태계 영향 우려가 제기되는 대형 국책 사업입니다.",
+            "coreQuestion": "환경 훼손을 최소화하면서 수자원 재배치를 성공적으로 마무리할 수 있을까요?",
+            "resolution": "당국은 첨단 친환경 터널링 기술을 적용하고 수질 오염 방지 관제 시스템을 함께 구축하기로 했습니다."
+          },
+          "sources": [
+            {
+              "name": "인민망 환경",
+              "url": "http://env.people.com.cn"
+            },
+            {
+              "name": "CGTN",
+              "url": "https://news.cgtn.com"
+            }
+          ],
+          "related": {
+            "title": "서조동수 2단계, 수몰 지역 이주 보상이 쟁점",
+            "source": "Caixin",
+            "url": "https://www.caixinglobal.com",
+            "type": "다름"
+          },
+          "topics": [
+            "수자원",
+            "인프라",
+            "건설",
+            "환경"
+          ]
+        },
+        {
+          "id": "cn-a-pol-1",
+          "date": "2026.08.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국무원 상무회의, 내수 부양 세부 실행계획 예고",
+          "summary": "소비 쿠폰과 설비 교체 보조를 결합한 내수 부양 실행계획이 곧 발표될 것이라고 국무원이 밝혔습니다.",
+          "why": "부동산 침체가 소비 심리에 미치는 영향이 예상보다 오래 지속되고 있습니다.",
+          "soWhat": "지방정부 재정 여력에 따라 정책 효과의 지역 편차가 커질 수 있습니다.",
+          "context": {
+            "background": "중국은 부동산 침체 이후 내수 회복을 위한 정책 수단을 순차적으로 내놓아 왔습니다.",
+            "issueContext": "소비 심리 위축이 예상보다 길어지며 기존 조치의 효과가 제한적이라는 평가가 나왔습니다.",
+            "coreQuestion": "지방정부 재정 여력이 부족한 상태에서 부양책이 균일하게 집행될 수 있을까요?",
+            "resolution": "소비 쿠폰과 설비 교체 보조를 묶은 실행계획 발표가 예고되었습니다."
+          },
+          "sources": [
+            {
+              "name": "Xinhua",
+              "url": "https://english.news.cn"
+            }
+          ],
+          "related": {
+            "title": "소비 쿠폰 방식, 과거 효과는 단기에 그쳤다",
+            "source": "Caixin",
+            "url": "https://www.caixinglobal.com",
+            "type": "반박"
+          },
+          "topics": [
+            "내수",
+            "소비",
+            "경기부양",
+            "정책"
+          ]
+        },
+        {
+          "id": "cn-a-eco-1",
+          "date": "2026.08.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "7월 수출 증가세 지속…EV·태양광이 견인",
+          "summary": "7월 수출이 전년 대비 증가세를 이어갔고 전기차와 태양광 모듈이 증가분의 상당 부분을 차지했습니다.",
+          "why": "내수 부진을 수출로 상쇄하는 구조가 고착되고 있습니다.",
+          "soWhat": "교역 상대국의 관세 대응이 하반기 수출 경로를 좌우합니다.",
+          "context": {
+            "background": "중국은 내수 부진을 수출로 상쇄하는 구조가 이어지고 있습니다.",
+            "issueContext": "전기차와 태양광 모듈이 증가분을 이끌었지만 단가 하락이 동반되었습니다.",
+            "coreQuestion": "수출 호조는 수요 확대의 결과일까요, 가격 경쟁의 결과일까요?",
+            "resolution": "7월 수출이 증가세를 유지했고 교역 상대국의 관세 대응이 하반기 변수로 남았습니다."
+          },
+          "sources": [
+            {
+              "name": "Caixin",
+              "url": "https://www.caixinglobal.com"
+            }
+          ],
+          "related": {
+            "title": "중국 수출 호조는 단가 인하에 따른 착시",
+            "source": "Nikkei Asia",
+            "url": "https://asia.nikkei.com",
+            "type": "반박"
+          },
+          "topics": [
+            "수출",
+            "전기차",
+            "태양광",
+            "무역"
+          ]
+        },
+        {
+          "id": "cn-a-oth-1",
+          "date": "2026.07.30",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "텐궁 우주정거장, 장기 체류 승무원 교대 완료",
+          "summary": "신규 승무원이 도킹에 성공하며 6개월 주기의 장기 체류 임무가 이어졌습니다.",
+          "why": "독자 우주정거장 운영 경험 축적이 국가 우주 전략의 핵심 축입니다.",
+          "soWhat": "생명과학·재료 실험 데이터가 국제 공동 연구 개방 논의로 이어집니다.",
+          "context": {
+            "background": "중국은 독자 우주정거장 텐궁을 6개월 주기로 운영하며 장기 체류 경험을 쌓아 왔습니다.",
+            "issueContext": "국제우주정거장 퇴역 시점이 다가오면서 텐궁의 국제 협력 개방 여부에 관심이 모였습니다.",
+            "coreQuestion": "축적한 운영 데이터를 어디까지 공유하게 될까요?",
+            "resolution": "신규 승무원 도킹이 성공하며 장기 체류 임무가 이어졌습니다."
+          },
+          "sources": [
+            {
+              "name": "Xinhua",
+              "url": "https://english.news.cn"
+            }
+          ],
+          "related": {
+            "title": "중국 우주 프로그램, 국제 협력 개방은 제한적",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com",
+            "type": "반박"
+          },
+          "topics": [
+            "우주",
+            "텐궁",
+            "탐사",
+            "국제협력"
+          ]
+        },
+        {
+          "id": "cn-a-pol-2",
+          "date": "2026.07.24",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중·아세안 FTA 3.0 최종 협상 라운드 개최",
+          "summary": "디지털 무역과 녹색 경제 챕터를 놓고 마지막 쟁점 조율이 진행되었습니다.",
+          "why": "역내 공급망 재편 속에서 아세안의 협상 지렛대가 커졌습니다.",
+          "soWhat": "타결 시 역내 관세와 데이터 이동 규범이 동시에 바뀝니다.",
+          "context": {
+            "background": "중국과 아세안은 기존 FTA를 디지털·녹색 분야까지 확대하는 협상을 진행해 왔습니다.",
+            "issueContext": "공급망 재편 속에서 아세안의 협상력이 커지며 데이터 이동 규범이 최대 쟁점으로 남았습니다.",
+            "coreQuestion": "역내 무역 규범 형성의 주도권을 누가 쥐게 될까요?",
+            "resolution": "마지막 쟁점 조율이 진행되며 타결 시점이 가시권에 들어왔습니다."
+          },
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "url": "https://www.scmp.com"
+            }
+          ],
+          "related": {
+            "title": "아세안 내부에서도 대중 의존 심화 우려",
+            "source": "Nikkei Asia",
+            "url": "https://asia.nikkei.com",
+            "type": "다름"
+          },
+          "topics": [
+            "FTA",
+            "아세안",
+            "무역",
+            "공급망"
+          ]
+        },
+        {
+          "id": "cn-a-eco-2",
+          "date": "2026.07.18",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "2분기 성장률 목표 하회, 부동산 투자 감소폭 확대",
+          "summary": "2분기 국내총생산 증가율이 연간 목표를 밑돌았고 부동산 개발 투자는 감소폭이 커졌습니다.",
+          "why": "주택 재고 소진 속도가 신규 착공 감소를 따라잡지 못했습니다.",
+          "soWhat": "통화 완화와 재정 지출 확대 요구가 동시에 커졌습니다.",
+          "context": {
+            "background": "중국은 연간 성장률 목표를 제시하고 분기마다 달성 여부를 점검해 왔습니다.",
+            "issueContext": "주택 재고 소진 속도가 신규 착공 감소를 따라잡지 못하며 부동산 투자가 계속 줄었습니다.",
+            "coreQuestion": "부동산 조정을 감내하면서 성장 목표를 지킬 수 있을까요?",
+            "resolution": "2분기 성장률이 목표를 밑돌며 통화 완화와 재정 확대 요구가 동시에 커졌습니다."
+          },
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com"
+            }
+          ],
+          "related": {
+            "title": "부동산 조정은 구조 개혁의 불가피한 과정",
+            "source": "Xinhua",
+            "url": "https://english.news.cn",
+            "type": "다름"
+          },
+          "topics": [
+            "성장률",
+            "부동산",
+            "통화정책",
+            "경기부양"
+          ]
+        },
+        {
+          "id": "cn-a-oth-2",
+          "date": "2026.07.15",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "창장 유역 대규모 홍수 경보…수자원 관리 논쟁 재점화",
+          "summary": "집중호우로 창장 중류 일부 구간에 홍수 경보가 발령되며 댐 운영 방식에 대한 논쟁이 다시 불거졌습니다.",
+          "why": "기후 변동성 확대로 기존 치수 설계 기준의 적정성이 도마에 올랐습니다.",
+          "soWhat": "서조동수 등 대형 수자원 이동 사업의 타당성 검토에 영향을 줍니다.",
+          "context": {
+            "background": "창장 유역은 대형 댐을 축으로 치수 체계를 구축해 왔습니다.",
+            "issueContext": "기후 변동성이 커지며 기존 설계 기준을 넘는 집중호우가 반복되고 있습니다.",
+            "coreQuestion": "대형 구조물 중심의 치수 방식이 여전히 유효할까요?",
+            "resolution": "중류 일부 구간에 홍수 경보가 발령되며 댐 운영 방식 논쟁이 재점화되었습니다."
+          },
+          "sources": [
+            {
+              "name": "Caixin",
+              "url": "https://www.caixinglobal.com"
+            }
+          ],
+          "related": {
+            "title": "대형 댐이 홍수 피해를 키운다는 주장",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com",
+            "type": "반박"
+          },
+          "topics": [
+            "수자원",
+            "홍수",
+            "기후",
+            "환경"
+          ]
+        }
+      ]
+    },
+    "JP": {
+      "countryName": "일본",
+      "countryNameEn": "Japan",
+      "latestDate": "2026.08.09",
+      "period": "2026.08.08 08:00 ~ 2026.08.09 08:00",
+      "updatedAt": "2026.08.09 08:00 JST",
+      "issues": [
+        {
+          "id": "jp-pol-1",
+          "date": "2026.08.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "일본 내각, 방위력 강화 및 방위 산업 수출 요건 완화 합의",
+          "summary": "일본 정부가 방위 장비 이전 3원칙 운용 지침을 추가 개정하여 우방국에 대한 완제품 방산 수출을 허용했습니다.",
+          "why": "동아시아 안보 환경 변화 속 자국 방위 산업 체질 개선 및 우방국 안보 공조 확대",
+          "soWhat": "방산 관련 일본 대기업들의 해외 진출 탄력 및 차세대 전투기 공동 개발 사업 가속화",
+          "context": {
+            "background": "평화헌법 제약 속에서 유지되어 온 엄격한 방산 수출 규제가 자국 방위 산업의 고사를 초래한다는 위기의식이 높았습니다.",
+            "issueContext": "영국·이탈리아와 추진 중인 차세대 전투기(GCAP) 개발 및 수출 유연성 확보가 핵심 현안이었습니다.",
+            "coreQuestion": "일본의 방산 규제 완화가 동아시아 세력 균형과 방위 산업 시장에 어떤 파장을 불러올까요?",
+            "resolution": "연립여당은 국회 보고 의무를 엄격히 두고 평화주의 기조를 유지하면서 실리적 안보 협력을 강화하기로 했습니다."
+          },
+          "sources": [
+            {
+              "name": "NHK News",
+              "url": "https://www.nhk.or.jp"
+            },
+            {
+              "name": "요미우리 신문",
+              "url": "https://www.yomiuri.co.jp"
+            }
+          ],
+          "related": {
+            "title": "방위 산업 수출 완화, 평화헌법 해석 논쟁 재점화",
+            "source": "朝日新聞",
+            "url": "https://www.asahi.com",
+            "type": "반박"
+          },
+          "topics": [
+            "방위",
+            "안보",
+            "수출",
+            "산업정책"
+          ]
+        },
+        {
+          "id": "jp-pol-2",
+          "date": "2026.08.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "일본 저출생 대책 신법 발효, 아동 수당 대폭 인상",
+          "summary": "일본 정부가 소득 제한을 전면 폐지하고 고등학생까지 아동 수당 지급 범위를 넓히는 신법을 발효했습니다.",
+          "why": "초저출산 장기화에 따른 인구 절벽 해소 및 국가 지속가능성 확보",
+          "soWhat": "가계의 육아 부담 대폭 경감 및 육아 휴직 급여 인상을 통한 사회 안전망 강화",
+          "context": {
+            "background": "합계출산율이 사상 최저 수준으로 떨어지면서 국가적 비상사태라는 인식이 팽배했습니다.",
+            "issueContext": "재원 마련을 위한 사회보험료 추가 부담 문제를 두고 가계 부담 증가 논란이 빚어졌습니다.",
+            "coreQuestion": "수조 엔 규모의 출산 지원책이 젊은 세대의 결혼과 출산율 반등을 이끌어낼 수 있을까요?",
+            "resolution": "정부는 기업들의 유급 육아휴직 참여율을 인센티브와 연계하고 일·가정 양립 지원 환경을 집중 조성하기로 했습니다."
+          },
+          "sources": [
+            {
+              "name": "아사히 신문",
+              "url": "https://www.asahi.com"
+            },
+            {
+              "name": "Mainichi Shimbun",
+              "url": "https://mainichi.jp"
+            }
+          ],
+          "related": {
+            "title": "아동 수당 인상만으로 출생률 반등은 어렵다",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com",
+            "type": "다름"
+          },
+          "topics": [
+            "저출생",
+            "복지",
+            "아동수당",
+            "재정"
+          ]
+        },
+        {
+          "id": "jp-eco-1",
+          "date": "2026.08.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "일본은행(BOJ), 추가 금리 인상 단행… 디플레이션 완전 탈출 선언",
+          "summary": "일본은행이 단기 정책금리를 추가 인하 없이 상향 조정하며 명실상부한 통화정책 정상화 궤도에 진입했습니다.",
+          "why": "임금과 물가의 선순환 구조 정착 및 엔저에 따른 수입 물가 상승 압력 완화",
+          "soWhat": "엔화 가치 반등 및 일본 시중은행들의 이자 수익 증가, 주택담보대출 금리 변동성 확대",
+          "context": {
+            "background": "30년간 지속된 초저금리 마이너스 금리 시대가 막을 내리고 고물가·고임금 체제로의 체질 변화가 진행되었습니다.",
+            "issueContext": "금리 인상이 경기 회복세를 냉각시키고 정부의 과도한 부채 이자 부담을 키울 수 있다는 우려가 공존했습니다.",
+            "coreQuestion": "일본 경제가 금리 상승 환경 속에서도 견조한 실물 성장을 유지할 수 있을까요?",
+            "resolution": "우에다 가즈오 총재는 과도한 급등락을 방지하기 위해 금융 시장과의 소통을 강화하며 국채 매입을 완만히 줄여가겠다고 밝혔습니다."
+          },
+          "sources": [
+            {
+              "name": "니혼게이자이 신문(Nikkei)",
+              "url": "https://www.nikkei.com"
+            },
+            {
+              "name": "Kyodo News",
+              "url": "https://english.kyodonews.net"
+            }
+          ],
+          "related": {
+            "title": "BOJ 금리 인상, 엔화 강세가 수출 기업에 미칠 부담",
+            "source": "Reuters",
+            "url": "https://www.reuters.com",
+            "type": "다름"
+          },
+          "topics": [
+            "금리",
+            "물가",
+            "일본은행",
+            "통화정책"
+          ]
+        },
+        {
+          "id": "jp-eco-2",
+          "date": "2026.08.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "라피더스(Rapidus), 2나노 첨단 반도체 시제품 제작 성공",
+          "summary": "일본 국가 반도체 컨소시엄 라피더스가 홋카이도 공장에서 2나노미터 최첨단 로직 반도체 시제품 가동에 성공했습니다.",
+          "why": "일본 반도체 산업 재건 및 첨단 파운드리 자립화 추진",
+          "soWhat": "글로벌 주요 반도체 설계 자산(IP) 기업들과의 제휴 확대 및 국산 파운드리 시장 신뢰 확보",
+          "context": {
+            "background": "과거 세계 반도체 시장을 호령했던 일본이 최첨단 미세 공정 경쟁에서 뒤처지자 수조 엔의 국비를 투입해 라피더스를 설립했습니다.",
+            "issueContext": "수율 확보와 고객사 유치 난항 우려가 제기되어 왔으나 기술적 주요 이정표를 달성했습니다.",
+            "coreQuestion": "라피더스가 2027년 양산 목표를 달성하여 TSMC·삼성전자와 어깨를 견주는 파운드리 거점으로 거듭날 수 있을까요?",
+            "resolution": "일본 정부는 추가 민관 기금을 확충하고 미국 IBM 등과의 기술 협력을 지속 강화하기로 결정했습니다."
+          },
+          "sources": [
+            {
+              "name": "産経新聞(산케이)",
+              "url": "https://www.sankei.com"
+            },
+            {
+              "name": "Nikkei Tech",
+              "url": "https://xtech.nikkei.com"
+            }
+          ],
+          "related": {
+            "title": "라피더스 2나노, 양산 수율 확보가 진짜 과제",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com",
+            "type": "반박"
+          },
+          "topics": [
+            "반도체",
+            "라피더스",
+            "제조",
+            "투자"
+          ]
+        },
+        {
+          "id": "jp-oth-1",
+          "date": "2026.08.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "2026 오사카·관서 엑스포 차세대 공중 모빌리티 eVTOL 시범 운영",
+          "summary": "오사카 엑스포 회장에서 도심과 회장을 연결하는 플라잉카(eVTOL) 상업 운항용 시범 비행이 실시되었습니다.",
+          "why": "미래형 첨단 교통수단 시범 운영을 통한 스마트 시티 기술 선점",
+          "soWhat": "도심 항공 모빌리티(UAM) 상용화 가속화 및 차세대 관광·재난 구조 인프라 활용",
+          "context": {
+            "background": "일본 정부는 엑스포를 계기로 도심 상공을 이용하는 차세대 모빌리티의 실증 거점을 마련하고자 했습니다.",
+            "issueContext": "안전성 검증 문제와 우천·강풍 등 기상 악화 시 운항 대책 수립이 과제로 남았습니다.",
+            "coreQuestion": "플라잉카가 미래 도시 교통 체계의 안전한 대체 수단으로 정착할 수 있을까요?",
+            "resolution": "국토교통성은 실증 데이터에 기반하여 관제 가이드라인을 최종 확정하고 연내 상용 노선 인가를 완료할 계획입니다."
+          },
+          "sources": [
+            {
+              "name": "MBS News",
+              "url": "https://www.mbs.jp/news"
+            },
+            {
+              "name": "JIJI Press",
+              "url": "https://www.jiji.com"
+            }
+          ],
+          "related": {
+            "title": "eVTOL 시범 운영, 상용 노선 인가까지는 수년",
+            "source": "NHK",
+            "url": "https://www3.nhk.or.jp",
+            "type": "다름"
+          },
+          "topics": [
+            "모빌리티",
+            "eVTOL",
+            "엑스포",
+            "규제"
+          ]
+        },
+        {
+          "id": "jp-oth-2",
+          "date": "2026.08.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "일본 방재청, 난카이 트러프 지진 대비 최첨단 해저 감지망 완공",
+          "summary": "태평양 해저에 설치된 광섬유 케이블 기반의 지진·쓰나미 실시간 관측망(S-net) 확장 공사가 완료되었습니다.",
+          "why": "수도권 및 태평양 연안 대형 지진·쓰나미 사전 경보 시스템 고도화",
+          "soWhat": "쓰나미 예측 시간을 대폭 단축하여 연안 주민들의 골든타임 확보 기여",
+          "context": {
+            "background": "난카이 트러프 초대형 지진 발생 가능성이 지속 경고됨에 따라 국가적 방재 역량 집중이 요구되었습니다.",
+            "issueContext": "초음속으로 밀려오는 쓰나미를 수분 전에 정밀 감지하는 해저 관측 인프라 구축이 필수적이었습니다.",
+            "coreQuestion": "해저 실시간 감지망이 대형 재난 상황에서 주민들의 신속한 피난을 보장할 수 있을까요?",
+            "resolution": "방재청은 스마트폰 긴급재난문자 수신 가이드라인을 정비하고 전국적인 신속 피난 훈련을 병행 실시합니다."
+          },
+          "sources": [
+            {
+              "name": "내각부 방재 정보",
+              "url": "https://www.bousai.go.jp"
+            },
+            {
+              "name": "NHK 방재",
+              "url": "https://www.nhk.or.jp/bousai"
+            }
+          ],
+          "related": {
+            "title": "난카이 해저 감지망 완공, 조기 경보 시간 확보 기대",
+            "source": "NHK",
+            "url": "https://www3.nhk.or.jp",
+            "type": "유사"
+          },
+          "topics": [
+            "지진",
+            "방재",
+            "인프라",
+            "관측"
+          ]
+        },
+        {
+          "id": "jp-a-pol-1",
+          "date": "2026.08.04",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "방위 장비 이전 3원칙 개정안, 연립 내 이견 노출",
+          "summary": "수출 요건 완화 범위를 두고 연립 여당 내부에서 신중론이 제기되며 각의 결정이 지연되었습니다.",
+          "why": "안보 환경 변화와 헌법 해석 논쟁이 정면으로 부딪쳤습니다.",
+          "soWhat": "개정 범위가 방위 산업의 수출 규모를 직접 결정합니다.",
+          "context": {
+            "background": "일본은 방위 장비 이전 3원칙을 단계적으로 완화해 왔습니다.",
+            "issueContext": "수출 요건을 어디까지 풀 것인지를 두고 연립 여당 내부에서 헌법 해석 논쟁이 불거졌습니다.",
+            "coreQuestion": "안보 환경 변화가 헌법 해석의 변경을 정당화할 수 있을까요?",
+            "resolution": "이견이 좁혀지지 않아 각의 결정이 미뤄졌습니다."
+          },
+          "sources": [
+            {
+              "name": "日本経済新聞",
+              "url": "https://www.nikkei.com"
+            }
+          ],
+          "related": {
+            "title": "방위 수출 완화, 국내 산업 기반부터 점검해야",
+            "source": "朝日新聞",
+            "url": "https://www.asahi.com",
+            "type": "다름"
+          },
+          "topics": [
+            "방위",
+            "안보",
+            "수출",
+            "헌법"
+          ]
+        },
+        {
+          "id": "jp-a-eco-1",
+          "date": "2026.08.01",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "7월 소비자물가 2%대 유지…임금 상승률이 관건",
+          "summary": "근원 소비자물가가 2%대를 유지하며 물가·임금 선순환 여부에 관심이 집중되었습니다.",
+          "why": "춘투 임금 인상분이 실질 소비로 이어지는지가 정책 판단의 기준입니다.",
+          "soWhat": "임금 상승이 확인되면 추가 금리 인상 명분이 강해집니다.",
+          "context": {
+            "background": "일본은행은 물가와 임금의 선순환을 금리 정상화의 전제로 제시해 왔습니다.",
+            "issueContext": "근원 물가는 2%대를 유지했지만 실질임금은 여전히 마이너스 구간에 머물렀습니다.",
+            "coreQuestion": "임금 상승이 실제 소비로 이어지고 있을까요?",
+            "resolution": "선순환 확인 여부가 추가 인상의 명분을 좌우하게 되었습니다."
+          },
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com"
+            }
+          ],
+          "related": {
+            "title": "실질임금은 여전히 마이너스라는 지적",
+            "source": "朝日新聞",
+            "url": "https://www.asahi.com",
+            "type": "반박"
+          },
+          "topics": [
+            "물가",
+            "임금",
+            "통화정책",
+            "일본은행"
+          ]
+        },
+        {
+          "id": "jp-a-oth-1",
+          "date": "2026.07.31",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "오사카 엑스포 eVTOL 시험 비행 승인",
+          "summary": "항공국이 엑스포 회장 인근 노선의 시험 비행을 조건부 승인하며 상용 운항 검증에 들어갔습니다.",
+          "why": "도심 저고도 공역 관리 규정이 아직 정비되지 않은 상태입니다.",
+          "soWhat": "검증 결과가 일본의 도심 항공 모빌리티 제도 설계에 반영됩니다.",
+          "context": {
+            "background": "일본은 엑스포를 계기로 도심 항공 모빌리티 상용화를 추진해 왔습니다.",
+            "issueContext": "도심 저고도 공역 관리 규정과 소음 기준이 아직 정비되지 않은 상태입니다.",
+            "coreQuestion": "시험 비행 데이터가 제도 설계로 이어질 수 있을까요?",
+            "resolution": "항공국이 조건부로 시험 비행을 승인하며 검증 단계에 들어갔습니다."
+          },
+          "sources": [
+            {
+              "name": "NHK",
+              "url": "https://www3.nhk.or.jp"
+            }
+          ],
+          "related": {
+            "title": "eVTOL 소음과 수용성, 도심 운항의 실제 장벽",
+            "source": "朝日新聞",
+            "url": "https://www.asahi.com",
+            "type": "다름"
+          },
+          "topics": [
+            "eVTOL",
+            "모빌리티",
+            "규제",
+            "항공"
+          ]
+        },
+        {
+          "id": "jp-a-pol-2",
+          "date": "2026.07.25",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "저출생 대책 재원 논의, 사회보험료 인상안 부상",
+          "summary": "아동 수당 확대 재원을 사회보험료로 충당하는 방안이 유력하게 검토되며 현역 세대 부담 논란이 일었습니다.",
+          "why": "세대 간 부담 배분 원칙에 대한 합의가 없는 상태에서 지출만 먼저 확정되었습니다.",
+          "soWhat": "재원 구조가 확정되어야 제도의 지속 가능성이 판가름 납니다.",
+          "context": {
+            "background": "일본은 아동 수당 확대를 골자로 한 저출생 대책을 확정했습니다.",
+            "issueContext": "지출은 정해졌지만 재원 방식이 미정인 상태에서 사회보험료 인상안이 부상했습니다.",
+            "coreQuestion": "현역 세대에 부담을 지우는 방식이 지속 가능할까요?",
+            "resolution": "재원 구조 논의가 남으며 제도의 지속 가능성에 물음표가 붙었습니다."
+          },
+          "sources": [
+            {
+              "name": "NHK",
+              "url": "https://www3.nhk.or.jp"
+            }
+          ],
+          "related": {
+            "title": "보험료 인상은 오히려 출생률을 낮춘다",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com",
+            "type": "반박"
+          },
+          "topics": [
+            "저출생",
+            "복지",
+            "재정",
+            "사회보험"
+          ]
+        },
+        {
+          "id": "jp-a-eco-2",
+          "date": "2026.07.17",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "라피더스, 파일럿 라인 수율 개선 진척 공개",
+          "summary": "2나노 파일럿 라인의 초기 수율이 목표 구간에 접근했다고 회사가 밝혔습니다.",
+          "why": "보조금 규모에 비해 성과 검증이 부족하다는 비판이 이어져 왔습니다.",
+          "soWhat": "수율 데이터는 추가 공적 자금 투입 결정의 근거가 됩니다.",
+          "context": {
+            "background": "라피더스는 대규모 공적 자금을 받아 2나노 공정 개발을 추진해 왔습니다.",
+            "issueContext": "보조금 규모에 비해 검증 가능한 성과가 부족하다는 비판이 이어졌습니다.",
+            "coreQuestion": "파일럿 수율로 양산 수율을 예측할 수 있을까요?",
+            "resolution": "초기 수율이 목표 구간에 접근했다고 발표되며 추가 자금 논의의 근거가 마련되었습니다."
+          },
+          "sources": [
+            {
+              "name": "Nikkei Asia",
+              "url": "https://asia.nikkei.com"
+            }
+          ],
+          "related": {
+            "title": "파일럿 수율과 양산 수율은 별개의 문제",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com",
+            "type": "다름"
+          },
+          "topics": [
+            "반도체",
+            "라피더스",
+            "수율",
+            "보조금"
+          ]
+        },
+        {
+          "id": "jp-a-oth-2",
+          "date": "2026.07.12",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "난카이 트러프 해저 감지망 최종 구간 부설",
+          "summary": "해저 지진·쓰나미 관측망의 마지막 구간 케이블 부설이 완료되어 시운전에 들어갔습니다.",
+          "why": "기존 관측망의 사각지대가 조기 경보 시간을 제약해 왔습니다.",
+          "soWhat": "경보 시간이 수십 초 앞당겨지면 대피 체계 전반이 재설계됩니다.",
+          "context": {
+            "background": "일본은 난카이 트러프 대지진에 대비해 해저 관측망을 확장해 왔습니다.",
+            "issueContext": "기존 관측망의 사각지대가 조기 경보에 확보할 수 있는 시간을 제약해 왔습니다.",
+            "coreQuestion": "수십 초의 경보 시간이 실제 피해를 얼마나 줄일 수 있을까요?",
+            "resolution": "마지막 구간 케이블 부설이 끝나며 시운전에 들어갔습니다."
+          },
+          "sources": [
+            {
+              "name": "NHK",
+              "url": "https://www3.nhk.or.jp"
+            }
+          ],
+          "related": {
+            "title": "관측망 확충만으로 피해 저감은 제한적",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com",
+            "type": "반박"
+          },
+          "topics": [
+            "지진",
+            "방재",
+            "관측",
+            "인프라"
+          ]
+        }
+      ]
+    }
+  }
+}
