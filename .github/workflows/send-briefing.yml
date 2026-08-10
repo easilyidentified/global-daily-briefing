@@ -35,6 +35,8 @@ jobs:
           GMAIL_USER:         ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           BRIEFING_TO:        ${{ vars.BRIEFING_TO }}
+          # To 헤더에 노출할 주소. 비워 두면 BRIEFING_TO의 맨 앞 하나만 보이고 나머지는 숨은참조.
+          BRIEFING_TO_VISIBLE: ${{ vars.BRIEFING_TO_VISIBLE }}
           BRIEFING_FROM_NAME: ${{ vars.BRIEFING_FROM_NAME }}
           BRIEFING_COUNTRY:   KR
           EXPECT_DATE:        ${{ steps.kst.outputs.date }}
