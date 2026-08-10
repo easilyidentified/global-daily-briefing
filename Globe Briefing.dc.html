@@ -93,6 +93,9 @@
     .fab{right:12px!important;bottom:16px!important;gap:8px!important}
     .fab button{width:44px!important;height:44px!important}
     .fab svg{width:19px!important;height:19px!important}
+
+    /* 관계도 안내 3줄. 좁은 화면에서는 줄마다 접혀서 오른쪽 정렬이 읽기 나쁘다. */
+    .graph-note{margin-left:0!important;text-align:left!important;letter-spacing:.06em!important}
   }
 </style>
 </helmet>
@@ -201,7 +204,11 @@
 
       <div style="display:flex;align-items:center;gap:28px;flex-wrap:wrap;padding:14px 0 0;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">
         <span>스크롤 확대 · 드래그 이동 · 노드 드래그</span>
-        <span style="margin-left:auto;color:#9a9694">점을 클릭하면 해당 이슈 요약으로 이동</span>
+        <div class="graph-note" style="margin-left:auto;text-align:right;color:#9a9694;line-height:1.75">
+          <span style="display:block">창을 클릭하면 연관된 과거의 이슈들이 보입니다.</span>
+          <span style="display:block">(작은 화면 비율에서는 보이지 않을 수 있으니, 화면을 돌려주세요)</span>
+          <span style="display:block">* 본 사이트는 데스크탑에서 가장 잘 작동합니다.</span>
+        </div>
       </div>
 
       <div id="today-issues" style="margin-top:56px;scroll-margin-top:24px;display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding-bottom:12px;border-bottom:2px solid #201e1d">
