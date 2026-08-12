@@ -13,7 +13,7 @@ on:
     - cron: "0 23 * * *"    # UTC 23:00 = KST 익일 08:00
 
 permissions:
-  contents: read
+  contents: write        # 발송 뒤 data/sent.json(멱등 기록)을 커밋한다
 
 jobs:
   send:
@@ -46,3 +46,23 @@ jobs:
           #  `cond && '' || x`는 빈 문자열이 falsy라 항상 x로 떨어진다.)
           FORCE_SEND:         ${{ inputs.force }}
         run: python3 scripts/send_briefing.py
+
+      # 발송에 성공하면 스크립트가 data/sent.json에 날짜를 남긴다. 그 기록을 리포에 되돌려
+      # 커밋해야 다음 실행이 중복 발송을 막을 수 있다. 발송이 건너뛰어졌으면 파일이
+      # 그대로라 커밋할 것이 없다.
+      - name: Commit send marker
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- data/sent.json; then
+            echo "발송 기록 변경 없음 — 커밋하지 않습니다."
+            exit 0
+          fi
+          git config user.name "briefing-bot"
+          git config user.email "briefing-bot@users.noreply.github.com"
+          git add data/sent.json
+          git commit -m "발송 기록 $(TZ=Asia/Seoul date +%Y.%m.%d)"
+          # 06:40 수집 커밋과 80분 차이라 충돌 가능성은 낮지만, 밀렸으면 얹어서 올린다.
+          git pull --rebase --autostash origin main
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main

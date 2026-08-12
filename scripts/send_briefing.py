@@ -19,6 +19,7 @@ data/issues.json에서 '오늘'(date == latestDate) 기사를 읽어
 의존성 없음: 표준 라이브러리(smtplib, email)만 사용.
 """
 import json, os, sys, html, base64, smtplib, ssl
+from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
@@ -29,6 +30,36 @@ SITE_URL = "https://easilyidentified.github.io/global-daily-briefing/"
 BANNER_PATH = os.path.join(os.path.dirname(__file__), "..", "assets", "email_banner.png")
 BANNER_CID = "briefing-banner"
 BANNER_ALT = "세계의 이슈로 온톨로지를 구축합니다 · 글로벌 데일리 브리핑"
+
+# 발송 멱등 기록. 국가별로 '마지막으로 보낸 날짜'를 남겨 같은 날짜를 두 번 보내지 않는다.
+# 워크플로가 발송 성공 뒤 이 파일을 커밋한다.
+SENT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "sent.json")
+KST = timezone(timedelta(hours=9))
+
+
+def _load_sent():
+    """발송 기록을 읽는다. 파일이 없으면 빈 기록, 깨져 있으면 None(치명)."""
+    if not os.path.exists(SENT_PATH):
+        return {}
+    try:
+        with open(SENT_PATH, encoding="utf-8") as f:
+            rec = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
+    return rec if isinstance(rec, dict) else None
+
+
+def _record_sent(country, ld, n_recipients):
+    """발송 성공 뒤에만 부른다. 기록에 실패해도 메일은 이미 나갔으므로 크게 남긴다."""
+    rec = _load_sent() or {}
+    rec[country] = {
+        "date": ld,
+        "at": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S KST"),
+        "recipients": n_recipients,
+    }
+    with open(SENT_PATH, "w", encoding="utf-8") as f:
+        json.dump(rec, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write("\n")
 
 # ── Modernist 팔레트 ─────────────────────────────────
 # 출처: claude.ai Design 프로젝트 "Global-Daily-Briefing email redesign"
@@ -406,9 +437,36 @@ def main():
         print(f"[dry-run] 발송 생략, 미리보기 저장: {out}")
         return 0
 
+    # ── 멱등 가드 ──────────────────────────────────────
+    # 같은 날짜의 브리핑을 두 번 보내지 않는다. 스케줄 실행 뒤 수동 실행을 걸거나
+    # 실패한 런을 re-run 했을 때 같은 메일이 다시 나가는 것을 막는다.
+    # DRY_RUN은 여기까지 오지 않으므로 미리보기는 언제나 뽑을 수 있다.
+    sent = _load_sent()
+    if sent is None:
+        print(f"[sent] 발송 기록이 깨졌습니다: {SENT_PATH} — "
+              f"중복 발송을 막을 수 없어 중단합니다. 파일을 고친 뒤 다시 실행하세요.", file=sys.stderr)
+        return 2
+    prev = sent.get(country) or {}
+    if prev.get("date") == ld:
+        if not force:
+            print(f"[skip] {country} {ld} 브리핑은 이미 발송했습니다"
+                  f"({prev.get('at', '시각 미상')} · {prev.get('recipients', '?')}명). 중복 발송하지 않습니다.")
+            return 0
+        print(f"[force] {country} {ld}은 이미 발송됐지만 FORCE_SEND로 다시 보냅니다.")
+
     inline_image = (BANNER_PATH, BANNER_CID) if has_banner else None
-    return send_via_gmail(user, app_pw, from_name, recipients, subject, html_doc, text_doc,
-                          inline_image=inline_image, visible=visible)
+    rc = send_via_gmail(user, app_pw, from_name, recipients, subject, html_doc, text_doc,
+                        inline_image=inline_image, visible=visible)
+    if rc == 0:
+        try:
+            _record_sent(country, ld, len(recipients))
+            print(f"[sent] 발송 기록 갱신: {country} {ld}")
+        except OSError as e:
+            # 메일은 이미 나갔다. 기록에 실패하면 다음 실행이 중복 발송할 수 있으므로
+            # 워크플로를 빨갛게 만들어 사람이 보게 한다.
+            print(f"[sent] 발송은 됐으나 기록 저장 실패: {e} — 중복 발송 위험", file=sys.stderr)
+            return 1
+    return rc
 
 
 if __name__ == "__main__":
