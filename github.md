@@ -3,9 +3,27 @@ branch: main
 
 ## Last sync
 
-date: 2026-08-10
+date: 2026-08-12
 
 ### Updated in this project
+
+**자동화가 처음으로 사람 손 없이 한 바퀴 돌았다**
+
+- 수집 에이전트가 하위 에이전트에 **위임하고 턴을 끝내던** 결함 수정 (`fd143fc`).
+  `--allowedTools`는 실제로 제한을 걸지 못한다 — `--disallowedTools`로
+  `Agent,Task,TaskCreate,TaskUpdate,TaskOutput,ScheduleWakeup,Monitor`를 차단해야 막힌다
+- `timeout-minutes` 45 → **60** (위임 없이 직접 처리하니 31분 47초가 걸렸다)
+- **08-12: 수집·발송 모두 무인 성공** — 수집 25분 52초 → `bbef0fd 브리핑 2026.08.12`,
+  발송 08:50 KST 26명. 08-11에는 예약 발송이 뜨지 않아 수동으로 보냈으나 이번엔 자동으로 됐다.
+  다만 **예약 지연은 여전하다** (23:00 UTC 예약 → 23:50 실행)
+
+**맥락 파일 — 경로를 데스크탑 비의존적으로**
+
+- `CLAUDE.md`에 박혀 있던 `C:\Users\user\Documents\global-daily-briefing`를 제거.
+  데스크탑마다 경로·폴더명이 다르므로 "이 리포를 클론한 폴더"로 표현하고,
+  새 데스크탑에서 `git config --local` 저자 설정을 먼저 잡는 절차를 규칙 1번에 추가
+
+### 이전 sync (2026-08-10)
 
 **파이프라인 — 이제 크론이 둘이다**
 

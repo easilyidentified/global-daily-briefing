@@ -12,7 +12,8 @@
 
 - 리포: `easilyidentified/global-daily-briefing` (public, 기본 브랜치 `main`)
 - 배포: GitHub Pages — https://easilyidentified.github.io/global-daily-briefing/
-- 로컬 작업 폴더: `C:\Users\user\Documents\global-daily-briefing`
+- 로컬 작업 폴더: **데스크탑마다 경로가 다르다.** 이 리포를 클론한 폴더가 곧 작업 폴더다.
+  (폴더 이름도 `global-daily-briefing`이 아닐 수 있다. 경로를 문서에 박아두지 말 것)
 
 ---
 
@@ -109,7 +110,10 @@
 
 ## 세션 운영 규칙 (사용자 지시)
 
-1. 모든 작업은 `C:\Users\user\Documents\global-daily-briefing`에서 한다.
+1. 모든 작업은 이 리포를 클론한 로컬 폴더 안에서 한다 (경로·폴더명은 데스크탑마다 다르다).
+   새 데스크탑에서는 `git config user.name easilyidentified` /
+   `git config user.email 115207132+easilyidentified@users.noreply.github.com`를
+   **리포 안에서(--local)** 먼저 잡는다. 커밋 저자가 히스토리와 어긋나지 않게.
 2. 진척 상황은 **`PROGRESS.md`에 세션 단위로 append**한다.
 3. **세션 종료 시 리포지토리 전반을 점검한다.** 맥락 파일만 보지 말 것.
    최소한 다음을 확인하고, 어긋난 것이 있으면 고친 뒤 커밋·푸시한다.
