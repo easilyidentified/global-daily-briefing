@@ -104,6 +104,10 @@
 
     .stream-foot{font-size:12px!important;line-height:1.75!important}
 
+    /* '함께 읽으면 좋은 기사' 박스 — 태그와 제목을 한 열로 쌓는다 */
+    .stream-rel{padding:13px 14px 14px!important}
+    .stream-relgrid{grid-template-columns:1fr!important;gap:9px 0!important;justify-items:start!important}
+
     /* 고정 버튼이 출처 링크와 관련기사 박스를 덮고 있었다. 줄이고 구석으로 붙인다. */
     .fab{right:12px!important;bottom:16px!important;gap:8px!important}
     .fab button{width:44px!important;height:44px!important}
@@ -297,14 +301,21 @@
                   </div>
                 </sc-for>
               </div>
-              <sc-if value="{{ e.hasFoot }}" hint-placeholder-val="{{ true }}">
-                <div class="stream-foot" style="margin-top:15px;padding-top:13px;border-top:1px solid #cfcdcb;font-size:13px;line-height:1.7;color:#605d5d">
-                  <sc-if value="{{ e.hasSources }}" hint-placeholder-val="{{ true }}">
-                    <div>출처 · <sc-for list="{{ e.sources }}" as="s" hint-placeholder-count="2"><span>{{ s.lead }}</span><a href="{{ s.url }}" target="_blank" rel="noreferrer" style="color:#605d5d;text-decoration:underline">{{ s.name }}</a></sc-for></div>
-                  </sc-if>
-                  <sc-if value="{{ e.hasRel }}" hint-placeholder-val="{{ true }}">
-                    <div>함께 읽기 · {{ e.relType }} · <a href="{{ e.relUrl }}" target="_blank" rel="noreferrer" style="color:#605d5d;text-decoration:underline">{{ e.relTitle }}</a> {{ e.relSourceLabel }}</div>
-                  </sc-if>
+              <!-- 출처는 이메일과 같은 한 줄. -->
+              <sc-if value="{{ e.hasSources }}" hint-placeholder-val="{{ true }}">
+                <div class="stream-foot" style="margin-top:15px;padding-top:13px;border-top:1px solid #cfcdcb;font-size:13px;line-height:1.7;color:#605d5d">출처 · <sc-for list="{{ e.sources }}" as="s" hint-placeholder-count="2"><span>{{ s.lead }}</span><a href="{{ s.url }}" target="_blank" rel="noreferrer" style="color:#605d5d;text-decoration:underline">{{ s.name }}</a></sc-for></div>
+              </sc-if>
+              <!-- 함께 읽기는 이메일의 한 줄이 아니라 기존 박스를 유지한다(사용자 결정). -->
+              <sc-if value="{{ e.hasRel }}" hint-placeholder-val="{{ true }}">
+                <div class="stream-rel" style="margin-top:20px;border:1px solid #cfcdcb;background:#eceae8;padding:15px 18px 16px">
+                  <div style="font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;padding-bottom:11px;border-bottom:1px solid #dedcda">함께 읽으면 좋은 기사</div>
+                  <div class="stream-relgrid" style="margin-top:13px;display:grid;grid-template-columns:auto 1fr;gap:0 14px;align-items:start">
+                    <span style="display:inline-block;padding:4px 10px;font-size:11px;font-weight:700;letter-spacing:.08em;background:{{ e.relTagBg }};color:{{ e.relTagFg }}">{{ e.relType }}</span>
+                    <div>
+                      <a href="{{ e.relUrl }}" target="_blank" rel="noreferrer" style="font-size:16px;font-weight:700;line-height:1.35;letter-spacing:-.01em;text-decoration:none;border-bottom:2px solid #cfcdcb;padding-bottom:2px;text-wrap:pretty">{{ e.relTitle }}</a>
+                      <div style="margin-top:9px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">{{ e.relSource }}</div>
+                    </div>
+                  </div>
                 </div>
               </sc-if>
             </div>
@@ -517,6 +528,8 @@ class Component extends DCLogic {
     const b = this.state.extra[this.state.code] || d.COUNTRIES[this.state.code];
     const cat = this.state.cat;
     const catLabel = { politics: '정치', economy: '경제', other: '기타' };
+    /* '함께 읽으면 좋은 기사' 박스의 관계 태그 색 */
+    const relTag = { '유사': ['#dedcda', '#201e1d'], '반박': ['#ec3013', '#f3f2f2'], '다름': ['#201e1d', '#f3f2f2'] };
     const anchor = b ? b.latestDate : this.latestDate(d);
     const gap = ds => Math.round((Date.parse(anchor.replace(/\./g, '-')) - Date.parse(ds.replace(/\./g, '-'))) / 86400000);
 
@@ -615,9 +628,10 @@ class Component extends DCLogic {
           sources: srcs.map((s, k) => ({ ...s, lead: k ? ' · ' : '' })),
           hasSources: srcs.length > 0,
           hasRel: !!r.title,
-          hasFoot: srcs.length > 0 || !!r.title,
           relType: r.type || '유사', relTitle: r.title || '', relUrl: r.url || '#',
-          relSourceLabel: r.source ? `(${r.source})` : ''
+          relSource: r.source || '',
+          relTagBg: (relTag[r.type] || relTag['유사'])[0],
+          relTagFg: (relTag[r.type] || relTag['유사'])[1]
         };
       })
     };
