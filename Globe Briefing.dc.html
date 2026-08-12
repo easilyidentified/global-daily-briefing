@@ -34,16 +34,11 @@
     .sec-head{flex-wrap:wrap!important;gap:6px 12px!important}
     .sec-head h2{font-size:13px!important;letter-spacing:.1em!important}
 
-    /* '오늘의 주요 이슈' 표 — 3열을 카드 한 장으로 접는다.
-       분야 태그가 맨 위, 그 아래 Why, 그 아래 So What 순.
-       헤더 행을 숨기는 대신 각 칸이 data-label을 제 라벨로 띄운다. */
-    .issue-table thead{display:none!important}
-    .issue-table tr{display:block!important;padding:18px 0 20px!important;border-bottom:1px solid #dedcda!important}
-    .issue-table td{display:block!important;width:auto!important;padding:0!important;border:none!important}
-    .issue-table td[data-label]::before{content:attr(data-label);display:block;
-      font:700 10px/1.4 Archivo,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6b6866;margin-bottom:6px}
-    .issue-table .c-why{margin-top:13px!important}
-    .issue-table .c-sowhat{margin-top:15px!important;padding-left:12px!important;border-left:2px solid #ec3013!important}
+    /* '오늘의 요약' 표 — 번호 + 내용 2열이라 접을 필요는 없고,
+       번호 열만 좁혀 본문 폭을 살린다. */
+    .issue-table .c-no{width:34px!important;font-size:13px!important;padding-top:13px!important}
+    .issue-table .c-sum{padding-top:13px!important;padding-bottom:13px!important}
+    .issue-table .c-sum>div:first-child{font-size:16px!important}
 
     /* 지구본 상단 바 — 날짜 박스를 걷어낸 뒤 남은 제목만 접히게 */
     .globe-top{padding:16px 18px!important;gap:12px!important}
@@ -100,16 +95,14 @@
                  gap:6px 12px!important;margin-bottom:12px!important}
     .stream-meta>div{margin:0!important}
     .stream-title{font-size:20px!important;line-height:1.3!important}
-    .stream-summary{font-size:14px!important;padding-left:12px!important}
+    .stream-summary{font-size:15px!important;line-height:1.6!important}
 
-    /* 맥락 패널 — 170px 라벨 열이 이미 좁아진 본문 안에서 또 넘쳤다 */
-    .stream-panel{grid-template-columns:1fr!important;gap:5px 0!important;padding:13px 0!important}
+    /* 라벨 열이 이미 좁아진 본문 안에서 또 넘친다. 라벨을 값 위로 올린다.
+       들여쓰기(맥락 4행의 padding-left)는 한 열이 되면 의미가 없어 죽인다. */
+    .stream-panel{grid-template-columns:1fr!important;gap:4px 0!important}
+    .stream-panel>span{padding-left:0!important}
 
-    .stream-src{gap:8px!important}
-    .stream-srclink{padding:10px 12px!important;font-size:10px!important;letter-spacing:.06em!important}
-
-    .stream-rel{padding:13px 14px 14px!important}
-    .stream-relgrid{grid-template-columns:1fr!important;gap:9px 0!important;justify-items:start!important}
+    .stream-foot{font-size:12px!important;line-height:1.75!important}
 
     /* 고정 버튼이 출처 링크와 관련기사 박스를 덮고 있었다. 줄이고 구석으로 붙인다. */
     .fab{right:12px!important;bottom:16px!important;gap:8px!important}
@@ -233,32 +226,11 @@
         </div>
       </div>
 
-      <div id="today-issues" style="margin-top:56px;scroll-margin-top:24px;display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding-bottom:12px;border-bottom:2px solid #201e1d">
-        <h2 style="margin:0;font-size:15px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">오늘의 주요 이슈</h2>
-        <span style="font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">Why &amp; So What</span>
-      </div>
-
-      <table class="issue-table" style="width:100%;border-collapse:collapse;margin-top:0">
-        <thead>
-          <tr>
-            <th style="text-align:left;padding:14px 16px 14px 0;width:120px;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;border-bottom:1px solid #cfcdcb">분야</th>
-            <th style="text-align:left;padding:14px 24px 14px 0;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;border-bottom:1px solid #cfcdcb">Why · 배경 원인</th>
-            <th style="text-align:left;padding:14px 0;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;border-bottom:1px solid #cfcdcb">So What · 향후 영향</th>
-          </tr>
-        </thead>
-        <tbody>
-          <sc-for list="{{ rows }}" as="r" hint-placeholder-count="6">
-            <tr id="{{ r.domId }}" onClick="{{ r.onClick }}" style="cursor:pointer;scroll-margin-top:24px;background:{{ r.rowBg }}" style-hover="background:#e6e4e2">
-              <td class="c-tag" style="padding:18px 16px 18px 0;border-bottom:1px solid #dedcda;vertical-align:top"><span style="display:inline-block;padding:3px 9px;font-size:11px;font-weight:700;letter-spacing:.06em;background:{{ r.tagBg }};color:{{ r.tagFg }}">{{ r.tag }}</span></td>
-              <td class="c-why" data-label="Why · 배경 원인" style="padding:18px 24px 18px 0;border-bottom:1px solid #dedcda;font-size:14px;line-height:1.55;vertical-align:top;text-wrap:pretty">{{ r.why }}</td>
-              <td class="c-sowhat" data-label="So What · 향후 영향" style="padding:18px 0 18px 0;border-bottom:1px solid #dedcda;font-size:14px;line-height:1.55;vertical-align:top;text-wrap:pretty">{{ r.soWhat }}</td>
-            </tr>
-          </sc-for>
-        </tbody>
-      </table>
-
-      <div class="sec-head" style="margin-top:72px;display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding-bottom:12px;border-bottom:2px solid #201e1d">
-        <h2 style="margin:0;font-size:15px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">분야별 주요 소식 및 맥락 분석</h2>
+      <!-- 이메일 브리핑과 같은 한 벌 구성 — 요약표(오늘) 다음에 카드.
+           다만 이메일처럼 정치·경제·기타를 세로로 쌓지 않고 탭으로 가른다.
+           사이트는 하루치가 아니라 과거 이슈까지 들고 있어 쌓으면 끝없이 길어진다. -->
+      <div id="today-issues" class="sec-head" style="margin-top:56px;scroll-margin-top:24px;display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding-bottom:12px;border-bottom:2px solid #201e1d">
+        <h2 style="margin:0;font-size:15px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">주요 이슈 · 맥락 분석</h2>
         <span style="font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">{{ streamLabel }}</span>
       </div>
 
@@ -278,7 +250,32 @@
         </div>
       </div>
 
-      <div style="border-left:2px solid #dedcda;margin-top:10px">
+      <!-- 오늘의 요약 — 이메일 첫 장의 요약표. 탭 카테고리의 오늘치만 싣는다.
+           번호(01·02)가 아래 카드의 번호와 같은 것을 가리킨다. -->
+      <sc-if value="{{ hasRows }}" hint-placeholder-val="{{ true }}">
+        <div class="map-head" style="display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;padding:30px 0 2px">
+          <span style="font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#ec3013">오늘의 요약</span>
+          <span style="font-size:11px;font-weight:600;letter-spacing:.12em;color:#9a9694">{{ rowsLabel }}</span>
+        </div>
+        <table class="issue-table" style="width:100%;border-collapse:collapse;margin-top:6px">
+          <tbody>
+            <sc-for list="{{ rows }}" as="r" hint-placeholder-count="2">
+              <tr id="{{ r.domId }}" onClick="{{ r.onClick }}" style="cursor:pointer;scroll-margin-top:24px;background:{{ r.rowBg }}" style-hover="background:#e6e4e2">
+                <td class="c-no" style="width:48px;padding:14px 0;border-top:1px solid #cfcdcb;font-size:15px;font-weight:700;line-height:1.45;vertical-align:top">{{ r.indexLabel }}</td>
+                <td class="c-sum" style="padding:14px 0;border-top:1px solid #cfcdcb;vertical-align:top">
+                  <div style="font-size:17px;line-height:1.45;font-weight:700;letter-spacing:-.01em;text-wrap:pretty">{{ r.title }}</div>
+                  <div style="margin-top:5px;font-size:14px;line-height:1.55;color:#605d5d;text-wrap:pretty">{{ r.meta }}</div>
+                </td>
+              </tr>
+            </sc-for>
+          </tbody>
+        </table>
+      </sc-if>
+      <sc-if value="{{ noRows }}" hint-placeholder-val="{{ false }}">
+        <div style="padding:28px 0 2px;font-size:13px;font-weight:600;color:#9a9694;text-wrap:pretty">이 분야는 오늘 수집된 이슈가 없습니다. 아래는 지난 브리핑입니다.</div>
+      </sc-if>
+
+      <div style="border-left:2px solid #dedcda;margin-top:28px">
         <sc-for list="{{ stream }}" as="e" hint-placeholder-count="4">
           <article class="stream-item" id="{{ e.domId }}" style="position:relative;display:grid;grid-template-columns:150px 1fr;gap:0 28px;padding:36px 0 40px 30px;border-bottom:1px solid #cfcdcb;scroll-margin-top:24px;background:{{ e.rowBg }}">
             <div class="stream-dot" style="position:absolute;left:-7px;top:44px;width:12px;height:12px;background:{{ e.dotBg }}"></div>
@@ -289,36 +286,27 @@
             </div>
             <div style="min-width:0">
               <h3 class="stream-title" style="margin:0;font-size:25px;line-height:1.24;font-weight:700;letter-spacing:-.02em;max-width:24em;text-wrap:pretty">{{ e.title }}</h3>
-              <p class="stream-summary" style="margin:14px 0 0;padding-left:16px;border-left:2px solid #ec3013;font-size:16px;line-height:1.6;font-weight:600;color:#ec3013;max-width:44em;text-wrap:pretty">{{ e.summary }}</p>
-              <div style="margin-top:26px;border-top:1px solid #dedcda">
-                <sc-for list="{{ e.panels }}" as="p" hint-placeholder-count="4">
-                  <div class="stream-panel" style="display:grid;grid-template-columns:170px 1fr;gap:0 24px;padding:15px 0;border-bottom:1px solid #dedcda;align-items:start">
-                    <div style="display:flex;align-items:baseline;gap:9px">
-                      <span style="font:700 10px/1.5 Archivo,sans-serif;letter-spacing:.1em;color:#a5a19f">{{ p.step }}</span>
-                      <span style="font-size:10px;font-weight:700;line-height:1.5;letter-spacing:.2em;text-transform:uppercase;color:{{ p.color }}">{{ p.label }}</span>
-                    </div>
-                    <p style="margin:0;font-size:14px;line-height:1.6;text-wrap:pretty">{{ p.text }}</p>
+              <p class="stream-summary" style="margin:12px 0 0;font-size:17px;line-height:1.68;color:#2d2b2b;max-width:44em;text-wrap:pretty">{{ e.summary }}</p>
+              <!-- ISSUE · 맥락 4행 · IMPACT — 이메일 카드의 라벨/값 표를 그대로 옮겼다.
+                   행마다 크기·들여쓰기·괘선이 달라 값은 뷰모델이 실어 보낸다. -->
+              <div style="margin-top:20px">
+                <sc-for list="{{ e.panels }}" as="p" hint-placeholder-count="6">
+                  <div class="stream-panel" style="display:grid;grid-template-columns:112px 1fr;gap:0 16px;padding:{{ p.pad }};border-top:{{ p.rule }};align-items:start">
+                    <span style="padding-left:{{ p.indent }};font-size:{{ p.lblSize }};font-weight:700;line-height:1.5;letter-spacing:{{ p.lblLS }};color:{{ p.lblColor }}">{{ p.label }}</span>
+                    <p style="margin:0;font-size:{{ p.size }};line-height:{{ p.lh }};color:{{ p.color }};max-width:44em;text-wrap:pretty">{{ p.text }}</p>
                   </div>
                 </sc-for>
               </div>
-              <div class="stream-src" style="margin-top:20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap">
-                <span style="font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#6b6866">출처</span>
-                <sc-for list="{{ e.sources }}" as="s" hint-placeholder-count="2">
-                  <a class="stream-srclink" href="{{ s.url }}" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:9px;background:#201e1d;color:#f3f2f2;padding:11px 15px;font:700 11px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none" style-hover="background:#ec3013;color:#f3f2f2">
-                    <span>{{ s.name }} 원문 보기</span>
-                  </a>
-                </sc-for>
-              </div>
-              <div class="stream-rel" style="margin-top:20px;border:1px solid #cfcdcb;background:#eceae8;padding:15px 18px 16px">
-                <div style="font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#6b6866;padding-bottom:11px;border-bottom:1px solid #dedcda">함께 읽으면 좋은 기사</div>
-                <div class="stream-relgrid" style="margin-top:13px;display:grid;grid-template-columns:auto 1fr;gap:0 14px;align-items:start">
-                  <span style="display:inline-block;padding:4px 10px;font-size:11px;font-weight:700;letter-spacing:.08em;background:{{ e.relTagBg }};color:{{ e.relTagFg }}">{{ e.relType }}</span>
-                  <div>
-                    <a href="{{ e.relUrl }}" target="_blank" rel="noreferrer" style="font-size:16px;font-weight:700;line-height:1.35;letter-spacing:-.01em;text-decoration:none;border-bottom:2px solid #cfcdcb;padding-bottom:2px;text-wrap:pretty">{{ e.relTitle }}</a>
-                    <div style="margin-top:9px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#6b6866">{{ e.relSource }}</div>
-                  </div>
+              <sc-if value="{{ e.hasFoot }}" hint-placeholder-val="{{ true }}">
+                <div class="stream-foot" style="margin-top:15px;padding-top:13px;border-top:1px solid #cfcdcb;font-size:13px;line-height:1.7;color:#605d5d">
+                  <sc-if value="{{ e.hasSources }}" hint-placeholder-val="{{ true }}">
+                    <div>출처 · <sc-for list="{{ e.sources }}" as="s" hint-placeholder-count="2"><span>{{ s.lead }}</span><a href="{{ s.url }}" target="_blank" rel="noreferrer" style="color:#605d5d;text-decoration:underline">{{ s.name }}</a></sc-for></div>
+                  </sc-if>
+                  <sc-if value="{{ e.hasRel }}" hint-placeholder-val="{{ true }}">
+                    <div>함께 읽기 · {{ e.relType }} · <a href="{{ e.relUrl }}" target="_blank" rel="noreferrer" style="color:#605d5d;text-decoration:underline">{{ e.relTitle }}</a> {{ e.relSourceLabel }}</div>
+                  </sc-if>
                 </div>
-              </div>
+              </sc-if>
             </div>
           </article>
         </sc-for>
@@ -527,23 +515,36 @@ class Component extends DCLogic {
     const all = d.SUPPORTED_COUNTRIES;
     const geo = all.find(c => c.code === this.state.code) || all[0];
     const b = this.state.extra[this.state.code] || d.COUNTRIES[this.state.code];
-    const tag = { politics: ['#201e1d', '#f3f2f2'], economy: ['#ec3013', '#f3f2f2'], other: ['#dedcda', '#201e1d'] };
-    const seen = {};
     const cat = this.state.cat;
-    const relTag = { '유사': ['#dedcda', '#201e1d'], '반박': ['#ec3013', '#f3f2f2'], '다름': ['#201e1d', '#f3f2f2'] };
+    const catLabel = { politics: '정치', economy: '경제', other: '기타' };
     const anchor = b ? b.latestDate : this.latestDate(d);
     const gap = ds => Math.round((Date.parse(anchor.replace(/\./g, '-')) - Date.parse(ds.replace(/\./g, '-'))) / 86400000);
+
+    /* 이메일 카드의 라벨/값 표. ISSUE·IMPACT는 굵고 괘선을 이고,
+       맥락 4행은 들여쓴 채 작게 깔린다. 값이 빈 행은 이메일과 같이 통째로 뺀다. */
+    const pKey = (label, text, lblColor) => ({
+      label, text, pad: '14px 0', rule: '1px solid #cfcdcb', indent: '0',
+      lblSize: '12px', lblLS: '.12em', lblColor, size: '17px', lh: '1.65', color: '#201e1d'
+    });
+    const pCtx = (label, text) => ({
+      label, text, pad: '6px 0', rule: 'none', indent: '14px',
+      lblSize: '11px', lblLS: '.08em', lblColor: '#6b6866', size: '14px', lh: '1.6', color: '#444141'
+    });
     const pool = !b ? [] : b.issues.map(n => ({
       key: n.id, category: n.category, date: n.date, isToday: n.date === anchor,
       title: n.title, summary: n.summary, sources: n.sources, related: n.related,
       panels: [
-        { step: '01', label: '배경 · 기존', text: n.context.background, color: '#6b6866' },
-        { step: '02', label: '문제 · 이슈 맥락', text: n.context.issueContext, color: '#6b6866' },
-        { step: '03', label: '질문 · 핵심 Q', text: n.context.coreQuestion, color: '#6b6866' },
-        { step: '04', label: '결론 · 이슈', text: n.context.resolution, color: '#6b6866' }
-      ]
+        pKey('ISSUE', n.why, '#6b6866'),
+        pCtx('기존', n.context.background),
+        pCtx('이슈 맥락', n.context.issueContext),
+        pCtx('핵심 Q', n.context.coreQuestion),
+        pCtx('이슈', n.context.resolution),
+        pKey('IMPACT', n.soWhat, '#ec3013')
+      ].filter(p => p.text)
     }));
     const today = !b ? [] : b.issues.filter(n => n.date === anchor);
+    /* 요약표는 탭을 따라간다 — 고른 분야의 '오늘'치만. 과거치는 아래 카드에만 있다. */
+    const todayCat = today.filter(n => n.category === cat);
     const desc = pool.filter(x => x.category === cat).sort((p, q) => q.date.localeCompare(p.date));
     const ordered = this.state.order === 'asc' ? desc.slice().reverse() : desc;
     const counts = { politics: 0, economy: 0, other: 0 };
@@ -577,19 +578,18 @@ class Component extends DCLogic {
       emptyBody: `${geo.name}(${geo.nameEn})의 브리핑은 아직 수집되지 않았습니다. AI 실시간 수집을 실행하면 정치·경제·기타 6대 이슈가 이 자리에 채워집니다.`,
       notice: this.state.notice,
       hasNotice: !!this.state.notice,
-      rows: today.map((n, i) => {
-        seen[n.category] = (seen[n.category] || 0) + 1;
-        return {
-          ...n, ...n.context,
-          indexLabel: String(i + 1).padStart(2, '0'),
-          tag: `${n.categoryLabel} ${seen[n.category]}`,
-          tagBg: tag[n.category][0], tagFg: tag[n.category][1],
-          /* 관계도에서 넘어온 점프가 착지하는 지점 */
-          domId: 'row-' + n.id,
-          rowBg: this.state.focus === n.id ? '#ffe9e5' : 'transparent',
-          onClick: () => this.jump({ key: n.id, category: n.category }, 'stream')
-        };
-      }),
+      rows: todayCat.map((n, i) => ({
+        title: n.title,
+        meta: `${catLabel[n.category] || n.categoryLabel} · ${n.soWhat || ''}`,
+        indexLabel: String(i + 1).padStart(2, '0'),
+        /* 관계도에서 넘어온 점프가 착지하는 지점 */
+        domId: 'row-' + n.id,
+        rowBg: this.state.focus === n.id ? '#ffe9e5' : 'transparent',
+        onClick: () => this.jump({ key: n.id, category: n.category }, 'stream')
+      })),
+      hasRows: todayCat.length > 0,
+      noRows: todayCat.length === 0,
+      rowsLabel: `${todayCat.length}건 · ${anchor}`,
       streamLabel: `${ordered.length}건 · 최신 ${anchor}`,
       tabs: [['politics', '정치'], ['economy', '경제'], ['other', '기타']].map(([id, label]) => {
         const on = cat === id;
@@ -601,7 +601,7 @@ class Component extends DCLogic {
       }),
       stream: ordered.map((x, i) => {
         const r = x.related || {};
-        const t = relTag[r.type] || relTag['유사'];
+        const srcs = x.sources || [];
         return {
           ...x,
           domId: 'issue-' + x.key,
@@ -611,8 +611,13 @@ class Component extends DCLogic {
           dotBg: x.isToday ? '#ec3013' : '#a5a19f',
           badge: x.isToday ? '오늘 브리핑' : `${gap(x.date)}일 전`,
           indexLabel: String(i + 1).padStart(2, '0'),
-          relType: r.type || '유사', relTitle: r.title || '', relUrl: r.url || '#', relSource: r.source || '',
-          relTagBg: t[0], relTagFg: t[1]
+          /* 이메일은 출처를 ' · '로 잇는다. 첫 항목만 구분자가 없다. */
+          sources: srcs.map((s, k) => ({ ...s, lead: k ? ' · ' : '' })),
+          hasSources: srcs.length > 0,
+          hasRel: !!r.title,
+          hasFoot: srcs.length > 0 || !!r.title,
+          relType: r.type || '유사', relTitle: r.title || '', relUrl: r.url || '#',
+          relSourceLabel: r.source ? `(${r.source})` : ''
         };
       })
     };
