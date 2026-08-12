@@ -47,6 +47,7 @@
 | `assets/email_banner.png` | 메일 상단 배너 (`cid:`로 인라인 첨부) |
 | `shots/`, `uploads/`, `_ds/` | 스크린샷·업로드 이미지·디자인 에셋 (약 2.7MB) |
 | `PIPELINE.md` | 파이프라인 설치·운영 안내 |
+| `ROADMAP.md` | **제품 방향** — 목표 고객, 예정 기능, 온톨로지 설계안. 아직 안 만든 것 |
 | `github.md` | 최신 동기화 스냅샷 (기존 관례 파일) |
 | `PROGRESS.md` | **세션별 진척 로그 (append)** |
 

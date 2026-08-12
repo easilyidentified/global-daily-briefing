@@ -42,6 +42,31 @@ function discTexture(inner, outer) {
 
 const clean = v => (typeof v === 'string' && v.indexOf('{{') === -1 && v.trim()) ? v.trim() : null;
 
+/* 달의 제자리. 좁은 화면에서는 아래에서 계산해 옮기므로 원본을 여기 남긴다. */
+const MOON_HOME = [2.95, -1.25, -2.3];
+
+/* 화면 비율별 무대 배치.
+   원근 카메라는 세로 화각(34°)을 고정하고 가로 화각만 비율을 따라 좁힌다.
+   그래서 386x836 폰에서는 가로로 보이는 폭이 데스크탑의 1/3로 줄고,
+   x=2.95에 있는 달과 그 앞의 우주선이 통째로 화면 밖으로 밀려난다.
+
+   카메라만 뒤로 빼서 맞추려면 거리를 5.25 → 22 까지 늘려야 하는데,
+   그러면 지구가 화면 높이의 15%짜리 점이 된다. 그래서 대신 배치를 눕힌다 —
+   세로로 긴 화면에는 세로로 긴 무대가 맞으므로, 우주에 뜬 것들을 지구 '옆'이
+   아니라 '아래'로 돌리고(spin) 원점 쪽으로 당긴 뒤(shrink),
+   카메라는 지구가 가로폭의 60%에 들어올 만큼만 뺀다.
+
+   달만 자리를 따로 잡는 이유: 세로 화면은 달이 놓인 깊이에서 가로로 ±1.9밖에
+   못 보여준다. 회전·축소 하나로 달을 화면 안에 넣으려면 축소를 0.62까지
+   내려야 하는데, 그러면 우주선이 지구 표면에 박힌다(원점 거리 1.10, 지구 반지름 1).
+   달은 고정된 물체이므로 비율별 자리를 직접 정하는 편이 정확하다. */
+const LAYOUT = {
+  wide: { camZ: 5.25, camY: 0.42, spin: 0, shrink: 1, moon: MOON_HOME },
+  /* 왼쪽 아래 — 가운데 정렬된 스크롤 안내 문구를 피해 앉힌다 */
+  narrow: { camZ: 11.8, camY: 0.42, spin: -50 * DEG, shrink: 0.8, moon: [-1.45, -1.6, -2.3] }
+};
+const NARROW_W = 768;   /* Globe Briefing.dc.html 의 미디어 쿼리와 같은 경계 */
+
 class GlobeStage extends HTMLElement {
   connectedCallback() {
     if (this._init) { cancelAnimationFrame(this._raf); this._raf = requestAnimationFrame(this.animate); if (this.ro) this.ro.observe(this); return; }
@@ -81,7 +106,8 @@ class GlobeStage extends HTMLElement {
     const w = this.clientWidth || 800, h = this.clientHeight || 600;
     this.scene = new THREE.Scene();
     this.camera = new THREE.PerspectiveCamera(34, w / h, 0.1, 100);
-    this.camera.position.set(0, 0.42, 5.25);
+    this._w = w; this._h = h;
+    this.camera.position.set(0, LAYOUT.wide.camY, LAYOUT.wide.camZ);
     this.camera.lookAt(0, 0, 0);
     this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     this.renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
@@ -131,8 +157,14 @@ class GlobeStage extends HTMLElement {
       return new THREE.CanvasTexture(c);
     })();
     this.moon = new THREE.Mesh(new THREE.SphereGeometry(0.17, 48, 48), new THREE.MeshStandardMaterial({ map: moonTex, roughness: 1, metalness: 0 }));
-    this.moon.position.set(2.95, -1.25, -2.3);
+    this.moon.position.fromArray(MOON_HOME);
     this.scene.add(this.moon);
+
+    /* 달을 만든 직후에 배치를 한 번 강제한다.
+       resize()는 크기가 그대로면 일찍 빠져나가는데, build()가 이미 _w/_h를
+       채워둔 탓에 첫 ResizeObserver 콜백이 그 가드에 걸려 통째로 걸러진다.
+       그러면 좁은 화면에서도 달과 카메라가 데스크탑 자리에 남는다. */
+    this.applyLayout(true);
 
     this.loadFlashes();
 
@@ -328,7 +360,7 @@ class GlobeStage extends HTMLElement {
 
   addFlash(f) {
     const accent = f.color || '#ec3013';
-    let anchor, holder;
+    let anchor, holder, home = null;
     if (f.kind === 'country') {
       /* 속보는 12개 마커 국가에 매이지 않는다. latlng를 주면 그 지점에 그대로 꽂힌다.
          (COORDS에만 의존하면 목록 밖 국가의 속보가 조용히 사라진다) */
@@ -339,7 +371,8 @@ class GlobeStage extends HTMLElement {
       holder = this.globe;
     } else {
       anchor = f.ship ? this.makeStarship() : new THREE.Object3D();
-      anchor.position.fromArray(f.position || [1.72, 0.42, -0.9]);
+      home = f.position || [1.72, 0.42, -0.9];
+      anchor.position.copy(this.placeDeepSpace(home, this.layout()));
       if (f.ship) anchor.lookAt(this.moon.position);
       holder = this.scene;
     }
@@ -396,7 +429,7 @@ class GlobeStage extends HTMLElement {
     });
     this.flashLayer.appendChild(chip);
 
-    this.flashes.push({ def: f, anchor, halo, core, chip, base: anchor.position.y, onGlobe: f.kind === 'country' });
+    this.flashes.push({ def: f, anchor, halo, core, chip, home, base: anchor.position.y, onGlobe: f.kind === 'country' });
   }
 
   makeStarship() {
@@ -494,6 +527,34 @@ class GlobeStage extends HTMLElement {
     this._w = w; this._h = h;
     this.camera.aspect = w / h; this.camera.updateProjectionMatrix();
     this.renderer.setSize(w, h, false);
+    this.applyLayout();
+  }
+
+  layout() { return (this._w || this.clientWidth || 800) <= NARROW_W ? LAYOUT.narrow : LAYOUT.wide; }
+
+  /* 깊은 우주에 놓인 것들(달·우주선)을 화면 비율에 맞는 자리로 옮긴다.
+     xy 평면에서 z축 둘레로 돌리고 원점 쪽으로 당길 뿐, 깊이(z)는 건드리지 않는다.
+     회전은 길이를 보존하므로 지구와의 거리 관계는 그대로 유지된다. */
+  placeDeepSpace(home, L) {
+    const [x, y, z] = home;
+    if (!L.spin) return new THREE.Vector3(x, y, z);
+    const c = Math.cos(L.spin), s = Math.sin(L.spin);
+    return new THREE.Vector3((x * c - y * s) * L.shrink, (x * s + y * c) * L.shrink, z);
+  }
+
+  applyLayout(force) {
+    const L = this.layout();
+    if (!force && L === this._layout) return;
+    this._layout = L;
+    this.camera.position.set(0, L.camY, L.camZ);
+    this.camera.lookAt(0, 0, 0);
+    if (this.moon) this.moon.position.fromArray(L.moon);
+    (this.flashes || []).forEach(fl => {
+      if (fl.onGlobe || !fl.home) return;
+      fl.anchor.position.copy(this.placeDeepSpace(fl.home, L));
+      if (fl.def.ship && this.moon) fl.anchor.lookAt(this.moon.position);
+      fl.base = fl.anchor.position.y;   /* stepFlashes 가 이 값을 기준으로 위아래로 흔든다 */
+    });
   }
 
   animate = () => {
