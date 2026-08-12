@@ -30,17 +30,45 @@ BANNER_PATH = os.path.join(os.path.dirname(__file__), "..", "assets", "email_ban
 BANNER_CID = "briefing-banner"
 BANNER_ALT = "세계의 이슈로 온톨로지를 구축합니다 · 글로벌 데일리 브리핑"
 
-# ── 다크(야간모드) 팔레트 ─────────────────────────────
-ACCENT     = "#ff5c77"   # 밝은 크림슨 (다크 배경용)
-INK        = "#e9edf4"   # 제목·본문 밝은 텍스트
-SUB        = "#969fb0"   # 보조 텍스트
-LINE       = "#2a3142"   # 얇은 구분선
-BG         = "#05070d"   # 페이지 바깥 배경(우주 블랙)
-CARD       = "#141824"   # 컨테이너 카드 배경
-SUMMARY_BG = "#241019"   # 핵심요약 박스(다크 크림슨 틴트)
-SOFT_BG    = "#1b2030"   # 함께읽기·푸터 블록
-CHIP_BG    = "#eef1f6"   # 카테고리 뱃지 배경(밝은 칩)
-CHIP_TX    = "#14171f"   # 뱃지 텍스트
+# ── Modernist 팔레트 ─────────────────────────────────
+# 출처: claude.ai Design 프로젝트 "Global-Daily-Briefing email redesign"
+# (projectId fde7ba93-63e7-4499-bf08-100cd9039c37) 의 briefing-email.html
+GROUND  = "#e4e1e1"   # 컨테이너 바깥 바탕
+CARD    = "#f8f4f4"   # 본문 컨테이너
+INK     = "#201e1d"   # 제목·강조 텍스트
+BODY    = "#2d2b2b"   # 기사 요약 본문
+SUB     = "#605d5d"   # 보조 텍스트·라벨
+SUB2    = "#444141"   # 맥락 4행 값
+LINE    = "#c9c5c5"   # 1px 얇은 선
+ACCENT  = "#ec3013"   # 포인트 레드
+FONT    = "'Helvetica Neue',Helvetica,Arial,'Apple SD Gothic Neo','Malgun Gothic',sans-serif"
+
+UNSUB_TO   = "kimgt0530@gmail.com"
+UNSUB_SUBJ = "%EA%B5%AC%EB%8F%85%20%ED%95%B4%EC%A7%80"   # '구독 해지'
+
+# f-string 안에서 중괄호를 이스케이프하지 않으려고 일반 문자열로 둔다.
+MSO_BLOCK = """<!--[if mso]>
+<style>body,table,td,div,span,a{font-family:Arial,sans-serif !important;}</style>
+<![endif]-->"""
+
+STYLE_BLOCK = """<style>
+  body{margin:0;padding:0;background:#e4e1e1;}
+  a{word-break:break-word;}
+  @media only screen and (max-width:620px){
+    .container{width:100% !important;}
+    .pad{padding-left:20px !important;padding-right:20px !important;}
+    .h1{font-size:28px !important;}
+    .ttl{font-size:21px !important;}
+    .lbl{display:block !important;width:auto !important;padding:13px 0 0 0 !important;}
+    .val{display:block !important;width:auto !important;padding:3px 0 14px 0 !important;border-top:0 !important;}
+    .lbl2{display:block !important;width:auto !important;padding:9px 0 0 16px !important;}
+    .val2{display:block !important;width:auto !important;padding:2px 0 8px 16px !important;}
+  }
+  @media (prefers-color-scheme:dark){
+    body,.ground{background:#2d2b2b !important;}
+  }
+</style>"""
+
 CATLABEL = {"politics": "정치", "economy": "경제", "other": "기타"}
 ORDER    = {"politics": 0, "economy": 1, "other": 2}
 
@@ -65,136 +93,199 @@ def render_html(country_code, data, banner_src=None):
     cname  = c.get("countryName", country_code)
     period = c.get("period", "")
 
-    # 매핑(요약): 3열 표 대신 세로 스택
+    # 번호는 카테고리마다 1부터 다시 센다. 요약표와 카드가 같은 번호를 가리킨다.
+    flat = [(cat, iss, n)
+            for cat in ("politics", "economy", "other")
+            for n, iss in enumerate(groups[cat], 1)]
+    n_today = len(flat)
+
+    # ── 오늘의 요약 ────────────────────────────────────
     map_rows = []
-    for cat in ("politics", "economy", "other"):
-        for n, iss in enumerate(groups[cat], 1):
-            tag = f"{CATLABEL[cat]} {n}"
-            map_rows.append(f'''
-      <tr><td style="padding:14px 0;border-bottom:1px solid {LINE};">
-        <span style="display:inline-block;background:{CHIP_BG};color:{CHIP_TX};font-size:12px;font-weight:700;padding:3px 9px;border-radius:4px;">{esc(tag)}</span>
-        <div style="margin-top:9px;font-size:15px;line-height:1.55;color:{SUB};"><span style="color:{ACCENT};font-weight:700;">Why</span>&nbsp; {esc(iss.get("why",""))}</div>
-        <div style="margin-top:5px;font-size:15px;line-height:1.55;color:{INK};font-weight:600;"><span style="color:{ACCENT};font-weight:700;">So What</span>&nbsp; {esc(iss.get("soWhat",""))}</div>
-      </td></tr>''')
+    for cat, iss, n in flat:
+        map_rows.append(f'''
+      <tr>
+        <td width="42" valign="top" style="width:42px;padding:13px 0;border-top:1px solid {LINE};font-size:15px;font-weight:700;color:{INK};line-height:1.45;mso-line-height-rule:exactly;">{n:02d}</td>
+        <td valign="top" style="padding:13px 0;border-top:1px solid {LINE};">
+          <div style="font-size:17px;line-height:1.45;font-weight:700;color:{INK};mso-line-height-rule:exactly;">{esc(iss.get("title",""))}</div>
+          <div style="margin-top:5px;font-size:14px;line-height:1.55;color:{SUB};">{esc(CATLABEL[cat])} &nbsp;·&nbsp; {esc(iss.get("soWhat",""))}</div>
+        </td>
+      </tr>''')
     mapping = "".join(map_rows)
 
+    # ── 기사 카드 ──────────────────────────────────────
     def card(iss, n):
         ctx = iss.get("context", {}) or {}
-        rows = []
+        ctx_rows = []
         for label, key in (("기존", "background"), ("이슈 맥락", "issueContext"),
                            ("핵심 Q", "coreQuestion"), ("이슈", "resolution")):
             val = ctx.get(key)
             if not val:
                 continue
-            rows.append(f'''
-        <div style="margin-bottom:9px;">
-          <div style="font-size:12px;font-weight:700;color:{ACCENT};letter-spacing:0.3px;margin-bottom:2px;">{esc(label)}</div>
-          <div style="font-size:15px;line-height:1.6;color:{INK};">{esc(val)}</div>
-        </div>''')
+            ctx_rows.append(f'''
+      <tr>
+        <td class="lbl2" width="104" valign="top" style="width:104px;padding:6px 10px 6px 28px;font-size:11px;font-weight:700;letter-spacing:0.08em;color:{SUB};line-height:1.5;mso-line-height-rule:exactly;">{esc(label)}</td>
+        <td class="val2" valign="top" style="padding:6px 0;font-size:14px;line-height:1.6;color:{SUB2};mso-line-height-rule:exactly;">{esc(val)}</td>
+      </tr>''')
+
         srcs = iss.get("sources", []) or []
         src_html = " · ".join(
             f'<a href="{esc(s.get("url",""))}" style="color:{SUB};text-decoration:underline;">{esc(s.get("name",""))}</a>'
             for s in srcs)
+        foot = f"출처 · {src_html}" if src_html else ""
+
         related = iss.get("related") or {}
-        rel_html = ""
         if related.get("title"):
-            rel_html = f'''
-        <div style="margin-top:12px;padding:10px 12px;background:{SOFT_BG};border-radius:6px;font-size:13px;line-height:1.5;color:{SUB};">
-          <span style="font-weight:700;color:{INK};">함께 읽기</span> ·
-          <a href="{esc(related.get("url",""))}" style="color:{SUB};text-decoration:underline;">{esc(related.get("title",""))}</a>
-          <span style="color:{SUB};">({esc(related.get("source",""))}·{esc(related.get("type",""))})</span>
-        </div>'''
-        return f'''
-      <tr><td style="padding:22px 0 4px 0;">
-        <div style="font-size:16px;font-weight:700;line-height:1.45;color:{INK};margin-bottom:11px;">{n}. {esc(iss.get("title",""))}</div>
-        <div style="background:{SUMMARY_BG};border-left:4px solid {ACCENT};border-radius:5px;padding:12px 14px;font-size:15px;line-height:1.6;font-weight:700;color:{INK};margin-bottom:14px;">{esc(iss.get("summary",""))}</div>
-        {"".join(rows)}
-        <div style="margin-top:10px;font-size:13px;color:{SUB};">출처 · {src_html}</div>{rel_html}
-      </td></tr>
-      <tr><td style="border-bottom:1px solid {LINE};font-size:0;line-height:0;">&nbsp;</td></tr>'''
+            rel = (f'함께 읽기 · {esc(related.get("type",""))} · '
+                   f'<a href="{esc(related.get("url",""))}" style="color:{SUB};text-decoration:underline;">'
+                   f'{esc(related.get("title",""))}</a> ({esc(related.get("source",""))})')
+            foot = f"{foot}<br>\n        {rel}" if foot else rel
 
-    sections = []
-    for cat, title in (("politics", "■ 정치"), ("economy", "■ 경제"), ("other", "■ 기타 이슈")):
-        if not groups[cat]:
-            continue
-        cards = "".join(card(iss, n) for n, iss in enumerate(groups[cat], 1))
-        sections.append(f'''
-      <tr><td style="padding:34px 0 0 0;"><div style="font-size:17px;font-weight:800;color:{INK};border-bottom:2px solid {INK};padding-bottom:7px;letter-spacing:0.5px;">{esc(title)}</div></td></tr>
-      {cards}''')
-    body_sections = "".join(sections)
-    preheader = f"{cname} 데일리 뉴스 브리핑 · {ld}"
-
-    banner = ""
-    if banner_src:
-        banner = f'''<tr><td style="padding:20px 20px 4px 20px;">
-        <a href="{SITE_URL}" style="display:block;text-decoration:none;border:0;">
-          <img src="{banner_src}" width="560" alt="{esc(BANNER_ALT)}" style="width:100%;max-width:560px;height:auto;display:block;border:0;outline:none;text-decoration:none;">
-        </a>
-        <div style="text-align:center;margin-top:9px;font-size:12px;letter-spacing:0.2px;color:{SUB};">
-          <a href="{SITE_URL}" style="color:{SUB};text-decoration:none;">배너 클릭하여 사이트 접속 ↗</a>
-        </div>
+        foot_row = ""
+        if foot:
+            foot_row = f'''
+      <tr><td colspan="2" style="padding:13px 0 0 0;border-top:1px solid {LINE};font-size:13px;line-height:1.7;color:{SUB};">
+        {foot}
       </td></tr>'''
 
-    html_doc = f'''<!DOCTYPE html>
-<html lang="ko"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="color-scheme" content="dark">
-<meta name="supported-color-schemes" content="dark">
-<title>{esc(preheader)}</title>
-<style>
-  body{{margin:0;padding:0;background:{BG};}}
-  a{{word-break:break-all;}}
-  @media only screen and (max-width:620px){{
-    .container{{width:100% !important;}}
-    .pad{{padding-left:18px !important;padding-right:18px !important;}}
-  }}
-</style></head>
-<body style="margin:0;padding:0;background:{BG};-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
-<div style="display:none;max-height:0;overflow:hidden;opacity:0;">{esc(preheader)}</div>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{BG};">
-  <tr><td align="center" style="padding:20px 10px;">
-    <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:600px;background:{CARD};border-radius:10px;overflow:hidden;font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','맑은 고딕',Roboto,'Helvetica Neue',Arial,sans-serif;">
-      {banner}
-      <tr><td class="pad" style="padding:26px 32px 18px 32px;border-bottom:2px solid {INK};">
-        <div style="font-size:22px;font-weight:800;color:{INK};letter-spacing:-0.5px;">DAILY NEWS SUMMARY BRIEFING</div>
-        <div style="margin-top:7px;font-size:13px;color:{SUB};line-height:1.5;"><span style="font-weight:700;color:{INK};">{esc(cname)}</span> &nbsp;·&nbsp; 기간 {esc(period)}</div>
-      </td></tr>
-      <tr><td class="pad" style="padding:8px 32px 8px 32px;">
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-          <tr><td style="padding:24px 0 4px 0;"><div style="font-size:13px;font-weight:700;color:{INK};text-transform:uppercase;letter-spacing:0.6px;">주요 이슈 요약 (Why → So What)</div></td></tr>
-          {mapping}
-          {body_sections}
-        </table>
-      </td></tr>
-      <tr><td class="pad" style="padding:22px 32px 30px 32px;background:{SOFT_BG};border-top:1px solid {LINE};">
-        <div style="font-size:12px;color:#9ca3af;line-height:1.6;">자동 생성 · {esc(ld)} 08:00 KST 브리핑 · Global Daily Briefing<br>데이터 출처: easilyidentified/global-daily-briefing</div>
-      </td></tr>
+        return f'''
+  <tr><td class="pad" style="padding:26px 32px 0 32px;">
+    <div style="font-size:13px;font-weight:700;letter-spacing:0.12em;color:{ACCENT};">{n:02d}</div>
+    <div class="ttl" style="margin-top:9px;font-size:23px;line-height:1.34;font-weight:700;color:{INK};letter-spacing:-0.4px;mso-line-height-rule:exactly;">{esc(iss.get("title",""))}</div>
+    <div style="margin-top:12px;font-size:17px;line-height:1.68;color:{BODY};mso-line-height-rule:exactly;">{esc(iss.get("summary",""))}</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:20px;">
+      <tr>
+        <td class="lbl" width="104" valign="top" style="width:104px;padding:14px 12px 14px 0;border-top:1px solid {LINE};font-size:12px;font-weight:700;letter-spacing:0.12em;color:{SUB};line-height:1.5;mso-line-height-rule:exactly;">ISSUE</td>
+        <td class="val" valign="top" style="padding:14px 0;border-top:1px solid {LINE};font-size:17px;line-height:1.65;font-weight:400;color:{INK};mso-line-height-rule:exactly;">{esc(iss.get("why",""))}</td>
+      </tr>{"".join(ctx_rows)}
+      <tr>
+        <td class="lbl" width="104" valign="top" style="width:104px;padding:14px 12px 14px 0;border-top:1px solid {LINE};font-size:12px;font-weight:700;letter-spacing:0.12em;color:{ACCENT};line-height:1.5;mso-line-height-rule:exactly;">IMPACT</td>
+        <td class="val" valign="top" style="padding:14px 0;border-top:1px solid {LINE};font-size:17px;line-height:1.65;font-weight:400;color:{INK};mso-line-height-rule:exactly;">{esc(iss.get("soWhat",""))}</td>
+      </tr>{foot_row}
     </table>
-  </td></tr>
-</table></body></html>'''
+  </td></tr>'''
 
-    # 플레인텍스트 대체본 (스팸 점수↓, 접근성↑)
-    lines = [f"세계의 이슈로 온톨로지를 구축합니다 · {SITE_URL}", "",
-             f"DAILY NEWS SUMMARY BRIEFING — {cname} · {period}", ""]
-    lines.append("[주요 이슈 요약]")
-    for cat in ("politics", "economy", "other"):
-        for n, iss in enumerate(groups[cat], 1):
-            lines.append(f"- {CATLABEL[cat]} {n} | Why: {iss.get('why','')} | So What: {iss.get('soWhat','')}")
-    for cat, title in (("politics", "■ 정치"), ("economy", "■ 경제"), ("other", "■ 기타 이슈")):
+    # ── 카테고리 섹션 ──────────────────────────────────
+    hr1 = f'''
+  <tr><td class="pad" style="padding:30px 32px 0 32px;"><div style="height:1px;background:{INK};font-size:0;line-height:0;">&nbsp;</div></td></tr>'''
+
+    sections = []
+    first = True
+    for cat, label in (("politics", "정치"), ("economy", "경제"), ("other", "기타 이슈")):
         if not groups[cat]:
             continue
-        lines += ["", title]
+        sections.append(f'''
+  <tr><td class="pad" style="padding:{38 if first else 44}px 32px 0 32px;">
+    <div style="height:2px;background:{INK};font-size:0;line-height:0;">&nbsp;</div>
+    <div style="padding-top:10px;font-size:14px;font-weight:700;letter-spacing:0.16em;color:{ACCENT};">{esc(label)} &nbsp;·&nbsp; {len(groups[cat])}건</div>
+  </td></tr>''')
+        first = False
+        cards = [card(iss, n) for n, iss in enumerate(groups[cat], 1)]
+        sections.append(hr1.join(cards))
+    body_sections = "".join(sections)
+
+    # ── 배너 ───────────────────────────────────────────
+    banner = ""
+    if banner_src:
+        banner = f'''
+  <tr><td class="pad" style="padding:30px 32px 0 32px;">
+    <a href="{SITE_URL}" style="display:block;text-decoration:none;border:0;">
+      <img src="{banner_src}" width="536" alt="{esc(BANNER_ALT)}" style="width:100%;max-width:536px;height:auto;display:block;border:0;outline:none;text-decoration:none;">
+    </a>
+  </td></tr>'''
+
+    head3 = ", ".join(esc(i.get("title", "")) for _, i, _n in flat[:3])
+    preheader = f"{esc(cname)} 오늘의 {n_today}건 — {head3}"
+
+    html_doc = f'''<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<title>{esc(cname)} 주요 이슈 브리핑 · {esc(ld)}</title>
+{MSO_BLOCK}
+{STYLE_BLOCK}
+</head>
+<body style="margin:0;padding:0;background:{GROUND};-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;">{preheader}</div>
+
+<table role="presentation" class="ground" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:{GROUND};">
+<tr><td align="center" style="padding:24px 8px;">
+
+<table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;background:{CARD};font-family:{FONT};">
+
+  <tr><td height="4" bgcolor="{ACCENT}" style="height:4px;line-height:4px;font-size:0;">&nbsp;</td></tr>
+
+  <tr><td class="pad" style="padding:28px 32px 0 32px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td align="left" style="font-size:12px;font-weight:700;letter-spacing:0.18em;color:{INK};">GLOBAL DAILY BRIEFING</td>
+      <td align="right" style="font-size:12px;font-weight:700;letter-spacing:0.06em;color:{SUB};">{esc(ld)}</td>
+    </tr></table>
+    <div class="h1" style="margin-top:18px;font-size:33px;line-height:1.16;font-weight:700;color:{INK};letter-spacing:-1px;mso-line-height-rule:exactly;">{esc(cname)}<br>주요 이슈 브리핑</div>
+    <div style="margin-top:14px;font-size:14px;line-height:1.55;color:{SUB};">{esc(period)} &nbsp;·&nbsp; 오늘 <span style="font-weight:700;color:{INK};">{n_today}건</span></div>
+    <div style="height:2px;background:{INK};margin-top:22px;font-size:0;line-height:0;">&nbsp;</div>
+    <div style="padding-top:10px;font-size:14px;font-weight:700;letter-spacing:0.16em;color:{INK};">오늘의 요약</div>
+  </td></tr>
+
+  <tr><td class="pad" style="padding:8px 32px 0 32px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{mapping}
+    </table>
+  </td></tr>
+{banner}{body_sections}
+
+  <tr><td class="pad" style="padding:44px 32px 0 32px;">
+    <div style="height:2px;background:{INK};font-size:0;line-height:0;">&nbsp;</div>
+    <div style="padding-top:22px;font-size:22px;line-height:1.35;font-weight:700;color:{INK};letter-spacing:-0.4px;mso-line-height-rule:exactly;">세계의 이슈로 온톨로지를 구축합니다</div>
+    <div style="margin-top:10px;font-size:15px;line-height:1.6;color:{SUB};">세계가 어떤 이슈로 연결되고 있을까요?<br>시각적으로 확인해보세요</div>
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:20px;"><tr>
+      <td bgcolor="{ACCENT}" style="padding:13px 18px;">
+        <a href="{SITE_URL}" style="display:block;font-family:{FONT};font-size:15px;font-weight:700;color:{CARD};text-decoration:none;">사이트 접속 ↗</a>
+      </td>
+    </tr></table>
+  </td></tr>
+
+  <tr><td class="pad" style="padding:34px 32px 30px 32px;">
+    <div style="height:1px;background:{LINE};font-size:0;line-height:0;">&nbsp;</div>
+    <div style="padding-top:16px;font-size:12px;line-height:1.7;color:{SUB};">
+      이 메일은 구독 신청한 주소로 발송됩니다. <a href="mailto:{UNSUB_TO}?subject={UNSUB_SUBJ}" style="color:{SUB};text-decoration:underline;">수신 거부</a>
+    </div>
+  </td></tr>
+</table>
+
+</td></tr>
+</table>
+</body>
+</html>'''
+
+    # ── 플레인텍스트 대체본 (스팸 점수↓, 접근성↑) ──────
+    lines = [f"GLOBAL DAILY BRIEFING — {cname} 주요 이슈 브리핑",
+             f"{period} · 오늘 {n_today}건", "", "[오늘의 요약]"]
+    for cat, iss, n in flat:
+        lines.append(f"{n:02d}. {iss.get('title','')}")
+        lines.append(f"    {CATLABEL[cat]} · {iss.get('soWhat','')}")
+    for cat, label in (("politics", "정치"), ("economy", "경제"), ("other", "기타 이슈")):
+        if not groups[cat]:
+            continue
+        lines += ["", f"[{label} · {len(groups[cat])}건]"]
         for n, iss in enumerate(groups[cat], 1):
-            lines.append(f"{n}. {iss.get('title','')}")
-            lines.append(f"   핵심 요약: {iss.get('summary','')}")
+            lines.append("")
+            lines.append(f"{n:02d}. {iss.get('title','')}")
+            lines.append(f"    {iss.get('summary','')}")
+            lines.append(f"    ISSUE  {iss.get('why','')}")
             ctx = iss.get("context", {}) or {}
-            for lb, k in (("기존", "background"), ("이슈 맥락", "issueContext"), ("핵심 Q", "coreQuestion"), ("이슈", "resolution")):
+            for lb, k in (("기존", "background"), ("이슈 맥락", "issueContext"),
+                          ("핵심 Q", "coreQuestion"), ("이슈", "resolution")):
                 if ctx.get(k):
-                    lines.append(f"   [{lb}] {ctx[k]}")
+                    lines.append(f"      [{lb}] {ctx[k]}")
+            lines.append(f"    IMPACT {iss.get('soWhat','')}")
             srcs = ", ".join(f"{s.get('name','')}({s.get('url','')})" for s in (iss.get("sources") or []))
             if srcs:
-                lines.append(f"   출처: {srcs}")
+                lines.append(f"    출처 · {srcs}")
+            rel = iss.get("related") or {}
+            if rel.get("title"):
+                lines.append(f"    함께 읽기 · {rel.get('type','')} · {rel.get('title','')} ({rel.get('source','')}) {rel.get('url','')}")
+    lines += ["", f"세계의 이슈로 온톨로지를 구축합니다 · {SITE_URL}"]
     text_doc = "\n".join(lines)
 
     subject = f"[뉴스 브리핑] {ld} {cname} 주요 이슈 브리핑"

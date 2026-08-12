@@ -106,6 +106,13 @@
   **이 파일은 커밋하지 말 것** (배너가 data URI로 박혀 400KB가 넘는다).
 - 의존성 없음 — `smtplib`/`email` 등 표준 라이브러리만 쓴다.
 - 메일 본문의 `why` / `soWhat`은 `context` 안이 아니라 **이슈 최상위 필드**다.
+- **발송 국가는 `BRIEFING_COUNTRY: KR` 하나뿐이다** (워크플로에 박혀 있다).
+  `issues.json`에는 4개국이 쌓이지만 메일로 나가는 건 대한민국 브리핑뿐.
+- **메일 디자인 원본은 리포가 아니라 claude.ai Design 프로젝트에 있다** —
+  `Global-Daily-Briefing email redesign` / `fde7ba93-63e7-4499-bf08-100cd9039c37`.
+  `DesignSync` 도구의 `list_files` / `get_file`로 받는다.
+  Modernist 팔레트(`#e4e1e1` 바탕 / `#f8f4f4` 컨테이너 / `#201e1d` 잉크 / `#ec3013` 레드)는
+  `send_briefing.py` 상단 상수에 옮겨져 있다. 디자인을 고칠 때 두 곳이 어긋나지 않게 할 것.
 
 ---
 

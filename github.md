@@ -7,6 +7,24 @@ date: 2026-08-12
 
 ### Updated in this project
 
+**메일 UI 개편안 적용 — Modernist (세션 22)**
+
+- `scripts/send_briefing.py`의 팔레트 상수와 `render_html()`만 교체.
+  데이터·워크플로·`send_via_gmail()`은 무수정
+- 다크(우주 블랙) → **Modernist**: `#e4e1e1` 바탕 / `#f8f4f4` 컨테이너 /
+  `#201e1d` 잉크 / `#ec3013` 레드, radius 0, 2px 괘선, 33px 제목
+- **개편안 원본은 리포가 아니라 claude.ai Design 프로젝트에 있다** —
+  `Global-Daily-Briefing email redesign` / `fde7ba93-63e7-4499-bf08-100cd9039c37`.
+  세션 21이 로컬 폴더로 적어둔 위치는 틀렸고, reflog 복구도 필요 없었다
+- 데이터 매핑 1:1 — 맥락 4행 라벨은 기존 코드와 문자열까지 동일해 스키마 무변경
+- 사용자 결정: **번호는 카테고리마다 1부터**(통번호 아님),
+  **`IMPACT` 본문 bold 제거**(`700`→`400`, `ISSUE`와 동일)
+- 배너는 `cid:` 인라인 첨부 유지 (개편안의 원격 URL 대신). 이미지 차단 환경 대비
+- **검증: KR 과거 10일치 전수 렌더 통과.** 08.10이 실제 경계 상황이었다 —
+  출처 2개 6건 + `related` 없음 2건 → 출처 6개 전부, "함께 읽기"만 4줄.
+  1건짜리 날은 빈 카테고리 섹션이 통째로 사라진다
+- 발송 국가는 `BRIEFING_COUNTRY: KR` 하나뿐임을 확인 (4개국이 쌓여도 메일은 KR만)
+
 **모바일 화면 대응 (세션 21)**
 
 - `mobile-ui` 브랜치에서 커밋 9개로 작업 후 squash 병합.
