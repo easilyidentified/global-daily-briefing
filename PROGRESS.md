@@ -104,7 +104,32 @@ DB 설계·구축  →  온톨로지 로직  →  그 다음에 UI
 - 08-12 수집분 24건이 여전히 `review: "pending"`
 - 발송 멱등 가드 없음 (세션 19부터 이월)
 
-> 미해결로 남긴 것: `사용자제공/` 폴더가 **빈 디렉터리로 남아 있다.**
+### 다음 세션 대기 — 메일 UI 개편안
+
+사용자가 `사용자제공/Global-Daily-Briefing email redesign/` 에 **메일 UI 변경안**을 넣어뒀다.
+**다음 세션에 적용한다.**
+
+| 파일 | 내용 |
+| --- | --- |
+| `briefing-email.html` | 개편된 메일 본문 (38KB). Modernist 시스템 — 밝은 바탕, 잉크/레드, 2px 괘선, 큰 활자 |
+| `assets/email_banner.png` | 배너 (참고용 사본) |
+| `data/issues.json` | KR 2026.08.12 (렌더 기준으로 쓴 사본) |
+| `_ds/`, `uploads/`, `github.md` | 디자인 에셋·스냅샷 |
+
+적용 대상은 `scripts/send_briefing.py` 의 렌더링부다. 옮길 때 주의할 점:
+
+- **`cid:` 참조가 0건이다.** 현재 발송은 배너를 `cid:` 로 인라인 첨부하는데
+  개편안에는 그 처리가 없다. 배너 삽입 방식을 맞춰야 한다
+- 개편안은 **KR 하루치로만** 그려졌다. 4개국 · 기사 0건 · 긴 제목 등
+  경계 상황에서 무너지지 않는지 확인이 필요하다
+- `why` / `soWhat` 은 `context` 안이 아니라 **이슈 최상위 필드**다
+- 로컬 미리보기: `DRY_RUN=1 python scripts/send_briefing.py` → `preview_<국가>.html`.
+  **이 산출물은 커밋 금지** (`.gitignore` 에 `preview_*.html` 있음)
+
+> 이 폴더는 리포에 추적하지 않는다. 반영이 끝나면 지워도 되는 스테이징 폴더다
+> (`.gitignore` 의 `claude-design-변경사항/` 과 같은 성격).
+
+> 앞서 있었던 일: `사용자제공/` 이 한때 **빈 디렉터리로 남아 있었다.**
 > 이번 세션에 `git add -A`로 잘못 딸려 들어갔다가 `git reset --soft` + `git restore --staged`로
 > 되돌렸는데, 이후 확인해보니 폴더 안 파일이 사라져 있었다(원인 불명 — `restore --staged`는
 > 인덱스만 건드리므로 작업 트리를 지우지 않는다).
