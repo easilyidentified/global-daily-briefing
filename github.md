@@ -27,6 +27,11 @@ date: 2026-08-12
 - 목표 고객(B2C 2종·B2B 2종), 예정 기능, 온톨로지 계층안(L0~L5)
 - **우선순위 1번은 DB.** 데이터가 곧 코드라 실시간 업로드가 불가능하고,
   public 리포에 `collect-prompt.md`와 축적 데이터가 열려 있어 B2B로 팔 물건이 없다
+- 선행 사례 조사(GDELT / Event Registry / EventKG / NewsReader+GRaSP / ClaimsKG /
+  IPTC / Palantir Foundry)와 설계 결정을 못박았다 — 국가는 루트가 아니라 필터,
+  T-Box/A-Box 분리, 이슈라인은 노드가 아니라 경로, 사건=백엔드·이슈라인=화면,
+  추출 원문 보존
+- **작업 순서: DB → 온톨로지 로직 → UI.** UI는 후순위이고 며칠간 사이트는 현재 그대로 둔다
 
 ### 이전 sync (2026-08-12)
 
