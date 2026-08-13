@@ -113,10 +113,190 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.08.13",
-      "period": "2026.08.12 08:00 ~ 2026.08.13 08:00",
-      "updatedAt": "2026.08.13 08:00 KST",
+      "latestDate": "2026.08.14",
+      "period": "2026.08.13 08:00 ~ 2026.08.14 08:00",
+      "updatedAt": "2026.08.14 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260814-1",
+          "date": "2026.08.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "8월 임시국회 본회의 결국 불발…책임 공방만 남아",
+          "summary": "13일 예정됐던 국회 본회의가 국민의힘 반대로 결국 무산됐다. 여야는 20일 재개최에는 공감했지만 무산 책임을 둘러싼 공방은 격화했다.",
+          "why": "국민의힘이 패스트트랙 심사기간을 330일에서 90일로 단축하는 국회법 개정안에 반대하며 13일 본회의 자체를 거부했다.",
+          "soWhat": "100건 넘는 민생법안 처리가 20일로 재차 미뤄졌고, 여야는 부동산 대책까지 끌어들이며 책임 전가를 이어갈 전망이다.",
+          "context": {
+            "background": "민주당은 주택공급 등 민생법안 처리를 위해 13일 본회의 개최를 요구해왔고 국민의힘은 20일 개최를 고수해왔다.",
+            "issueContext": "본회의 무산 후 민주당은 국민의힘 '몽니'를 비판했고, 국민의힘은 같은 날 발표된 부동산 대책으로 화살을 돌리며 역공에 나섰다.",
+            "coreQuestion": "여야는 20일 본회의에서 밀린 민생법안을 예정대로 처리할까요?",
+            "resolution": "여야는 20일 본회의 개최에는 공감대를 형성했지만 세부 협상은 아직 남아 있다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202608131056135716"
+            }
+          ],
+          "related": {
+            "title": "與野 '번복' 책임 돌리기…\"저의 있나\" vs \"정책 일관성 없어\"",
+            "source": "헤럴드경제",
+            "url": "https://biz.heraldcorp.com/article/10837473",
+            "type": "반박"
+          },
+          "topics": ["국회", "법안", "필리버스터", "본회의"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260814-2",
+          "date": "2026.08.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "이재명 대통령 지지율 49%…취임 후 최저치",
+          "summary": "엠브레인퍼블릭 등 4개 기관의 NBS 조사에서 이재명 대통령의 국정 긍정평가가 49%로 집계돼 취임 후 처음 40%대로 내려앉았다. 부정평가는 43%로 6%포인트 올랐다.",
+          "why": "2주 전 조사보다 긍정평가가 4%포인트 하락했으며, 특히 부동산 정책에 대한 부정 평가가 두드러졌다.",
+          "soWhat": "지지율 하락이 이어지면 8·13 부동산 대책 등 정부 주요 정책 추진 동력이 약해질 수 있다는 우려가 나온다.",
+          "context": {
+            "background": "NBS는 격주로 실시되는 전국지표조사로, 엠브레인퍼블릭·케이스탯리서치·코리아리서치·한국리서치가 공동 수행한다.",
+            "issueContext": "이번 조사에서 부동산 정책을 '못하고 있다'는 응답이 56%에 달해, 지지율 하락의 핵심 원인으로 꼽혔다.",
+            "coreQuestion": "지지율 하락세는 8·13 부동산 대책 발표 이후에도 이어질까요?",
+            "resolution": "NBS는 다음 조사에서 부동산 대책 발표 이후의 여론 변화를 확인할 예정이다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202608131128145753"
+            }
+          ],
+          "related": {
+            "title": "'취임 후 최저' 이 대통령 지지율 49%… 부동산 정책 \"못하고 있다\" 56%",
+            "source": "한국일보",
+            "url": "https://www.hankookilbo.com/news/article/A2026081311340000190",
+            "type": "다름"
+          },
+          "topics": ["지지율", "국정운영", "부동산", "여론조사"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260814-1",
+          "date": "2026.08.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "정부, 8·13 대책으로 수도권 23만호+α 공급…대출총량 2배 확대",
+          "summary": "정부가 8월 13일 수도권에 23만호+α를 공급하고 2030년까지 12만호+α를 추가 착공하는 부동산 대책을 발표했다. 대출총량도 기존의 2배로 확대한다.",
+          "why": "이재명 대통령이 부동산을 '시한폭탄'으로 규정하며 법과 제도를 바꿔서라도 공급 속도를 높이라고 지시한 데 따른 후속 조치다.",
+          "soWhat": "공공택지 첫삽까지 걸리는 기간을 68개월에서 37개월로 단축하는 등 속도에 방점을 뒀지만, 실행력 확보가 관건으로 남았다.",
+          "context": {
+            "background": "정부는 9·7 대책, 1·29 대책에 이어 이번이 세 번째 공급 대책이다.",
+            "issueContext": "남양주 덕소, 서울 강서 등 공공택지가 추가로 지정됐지만, 태릉CC·과천경마장 등 기존에도 거론됐던 부지가 재등장하면서 실효성 의문도 제기된다.",
+            "coreQuestion": "이번 대책은 공급 속도를 실제로 끌어올릴 수 있을까요?",
+            "resolution": "국토교통부는 연내 7.3만 가구 추가 택지를 공개할 계획이다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202608131830119859"
+            }
+          ],
+          "related": {
+            "title": "또 태릉CC·과천경마장…실행이 관건 [8·13 공급대책]",
+            "source": "헤럴드경제",
+            "url": "https://biz.heraldcorp.com/article/10840080",
+            "type": "반박"
+          },
+          "topics": ["부동산", "공급대책", "대출", "주택"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260814-2",
+          "date": "2026.08.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "국민·신한·우리·기업銀 대출사기 490억원…내부통제 구멍",
+          "summary": "KB국민·신한·우리·IBK기업은행에서 부동산 시행사·브로커·허위 분양자가 공모한 대출사기로 총 490억원 규모의 금융사고가 발생했다. 은행들은 사후에야 사기를 적발했다.",
+          "why": "부동산 시행사와 대출 브로커, 허위 분양자가 짜고 허위 분양계약서를 제출해 4개 은행에서 초과 대출을 받아냈다.",
+          "soWhat": "은행권 내부통제가 '사전 차단'이 아닌 '사후 적발'에 머물러 있다는 비판이 커지며 여신 심사 체계 전반의 점검 필요성이 제기됐다.",
+          "context": {
+            "background": "국민은행 36억원을 비롯해 신한·우리·IBK기업은행에서도 잇따라 유사한 대출사기 사고가 공시됐다.",
+            "issueContext": "할인분양 사기는 오래전부터 반복돼온 부동산 금융범죄 수법이지만, 시행사와 수분양자의 이면계약을 서류만으로 걸러내기 어려운 구조적 허점이 있다.",
+            "coreQuestion": "이번 사고를 계기로 은행권 여신 심사 체계가 실제로 개선될까요?",
+            "resolution": "금융당국은 은행권 전반의 대출 심사 프로세스 점검에 나설 것으로 예상된다."
+          },
+          "sources": [
+            {
+              "name": "브릿지경제",
+              "url": "https://www.viva100.com/article/20260813500713"
+            }
+          ],
+          "related": {
+            "title": "국민은행, 36억 규모 금융사고…신한·우리·IBK 등 총 490억 피해",
+            "source": "머니투데이",
+            "url": "https://www.mt.co.kr/finance/2026/08/12/2026081218233584163",
+            "type": "다름"
+          },
+          "topics": ["대출사기", "은행", "내부통제", "부동산"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260814-1",
+          "date": "2026.08.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "빌 게이츠 1년만에 방한…한성숙 총리와 SMR 협력 논의",
+          "summary": "빌 게이츠 게이츠재단 이사장이 1년 만에 방한해 14일 한성숙 국무총리와 회동한다. 소형모듈원전(SMR) 협력 확대가 핵심 의제로 꼽힌다.",
+          "why": "게이츠 이사장 측이 먼저 총리 면담을 제안했으며, AI·원전 협력 확대를 위해 정부와 국회, 재계 인사들을 두루 만날 예정이다.",
+          "soWhat": "게이츠 이사장은 14일 정기선 HD현대 회장과도 SMR 협력 방안을 논의해, 한국 기업의 SMR 공급망 참여가 가시화될지 주목된다.",
+          "context": {
+            "background": "게이츠 이사장은 지난해 8월에도 방한한 바 있으며, 이번이 1년 만의 재방문이다.",
+            "issueContext": "이재명 대통령도 최근 SMR·핵융합 등을 미래 성장동력 '7대 시드'로 꼽으며 정부 차원의 관심을 보이고 있다.",
+            "coreQuestion": "이번 방한이 한국 기업의 SMR 공급망 참여로 실제 이어질까요?",
+            "resolution": "게이츠 이사장은 정·재계 인사들과의 잇단 회동을 통해 구체적 협력 방안을 논의할 예정이다."
+          },
+          "sources": [
+            {
+              "name": "미주 한국일보",
+              "url": "http://www.koreatimes.com/article/20260813/1625499"
+            }
+          ],
+          "related": {
+            "title": "빌게이츠의 소형 원전 실험…獨언론 \"美전문가도 회의적\"",
+            "source": "더구루",
+            "url": "https://www.theguru.co.kr/news/article.html?no=27450",
+            "type": "반박"
+          },
+          "topics": ["SMR", "원전", "공급망", "협력"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260814-2",
+          "date": "2026.08.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "태풍 15호 찬홈, 독도 남쪽서 온대저기압으로 변질",
+          "summary": "제15호 태풍 '찬홈'이 13일 새벽 독도 남쪽 약 180km 해상에서 온대저기압으로 약화했다. 태풍 자체는 소멸했지만 동해안 비바람은 계속됐다.",
+          "why": "찬홈은 일본 도쿄 서쪽 해상에서 열대저압부로 약화한 뒤 동해로 진출하며 세력을 잃었다.",
+          "soWhat": "태풍은 소멸했지만 강원 동해안과 경북 북부, 울릉도·독도에는 13~14일 최대 80mm의 비가 이어질 것으로 예보됐다.",
+          "context": {
+            "background": "찬홈은 일본을 관통한 뒤 동해로 빠져나가며 한반도에는 직접 상륙하지 않았다.",
+            "issueContext": "동해상 풍랑특보가 이어지는 가운데, 17호 태풍 '낭카'가 24시간 내 추가로 발생할 것으로 예상돼 방재 당국은 긴장을 놓지 못하고 있다.",
+            "coreQuestion": "뒤이어 발생할 태풍 '낭카'도 한반도에 영향을 줄까요?",
+            "resolution": "기상청은 동해안 강풍·풍랑 특보를 유지하며 낭카의 발생과 진로를 예의주시하고 있다."
+          },
+          "sources": [
+            {
+              "name": "톱스타뉴스",
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16161103"
+            }
+          ],
+          "related": {
+            "title": "제15호 태풍 찬홈 소멸…한반도 비껴갔지만 끝난 게 아니다?",
+            "source": "한국경제",
+            "url": "https://www.hankyung.com/article/202608127765v",
+            "type": "다름"
+          },
+          "topics": ["태풍", "방재", "재난", "독도"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260813-1",
           "date": "2026.08.13",
@@ -1315,10 +1495,190 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.08.13",
-      "period": "2026.08.12 08:00 ~ 2026.08.13 08:00",
-      "updatedAt": "2026.08.13 08:00 KST",
+      "latestDate": "2026.08.14",
+      "period": "2026.08.13 08:00 ~ 2026.08.14 08:00",
+      "updatedAt": "2026.08.14 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260814-1",
+          "date": "2026.08.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "백악관 대변인 캐롤라인 레빗, 8월말 사임",
+          "summary": "캐롤라인 레빗 백악관 대변인이 8월 말 물러난다고 트럼프 대통령이 발표했다. 최연소 백악관 대변인이었던 레빗은 두 자녀 육아를 이유로 들었다.",
+          "why": "레빗은 지난 5월 둘째 출산 후 복귀했지만, 백악관 대변인직에 요구되는 상시 대응이 육아와 병행하기 어렵다고 판단했다.",
+          "soWhat": "트럼프 대통령은 레빗을 중간선거를 앞둔 '외부 자문역'으로 계속 활용하겠다고 밝혔지만, 후임 인선은 아직 정해지지 않았다.",
+          "context": {
+            "background": "레빗은 역대 최연소 백악관 대변인으로 트럼프 2기 행정부 출범과 함께 임명됐다.",
+            "issueContext": "백악관은 레빗이 출산휴가를 갔을 때처럼 부통령 밴스와 국무장관 루비오 등 각료들이 브리핑룸을 순환하는 체제로 돌아갈 가능성이 거론된다.",
+            "coreQuestion": "트럼프 대통령은 후임 대변인을 새로 지명할까요, 각료 순환 체제를 유지할까요?",
+            "resolution": "알리나 하바, 스티븐 밀러 등 여러 인물이 후보로 거론되고 있지만 아직 공식 지명은 없다."
+          },
+          "sources": [
+            {
+              "name": "Axios",
+              "url": "https://www.axios.com/2026/08/12/trump-karoline-leavitt-white-house-press"
+            }
+          ],
+          "related": {
+            "title": "Analysis: Why Karoline Leavitt might be impossible for Trump to replace",
+            "source": "CNN",
+            "url": "https://www.cnn.com/2026/08/13/politics/karoline-leavitt-leaving-white-house-trump",
+            "type": "다름"
+          },
+          "topics": ["백악관", "인사", "트럼프행정부", "대변인"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260814-2",
+          "date": "2026.08.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프 '트루스소셜 유료 조기접근' 헌법소원 피소",
+          "summary": "인터셉트 미디어와 언론자유재단이 트럼프 대통령의 트루스소셜 유료 조기접근 서비스가 수정헌법 1·5조를 위반한다며 소송을 제기했다. 월 최대 10만달러를 내면 시장을 움직이는 트럼프 게시물을 먼저 볼 수 있다.",
+          "why": "트럼프미디어가 7월 '트루스API' 유료 구독자에게 시장을 움직이는 게시물을 조기 제공하겠다고 밝히면서 논란이 시작됐다.",
+          "soWhat": "소송이 인용되면 트럼프 대통령의 공식 발표를 유료화하는 방식 자체가 제동이 걸릴 수 있어, 트럼프미디어의 수익 모델에도 영향을 줄 전망이다.",
+          "context": {
+            "background": "트럼프미디어는 월 6만~10만달러 수준의 트루스API 고객 계약을 10건 넘게 체결한 상태다.",
+            "issueContext": "원고 측은 대통령의 공식 발표에 대한 우선 접근권을 판매하는 행위가 시장을 움직이는 정보에 대한 공평한 접근을 훼손한다고 주장한다.",
+            "coreQuestion": "법원은 트럼프 대통령의 대통령직과 트럼프미디어 사업을 분리해서 판단할까요?",
+            "resolution": "트럼프미디어 측은 구독형 데이터 제공이 기술·금융정보·미디어 업계의 통상적 관행이라며 반박하고 있다."
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5929391/trump-truth-social-api-lawsuit"
+            }
+          ],
+          "related": {
+            "title": "Lawsuit targets Trump Media's paid Truth Social early access",
+            "source": "The Hill",
+            "url": "https://thehill.com/regulation/court-battles/6025465-trump-media-lawsuit-truth-social-api/",
+            "type": "다름"
+          },
+          "topics": ["트럼프", "트루스소셜", "표현의자유", "소송"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260814-1",
+          "date": "2026.08.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "S&P500 7800 첫 돌파…물가지표 진정에 사상 최고치",
+          "summary": "미국 S&P500 지수가 13일 0.65% 오른 7798.99로 마감하며 사상 처음 7800선에 근접했다. 7월 생산자물가(PPI) 상승세가 예상보다 완만해 9월 금리인상 우려가 후퇴했다.",
+          "why": "국제유가 하락과 물가 진정세가 겹치며 위험자산 선호 심리가 강해졌고, 반도체 등 대형 기술주가 지수 상승을 이끌었다.",
+          "soWhat": "시장에서는 연준이 다음달 금리를 동결할 것이라는 베팅이 강해졌지만, 밸류에이션이 닷컴버블 수준에 근접했다는 경고도 함께 나온다.",
+          "context": {
+            "background": "S&P500은 올 들어 약 13%, 나스닥은 14% 올랐으며 세 지수 모두 사상 최고 수준에서 거래되고 있다.",
+            "issueContext": "'버핏 지표'로 불리는 시가총액 대비 GDP 비율이 232%로 사상 최고 수준까지 오르며, 지난 150년 중 닷컴버블 때 단 한 번뿐이었던 극단적 밸류에이션에 근접했다는 분석이 나온다.",
+            "coreQuestion": "이번 물가 진정이 랠리를 뒷받침할까요, 밸류에이션 경고가 현실화할까요?",
+            "resolution": "연준은 다음 회의에서 물가·고용 지표를 종합해 금리 결정을 내릴 예정이다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-13-sp-500-record-high-nasdaq-dow-inflation-100145282.html"
+            }
+          ],
+          "related": {
+            "title": "The Stock Market Just Flashed a Warning Seen Only 5 Times Before. History Is Crystal Clear About What Happens Next.",
+            "source": "The Motley Fool",
+            "url": "https://www.fool.com/investing/2026/08/13/the-stock-market-just-flashed-a-warning-seen-only/",
+            "type": "반박"
+          },
+          "topics": ["증시", "물가", "연준", "실적"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260814-2",
+          "date": "2026.08.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "캐나다, 美 관세 50% 시행 임박에 '전방위 대응' 시사",
+          "summary": "마크 카니 캐나다 총리가 트럼프 행정부의 대캐나다 관세 50%가 8월 19일 발효되면 전방위 대응에 나서겠다고 경고했다. 협상이 이어지는 동안은 즉각 보복하지 않겠다는 입장이다.",
+          "why": "미국은 주류·유제품·시멘트·꿀·목재제품 등에 CUSMA 예외 없이 50% 관세를 부과할 예정이며, 에너지·감자·수산물·핵심광물은 대상에서 제외됐다.",
+          "soWhat": "카니 총리는 마감시한이 협상 전략의 일부일 수 있다고 언급해, 19일 이전 극적 타결 가능성도 배제하지 않고 있다.",
+          "context": {
+            "background": "캐나다 무역장관 도미닉 르블랑은 관세 시한을 앞두고 워싱턴에 머무르며 협상을 이어가고 있다.",
+            "issueContext": "오타와는 아직 어떤 품목·산업을 겨냥해 보복할지 밝히지 않았으며, 관세 발효 전에는 보복하지 않겠다는 방침이다.",
+            "coreQuestion": "캐나다는 8월 19일 이전에 미국과 극적으로 합의할까요?",
+            "resolution": "양국은 협상을 이어가고 있으며, 관세 시행 여부는 시한이 임박한 가운데 아직 불투명하다."
+          },
+          "sources": [
+            {
+              "name": "The Hill",
+              "url": "https://thehill.com/policy/international/5989460-carney-canada-ready-to-respond-trump-tariffs/"
+            }
+          ],
+          "related": {
+            "title": "'All strategic sectors' being discussed as new U.S. tariff threat looms, says Carney",
+            "source": "CBC",
+            "url": "https://www.cbc.ca/news/politics/us-canada-tariff-negotiations-august-deadline-9.7297274",
+            "type": "유사"
+          },
+          "topics": ["관세", "무역", "캐나다", "보복"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260814-1",
+          "date": "2026.08.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "美 서부 산불 확산…빅그래스 산불 58만 에이커 태워",
+          "summary": "오리건·아이다호 경계의 '빅그래스 산불'이 약 58만 에이커를 태우며 34% 진화율을 보이고 있다. 서부 전역에서 100건 가까운 산불이 300만 에이커 넘게 태웠다.",
+          "why": "극심한 고온·건조 날씨가 이어지며 산불 확산 속도가 예년보다 빨라졌고, 캐나다 브리티시컬럼비아주까지 산불이 번졌다.",
+          "soWhat": "오와이히카운티 등 일부 지역에는 3단계 대피명령이 내려졌고, 워싱턴주는 올해 가장 파괴적인 산불의 진화율을 높이는 데 주력하고 있다.",
+          "context": {
+            "background": "올해 미국에서는 지금까지 4만6509건의 산불이 발생해 640만 에이커 이상을 태웠으며, 이는 10년 평균의 126%·155% 수준이다.",
+            "issueContext": "3만명 넘는 소방 인력과 640개 넘는 진화대가 투입됐고, 브리티시컬럼비아주는 州 전역에 비상사태를 선포했다.",
+            "coreQuestion": "서부 산불 시즌은 언제쯤 정점을 지날까요?",
+            "resolution": "당국은 고온건조한 날씨가 이어지는 한 산불 확산 위험이 계속될 것으로 보고 있다."
+          },
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "url": "https://www.pbs.org/newshour/nation/thousands-evacuated-as-wildfires-burn-across-western-u-s-and-canada"
+            }
+          ],
+          "related": {
+            "title": "What are the health impacts of wildfire smoke amid 'apocalyptic' air quality levels?",
+            "source": "KUNC",
+            "url": "https://www.kunc.org/regional-news/2026-08-02/what-are-the-health-impacts-of-wildfire-smoke-amid-apocalyptic-air-quality-levels",
+            "type": "다름"
+          },
+          "topics": ["산불", "재난", "대피", "기후"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260814-2",
+          "date": "2026.08.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "인간 뇌세포 1개, AI 신경망 뺨치는 연산능력 확인",
+          "summary": "미국 연구팀이 인간 대뇌피질 뉴런 하나가 심층 인공신경망에 맞먹는 복잡한 연산을 수행할 수 있다는 연구 결과를 국립과학원회보(PNAS)에 발표했다. 인간 뉴런은 다른 포유류보다 훨씬 복잡한 정보처리 단위로 확인됐다.",
+          "why": "연구팀은 뇌세포의 물리적 구조와 연산 능력을 연결하는 체계적인 분석틀을 개발해 이 같은 결론에 도달했다.",
+          "soWhat": "이번 발견은 인간이 언어·상상·수학 같은 고차원 능력을 갖게 된 이유를 설명하는 단서가 될 수 있어, 향후 AI 설계와 뇌질환 연구에도 영향을 줄 전망이다.",
+          "context": {
+            "background": "기존 신경과학은 뉴런을 단순한 온오프 스위치에 가까운 정보처리 단위로 취급해왔다.",
+            "issueContext": "연구팀은 인간 대뇌피질 뉴런이 다른 포유류의 뉴런보다 훨씬 정교한 '생물학적 마이크로칩'에 가깝다는 점을 확인했다.",
+            "coreQuestion": "이번 발견은 실제로 차세대 AI 설계에 활용될까요?",
+            "resolution": "연구팀은 이번 프레임워크를 통해 뇌가 어떻게 사고·학습·인지를 만들어내는지 더 깊이 규명하겠다는 계획이다."
+          },
+          "sources": [
+            {
+              "name": "SciTechDaily",
+              "url": "https://scitechdaily.com/a-single-human-neuron-is-far-more-powerful-than-scientists-thought/"
+            }
+          ],
+          "related": {
+            "title": "Neuroscientists have vastly underestimated brain cells' computing power",
+            "source": "Scientific American",
+            "url": "https://www.scientificamerican.com/article/neuroscientists-have-vastly-underestimated-brain-cells-computing-power/",
+            "type": "다름"
+          },
+          "topics": ["뇌과학", "AI", "연구", "신경과학"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260813-1",
           "date": "2026.08.13",
@@ -2502,10 +2862,190 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.08.13",
-      "period": "2026.08.12 08:00 ~ 2026.08.13 08:00",
-      "updatedAt": "2026.08.13 08:00 KST",
+      "latestDate": "2026.08.14",
+      "period": "2026.08.13 08:00 ~ 2026.08.14 08:00",
+      "updatedAt": "2026.08.14 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260814-1",
+          "date": "2026.08.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "마싱루이, 성매매·가족부패로 '쌍개' 처분…정치국원 3번째 낙마",
+          "summary": "신화통신은 14일 마싱루이 전 정치국원이 당적·공직을 모두 박탈당하는 '쌍개' 처분을 받고 검찰에 이첩됐다고 보도했다. 처분은 지난달 30일 정치국 회의에서 결정됐다.",
+          "why": "중앙기율검사위는 마싱루이가 정치·조직·청렴 기율을 위반하고 인사에 부당 개입했으며 성 상납 등에도 연루됐다고 밝혔다.",
+          "soWhat": "마싱루이 낙마로 24명의 정치국원 중 3명이 물러나면서, 시진핑 4연임을 앞둔 반부패 사정이 최고위층까지 파고들고 있음이 다시 확인됐다.",
+          "context": {
+            "background": "마싱루이는 우주공학 전문 기술관료 출신으로 CASC 사장·CNSA 국장을 거쳐 2021년 말 신장 당서기에 올랐다가 지난해 7월 면직됐다.",
+            "issueContext": "조사 결과 마싱루이는 자신과 친인척의 인사 특혜, 재산 저가 매입 지원 등에 관여한 것으로 드러났다.",
+            "coreQuestion": "마싱루이 낙마는 21차 당대회를 앞둔 추가 숙청의 신호탄이 될까요?",
+            "resolution": "사건은 검찰로 이첩돼 형사 절차가 진행될 예정이다."
+          },
+          "sources": [
+            {
+              "name": "인사이트",
+              "url": "https://www.insight.co.kr/news/563083"
+            }
+          ],
+          "related": {
+            "title": "뇌물부터 성 상납도 받았다…부패로 추락한 中 '항공우주 영웅'",
+            "source": "이데일리",
+            "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05372646645514520",
+            "type": "다름"
+          },
+          "topics": ["반부패", "정치국", "낙마", "숙청"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260814-2",
+          "date": "2026.08.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "\"다음 숙청 대상은?\"…中 반부패 정보 파는 '찌라시 암시장' 기승",
+          "summary": "시진핑 정권의 반부패 사정이 이어지는 가운데, 다음 조사 대상 간부를 예측해 유료로 정보를 파는 온라인 사설 단톡방이 기승을 부리고 있다. 고급 정보방은 참가비가 최고 399위안에 달한다.",
+          "why": "감찰 대상 간부 정보가 사전에 새면 당사자가 증거를 인멸하거나 자산을 빼돌릴 시간을 벌 수 있어, 이를 노린 정보 거래가 음성적으로 이뤄지고 있다.",
+          "soWhat": "당국이 '두더지 잡기'식으로 단속에 나서고 있지만, 방을 수시로 폐쇄·재개설하는 수법으로 감시망을 피하고 있어 근절이 쉽지 않다.",
+          "context": {
+            "background": "반부패 사정이 역대 최대 규모로 확대되며 지난해에만 총 98만3000명의 관료가 조사를 받았다.",
+            "issueContext": "단톡방 운영자들은 간부의 사진·이력서만 올리거나 발음이 비슷한 암호 같은 단서를 던지는 방식으로 당국 단속을 피하고 있다.",
+            "coreQuestion": "이 같은 정보 암시장은 반부패 사정이 계속되는 한 근절될 수 있을까요?",
+            "resolution": "당국은 온라인 단속을 이어가고 있지만 암시장은 폐쇄와 재개설을 반복하며 명맥을 유지하고 있다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20260813000381"
+            }
+          ],
+          "related": {
+            "title": "'숙청 정치'로 4연임 노리는 시진핑…中 권력지형 다시 짠다",
+            "source": "한국경제",
+            "url": "https://www.hankyung.com/article/2026081300661",
+            "type": "다름"
+          },
+          "topics": ["반부패", "암시장", "정보유출", "숙청"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260814-1",
+          "date": "2026.08.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "상하이증시, AI 훈풍에 부동산까지 '꿈틀'…베이징 규제 완화 겹쳐",
+          "summary": "12일 상하이·선전 증시에서 4100개 넘는 종목이 오르며 AI·광섬유·CPO 관련주가 강세를 보였다. 베이징이 주택 구매 제한을 추가로 완화하면서 부동산 관련주도 함께 올랐다.",
+          "why": "베이징시가 5환 밖 상업용 주택 무제한 구매를 허용하는 등 정책 기대감이 커지며 투자심리를 지지했다.",
+          "soWhat": "위안화도 달러당 6.7882위안으로 소폭 절상되며 투자심리 개선에 힘을 보탰지만, 부동산 실수요 회복은 아직 불투명하다.",
+          "context": {
+            "background": "상하이·선전 거래대금은 2조1672억위안을 기록했으며 AI 관련 기술주가 최근 수개월간 랠리를 주도해왔다.",
+            "issueContext": "베이징시는 8월 9일부터 사회보험을 2년 이상 납부한 거주자에 한해 5환 밖 주택을 무제한 구매할 수 있도록 규제를 완화했다.",
+            "coreQuestion": "베이징의 규제 완화는 실제 주택 거래량 회복으로 이어질까요?",
+            "resolution": "일부 인기 단지는 반응을 보였지만, 5환 외곽 프로젝트 등은 아직 뚜렷한 변화가 없는 것으로 전해졌다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20260812001077"
+            }
+          ],
+          "related": {
+            "title": "중국 베이징, 부동산 규제 또 낮췄는데…시장 회복은 요원",
+            "source": "이데일리",
+            "url": "https://www.edaily.co.kr/News/Read?newsId=03968806642266336&mediaCodeNo=257",
+            "type": "반박"
+          },
+          "topics": ["증시", "AI", "부동산", "베이징"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260814-2",
+          "date": "2026.08.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中 7월 수출 23.9%↑…한국산 수입은 두 배로",
+          "summary": "중국 해관총서는 7월 수출액이 3978억5000만달러로 전년 동월보다 23.9% 늘었다고 발표했다. 시장 전망치를 웃돌았지만 6월 증가율(27.0%)보다는 둔화됐다.",
+          "why": "AI 투자 확대와 반도체 수요 증가에 더해, 미국의 추가 관세를 앞두고 제조업체들이 대미 수출을 서둘렀다.",
+          "soWhat": "한국으로부터의 수입이 97.78% 급증하며 AI 서버·HBM 등 첨단 반도체 수요가 중국의 대한국 의존도를 다시 키우고 있음을 보여준다.",
+          "context": {
+            "background": "7월 대미 수출은 17.0% 늘어난 419억3440만달러, 대미 수입은 15.3% 늘어난 139억3340만달러를 각각 기록했다.",
+            "issueContext": "한국산 수입은 310억4600만달러로 전년 대비 97.78% 급증해, AI 서버·HBM·첨단 반도체 소재 수요 확대가 배경으로 꼽힌다.",
+            "coreQuestion": "이 같은 대한국 수입 급증세는 하반기에도 이어질까요?",
+            "resolution": "해관총서는 다음 달에도 월간 무역 통계를 통해 추세를 확인할 예정이다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202608071321579448"
+            }
+          ],
+          "related": {
+            "title": "中 7월 수출, 전년比 24%↑…韓 상품 수입은 '두배' 늘었다",
+            "source": "아이뉴스24",
+            "url": "http://inews24.com/view/1992931",
+            "type": "유사"
+          },
+          "topics": ["수출", "무역", "반도체", "공급망"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260814-1",
+          "date": "2026.08.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "태풍 '돌핀' 잔재, 베이징까지 북상…폭우 적색경보",
+          "summary": "제13호 태풍 '돌핀'이 남긴 비구름대가 내륙으로 북상하며 베이징에 폭우 적색경보가 발령됐다. 후베이·산둥·허베이·허난 등은 4급 홍수 비상대응에 들어갔다.",
+          "why": "저장성에 상륙한 돌핀이 약화한 뒤에도 거대한 비구름대를 남기며 장시·안후이·후베이를 거쳐 화북까지 영향을 미쳤다.",
+          "soWhat": "베이징시는 24시간 비상근무 체제를 가동해 팡산·다싱 등 위험지역 주민 대피에 나섰다.",
+          "context": {
+            "background": "돌핀은 9일 저장성 타이저우에 최대풍속 초속 42m로 상륙해 100만명 넘는 대피를 촉발했다.",
+            "issueContext": "베이징에는 12일 새벽부터 13일까지 최대 200mm 넘는 폭우가 예보되며 팡산·다싱·퉁저우 등에 폭우 적색경보가 내려졌다.",
+            "coreQuestion": "돌핀 잔재로 인한 화북 지역 홍수 피해는 어디까지 확산될까요?",
+            "resolution": "당국은 위험지역 주민 대피와 강우·수위 모니터링을 강화하며 대응하고 있다."
+          },
+          "sources": [
+            {
+              "name": "이데일리",
+              "url": "https://www.edaily.co.kr/News/Read?newsId=04546086645546336"
+            }
+          ],
+          "related": {
+            "title": "100만명 긴급대피...태풍 '돌핀' 중국 상륙, 상하이 400㎜ 물폭탄",
+            "source": "머니투데이",
+            "url": "https://www.mt.co.kr/world/2026/08/10/2026081014255048486",
+            "type": "유사"
+          },
+          "topics": ["태풍", "방재", "재난", "홍수"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260814-2",
+          "date": "2026.08.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "中 대졸자 1270만명 쏟아지는데…청년실업률 18.9%",
+          "summary": "중국의 2026년도 대학 졸업생이 1270만명으로 역대 최다를 기록한 가운데, 8월 기준 16~24세 청년실업률(재학생 제외)이 18.9%로 전체 실업률의 3배를 넘어섰다.",
+          "why": "대졸자 쏠림이 심한 전통 산업이 AI로 빠르게 대체되면서 청년층의 취업 문턱이 갈수록 높아지고 있다.",
+          "soWhat": "배달·공유차량 등 임시·유연고용 인구가 올해 3억2000만명까지 늘어날 것으로 예상되며, '탕핑(눕기)'·'바이란(포기)' 같은 구직 포기 현상도 확산되고 있다.",
+          "context": {
+            "background": "올해 중국 대졸자는 1270만명으로 지난해보다 48만명 늘어 역대 최대를 기록했다.",
+            "issueContext": "유연고용 인구는 지난해 2억8000만명에서 올해 3억2000만명으로 늘어 전체 예상 노동인구의 44%에 달할 전망이다.",
+            "coreQuestion": "정부의 채용 지원책이 청년실업률을 실제로 끌어내릴 수 있을까요?",
+            "resolution": "교육부 등 8개 부처는 5~12월 '국가 채용 캠페인'을 벌이며 채용 기업에 1인당 1500위안의 보조금을 지급하고 있다."
+          },
+          "sources": [
+            {
+              "name": "SBS뉴스",
+              "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008664388"
+            }
+          ],
+          "related": {
+            "title": "\"청년 실업률 21% 쇼크\" 후폭풍... 中 국유기업·빅테크 채용시장 '총동원령'",
+            "source": "전자신문",
+            "url": "https://www.etnews.com/20260606000022",
+            "type": "다름"
+          },
+          "topics": ["청년실업", "취업난", "고용", "대졸자"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260813-1",
           "date": "2026.08.13",
@@ -3688,10 +4228,190 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.08.13",
-      "period": "2026.08.12 08:00 ~ 2026.08.13 08:00",
-      "updatedAt": "2026.08.13 08:00 KST",
+      "latestDate": "2026.08.14",
+      "period": "2026.08.13 08:00 ~ 2026.08.14 08:00",
+      "updatedAt": "2026.08.14 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260814-1",
+          "date": "2026.08.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "일본 국기훼손죄법 시행…최고 징역 2년",
+          "summary": "국기를 훼손하는 행위를 처벌하는 일본 국기손괴등처벌법이 13일 시행됐다. 공연히 국기를 손괴·제거·오손하면 2년 이하 징역 또는 20만엔 이하 벌금에 처해진다.",
+          "why": "다카이치 사나에 총리가 취임 전부터 제창해온 법으로, 자민·유신·국민민주·참정 4당이 공동 발의해 지난달 17일 성립했다.",
+          "soWhat": "시행 전날 도쿄변호사회가 폐지를 촉구하는 등 위헌 논란이 계속되며, 실제 기소·수사 여부를 둘러싼 갈등이 이어질 전망이다.",
+          "context": {
+            "background": "국기손괴죄 신설은 다카이치 총리가 취임 전부터 제창해 자민·유신 연립합의서에도 담겼다.",
+            "issueContext": "국회 심의 과정에서 헌법이 보장하는 '표현의 자유' 침해와 확대해석 우려가 지속적으로 제기됐다.",
+            "coreQuestion": "이 법은 실제 기소로 이어져 위헌 소송으로 번질까요?",
+            "resolution": "법무성은 표현의 자유를 부당하게 침해하지 않도록 하는 규정을 함께 뒀다고 설명했다."
+          },
+          "sources": [
+            {
+              "name": "共同通信(Infoseek)",
+              "url": "https://news.infoseek.co.jp/article/kyodo_1460287607556047326/"
+            }
+          ],
+          "related": {
+            "title": "国旗損壊罪は「違憲無効になるべき運命」、東京弁護士会が施行前日に廃止訴え",
+            "source": "弁護士ドットコム",
+            "url": "https://www.bengo4.com/c_1009/n_20770/",
+            "type": "반박"
+          },
+          "topics": ["국기손괴죄", "다카이치", "표현의자유", "입법"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260814-2",
+          "date": "2026.08.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 내각 지지율 48.4%…3개월 연속 하락",
+          "summary": "지지통신이 6~9일 실시한 8월 여론조사에서 다카이치 내각 지지율이 전월보다 0.6%포인트 내린 48.4%를 기록했다. 3개월 연속 하락세지만 낙폭은 크지 않았다.",
+          "why": "7월 국회 후반부에 물가 대책보다 국기손괴죄·황실전범 개정 등에 집중한 점이 지지율 하락의 배경으로 꼽힌다.",
+          "soWhat": "지지 이유도 '정책 기대'에서 '다른 내각보다 나아서'로 바뀌며, 적극적 지지에서 소거법적 소극 지지로 성격이 변하고 있다.",
+          "context": {
+            "background": "다카이치 내각은 지난해 가을 출범 당시 65%에 육박하는 지지율을 기록했다.",
+            "issueContext": "마이니치신문 조사에서는 지지율이 41%까지 급락하는 등 조사기관별 편차도 커지고 있다.",
+            "coreQuestion": "지지율 하락세는 가을 임시국회 전에 진정될까요?",
+            "resolution": "내각은 물가 대책을 최우선 과제로 재차 강조하며 지지율 방어에 나설 것으로 보인다."
+          },
+          "sources": [
+            {
+              "name": "日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOUA1354P0T10C26A8000000/"
+            }
+          ],
+          "related": {
+            "title": "高市内閣支持率が大幅急落...「安定飛行からフェーズが変わった」積極支持から消去法の消極支持",
+            "source": "J-CAST(Yahoo!ニュース)",
+            "url": "https://news.yahoo.co.jp/articles/c4e6a4b1f4958e837e8b9d88387ac4178be1288c",
+            "type": "다름"
+          },
+          "topics": ["지지율", "다카이치", "내각", "여론조사"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260814-1",
+          "date": "2026.08.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "소니-TSMC, 구마모토 이미지센서 합작 최종계약…1조엔 투자",
+          "summary": "소니와 TSMC가 11일 차세대 이미지센서 합작사 설립 최종계약을 체결했다고 발표했다. 정부 보조금을 포함해 구마모토현에 총 1조엔 규모를 투자하며 2029년 양산을 목표로 한다.",
+          "why": "AI 관련 수요 확대에 대응해 소니의 센서 적층 기술과 TSMC의 첨단 반도체 양산 기술을 결합하기로 했다.",
+          "soWhat": "합작사는 애플 아이폰용 고성능 카메라 센서를 주력으로 공급할 전망이며, 외자 유치로 일본 내 반도체 생산 기반이 한층 두꺼워지고 있다.",
+          "context": {
+            "background": "소니는 약 4650억엔, TSMC는 약 2820억엔을 각각 출자하며 소니가 60%, TSMC가 40% 지분을 갖는다.",
+            "issueContext": "정부 보조금 검토분까지 합치면 총 투자 규모는 약 1조엔에 이를 것으로 예상된다.",
+            "coreQuestion": "이번 투자는 일본 반도체 생태계 전반의 외자 유치로 이어질까요?",
+            "resolution": "양사는 2029년 양산 개시를 목표로 구마모토에서 합작사 설립 절차를 진행할 예정이다."
+          },
+          "sources": [
+            {
+              "name": "日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOUC107NX0Q6A810C2000000/"
+            }
+          ],
+          "related": {
+            "title": "ソニー×TSMC、熊本で1兆円投資へ――次世代イメージセンサーで「Physical AI」を狙う",
+            "source": "note(Semiconductor Geek)",
+            "url": "https://note.com/loyal_myrtle1528/n/n67c4715dd82c",
+            "type": "다름"
+          },
+          "topics": ["반도체", "투자", "소니", "TSMC"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260814-2",
+          "date": "2026.08.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "일본 쌀값 6주 연속 하락…5kg 3198엔",
+          "summary": "일본 농림수산성에 따르면 7월27일~8월2일 전국 슈퍼 쌀 평균가격(5kg)이 3198엔으로 전주보다 113엔 내리며 6주 연속 하락했다. 생산자들은 채산성 악화를 우려하고 있다.",
+          "why": "민간 재고가 적정선을 크게 웃도는 243만톤까지 쌓이면서 유통업체들이 신곡 매입 자금을 확보하려 재고를 헐값에 방출하고 있다.",
+          "soWhat": "소비자에게는 반가운 소식이지만, 생산자들은 5kg 2000엔대까지 떨어지면 채산이 맞지 않아 폐업이 속출할 수 있다고 우려한다.",
+          "context": {
+            "background": "브랜드쌀은 3230엔으로 전체 판매량의 81%를 차지하며, 블렌드쌀은 3068엔까지 내렸다.",
+            "issueContext": "사료용 벼의 주식용 전환 확대, 풍작, 정부 비축미 방출 지연, 수입쌀 전환 등이 복합적으로 가격 하락을 이끌었다.",
+            "coreQuestion": "쌀값 하락세는 생산자 이탈로 이어져 오히려 장기적 공급 불안을 낳을까요?",
+            "resolution": "정부는 비축미 매입·재정 지원 등 대응 방안을 검토하고 있는 것으로 알려졌다."
+          },
+          "sources": [
+            {
+              "name": "時事通信",
+              "url": "https://www.jiji.com/jc/article?k=2026080700897&g=eco"
+            }
+          ],
+          "related": {
+            "title": "コメ価格「5キロ3000円割れ」が現実に…生産者は悲鳴",
+            "source": "デイリー新潮(Yahoo!ニュース)",
+            "url": "https://news.yahoo.co.jp/articles/d53a1862eec8b657916badbbcdfbe7b1af681dd4",
+            "type": "반박"
+          },
+          "topics": ["쌀값", "농가", "물가", "생산자"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260814-1",
+          "date": "2026.08.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "구마모토 지진 사망 39명…여진 계속 속 대피소 3684명",
+          "summary": "지난달 28일 발생한 규모 7.1의 '레이와8년 구마모토지진' 관련 사망자가 13일 오후 2시 기준 재해관련사 의심 사례를 포함해 39명으로 집계됐다. 대피소에는 3684명이 머물고 있다.",
+          "why": "지진은 우키시·히카와정에서 최대 진도 7을 기록했으며, 2016년 구마모토지진 이후 10년 3개월 만에 다시 진도 7이 관측됐다.",
+          "soWhat": "여진이 대체로 잦아드는 추세지만 13일에도 규모 4.5 등 지진이 잇따르며 활동이 여전히 활발해, 주민 불안이 계속되고 있다.",
+          "context": {
+            "background": "이온몰 구마모토(가시마정) 폭발사고, 닛폰제지 야쓰시로공장 굴뚝 붕괴 등 대규모 피해가 확인됐다.",
+            "issueContext": "상하수도·전기 등 생활 기반시설 피해도 계속되고 있으며, 10일 기준 6092명이던 대피자는 13일 3684명으로 줄었다.",
+            "coreQuestion": "여진 활동은 언제쯤 완전히 진정될까요?",
+            "resolution": "기상청은 지진 활동이 대국적으로 완만히 줄고 있지만 당분간 활발한 상태가 이어질 것으로 보고 있다."
+          },
+          "sources": [
+            {
+              "name": "NHK",
+              "url": "https://news.web.nhk/newsweb/na/nd-20260813de43574"
+            }
+          ],
+          "related": {
+            "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に6092人避難",
+            "source": "NHK",
+            "url": "https://news.web.nhk/newsweb/na/nd-20260810de43067",
+            "type": "다름"
+          },
+          "topics": ["지진", "방재", "재난", "여진"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260814-2",
+          "date": "2026.08.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "오봉 귀성 러시 절정…중앙도 하행 최대 45km 정체",
+          "summary": "13일 오봉 연휴 첫날을 맞아 전국 고속도로 하행선이 정체 절정을 맞았다. 오전 도호쿠도 구키IC 부근 19km, 도메이고속 에비나SA 부근 15km 등 곳곳에서 정체가 빚어졌다.",
+          "why": "오봉 연휴 하행 정체는 8일과 13일 두 차례로 나뉘어 절정을 이루도록 예측됐으며, 13일이 기간 중 최다인 29회의 정체가 예보됐다.",
+          "soWhat": "오후에는 주오도 하행이 최대 45km, 도호쿠도가 최대 35km까지 정체가 늘어날 것으로 예보돼 귀성객의 이동 시간이 더 길어질 전망이다.",
+          "context": {
+            "background": "올해 오봉 기간(8월7일~16일) 10km 이상 정체는 지난해보다 91회 많은 436회로 예보됐다.",
+            "issueContext": "상행 정체는 15일 저녁 절정을 맞을 것으로 예보돼 있어, 귀성과 귀경 양쪽 모두 극심한 혼잡이 예상된다.",
+            "coreQuestion": "우천 등 변수가 겹치면 정체는 예보보다 더 심해질까요?",
+            "resolution": "NEXCO 등은 실시간 정체 정보를 제공하며 분산 이동을 당부하고 있다."
+          },
+          "sources": [
+            {
+              "name": "FNN(Yahoo!ニュース)",
+              "url": "https://news.yahoo.co.jp/articles/d654ecba83ffa99ec43618cc8e951691ad88ef31"
+            }
+          ],
+          "related": {
+            "title": "お盆の帰省ラッシュがピークに 東名高速や名神高速で大規模渋滞の可能性",
+            "source": "ライブドアニュース",
+            "url": "https://news.livedoor.com/topics/detail/32055397/",
+            "type": "유사"
+          },
+          "topics": ["오봉", "교통", "정체", "귀성"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260813-1",
           "date": "2026.08.13",
