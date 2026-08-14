@@ -113,10 +113,190 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.08.14",
-      "period": "2026.08.13 08:00 ~ 2026.08.14 08:00",
-      "updatedAt": "2026.08.14 08:00 KST",
+      "latestDate": "2026.08.15",
+      "period": "2026.08.14 08:00 ~ 2026.08.15 08:00",
+      "updatedAt": "2026.08.15 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260815-1",
+          "date": "2026.08.15",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "이진숙 '5·18 재조명 포럼' 강행 파장…민주당, 제명 결의안 제출",
+          "summary": "국민의힘 이진숙 의원이 13일 '5·18 민주화운동의 재조명' 국회공개포럼을 강행하자 여야를 막론한 비판이 쏟아졌다. 민주당은 의원 전원 명의로 제명 촉구 결의안을 제출했다.",
+          "why": "이 의원과 새역사국민운동이 공동 주최한 포럼이 5·18을 '학술을 빙자해 모독했다'는 반발을 낳으면서, 국민의힘 내부에서도 토론회 강행이 부적절했다는 지적이 나왔다.",
+          "soWhat": "제명 결의안이 국회 본회의 표결까지 갈지는 불투명하지만, 광복절 전후 정국에서 역사 인식 공방이 여야 대치의 새 뇌관으로 떠올랐다.",
+          "context": {
+            "background": "이진숙 의원은 페이스북에 '헌법 전문에 넣겠다는 5·18을 토론도 하지 않겠다는 것은 어불성설'이라며 포럼 강행 이유를 밝혔다.",
+            "issueContext": "박균택 민주당 원내부대표 등은 국회 의안과에 '5·18 왜곡·폄훼 이진숙 국회의원 제명 촉구 결의안'을 제출했고, 전남·광주 시민사회도 제명과 법적 처벌을 촉구하고 나섰다.",
+            "coreQuestion": "제명 결의안은 실제 본회의 표결까지 이어질까요?",
+            "resolution": "국민의힘 지도부도 토론회의 부적절성을 일부 인정했지만, 이 의원은 '김정은 환영도 이만큼 비판받았겠느냐'며 반발을 굽히지 않고 있다."
+          },
+          "sources": [
+            {
+              "name": "오마이뉴스",
+              "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003259218&PAGE_CD=N0002&BLCK_NO=&CMPT_CD=M0147"
+            }
+          ],
+          "related": {
+            "title": "'5·18 포럼' 野도 고개 숙였지만…이진숙 \"김정은 환영도 이런 비난받을까\"",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202608141207240774",
+            "type": "반박"
+          },
+          "topics": ["5·18", "국회", "제명", "역사왜곡"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260815-2",
+          "date": "2026.08.15",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "민주당 8·17 전당대회 D-2…정청래 \"김민석, 부동산 뭘 했나\"",
+          "summary": "17일 민주당 전당대회를 앞두고 정청래 후보가 김민석 후보를 겨냥해 부동산 공급 부진 책임론을 제기했다. 호남 표심을 둘러싼 후보 간 공방도 격화하고 있다.",
+          "why": "정 후보는 김 후보가 국무총리로서 지난 1년간 부동산 공급을 위해 한 일이 무엇이냐며 'LH 파악도 제대로 못했다'고 직격했다.",
+          "soWhat": "정부의 8·13 공급대책 발표 직후 열리는 전당대회인 만큼, 새 지도부의 부동산 정책 노선이 향후 당정 관계에도 영향을 줄 전망이다.",
+          "context": {
+            "background": "이번 전당대회는 김민석·고민정·정청래·김보미·송영길 5명이 출마했으며 2028년 총선을 지휘할 당대표를 뽑는다.",
+            "issueContext": "여론조사에서는 김민석 후보가 전국·호남·서울 지지율에서 모두 앞서는 것으로 나타났지만, 정청래 후보 측은 부동산 이슈로 막판 반전을 노리고 있다.",
+            "coreQuestion": "부동산 공방이 8·17 전당대회 표심에 실제 영향을 미칠까요?",
+            "resolution": "당권주자들은 17일 전당대회 결과 발표를 앞두고 수도권·호남 표심을 잡기 위한 막판 유세에 집중하고 있다."
+          },
+          "sources": [
+            {
+              "name": "비즈니스포스트",
+              "url": "https://www.businesspost.co.kr/BP?command=article_view&num=444601"
+            }
+          ],
+          "related": {
+            "title": "與 8·17 전당대회 D-4…당권주자들 일제히 수도권 표심 공략",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202608131956565299",
+            "type": "다름"
+          },
+          "topics": ["전당대회", "주택", "당권", "경선"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260815-1",
+          "date": "2026.08.15",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "정부, 반도체·이차전지 규제 풀어 4.2조원 투자 조기 집행",
+          "summary": "정부가 13일 반도체·이차전지·바이오 분야 현장 규제를 개선해 4조2800억원 규모 투자를 앞당기는 '기업투자·혁신 지원방안'을 발표했다. 용인 반도체 클러스터 공장 증설 허가도 간소화한다.",
+          "why": "투자 수요는 있지만 규제에 막혀 대기 중이던 프로젝트를 신속 가동하기 위해 구윤철 부총리 주재로 비상경제본부 회의를 열어 대책을 마련했다.",
+          "soWhat": "용인 클러스터 2조5000억원 등 주요 프로젝트가 조기 집행되며, 초혁신경제·녹색산업 등 추가 투자대책은 3분기 중 추가로 나올 예정이다.",
+          "context": {
+            "background": "정부는 팹 증설 시 공사 중단 부담을 낮추고 이차전지 리사이클링 기업의 산업단지 입주를 허용하는 등 대기 중이던 규제를 우선 정비했다.",
+            "issueContext": "투자 규모는 이차전지 1000억원, 용인 반도체 클러스터 2조5000억원, 반도체 실증설비 8000억원, 바이오 5300억원 등 총 4조2800억원 수준이다.",
+            "coreQuestion": "이번 규제완화가 실제 투자 조기 집행으로 이어질까요?",
+            "resolution": "정부는 3분기 중 초혁신경제 선도프로젝트 등 추가 투자대책을 내놓을 계획이다."
+          },
+          "sources": [
+            {
+              "name": "한국일보",
+              "url": "https://www.hankookilbo.com/news/article/A2026081222420005104"
+            }
+          ],
+          "related": {
+            "title": "팹 증설시 공사 중단 부담 낮춘다...규제에 묶인 4.2조 투자 '물꼬'",
+            "source": "서울경제",
+            "url": "https://www.sedaily.com/article/20078816",
+            "type": "유사"
+          },
+          "topics": ["반도체", "규제", "투자", "이차전지"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260815-2",
+          "date": "2026.08.15",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "테마섹, 삼성전자·SK하이닉스 직접투자 검토…주가 급등",
+          "summary": "싱가포르 국부펀드 테마섹이 삼성전자와 SK하이닉스에 직접투자를 검토 중이라는 보도에 두 종목 주가가 각각 7% 넘게 급등했다. 테마섹이 한국 주식에 투자하는 것은 이번이 처음이다.",
+          "why": "테마섹은 AI 밸류체인에서 메모리 반도체가 상대적으로 저평가돼 있다는 판단에 따라 외부 자산운용사가 아닌 내부 인력을 통한 직접투자 방식을 택한 것으로 전해졌다.",
+          "soWhat": "테마섹이 한국 정부에 투자 시점을 문의한 것으로 알려지면서, AI 투자 과열 우려 속에서도 메모리 반도체에 대한 해외 기관투자가들의 재평가가 이어질지 주목된다.",
+          "context": {
+            "background": "테마섹은 최근 AI 투자 과열 논란 속에서도 AI 밸류체인 전반에 대한 베팅을 늘려왔다.",
+            "issueContext": "KB증권 등 국내 증권가에서도 삼성전자·SK하이닉스가 '극도로 저평가'된 상태라는 분석이 잇따르며 테마섹의 투자설에 힘을 실었다.",
+            "coreQuestion": "테마섹의 투자가 실제 집행으로 이어질까요?",
+            "resolution": "아직 테마섹이나 두 기업 모두 투자 여부를 공식 확인하지 않은 가운데, 시장은 투자 시점과 규모에 촉각을 곤두세우고 있다."
+          },
+          "sources": [
+            {
+              "name": "EBN",
+              "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1720191"
+            }
+          ],
+          "related": {
+            "title": "삼성전자·SK하이닉스, \"극도로 저평가\" 상태—애널리스트",
+            "source": "Investing.com",
+            "url": "https://kr.investing.com/news/stock-market-news/article-2060143",
+            "type": "유사"
+          },
+          "topics": ["반도체", "투자", "외국인투자", "저평가"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260815-1",
+          "date": "2026.08.15",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "최태원, 노소영과 재산분할 소송 재상고…9년 다툼 대법원행",
+          "summary": "최태원 SK그룹 회장이 14일 밤 노소영 아트센터 나비 관장과의 재산분할 소송을 대법원에 재상고했다. 서울고법이 명령한 재산분할금 9440억원 판결에 불복한 것이다.",
+          "why": "파기환송심에서 재산분할 비율과 규모 산정에 법리적 오류가 있었는지가 재상고심의 쟁점이 될 전망이어서, 최 회장 측은 시한을 몇 시간 앞두고 상고장을 제출했다.",
+          "soWhat": "2017년 시작된 두 사람의 법정 다툼이 9년 만에 다시 대법원 판단을 받게 되면서, SK그룹 지배구조를 둘러싼 불확실성도 당분간 이어지게 됐다.",
+          "context": {
+            "background": "서울고법은 최 회장에게 재산분할금 9440억원과 연 5% 지연손해금 지급을 명령한 바 있다.",
+            "issueContext": "최 회장 측은 14일 오후 11시59분 재상고 시한을 앞두고 '여러 사정을 고려했다'며 상고장을 제출했다.",
+            "coreQuestion": "대법원은 파기환송심의 재산분할 산정을 그대로 확정할까요?",
+            "resolution": "사건은 대법원으로 넘어갔으며, 재상고심 결론까지는 상당한 시일이 걸릴 것으로 예상된다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20260813001299"
+            }
+          ],
+          "related": {
+            "title": "[속보] 최태원, '노소영에 9,440억원 재산분할' 불복… 다시 대법으로",
+            "source": "Radio Seoul",
+            "url": "https://www.radioseoul1650.com/archives/151828",
+            "type": "유사"
+          },
+          "topics": ["재산분할", "소송", "SK그룹", "대법원"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260815-2",
+          "date": "2026.08.15",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "청년 확장실업률 17%…정부, 8월 중 청년고용대책 발표 예고",
+          "summary": "7월 청년 고용률이 44.2%로 5년 만에 최대 하락폭을 기록한 가운데, 체감 실업 상태를 보여주는 청년 확장실업률이 17%에 달하는 것으로 나타났다. 정부는 8월 중 청년고용대책을 내놓기로 했다.",
+          "why": "7월 청년 취업자 수가 344만명으로 45개월 연속 감소하면서 고용 호조를 보인 전체 지표와 달리 청년층만 유독 부진한 흐름이 이어지고 있다.",
+          "soWhat": "취업난이 결혼·출산·내 집 마련 지연으로 이어지는 악순환이 지목되는 만큼, 정부 대책이 청년 고용 반등의 계기가 될지 주목된다.",
+          "context": {
+            "background": "청년 고용률은 1.6%포인트 하락해 5년 만에 최대 하락폭을 기록했다.",
+            "issueContext": "저출생 문제의 근저에 청년 고용 불안이 자리하고 있다는 분석이 갈수록 힘을 얻고 있다.",
+            "coreQuestion": "정부의 8월 청년고용대책은 실업률 반등을 멈출 수 있을까요?",
+            "resolution": "정부는 8월 중 구체적인 청년고용대책을 발표할 예정이다."
+          },
+          "sources": [
+            {
+              "name": "동행미디어 시대",
+              "url": "https://www.sidae.com/article/2026081216104934567"
+            }
+          ],
+          "related": {
+            "title": "한국 청년 실업률 45개월 연속 악화…7월 취업자 19만 명 감소",
+            "source": "부산haps",
+            "url": "https://busanhaps.com/economy/korea-youth-employment-45th-month-decline-july-2026/",
+            "type": "유사"
+          },
+          "topics": ["청년실업", "고용", "저출생", "취업난"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260814-1",
           "date": "2026.08.14",
@@ -1495,10 +1675,190 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.08.14",
-      "period": "2026.08.13 08:00 ~ 2026.08.14 08:00",
-      "updatedAt": "2026.08.14 08:00 KST",
+      "latestDate": "2026.08.15",
+      "period": "2026.08.14 08:00 ~ 2026.08.15 08:00",
+      "updatedAt": "2026.08.15 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260815-1",
+          "date": "2026.08.15",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "네바다 '가짜 선거인단' 기소 또 기각…트럼프 측 잇단 승리",
+          "summary": "네바다 판사가 13일 2020년 대선 결과를 뒤집으려 허위 선거인 증명서를 제출한 혐의로 기소된 공화당원 6명에 대한 재판을 기각했다. 애리조나·미시간·조지아에 이어 네 번째 기각이다.",
+          "why": "판사는 검찰 측 기소 절차에 문제가 있다고 판단해 여러 해 끌어온 이 사건을 기각했으며, 네바다주 검찰총장은 즉각 항소 방침을 밝혔다.",
+          "soWhat": "경합주마다 진행돼온 '가짜 선거인단' 형사 사건이 잇달아 좌초하면서, 2020년 대선 결과 뒤집기 시도에 대한 사법적 책임 규명 자체가 사실상 무산될 위기에 놓였다.",
+          "context": {
+            "background": "2020년 대선 후 조 바이든에게 패한 트럼프 측 지지자들이 여러 경합주에서 트럼프가 승리했다는 허위 선거인 증명서를 작성해 제출했다.",
+            "issueContext": "애리조나 검찰총장은 항소에서 패소한 뒤 새 대배심 기소를 재추진하겠다고 밝히는 등, 각 주 검찰은 사건을 되살리기 위한 법적 절차를 모색하고 있다.",
+            "coreQuestion": "네바다주는 항소를 통해 기소를 되살릴 수 있을까요?",
+            "resolution": "네바다 검찰총장은 기각 결정에 불복해 주 대법원에 항소하겠다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/08/13/politics/nevada-fake-electors-case-dropped"
+            }
+          ],
+          "related": {
+            "title": "Another 'Fake Electors' Case From 2020 Presidential Election Collapses",
+            "source": "RedState",
+            "url": "https://redstate.com/rusty-weiss/2026/08/14/another-fake-electors-case-from-2020-presidential-election-bites-the-dust-n2205594",
+            "type": "다름"
+          },
+          "topics": ["재검표", "선거", "법무부", "형소법"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260815-2",
+          "date": "2026.08.15",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "링컨함 승조원 위기에 조지워싱턴함 중동 급파",
+          "summary": "9개월 가까이 중동에 배치된 항공모함 에이브러햄 링컨함에서 곰팡이·급수 장애 등 열악한 환경과 승조원 투신 시도까지 보고되자, 미 해군이 조지워싱턴함을 중동으로 급파했다.",
+          "why": "링컨함이 두 차례 파병 연장을 거치며 265일째 배치된 가운데 승조원 사기 저하와 피로 누적이 국방부·백악관 내부에서도 우려로 제기됐다.",
+          "soWhat": "조지워싱턴함이 베트남 다낭에서 출항해 일주일 여정으로 중동에 도착하면, 이란과의 긴장이 이어지는 가운데 오래 지친 링컨함 승조원들의 교대가 이뤄지게 된다.",
+          "context": {
+            "background": "링컨함은 이란과의 갈등 속에 이례적으로 긴 기간 중동에 배치돼 왔다.",
+            "issueContext": "군 지휘부는 장병들의 사기 저하와 피로 누적을 사적으로 우려해왔으며, 이번 조지워싱턴함 파병은 이를 해소하기 위한 조치로 풀이된다.",
+            "coreQuestion": "조지워싱턴함 도착 이후 링컨함 승조원 처우 문제는 해소될까요?",
+            "resolution": "해군은 조지워싱턴함이 중동에 도착하는 대로 링컨함과 임무를 교대할 예정이라고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "Stars and Stripes",
+              "url": "https://www.stripes.com/branches/navy/2026-08-13/uss-george-washington-middle-east-abraham-lincoln-22541038.html"
+            }
+          ],
+          "related": {
+            "title": "New aircraft carrier heads toward Mideast after reports of issues on long-deployed USS Lincoln",
+            "source": "6abc Philadelphia",
+            "url": "https://6abc.com/post/uss-george-washington-heads-mideast-reports-issues-during-long-deployment-abraham-lincoln-aircraft-carrier/19674044/",
+            "type": "유사"
+          },
+          "topics": ["국방", "군사훈련", "백악관", "안보"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260815-1",
+          "date": "2026.08.15",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "트럼프, 중국산 드론에 최대 100% 관세…공급망 탈중국 가속",
+          "summary": "트럼프 대통령이 13일 25kg 이상이거나 열화상 기능을 갖춘 드론에 최대 100% 관세를, 소형 드론에는 25% 관세를 부과하는 포고문에 서명했다. 안보 우려를 이유로 국내 드론 산업 육성을 노렸다.",
+          "why": "행정부는 미국 내 드론 생산이 안보 수요를 충족하지 못한다고 판단해 중국 의존도가 높은 드론 공급망을 국내로 재편하려 한다고 설명했다.",
+          "soWhat": "한국·EU·일본·대만 등은 15%로 관세가 상한선이 적용되지만, 9월 3일 시행을 앞두고 국내 드론 부품 업체 주가가 급등하는 등 산업 재편 움직임이 빨라지고 있다.",
+          "context": {
+            "background": "이번 조치는 대만·한국·EU·스위스·리히텐슈타인산 제품에는 15%, 영국산 제품에는 10% 관세를 각각 적용한다.",
+            "issueContext": "미국 드론 부품업체 언유주얼머신스 주가가 시간외 거래에서 8% 넘게 급등하는 등 관련주가 일제히 강세를 보였다.",
+            "coreQuestion": "이번 관세가 실제로 미국 내 드론 생산 확대로 이어질까요?",
+            "resolution": "관세는 9월 3일부터 대부분 발효될 예정이며, 중국은 즉각 반발하고 나섰다."
+          },
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-13/trump-imposes-100-tariffs-on-certain-drones-countering-china"
+            }
+          ],
+          "related": {
+            "title": "US' 100% tariffs on imported drones largely targeting China lay its protectionism, disrupt global supply chain, backfire on own consumers: experts",
+            "source": "Global Times",
+            "url": "https://www.globaltimes.cn/page/202608/1368198.shtml",
+            "type": "반박"
+          },
+          "topics": ["관세", "무역", "공급망", "트럼프행정부"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260815-2",
+          "date": "2026.08.15",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "S&P500 사상 첫 7800 돌파…물가 둔화·유가 하락이 견인",
+          "summary": "S&P500 지수가 13일 사상 처음으로 7800선을 넘어서며 종가 기준 최고치(7798.99)를 새로 썼다. 예상보다 완만한 물가 지표와 유가 하락이 랠리를 뒷받침했다.",
+          "why": "8월 CPI가 시장 예상보다 덜 나쁘게 나오면서 연준의 추가 긴축 우려가 완화됐고, 유가 하락까지 겹치며 투자심리가 개선됐다.",
+          "soWhat": "S&P500은 올해 들어 14% 총수익률을 기록했지만, CAPE 비율이 41.4까지 치솟아 닷컴버블 정점에 근접했다는 경고도 동시에 나오고 있다.",
+          "context": {
+            "background": "S&P500은 지난해 18% 총수익률에 이어 올해도 강세장을 이어가고 있다.",
+            "issueContext": "미국 투자자의 약 4분의 3이 2026년 시장 하락을 우려한다는 설문 결과가 나오는 등, 밸류에이션 고평가 논란이 랠리와 동시에 확산되고 있다.",
+            "coreQuestion": "이번 랠리는 AI 투자 성과가 뒷받침될 때까지 이어질까요?",
+            "resolution": "시장은 완만해진 물가 지표에 안도하면서도, AI 관련 지출이 실제 이익으로 이어지는지를 주시하고 있다."
+          },
+          "sources": [
+            {
+              "name": "Jefferson City News-Tribune",
+              "url": "https://www.newstribune.com/news/2026/aug/14/sp-500-notches-record-high-close-as-rate-hike/"
+            }
+          ],
+          "related": {
+            "title": "History Says These 3 Warning Signs Precede Major Stock Market Crashes. All 3 Are Flashing Red Right Now.",
+            "source": "The Motley Fool",
+            "url": "https://www.fool.com/investing/2026/08/12/history-says-these-3-warning-signs-precede-major/",
+            "type": "다름"
+          },
+          "topics": ["증시", "물가", "연준", "투자"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260815-1",
+          "date": "2026.08.15",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "의회 보좌진, AI 챗봇으로 법안·연설문 작성…감독은 사각지대",
+          "summary": "상하원이 챗GPT·코파일럿·제미나이 사용을 허용하고 하원은 클로드까지 승인하면서, 의회 보좌진들이 법안 초안과 연설문, 청문회 질의까지 AI 챗봇에 맡기는 사례가 늘고 있다.",
+          "why": "보좌진 인력난 속에 AI 챗봇이 사실상 스태프의 업무를 대신하고 있지만, 이를 규율할 명확한 규정이나 감독 체계는 마련돼 있지 않다.",
+          "soWhat": "국방수권법 공식 기록에 챗봇 답변의 타임스탬프까지 그대로 붙여넣은 사고가 나오는 등, AI 오남용 리스크가 이미 현실화하고 있다는 지적이 나온다.",
+          "context": {
+            "background": "의회 내 AI 챗봇 활용은 연설문·보도자료 작성부터 유권자 민원 관리, 청문회 질의 작성, 수정안 초안까지 광범위하게 이뤄지고 있다.",
+            "issueContext": "공화당 터버빌 상원의원은 '운전하면서 메디케어 관련 질문을 챗GPT에 묻는다'며 '전문가와 대화하는 것과 비슷하다'고 옹호했지만, 보좌진 상당수는 관련 규정 자체를 모르고 있었다.",
+            "coreQuestion": "의회는 AI 챗봇 사용에 대한 명확한 가이드라인을 마련할까요?",
+            "resolution": "현재로선 감독이 보좌진의 자율 규제와 동료 신고에 맡겨져 있는 상태다."
+          },
+          "sources": [
+            {
+              "name": "The New Republic",
+              "url": "https://newrepublic.com/post/214291/congress-ai-chatbots-write-bills-tommy-tuberville"
+            }
+          ],
+          "related": {
+            "title": "Congress Is Quietly Handing More of Its Work to AI",
+            "source": "New Conservative Post",
+            "url": "https://www.newconservativepost.com/2026/08/congress-is-quietly-handing-more-of-its-work-to-ai/",
+            "type": "반박"
+          },
+          "topics": ["AI", "의회", "규제", "오픈소스"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260815-2",
+          "date": "2026.08.15",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "워싱턴주 리틀자이언트 산불 12만7000에이커 확산…추가 대피령",
+          "summary": "지난달 낙뢰로 시작된 워싱턴주 리틀자이언트 산불이 13일 기준 12만7771에이커까지 번졌지만 진화율은 5%에 그치고 있다. 첼란호 북안과 엔티엇밸리 일대에 3단계 대피령이 내려졌다.",
+          "why": "첼란·오카노간 카운티의 험준한 산악 지형과 원시림 지대에서 불이 번지면서 진화 작업에 어려움을 겪고 있다.",
+          "soWhat": "주 정부가 소방 동원령을 발동하고 2100명 넘는 인력과 헬기 5대를 투입했지만, 불길이 첼란호를 넘어서며 신규 대피령이 잇따르고 있다.",
+          "context": {
+            "background": "산불은 지난 7월 15일 낙뢰로 시작돼 엔티엇강·치와와강·글레이셔피크 원시지역 일대로 번져왔다.",
+            "issueContext": "엔티엇밸리와 첼란호 북안 일부 구간에는 3단계(즉시 대피), 인근 지역에는 2단계 대피령이 내려진 상태다.",
+            "coreQuestion": "진화율이 낮은 상황에서 산불은 언제쯤 통제될 수 있을까요?",
+            "resolution": "주 소방동원령이 발동돼 엔진 58대, 인력 2100여명이 추가 투입됐지만 진화율은 아직 5%에 머물러 있다."
+          },
+          "sources": [
+            {
+              "name": "KING5",
+              "url": "https://www.king5.com/article/news/local/wildfire/little-giant-fire-update-burning-chelan-county/281-44fc54d2-4e8d-4ece-8e29-2751169235f0"
+            }
+          ],
+          "related": {
+            "title": "New evacuations issued, state fire mobilization authorized for Little Giant Fire as blaze nears 100,000 acres",
+            "source": "Wenatchee World",
+            "url": "https://www.wenatcheeworld.com/wildfire/new-evacuations-issued-state-fire-mobilization-authorized-for-little-giant-fire-as-blaze-nears-100/article_1a93dc09-cb3c-49b3-b602-5f6cbc73148d.html",
+            "type": "유사"
+          },
+          "topics": ["산불", "재난", "대피", "기후"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260814-1",
           "date": "2026.08.14",
@@ -2862,10 +3222,190 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.08.14",
-      "period": "2026.08.13 08:00 ~ 2026.08.14 08:00",
-      "updatedAt": "2026.08.14 08:00 KST",
+      "latestDate": "2026.08.15",
+      "period": "2026.08.14 08:00 ~ 2026.08.15 08:00",
+      "updatedAt": "2026.08.15 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260815-1",
+          "date": "2026.08.15",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "주룽지 전 총리 별세…\"직언 두려워 않던 철혈 총리\" 애도 물결",
+          "summary": "주룽지 전 중국 국무원 총리가 12일 베이징에서 98세로 별세했다. 당·정 공동 부고에서 이례적으로 '직언을 두려워 않고 특권을 부리지 않았다'는 인물평이 담겨 눈길을 끌었다.",
+          "why": "1990년대 국유기업 개혁과 금융 구조조정을 이끌며 '철혈 총리'로 불렸던 주룽지의 별세에 관영매체는 이례적으로 개성이 담긴 부고 표현을 사용했다.",
+          "soWhat": "소셜미디어에서는 '부패 관료 99명, 나를 위한 관 하나를 준비했다'는 생전 발언이 재조명되며, 그의 별세를 계기로 개혁 시대에 대한 향수가 확산하고 있다.",
+          "context": {
+            "background": "주룽지는 1998~2003년 국무원 총리로 재임하며 국유기업 구조조정과 WTO 가입 협상을 주도했다.",
+            "issueContext": "당·정·전인대·정협 공동 부고는 그의 일생을 '혁명의 일생, 투쟁의 일생, 빛나는 일생'으로 평가했다.",
+            "coreQuestion": "이례적인 부고 표현은 현 지도부의 개혁 메시지로 해석될까요?",
+            "resolution": "해외 매체들은 부고의 이례적 문구를 두고 다양한 해석을 내놓고 있지만, 당국은 별다른 부연 설명을 하지 않았다."
+          },
+          "sources": [
+            {
+              "name": "신화망",
+              "url": "https://www.news.cn/politics/20260812/4c2c72e299ef4561915d2e507393a81f/c.html"
+            }
+          ],
+          "related": {
+            "title": "朱镕基逝世讣告罕见赞其\"敢说真话\"",
+            "source": "자유아시아방송(RFA)",
+            "url": "https://www.rfa.org/mandarin/zhengzhi/2026/08/13/china-zhu-rongji-reform-and-opening-up-state-owned-enterprise-reform-gao-yu/",
+            "type": "다름"
+          },
+          "topics": ["주룽지", "서거", "국유기업", "추모"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260815-2",
+          "date": "2026.08.15",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국·인도네시아, 대만 동쪽 해역서 첫 연합 통항훈련…대만 반발",
+          "summary": "중국 해군과 인도네시아 해군이 대만 동쪽 해역에서 처음으로 통항훈련을 실시했다고 밝혔다. 대만 대륙위원회는 '군사적 도발'이라며 강력히 규탄했다.",
+          "why": "중국 해군 훙허함과 인도네시아 해군 함정이 해상 통신·편대 운동·해상 보급 등을 함께 실시했으며, 중국 측은 '양자 국방 실무협력 심화'라고 설명했다.",
+          "soWhat": "대만해협을 벗어나 대만 동쪽 해역까지 연합훈련이 확대되면서, 대만을 둘러싼 군사적 긴장이 새로운 국면으로 번질 가능성이 제기된다.",
+          "context": {
+            "background": "이번 훈련은 중국과 외국 해군이 대만 동쪽 해역에서 실시한 첫 사례로 기록됐다.",
+            "issueContext": "인도네시아 해군은 러시아 방문을 마치고 귀환하는 길에 이뤄진 통상적 활동이라며 '작전과 무관하다'고 해명했지만, 대만 외교부는 '지역 긴장을 고조시키는 행위'라고 반발했다.",
+            "coreQuestion": "이번 훈련이 대만 인근에서의 정례적 연합훈련으로 확대될까요?",
+            "resolution": "대만 당국은 강력히 항의했지만, 중국과 인도네시아 모두 훈련을 예정대로 마쳤다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "163.com(网易)",
+              "url": "https://www.163.com/dy/article/L46U9RB005504DOQ.html"
+            }
+          ],
+          "related": {
+            "title": "台湾谴责中国与印尼海军的所谓\"通航演练\"，印尼：例行两军\"交汇\"举措非作战演习",
+            "source": "미국의소리(VOA中文)",
+            "url": "https://www.voachinese.com/a/taiwan-condemns-china-s-provocative-move-in-claiming-military-drill-with-indonesia-in-waters-east-of-the-island-20260812/8185647.html",
+            "type": "반박"
+          },
+          "topics": ["군사훈련", "대만", "영유권분쟁", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260815-1",
+          "date": "2026.08.15",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "SMIC 2분기 매출 첫 30억달러 돌파…순이익 262% 급증",
+          "summary": "중국 최대 파운드리 SMIC(중신궈지)가 2분기 매출 30억6000만달러(전년비 36.1%↑)를 기록해 분기 사상 처음 30억달러를 넘었다. 순이익은 262% 급증했다.",
+          "why": "가동률이 93.7%까지 오르며 완전가동에 근접했고, 매출총이익률도 25.3%로 지난 1년 새 최고치를 기록하며 실적을 끌어올렸다.",
+          "soWhat": "SMIC는 3분기 매출이 2~4% 추가 성장하고 매출총이익률도 26~28%로 오를 것으로 전망하며, 중국 반도체 자립 흐름에 자신감을 내비쳤다.",
+          "context": {
+            "background": "SMIC의 2분기 가동률은 1분기 93.1%에서 93.7%로 추가 상승했다.",
+            "issueContext": "실적 서프라이즈에도 불구하고 시장에서는 미국의 대중 반도체 장비 수출 통제가 여전한 만큼 첨단 공정 전환에 더 큰 압박이 남아있다는 신중론도 나온다.",
+            "coreQuestion": "SMIC의 호실적은 미국의 기술 수출 통제 압박 속에서도 지속될까요?",
+            "resolution": "SMIC는 3분기 실적 가이던스를 상향 제시하며 성장세가 이어질 것으로 자신했다."
+          },
+          "sources": [
+            {
+              "name": "163.com(网易)",
+              "url": "https://www.163.com/dy/article/L48AGTC20519DFFO.html"
+            }
+          ],
+          "related": {
+            "title": "中芯国际单季收入首破30亿美元，但更大的压力还在后面",
+            "source": "신랑커지(新浪科技)",
+            "url": "https://finance.sina.com.cn/tech/roll/2026-08-14/doc-ininhhrt9386977.shtml",
+            "type": "다름"
+          },
+          "topics": ["반도체", "수율", "실적", "제조"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260815-2",
+          "date": "2026.08.15",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국, 인도산 광섬유 반덤핑 관세 5년 추가 연장",
+          "summary": "중국 상무부가 14일부터 인도산 단일모드 광섬유에 대한 반덤핑 관세를 5년 더 연장한다고 발표했다. 2014년 첫 부과 이후 세 번째 연장이다.",
+          "why": "반덤핑 조치가 종료되면 인도산 광섬유의 덤핑 수출이 재개돼 중국 국내 산업에 다시 피해를 줄 수 있다는 자국 업계의 신청에 따라 기한말 재심을 거쳐 연장을 결정했다.",
+          "soWhat": "관세율은 기존과 같이 7.4~30.6%로 유지되며, 미중 무역갈등 속에서도 중국이 자국 첨단 제조업 보호 기조를 이어가고 있음을 보여준다.",
+          "context": {
+            "background": "중국은 2014년 인도산 단일모드 광섬유에 반덤핑 관세를 처음 부과했고 2020년 한 차례 연장한 바 있다.",
+            "issueContext": "이번 조치는 2025년 8월 자국 산업의 신청으로 시작된 기한말 재심 조사 결과에 따른 것이다.",
+            "coreQuestion": "인도는 이번 연장 조치에 맞대응 관세로 나설까요?",
+            "resolution": "상무부는 조치 종료 시 덤핑 재발 우려가 크다고 판단해 5년 연장을 확정했다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "중국신문망(中新网)",
+              "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677014.shtml"
+            }
+          ],
+          "related": {
+            "title": "China to continue anti-dumping tariff on Indian fibre optic products",
+            "source": "Deccan Herald",
+            "url": "https://www.deccanherald.com/business/china-to-continue-anti-dumping-tariff-on-indian-fibre-optic-products-3679021",
+            "type": "다름"
+          },
+          "topics": ["관세", "무역", "인도", "반덤핑"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260815-1",
+          "date": "2026.08.15",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "장쑤 이싱 산사태급 폭우…12시간 206㎜ 관측 이래 최대",
+          "summary": "태풍 '바이하이툰' 잔류 영향으로 14일 장쑤성 우시 이싱시 남부 산간지역에 극심한 폭우가 쏟아져 산사태성 홍수가 발생했다. 후두진 사오둥촌은 12시간 누적 강수량 206.5㎜로 관측 이래 최대치를 기록했다.",
+          "why": "태풍 잔류 저기압과 강한 강우대가 겹치면서 짧은 시간에 기록적인 폭우가 집중됐다.",
+          "soWhat": "물이 무릎까지 차오르고 담장이 무너지는 등 피해가 속출해 방재당국은 대응 수위를 2급으로 격상하고 1000명 가까운 주민을 대피시켰다.",
+          "context": {
+            "background": "닝항 고속철도 이싱 구간 열차가 대거 지연되고 일부 도로는 통제됐다.",
+            "issueContext": "대나무숲과 수목이 떠내려가고 일부 민가에 물이 들어찼으며, 이싱 죽해·산줸둥 등 인기 관광지는 모두 임시 폐쇄됐다.",
+            "coreQuestion": "이어지는 강우 예보 속에 이싱의 홍수 위험은 언제까지 이어질까요?",
+            "resolution": "수리부는 14~16일 장쑤 남부·저장 등지에 계속 큰 비가 내릴 것으로 예보하며 홍수 경보를 유지하고 있다."
+          },
+          "sources": [
+            {
+              "name": "중화망(中华网)",
+              "url": "https://news.china.com/socialgd/10000169/20260814/49676209.html"
+            }
+          ],
+          "related": {
+            "title": "江苏宜兴暴雨引发山洪灾害",
+            "source": "신랑(新浪)",
+            "url": "https://www.sina.cn/news/detail/5331917466772682.html",
+            "type": "유사"
+          },
+          "topics": ["홍수", "태풍", "재난", "폭우"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260815-2",
+          "date": "2026.08.15",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "간쑤성 상무부성장 청샤오보 낙마…3개월 '잠적' 끝 조사 확인",
+          "summary": "간쑤성 상무위원 겸 부성장 청샤오보가 자진 투안하며 중앙기율검사위원회의 기율·감찰 조사를 받고 있다고 14일 발표됐다. 최근 3개월간 공개 활동이 끊겨 있었다.",
+          "why": "1972년생으로 간쑤성 최연소 성 지도부로 꼽혔던 청샤오보는 2022년 상무 부성장으로 승진한 뒤 이번에 조사 대상에 올랐다.",
+          "soWhat": "지방 성급 지도부의 잇단 낙마가 이어지면서, 반부패 사정이 지방 정부 실세 라인까지 계속 확대되고 있음을 보여준다.",
+          "context": {
+            "background": "청샤오보는 2020년 간쑤성 부성장으로 취임해 성 최연소 지도부로 주목받았다.",
+            "issueContext": "재신망 등은 그가 조사 발표 이전 약 3개월간 공개 석상에서 자취를 감췄다고 짚으며, 사전 내사가 상당 기간 진행됐을 가능성을 제기했다.",
+            "coreQuestion": "이번 조사는 간쑤성 지도부의 추가 인적 쇄신으로 이어질까요?",
+            "resolution": "중앙기율검사위원회는 자진 투안 사실만 확인했을 뿐 구체적 혐의는 아직 공개하지 않았다."
+          },
+          "sources": [
+            {
+              "name": "신화망(新华网)",
+              "url": "https://www.news.cn/politics/20260814/514fd851fa6d44f78f9b10e020c8173f/c.html"
+            }
+          ],
+          "related": {
+            "title": "\"隐身\"近三个月 甘肃\"70后\"常务副省长程晓波被查",
+            "source": "차이신(财新网)",
+            "url": "https://china.caixin.com/2026-08-14/102474129.html",
+            "type": "다름"
+          },
+          "topics": ["반부패", "낙마", "조사", "간쑤"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260814-1",
           "date": "2026.08.14",
@@ -4228,10 +4768,190 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.08.14",
-      "period": "2026.08.13 08:00 ~ 2026.08.14 08:00",
-      "updatedAt": "2026.08.14 08:00 KST",
+      "latestDate": "2026.08.15",
+      "period": "2026.08.14 08:00 ~ 2026.08.15 08:00",
+      "updatedAt": "2026.08.15 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260815-1",
+          "date": "2026.08.15",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "푸틴, 사상 첫 북방영토 방문…다카이치 \"단호코 용납 못해\"",
+          "summary": "블라디미르 푸틴 러시아 대통령이 13일 북방영토(쿠릴 4개섬) 중 하나인 에토로후섬을 처음으로 방문했다. 다카이치 총리는 \"단호코 용납할 수 없다\"며 강하게 항의했다.",
+          "why": "일본 정부가 대통령의 북방영토 방문 자제를 러시아 측에 반복적으로 요청했음에도, 푸틴 대통령이 이를 무시하고 방문을 강행했다.",
+          "soWhat": "우크라이나 침공을 이유로 대러 제재를 이어가는 일본을 견제하고 '실효지배' 현실을 국내외에 과시하려는 의도로 풀이돼, 북방영토 반환 교섭은 더욱 얼어붙을 전망이다.",
+          "context": {
+            "background": "푸틴 대통령의 이번 방문은 역대 러시아 대통령의 첫 북방영토 방문으로 기록됐다.",
+            "issueContext": "메드베데프 전 대통령 등 러시아 고위 인사들은 일본의 항의를 '무의미한 이야기'라며 북방 4개섬의 일본 귀속 주장을 일축했다.",
+            "coreQuestion": "이번 방문으로 북방영토 반환 교섭은 완전히 중단될까요?",
+            "resolution": "일본 정부는 외교 경로를 통해 강력히 항의했지만, 러시아 측은 방문을 정당한 자국 영토 방문이라는 입장을 고수하고 있다."
+          },
+          "sources": [
+            {
+              "name": "NHK",
+              "url": "https://news.web.nhk/newsweb/na/nd-20260813de43689"
+            }
+          ],
+          "related": {
+            "title": "日本の抗議「無駄話」とロシア拒絶 プーチン氏北方領土訪問",
+            "source": "지지통신(時事通信)",
+            "url": "https://www.jiji.com/jc/article?k=2026081400148&g=int",
+            "type": "반박"
+          },
+          "topics": ["북방영토", "러시아", "외교", "영유권분쟁"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260815-2",
+          "date": "2026.08.15",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리, 주룽지 전 中총리 별세에 시진핑에 조의 메시지",
+          "summary": "다카이치 사나에 총리가 13일 별세한 주룽지 전 중국 국무원 총리를 애도하며 시진핑 국가주석과 리창 총리에게 조의 메시지를 보냈다. 모기 외무상도 왕이 외교부장에게 별도로 조의를 전했다.",
+          "why": "일본 정부는 주룽지 전 총리가 생전 중일관계 발전에 기여한 점을 언급하며 조의를 표했다.",
+          "soWhat": "역사 인식·경제안보를 둘러싼 갈등이 이어지는 중일관계 속에서도, 이번 조의 표명은 최소한의 외교적 예우를 이어가려는 신호로 해석된다.",
+          "context": {
+            "background": "주룽지 전 총리는 8월 12일 베이징에서 98세로 별세했다.",
+            "issueContext": "일본 정부는 13일 외무성을 통해 총리와 외무상 명의의 조의 메시지 발출 사실을 공식 발표했다.",
+            "coreQuestion": "이번 조의 표명이 경색된 중일관계 개선의 계기가 될까요?",
+            "resolution": "일본 정부는 조의 메시지 발출로 외교적 예우를 다했다는 입장이며, 추가적인 계기 마련 여부는 불투명하다."
+          },
+          "sources": [
+            {
+              "name": "NHK",
+              "url": "https://news.web.nhk/newsweb/na/nd-20260813de43848"
+            }
+          ],
+          "related": {
+            "title": "高市首相、朱鎔基・元中国首相の死去に哀悼の意 習氏らにメッセージ",
+            "source": "니혼케이자이신문(日本経済新聞)",
+            "url": "https://www.nikkei.com/article/DGXZQOUA138VZ0T10C26A8000000/",
+            "type": "유사"
+          },
+          "topics": ["주룽지", "서거", "외교", "다카이치"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260815-1",
+          "date": "2026.08.15",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 4일 연속 상승…AI·반도체株 매수에 6만8713엔",
+          "summary": "닛케이평균주가가 14일 전일 대비 405.21엔 오른 6만8713.80엔에 마감하며 4거래일 연속 상승했다. 장중에는 한 달 만에 6만9000엔대를 회복했다.",
+          "why": "전날 미국 뉴욕 증시에서 반도체·AI 관련주가 강세를 보인 데 힘입어 도쿄 시장에서도 AI·반도체株에 매수세가 몰렸다.",
+          "soWhat": "미국발 훈풍이 이어지며 어드반테스트 등 반도체 관련주가 사상 최고가를 새로 쓰는 등, AI 랠리가 재현될 조짐이 나타나고 있다.",
+          "context": {
+            "background": "TOPIX 지수도 연일 최고치를 갈아치우며 미국 증시 강세를 뒤따르고 있다.",
+            "issueContext": "아식스 등 개별 종목도 매출 1조엔 전망을 내놓으며 사상 최고가를 기록하는 등 실적 기대가 지수 상승을 뒷받침했다.",
+            "coreQuestion": "이번 4일 연속 상승세는 미국 증시 흐름에 계속 연동될까요?",
+            "resolution": "시장은 미국 물가 지표와 연준 발언에 촉각을 곤두세우며 랠리 지속 여부를 지켜보고 있다."
+          },
+          "sources": [
+            {
+              "name": "니혼케이자이신문(日本経済新聞)",
+              "url": "https://www.nikkei.com/article/DGXZQOUB137MPTT10C26A8000000/"
+            }
+          ],
+          "related": {
+            "title": "日経平均大引け：前日比405.21円高の68713.80円",
+            "source": "자이케이신문(財経新聞)",
+            "url": "https://www.zaikei.co.jp/article/20260814/865841.html",
+            "type": "유사"
+          },
+          "topics": ["증시", "반도체", "실적", "AI"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260815-2",
+          "date": "2026.08.15",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中 희토류 대일수출 상반기 반토막…\"규제 완화 안 해\"",
+          "summary": "중국의 대일 희토류 수출 규제 품목 수출량이 올해 상반기 전년 동기 대비 절반 수준으로 줄었다. 미국 대상 수출도 10% 감소해 규제 완화 조짐이 보이지 않고 있다.",
+          "why": "중국은 지난 1월 대일 양용품목 수출관리를 강화한 데 이어, 심의를 까다롭게 해 사실상 규제 강도를 낮추지 않고 있다.",
+          "soWhat": "일본 기업들은 재고를 헐어 쓰거나 호주·인도 등으로 조달처를 바꾸는 등 대응에 분주하지만, 자동차·반도체 등 핵심 부품 조달난은 당분간 이어질 전망이다.",
+          "context": {
+            "background": "2025년 4월 사마륨·가돌리늄·터븀 등 관련 품목이 규제 대상에 새로 추가된 데 이어, 2026년 1월에는 대일 양용품목 수출관리가 즉시 시행됐다.",
+            "issueContext": "중국 당국은 최종용도·최종사용자에 대한 상세 설명과 방대한 추가 서류를 요구하는 방식으로 사실상 허가 문턱을 계속 높이고 있다.",
+            "coreQuestion": "일본 기업들의 대체 조달처 전환은 언제쯤 규제 영향을 상쇄할 수 있을까요?",
+            "resolution": "일본 정부와 기업은 호주·인도 등으로 조달선 다변화를 서두르고 있지만 속도는 더딘 상황이다."
+          },
+          "sources": [
+            {
+              "name": "니혼케이자이신문(日本経済新聞)",
+              "url": "https://www.nikkei.com/article/DGXZQOGM043GL0U6A800C2000000/"
+            }
+          ],
+          "related": {
+            "title": "中国レアアース規制、「高市発言が引き金」の誤解",
+            "source": "닛케이비즈니스(日経ビジネス)",
+            "url": "https://business.nikkei.com/atcl/seminar/19/00133/00158/",
+            "type": "다름"
+          },
+          "topics": ["희토류", "무역", "반도체", "공급망"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260815-1",
+          "date": "2026.08.15",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "지바현 기록적 폭우로 6명 사망…사상 첫 '대우특별경보'",
+          "summary": "지바현에 선상강수대가 세 차례 겹치며 일본 최초의 '대우특별경보(레벨5)'가 발령됐다. 14일까지 6명이 숨졌고 침수 차량에 갇히는 등 피해가 속출했다.",
+          "why": "선상강수대가 짧은 시간에 반복해서 발달하며 기록적인 폭우가 좁은 지역에 집중됐다.",
+          "soWhat": "심야 침수로 대피가 늦어지며 인명피해가 커졌고, 새벽 시점 7300명 넘는 주민이 지정 대피소로 피신했다.",
+          "context": {
+            "background": "이치카와시·사쿠라시·야치요시 등에서 도로 침수와 차량 고립으로 인한 사망이 잇따랐다.",
+            "issueContext": "새벽 2시15분 기준 3877명이 임시 대피시설로, 오전 6시 기준 7359명이 지정 대피소로 각각 대피했다.",
+            "coreQuestion": "선상강수대에 의한 도심 침수 피해를 막을 조기경보 체계는 갖춰질까요?",
+            "resolution": "기상청은 대우특별경보를 발령한 뒤 해제 전까지 추가 침수 위험에 대한 경계를 이어가고 있다."
+          },
+          "sources": [
+            {
+              "name": "마이니치신문(每日新聞)",
+              "url": "https://news.yahoo.co.jp/articles/5becafb1eb7c6b8fd82c3e7b697a58a218a7bef7"
+            }
+          ],
+          "related": {
+            "title": "「浸水し車から出られず」と通報 車両や路上で死亡相次ぐ―千葉大雨",
+            "source": "지지통신(時事通信)",
+            "url": "https://www.jiji.com/jc/article?k=2026081400453&g=soc",
+            "type": "유사"
+          },
+          "topics": ["폭우", "재난", "홍수", "대피"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260815-2",
+          "date": "2026.08.15",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "요코하마 시장 파워하라스 인정…\"급여 삭감\" 밝혔지만 사퇴 요구도",
+          "summary": "요코하마시 야마나카 다케하루 시장의 부하 직원 폭언 등이 제3자 조사에서 파워하라스먼트로 인정됐다. 시장은 13일 시의회에서 사과하며 자신의 급여를 삭감하겠다는 뜻을 밝혔다.",
+          "why": "제3자 조사에서 부하 직원에게 '포조'(무능한) '쓰레기' 등 발언을 한 사실을 포함해 7개 항목의 파워하라스먼트가 인정되고 '인권의식 결여'라는 지적까지 나왔다.",
+          "soWhat": "시의회에서는 여야를 가리지 않고 '사실상 사퇴 권고' '옐로카드 7장'이라는 질타가 쏟아지며, 급여 삭감만으로 사태가 수습될지는 불투명하다.",
+          "context": {
+            "background": "총무위원회는 13일 야마나카 시장을 불러 파워하라스먼트 인정 결과에 대한 질의를 진행했다.",
+            "issueContext": "야마나카 시장은 '인정된 사실을 모두 받아들인다'며 눈물을 보였지만, 사퇴 요구에 대해서는 명확한 답을 하지 않았다.",
+            "coreQuestion": "급여 삭감으로 시장 거취 논란은 매듭지어질까요?",
+            "resolution": "야마나카 시장은 사퇴 대신 급여 삭감으로 책임을 지겠다는 입장을 밝혔지만, 시의회의 사퇴 압박은 계속되고 있다."
+          },
+          "sources": [
+            {
+              "name": "마이니치신문(每日新聞)",
+              "url": "https://news.yahoo.co.jp/articles/e994082d36423f770ce24f703760130941f7a06c"
+            }
+          ],
+          "related": {
+            "title": "横浜市長パワハラ認定で謝罪、辞職しない本当の理由",
+            "source": "note(構造で読む時事)",
+            "url": "https://note.com/news_knowledge/n/nb99e2dcb8310",
+            "type": "다름"
+          },
+          "topics": ["파워하라스", "지방자치", "경질", "여론"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260814-1",
           "date": "2026.08.14",
