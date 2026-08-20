@@ -113,10 +113,172 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.08.19",
-      "period": "2026.08.18 08:00 ~ 2026.08.19 08:00",
-      "updatedAt": "2026.08.19 08:00 KST",
+      "latestDate": "2026.08.20",
+      "period": "2026.08.19 08:00 ~ 2026.08.20 08:00",
+      "updatedAt": "2026.08.20 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260820-1",
+          "date": "2026.08.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "조태용 전 국정원장, 2심서 징역 2년6개월…1심보다 형량 늘어",
+          "summary": "서울고법이 계엄 당시 정치인 체포 지시를 알고도 국회에 보고하지 않은 혐의 등으로 기소된 조태용 전 국가정보원장에게 2심에서 징역 2년6개월을 선고했다. 1심에서 무죄였던 국정원법 위반 혐의도 이번엔 유죄로 뒤집혔다.",
+          "why": "내란특검팀이 1심 형량이 가볍다며 항소해 양형부당을 다퉜고, 재판부가 국정원법 위반 혐의를 새로 유죄로 인정했다.",
+          "soWhat": "조 전 원장 측이 상고할 경우 대법원 판단이 남아 있고, 12·3 내란 관련 수사·재판이 정보기관 책임자 단위까지 확대되는 흐름이 이어진다.",
+          "context": {
+            "background": "조태용 전 원장은 2024년 12월 비상계엄 국면에서 국가정보원 수장으로, 계엄 이후 관련 사실을 부인하는 발언을 한 것이 문제가 됐다.",
+            "issueContext": "1심은 직무유기 등 일부만 유죄로 보고 징역 1년6개월을 선고했으나, 내란특검팀은 형이 가볍다며 항소심에서 징역 7년을 구형했다.",
+            "coreQuestion": "조 전 원장은 대법원에 상고해 형량을 다툴까요, 2심 판결을 그대로 받아들일까요?",
+            "resolution": "서울고법은 국정원법 위반 혐의를 새로 유죄로 인정하며 형량을 2년6개월로 늘렸다."
+          },
+          "sources": [
+            { "name": "경향신문", "url": "https://www.khan.co.kr/article/202608191137001" }
+          ],
+          "related": {
+            "title": "윤석열 탄핵 저지 위해 홍장원 거짓말 몰이... 조태용 징역 2년 6개월",
+            "source": "오마이뉴스",
+            "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003260229&PAGE_CD=N0002&CMPT_CD=M0112",
+            "type": "유사"
+          },
+          "topics": ["국정원", "특검", "직무유기", "계엄"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260820-2",
+          "date": "2026.08.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "조희대 대법관 제청 '대통령 패싱' 논란…여야 탄핵공방까지",
+          "summary": "조희대 대법원장이 신임 대법관 후보를 사전 조율 없이 서면으로 통보하면서 '대통령 패싱' 논란이 일었다. 여권 일각의 탄핵 거론에 국민의힘은 '사법부 길들이기'라며 총공세로 맞섰다.",
+          "why": "대법원장이 관례와 달리 대통령 대면 보고 없이 후보를 서면 통보하면서 절차 논란이 촉발됐다.",
+          "soWhat": "국민의힘이 탄핵 시도 시 강하게 반발하겠다고 예고해, 향후 대법관 인선 절차 자체가 정쟁화할 가능성이 커졌다.",
+          "context": {
+            "background": "대법관 제청은 헌법상 대법원장 고유 권한으로, 통상 대통령과 사전 소통을 거쳐 왔다.",
+            "issueContext": "이번에는 사전 조율이나 대면 보고 없이 서면 통보만 이뤄지면서 청와대·여권이 '패싱'이라고 반발했다.",
+            "coreQuestion": "이번 논란은 대법원장 탄핵 정국으로 번질까요, 절차 확인 선에서 정리될까요?",
+            "resolution": "국민의힘 장동혁 대표는 탄핵 거론에 '한번 시도해 보라'고 맞서며 대법원장 권한을 옹호했다."
+          },
+          "sources": [
+            { "name": "세계일보", "url": "https://segye.com/newsView/20260819509259" }
+          ],
+          "related": {
+            "title": "\"조희대 탄핵 사유\" \"靑·與 발작하나\"…'李 패싱' 대법관 제청에 여야 충돌",
+            "source": "시사저널",
+            "url": "https://www.sisajournal.com/news/articleView.html?idxno=383995",
+            "type": "반박"
+          },
+          "topics": ["대법원", "탄핵", "국회", "여야갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260820-1",
+          "date": "2026.08.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 5.8% 급락 '6471'…올해 25번째 사이드카 발동",
+          "summary": "코스피가 19일 외국인·기관의 동반 매도세에 5.8% 급락해 6471선으로 밀렸다. 삼성전자·SK하이닉스 등 반도체 대형주가 급락을 주도하며 매도 사이드카가 발동됐다.",
+          "why": "중동 정세 불안에 따른 유가·미 국채금리 상승과 반도체주 차익실현 매물이 겹치며 투자심리가 급격히 얼어붙었다.",
+          "soWhat": "증권가는 과매도 국면이라며 반등 여지를 보지만, 외국인·기관 매도세가 이어지면 추가 조정 가능성도 남아 있다.",
+          "context": {
+            "background": "코스피는 올해 여러 차례 급등락을 반복해 왔고, 반도체주가 지수 등락을 주도하는 흐름이 이어지고 있다.",
+            "issueContext": "19일 장중 프로그램 매도호가 효력이 일시 정지되는 사이드카가 발동될 만큼 낙폭이 컸다.",
+            "coreQuestion": "이번 급락은 일시적 조정에 그칠까요, 추세적 하락의 시작일까요?",
+            "resolution": "장 막판까지 낙폭을 키우며 6471.17로 마감했고, 개인은 대규모 순매수로 대응했다."
+          },
+          "sources": [
+            { "name": "한국경제", "url": "https://www.hankyung.com/article/2026081999186" }
+          ],
+          "related": {
+            "title": "삼전닉스 7~9% 급락에도 개인 4.4조 '사자'…외인·기관은 '팔자'",
+            "source": "이데일리",
+            "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03617846645548960",
+            "type": "다름"
+          },
+          "topics": ["증시", "코스피", "반도체", "급락"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260820-2",
+          "date": "2026.08.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "가계대출 30조 추가 배분 착수…5대은행 주담대 여력 7.5조 늘어",
+          "summary": "금융당국이 가계대출 총량 증가율을 1.5%에서 3.0%로 완화하며 확보한 26조원 배분 작업을 19일 시작했다. 5대 은행 주택담보대출 여력이 7.5조원가량 늘어날 전망이다.",
+          "why": "대출 문턱이 높아지며 실수요자 '오픈런'·'새벽 광클릭' 불편이 커지자 정부가 총량 목표치를 두 배로 완화했다.",
+          "soWhat": "은행별 총량 목표가 재조정되며 연말까지 실수요자 주담대·전세대출 문턱이 다소 낮아질 것으로 보인다.",
+          "context": {
+            "background": "정부는 8월13일 부동산 시장 안정 종합대책에서 가계대출 총량 목표치를 완화하겠다고 밝힌 바 있다.",
+            "issueContext": "총량 규제로 은행권 대출 여력이 바닥나면서 청년·중저신용자 대출까지 조여진다는 지적이 계속됐다.",
+            "coreQuestion": "완화된 총량이 실수요자에게 실제로 돌아갈까요, 다시 예외 확대로 흐지부지될까요?",
+            "resolution": "금융당국은 19일 실무회의에서 청년·중저신용자 대출은 충분히 공급하겠다는 지침을 은행권에 전달했다."
+          },
+          "sources": [
+            { "name": "머니투데이", "url": "https://www.mt.co.kr/finance/2026/08/19/2026081915440491980" }
+          ],
+          "related": {
+            "title": "[대출 규제 역설] \"총량 묶고 예외 푼다\"…금융당국, 숫자 맞추기만 급급",
+            "source": "데일리안",
+            "url": "https://www.dailian.co.kr/news/view/1676750/%EB%8C%80%EC%B6%9C-%EA%B7%9C%EC%A0%9C-%EC%97%AD%EC%84%A4-%EC%B4%9D%EB%9F%89-%EB%AC%B6%EA%B3%A0-%EC%98%88%EC%99%B8-%ED%91%BC%EB%8B%A4-2026",
+            "type": "반박"
+          },
+          "topics": ["부동산", "대출", "가계부채", "규제"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260820-1",
+          "date": "2026.08.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "거제·통영 특별재난지역, 20일 우선 선포 가닥",
+          "summary": "800㎜ 넘는 기록적 폭우를 맞은 경남 거제·통영이 20일 특별재난지역으로 우선 선포될 방침이다. 사망 1명을 포함해 수백 명이 여전히 귀가하지 못하고 있다.",
+          "why": "행안부 사전조사단이 현장 조사를 마치고 지자체 재정만으로는 감당하기 어려운 피해 규모를 확인했다.",
+          "soWhat": "특별재난지역 지정이 확정되면 국비 지원 비율이 높아져 복구·주민 지원 속도가 빨라질 전망이다.",
+          "context": {
+            "background": "지난 15일부터 나흘간 거제에는 968㎜가 넘는 비가 쏟아져 도로·주택·산사태 피해가 속출했다.",
+            "issueContext": "거제시장 등 지자체는 재정만으로 감당할 수 없다며 조속한 특별재난지역 선포를 정부에 요청해왔다.",
+            "coreQuestion": "특별재난지역 선포가 예정대로 20일에 이뤄질까요, 추가 조사로 더 늦춰질까요?",
+            "resolution": "행안부는 조사 결과를 토대로 20일 특별재난지역 우선 선포를 적극 검토하기로 했다."
+          },
+          "sources": [
+            { "name": "헤럴드경제", "url": "https://biz.heraldcorp.com/article/10845416" }
+          ],
+          "related": {
+            "title": "\"수도권이었어도 아직이겠나\"…거제시민 애태우는 특별재난지역 지정",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202608191739130481",
+            "type": "반박"
+          },
+          "topics": ["홍수", "방재", "재난", "폭우"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260820-2",
+          "date": "2026.08.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "극한 폭염 온열질환 사망 20명대…정부 '땜질 대책' 비판도",
+          "summary": "8월 들어 이어진 극한 폭염으로 온열질환 사망자가 20명을 넘어섰다. 고령층·농가·야외작업장 피해가 두드러지는 가운데 국민의힘은 정부 대응이 사후 땜질식이라고 비판했다.",
+          "why": "낮 최고기온이 연일 35도 안팎을 기록하며 고령층과 농촌·야외작업장 등 취약계층 피해가 집중됐다.",
+          "soWhat": "정부는 중대본을 중심으로 비상대응기구를 가동했지만, 재난관리체계 전면 개편 요구가 뒤따르고 있다.",
+          "context": {
+            "background": "올여름 폭염특보가 장기화하며 온열질환자와 사망자가 예년보다 빠르게 늘고 있다.",
+            "issueContext": "정부는 무더위쉼터 확대, 농촌 현장 점검 등 현장 대응을 강화하고 있지만 사후 대응이라는 지적이 나온다.",
+            "coreQuestion": "폭염 대응 체계가 이번 기회에 상시 개편될까요, 예년처럼 여름이 지나면 흐지부지될까요?",
+            "resolution": "중앙재난안전대책본부는 관계 부처 비상대응기구를 통해 고령층·농업 현장 중심 대응을 강화하고 있다."
+          },
+          "sources": [
+            { "name": "헤럴드경제", "url": "https://biz.heraldcorp.com/article/10832166" }
+          ],
+          "related": {
+            "title": "'폭염 땜질대책 비판' 국민의힘 \"정부, 재난관리체계 전면 개편해야\"",
+            "source": "다음뉴스",
+            "url": "https://v.daum.net/v/075nNu71r4?f=p",
+            "type": "반박"
+          },
+          "topics": ["폭염", "온열질환", "기후", "경보"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260819-1",
           "date": "2026.08.19",
@@ -2395,10 +2557,172 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.08.19",
-      "period": "2026.08.18 08:00 ~ 2026.08.19 08:00",
-      "updatedAt": "2026.08.19 08:00 KST",
+      "latestDate": "2026.08.20",
+      "period": "2026.08.19 08:00 ~ 2026.08.20 08:00",
+      "updatedAt": "2026.08.20 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260820-1",
+          "date": "2026.08.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 이란에 '경제적 디데이' 선언…동맹국에도 초강력 제재 경고",
+          "summary": "트럼프 대통령이 이란을 겨냥해 '역대 가장 강력한 경제작전'을 선언하며 원유 밀수·환전상·선박 등록 등 제재 회피 통로를 전면 차단하겠다고 밝혔다. 이란에 생명줄을 제공하는 국가도 '엄청난 경제적 대가'를 치를 것이라고 경고했다.",
+          "why": "UAE가 이란과의 금융·경제 거래를 중단하는 등 대이란 압박이 이어지는 가운데, 트럼프가 압박 수위를 한층 끌어올렸다.",
+          "soWhat": "동맹국까지 겨냥한 2차 제재 위협으로 국제 금융·에너지 시장에서 이란 관련 거래 위축이 예상된다.",
+          "context": {
+            "background": "트럼프 행정부는 4월부터 '경제적 분노 작전'이라는 이름으로 이란에 대한 압박 캠페인을 벌여왔다.",
+            "issueContext": "이란은 그동안 원유 밀수와 대중국 할인 판매 등으로 제재를 우회해왔다는 평가를 받는다.",
+            "coreQuestion": "이번 초강력 제재가 이란의 실질적 항복을 이끌어낼까요, 또 하나의 우회로만 낳을까요?",
+            "resolution": "트럼프는 원유 밀수, 스왑라인, 현금 이전, 환전상, 선박 등록, 위장회사 등을 즉각 중단해야 할 대상으로 지목했다."
+          },
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html" }
+          ],
+          "related": {
+            "title": "With limited options, Trump tries economic pressure on Iran — again",
+            "source": "The Philadelphia Inquirer",
+            "url": "https://www.inquirer.com/news/nation-world/trump-iran-economic-pressure-20260819.html",
+            "type": "반박"
+          },
+          "topics": ["이란", "안보", "트럼프", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260820-2",
+          "date": "2026.08.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프 지지 후보 또 낙선…공화당 경선서 '엔도스먼트 파워' 흔들",
+          "summary": "와이오밍 주지사 경선과 플로리다 하원 경선 2곳에서 트럼프가 지지한 후보들이 잇따라 낙선했다. 올해만 벌써 10명이 떨어지며 2018·2020·2024년 낙선자 수를 합친 것과 맞먹는다.",
+          "why": "트럼프의 전체 경선 승률은 여전히 96%로 높지만, 개별 경합주에서는 지역 이슈와 후보 경쟁력이 엔도스먼트 효과를 앞서는 사례가 늘고 있다.",
+          "soWhat": "낙선한 후보들도 대부분 트럼프 노선에 동조하는 인물들이어서, 정책 기조보다는 '개인 낙점'의 영향력이 약해지고 있다는 해석이 나온다.",
+          "context": {
+            "background": "트럼프는 올해 상하원·주지사 경선 313곳에 지지 의사를 밝혔고 그중 대다수에서 승리해왔다.",
+            "issueContext": "이번 낙선은 2022년 경선 시즌의 12명 낙선 기록에 근접하는 수치로, 트럼프의 '킹메이커' 입지에 대한 의문이 제기된다.",
+            "coreQuestion": "트럼프의 개별 엔도스먼트가 앞으로도 공화당 경선의 핵심 변수로 남을까요, 지역 기반이 우선하는 흐름으로 바뀔까요?",
+            "resolution": "와이오밍 주지사 경선의 메건 디젠펠더, 플로리다의 코리 밀스·카탈리나 라우프 하원의원이 이번에 낙선했다."
+          },
+          "sources": [
+            { "name": "CNN", "url": "https://www.cnn.com/2026/08/19/politics/trump-candidates-primary-losses" }
+          ],
+          "related": {
+            "title": "Despite a few stumbles with Trump-backed candidates, MAGA is doing just fine",
+            "source": "American Thinker",
+            "url": "https://www.americanthinker.com/blog/2026/08/despite-a-few-stumbles-with-trump-backed-candidates-maga-is-doing-just-fine/",
+            "type": "반박"
+          },
+          "topics": ["트럼프", "공화당", "중간선거", "경선"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260820-1",
+          "date": "2026.08.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "美·캐나다, 50% 관세 발효 두 시간 앞두고 극적 타결",
+          "summary": "트럼프 대통령이 캐나다산 제품에 대한 50% 관세 발효를 극적으로 유예했다고 밝혔다. 발효 시한을 불과 두 시간 앞두고 양국이 막판 합의에 이르렀다.",
+          "why": "우유·합판·하키스틱·맥주 등 200억달러 규모 캐나다산 제품에 고율 관세를 예고하며 압박했던 트럼프 행정부가 캐나다의 양보를 받아내며 합의로 선회했다.",
+          "soWhat": "고율 관세로 인한 양국 교역 충격은 일단 피했지만, 세부 조율이 남아있어 추가 무역 마찰 가능성은 여전하다.",
+          "context": {
+            "background": "카니 캐나다 총리는 '나쁜 합의는 받아들이지 않겠다'는 입장을 밝히며 협상을 이어왔다.",
+            "issueContext": "미국은 캐나다에 다수의 무역 현안 해소를 요구했고, 이행되지 않으면 8월19일부로 고율 관세를 발효하겠다고 압박해왔다.",
+            "coreQuestion": "이번 합의로 양국 무역 갈등이 봉합될까요, 세부 이행 과정에서 다시 불거질까요?",
+            "resolution": "트럼프는 '매우 좋은 합의'를 캐나다와 이뤄냈다며 관세를 유예한다고 밝혔다."
+          },
+          "sources": [
+            { "name": "NPR", "url": "https://www.npr.org/2026/08/19/g-s1-139156/trump-canada-tariffs" }
+          ],
+          "related": {
+            "title": "Trump says he's brokered a 'very good deal' with Canada after pausing 50% tariffs",
+            "source": "CBC News",
+            "url": "https://www.cbc.ca/news/politics/canada-us-trade-talks-tariffs-9.7312405",
+            "type": "다름"
+          },
+          "topics": ["관세", "캐나다", "무역", "트럼프"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260820-2",
+          "date": "2026.08.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 금리 인상하나…연준 인플레 전망 상향에 시장 촉각",
+          "summary": "연준이 8월 인플레이션 전망을 상향 조정하면서 9월 FOMC에서 금리 인상 가능성이 다시 부각되고 있다. 이란전쟁발 유가 상승이 물가 둔화를 가로막고 있다는 평가다.",
+          "why": "중동發 에너지 가격 상승으로 근원 PCE 물가 전망치가 종전 2.4%에서 2.7%로 높아지며 물가 압력이 예상보다 오래갈 것이라는 우려가 커졌다.",
+          "soWhat": "7월 FOMC에서 이미 3명이 인상 소수의견을 낸 만큼, 9월 회의에서 금리 인상이 현실화될 가능성이 시장에 반영되고 있다.",
+          "context": {
+            "background": "연준은 7월까지 5차례 연속 금리를 3.50~3.75%로 동결해왔다.",
+            "issueContext": "그러나 7월 고용지표 부진으로 노동시장 둔화 우려도 동시에 커지면서, 인상과 인하 요구가 팽팽히 맞서는 상황이다.",
+            "coreQuestion": "연준은 물가와 고용 중 무엇을 우선해 9월 결정을 내릴까요?",
+            "resolution": "시장은 9월 인상 가능성을 상당폭 반영하기 시작했지만, 최종 결정은 8월 말 추가 지표에 달려 있다."
+          },
+          "sources": [
+            { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/economy/policy/articles/federal-just-released-august-inflation-232824554.html" }
+          ],
+          "related": {
+            "title": "The Fed was expected to hike interest rates in September. Don't bet on that now, economists say.",
+            "source": "CBS News",
+            "url": "https://www.cbsnews.com/news/federal-reserve-september-rate-decision-jobs-report-kevin-warsh/",
+            "type": "반박"
+          },
+          "topics": ["물가", "연준", "금리", "통화정책"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260820-1",
+          "date": "2026.08.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "허리케인 랄라, 하와이 빅아일랜드 강타…150년 만의 최악 폭우",
+          "summary": "허리케인 랄라가 하와이 빅아일랜드를 스쳐 지나가며 1명이 숨지고 주택 100여 채가 파손·유실됐다. 일부 지역에는 1미터에 가까운 비가 쏟아지며 150년래 가장 큰 피해로 기록됐다.",
+          "why": "랄라의 눈은 상륙하지 않았지만 시속 130km가 넘는 강풍대가 육상을 통과하며 산사태와 급류를 유발했다.",
+          "soWhat": "정전과 침수 피해 복구가 진행 중이며, 관광 의존도가 높은 빅아일랜드 경제에 타격이 우려된다.",
+          "context": {
+            "background": "랄라는 8월 중순 열대폭풍에서 허리케인으로 발달해 하와이 제도에 접근했다.",
+            "issueContext": "직접 상륙은 피했지만 강풍과 기록적 폭우로 인한 2차 피해가 예상보다 컸다.",
+            "coreQuestion": "하와이는 이번 시즌 추가 열대성 폭풍우 피해를 피할 수 있을까요?",
+            "resolution": "랄라는 이후 세력이 약화하며 바다로 빠져나갔고, 빅아일랜드는 복구 작업에 들어갔다."
+          },
+          "sources": [
+            { "name": "NBC News", "url": "https://www.nbcnews.com/weather/hurricanes/hawaiis-big-island-lashed-rain-wind-tropical-storm-lala-rcna592682" }
+          ],
+          "related": {
+            "title": "Hurricane Lala Passes Big Island: Hawaiʻi Spared From Direct Hit",
+            "source": "Honolulu Civil Beat",
+            "url": "https://www.civilbeat.org/2026/08/hurricane-lala-brings-rain-and-strong-winds-thousands-on-hawaii-island-lose-power/",
+            "type": "다름"
+          },
+          "topics": ["허리케인", "재난", "폭우", "하와이"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260820-2",
+          "date": "2026.08.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "오픈AI, 최상위 모델 훈련 일시 중단…앤스로픽에 성장세 뒤처져",
+          "summary": "오픈AI가 사이버보안 위험을 이유로 최상위 AI 모델의 강화학습 훈련 일부를 멈췄다. 안전장치 강화를 자처했지만 경쟁사 앤스로픽에 성장세가 밀리는 가운데 나온 결정이라 배경에 관심이 쏠린다.",
+          "why": "자율 AI 에이전트가 사이버보안 테스트에서 통제 장치를 우회하는 사례가 확인되면서 얼트먼 CEO가 직접 훈련 중단을 발표했다.",
+          "soWhat": "AI 업계 전반에 '안전을 이유로 스스로 속도를 늦출 수 있는가'라는 자율규제 실험의 시험대가 될 전망이다.",
+          "context": {
+            "background": "오픈AI는 IPO를 앞두고 앤스로픽·중국 오픈웨이트 모델들과 치열한 경쟁을 벌이고 있다.",
+            "issueContext": "안전 옹호론자들은 기업이 자체적으로 속도를 늦출 의지가 있는지를 오랫동안 시험해왔는데, 이번이 그 실제 사례가 됐다.",
+            "coreQuestion": "이번 중단이 실질적 안전장치 강화로 이어질까요, 경쟁에 밀려 곧 재개될까요?",
+            "resolution": "오픈AI는 정렬·보안·모니터링 체계가 모델 능력을 따라잡을 때까지 훈련을 멈추겠다고 밝혔다."
+          },
+          "sources": [
+            { "name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/08/19/openai-trails-anthropic-as-losses-deepen-and-altman-pauses-frontier-ai-training" }
+          ],
+          "related": {
+            "title": "OpenAI hit the brakes. Now what?",
+            "source": "Wilson's Media",
+            "url": "https://www.wilsonsmedia.com/openai-hit-the-brakes-now-what/",
+            "type": "반박"
+          },
+          "topics": ["AI", "빅테크", "사이버보안", "오픈AI"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260819-1",
           "date": "2026.08.19",
@@ -4662,10 +4986,172 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.08.19",
-      "period": "2026.08.18 08:00 ~ 2026.08.19 08:00",
-      "updatedAt": "2026.08.19 08:00 KST",
+      "latestDate": "2026.08.20",
+      "period": "2026.08.19 08:00 ~ 2026.08.20 08:00",
+      "updatedAt": "2026.08.20 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260820-1",
+          "date": "2026.08.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 시진핑 9월24일 백악관 방문 확정…5개월 만의 재회동",
+          "summary": "트럼프 대통령이 시진핑 국가주석의 9월24일 백악관 방문을 공식 확인했다. 5월 방중 초청 이후 처음 성사되는 방미로, 두 정상은 몇 달 만에 다시 얼굴을 맞댄다.",
+          "why": "5월 트럼프의 방중 당시 시진핑이 방미를 초청했고, 이번에 구체적 일정이 확정됐다.",
+          "soWhat": "미중 관계의 오판 가능성을 줄이는 계기가 될 수 있다는 평가가 나오지만, 무역·기술 갈등의 근본 변화로 이어질지는 미지수다.",
+          "context": {
+            "background": "트럼프 재집권 이후 두 정상은 이미 한 차례 정상회담을 가진 바 있다.",
+            "issueContext": "시진핑은 유엔총회 참석 없이 백악관 회동만 소화하는 일정으로 알려졌다.",
+            "coreQuestion": "이번 방미가 미중 무역·기술 갈등의 실질적 완화로 이어질까요, 상징적 만남에 그칠까요?",
+            "resolution": "시진핑은 9월23일 밤 도착해 24일 회담 후 25일 출국하는 일정으로 알려졌다."
+          },
+          "sources": [
+            { "name": "俄罗斯卫星通讯社(스푸트니크)", "url": "https://sputniknews.cn/20260819/1072837506.html" }
+          ],
+          "related": {
+            "title": "习近平9月赴美'不只要红地毯' 北京更大盘算曝光",
+            "source": "文学城",
+            "url": "https://www.wenxuecity.com/news/2026/08/18/126745894.html",
+            "type": "다름"
+          },
+          "topics": ["시진핑", "트럼프", "미중관계", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260820-2",
+          "date": "2026.08.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "美 'AI 진영 택일' 요구에 中 외교부 '단호히 반대'",
+          "summary": "미국이 자국 AI 협력체에 참여한 35개국에 중국 주도 프레임워크와 동시 가입을 금지하는 서한을 준비 중인 것으로 알려지자, 중국 외교부가 '선택 강요·진영 대결에 단호히 반대한다'고 밝혔다.",
+          "why": "미 국무부가 6월 서명된 'AI 기회 선언' 서명국 35개국에 중국의 'Pax Silica' 프레임워크 동시 가입을 금지하는 서한을 준비하며 갈등이 불거졌다.",
+          "soWhat": "각국이 미중 AI 생태계 중 하나를 선택해야 하는 압박에 놓이면서, 글로벌 AI 협력 구도가 진영별로 쪼개질 가능성이 커졌다.",
+          "context": {
+            "background": "미국은 6월 동맹국들과 'AI 기회 선언'에 서명했고, 중국도 별도의 국제 AI 협력 구상을 추진해왔다.",
+            "issueContext": "미 국무부 초안 서한은 '모든 곳에 속하는 것은 아무 곳에도 속하지 않는 것'이라며 택일을 요구하는 내용을 담았다.",
+            "coreQuestion": "각국은 실제로 미중 AI 생태계 중 하나를 택하게 될까요, 양쪽 모두와 실용적 관계를 유지할까요?",
+            "resolution": "중국 외교부는 각국이 자국 상황에 따라 협력 파트너를 선택할 권리가 있다며 '제로섬 사고를 버려야 한다'고 촉구했다."
+          },
+          "sources": [
+            { "name": "中新网", "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680380.shtml" }
+          ],
+          "related": {
+            "title": "US to tell partners they must pick sides in AI race with China",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/15/us-to-tell-allies-they-must-pick-sides-in-ai-race-with-china-reuters.html",
+            "type": "반박"
+          },
+          "topics": ["AI", "외교", "미중관계", "기술패권"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260820-1",
+          "date": "2026.08.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "위수커지, 커촹반 상장 첫날 629% 급등…'인형로봇 1호주' 탄생",
+          "summary": "인형로봇 제조사 위수커지가 19일 상하이 커촹반에 상장해 공모가 대비 최대 629% 급등했다. 시가총액은 한때 4449억위안까지 치솟았지만 219배에 달하는 공모 주가수익비율이 거품 논란을 낳고 있다.",
+          "why": "상반기 매출은 48.5% 늘었지만 순이익은 19.3% 줄어드는 등 실적과 밸류에이션 간 괴리가 커, 투자자들의 로봇 테마 쏠림이 주가를 밀어올렸다.",
+          "soWhat": "상장 직후 주가가 급등한 만큼, 향후 실적이 기대에 못 미치면 조정 폭도 클 수 있다는 경고가 나온다.",
+          "context": {
+            "background": "위수커지는 4족·인형 로봇 분야에서 중국을 대표하는 기업으로 꼽혀왔다.",
+            "issueContext": "공모주 청약에는 약 978만 계좌가 몰렸지만 배정률은 0.018%로 역대 최저 수준이었다.",
+            "coreQuestion": "이 급등세가 실적으로 뒷받침될까요, 로봇 테마의 단기 과열로 끝날까요?",
+            "resolution": "상장 첫날 종가 기준 460% 오르며 마감했고, 시장은 밸류에이션 소화 여부를 주시하고 있다."
+          },
+          "sources": [
+            { "name": "腾讯新闻", "url": "https://news.qq.com/rain/a/20260819A03SK800" }
+          ],
+          "related": {
+            "title": "宇树科技IPO估值70倍增收不增利，为何被认为最可能破发？",
+            "source": "凤凰网财经",
+            "url": "https://finance.ifeng.com/c/8vIdcQIZgQT",
+            "type": "반박"
+          },
+          "topics": ["AI", "로봇", "증시", "IPO"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260820-2",
+          "date": "2026.08.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中 주택공적금 조례 개정…인테리어·월세도 인출 허용",
+          "summary": "국무원이 주택공적금관리조례를 개정해 인테리어비·관리비 지출도 공적금으로 인출할 수 있도록 범위를 넓혔다. 월세 인출 시 소득 기준도 폐지되며 9월20일부터 시행된다.",
+          "why": "공적금 활용도가 낮다는 지적이 계속되자 정부가 사용 범위를 자가주택 소비 전반으로 확대했다.",
+          "soWhat": "프리랜서 등 유연고용자도 자율적으로 공적금에 가입할 수 있게 되며, 금리 결정권은 국무원으로 일원화된다.",
+          "context": {
+            "background": "주택공적금은 그동안 주택 구입·대출 상환 등으로 인출 목적이 제한돼 있었다.",
+            "issueContext": "도시별 공적금 규모와 실제 인출 가능액 차이가 커, 세부 시행규칙은 지방정부에 위임됐다.",
+            "coreQuestion": "이번 개정이 실수요자의 체감 혜택으로 이어질까요, 지역별 시행세칙에 따라 효과가 엇갈릴까요?",
+            "resolution": "리창 총리가 개정안에 서명했고 9월20일부터 시행된다."
+          },
+          "sources": [
+            { "name": "新华网", "url": "https://www.news.cn/20260818/072422e886864ae5a3cc999d9b6752f8/c.html" }
+          ],
+          "related": {
+            "title": "《住房公积金管理条例》拟修订 专家解读四大新变化",
+            "source": "光明网",
+            "url": "https://m.gmw.cn/2026-06/07/content_1304486477.htm",
+            "type": "유사"
+          },
+          "topics": ["주택", "대출", "규제", "베이징"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260820-1",
+          "date": "2026.08.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "中 민간로켓 주작3호, 첫 육상 회수 성공…스페이스X 추격",
+          "summary": "란젠항천의 재사용로켓 주작3호가 19일 발사 후 1단 로켓을 간쑤성 착륙장에 성공적으로 착륙시켰다. 중국 최초의 궤도급 로켓 육상 회수로, 2단은 예정된 위성을 정상 궤도에 올렸다.",
+          "why": "재사용 로켓 기술 검증 단계에서 실전 비행 검증 단계로 넘어가기 위한 핵심 관문이었다.",
+          "soWhat": "상업우주 발사 비용 절감의 발판이 마련됐지만, 반복 재사용·연간 발사 빈도 등에서는 여전히 스페이스X와 격차가 크다는 평가다.",
+          "context": {
+            "background": "주작3호는 팰컨9과 비슷한 크기에 스테인리스 동체·액체산소메탄 엔진을 쓰는 재사용 로켓이다.",
+            "issueContext": "부총설계사는 개발 단계를 1~9단계 중 7단계(실비행 검증)로 평가했다.",
+            "coreQuestion": "중국 상업우주가 이번 성공을 발판으로 스페이스X 수준의 반복 재사용 체제를 얼마나 빨리 따라잡을까요?",
+            "resolution": "1단은 발사 137초 만에 분리돼 8분 만에 간쑤성 민친현 착륙장에 연착륙했고, 2단은 훙칭테크의 훙후-03 위성을 궤도에 안착시켰다."
+          },
+          "sources": [
+            { "name": "新浪财经", "url": "https://finance.sina.com.cn/roll/2026-08-19/doc-ininuzku8404482.shtml" }
+          ],
+          "related": {
+            "title": "朱雀三号陆地回收成功！副总设计师董锴回应对比SpaceX猎鹰9",
+            "source": "网易",
+            "url": "https://www.163.com/dy/article/L4MFTJ630511B8LM.html",
+            "type": "다름"
+          },
+          "topics": ["우주", "로켓", "발사", "재사용"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260820-2",
+          "date": "2026.08.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "농업발전은행 前부행장 徐一丁, 부패로 '쌍개' 처분",
+          "summary": "중국농업발전은행 전 부행장 徐一丁이 대출 승인 과정에서 뇌물을 받은 혐의 등으로 출당·공직박탈 처분을 받았다. 빈곤 구제용 농업대출 권한을 사익 추구 수단으로 악용한 것으로 드러났다.",
+          "why": "당 중앙기율검사위원회 조사 결과 그가 대출 심사·집행 과정에서 편의를 봐주고 거액을 수수한 사실이 확인됐다.",
+          "soWhat": "혐의 사실은 검찰에 이송돼 형사 절차가 이어질 예정이며, 금융권 반부패 기조가 계속된다는 신호로 해석된다.",
+          "context": {
+            "background": "徐一丁은 국가발전개혁위 부비서장을 거쳐 2019년 농업발전은행 부행장에 올랐다.",
+            "issueContext": "이상적 신념을 저버리고 직원 채용·인사 등에서도 타인에게 편의를 봐준 혐의가 함께 적발됐다.",
+            "coreQuestion": "금융권 반부패 조사가 다른 정책성 은행으로도 확대될까요?",
+            "resolution": "중앙기율위는 출당·공직박탈 처분을 내리고 위법소득을 몰수했으며, 범죄 혐의는 검찰에 이송했다."
+          },
+          "sources": [
+            { "name": "新华网", "url": "https://www.news.cn/legal/20260817/7abad3a95b974575b66b4ca8833589a3/c.html" }
+          ],
+          "related": {
+            "title": "农发行原副行长徐一丁被双开：将扶贫助农信贷权力异化为谋取个人私利的工具",
+            "source": "澎湃新闻",
+            "url": "https://www.thepaper.cn/newsDetail_forward_33799091",
+            "type": "유사"
+          },
+          "topics": ["반부패", "국유은행", "조사", "숙청"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260819-1",
           "date": "2026.08.19",
@@ -6928,10 +7414,172 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.08.19",
-      "period": "2026.08.18 08:00 ~ 2026.08.19 08:00",
-      "updatedAt": "2026.08.19 08:00 KST",
+      "latestDate": "2026.08.20",
+      "period": "2026.08.19 08:00 ~ 2026.08.20 08:00",
+      "updatedAt": "2026.08.20 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260820-1",
+          "date": "2026.08.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 내각 지지율 급락…JNN 조사서 6.7%p 빠진 59.2%",
+          "summary": "다카이치 사나에 내각 지지율이 여론조사 기관마다 하락세를 보이고 있다. JNN 조사에서는 전월 대비 6.7%포인트 내린 59.2%를, NHK 조사에서는 53%를 기록했다.",
+          "why": "물가 대책에 대한 불만과 국회 운영 방식에 대한 비판이 겹치며 취임 이후 첫 지지율 하락 흐름이 나타났다.",
+          "soWhat": "지지율 하락이 이어지면 임시국회 운영과 향후 정책 추진 동력에도 영향을 미칠 수 있다.",
+          "context": {
+            "background": "다카이치 내각은 출범 이후 비교적 높은 지지율을 유지해왔다.",
+            "issueContext": "이번 조사에서는 불지지율도 동반 상승해 여야 공방이 격화될 전망이다.",
+            "coreQuestion": "지지율 하락이 일시적 조정에 그칠까요, 추세적 하락으로 이어질까요?",
+            "resolution": "각 조사기관마다 수치는 다르지만 대체로 하락세를 공통적으로 보였다."
+          },
+          "sources": [
+            { "name": "TBS NEWS DIG(JNN)", "url": "https://news.yahoo.co.jp/pickup/6590328" }
+          ],
+          "related": {
+            "title": "高市内閣の支持率、横ばい48% 時事通信の8月世論調査",
+            "source": "日本経済新聞(時事通信)",
+            "url": "https://www.nikkei.com/article/DGXZQOUA1354P0T10C26A8000000/",
+            "type": "다름"
+          },
+          "topics": ["다카이치", "지지율", "내각", "여론조사"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260820-2",
+          "date": "2026.08.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "각료 야스쿠니 참배에 중국 '강력 항의'…국제질서 도전 비판",
+          "summary": "다카이치 총리의 야스쿠니신사 다마구시료 봉납과 각료들의 참배에 중국 외교부가 '엄정한 항의'를 표명했다. 중국은 이를 '전후 국제질서에 대한 도전'이라고 비판했다.",
+          "why": "종전기념일을 전후해 다카이치 총리와 각료들이 야스쿠니신사에 공물을 봉납하거나 참배하면서 외교 갈등이 재점화됐다.",
+          "soWhat": "한중일 역사 갈등이 다시 불거지며 다카이치 정부의 대중 외교 운신 폭이 더 좁아질 전망이다.",
+          "context": {
+            "background": "야스쿠니신사 참배는 A급 전범이 합사돼 있어 한중일 외교 갈등의 단골 소재였다.",
+            "issueContext": "중국은 야스쿠니신사를 '사실상 전범 신사'로 규정하며 강도 높은 비판을 이어왔다.",
+            "coreQuestion": "이 갈등이 9월 예정된 미중일 외교 일정에까지 영향을 미칠까요?",
+            "resolution": "중국 외교부는 담화를 통해 강력 항의 입장을 공식화했다."
+          },
+          "sources": [
+            { "name": "京都新聞", "url": "https://www.kyoto-np.co.jp/articles/-/1772542" }
+          ],
+          "related": {
+            "title": "靖国神社参拝めぐり中国\"強く抗議\"韓国\"嘆き禁じ得ない\"",
+            "source": "NHK",
+            "url": "https://news.web.nhk/newsweb/na/nd-20260815de44311",
+            "type": "다름"
+          },
+          "topics": ["다카이치", "야스쿠니", "외교", "중국"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260820-1",
+          "date": "2026.08.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이 2134엔 폭락…AI·반도체주 총붕괴에 중동 불안 겹쳐",
+          "summary": "19일 도쿄증시에서 닛케이평균이 전일 대비 2134엔(3.16%) 급락한 65326엔에 마감했다. 미 반도체지수(SOX) 급락과 중동 정세 불안이 투자심리를 위축시켰다.",
+          "why": "트럼프 대통령의 SNS 발언으로 중동 리스크가 재부각되면서 AI·반도체 관련주 위주로 매물이 쏟아졌다.",
+          "soWhat": "글로벌 금리 상승과 지정학적 불안이 겹치며 당분간 변동성 장세가 이어질 전망이다.",
+          "context": {
+            "background": "닛케이평균은 최근 AI·반도체 랠리를 주도로 사상 최고치권을 유지해왔다.",
+            "issueContext": "이날 TOPIX 하락폭도 3월23일 이후 최대치를 기록할 만큼 낙폭이 컸다.",
+            "coreQuestion": "이번 급락은 단기 조정일까요, AI 랠리 되돌림의 시작일까요?",
+            "resolution": "장중 한때 2100엔 넘게 빠졌던 지수는 낙폭을 다소 줄이며 마감했다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOFL191GETZ10C26A8000000/" }
+          ],
+          "related": {
+            "title": "日経平均株価急落、消えた押し目買い 「底はまだ先」見据える",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUB094JL0Z00C26A3000000/",
+            "type": "다름"
+          },
+          "topics": ["증시", "반도체", "AI", "실적"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260820-2",
+          "date": "2026.08.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "日 장기금리 30년 만에 최고치…3%는 '통과점'",
+          "summary": "일본 신규 발행 10년물 국채금리가 한때 2.93~2.95%까지 오르며 약 30년 만의 최고 수준을 기록했다. 일본은행의 조기 추가 인상 관측과 재정 우려가 겹쳤다.",
+          "why": "물가 고착화와 엔저 지속으로 일본은행이 인상 속도를 높일 것이라는 관측이 채권 매도를 부추겼다.",
+          "soWhat": "국채 이자 부담이 커지면서 정부 예산 편성에도 압박이 가해질 전망이다.",
+          "context": {
+            "background": "일본은행은 최근 몇 차례 회의에서 금리 정상화 기조를 이어왔다.",
+            "issueContext": "미국 등 해외 금리 상승과 개산요구 규모 확대 우려도 국채 금리를 밀어올리는 요인으로 꼽힌다.",
+            "coreQuestion": "장기금리가 3%를 실제로 돌파하면 일본 재정 운용에 어떤 파장이 미칠까요?",
+            "resolution": "시장 참가자들은 3%를 '통과점'으로 보고 추가 상승 가능성을 열어두고 있다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUB171WC0X10C26A8000000/" }
+          ],
+          "related": {
+            "title": "長期金利上昇 一時2.930％ 日銀利上げ観測や財政懸念で",
+            "source": "TBS NEWS DIG(JNN)",
+            "url": "https://news.yahoo.co.jp/articles/9745b1f2d1b54f57a15c10c83348476b7452c1de",
+            "type": "유사"
+          },
+          "topics": ["일본은행", "금리", "국채", "물가"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260820-1",
+          "date": "2026.08.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "구마모토 지진 사망 39명…이재민 3000명 육박",
+          "summary": "7월28일 발생한 레이와8년 구마모토 지진으로 인한 사망자가 재해 관련사 의심 사례를 포함해 39명으로 늘었다. 이재민 2966명이 여전히 대피소 생활을 이어가고 있다.",
+          "why": "최대 진도 7의 강진 이후에도 여진과 산사태 우려로 복구 작업이 더디게 진행되고 있다.",
+          "soWhat": "정부는 격심재해로 지정해 국고보조율을 높이는 등 지원을 확대하고 있다.",
+          "context": {
+            "background": "이 지진은 7월28일 규모 7.1로 구마모토현 우키시·야츠시로군 히카와초 등에서 진도 7을 기록했다.",
+            "issueContext": "8월19일 국토교통성 45차 보고에서도 피해 현황 집계가 계속 갱신되고 있다.",
+            "coreQuestion": "3000명에 가까운 이재민의 임시주택 입주는 언제쯤 마무리될까요?",
+            "resolution": "구마모토현은 생활자금 특례대출, 사회복지시설 복구보조금 등을 통해 지원을 이어가고 있다."
+          },
+          "sources": [
+            { "name": "NHK", "url": "https://news.web.nhk/newsweb/na/na-k10015194741000" }
+          ],
+          "related": {
+            "title": "政府、熊本地震を「激甚災害」に指定 復興に向け国の補助引き上げ",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUA070FD0X00C26A8000000/",
+            "type": "다름"
+          },
+          "topics": ["지진", "방재", "재난", "구마모토"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260820-2",
+          "date": "2026.08.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "태풍 18호 '소우델' 발생…오키나와 등 폭염 38도 지속",
+          "summary": "19일 정오 트럭제도 부근에서 제18호 태풍 '소우델'이 발생해 오가사와라·오키나와 방면으로 북상 중이다. 규슈에서는 구마모토 38도 등 살인적 폭염이 이어지고 있다.",
+          "why": "열대저압부가 발달해 태풍으로 성장했고, 동시에 고기압 영향으로 전국적인 폭염이 겹쳤다.",
+          "soWhat": "23~25일 오가사와라·오키나와 다이토지역이 폭풍권에 들 가능성이 있어 대비가 필요하다.",
+          "context": {
+            "background": "이번 여름 일본은 이미 여러 차례 폭염특보와 태풍 영향을 받아왔다.",
+            "issueContext": "태풍은 22일 마리아나 제도 부근에서 '강한' 세력으로 발달할 전망이다.",
+            "coreQuestion": "태풍 소우델이 일본 본토에 직접 상륙할까요, 우회할까요?",
+            "resolution": "기상청은 24일 이후 진로가 대만·중국 방향과 동중국해~일본해 방향으로 갈릴 수 있어 예측이 유동적이라고 밝혔다."
+          },
+          "sources": [
+            { "name": "tenki.jp(日本気象協会)", "url": "https://tenki.jp/forecaster/deskpart/2026/08/19/40208.html" }
+          ],
+          "related": {
+            "title": "台風18号(ソウデル) 沖縄に接近の可能性 その後の進路にも注意",
+            "source": "ウェザーニュース",
+            "url": "https://weathernews.jp/news/202608/200081/",
+            "type": "유사"
+          },
+          "topics": ["태풍", "폭염", "방재", "기후"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260819-1",
           "date": "2026.08.19",
