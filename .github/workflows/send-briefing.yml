@@ -11,6 +11,10 @@ on:
         default: false
   schedule:
     - cron: "0 23 * * *"    # UTC 23:00 = KST 익일 08:00
+    # 재시도. 06:40 수집이 실패한 날은 08:00 발송이 신선도 검사에 걸려 건너뛰어진다.
+    # 09:40 재수집이 성공했으면 이 실행이 그날치를 내보낸다.
+    # 이미 보낸 날은 data/sent.json 멱등 가드가 막으므로 같은 메일이 두 번 나가지 않는다.
+    - cron: "30 1 * * *"    # UTC 01:30 = KST 10:30
 
 permissions:
   contents: write        # 발송 뒤 data/sent.json(멱등 기록)을 커밋한다

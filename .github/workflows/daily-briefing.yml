@@ -2,8 +2,18 @@ name: Daily Briefing
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: "오늘치가 이미 있어도 다시 수집"
+        type: boolean
+        default: false
   schedule:
     - cron: "40 21 * * *"   # UTC 21:40 = KST 06:40 (다음 날)
+    # 재시도. 06:40 실행이 구독 5시간 한도(429)에 걸리면 1턴 만에 죽고 그날이 통째로 날아간다
+    # (2026-08-20: "You've hit your session limit · resets 8:40am" — 수집도 메일도 없었다).
+    # 아래 'Check whether today's data is already collected' 스텝이 오늘치가 이미 있으면
+    # 수집 스텝을 건너뛰므로, 정상적인 날에 이 실행은 쿼터를 쓰지 않는다.
+    - cron: "40 0 * * *"    # UTC 00:40 = KST 09:40
 
 permissions:
   contents: write
@@ -25,7 +35,17 @@ jobs:
         id: kst
         run: echo "date=$(TZ=Asia/Seoul date +%Y.%m.%d)" >> "$GITHUB_OUTPUT"
 
+      # 재시도 실행(09:40)이 이미 끝난 일을 다시 하지 않도록 여기서 끊는다.
+      # 4개국 모두 오늘 날짜면 수집할 것이 없다.
+      - name: Check whether today's data is already collected
+        id: need
+        run: |
+          missing=$(python3 -c "import json;d=json.load(open('data/issues.json',encoding='utf-8'));print(','.join(c for c,v in d['COUNTRIES'].items() if v.get('latestDate')!='${{ steps.kst.outputs.date }}'))")
+          echo "미수집 국가: ${missing:-없음}"
+          echo "missing=$missing" >> "$GITHUB_OUTPUT"
+
       - name: Collect and summarise today's briefing
+        if: inputs.force == true || steps.need.outputs.missing != ''
         env:
           TZ: Asia/Seoul
         uses: anthropics/claude-code-action@v1
