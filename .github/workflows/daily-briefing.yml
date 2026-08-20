@@ -97,5 +97,9 @@ jobs:
             # claude-code-action이 자신의 앱 토큰을 git 자격증명에 심고 스텝 종료 시 폐기한다.
             # 그대로 push하면 폐기된 토큰을 써서 401이 난다. 워크플로 GITHUB_TOKEN으로 다시 밀어준다.
             git config --local --unset-all http.https://github.com/.extraheader || true
+            # 수집은 20~40분 걸린다. 그 사이 누가 main에 올리면 push가 non-fast-forward로
+            # 거부되고, 러너와 함께 그날 수집분이 통째로 사라진다 (2026-08-20에 실제로 겪었다).
+            # send-briefing.yml과 같은 방식으로 밀린 것을 얹어서 올린다.
+            git pull --rebase --autostash origin main
             git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
           fi
