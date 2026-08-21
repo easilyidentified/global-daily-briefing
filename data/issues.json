@@ -113,10 +113,172 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.08.21",
-      "period": "2026.08.20 08:00 ~ 2026.08.21 08:00",
-      "updatedAt": "2026.08.21 08:00 KST",
+      "latestDate": "2026.08.22",
+      "period": "2026.08.21 08:00 ~ 2026.08.22 08:00",
+      "updatedAt": "2026.08.22 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260822-1",
+          "date": "2026.08.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "李대통령, 노웅래 2심 무죄에 사과…\"공천배제, 눈물 머금은 읍참마속\"",
+          "summary": "이재명 대통령이 21일 노웅래 전 의원의 항소심 무죄 선고에 사과했다. 공천 배제가 정치검찰의 압박에 떠밀린 결정이었다며 뒤늦은 사죄를 표했다.",
+          "why": "노 전 의원은 2020년 물류센터 인허가 알선 명목 금품수수 혐의로 기소돼 1·2심 모두 무죄를 선고받았다.",
+          "soWhat": "여당은 당시 수사를 주도한 한동훈 책임론을 다시 꺼내들며 검찰 개혁 논쟁이 재점화될 전망이다.",
+          "context": {
+            "background": "노 전 의원은 2020년 총선 공천 과정에서 뇌물수수 의혹으로 공천이 배제됐고, 이후 기소돼 1심에서도 무죄를 받았다.",
+            "issueContext": "항소심 재판부도 검찰이 제시한 증거가 유죄 입증에 부족하다고 판단해 무죄를 유지했다.",
+            "coreQuestion": "정치검찰발 기소 논란은 검찰 개혁 논의로 이어질까요?",
+            "resolution": "이 대통령은 사죄와 함께 국가권력 남용 재발 방지를 다짐했다."
+          },
+          "sources": [
+            { "name": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202608212120094724" }
+          ],
+          "related": {
+            "title": "'부스럭 소리가 증거라더니'…민주당, 노웅래 무죄에 한동훈 맹공",
+            "source": "서울경제",
+            "url": "https://www.sedaily.com/article/20082054",
+            "type": "다름"
+          },
+          "topics": ["이재명", "노웅래", "검찰개혁", "여야갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260822-2",
+          "date": "2026.08.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "'통일교 1억 수수' 권성동, 변호사 등록도 취소",
+          "summary": "통일교 불법 정치자금 수수로 징역 2년이 확정된 권성동 전 국민의힘 의원의 변호사 등록이 21일 취소됐다. 변호사법상 금고 이상 형 확정자는 자격이 정지된다.",
+          "why": "지난달 대법원이 권 전 의원의 징역 2년 실형을 확정하며 의원직을 상실한 데 이어 변호사 자격까지 잃게 됐다.",
+          "soWhat": "정치자금법 위반에 대한 사법부의 잣대가 엄격해지는 가운데, 여야 정치자금 수수 관행 전반에 대한 감시가 강화될 전망이다.",
+          "context": {
+            "background": "권 전 의원은 2022년 대선을 앞두고 윤영호 통일교 세계본부장으로부터 1억원을 받은 혐의로 기소됐다.",
+            "issueContext": "대법원은 지난달 16일 상고심에서 징역 2년을 확정했고, 법무부는 변호사법에 따라 등록 취소를 명령했다.",
+            "coreQuestion": "정치자금법 위반에 대한 사법 처리 강화가 정치권의 자금 관행을 바꿀 수 있을까요?",
+            "resolution": "대한변호사협회는 법무부 명령에 따라 권 전 의원의 변호사 등록을 취소했다."
+          },
+          "sources": [
+            { "name": "경향신문", "url": "https://www.khan.co.kr/article/202608212054001/" }
+          ],
+          "related": {
+            "title": "'통일교 1억 수수' 권성동, 의원직 상실...與 '준엄심판' vs 野 '편파수사'",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202607161449410667",
+            "type": "반박"
+          },
+          "topics": ["통일교", "정치자금", "대법원", "국민의힘"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260822-1",
+          "date": "2026.08.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 0.88% 올라 6912선 회복…코스닥은 4%대 급락 사이드카",
+          "summary": "21일 코스피가 삼성전자·SK하이닉스 강세에 힘입어 6912.95로 마감하며 일주일 만에 6900선을 회복했다. 반면 코스닥은 4.63% 급락해 매도 사이드카가 발동됐다.",
+          "why": "장 초반 전날 급등에 따른 차익실현 매물이 쏟아졌지만, 대규모 주주환원 기대감을 안은 반도체 대형주가 장중 상승 전환하며 지수를 견인했다.",
+          "soWhat": "대형주와 중소형주의 온도차가 커지며 시장 전체의 변동성 관리 부담이 커지고 있다.",
+          "context": {
+            "background": "코스피는 지난 20일 5.8% 급락 후 사이드카가 발동되는 등 최근 반도체주 중심의 급등락이 이어지고 있다.",
+            "issueContext": "이날도 하락 종목이 683곳으로 상승 종목 193곳을 크게 웃돌아, 지수 상승은 소수 대형주에 의존한 결과였다.",
+            "coreQuestion": "반도체 대형주 쏠림 장세는 언제까지 이어질까요?",
+            "resolution": "코스피는 상승 마감했지만 코스닥은 사이드카 발동 속에 낙폭을 키우며 마감했다."
+          },
+          "sources": [
+            { "name": "한국경제", "url": "https://www.hankyung.com/article/2026082150696" }
+          ],
+          "related": {
+            "title": "국내 증시, 또 사이드카…'실효성 떨어졌다' 제도 개편론도",
+            "source": "조세일보",
+            "url": "https://m.joseilbo.com/news/view.htm?newsid=572762&class2=&class=4",
+            "type": "반박"
+          },
+          "topics": ["증시", "코스닥", "사이드카", "반도체"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260822-2",
+          "date": "2026.08.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "김정관 \"韓美, 15% 관세 상한선 공감대\"…대미투자 1호 9월 발표",
+          "summary": "김정관 산업통상부 장관이 러트닉 미 상무장관과 그리어 USTR 대표를 잇달아 만나 15% 관세 상한선 유지에 대한 상호 이해를 재확인했다. 대미 투자 1호 프로젝트는 9월 중 발표하기로 했다.",
+          "why": "무역법 301조 과잉생산 조사 결과 발표를 앞두고 미국이 추가 관세 카드를 만지작거리면서 15% 상한선 붕괴 우려가 커진 데 따른 것이다.",
+          "soWhat": "1호 프로젝트 발표가 계속 지연되면서 미국 측 불만이 쌓이고 있어, 9월 발표가 다시 미뤄지면 관세 상한선 자체가 흔들릴 수 있다.",
+          "context": {
+            "background": "한미는 지난해 3500억달러 규모 대미 투자를 조건으로 상호관세 상한을 15%로 낮추는 데 합의했다.",
+            "issueContext": "이미 부과된 12.5% 강제노동 관세에 과잉생산 관세가 추가되면 20%를 넘는 관세 폭탄이 현실화될 수 있다는 우려가 나온다.",
+            "coreQuestion": "대미 투자 1호 프로젝트 발표가 9월에는 실제로 이뤄질까요?",
+            "resolution": "양국은 다음 주 화상회의로 남은 쟁점을 조율하기로 했다."
+          },
+          "sources": [
+            { "name": "아주경제", "url": "https://www.ajunews.com/view/20260820175031735" }
+          ],
+          "related": {
+            "title": "무역법 301조의 덫⋯한미 '15% 관세 상한선' 방어선 뚫리나",
+            "source": "이투데이",
+            "url": "https://www.etoday.co.kr/news/view/2615327",
+            "type": "반박"
+          },
+          "topics": ["관세", "무역", "투자", "트럼프행정부"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260822-1",
+          "date": "2026.08.22",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "AMD, 韓에 아시아 첫 AI 기술센터 설립…\"엔비디아 의존 낮춘다\"",
+          "summary": "AMD가 연내 한국에 아시아 최초의 AI 기술센터(AI CoE)를 세우고 국산 NPU와 자사 CPU·GPU를 연결하는 개방형 이기종 AI 아키텍처를 공동 개발하기로 했다. 조건이 충족되면 2027년 차세대 플랫폼 '헬리오스'도 국내에 배치한다.",
+          "why": "정부와 국내 AI 반도체 업계가 엔비디아 한 곳에 쏠린 공급망 의존도를 낮추고 개방형 생태계를 구축하려는 목적이 맞아떨어졌다.",
+          "soWhat": "공공 연구기관에서 먼저 실증을 거쳐 성공 사례를 확보하면, 국산 AI 반도체가 글로벌 시장에 진출할 발판이 마련될 수 있다.",
+          "context": {
+            "background": "그동안 국내 AI 인프라는 엔비디아 GPU에 크게 의존해 공급 지연과 가격 리스크에 취약하다는 지적을 받아왔다.",
+            "issueContext": "AMD는 미국 밖에서 NPU를 포함한 이기종 아키텍처를 실증하는 첫 사례로 한국을 선택했다.",
+            "coreQuestion": "개방형 이기종 AI 생태계가 엔비디아 의존을 실제로 낮출 수 있을까요?",
+            "resolution": "과기정통부와 AMD, 국내 NPU 개발사들은 공공 연구기관 실증을 시작으로 협력을 확대하기로 했다."
+          },
+          "sources": [
+            { "name": "머니투데이", "url": "https://www.mt.co.kr/tech/2026/08/20/2026082015172569266" }
+          ],
+          "related": {
+            "title": "엔비디아 의존 벗어나야…정부·AMD·국산 AI 반도체 '개방형 생태계' 맞손",
+            "source": "이투데이",
+            "url": "https://www.etoday.co.kr/news/view/2616455",
+            "type": "다름"
+          },
+          "topics": ["AI", "반도체", "AMD", "엔비디아"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260822-2",
+          "date": "2026.08.22",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "충청·남부·제주 폭염특보 지속…체감 35도에 열대야도",
+          "summary": "21일 충청권과 남부지방, 제주도에 폭염특보가 이어지며 전라·경남권은 체감온도가 35도 안팎까지 올랐다. 밤사이 기온이 25도 아래로 떨어지지 않는 열대야도 일부 지역에서 나타났다.",
+          "why": "장마 이후 뜨거운 남서풍이 유입되며 무더위가 꺾이지 않고 있다.",
+          "soWhat": "오후부터는 충청·남부·제주에 소나기가 예보돼 있어 일시적으로 더위가 누그러질 수 있지만 열대야는 당분간 이어질 전망이다.",
+          "context": {
+            "background": "8월 셋째 주 들어 산업계 조업이 본격화되며 냉방 수요까지 겹쳐 전력수요가 연중 최대치에 근접했다.",
+            "issueContext": "기상청은 온열질환 예방을 위해 격렬한 야외활동 자제와 충분한 수분 섭취를 당부했다.",
+            "coreQuestion": "이번 폭염특보는 언제까지 이어질까요?",
+            "resolution": "기상청은 21일 오후 소나기 이후에도 무더위가 당분간 이어질 것으로 내다봤다."
+          },
+          "sources": [
+            { "name": "한국경제", "url": "https://www.hankyung.com/article/2026082156947" }
+          ],
+          "related": {
+            "title": "폭염 길어지며 역대 최대 전력수요 가능성…기후장관 주재 수급점검",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202608171212516463",
+            "type": "다름"
+          },
+          "topics": ["폭염", "기후", "온열질환", "전력"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260821-1",
           "date": "2026.08.21",
@@ -2719,10 +2881,172 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.08.21",
-      "period": "2026.08.20 08:00 ~ 2026.08.21 08:00",
-      "updatedAt": "2026.08.21 08:00 KST",
+      "latestDate": "2026.08.22",
+      "period": "2026.08.21 08:00 ~ 2026.08.22 08:00",
+      "updatedAt": "2026.08.22 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260822-1",
+          "date": "2026.08.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "대법원, 백악관 볼룸 공사 잠정 재개 허용",
+          "summary": "미 연방대법원이 21일 트럼프 대통령의 백악관 볼룸 신축 공사를 하급심 판결에도 불구하고 잠정적으로 재개할 수 있다고 결정했다. 로버츠 대법원장이 임시 정지 명령을 내렸다.",
+          "why": "항소법원이 의회 승인 없는 동관 철거·볼룸 신축은 위법하다고 2대1로 판결했지만, 대법원이 최종 판단을 위한 시간을 벌어주며 공사를 일단 허용했다.",
+          "soWhat": "이번 결정은 공사의 적법성 자체를 판단한 것이 아니어서, 향후 본안 심리에서 뒤집힐 가능성은 여전히 남아 있다.",
+          "context": {
+            "background": "트럼프 행정부는 지난해 10월부터 민간 모금으로 동관을 철거하고 4억달러 규모의 볼룸을 짓는 공사를 진행해왔다.",
+            "issueContext": "역사보존내셔널트러스트는 의회 승인 없는 백악관 부지 공사가 불법이라며 소송을 제기했다.",
+            "coreQuestion": "대법원은 본안에서 볼룸 공사를 최종적으로 허용할까요, 막을까요?",
+            "resolution": "대법원은 이날 임시 허용 결정만 내렸고 본안 심리 일정은 아직 확정되지 않았다."
+          },
+          "sources": [
+            { "name": "CNN", "url": "https://www.cnn.com/2026/08/21/politics/supreme-court-rules-on-trump-ballroom" }
+          ],
+          "related": {
+            "title": "National Trust for Historic Preservation urges Supreme Court to block Donald Trump's White House ballroom appeal",
+            "source": "The Hill",
+            "url": "https://thehill.com/regulation/court-battles/6035436-national-trust-for-historic-preservation-supreme-court-donald-trump-white-house-ballroom-pause/",
+            "type": "반박"
+          },
+          "topics": ["트럼프", "백악관", "대법원", "소송"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260822-2",
+          "date": "2026.08.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "와하브, 첫 아프간계 미 하원의원 당선…AIPAC 거액 투입에도 승리",
+          "summary": "캘리포니아 주상원의원 아이샤 와하브가 21일 스왈웰 전 의원 잔여임기를 채울 보궐선거에서 53% 득표로 승리해 첫 아프간계 미 연방하원의원이 됐다. AIPAC 계열 슈퍼팩이 상대 후보에 250만달러 이상을 쏟아부었지만 뒤집지 못했다.",
+          "why": "성비위 의혹으로 스왈웰 전 의원이 사퇴하며 공석이 된 동베이 지역구에서 진보 진영과 친이스라엘 로비단체 간 대리전 양상이 됐다.",
+          "soWhat": "AIPAC의 잇단 하원 경선 패배가 이어지며, 거액 선거자금이 지역구 표심을 뒤집지 못한다는 신호로 받아들여지고 있다.",
+          "context": {
+            "background": "와하브는 2018년 아프간계 미국인 최초로 미국 공직에 선출된 이력이 있으며, 이번 승리로 연방의회 진출까지 이뤘다.",
+            "issueContext": "AIPAC은 상대 후보 헤르난데스를 지원하며 부정적 광고를 집중 투입했지만, 와하브는 '지역구는 돈으로 살 수 없다'며 맞섰다.",
+            "coreQuestion": "AIPAC의 대규모 선거자금 투입 전략은 앞으로도 하원 경선에서 계속 효과를 잃을까요?",
+            "resolution": "와하브는 내년 1월 새 의회가 시작될 때까지 동베이 지역을 대표하게 됐다."
+          },
+          "sources": [
+            { "name": "PBS News", "url": "https://www.pbs.org/newshour/politics/state-lawmaker-aisha-wahab-wins-california-special-election-to-replace-former-rep-swalwell" }
+          ],
+          "related": {
+            "title": "Progressive Israel critic leading in California Democratic congressional primary",
+            "source": "The Jerusalem Post",
+            "url": "https://www.jpost.com/us-elections/article-905937",
+            "type": "다름"
+          },
+          "topics": ["의회", "중간선거", "진보", "AIPAC"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260822-1",
+          "date": "2026.08.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "국채금리 급등 충격 딛고 S&P500 0.53% 반등",
+          "summary": "21일 뉴욕증시에서 S&P500 지수가 전날 급락을 딛고 0.53% 오른 7681로 마감했다. 국채금리 급등에 따른 매도세가 진정되며 저가 매수가 유입됐다.",
+          "why": "전날 다우존스가 703포인트(1.3%) 급락하는 등 국채금리 상승 우려로 증시가 흔들렸으나, 노동시장 지표 호조가 반등 재료로 작용했다.",
+          "soWhat": "일부 대형 기술주 쏠림이 심해지며 랠리의 폭이 좁아지고 있어, 시장 전문가들은 지수 상승이 소수 종목에만 의존하는 취약한 흐름이라고 경고한다.",
+          "context": {
+            "background": "이번 주 뉴욕증시는 국채금리 상승과 이란 관련 지정학적 리스크가 겹치며 큰 변동성을 보였다.",
+            "issueContext": "미 노동부는 8월 15일 마감 주간 신규 실업수당 청구가 6000건 줄어든 20만6000건을 기록했다고 밝혔다.",
+            "coreQuestion": "소수 대형 기술주에 의존한 이번 반등은 지속 가능할까요?",
+            "resolution": "이날 지수는 반등했지만 연방준비제도의 이달 회의가 없어 금리 방향성에 대한 불확실성은 남아 있다."
+          },
+          "sources": [
+            { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-21-2026" }
+          ],
+          "related": {
+            "title": "The Stock Market Is Flashing a Warning Signal So Rare It's Only Appeared Once Before",
+            "source": "The Motley Fool",
+            "url": "https://www.fool.com/investing/2026/08/19/the-stock-market-is-flashing-a-warning-signal-so-r/",
+            "type": "반박"
+          },
+          "topics": ["증시", "국채금리", "빅테크", "실적"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260822-2",
+          "date": "2026.08.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "베센트 \"역대 최강 대이란 제재\"…월요일 세부안 발표 예고",
+          "summary": "스콧 베센트 미 재무장관이 20일 이란에 대해 '역사상 가장 강력한 공조 경제고립'을 예고하며 24일 세부 제재안을 발표하겠다고 밝혔다. 발언 직후 브렌트유가 배럴당 94달러까지 치솟았다.",
+          "why": "이란과의 전쟁이 반년째로 접어들면서 군사적 확전 대신 경제 봉쇄로 압박 수위를 높이려는 전략으로 풀이된다.",
+          "soWhat": "동맹국에도 '이란과 거래하면 미국 편이 아니다'라는 압박이 가해지며, 이란산 원유의 80% 이상을 사들이는 중국과의 마찰 가능성도 커지고 있다.",
+          "context": {
+            "background": "미국은 지난 2월 이란과의 전쟁 발발 이후 군사 압박과 경제 제재를 병행해왔다.",
+            "issueContext": "베센트 장관은 유가 급등이 이번 제재 예고와는 무관하다고 주장했지만, 시장은 이를 지정학적 리스크로 받아들이고 있다.",
+            "coreQuestion": "역대 최강 제재 예고가 실제로 이란 정권을 굴복시킬 수 있을까요?",
+            "resolution": "구체적인 제재 내용은 24일 월요일 공식 발표될 예정이다."
+          },
+          "sources": [
+            { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-08-20/bessent-to-detail-us-plans-to-isolate-iran-s-economy-on-monday" }
+          ],
+          "related": {
+            "title": "Scott Bessent Says He Doesn't 'Really Understand' Why Oil Price Spiked on Thursday, Ro Khanna Claps Back",
+            "source": "Benzinga",
+            "url": "https://www.benzinga.com/news/politics/26/08/61348090/scott-bessent-ro-khanna-oil-price-spike-trump-war",
+            "type": "반박"
+          },
+          "topics": ["이란", "안보", "트럼프", "제재"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260822-1",
+          "date": "2026.08.22",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "스페이스X, 올해 100번째 발사 달성…역대 최단 기록",
+          "summary": "스페이스X가 19일 밴덴버그 우주군기지에서 스타링크 위성 24기를 실은 팰컨9을 발사하며 올해 100번째 임무를 완수했다. 2024년보다 두 달 빠른 달성으로, 궤도 위성은 약 1만기에 이른다.",
+          "why": "재사용 로켓 발사 주기를 주 3회 이상으로 끌어올린 생산 효율화가 이 같은 속도를 가능케 했다.",
+          "soWhat": "경쟁사들의 발사체 공급이 병목에 걸리면서 아마존 등 위성 인터넷 경쟁자들의 상용 서비스 개시는 2027년 이후로 밀릴 가능성이 크다.",
+          "context": {
+            "background": "스페이스X는 2020년 한 해 25회 발사에 그쳤지만, 팰컨9 재사용 체계가 안정화되며 발사 빈도가 매년 급증해왔다.",
+            "issueContext": "이번 100회 발사의 대부분은 외부 고객이 아닌 자사 스타링크 위성망 구축용으로, 로켓 사업과 위성 사업이 서로를 키우는 구조다.",
+            "coreQuestion": "스페이스X의 발사 독점이 경쟁사들의 시장 진입을 얼마나 더 늦출까요?",
+            "resolution": "회사는 연말까지 지난해 기록을 다시 경신할 것으로 전망된다."
+          },
+          "sources": [
+            { "name": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-100-launches-2026-starlink-group-17-50-launch" }
+          ],
+          "related": {
+            "title": "SpaceX's satellite ambitions squeeze out rivals reliant on its rockets",
+            "source": "Reuters (Investing.com)",
+            "url": "https://www.investing.com/news/stock-market-news/spacexs-satellite-ambitions-squeeze-out-rivals-reliant-on-its-rockets-4833437",
+            "type": "다름"
+          },
+          "topics": ["우주", "위성", "스페이스X", "발사"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260822-2",
+          "date": "2026.08.22",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "인디애나 폭풍 정전 9일째…\"생존 모드\" 주민들 한계",
+          "summary": "시카고 인근을 강타한 토네이도 폭풍 이후 인디애나 북서부 수만 가구가 21일로 9일째 단전 상태에 놓였다. 학교는 휴교가 이어지고 상한 음식을 버리며 무료 급식소에 줄을 서는 주민이 속출하고 있다.",
+          "why": "전력회사 NIPSCO 고객의 60% 이상, 37만 가구가 지난 11일 폭풍과 이후 이어진 악천후로 한꺼번에 정전됐다.",
+          "soWhat": "타주 복구 인력 투입에도 복구가 더뎌지면서, 소통 부족에 대한 지역 주민과 자치단체의 불만이 커지고 있다.",
+          "context": {
+            "background": "이번 폭풍은 시카고 일대에 토네이도 8개를 동반하며 개리·먼스터·하이랜드 등 인디애나 북서부에 광범위한 피해를 남겼다.",
+            "issueContext": "개리 학군은 8월 13일부터 휴교 중이며, 포티지 타운십 학군은 개학을 25일로 미뤘다.",
+            "coreQuestion": "NIPSCO는 다음 주까지 정전을 완전히 복구할 수 있을까요?",
+            "resolution": "NIPSCO는 화요일까지 복구를 목표로 하고 있다고 밝혔지만 확답은 하지 못했다."
+          },
+          "sources": [
+            { "name": "NPR", "url": "https://www.npr.org/2026/08/21/g-s1-139527/indiana-storm-outages" }
+          ],
+          "related": {
+            "title": "NIPSCO addresses criticism amid historic power outage",
+            "source": "NBC Chicago",
+            "url": "https://www.nbcchicago.com/news/local/nipsco-addresses-criticism-amid-historic-power-outage/3977716/",
+            "type": "반박"
+          },
+          "topics": ["재난", "정전", "토네이도", "기반시설"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260821-1",
           "date": "2026.08.21",
@@ -5310,10 +5634,172 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.08.21",
-      "period": "2026.08.20 08:00 ~ 2026.08.21 08:00",
-      "updatedAt": "2026.08.21 08:00 KST",
+      "latestDate": "2026.08.22",
+      "period": "2026.08.21 08:00 ~ 2026.08.22 08:00",
+      "updatedAt": "2026.08.22 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260822-1",
+          "date": "2026.08.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "홍콩 법원, 톈안먼 추모 조직자 2명 '선동' 유죄 판결",
+          "summary": "홍콩 국가보안법 법원이 21일 리줘런과 저우항퉁 등 톈안먼 추모 연맹 지도부 2명에게 정권 전복 선동 혐의로 유죄를 선고했다. 최고 10년형에 처해질 수 있다.",
+          "why": "검찰은 두 사람이 이끈 연맹이 '일당독재 종식'을 내걸고 매년 빅토리아공원 추모 집회를 열어온 것이 공산당 전복 선동에 해당한다고 주장했다.",
+          "soWhat": "1989년 이후 명맥을 이어온 홍콩의 톈안먼 추모 문화가 국가보안법 시행 이후 사실상 범죄화됐다는 평가가 나온다.",
+          "context": {
+            "background": "두 사람은 2021년 9월 체포된 이후 줄곧 구금 상태에서 재판을 받아왔다.",
+            "issueContext": "국가보안법 지정 판사 3인이 무죄를 주장한 두 사람에게 유죄를 선고했다.",
+            "coreQuestion": "이번 판결이 홍콩 시민사회의 공개 추모 활동을 완전히 봉쇄하게 될까요?",
+            "resolution": "선고 형량은 추후 별도 심리에서 결정될 예정이다."
+          },
+          "sources": [
+            { "name": "CNN", "url": "https://www.cnn.com/2026/08/20/china/hong-kong-china-tiananmen-vigil-verdict-hnk-intl" }
+          ],
+          "related": {
+            "title": "Hong Kong: 'Dismaying' Tiananmen convictions part of campaign to erase Chinese history",
+            "source": "Amnesty International",
+            "url": "https://www.amnesty.org/en/latest/news/2026/08/hong-kong-dismaying-tiananmen-convictions-part-of-campaign-to-erase-chinese-history/",
+            "type": "반박"
+          },
+          "topics": ["홍콩", "톈안먼", "국가보안법", "인권"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260822-2",
+          "date": "2026.08.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "대만, 펑후 인근 中 조사선 '퉁지호' 경고·추적…5월 이후 세 번째",
+          "summary": "대만 해경이 21일 펑후 열도 서쪽 해역에 나타난 중국 조사선 '퉁지호'를 경고하고 추적했다. 지난 5월 이후 이 선박이 대만 인근에 나타난 것은 세 번째다.",
+          "why": "퉁지호는 계측 장비를 투입하지 않은 채 대만 주요 군사기지가 있는 펑후 인근을 항해해, 대만은 이를 '회색지대' 압박으로 규정했다.",
+          "soWhat": "대만은 유사 사례가 반복될 것으로 보고 해경을 1차 대응, 군을 2차 대응 라인으로 하는 대응 체계를 유지하기로 했다.",
+          "context": {
+            "background": "지난해 취역한 퉁지호는 지난 5월과 7월에도 대만 인근 해역에 출몰해 해경의 퇴거 경고를 받은 바 있다.",
+            "issueContext": "대만은 중국이 조사선을 앞세워 해당 수역에 대한 관할권을 기정사실화하려 한다고 보고 있다.",
+            "coreQuestion": "중국의 조사선 출몰은 앞으로 더 잦아질까요?",
+            "resolution": "대만 해경 순시선이 퉁지호와 나란히 항해하며 강한 경고 방송을 내보냈고, 선박은 남동쪽으로 계속 항해했다."
+          },
+          "sources": [
+            { "name": "Reuters(WHBL)", "url": "https://whbl.com/2026/08/21/taiwan-warns-off-shadows-chinese-research-ship-sailing-to-its-west/" }
+          ],
+          "related": {
+            "title": "台湾陆委会民调：7成台湾民众视中国海警在台湾东部海域巡逻为'恶意'",
+            "source": "禁闻网",
+            "url": "https://www.bannedbook.org/bnews/taiwannews/20260821/2351063.html",
+            "type": "다름"
+          },
+          "topics": ["대만", "영유권분쟁", "안보", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260822-1",
+          "date": "2026.08.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中, 7월 대일 희토류 자석 수출 반토막…다카이치 대만 발언 후폭풍",
+          "summary": "중국 해관총서가 20일 공개한 자료에 따르면 7월 대일본 희토류 자석 수출량이 111톤으로 전년 동월 대비 절반으로 줄었다. 같은 기간 전 세계 수출은 4.9% 감소에 그쳐 일본에 대한 감소폭이 두드러졌다.",
+          "why": "다카이치 총리가 지난해 11월 국회에서 대만 관련 발언을 하며 베이징의 반발을 사자, 중국이 수산물 수입 제한에 이어 희토류 등 핵심광물 수출 통제를 강화했다.",
+          "soWhat": "탄화텅스텐 등 군민 겸용 희귀금속의 대일 수출은 2월 이후 6개월 연속 '제로'를 기록하고 있어, 중일 공급망 갈등이 장기화할 조짐이다.",
+          "context": {
+            "background": "중국은 지난 1월 디스프로슘 등 자석 성능을 높이는 핵심 희토류 원소에 대한 수출 통제를 시행했다.",
+            "issueContext": "7월 전 세계 희토류 자석 수출은 5375톤으로 전월 대비 4.9% 줄어든 데 그쳐, 일본에 대한 감소폭이 유독 컸다.",
+            "coreQuestion": "중일 희토류 갈등은 다카이치 정권의 대중 정책 기조를 바꿔놓을까요?",
+            "resolution": "중국 측은 이번 통제가 군사 목적 수출 차단을 위한 합법적 조치라는 입장을 고수하고 있다."
+          },
+          "sources": [
+            { "name": "俄罗斯卫星通讯社(중국어판)", "url": "https://sputniknews.cn/20260821/1072865244.html" }
+          ],
+          "related": {
+            "title": "高市早苗称非常担心中国对日本稀土出口限制等措施 外交部回应",
+            "source": "新京报",
+            "url": "https://www.bjnews.com.cn/detail/1781767691129681.html",
+            "type": "반박"
+          },
+          "topics": ["희토류", "중일관계", "다카이치", "공급망"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260822-2",
+          "date": "2026.08.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中 AI, 美와 격차 빠르게 좁혀…Kimi K3, 비용 우위로 실리콘밸리 긴장",
+          "summary": "중국 문샷AI의 신형 모델 'Kimi K3'가 코딩 등 주요 벤치마크에서 오픈AI·앤트로픽 최상위 모델과 맞먹는 성능을 낮은 개발 비용으로 구현하며 미중 AI 격차 논쟁에 다시 불을 지폈다.",
+          "why": "미국이 첨단 AI 반도체의 대중 수출을 계속 통제하고 있음에도, 중국 모델들이 사용 규모와 비용 면에서 우위를 보이고 있다는 평가가 나온다.",
+          "soWhat": "중국 고성능 AI칩 시장에서 국산 칩 점유율이 60% 넘게 성장할 것으로 전망되며, 자립화 흐름이 가속화할 수 있다.",
+          "context": {
+            "background": "미국 정부는 첨단 AI 반도체의 대중 수출 통제를 유지하며 중국의 AI 개발 속도를 늦추려 해왔다.",
+            "issueContext": "미 백악관은 문샷이 앤트로픽 모델을 '증류'해 K3를 만들었다는 의혹을 제기했지만, 업계에서는 이 주장에 회의적인 시각이 많다.",
+            "coreQuestion": "저비용 고성능 중국 AI 모델의 부상이 미국의 AI 반도체 수출 통제 전략을 무력화할까요?",
+            "resolution": "문샷 측은 증류 의혹을 전면 부인했고, 논쟁은 현재진행형이다."
+          },
+          "sources": [
+            { "name": "俄罗斯卫星通讯社(중국어판)", "url": "https://sputniknews.cn/20260821/1072870124.html" }
+          ],
+          "related": {
+            "title": "China Narrows U.S. AI Gap With Moonshot AI's Kimi K3, Alibaba's Qwen 3.8",
+            "source": "Foreign Policy",
+            "url": "https://foreignpolicy.com/2026/07/23/china-ai-race-moonshot-kimi-k3-alibaba-qwen-deepseek-openai-anthropic/",
+            "type": "다름"
+          },
+          "topics": ["AI", "반도체", "미중갈등", "공급망"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260822-1",
+          "date": "2026.08.22",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "창어 7호 발사 임박…달 남극 물 얼음 탐사 나선다",
+          "summary": "창어 7호 탐사선과 창정 5호 로켓 결합체가 19일 원창 우주발사장에서 발사대로 수직 이송을 마쳤다. 최종 점검을 거쳐 조만간 달 남극으로 발사될 예정이다.",
+          "why": "창어 7호는 달 남극의 영구음영지역에서 물 얼음 존재를 확인하는 것을 핵심 임무로 삼고 있다.",
+          "soWhat": "고정밀 연착륙과 다리형 보행, 도약 등 신기술이 이번 임무에서 처음 시험돼, 향후 유인 달 기지 건설의 기술적 토대가 될 전망이다.",
+          "context": {
+            "background": "탐사선 본체는 지난 4월 원창 발사장에 도착했고, 로켓은 7월 13일 발사장에 반입돼 조립을 마쳤다.",
+            "issueContext": "발사장 설비 점검이 양호한 상태로 확인돼, 추진제 주입 등 발사 전 마지막 절차만 남아 있다.",
+            "coreQuestion": "창어 7호는 달 남극에서 실제로 물 얼음을 확인할 수 있을까요?",
+            "resolution": "중국 유인우주국은 하반기 중 발사 시점을 택일해 공개할 계획이다."
+          },
+          "sources": [
+            { "name": "新华网", "url": "http://www.hq.xinhuanet.com/20260819/b87080be50f84084949e406159d54553/c.html" }
+          ],
+          "related": {
+            "title": "长征五号遥十四火箭安全运抵文昌航天发射场 后续将执行嫦娥七号发射任务",
+            "source": "中国国家航天局",
+            "url": "https://www.cnsa.gov.cn/n6758823/n6758838/c10762022/content.html",
+            "type": "유사"
+          },
+          "topics": ["우주", "탐사", "달탐사", "창어"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260822-2",
+          "date": "2026.08.22",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "中 연구팀, 혈당 감지해 스스로 약 만드는 '스마트 유산균' 개발",
+          "summary": "화둥사범대 예하이펑 교수팀이 혈당 농도를 감지해 GLP-1 성분을 자동으로 분비하는 유전자 회로를 장착한 프로바이오틱 'GIFT'를 개발해 국제학술지 네이처에 발표했다.",
+          "why": "기존 세마글루타이드 등 GLP-1 계열 당뇨·비만 치료제는 갑상선 이상, 위장장애 등 부작용이 있어, 필요할 때만 약효를 내는 '스마트' 치료 전략이 대안으로 떠올랐다.",
+          "soWhat": "경구 복용이 가능하고 부작용이 적어 상용화되면 기존 주사제 시장을 상당 부분 대체할 잠재력이 있다는 평가다.",
+          "context": {
+            "background": "연구팀은 이미 건강기능식품으로 쓰이는 대장균 균주 '니슬 1917'을 유전자 회로의 숙주 세포로 선택했다.",
+            "issueContext": "핵심 센서 단백질 HexR이 혈당 상승으로 생성되는 KDPG 분자와 결합해야만 GLP-1 생성 스위치가 켜지는 방식으로 설계됐다.",
+            "coreQuestion": "이 스마트 유산균은 실제 임상에서도 기존 주사제만큼 효과를 낼 수 있을까요?",
+            "resolution": "연구팀은 8월 12일 네이처에 관련 성과를 게재했으며, 상용화를 위한 후속 임상 연구를 준비 중이다."
+          },
+          "sources": [
+            { "name": "上海科技报", "url": "https://www.stdaily.com/web/2026-08/13/content_563076.html" }
+          ],
+          "related": {
+            "title": "口服'智能益生菌'实现血糖自动调节，中国科学家新成果登上《自然》",
+            "source": "澎湃新闻",
+            "url": "https://www.thepaper.cn/newsDetail_forward_33770480",
+            "type": "유사"
+          },
+          "topics": ["보건", "질병", "연구", "유전공학"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260821-1",
           "date": "2026.08.21",
@@ -7900,10 +8386,172 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.08.21",
-      "period": "2026.08.20 08:00 ~ 2026.08.21 08:00",
-      "updatedAt": "2026.08.21 08:00 KST",
+      "latestDate": "2026.08.22",
+      "period": "2026.08.21 08:00 ~ 2026.08.22 08:00",
+      "updatedAt": "2026.08.22 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260822-1",
+          "date": "2026.08.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리, 신설 국가정보국서 첫 정례 안보 브리핑",
+          "summary": "다카이치 사나에 총리가 21일 국가안전보장국장·국가정보국장과 잇달아 면담하며 지난달 발족한 국가정보국으로부터 첫 정례 브리핑을 받았다. 이날 오후에는 구마모토 지진 비상재해대책본부 회의도 주재했다.",
+          "why": "국가정보국은 지난 7월 31일 발족한 정보 사령탑으로, 각 부처 정보활동을 총괄 조정할 권한을 갖는다.",
+          "soWhat": "총리관저가 외교·안보·경제안전보장 정책 판단에 쓸 고급 정보를 신속히 집약하는 체계가 본격 가동되기 시작했다.",
+          "context": {
+            "background": "국가정보국은 경찰청 출신 하라 가즈야 초대 국장이 이끌며, 내각정보조사실을 격상해 약 700명 규모로 신설됐다.",
+            "issueContext": "야당은 법안 심의 과정에서 정보의 정치적 이용과 국민 감시 강화 가능성을 우려해 반대표를 던졌다.",
+            "coreQuestion": "국가정보국은 정보 정치화 논란 없이 안착할 수 있을까요?",
+            "resolution": "총리는 이날 브리핑에 이어 구마모토 지진 대응 상황도 함께 점검했다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUA210HZ0R20C26A8000000/" }
+          ],
+          "related": {
+            "title": "国民のプライバシー保護は？ 高市首相の答弁にモヤモヤ「国家情報会議」法案、懸念山積みのまま参院へ",
+            "source": "東京新聞",
+            "url": "https://www.tokyo-np.co.jp/article/483838",
+            "type": "반박"
+          },
+          "topics": ["안보", "외교", "국가정보국", "다카이치"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260822-2",
+          "date": "2026.08.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치, 내각·자민당 인사 9월 중하순 단행…유신회 첫 입각 유력",
+          "summary": "다카이치 사나에 총리가 내각 개조와 자민당 임원 인사를 9월 중하순 단행하는 방향으로 조율에 들어갔다. 연립 파트너인 일본유신회에서 처음으로 입각자를 내는 방안이 유력하게 거론된다.",
+          "why": "소비세 감세 법안 처리가 일단락된 뒤 인사를 단행해 정국 운영에 부담을 최소화하려는 판단이 깔려 있다.",
+          "soWhat": "유신회 입각이 현실화하면 자민-유신 연립의 무게중심이 달라지고, 스즈키 슌이치 간사장의 유임 여부가 최대 관전 포인트로 떠오른다.",
+          "context": {
+            "background": "다카이치 정권은 지난해 10월 출범 이후 공명당 대신 일본유신회와 연립을 구성해왔다.",
+            "issueContext": "여권 내에서는 개조 시기를 놓고 9월 하순 유엔총회 방미 전후로 맞추자는 의견이 나온다.",
+            "coreQuestion": "유신회의 첫 입각은 연립 관계를 안정시킬까요, 새로운 갈등의 불씨가 될까요?",
+            "resolution": "총리 측근들은 소비세 감세 법안 처리 이후 인사를 확정하겠다는 방침이다."
+          },
+          "sources": [
+            { "name": "読売新聞オンライン(Yahoo!ニュース)", "url": "https://news.yahoo.co.jp/articles/5b1c632dafac972b8c920fbeb148831745e1f0c5" }
+          ],
+          "related": {
+            "title": "高市内閣、支持率急落で窮地…起死回生の内閣改造に「裏金」「国保逃れ」の懸念",
+            "source": "日刊ゲンダイDIGITAL",
+            "url": "https://www.nikkan-gendai.com/articles/view/news/391319",
+            "type": "반박"
+          },
+          "topics": ["다카이치", "내각", "자민당", "유신회"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260822-1",
+          "date": "2026.08.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "경산성, 라피더스에 1500억엔 추가출자…2027년도 예산요구에 반영",
+          "summary": "일본 경제산업성이 21일 2027년도 예산 개산요구에 차세대 반도체 국산화를 추진하는 라피더스에 대한 1500억엔 규모 출자금을 반영하기로 했다. 정부의 라피더스 지원 총액은 3조엔에 육박하게 된다.",
+          "why": "자기자본을 늘려 은행 융자를 끌어내는 마중물로 쓰겠다는 목적으로, 정부 출자는 이번이 세 번째다.",
+          "soWhat": "구체적인 지원 상한이 제시되지 않은 채 지원 규모가 계속 불어나면서, 사업이 실패할 경우 손실이 고스란히 국민 부담으로 돌아갈 수 있다는 우려도 커지고 있다.",
+          "context": {
+            "background": "라피더스는 2020년대 후반 2나노급 첨단 반도체 양산을 목표로 설립된 국책 프로젝트다.",
+            "issueContext": "정부는 정보처리추진기구(IPA)를 통해 출자하며, 이미 2500억엔을 투입한 상태다.",
+            "coreQuestion": "라피더스는 실제 양산과 판로 확보에 성공해 대규모 재정 투입을 정당화할 수 있을까요?",
+            "resolution": "출자안은 12월 예산안 편성 과정에서 최종 확정될 예정이다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUA209YP0Q6A820C2000000/" }
+          ],
+          "related": {
+            "title": "半導体企業ラピダスに税金投入/軍事転用 危険な思惑/政官一体で米国の「歯車」に",
+            "source": "しんぶん赤旗",
+            "url": "https://www.jcp.or.jp/akahata/aik24/2025-02-19/2025021903_01_0.html",
+            "type": "반박"
+          },
+          "topics": ["반도체", "라피더스", "투자", "공급망"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260822-2",
+          "date": "2026.08.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "이란 제재發 유가 상승에 엔화 158엔대·日 장기금리 2.885%",
+          "summary": "21일 도쿄 외환시장에서 엔화는 전날보다 38전 엔저로 1달러=158엔82~84전에 마감했다. 국채시장에서도 신규발행 10년물 금리가 한때 2.885%까지 올랐다.",
+          "why": "트럼프 미 대통령이 이란에 대한 경제제재 발동을 예고하면서 국제유가와 미 국채금리가 함께 뛰어올라, 엔화 약세와 일본 장기금리 상승을 동시에 밀어올렸다.",
+          "soWhat": "수입 물가 상승 압력이 커지면서 일본은행의 추가 금리 인상 시점을 앞당길 수 있다는 관측이 나온다.",
+          "context": {
+            "background": "일본은행은 올해 들어 완만한 금리 정상화를 이어가고 있지만, 엔저 압력은 좀처럼 꺾이지 않고 있다.",
+            "issueContext": "중동 정세 불안으로 미 원유 선물 가격이 오르면서 달러 강세·엔화 약세 흐름이 강화됐다.",
+            "coreQuestion": "일본은행은 엔저를 막기 위해 추가 금리 인상 속도를 높일까요?",
+            "resolution": "시장은 이란 제재 세부안이 발표되는 24일 이후 변동성이 더 커질 것으로 보고 있다."
+          },
+          "sources": [
+            { "name": "時事通信(Yahoo!ニュース)", "url": "https://news.yahoo.co.jp/articles/fa3c39f68ac6f0dc3b361706328a637356cd91b2" }
+          ],
+          "related": {
+            "title": "長期金利、一時2.885%に上昇 原油高と円安で国債売り",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOFL210NL0R20C26A8000000/",
+            "type": "유사"
+          },
+          "topics": ["엔저", "국채", "금리", "이란"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260822-1",
+          "date": "2026.08.22",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "구마모토 지진 단수, 최대 10만8000호에서 8400호로 감소",
+          "summary": "국토교통성이 21일 발표한 제47보에 따르면 구마모토 지진으로 최대 10만8000호에 달했던 단수 가구가 야쓰시로시·우키시·히카와초 등 8400호까지 줄었다.",
+          "why": "지진 발생 이후 3주가 넘도록 이어진 복구 작업으로 상수도 시설 응급 복구가 상당 부분 마무리 단계에 접어들었다.",
+          "soWhat": "복구가 늦은 지역은 여전히 야간 급수 제한이 이어지고 있어, 완전 해소까지는 추가 시일이 걸릴 전망이다.",
+          "context": {
+            "background": "지난 7월 28일 규모 7.1, 최대 진도 7의 구마모토 지진이 발생해 상수도관이 광범위하게 파손됐다.",
+            "issueContext": "야쓰시로시는 애초 단수 가구의 80%를 복구했지만 약 1만4500호는 여전히 야간 급수 제한 상태였다.",
+            "coreQuestion": "남은 단수 가구는 언제 완전히 해소될까요?",
+            "resolution": "국토교통성은 지자체와 함께 응급 복구를 이어가며 상황을 매일 갱신해 발표하고 있다."
+          },
+          "sources": [
+            { "name": "国土交通省", "url": "https://www.mlit.go.jp/saigai/saigai_260728.html" }
+          ],
+          "related": {
+            "title": "＜2026年熊本地震＞7万2千戸、断水続く 避難者9228人 熊本県発表",
+            "source": "熊本日日新聞(Yahoo!ニュース)",
+            "url": "https://news.yahoo.co.jp/articles/affcfd779fec368288de1d40fa10e24ca8411fa8",
+            "type": "다름"
+          },
+          "topics": ["지진", "방재", "재난", "구마모토"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260822-2",
+          "date": "2026.08.22",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "일본학술회의, 10월 특수법인 전환 앞두고 신규회원 125명 공표",
+          "summary": "일본학술회의가 21일 10월 1일 특수법인 출범과 함께 새로 임명될 회원 후보 125명의 명단을 공표했다. 법인화 이후 정원은 250명으로 늘어난다.",
+          "why": "국가 특별기관이던 학술회의가 정부가 감사를 임명하는 특수법인으로 바뀌면서, 현행 체제로는 마지막이 될 임시총회에서 회원 후보를 심의했다.",
+          "soWhat": "잔여 임기가 남은 현 회원 105명과 신규 125명이 함께 새 법인 출범을 맡게 되지만, 독립성 훼손 우려는 여전히 해소되지 않았다.",
+          "context": {
+            "background": "정부는 지난해 학술회의를 특수법인화하는 법 개정을 국회에서 통과시켰다.",
+            "issueContext": "법조계와 학계는 총리가 임명하는 감사의 강한 권한과 '독립하여'라는 문구 삭제를 근거로 학문의 자유가 위축될 수 있다고 반발해왔다.",
+            "coreQuestion": "특수법인 전환 이후에도 학술회의는 정부로부터 독립적인 정책 제언을 이어갈 수 있을까요?",
+            "resolution": "새 법인은 10월 1일 정식 출범하며, 신규 회원들은 그때부터 임기를 시작한다."
+          },
+          "sources": [
+            { "name": "北日本新聞", "url": "https://webun.jp/articles/-/1078116" }
+          ],
+          "related": {
+            "title": "日本学術会議「法人化」で何が変わる？ \"元幹部\"が語る、「独立性」が損なわれる理由",
+            "source": "弁護士JPニュース",
+            "url": "https://www.ben54.jp/news/2245",
+            "type": "반박"
+          },
+          "topics": ["학술회의", "특수법인", "독립성", "연구"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260821-1",
           "date": "2026.08.21",
