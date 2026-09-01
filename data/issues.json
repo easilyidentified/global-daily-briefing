@@ -113,10 +113,172 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.08.31",
-      "period": "2026.08.30 08:00 ~ 2026.08.31 08:00",
-      "updatedAt": "2026.08.31 08:00 KST",
+      "latestDate": "2026.09.01",
+      "period": "2026.08.31 08:00 ~ 2026.09.01 08:00",
+      "updatedAt": "2026.09.01 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260901-1",
+          "date": "2026.09.01",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "정기국회 100일 대장정 개막…국감·예산 놓고 여야 격돌 예고",
+          "summary": "정기국회가 1일 본회의 개회식을 시작으로 12월 9일까지 100일간의 일정에 들어갔다. 여야는 인사청문회·입법·국정감사·예산안 등 전 분야에서 정면 충돌을 예고했다.",
+          "why": "8월 말 개각 이후 새 정부 2년 차 국정 어젠다를 다룰 정기국회 시즌이 도래했기 때문이다.",
+          "soWhat": "12월 9일까지 인사청문회, 국정감사, 800조원대 내년도 예산안 심사가 이어지며 여야 대치가 장기화될 전망이다.",
+          "context": {
+            "background": "정기국회는 매년 9월 1일 개회해 100일간 열리며, 새해 예산안과 각종 법안을 심의하는 국회의 핵심 일정이다.",
+            "issueContext": "더불어민주당은 '입법 전쟁'을, 국민의힘은 '민생·법치 파탄 저지'를 슬로건으로 내걸며 정면 충돌을 예고하고 있다.",
+            "coreQuestion": "여야는 정기국회 100일간 협치를 이룰까요, 아니면 강대강 대치로 파행을 거듭할까요?",
+            "resolution": "1일 오후 국회 본회의장에서 개회식이 열렸고, 3일 본회의·7~8일 교섭단체 대표연설·9~11일 및 14일 대정부질문 순으로 일정이 짜였다."
+          },
+          "sources": [
+            { "name": "머니투데이", "url": "https://www.mt.co.kr/politics/2026/09/01/2026090108081466063" }
+          ],
+          "related": {
+            "title": "與 '李정부 성공 위한 입법 전쟁' 野 '민생 국회 살리기 총력전'",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202608271442375278",
+            "type": "반박"
+          },
+          "topics": ["국회", "예산", "국정감사", "여야갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260901-2",
+          "date": "2026.09.01",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "'몸통' 지목됐던 김용범 정책실장, 사의 하루 만에 수리",
+          "summary": "레버리지 ETF 도입과 부동산 정책 실패로 야권의 사퇴 압박을 받아온 김용범 대통령실 정책실장이 8월 31일 사의를 표명했고, 이재명 대통령이 1일 사표를 수리했다.",
+          "why": "8월 30일 개각에서 김 실장이 유임되자 야권이 '몸통이 빠졌다'고 비판한 지 사흘 만에 자진 사퇴한 것이다.",
+          "soWhat": "경제정책 컨트롤타워 공백 속에 후임 인선과 정책 기조 변화 여부가 주목된다.",
+          "context": {
+            "background": "김 실장은 올해 5월 삼성전자·SK하이닉스 단일종목 레버리지 ETF 도입을 주도했고, 이는 증시 변동성 확대 논란으로 이어졌다.",
+            "issueContext": "야당은 김 실장을 직권남용 혐의로 고발했고, 일부 진보 진영 인사도 책임론을 제기해왔다.",
+            "coreQuestion": "김 실장 사퇴로 정책 실패 책임론이 매듭지어질까요, 아니면 후속 조사로 이어질까요?",
+            "resolution": "이 대통령은 별도 설명 없이 하루 만에 사표를 수리했으며 후임 인선은 아직 발표되지 않았다."
+          },
+          "sources": [
+            { "name": "주간경향", "url": "https://weekly.khan.co.kr/article/202609010907001/" }
+          ],
+          "related": {
+            "title": "조국 '단일종목 레버리지 ETF, 관치금융 실패…김용범 등 책임 물어야'",
+            "source": "MBC뉴스",
+            "url": "https://imnews.imbc.com/news/2026/politics/article/6842529_36911.html",
+            "type": "반박"
+          },
+          "topics": ["김용범", "레버리지ETF", "부동산", "청와대"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260901-1",
+          "date": "2026.09.01",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "8월 수출 982억 달러 '역대 3위'…반도체 467억 달러 최대",
+          "summary": "8월 수출이 전년 동월 대비 68.7% 증가한 982억5000만달러를 기록해 역대 월간 3위에 올랐다. 반도체 수출은 209% 늘어난 467억달러로 월간 기준 사상 최대다.",
+          "why": "글로벌 AI 투자 확대에 따른 메모리 반도체 수요 폭증이 실적을 견인했다.",
+          "soWhat": "반도체가 전체 수출의 절반 가까이를 차지하면서 편중 리스크에 대한 우려도 함께 커지고 있다.",
+          "context": {
+            "background": "한국 수출은 반도체 호조에 힘입어 9개월 연속 증가세를 이어가고 있다.",
+            "issueContext": "반면 완성차·조선 등 전통 제조업 수출은 감소해 업종별 양극화가 뚜렷해지고 있다.",
+            "coreQuestion": "반도체 편중 수출 구조가 앞으로도 지속 가능한 성장 동력이 될 수 있을까요?",
+            "resolution": "산업통상자원부는 8월 수출 982억5000만달러, 반도체 467억달러를 각각 발표했다."
+          },
+          "sources": [
+            { "name": "머니투데이", "url": "https://www.mt.co.kr/economy/2026/09/01/2026090109011927244" }
+          ],
+          "related": {
+            "title": "빠르게 심화되는 '반도체 편중'…잠재적 리스크 요인될까",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202606150602021376",
+            "type": "다름"
+          },
+          "topics": ["반도체", "수출", "무역", "제조업"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260901-2",
+          "date": "2026.09.01",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 1%대 하락 출발…美 금리 인상 우려에 짓눌려",
+          "summary": "1일 코스피가 장 초반 1%대 하락하며 6700선까지 밀렸다. 케빈 워시 연준 의장의 잭슨홀 매파 발언 이후 9월 미국 기준금리 인상 우려가 재부각된 여파다.",
+          "why": "워시 의장이 잭슨홀 회의에서 기조적 인플레이션이 여전히 높다고 지적하며 매파적 신호를 보냈기 때문이다.",
+          "soWhat": "외국인·기관의 매도세가 이어지는 가운데 개인 매수와 반도체 대장주 자사주 매입이 지수 하단을 지지하고 있다.",
+          "context": {
+            "background": "코스피는 한 달째 6000선 후반에서 박스권 흐름을 이어왔다.",
+            "issueContext": "9월 미국 고용지표와 금리 결정이 국내 증시 방향을 좌우할 핵심 변수로 꼽힌다.",
+            "coreQuestion": "코스피는 9월 중 7000선에 다시 안착할 수 있을까요?",
+            "resolution": "1일 코스피는 개인 순매수에도 외국인·기관 매도에 밀려 1%대 하락 출발했다."
+          },
+          "sources": [
+            { "name": "아시아경제", "url": "https://view.asiae.co.kr/article/2026090109020389457" }
+          ],
+          "related": {
+            "title": "'PER 5배' 역대급 저평가 코스피, 7000선 회복 시험대",
+            "source": "EBN",
+            "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1722168",
+            "type": "다름"
+          },
+          "topics": ["코스피", "금리", "연준", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260901-1",
+          "date": "2026.09.01",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "한반도 안 온 태풍이 폭염 키웠다…6일 만에 기온 4.1도 '껑충'",
+          "summary": "한국해양과학기술원은 한반도에 상륙하지 않은 먼바다 태풍이 대기 순환을 바꿔 올여름 폭염을 키웠다고 31일 밝혔다. 7월 한 주 사이 전국 평균기온이 4.1도나 치솟았다.",
+          "why": "태풍이 장마전선과 북태평양고기압의 위치·세력에 영향을 줘 간접적으로 기온을 끌어올렸기 때문이다.",
+          "soWhat": "직접 상륙하지 않는 태풍도 폭염 예보에 반영해야 한다는 필요성이 제기된다.",
+          "context": {
+            "background": "올여름 서태평양에서 태풍이 20개 넘게 발생했지만 한반도에 상륙한 태풍은 하나도 없었다.",
+            "issueContext": "그런데도 전국 곳곳에서 기록적 폭염이 이어져 그 원인 규명이 필요했다.",
+            "coreQuestion": "먼바다 태풍과 폭염의 연관성 분석이 앞으로 폭염 예보 정확도를 얼마나 높일 수 있을까요?",
+            "resolution": "기상청은 태풍과 동아시아 대기순환의 연계성을 계속 분석하겠다고 밝혔다."
+          },
+          "sources": [
+            { "name": "헤럴드경제", "url": "https://biz.heraldcorp.com/article/10856715" }
+          ],
+          "related": {
+            "title": "먼바다 지난 태풍, 한반도 '찜통더위' 키운 이유?",
+            "source": "아시아경제",
+            "url": "https://view.asiae.co.kr/article/2026083108504081852",
+            "type": "유사"
+          },
+          "topics": ["폭염", "태풍", "기후", "기상청"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260901-2",
+          "date": "2026.09.01",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "누리호 5차 발사, 9월서 10월로 한 달 연기",
+          "summary": "9월로 예정됐던 누리호 5차 발사가 위성 추력기 교체와 추가 시험으로 10월 하순으로 연기됐다. 우주항공청은 '완성도 확보'를 이유로 들었다.",
+          "why": "초소형위성에 적용된 해외산 추력기의 우주 실증이 검증되지 않아 새 부품으로 교체·재시험이 필요해졌기 때문이다.",
+          "soWhat": "위성 15기를 한 번에 실어 다중사출 능력을 시험하는 첫 임무인 만큼 완성도 확보가 우선됐다.",
+          "context": {
+            "background": "누리호 5차 발사는 초소형군집위성 2~6호 등 위성 15기를 탑재해 역대 최다 위성을 실을 예정이다.",
+            "issueContext": "정부 주도 방식에서 기업 양산 방식으로 전환하는 과정에서 추가 검증 필요성이 불거졌다.",
+            "coreQuestion": "일정 연기가 10월 하순 발사의 완성도를 얼마나 끌어올릴 수 있을까요?",
+            "resolution": "우주항공청은 다음 달 총조립에 들어가 10월 하순 발사를 목표로 하고 있다고 밝혔다."
+          },
+          "sources": [
+            { "name": "인사이트", "url": "https://www.insight.co.kr/news/565993" }
+          ],
+          "related": {
+            "title": "아리랑 6호 또 발사 연기…'독자적 우주 접근성 확보해야'",
+            "source": "국민일보",
+            "url": "https://www.kmib.co.kr/article/view.asp?arcid=1782374198",
+            "type": "다름"
+          },
+          "topics": ["누리호", "우주", "발사연기", "우주항공청"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260831-1",
           "date": "2026.08.31",
@@ -4387,10 +4549,172 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.08.31",
-      "period": "2026.08.30 08:00 ~ 2026.08.31 08:00",
-      "updatedAt": "2026.08.31 08:00 KST",
+      "latestDate": "2026.09.01",
+      "period": "2026.08.31 08:00 ~ 2026.09.01 08:00",
+      "updatedAt": "2026.09.01 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260901-1",
+          "date": "2026.09.01",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 베네수엘라 원유 매장량 650억 배럴 확보 발표",
+          "summary": "트럼프 대통령이 베네수엘라 국영 석유 매장량 650억 배럴에 대한 미국의 다수 지분 확보를 발표했다. 국무·국방장관이 조율한 이번 거래로 유가 인하를 기대한다고 밝혔다.",
+          "why": "1월 마두로 축출 이후 베네수엘라 과도정부와의 협상이 마무리되며 오일딜이 성사됐기 때문이다.",
+          "soWhat": "의회 승인 없이 체결된 협정의 합법성 논란과 함께 미국의 전략비축유 재비축 효과가 주목된다.",
+          "context": {
+            "background": "트럼프 행정부는 1월 니콜라스 마두로를 축출하는 군사작전을 단행한 뒤 베네수엘라 과도정부와 관계를 이어왔다.",
+            "issueContext": "야당은 이번 거래가 의회의 예산·통상 권한을 침해하고 '빅오일'의 이익만 챙긴다고 비판한다.",
+            "coreQuestion": "이번 오일딜은 실제로 미국 소비자의 휘발유 가격을 낮출 수 있을까요?",
+            "resolution": "루비오 국무장관과 헤그세스 국방장관이 조율한 거래는 8월 29일 트럼프 대통령이 직접 발표했다."
+          },
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/29/trump-announces-biggest-oil-deal-in-world-history-with-venezuela" }
+          ],
+          "related": {
+            "title": "Democrats concerned over Trump's massive Venezuelan oil deal",
+            "source": "The Hill",
+            "url": "https://thehill.com/homenews/senate/6059052-democrats-slam-trump-venezuela-oil-deal/",
+            "type": "반박"
+          },
+          "topics": ["베네수엘라", "트럼프", "원유", "트럼프행정부"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260901-2",
+          "date": "2026.09.01",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "매사추세츠 상원 경선, 80세 마키가 몰턴에 압승 예고",
+          "summary": "1일 치러지는 매사추세츠 민주당 상원 경선에서 현역 에드 마키 상원의원이 세스 몰턴 하원의원을 여론조사에서 60%대 33%로 앞서고 있다. 몰턴은 '세대교체'를 핵심 쟁점으로 내세웠다.",
+          "why": "몰턴이 86세에 임기를 마치게 될 마키의 고령을 문제 삼아 '의회 나이 제한' 도입을 주장하며 도전장을 냈기 때문이다.",
+          "soWhat": "마키가 승리하면 11월 본선에서 사실상 재선이 확정되며, AI 규제 등 신세대 이슈 대응력 논쟁은 계속될 전망이다.",
+          "context": {
+            "background": "몰턴은 토론에서 마키의 AI 관련 답변('아이패드에 있는 거 쓴다')을 캠페인에 활용해왔다.",
+            "issueContext": "마키는 오카시오코르테스 등 진보 진영과 청년층 지지를 등에 업고 있다.",
+            "coreQuestion": "고령 정치인의 경험과 세대교체 요구 중 유권자는 무엇을 선택할까요?",
+            "resolution": "에머슨대 최종 여론조사에서 마키가 60%로 몰턴(33%)을 큰 격차로 앞섰다."
+          },
+          "sources": [
+            { "name": "Emerson College Polling", "url": "https://emersoncollegepolling.com/massachusetts-2026-poll-sen-markey-holds-commanding-lead/" }
+          ],
+          "related": {
+            "title": "Moulton says Sen. Markey, 80, is too old for another term",
+            "source": "PBS News",
+            "url": "https://www.pbs.org/newshour/politics/in-massachusetts-u-s-senate-race-challenger-moulton-says-markey-80-is-too-old-for-another-term-young-democrats-are-divided",
+            "type": "다름"
+          },
+          "topics": ["미국", "중간선거", "고령화", "민주당"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260901-1",
+          "date": "2026.09.01",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "美 구인 지표 둔화…연준 9월 금리 결정에 촉각",
+          "summary": "9월 1일 발표된 7월 JOLTS(구인·이직보고서)에서 구인 여력이 정체된 것으로 나타났다. 7월 비농업 고용은 2만3000명 감소했고 3개월 평균 증가폭은 2만명까지 둔화됐다.",
+          "why": "고용 지표 둔화가 이어지면서 연준의 9월 금리 결정을 둘러싼 불확실성이 커졌다.",
+          "soWhat": "'저고용·저해고' 국면이 이어지는 가운데, 다음 주 발표될 8월 고용보고서가 연준의 최종 판단을 좌우할 전망이다.",
+          "context": {
+            "background": "6월 JOLTS에서 구인 건수가 전월 대비 17만8000건 줄어든 735만9000건을 기록하며 시장 예상을 밑돌았다.",
+            "issueContext": "5~6월 고용 지표가 대폭 하향 수정되면서 경기 침체 우려가 다시 고개를 들고 있다.",
+            "coreQuestion": "고용 둔화가 연준의 9월 금리 인상 계획을 얼마나 늦출 수 있을까요?",
+            "resolution": "노동부는 1일 JOLTS를 공개했고, 다음 주 발표될 8월 고용보고서가 최종 판단의 근거가 될 예정이다."
+          },
+          "sources": [
+            { "name": "U.S. Bureau of Labor Statistics", "url": "https://www.bls.gov/news.release/jolts.htm" }
+          ],
+          "related": {
+            "title": "The 2026 US Labor Market Is 'Not Collapsing'",
+            "source": "Chase",
+            "url": "https://www.chase.com/personal/investments/learning-and-insights/article/labor-market-2026-jobs-unemployment-wage-growth-trends",
+            "type": "다름"
+          },
+          "topics": ["고용", "연준", "금리", "노동시장"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260901-2",
+          "date": "2026.09.01",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "S&P500 올해 27번째 사상 최고치…버핏은 '거품' 경고",
+          "summary": "S&P500 지수가 올해 들어 27번째 종가 기준 사상 최고치를 경신하며 연초 대비 13% 상승했다. 그러나 워런 버핏은 최근 시장 과열에 대해 직설적인 경고를 내놨다.",
+          "why": "AI 관련 기업들의 실적 기대와 함께 올해 매출 11%, 이익 23% 증가라는 낙관적 전망이 랠리를 뒷받침하고 있다.",
+          "soWhat": "실러 CAPE 비율이 41배로 역사상 두 번째로 높은 수준까지 오르면서 AI발 거품 우려가 동시에 커지고 있다.",
+          "context": {
+            "background": "S&P500은 지난 4월 7000선을 넘긴 데 이어 8월에는 7800선을 돌파하며 랠리를 이어왔다.",
+            "issueContext": "실러 CAPE 비율이 1929년 대공황 직전 수준(32.6배)을 넘어선 41배까지 오르며 밸류에이션 경고음이 커지고 있다.",
+            "coreQuestion": "AI 랠리로 치솟은 증시가 연착륙할까요, 거품 붕괴로 이어질까요?",
+            "resolution": "버핏은 31일 투자자들에게 신중한 경고를 내놨지만, 시장은 여전히 사상 최고치 행진을 이어가고 있다."
+          },
+          "sources": [
+            { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-hit-27-record-110100517.html" }
+          ],
+          "related": {
+            "title": "As the Stock Market Sounds an Alarm, Warren Buffett Just Offered a Blunt Warning for Investors",
+            "source": "The Motley Fool",
+            "url": "https://www.fool.com/investing/2026/08/31/as-the-stock-market-sounds-an-alarm-warren-buffett/",
+            "type": "반박"
+          },
+          "topics": ["증시", "AI", "버블", "실적"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260901-1",
+          "date": "2026.09.01",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "美 홍역 확산 35년 만에 최다…올해 첫 사망자 2명 발생",
+          "summary": "미국의 2026년 누적 홍역 확진 건수가 2900건에 육박해 35년 만에 최다를 기록했다. 펜실베이니아에서 백신 미접종자 2명이 숨져 올해 첫 사망 사례로 보고됐다.",
+          "why": "MMR 백신 접종률이 92.5%까지 떨어지며 집단면역 기준을 밑돈 영향이 크다.",
+          "soWhat": "케네디 보건복지장관의 모호한 백신 메시지를 둘러싼 논란이 커지면서 방역 정책 신뢰 문제로 번지고 있다.",
+          "context": {
+            "background": "2026년 미국에서만 36건의 신규 집단감염이 보고됐고 이 중 94%가 집단발병 관련 사례다.",
+            "issueContext": "케네디 장관은 사망 발표 이후에도 백신 접종을 촉구하지 않고 오히려 근거 없는 의혹을 제기해 비판을 받았다.",
+            "coreQuestion": "백신 정책을 둘러싼 정치적 논쟁이 홍역 확산을 얼마나 더 키우게 될까요?",
+            "resolution": "샤피로 펜실베이니아 주지사는 케네디 장관에게 책임을 물었고, 케네디 장관은 반박에 나섰다."
+          },
+          "sources": [
+            { "name": "Axios", "url": "https://www.axios.com/2026/08/25/measles-outbreak-deaths-pennsylvania-mmr-vaccine" }
+          ],
+          "related": {
+            "title": "RFK Jr.'s vaccine comments draw criticism during measles outbreak",
+            "source": "STAT",
+            "url": "https://www.statnews.com/2026/08/26/kennedy-vaccine-comments-reaction-josh-shapiro-jerome-adams/",
+            "type": "반박"
+          },
+          "topics": ["홍역", "백신", "보건", "질병"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260901-2",
+          "date": "2026.09.01",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "아르테미스 2호 승무원들, 의회 우주훈장 수훈",
+          "summary": "달 궤도 비행을 마친 아르테미스 2호 승무원 4명이 8월 28일 의회 우주훈장을 받았다. 콜로라도에서 열린 행사에는 8000명 넘는 인파가 몰렸다.",
+          "why": "반세기 만에 사람을 달 근처까지 보낸 임무의 성과를 기리기 위한 것이다.",
+          "soWhat": "NASA는 이제 유인 착륙을 목표로 한 아르테미스 3호 준비에 속도를 내고 있다.",
+          "context": {
+            "background": "아르테미스 프로그램은 예산이 원안보다 140% 불어나고 일정도 8년 가까이 지연되며 비판을 받아왔다.",
+            "issueContext": "그런데도 아르테미스 2호는 성공적으로 임무를 마치며 프로그램에 대한 신뢰를 일부 회복시켰다.",
+            "coreQuestion": "아르테미스 3호는 예산·일정 논란을 딛고 계획대로 유인 착륙에 성공할 수 있을까요?",
+            "resolution": "NASA는 스페이스X의 레이저 통신 장비를 탑재하는 등 아르테미스 3호 준비를 가속화하고 있다."
+          },
+          "sources": [
+            { "name": "NASA", "url": "https://www.nasa.gov/artemis-news/" }
+          ],
+          "related": {
+            "title": "Years of delays, billions over budget: How NASA's Artemis II became a make-or-break moon shot",
+            "source": "NBC News",
+            "url": "https://www.nbcnews.com/science/space/artemis-ii-nasa-mission-moon-delays-critics-budget-rcna255628",
+            "type": "다름"
+          },
+          "topics": ["아르테미스", "나사", "우주", "달탐사"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260831-1",
           "date": "2026.08.31",
@@ -8646,10 +8970,172 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.08.31",
-      "period": "2026.08.30 08:00 ~ 2026.08.31 08:00",
-      "updatedAt": "2026.08.31 08:00 KST",
+      "latestDate": "2026.09.01",
+      "period": "2026.08.31 08:00 ~ 2026.09.01 08:00",
+      "updatedAt": "2026.09.01 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260901-1",
+          "date": "2026.09.01",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "장유샤 중앙군사위 부주석 공식 면직…군 반부패 최정점",
+          "summary": "중국 전인대 상무위원회가 8월 28일 장유샤 중앙군사위 부주석과 류전리 위원의 면직을 공식 의결했다. 두 사람은 수개월간 기율 위반 혐의로 조사를 받아왔다.",
+          "why": "시진핑 집권 이후 최고위직까지 확대된 군 반부패 사정의 연장선으로, 로켓군 등 후방 조달 비리까지 겨냥한 조사가 이어지고 있다.",
+          "soWhat": "중앙군사위는 사실상 시진핑 주석과 장성민 위원만 남게 되면서 최고 군 지도부 공백이 현실화됐다.",
+          "context": {
+            "background": "먀오화 전 정치공작부 주임 낙마 이후 로켓군 사령관 4명이 연쇄적으로 낙마하는 등 군 반부패가 확산돼왔다.",
+            "issueContext": "장유샤는 시진핑의 최측근이자 군 서열 2위로 꼽혀온 인물이어서 이번 면직의 파장이 크다.",
+            "coreQuestion": "군 최고 지도부 공백이 대만 문제 등 안보 정책 운용에 어떤 영향을 미치게 될까요?",
+            "resolution": "전인대 상무위는 두 사람을 전국인민대표대회 군 대표 명단에서도 제명했다."
+          },
+          "sources": [
+            { "name": "문학성(文学城)", "url": "https://www.wenxuecity.com/news/2026/08/28/126756531.html" }
+          ],
+          "related": {
+            "title": "习近平对台动武添变数？专家：共军短期难有战力",
+            "source": "신탕런TV(新唐人)",
+            "url": "https://www.ntdtv.com/gb/2026/08/31/a104128753.html",
+            "type": "다름"
+          },
+          "topics": ["숙청", "중앙군사위", "시진핑", "군부"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260901-2",
+          "date": "2026.09.01",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국대만판공실 '통일 대세 못 막아…무력 대만독립 자멸 가속'",
+          "summary": "중국 국무원 대만사무판공실은 8월 26일 정례브리핑에서 라이칭더 대만 총통의 '8·23 진먼 포격전' 기념사를 겨냥해 통일의 대세는 막을 수 없으며 무력을 통한 대만독립 시도는 자멸을 앞당길 뿐이라고 밝혔다.",
+          "why": "라이 총통이 진먼도에서 열린 823포격전 68주년 추모식에서 국방 예산 확대와 '대만의 방패'(T-Dome) 구축을 강조한 데 대한 반응이다.",
+          "soWhat": "양안 간 언어 수위가 높아지면서 대만 국방예산 GDP 5% 목표를 둘러싼 논쟁도 격화될 전망이다.",
+          "context": {
+            "background": "라이 총통은 취임 이후 국방 예산을 지속적으로 늘려왔으며 이번에 GDP 5% 목표를 재확인했다.",
+            "issueContext": "베이징은 라이 총통의 '두 국가론'적 언급을 '무력 대만독립'으로 규정하며 강하게 비판해왔다.",
+            "coreQuestion": "양안 간 언어전이 실제 군사적 긴장 고조로 이어질까요?",
+            "resolution": "국대판공실 대변인 장한은 통일이 필연적 대세라는 기존 입장을 재확인하는 데 그쳤다."
+          },
+          "sources": [
+            { "name": "중국신문망(中新网)", "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684569.shtml" }
+          ],
+          "related": {
+            "title": "赖清德吁秉持823反共保台精神 支持国防预算",
+            "source": "美国之音(VOA중문판)",
+            "url": "https://www.voachinese.com/a/taiwan-president-lai-ching-te-taiwan-must-uphold-spirit-of-823-20260824/8189915.html",
+            "type": "다름"
+          },
+          "topics": ["대만", "양안관계", "진먼다오", "국방"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260901-1",
+          "date": "2026.09.01",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "베선트 미 재무장관 'G20, 대중 무역조건 재검토해야'",
+          "summary": "스콧 베선트 미국 재무장관이 G20 재무장관회의를 앞두고 세계가 중국의 1조2000억달러 무역흑자를 용인할 수 없다며 회원국들에 대중 무역장벽 강화를 촉구했다. 중국 외교부는 이를 즉각 반박했다.",
+          "why": "2025년 중국의 무역흑자가 사상 최초로 연간 1조달러를 돌파하자 미국이 G20 차원의 공동 대응을 압박하고 나선 것이다.",
+          "soWhat": "미국은 G20이 무역·경상수지 불균형 축소를 위한 공동성명을 채택하도록 추진하고 있어 통상 갈등이 다자 무대로 확산될 조짐이다.",
+          "context": {
+            "background": "중국의 2026년 1~7월 무역흑자는 이미 약 6874억달러에 달해 전년도 기록을 넘어설 태세다.",
+            "issueContext": "베선트는 중국이 내수 소비로 전환하지 않고 수출 의존을 이어가는 구조가 글로벌 불균형을 키운다고 주장한다.",
+            "coreQuestion": "G20이 실제로 대중 무역장벽 강화에 합의할까요?",
+            "resolution": "중국 외교부 대변인 궈자쿤은 중국이 의도적으로 무역흑자를 추구하지 않는다며 일방적 관세 조치에 반대한다고 밝혔다."
+          },
+          "sources": [
+            { "name": "러시아 스푸트니크 중문판", "url": "https://sputniknews.cn/20260901/1073002168.html" }
+          ],
+          "related": {
+            "title": "外交部回应美国财长涉华言论：中方从不刻意追求贸易顺差",
+            "source": "중국신문망(中新网)",
+            "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687255.shtml",
+            "type": "반박"
+          },
+          "topics": ["무역", "관세", "미중갈등", "G20"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260901-2",
+          "date": "2026.09.01",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中 8월 제조업 PMI 49.8%…차이신 PMI와 엇갈린 신호",
+          "summary": "중국 국가통계국이 발표한 8월 제조업 구매관리자지수(PMI)는 49.8%로 전월 대비 0.6포인트 올랐지만 여전히 경기 위축 구간에 머물렀다. 반면 민간 차이신 PMI는 50.4로 확장 국면에 진입했다.",
+          "why": "내수·해외 수요 부진과 이상기후 영향이 겹치며 제조업 경기가 두 달 연속 위축세를 보였기 때문이다.",
+          "soWhat": "관영 지표와 민간 지표의 엇갈린 신호로 경기 부양책의 강도와 시점을 둘러싼 논쟁이 커질 전망이다.",
+          "context": {
+            "background": "장비제조업·하이테크제조업 PMI는 각각 51.4%, 52.9%로 호조를 보인 반면 소비재·에너지 다소비 업종은 여전히 위축세다.",
+            "issueContext": "대기업 PMI(50.6%)는 확장세인 반면 중소기업(49.4%, 47.9%)은 위축 국면에 머물러 있어 기업 규모별 양극화도 뚜렷하다.",
+            "coreQuestion": "두 지표 중 어느 쪽이 중국 제조업 경기의 실제 흐름을 더 정확히 반영하고 있을까요?",
+            "resolution": "국가통계국은 8월 PMI가 전월보다 개선됐다고 발표했지만 여전히 기준선 50을 밑돈다고 밝혔다."
+          },
+          "sources": [
+            { "name": "중국신문망(中新网)", "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687108.shtml" }
+          ],
+          "related": {
+            "title": "8月财新中国制造业PMI升至50.4 重回扩张区间",
+            "source": "차이롄서(财联社)",
+            "url": "https://www.cls.cn/detail/1785579",
+            "type": "다름"
+          },
+          "topics": ["제조업", "중국", "경기", "PMI"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260901-1",
+          "date": "2026.09.01",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "창어 7호, 문창 발사장서 '택일 발사' 대기…달 남극 정조준",
+          "summary": "창어 7호 탐사선과 창정 5호 로켓이 8월 19일 문창 항천발사장에서 수직 이송을 마치고 발사를 기다리고 있다. 임무는 달 남극의 물 얼음 자원과 지형을 정밀 탐사하는 것이다.",
+          "why": "국제월구과학연구소(ILRS) 건설을 위한 선행 임무로, 달 남극 자원 확보 경쟁이 본격화되고 있기 때문이다.",
+          "soWhat": "창어 7호는 6개국 국제 탑재체를 실어 ILRS 참여국을 3개국 더 늘리는 등 국제 협력형 달 탐사의 상징이 될 전망이다.",
+          "context": {
+            "background": "창어 7호는 '선회-착륙-순찰-도약'의 종합 탐사를 통해 달 남극 환경과 자원을 조사할 계획이다.",
+            "issueContext": "미국 주도의 아르테미스 협정에는 68개국이 참여한 반면, 중국·러시아가 이끄는 ILRS는 개방성과 글로벌 협력을 내세워 대비되고 있다.",
+            "coreQuestion": "중국은 2035년까지 달 남극에 ILRS 기본형을 계획대로 건설할 수 있을까요?",
+            "resolution": "중국 국가항천국은 '가까운 시일 내 택일 발사'하겠다고만 밝히고 구체적 발사일은 공개하지 않았다."
+          },
+          "sources": [
+            { "name": "国家航天局", "url": "https://www.cnsa.gov.cn/n6758823/n6758838/c10768944/content.html" }
+          ],
+          "related": {
+            "title": "港媒：十几个新伙伴加入中国月球科研站计划，与美登月计划成对比",
+            "source": "즈후(知乎, 港媒 재인용)",
+            "url": "https://zhuanlan.zhihu.com/p/719252088",
+            "type": "다름"
+          },
+          "topics": ["창어", "우주", "달탐사", "미중갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260901-2",
+          "date": "2026.09.01",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "태풍 '사더얼' 남중국해서 재발달…광둥 대폭우 경보",
+          "summary": "저장성에 상륙 후 소멸했던 태풍 '사더얼'의 잔류 소용돌이가 8월 31일 새벽 광둥 앞바다에서 다시 태풍급으로 발달할 조짐을 보였다. 중앙기상대는 광둥 등 여러 성에 폭우 황색경보를 발령했다.",
+          "why": "육지에서 따뜻한 해수면으로 이동하며 마찰이 줄고 새로운 에너지를 얻어 '부활'했기 때문이다.",
+          "soWhat": "9월 1일까지 광둥 동부에는 대폭우가 예보돼 홍수·산사태 대비가 시급하다.",
+          "context": {
+            "background": "사더얼은 8월 28일 저장 연안에 상륙한 뒤 열대저압부로 약화돼 소멸 처리됐다.",
+            "issueContext": "그러나 잔류 소용돌이가 남중국해 열대요란과 합쳐지며 다시 세력을 키우는 이례적 현상이 관측됐다.",
+            "coreQuestion": "육지 상륙 후 소멸된 태풍이 해상에서 재발달하는 사례가 앞으로 더 잦아질까요?",
+            "resolution": "중앙기상대는 사더얼 잔류 소용돌이가 광둥 레이저우 동부 해상에서 시속 15~20㎞로 남동진하고 있다고 밝혔다."
+          },
+          "sources": [
+            { "name": "신화망(新华网)", "url": "https://www.news.cn/politics/20260831/de1408e91faf49bab60c4015ab6a0914/c.html" }
+          ],
+          "related": {
+            "title": "台风“沙德尔”残余涡旋移入南海 或于未来24小时再度发展为台风",
+            "source": "신징바오(新京报)",
+            "url": "https://www.bjnews.com.cn/detail/1788167922129348.html",
+            "type": "유사"
+          },
+          "topics": ["태풍", "폭우", "재난", "기후"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260831-1",
           "date": "2026.08.31",
@@ -12904,10 +13390,172 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.08.31",
-      "period": "2026.08.30 08:00 ~ 2026.08.31 08:00",
-      "updatedAt": "2026.08.31 08:00 KST",
+      "latestDate": "2026.09.01",
+      "period": "2026.08.31 08:00 ~ 2026.09.01 08:00",
+      "updatedAt": "2026.09.01 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260901-1",
+          "date": "2026.09.01",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국민민주당 대표선 다마키·하시모토 '일대일'…9월 6일 결전",
+          "summary": "국민민주당 대표선이 8월 22일 공고돼 다마키 유이치로 현 대표(57)와 하시모토 미키히코 중의원(30)이 맞붙는다. 9월 6일 임시 당대회에서 투개표가 이뤄진다.",
+          "why": "다마키 대표의 '대결보다 해결' 노선과 다카이치 정권과의 거리두기 방식이 세대교체 요구와 맞물려 쟁점으로 떠올랐다.",
+          "soWhat": "누가 이기든 2028년 참의원 선거를 겨냥한 야당 제1당 전략과 여당과의 연립 여부가 당의 진로를 가를 전망이다.",
+          "context": {
+            "background": "하시모토는 옛 자위관 출신 재선 의원으로, '지금은 연립할 때가 아니다'라며 정권교체 노선을 내세우고 있다.",
+            "issueContext": "토론회에서 두 후보가 언쟁을 벌이는 등 당 운영 방식과 다카이치 정권과의 거리감을 둘러싼 노선 차이가 뚜렷하다.",
+            "coreQuestion": "국민민주당은 다카이치 정권과 더 가까워질까요, 아니면 독자 노선을 강화할까요?",
+            "resolution": "다마키 대표는 '해결 우선' 노선 유지를 선언했고, 하시모토는 지방의원·당원까지 아우르는 당 운영 개편을 공약했다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUA221UH0S6A820C2000000/" }
+          ],
+          "related": {
+            "title": "国民民主代表選 玉木代表と橋本氏が「言い争い」に発展",
+            "source": "本家いなてい",
+            "url": "https://www.inatei.com/entry/2026/08/23/%E3%80%90%E5%9B%BD%E6%B0%91%E6%B0%91%E4%B8%BB%E5%85%9A%E3%80%91%E7%8E%89%E6%9C%A8vs%E6%A9%8B%E6%9C%AC%E3%81%8C%E3%80%8C%E8%A8%80%E3%81%84%E4%BA%89%E3%81%84%E3%80%8D%E3%81%AB%E7%99%BA%E5%B1%95%E2%80%A6%E8%A8%8E",
+            "type": "다름"
+          },
+          "topics": ["일본", "국민민주당", "정계", "세대교체"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260901-2",
+          "date": "2026.09.01",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "ICC소장 제재에 다카이치 정부 '저자세' 논란…日변호사회 독립성 지지 성명",
+          "summary": "미국이 8월 19일 아카네 도모코 국제형사재판소(ICC) 소장을 제재 대상으로 지정한 데 이어, 일본변호사연합회는 8월 31일 ICC의 독립성을 지지하는 회장 성명을 냈다. 다카이치 정부의 미온적 대응에는 비판이 이어지고 있다.",
+          "why": "일본인이 이끄는 ICC가 미국의 제재를 받은 초유의 사태에도 다카이치 총리가 '매우 유감'이라는 원론적 언급에 그쳤기 때문이다.",
+          "soWhat": "각국이 '강한 위기감'을 표하는 가운데 일본의 소극적 대응이 법치 수호국으로서의 신뢰에 흠집을 낼 수 있다는 지적이 나온다.",
+          "context": {
+            "background": "아카네 소장은 제재로 미국 내 신용카드 사용이 막히는 등 실생활에 지장을 겪으면서도 26일 기자회견에서 활동을 계속하겠다고 밝혔다.",
+            "issueContext": "다카이치 총리는 '저자세' 비판이 일자 25일에서야 '일본 정부 입장과 맞지 않아 심각하게 받아들인다'고 입장을 강화했다.",
+            "coreQuestion": "일본 정부는 자국민이 이끄는 ICC를 실질적으로 보호하기 위해 미국에 어떤 조치를 취하게 될까요?",
+            "resolution": "일본변호사연합회는 31일 ICC의 존속과 독립을 강하게 지지한다는 성명을 발표했다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOGR25BJT0V20C26A8000000/" }
+          ],
+          "related": {
+            "title": "赤根智子ICC所長への制裁に「日本当局の姿勢も決定的に重要」前所長が指摘〈高市首相の弱腰な対応には批判が集中〉",
+            "source": "文春オンライン",
+            "url": "https://news.yahoo.co.jp/articles/66c99008270922293a06efdc6f6009ffccecccad",
+            "type": "반박"
+          },
+          "topics": ["다카이치", "일본", "국제협력", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260901-1",
+          "date": "2026.09.01",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "日 장기금리 30년 만에 2.95%…추가 금리인상 관측 확산",
+          "summary": "31일 일본 국채시장에서 신규발행 10년물 국채 금리가 한때 2.95%까지 올라 1996년 9월 이후 최고 수준을 기록했다. 일본은행의 추가 금리인상 관측이 확산되며 채권 매도세가 이어졌다.",
+          "why": "일본은행이 6월 정책금리를 1.0%로 올린 데 이어 추가 인상 가능성이 커지면서 투자자들이 채권 매수를 꺼리고 있기 때문이다.",
+          "soWhat": "주요 은행들이 8월 고정금리를 잇달아 올리면서 주택담보대출 등 가계 이자 부담이 커질 전망이다.",
+          "context": {
+            "background": "일본은행은 6월 회의에서 정책금리를 1.0%로 올려 약 31년 만의 최고 수준으로 인상했다.",
+            "issueContext": "장기금리 상승은 변동금리 대출자의 상환 부담을 몇 달 뒤 기준금리 인상으로 이어지게 만든다.",
+            "coreQuestion": "일본은행은 추가 금리인상을 언제, 얼마나 단행하게 될까요?",
+            "resolution": "31일 장중 10년물 금리는 2.95%까지 오른 뒤 소폭 되돌림을 보였다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUB1907Q0Z10C26A8000000/" }
+          ],
+          "related": {
+            "title": "日銀追加利上げで住宅ローンはいつ上がる？2026年の変動金利予想を解説",
+            "source": "モゲチェック",
+            "url": "https://mogecheck.jp/articles/show/pnl6ZzOV4BDR2k5Ra7PY",
+            "type": "다름"
+          },
+          "topics": ["일본은행", "금리", "국채금리", "일본"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260901-2",
+          "date": "2026.09.01",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "도쿄 8월 물가상승률 1.8%…7개월 연속 2% 밑돌아",
+          "summary": "도쿄 23구의 8월 소비자물가지수(신선식품 제외)가 전년 동월 대비 1.8% 올라 7개월 연속 일본은행 목표치 2%를 하회했다. 전기·가스 보조금과 쌀값 하락이 상승률을 억눌렀다.",
+          "why": "정부의 광열비 보조와 쌀값 하락이 물가 상승 압력을 완화했기 때문이다.",
+          "soWhat": "9월 사용분을 끝으로 전기·가스 보조가 종료되는 만큼, 10월부터는 물가 상승률이 다시 높아질 가능성이 크다.",
+          "context": {
+            "background": "정부는 2026년 7~9월 사용분에 한해 전기 1kWh당 최대 4.5엔, 도시가스 1㎥당 최대 18엔을 보조해왔다.",
+            "issueContext": "신선식품을 포함한 종합지수는 1.9%, 에너지·신선식품을 뺀 근원지수는 2.0% 올라 항목별로 온도차가 있다.",
+            "coreQuestion": "보조금 종료 이후 물가상승률이 일본은행의 금리 인상 결정에 어떤 영향을 미칠까요?",
+            "resolution": "총무성은 8월 도쿄 소비자물가 상승률이 1.8%로 7개월 연속 2%를 밑돌았다고 발표했다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUA275DA0X20C26A8000000/" }
+          ],
+          "related": {
+            "title": "電気・ガス代の補助は9月使用分で終了！8月分は10社中8社で値下がり",
+            "source": "8and.",
+            "url": "https://8and.jp/2026/08/15/%E9%9B%BB%E6%B0%97%E3%83%BB%E3%82%AC%E3%82%B9%E4%BB%A3%E3%81%AE%E8%A3%9C%E5%8A%A9%E3%81%AF9%E6%9C%88%E4%BD%BF%E7%94%A8%E5%88%86%E3%81%A7%E7%B5%82%E4%BA%86%EF%BC%818%E6%9C%88%E5%88%86%E3%81%AF10/",
+            "type": "다름"
+          },
+          "topics": ["일본", "물가", "일본은행", "소비"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260901-1",
+          "date": "2026.09.01",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "'방재의 날' 103주년…오사카 880만 명 훈련 등 전국서 지진 대비 훈련",
+          "summary": "1일 '방재의 날'을 맞아 오사카부에서만 880만 명이 참여하는 '오사카880만인훈련'을 비롯해 전국 각지에서 대규모 지진 대비 훈련이 실시됐다. 간토대지진 발생 103주년을 기리는 취지다.",
+          "why": "1923년 9월 1일 10만5000명 넘는 사상자를 낸 간토대지진을 계기로 매년 이날 방재 훈련이 실시되기 때문이다.",
+          "soWhat": "우에마치 단층대를 진원으로 한 대지진을 가정한 오사카시 훈련 등 각 지자체는 재해대책본부 설치·정보전달 체계를 점검했다.",
+          "context": {
+            "background": "일본 정부는 매년 방재의 날에 수도직하지진 등을 가정한 종합방재훈련을 실시해왔다.",
+            "issueContext": "오사카880만인훈련은 오전 10시 지진 발생, 10시 3분 대형쓰나미 경보 문자 발송을 가정해 부민 전체의 방재 행동을 유도한다.",
+            "coreQuestion": "매년 반복되는 대규모 훈련이 실제 재난 상황에서 얼마나 실효성을 발휘할까요?",
+            "resolution": "오사카시는 1일 오전 10시부터 11시 30분까지 재해대책본부 설치 훈련을 실시했다."
+          },
+          "sources": [
+            { "name": "City Life NEWS", "url": "https://citylife-new.com/newspost/47306/" }
+          ],
+          "related": {
+            "title": "令和8年度大阪市総合防災訓練を実施します",
+            "source": "大阪市",
+            "url": "https://www.city.osaka.lg.jp/hodoshiryo/kikikanrishitsu/0000685760.html",
+            "type": "유사"
+          },
+          "topics": ["방재", "지진", "일본", "재난"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260901-2",
+          "date": "2026.09.01",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "8월 마지막날도 체온 육박하는 폭염…올여름 폭염일수 역대 3위",
+          "summary": "8월 31일에도 니시니혼~도카이 지역에서 체온에 육박하는 폭염이 이어졌다. 올해 35도 이상 폭염일수는 이미 7500일을 넘어서며 역대 세 번째로 많은 기록을 세웠다.",
+          "why": "이중 고기압 배치로 늦더위가 좀처럼 물러가지 않고 있기 때문이다.",
+          "soWhat": "긴키·규슈 지역 등에는 열사병 경계 경보(보라색)가 발령됐고, 벼·채소 등 농작물의 병해충 피해 우려도 커지고 있다.",
+          "context": {
+            "background": "올여름은 7월 중순부터 35도 이상 폭염일이 급증했고 8월에도 더위가 이어졌다.",
+            "issueContext": "가뭄이 이어지며 벼멸구 등 해충이 활발해져 농가의 방제 부담이 커지고 있다.",
+            "coreQuestion": "이례적으로 길어지는 늦더위가 9월 이후 기후 패턴에는 어떤 영향을 남길까요?",
+            "resolution": "일본 기상협회는 이중 고기압 영향으로 당분간 늦더위가 이어질 것으로 내다봤다."
+          },
+          "sources": [
+            { "name": "ウェザーニュース", "url": "https://weathernews.jp/news/202608/310161/" }
+          ],
+          "related": {
+            "title": "今日31日は近畿や九州で38℃近い猛烈な暑さに",
+            "source": "日本気象協会 tenki.jp",
+            "url": "https://tenki.jp/forecaster/y_nakagawa/2026/08/31/40379.html",
+            "type": "유사"
+          },
+          "topics": ["폭염", "일본", "기후", "농업"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260831-1",
           "date": "2026.08.31",
