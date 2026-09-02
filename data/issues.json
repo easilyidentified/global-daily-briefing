@@ -113,10 +113,220 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.09.01",
-      "period": "2026.08.31 08:00 ~ 2026.09.01 08:00",
-      "updatedAt": "2026.09.01 08:00 KST",
+      "latestDate": "2026.09.02",
+      "period": "2026.09.01 08:00 ~ 2026.09.02 08:00",
+      "updatedAt": "2026.09.02 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260902-1",
+          "date": "2026.09.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "선관위 특검보 5명 임명…7일부터 투표용지 부족사태 본격 수사",
+          "summary": "이재명 대통령이 2일 선관위 특검 특별검사보 5명을 임명했다. 6·3 지방선거 투표용지 부족사태 등 국민참정권 침해 의혹 수사가 7일부터 본격화한다.",
+          "why": "지방선거 당일 일부 투표소의 투표용지 부족 사태와 선관위 유착 의혹이 여야 합의로 특검 수사 대상이 됐기 때문이다.",
+          "soWhat": "7일 수사 개시를 시작으로 선관위 조직 전반과 지방선거 관리 부실에 대한 강제수사가 이어질 전망이다.",
+          "context": {
+            "background": "지난 6월 3일 지방선거 당일 일부 투표소에서 투표용지가 부족해 유권자들이 투표를 하지 못하는 사태가 발생했다.",
+            "issueContext": "여야는 특검 도입에는 합의했지만 특검 추천권을 놓고 '제3자 추천'과 '야당 추천'으로 갈려 진통을 겪었다.",
+            "coreQuestion": "이번 특검은 선관위 부실 운영의 진상을 규명할까요, 여야 정쟁의 또 다른 소재로 그칠까요?",
+            "resolution": "이태한 특별검사가 박혁·김은정·김상천·권근환·김진우 변호사를 특검보로 지명받아 수사 분야를 나눈 뒤 7일부터 수사에 들어간다."
+          },
+          "sources": [
+            {
+              "name": "이투데이",
+              "url": "https://www.etoday.co.kr/news/view/2620730"
+            }
+          ],
+          "related": {
+            "title": "선관위 특검 추천권 '제3자 vs 야당'",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202607121815231368",
+            "type": "반박"
+          },
+          "topics": [
+            "특검",
+            "선관위",
+            "수사",
+            "재검표"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260902-2",
+          "date": "2026.09.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "새 형소법 D-30…중수청·공소청 연착륙이 최대 과제로",
+          "summary": "78년 역사의 검찰청이 10월 2일 폐지되고 중대범죄수사청과 공소청이 동시 출범한다. 수사·기소 분리라는 형사사법체계 대개편을 한 달 앞두고 조직 정비가 시급하다는 지적이 나온다.",
+          "why": "지난 7월 31일 국회 본회의를 통과한 검찰개혁 4법(형사소송법 등)의 시행일이 10월 2일로 다가왔기 때문이다.",
+          "soWhat": "중수청장·공소청장 인선과 조직 세팅이 늦어질 경우 초기 수사 공백이 불가피하다는 우려가 커지고 있다.",
+          "context": {
+            "background": "1954년 형사소송법 제정 이후 유지돼 온 검사의 직접 수사권이 이번 개편으로 전면 폐지된다.",
+            "issueContext": "법무부 장관 공석 속에 공소청 조직 정비가 지연되고 있고, 수사기관 간 이견 조정 협의체는 내년 2월에야 가동된다.",
+            "coreQuestion": "새 형사사법체계는 검찰개혁의 완성이 될까요, 수사 공백의 시작이 될까요?",
+            "resolution": "정부는 10월 2일 중수청·공소청을 동시 출범시키기로 하고 남은 한 달간 조직·인력 정비에 속도를 내고 있다."
+          },
+          "sources": [
+            {
+              "name": "경향신문",
+              "url": "https://www.khan.co.kr/article/202609020600151/"
+            }
+          ],
+          "related": {
+            "title": "검사 구인난·인프라 미비…중수청 개문발차시 '수사공백' 우려",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202608130550462142",
+            "type": "다름"
+          },
+          "topics": [
+            "검찰개혁",
+            "중수청",
+            "공소청",
+            "형소법"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260902-1",
+          "date": "2026.09.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "내년 예산 821조 '역대 최대'…나랏빚도 1500조 첫 돌파",
+          "summary": "정부가 1일 국무회의에서 총지출 820조9000억원 규모의 2027년도 예산안을 의결했다. 반도체 호황에 따른 세수 증가로 지출 증가율이 2009년 이후 최대치를 기록했지만 국가채무도 1519조원으로 불어난다.",
+          "why": "반도체 슈퍼사이클로 세수가 194조원 늘어난 데다 이재명 정부가 편성부터 주도한 첫 예산이라 확장재정 기조가 뚜렷해졌기 때문이다.",
+          "soWhat": "정기국회 예산 심사에서 여야가 821조원의 씀씀이와 106조원 늘어난 국가채무 증가 속도를 놓고 정면 충돌할 전망이다.",
+          "context": {
+            "background": "정부 예산은 매년 9월 초 국무회의 의결을 거쳐 국회에 제출되고, 정기국회 회기 중 심사를 거쳐 12월 초 확정된다.",
+            "issueContext": "총지출 증가율 12.8%는 2009년 금융위기 대응 예산(10.6%) 이후 최고치이며, 미래기금에만 162조원이 배정됐다.",
+            "coreQuestion": "확장재정은 저성장 반등의 마중물이 될까요, 국가채무 부담만 키우는 결과가 될까요?",
+            "resolution": "정부는 1일 국무회의에서 예산안을 의결해 국회에 제출했고, 국민의힘은 '재정 폭주'라며 강력한 삭감을 예고했다."
+          },
+          "sources": [
+            {
+              "name": "아시아경제",
+              "url": "https://view.asiae.co.kr/article/2026090110222762328"
+            }
+          ],
+          "related": {
+            "title": "[사설] 821兆 초대형 예산 확정, 빚에 대한 경각심 높여야",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202609011822426359",
+            "type": "반박"
+          },
+          "topics": [
+            "예산",
+            "재정",
+            "국채",
+            "정부예산"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260902-2",
+          "date": "2026.09.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "8월 물가 3.1%↑…2개월 만에 다시 3%대",
+          "summary": "국가데이터처가 2일 발표한 8월 소비자물가지수가 전년 대비 3.1% 상승했다. 통신비 기저효과와 중동 정세발 유가 상승이 겹치며 두 달 만에 다시 3%대로 올라섰다.",
+          "why": "지난해 8월 SK텔레콤의 통신 요금 50% 감면 기저효과가 사라지면서 물가상승률을 0.6%포인트 끌어올렸기 때문이다.",
+          "soWhat": "정부가 이달 추석 민생안정대책의 강도를 높일 것으로 예상되지만 저소득 가구의 체감 물가 부담은 쉽게 꺾이지 않을 전망이다.",
+          "context": {
+            "background": "소비자물가 상승률은 지난 5~6월 3%대를 기록한 뒤 7월 2%대로 내려왔다가 이번에 다시 3%대로 반등했다.",
+            "issueContext": "석유류 가격이 14.2% 급등하고 휴대전화 요금이 26.7% 뛰었지만, 농축수산물 가격은 2.6% 내리며 엇갈린 흐름을 보였다.",
+            "coreQuestion": "이번 물가 반등은 일시적 기저효과에 그칠까요, 추세적 재상승의 신호일까요?",
+            "resolution": "생활물가지수는 3.2% 올라 체감 물가 부담이 이어지는 가운데, 정부는 추석을 앞두고 수급 관리에 나설 방침이다."
+          },
+          "sources": [
+            {
+              "name": "이투데이",
+              "url": "https://www.etoday.co.kr/news/view/2620765"
+            }
+          ],
+          "related": {
+            "title": "물가, 저소득층에 더 고통…식비부담 더 크게 늘었다",
+            "source": "디지털타임스",
+            "url": "https://www.dt.co.kr/article/12080868",
+            "type": "다름"
+          },
+          "topics": [
+            "물가",
+            "요금",
+            "소비",
+            "경기"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260902-1",
+          "date": "2026.09.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "정부 5년간 R&D 200조원 투입…AI 3위·반도체 자립 50% 목표",
+          "summary": "과학기술정보통신부가 1일 '제2차 국가연구개발 중장기 투자전략(2026~2030)'을 확정했다. 반도체·AI데이터센터·피지컬AI 3대 메가프로젝트에 집중해 2030년까지 200조원 이상을 투입한다.",
+          "why": "글로벌 기술패권 경쟁이 격화하는 가운데 내년 국가 R&D 예산이 역대 최대인 39조5000억원으로 편성됐기 때문이다.",
+          "soWhat": "이 전략이 시행되는 5년간 반도체 소부장 자립화율은 30%에서 50%로, 글로벌 AI 경쟁력은 5위에서 3위로 끌어올리는 것이 목표다.",
+          "context": {
+            "background": "정부는 국가과학기술자문회의 심의를 거쳐 5년 단위 국가 R&D 중장기 투자전략을 수립해 왔다.",
+            "issueContext": "이번 전략은 3대 메가프로젝트와 7대 시드(SEED) 기술을 축으로 하고, 대내외 환경 변화를 반영하는 '롤링플랜' 방식으로 운영된다.",
+            "coreQuestion": "200조원 투자는 기술 자립의 승부수가 될까요, 부처별 나눠먹기식 집행으로 흐지부지될까요?",
+            "resolution": "배경훈 부총리 겸 과기정통부 장관이 1일 투자전략을 확정 발표하며 '대체불가 대한민국'을 목표로 내걸었다."
+          },
+          "sources": [
+            {
+              "name": "ZDNet Korea",
+              "url": "https://zdnet.co.kr/view/?no=20260901214336"
+            }
+          ],
+          "related": {
+            "title": "[기고] 국가R&D 35조원, 문제는 전략이다",
+            "source": "디지털타임스",
+            "url": "https://www.dt.co.kr/article/12072141",
+            "type": "반박"
+          },
+          "topics": [
+            "AI",
+            "반도체",
+            "로봇",
+            "기술패권"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260902-2",
+          "date": "2026.09.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "홈플러스 '운명의 날'…회생계획안 오늘 표결",
+          "summary": "서울회생법원이 2일 홈플러스 관계인집회를 열어 수정 회생계획안에 대한 채권자 표결을 진행한다. 가결 여부에 따라 최대 10만명에 달하는 직원·협력업체 고용의 향방이 갈린다.",
+          "why": "지난달 3일 법원이 운영자금 부족을 이유로 회생절차 폐지를 결정했다가, 메리츠금융그룹의 긴급자금 지원으로 폐지를 취소하고 절차를 연장했기 때문이다.",
+          "soWhat": "계획안이 가결되면 법원 인가 절차를 거쳐 영업 정상화 수순을 밟지만, 부결되면 회생절차 폐지와 청산 수순이 불가피하다.",
+          "context": {
+            "background": "홈플러스는 지난해 회생절차를 신청한 뒤 매각과 자금난을 거듭하며 존폐 기로에 서 왔다.",
+            "issueContext": "직원은 물론 1800여개 납품업체와 8000여개 입점업체까지 포함하면 최대 10만명의 고용이 이번 표결 결과에 걸려 있다.",
+            "coreQuestion": "홈플러스는 이번 표결로 회생의 길을 찾을까요, 결국 청산 수순을 밟게 될까요?",
+            "resolution": "관계인집회는 2일 오후 3시 서울회생법원에서 열리며, 표결 결과에 따라 법원의 최종 인가 여부가 갈릴 전망이다."
+          },
+          "sources": [
+            {
+              "name": "경북일보",
+              "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4082572"
+            }
+          ],
+          "related": {
+            "title": "홈플러스 회생인가, 청산인가... 숫자 뒤 가려진 10만 노동자의 시간",
+            "source": "오마이뉴스",
+            "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003241792&PAGE_CD=N0002&CMPT_CD=M0111",
+            "type": "다름"
+          },
+          "topics": [
+            "고용",
+            "회생절차",
+            "협력업체",
+            "유통"
+          ],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260901-1",
           "date": "2026.09.01",
@@ -4549,10 +4759,220 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.09.01",
-      "period": "2026.08.31 08:00 ~ 2026.09.01 08:00",
-      "updatedAt": "2026.09.01 08:00 KST",
+      "latestDate": "2026.09.02",
+      "period": "2026.09.01 08:00 ~ 2026.09.02 08:00",
+      "updatedAt": "2026.09.02 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260902-1",
+          "date": "2026.09.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "美, 호르무즈해협서 이란 IRGC 표적 재공습",
+          "summary": "미국이 1일 호르무즈해협 인근에서 이란 혁명수비대(IRGC) 표적에 재차 공습을 가했다. 이란의 기뢰 부설 시도와 선박 공격에 대한 보복 조치다.",
+          "why": "이란이 호르무즈해협에서 상선을 겨냥한 공격과 기뢰 설치를 시도하면서 미군의 대응 공습으로 이어졌다.",
+          "soWhat": "트럼프 대통령은 이란이 재보복할 경우 '훨씬 더 강력한' 공격을 예고해 확전 우려가 커지고 있다.",
+          "context": {
+            "background": "미국은 최근 호르무즈해협에서 이란의 위협에 대응해 수십 척의 선박을 호위하는 등 군사적 긴장이 이어져 왔다.",
+            "issueContext": "이번 공습은 미군에 대한 이란의 미사일 발사 및 상선 대상 기뢰 부설 시도에 대한 보복으로 이뤄졌다.",
+            "coreQuestion": "이번 공습은 확전을 막는 억지력이 될까요, 전면전으로 번지는 도화선이 될까요?",
+            "resolution": "센트콤은 1일 IRGC 표적에 대한 공습을 확인했고, 이란은 국영매체를 통해 '결정적 작전'으로 맞대응했다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/sep/1/us-strikes-irgc-targets-iran-attempted-attacks-vessels-strait-hormuz/"
+            }
+          ],
+          "related": {
+            "title": "Trump vows to hit Iran hard, says US escorting dozens of ships in Hormuz",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/8/31/trump-says-iran-is-dead-vows-to-respond-after-renewed-clashes",
+            "type": "다름"
+          },
+          "topics": [
+            "이란",
+            "호르무즈해협",
+            "트럼프행정부",
+            "안보"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260902-2",
+          "date": "2026.09.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "美, 셧다운 위기 넘겼다…12월 11일까지 임시예산 통과",
+          "summary": "미 하원이 1일 임시예산안을 370대48로 가결해 정부 셧다운을 막았다. 예산 시한을 중간선거 이후인 12월 11일로 미루며 협상을 뒤로 미뤘다.",
+          "why": "9월 30일 예산 시한을 앞두고 여야가 중간선거 전 셧다운을 피하기 위해 임시예산에 잠정 합의했기 때문이다.",
+          "soWhat": "건강보험료 보조금 연장 등 핵심 쟁점은 12월로 미뤄져 그때 다시 셧다운 위기가 재연될 수 있다.",
+          "context": {
+            "background": "2026 회계연도에는 이미 161일간 정부 셧다운이 이어져 한 해의 44%가 셧다운 상태였다.",
+            "issueContext": "민주당 중도파 8명이 공화당과 손잡고 임시예산에 합의했지만, 오바마케어 보조금 연장을 확답받지 못해 진보 진영의 반발을 샀다.",
+            "coreQuestion": "12월 시한은 안정적 협상의 시간을 벌어준 걸까요, 더 큰 충돌을 예고하는 시한폭탄일까요?",
+            "resolution": "하원은 1일 임시예산안을 가결했고, 상원도 이미 처리해 법안은 트럼프 대통령 서명을 앞두고 있다."
+          },
+          "sources": [
+            {
+              "name": "The Hill",
+              "url": "https://thehill.com/homenews/house/6063667-house-government-funding-cr-shutdown-midterms/"
+            }
+          ],
+          "related": {
+            "title": "Centrist Democrats say they had no choice but to craft a deal to end the shutdown; progressives are fed up",
+            "source": "PBS",
+            "url": "https://www.pbs.org/newshour/politics/centrist-democrats-say-they-had-no-choice-but-to-craft-a-deal-to-end-the-shutdown-progressives-are-fed-up",
+            "type": "반박"
+          },
+          "topics": [
+            "셧다운",
+            "의회",
+            "중간선거",
+            "예산"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260902-1",
+          "date": "2026.09.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "연준 워시 의장 잭슨홀서 매파 발언…9월 금리 인상 가능성 66%로",
+          "summary": "케빈 워시 연준 의장이 잭슨홀 심포지엄에서 인플레이션 경계 발언을 내놓으며 9월 금리 인상 가능성이 66%까지 치솟았다. 7월 깜짝 고용 감소 이후 인하 기대가 우세했던 시장 심리가 뒤집혔다.",
+          "why": "물가상승률이 여전히 연준 목표치 2%를 웃도는 3%대 후반에 머물면서 워시 의장이 금리 인상 가능성을 열어뒀기 때문이다.",
+          "soWhat": "9월 15~16일 FOMC 회의에서 금리 인상이 현실화하면 트럼프 대통령이 요구해온 인하 기조와 정면으로 충돌하게 된다.",
+          "context": {
+            "background": "연준은 지난달 FOMC까지 기준금리를 3.50~3.75%로 유지해 왔고, 7월 고용은 예상 밖 감소를 기록했다.",
+            "issueContext": "워시 의장은 '단기 금리가 물가·고용 이중 책무 달성의 핵심 수단'이라며 인플레이션 대응을 최우선 과제로 강조했다.",
+            "coreQuestion": "연준은 물가 안정을 위해 금리를 올릴까요, 고용 둔화를 우려해 동결할까요?",
+            "resolution": "워시 의장의 28일 발언 이후 금리 인상 확률은 36%에서 66%로 뛰었고, 9월 16일 결정이 최대 변수로 떠올랐다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html"
+            }
+          ],
+          "related": {
+            "title": "Trump says Fed Chair Warsh 'would love' to lower interest rates. He might push to raise them instead",
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/economy/policy/articles/trump-says-fed-chair-warsh-191500619.html",
+            "type": "다름"
+          },
+          "topics": [
+            "연준",
+            "금리",
+            "물가",
+            "트럼프"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260902-2",
+          "date": "2026.09.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "뉴욕증시, 이란發 유가 급등에 다우 419P 급락",
+          "summary": "1일 다우존스지수가 419포인트(0.8%) 내린 5만2766에 마감했다. 미군의 이란 공습으로 유가와 국채금리가 뛰면서 연준의 추가 금리 인상 우려까지 겹쳤다.",
+          "why": "이란에 대한 미군의 재공습이 유가를 끌어올리고 국채금리 상승과 맞물려 투자심리를 얼어붙게 했다.",
+          "soWhat": "9월이 계절적으로 증시 최악의 달로 꼽히는 가운데 지정학적 리스크까지 겹치며 추가 조정 가능성이 거론된다.",
+          "context": {
+            "background": "S&P500은 8월까지 5개월 연속 상승세를 이어왔지만, 9월은 평균적으로 1.2% 하락하는 계절적 약세 구간이다.",
+            "issueContext": "국채금리 상승과 유가 급등이 동시에 나타나며 투자자들은 연준의 9월 금리 결정에 더욱 촉각을 곤두세우고 있다.",
+            "coreQuestion": "이번 하락은 일시적 조정에 그칠까요, 본격적인 약세장의 시작일까요?",
+            "resolution": "S&P500은 54.67포인트(0.7%) 내린 7631.47에 거래를 마쳤고, 시장은 4일 발표될 8월 고용지표에 주목하고 있다."
+          },
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-1-dow-sp-500-nasdaq-080617884.html"
+            }
+          ],
+          "related": {
+            "title": "Is This Market About to Roll Over?",
+            "source": "InvestorPlace",
+            "url": "https://investorplace.com/2026/09/is-this-market-about-to-roll-over/",
+            "type": "다름"
+          },
+          "topics": [
+            "증시",
+            "국채금리",
+            "원유",
+            "이란"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260902-1",
+          "date": "2026.09.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "'암흑우주' 탐색할 로만 우주망원경, 팰컨헤비로 발사",
+          "summary": "나사의 낸시 그레이스 로만 우주망원경이 8월 30일 스페이스X 팰컨헤비 로켓에 실려 발사됐다. 라그랑주점(L2)까지 150만㎞를 항해하며 암흑물질과 암흑에너지 단서를 찾는다.",
+          "why": "허블보다 1000배 빠른 탐사 속도로 은하와 외계행성을 관측할 차세대 관측선이 예정보다 9개월 앞당겨 발사됐다.",
+          "soWhat": "3개월간의 시운전을 거쳐 2027년 초부터 첫 관측 이미지가 공개될 예정이다.",
+          "context": {
+            "background": "로만 망원경은 트럼프 행정부의 예산안에서 네 차례나 삭감·취소 대상으로 지목됐으나 의회가 매번 예산을 지켜냈다.",
+            "issueContext": "발사체는 하루 1.4테라바이트의 데이터를 전송하며 허블보다 훨씬 넓은 우주 영역을 정밀하게 관측할 수 있다.",
+            "coreQuestion": "로만 망원경은 암흑물질과 암흑에너지의 정체를 밝혀낼 수 있을까요?",
+            "resolution": "망원경은 8월 30일 케네디우주센터에서 발사에 성공했고, L2 지점 도착 뒤 정밀 보정 작업에 들어간다."
+          },
+          "sources": [
+            {
+              "name": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/08/260831035213.htm"
+            }
+          ],
+          "related": {
+            "title": "Trump tried to scrap NASA's Roman Space Telescope last year. Now it's ready to launch",
+            "source": "Space.com",
+            "url": "https://www.space.com/space-exploration/launches-spacecraft/trump-tried-to-scrap-nasas-roman-space-telescope-last-year-now-its-ready-to-launch",
+            "type": "다름"
+          },
+          "topics": [
+            "나사",
+            "우주",
+            "망원경",
+            "탐사"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260902-2",
+          "date": "2026.09.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "열대폭풍 에두아르, 텍사스·루이지애나 접경 상륙",
+          "summary": "열대폭풍 에두아르가 1일 텍사스와 루이지애나 접경 새빈패스 인근에 상륙했다. 최대풍속 시속 96㎞에 최대 380㎜에 달하는 폭우로 침수 우려가 커졌다.",
+          "why": "멕시코만 해수면 온도가 평년보다 1도 이상 높은 상태에서 약한 윈드시어와 맞물려 폭풍이 급격히 강해졌다.",
+          "soWhat": "휴스턴·보몬트 등 동남부 텍사스 지역에 시간당 최대 100㎜의 강한 비가 예보돼 저지대 침수 피해가 우려된다.",
+          "context": {
+            "background": "에두아르는 2026 대서양 허리케인 시즌의 다섯 번째 명명 폭풍으로, 시즌 초반부터 활발한 열대저기압 발생이 이어지고 있다.",
+            "issueContext": "국립허리케인센터는 소형 폭풍 특성상 상륙 직전 '뚜렷한 강화'가 나타날 수 있다고 경고했다.",
+            "coreQuestion": "이번 폭풍은 예보대로 빠르게 소멸할까요, 내륙까지 침수 피해를 키울까요?",
+            "resolution": "에두아르는 1일 오후 2시20분 해안에 상륙했고, 이후 세력이 약화하며 내륙으로 이동하고 있다."
+          },
+          "sources": [
+            {
+              "name": "KBTX",
+              "url": "https://www.kbtx.com/2026/09/01/tropical-storm-edouard-makes-landfall-texas-louisiana-border/"
+            }
+          ],
+          "related": {
+            "title": "Texas and Louisiana could get hit by a fast-spin-up tropical storm on Tuesday",
+            "source": "Yale Climate Connections",
+            "url": "https://yaleclimateconnections.org/2026/08/texas-and-louisiana-could-get-hit-by-a-fast-spin-up-tropical-storm-on-tuesday/",
+            "type": "다름"
+          },
+          "topics": [
+            "허리케인",
+            "폭우",
+            "침수",
+            "기후"
+          ],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260901-1",
           "date": "2026.09.01",
@@ -8970,10 +9390,220 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.09.01",
-      "period": "2026.08.31 08:00 ~ 2026.09.01 08:00",
-      "updatedAt": "2026.09.01 08:00 KST",
+      "latestDate": "2026.09.02",
+      "period": "2026.09.01 08:00 ~ 2026.09.02 08:00",
+      "updatedAt": "2026.09.02 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260902-1",
+          "date": "2026.09.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "시진핑, SCO 정상회의서 '냉전적 사고·패권주의' 겨냥…모디와도 회동",
+          "summary": "시진핑 주석이 1일 비슈케크 SCO 정상이사회에서 냉전적 사고와 패권주의, 보호무역주의를 비판하는 기조연설을 했다. 나렌드라 모디 인도 총리와도 만나 양국 관계 개선 흐름을 이어갔다.",
+          "why": "미국과의 정상회담을 앞두고 러시아·인도·이란 등 우군을 결집해 다자외교 무대에서 입지를 다지려는 행보로 풀이된다.",
+          "soWhat": "인도와의 관계 개선이 이어지며 중·인 국경 갈등 이후 얼어붙었던 양국 관계에 해빙 신호가 뚜렷해지고 있다.",
+          "context": {
+            "background": "SCO 정상회의는 8월 31일부터 9월 1일까지 키르기스스탄 비슈케크에서 열렸으며 17개국 정상과 유엔 사무총장이 참석했다.",
+            "issueContext": "시진핑 주석은 기조연설에서 냉전적 사고방식과 패권주의, 진영화를 새로운 위협으로 지목하며 국제질서 재편을 강조했다.",
+            "coreQuestion": "이번 정상외교는 미국과의 협상력을 높이는 지렛대가 될까요, 다자 진영 대결 구도만 굳히는 결과가 될까요?",
+            "resolution": "시진핑 주석은 1일 오전 회의를 마친 뒤 곧바로 이집트 국빈방문 길에 올랐다."
+          },
+          "sources": [
+            {
+              "name": "CRI 한국어방송",
+              "url": "https://korean.cri.cn/2026/09/01/ARTI1788250791640276"
+            }
+          ],
+          "related": {
+            "title": "러·이란 정상 잇따라 만난 시진핑…미중 회담 앞서 우군 결집",
+            "source": "서울경제",
+            "url": "https://www.sedaily.com/article/20085415",
+            "type": "다름"
+          },
+          "topics": [
+            "다자외교",
+            "안보",
+            "인도",
+            "러시아"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260902-2",
+          "date": "2026.09.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "시진핑, 10년 만에 이집트 국빈방문…수교 70주년 맞아 전략적 협력 확대",
+          "summary": "시진핑 주석이 1일 밤 카이로에 도착해 이집트 국빈방문 일정을 시작했다. 수에즈운하 경제벨트를 축으로 한 일대일로 협력과 채무 스와프 등 전략적 동반자 관계 확대가 논의된다.",
+          "why": "중국·이집트 수교 70주년을 맞아 10년 만에 성사된 국빈방문으로, 미국의 중동 영향력 공백을 파고드는 행보로 해석된다.",
+          "soWhat": "채무 전환 프로그램과 방위 협력까지 의제에 오르면서 중동에서 중국의 존재감이 한층 커질 전망이다.",
+          "context": {
+            "background": "중국·이집트 타이다 수에즈 경제협력구에는 200여개 기업이 입주해 누적 투자액 47억달러를 넘어섰다.",
+            "issueContext": "이집트는 대외채무 부담과 수에즈운하 수입 감소, 에너지 불안 등 겹겹의 구조적 압박에 시달리고 있다.",
+            "coreQuestion": "이번 방문은 이집트의 채무 위기 해법이 될까요, 중국 의존만 심화시키는 결과가 될까요?",
+            "resolution": "시진핑 부부는 엘시시 대통령 부부의 환대 속에 카이로국제공항에 도착했으며, 3일간의 국빈방문 일정에 들어갔다."
+          },
+          "sources": [
+            {
+              "name": "중신망(中新网)",
+              "url": "https://www.chinanews.com.cn/gn/2026/09-02/10688350.shtml"
+            }
+          ],
+          "related": {
+            "title": "China's Xi to arrive in Cairo with Beijing looking to fill void left by US",
+            "source": "The National",
+            "url": "https://www.thenationalnews.com/news/mena/2026/09/01/chinas-xi-arrives-in-cairo-with-beijing-looking-to-fill-void-left-by-us-analysts-say/",
+            "type": "다름"
+          },
+          "topics": [
+            "일대일로",
+            "외교",
+            "국제협력",
+            "수에즈운하"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260902-1",
+          "date": "2026.09.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中, '현물 판매' 전면 전환…부동산 선분양 11년 만에 손질",
+          "summary": "중국 주택도농건설부 등 3개 부처가 8월 28일 상품주택 판매제도 개편안을 발표했다. 신규 택지는 준공 후 판매를 우선하도록 해 선분양 중심 모델에 근본적 변화를 예고했다.",
+          "why": "미착공·미준공 상태로 대금을 먼저 받는 선분양 구조가 헝다 사태 등 잇단 부동산 부실의 근본 원인으로 지목돼왔기 때문이다.",
+          "soWhat": "선분양 자금에 의존해온 중소 건설사들은 시장에서 퇴출 압박을 받는 반면, 자체 자금이 풍부한 국유 대형 건설사에는 유리한 재편이 이뤄질 전망이다.",
+          "context": {
+            "background": "2015년 이후 이어진 선분양 중심 모델은 대금 선회수·자금 유용 문제로 준공 지연·부실 아파트 사태를 반복해왔다.",
+            "issueContext": "새 제도는 주관은행제를 도입해 자금을 프로젝트별로 폐쇄 관리하고, 대출 상환도 준공 이후로 미루도록 했다.",
+            "coreQuestion": "이번 개편은 부동산 시장의 근본 체질 개선으로 이어질까요, 중소 건설사 줄도산의 도화선이 될까요?",
+            "resolution": "발표 직후 부동산 관련주는 장 초반 급등했지만 한 시간도 못 가 급락 전환하며 시장의 평가가 엇갈렸다."
+          },
+          "sources": [
+            {
+              "name": "제몐신문(界面新闻)",
+              "url": "https://m.jiemian.com/article/15035076.html"
+            }
+          ],
+          "related": {
+            "title": "828楼市新政发布，房地产彻底变天",
+            "source": "신랑재경(新浪财经)",
+            "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-08-31/doc-iniqfeat8927941.shtml",
+            "type": "다름"
+          },
+          "topics": [
+            "부동산",
+            "규제",
+            "국유기업",
+            "대출"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260902-2",
+          "date": "2026.09.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "Shein, 홍콩 증시 데뷔 첫날 10% 급락…몸값 100조서 26조로",
+          "summary": "패스트패션 기업 Shein이 1일 홍콩거래소에 상장했으나 주가가 개장 직후 10% 가까이 급락했다. 뉴욕·런던 상장이 잇달아 좌절된 끝에 택한 홍콩에서도 냉담한 반응을 마주했다.",
+          "why": "성장 둔화와 관세·규제 리스크, 신장 강제노동 의혹에 따른 신뢰 훼손이 겹치며 기업가치가 2022년 정점 대비 4분의 1 수준으로 쪼그라들었다.",
+          "soWhat": "베이징과 워싱턴 양쪽의 압박을 동시에 받는 처지라 상장 이후에도 사업 불확실성이 해소되기 어렵다는 관측이 나온다.",
+          "context": {
+            "background": "Shein은 뉴욕·런던에서 잇달아 상장을 시도했지만 공급망 리스크 공시 문제로 번번이 좌절된 끝에 홍콩행을 택했다.",
+            "issueContext": "신청서에는 신장산 면화 사용 의혹 관련 리스크가 구체적으로 언급되지 않아 인권단체의 비판을 받았다.",
+            "coreQuestion": "이번 상장은 Shein의 새 출발점이 될까요, 신뢰 훼손을 다시 드러낸 계기로 남을까요?",
+            "resolution": "Shein은 주당 48.56홍콩달러에 약 2억8000만주를 발행해 17억4000만달러를 조달했으며, 기업가치는 263억달러로 평가됐다."
+          },
+          "sources": [
+            {
+              "name": "CNN Business",
+              "url": "https://edition.cnn.com/2026/08/31/business/shein-hong-kong-ipo-intl-hnk"
+            }
+          ],
+          "related": {
+            "title": "Shein's Hong Kong IPO filing sidesteps Xinjiang cotton controversy",
+            "source": "The Star",
+            "url": "https://www.thestar.com.my/business/business-news/2026/07/27/shein039s-hong-kong-ipo-filing-sidesteps-xinjiang-cotton-controversy",
+            "type": "반박"
+          },
+          "topics": [
+            "IPO",
+            "홍콩",
+            "인권",
+            "전자상거래"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260902-1",
+          "date": "2026.09.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "中, 리튬전지 소비세 11년 만에 부활…9월부터 2% 부과",
+          "summary": "중국 재정부 등 3개 부처가 9월 1일부터 리튬 1차전지·이온전지 등에 2% 소비세를 부과하기 시작했다. 2015년부터 이어진 면세 혜택이 11년 만에 종료됐다.",
+          "why": "전기차 배터리 시장이 성숙 단계에 접어들면서 정부가 내연차와의 세제 형평을 맞추는 쪽으로 정책을 전환했기 때문이다.",
+          "soWhat": "전기차 한 대당 최대 1200위안의 원가 상승 요인이 생기지만, 완성차업체 이익률이 1.5%에 불과해 대부분 자체 흡수할 것으로 전망된다.",
+          "context": {
+            "background": "나트륨이온전지·전고체전지 등 차세대 제품과 태양광의 페로브스카이트·탠덤·비화갈륨 전지는 2028년까지 면세가 유지된다.",
+            "issueContext": "세율은 내년 9월부터 4%로 다시 오를 예정이며, 배터리를 자체 생산하는 완성차업체가 원가 경쟁에서 유리해질 것으로 관측된다.",
+            "coreQuestion": "이번 과세 전환은 전기차 가격 인상으로 이어질까요, 업체들이 자체 흡수해 소비자 영향은 제한적일까요?",
+            "resolution": "새 세율은 9월 1일부터 시행됐으며, 완성차업체 대부분은 아직 가격 인상 여부를 결정하지 못한 상태다."
+          },
+          "sources": [
+            {
+              "name": "신징보(新京报)",
+              "url": "https://www.bjnews.com.cn/detail/1784537837019935.html"
+            }
+          ],
+          "related": {
+            "title": "锂电池9月起恢复征收消费税，单车成本或增加千元，有何影响？",
+            "source": "텅쉰신문(腾讯新闻)",
+            "url": "https://news.qq.com/rain/a/20260718A09GFL00",
+            "type": "다름"
+          },
+          "topics": [
+            "이차전지",
+            "전기차",
+            "세제개편",
+            "소비세"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260902-2",
+          "date": "2026.09.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "中 출생아 수 792만명…70여년 만에 800만명 붕괴",
+          "summary": "중국 국가위생건강위원회가 8월 28일 발표한 통계에 따르면 지난해 출생아 수는 792만명으로 1949년 이후 처음 800만명 밑으로 떨어졌다. 4년 연속 인구 자연감소도 이어졌다.",
+          "why": "혼인 감소와 양육비 부담, 가임여성 인구 감소가 겹치며 출산율 하락이 구조적 추세로 굳어지고 있다.",
+          "soWhat": "생산가능인구 감소와 고령화 가속으로 연금·의료 등 복지 재정 부담이 앞으로 더 빠르게 커질 전망이다.",
+          "context": {
+            "background": "중국 출생아 수는 2016년 이후 계속 줄어 2021년 1062만명에서 지난해 792만명으로 4년 만에 거의 반토막났다.",
+            "issueContext": "지난해 사망자는 1131만명으로 총인구가 339만명 순감소했고, 65세 이상 인구 비중은 15.9%로 유소년 인구 비중에 근접했다.",
+            "coreQuestion": "출산율 반등을 위한 정책 대응이 인구 감소 추세를 되돌릴 수 있을까요?",
+            "resolution": "국가위생건강위는 28일 '2025년 위생건강사업 발전 통계공보'를 통해 이 같은 수치를 공개했다."
+          },
+          "sources": [
+            {
+              "name": "후시우(虎嗅)",
+              "url": "https://www.huxiu.com/article/4886857.html"
+            }
+          ],
+          "related": {
+            "title": "出生人口跌破800万及原因分析…养老压力",
+            "source": "신랑신문(新浪新闻)",
+            "url": "https://www.sina.cn/news/detail/5338008757994633.html",
+            "type": "다름"
+          },
+          "topics": [
+            "저출생",
+            "고령화",
+            "인구감소",
+            "복지"
+          ],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260901-1",
           "date": "2026.09.01",
@@ -13390,10 +14020,220 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.09.01",
-      "period": "2026.08.31 08:00 ~ 2026.09.01 08:00",
-      "updatedAt": "2026.09.01 08:00 KST",
+      "latestDate": "2026.09.02",
+      "period": "2026.09.01 08:00 ~ 2026.09.02 08:00",
+      "updatedAt": "2026.09.02 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260902-1",
+          "date": "2026.09.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리, 네팔 총리와 통화…실종 일본인 5명 구조 협력 요청",
+          "summary": "다카이치 총리가 1일 네팔 샤 총리와 전화 회담을 갖고 대규모 산사태·홍수로 실종된 일본인 5명의 구조에 최대한 협력해달라고 요청했다. 일본은 텐트·담요 등 긴급 구호물자도 신속히 보내기로 했다.",
+          "why": "8월 26일 네팔 보테코시강 유역에서 발생한 대규모 홍수·산사태로 사망자 157명, 실종자 245명이 발생했고 그중 일본인 일가족 5명도 포함됐기 때문이다.",
+          "soWhat": "일본 정부는 국제긴급구조대 파견도 준비하고 있어 수색 범위와 속도가 한층 빨라질 것으로 보인다.",
+          "context": {
+            "background": "히말라야 산악지대에서는 빙하 붕괴와 눈사태가 이어지며 기후변화로 재해 빈도와 규모가 커지고 있다는 지적이 나온다.",
+            "issueContext": "실종된 일본인 5명은 자녀 3명을 포함한 일가족으로, 홍수 발생 직전인 26일 중국 쪽 국경을 통해 네팔에 입국한 것으로 파악됐다.",
+            "coreQuestion": "실종된 일본인 가족은 무사히 구조될 수 있을까요?",
+            "resolution": "다카이치 총리는 1일 10분간 통화에서 긴급물자 조기 도착 사실을 전했고, 샤 총리는 사의를 표했다."
+          },
+          "sources": [
+            {
+              "name": "지지통신(時事通信)",
+              "url": "https://www.jiji.com/jc/article?k=2026090101076&g=pol&m=rss"
+            }
+          ],
+          "related": {
+            "title": "ネパール洪水で日本人5人と連絡取れず 死者160人、旅行者の不明多く",
+            "source": "니혼게이자이신문",
+            "url": "https://www.nikkei.com/article/DGXZQOGN2700A0X20C26A8000000/",
+            "type": "다름"
+          },
+          "topics": [
+            "네팔",
+            "재난",
+            "실종",
+            "외교"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260902-2",
+          "date": "2026.09.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 내각 지지율, 조사기관마다 '극과 극'…JNN 59%대 vs 교도 50%대",
+          "summary": "JNN 여론조사에서 다카이치 내각 지지율이 59.2%로 전달보다 6.7포인트 떨어졌다. 교도통신 조사에서는 50.2%로 출범 이후 최저치를 기록해 조사기관별 편차가 두드러졌다.",
+          "why": "물가 대응과 재정 운영을 둘러싼 평가가 엇갈리는 가운데 조사 시기와 방법론 차이가 결과 편차를 키우고 있다.",
+          "soWhat": "지지율 흐름이 불안정해지면서 임시국회 운영과 향후 개각 시점에도 정치적 부담이 커질 전망이다.",
+          "context": {
+            "background": "다카이치 내각은 출범 초기 60~70%대의 높은 지지율로 순항했지만 이후 조사마다 등락을 거듭해왔다.",
+            "issueContext": "교도통신 조사는 전달 대비 3.5포인트 하락하며 출범 후 최저치를 새로 썼고, 니혼게이자이신문 조사에서는 오히려 상승세를 보이는 등 매체별 온도차가 뚜렷하다.",
+            "coreQuestion": "지지율 편차는 일시적 조사 오차일까요, 여론이 실제로 요동치고 있다는 신호일까요?",
+            "resolution": "각 언론사 조사는 8월 하순 실시됐으며, 9월 이후 조사에서 추세가 확인될 전망이다."
+          },
+          "sources": [
+            {
+              "name": "TBS NEWS DIG",
+              "url": "https://news.yahoo.co.jp/articles/dab1e60eca51e92df246586ca4a3392f2ef28cd0"
+            }
+          ],
+          "related": {
+            "title": "高市内閣の支持率、最低更新50% 共同通信の世論調査",
+            "source": "니혼게이자이신문",
+            "url": "https://www.nikkei.com/article/DGXZQOUA231FI0T20C26A8000000/",
+            "type": "다름"
+          },
+          "topics": [
+            "지지율",
+            "여론조사",
+            "다카이치",
+            "자민당"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260902-1",
+          "date": "2026.09.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "장기금리 30년 만에 3% 돌파…플랫35 금리도 사상 최고",
+          "summary": "1일 일본 10년물 국채금리가 한때 연 3.000%까지 올라 1996년 9월 이후 30년 만에 최고치를 기록했다. 이를 반영해 장기고정형 주택대출 '플랫35'의 9월 최저금리도 현행 제도 이후 최고인 3.460%로 뛰었다.",
+          "why": "미국 금리 상승세가 파급된 데다 일본은행의 추가 금리 인상 관측이 확산하며 국채 매도세를 자극했기 때문이다.",
+          "soWhat": "9월 18일 일본은행 금융정책결정회의에서 추가 인상 가능성이 시장에서 80%까지 반영되며 대출자 부담이 한층 커질 전망이다.",
+          "context": {
+            "background": "플랫35 최저금리는 8월 3.290%에서 이달 3.460%로 한 달 새 0.17포인트 뛰었다.",
+            "issueContext": "변동금리형 주택대출 금리도 4월 이후 잇단 인상으로 대형은행 평균이 15년 만에 처음 연 1%를 넘어섰다.",
+            "coreQuestion": "일본은행의 금리 인상 행진은 물가 안정과 가계 부담 완화를 동시에 달성할 수 있을까요?",
+            "resolution": "다카이치 총리는 1일 금리 수준에 대해 구체적 언급을 피하며 '시장 동향을 평가·분석해 적시에 판단하겠다'고만 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "니혼게이자이신문",
+              "url": "https://www.nikkei.com/article/DGXZQOFL0133H0R00C26A9000000/"
+            }
+          ],
+          "related": {
+            "title": "高市首相、金利「コメントしない」 財政運営、適切に判断",
+            "source": "지지통신",
+            "url": "https://www.jiji.com/jc/article?k=2026090101050&g=pol&m=rss",
+            "type": "다름"
+          },
+          "topics": [
+            "국채금리",
+            "일본은행",
+            "주택",
+            "금리"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260902-2",
+          "date": "2026.09.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균, 美 이란 공습 여파로 급락 출발…저가매수에 낙폭 축소",
+          "summary": "1일 닛케이평균주가가 미국의 이란 공습 소식에 개장 직후 700엔 넘게 급락했다. 이후 저가매수가 유입되며 오전장에서 낙폭을 260엔대로 줄였다.",
+          "why": "미군의 이란 재공습으로 국제유가와 미국 국채금리가 뛰면서 AI·반도체 관련주 중심의 위험자산 회피 심리가 확산했다.",
+          "soWhat": "에너지·상사주 등 경기방어적 종목은 강세를 보여 시장 전반의 하방 경직성이 확인됐다는 평가도 나온다.",
+          "context": {
+            "background": "전날 뉴욕증시가 이란 정세 악화로 하락 마감한 영향이 이날 아시아 증시 개장 초반 그대로 전이됐다.",
+            "issueContext": "33개 업종 중 24개 업종이 상승한 반면 반도체 관련주만 집중적으로 매도세를 맞아 종목별 명암이 엇갈렸다.",
+            "coreQuestion": "이번 조정은 단기 되돌림에 그칠까요, 반도체주 약세 국면의 시작일까요?",
+            "resolution": "닛케이평균은 오전장 기준 전날보다 261엔60전 내린 6만6050엔33전으로 거래됐다."
+          },
+          "sources": [
+            {
+              "name": "みんかぶ",
+              "url": "https://minkabu.jp/stock/8035/news/4607623"
+            }
+          ],
+          "related": {
+            "title": "伊藤智洋が読む「日経平均株価・短期シナリオ」",
+            "source": "카부탄(株探)",
+            "url": "https://kabutan.jp/news/marketnews/?b=n202609010106",
+            "type": "다름"
+          },
+          "topics": [
+            "닛케이",
+            "반도체",
+            "증시",
+            "이란"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260902-1",
+          "date": "2026.09.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "태풍 24호 '크로반' 발생…느린 이동에 대우 장기화 우려",
+          "summary": "9월 1일 오전 일본 남쪽 해상에서 태풍 24호 크로반이 발생했다. 이동 속도가 느려 3일부터는 간토~시코쿠를 중심으로 경보급 폭우가 장기간 이어질 것으로 우려된다.",
+          "why": "태풍이 정체하며 다량의 수증기가 오랜 시간 유입되는 데다 혼슈 부근에 가을장마 전선까지 겹쳐 전형적인 대우 패턴을 만들고 있기 때문이다.",
+          "soWhat": "3일부터 5일까지 태평양 연안 지역을 중심으로 토사재해 등에 대한 경계가 요구된다.",
+          "context": {
+            "background": "올여름에는 8월에만 태풍 10개가 발생하는 등 예년보다 잦은 발생이 이어져 연간 발생 수가 평년치에 근접했다.",
+            "issueContext": "태풍 자체의 세력은 그리 강하지 않을 것으로 예보됐지만, 정체와 전선 자극이 겹쳐 피해 위험을 키우는 조합으로 꼽힌다.",
+            "coreQuestion": "느리게 움직이는 이번 태풍은 국지적 폭우에 그칠까요, 광범위한 수해로 번질까요?",
+            "resolution": "기상청은 2일 새벽 발표에서 순간 최대풍속 25m를 기록했다고 밝히며 태평양 연안 지역에 대우 경계를 당부했다."
+          },
+          "sources": [
+            {
+              "name": "웨더뉴스(ウェザーニュース)",
+              "url": "https://weathernews.jp/news/202608/310171/"
+            }
+          ],
+          "related": {
+            "title": "台風24号（クロヴァン）はノロノロ北上へ「警報級大雨」が長引くおそれ",
+            "source": "RCC 중국방송",
+            "url": "https://news.yahoo.co.jp/articles/d1b501f6b27057f200f31ef35409b450fd12c971",
+            "type": "다름"
+          },
+          "topics": [
+            "태풍",
+            "폭우",
+            "기후",
+            "경보"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260902-2",
+          "date": "2026.09.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "9월 식품값 인상 4531개 품목…올해 최다, 3년 만에 최대 규모",
+          "summary": "9월 1일부터 유제품·조미료를 중심으로 식품 4531개 품목의 가격이 오른다. 한 달 인상 품목이 4000개를 넘은 것은 2023년 10월 이후 약 3년 만이다.",
+          "why": "원자재·포장재·물류·인건비 상승분을 가을·겨울 성수기 전에 반영하려는 제조업체들의 가격 인상이 9월에 몰렸기 때문이다.",
+          "soWhat": "전기·가스 요금 정부 지원까지 9월 사용분을 끝으로 종료돼 가계의 체감 부담이 한층 커질 전망이다.",
+          "context": {
+            "background": "간장·콜라·냉동면·만두·감자칩 등 일상 식품과 건전지까지 인상 대상에 올랐고, 평균 인상률은 15% 안팎이다.",
+            "issueContext": "가격은 그대로 두고 용량만 줄이는 '실질 가격 인상'도 이어지고 있어 체감 부담은 통계 수치보다 클 수 있다는 지적이 나온다.",
+            "coreQuestion": "이번 가격 인상 러시는 가을 소비 심리를 얼마나 위축시킬까요?",
+            "resolution": "제국데이터뱅크는 9월 인상 품목이 4531개로 올해 들어 가장 많다고 집계했다."
+          },
+          "sources": [
+            {
+              "name": "FNN프라임온라인(Yahoo!뉴스)",
+              "url": "https://news.yahoo.co.jp/articles/d7ce4cf79d6eb7f4c6598e099ea4dac82786c127"
+            }
+          ],
+          "related": {
+            "title": "【2026年9月最新】食品値上げ一覧｜4,531品目で年内最多・買いだめ判断と家計防衛策",
+            "source": "쿠라시노콤파스",
+            "url": "https://nics-gp.co.jp/media/money/price-increase-september-2026/",
+            "type": "다름"
+          },
+          "topics": [
+            "물가",
+            "소비",
+            "요금",
+            "생산자"
+          ],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260901-1",
           "date": "2026.09.01",
