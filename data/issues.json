@@ -113,10 +113,190 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.09.04",
-      "period": "2026.09.03 08:00 ~ 2026.09.04 08:00",
-      "updatedAt": "2026.09.04 08:00 KST",
+      "latestDate": "2026.09.05",
+      "period": "2026.09.04 08:00 ~ 2026.09.05 08:00",
+      "updatedAt": "2026.09.05 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260905-1",
+          "date": "2026.09.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "김승원 법무부 장관 후보자, '식약처 신약 청탁' 의혹으로 청문회 앞두고 공방",
+          "summary": "김승원 법무부 장관 후보자가 2021년 코로나19 치료제 업체의 청탁을 김강립 당시 식약처장에게 그대로 전달했다는 의혹으로 고발당했다. 김 후보자는 부정한 청탁이 아닌 정상적 의정활동이었다고 반박했다.",
+          "why": "국민의힘이 인사청문회를 앞두고 새 내각 후보자 검증에 화력을 집중하면서 2021년 문자메시지가 다시 도마에 올랐다.",
+          "soWhat": "검찰이 이미 기소유예 처분한 사안이어서, 청문회에서 김 후보자가 납득할 만한 소명을 내놓지 못하면 법무부 장관 임명 자체가 흔들릴 수 있다.",
+          "context": {
+            "background": "김 후보자는 2021년 초선 의원 시절 브로커를 통해 제넨셀 측의 신약 임상시험 승인 청탁을 받아 김강립 당시 식약처장에게 그대로 전달했다는 의혹을 받는다.",
+            "issueContext": "검찰은 2024년 12월 이 사건을 기소유예 했지만, 국민의힘은 로비 의혹이라며 인사청문회에서 집중 추궁을 예고했다.",
+            "coreQuestion": "국민의힘의 로비 의혹 공세와 김 후보자의 '공익 민원' 해명 중 어느 쪽이 청문회에서 설득력을 얻을까요?",
+            "resolution": "김 후보자는 특정 업체를 위한 부정 청탁이 아닌 국민 고충 전달이었다는 입장을 유지하고 있다."
+          },
+          "sources": [
+            {
+              "name": "조세일보",
+              "url": "https://m.joseilbo.com/news/view.htm?newsid=575033&class2=&class=5"
+            }
+          ],
+          "related": {
+            "title": "김승원, 브로커·영장판사와 술자리",
+            "source": "미주중앙일보",
+            "url": "https://www.koreadaily.com/article/20260903084232241",
+            "type": "다름"
+          },
+          "topics": ["인사청문회", "법무부", "청탁", "개각"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260905-2",
+          "date": "2026.09.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "용혜인 성평등가족부 장관 후보자, 의원직 겸직 논란 속 청문회 준비 돌입",
+          "summary": "이재명 대통령이 지명한 용혜인 기본소득당 의원이 성평등가족부 장관 후보자로서 청문회 준비에 들어갔다. 비례대표 의원직 유지 여부가 최대 쟁점으로 떠올랐다.",
+          "why": "30대 장관 발탁이라는 파격 인사에 여성단체 반발과 정책 전문성 논란이 겹치며 검증 대상이 됐다.",
+          "soWhat": "의원직 사퇴 여부에 대한 입장 표명이 청문회 통과 여부와 향후 겸직 관행 논쟁에 영향을 줄 전망이다.",
+          "context": {
+            "background": "이재명 대통령은 지난달 30일 첫 90년대생 장관으로 용혜인 의원을 성평등가족부 장관에 지명했다.",
+            "issueContext": "비례대표 의원직과 장관직 동시 유지 논란, 정책 전문성 시비, 여성단체 반발이라는 세 가지 쟁점이 맞물려 있다.",
+            "coreQuestion": "용 후보자는 청문회 전에 의원직 사퇴 여부를 밝힐까요, 겸직을 유지한 채 청문회에 임할까요?",
+            "resolution": "용 후보자는 의원직 유지 논란을 인정하면서도 사퇴 여부에는 즉답을 피한 채 국민 소통을 강조하고 있다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20260902000399"
+            }
+          ],
+          "related": {
+            "title": "금배지 못 놓는 이유가…용혜인 성평등장관 후보자 지상청문회",
+            "source": "일요신문",
+            "url": "https://www.ilyo.co.kr/?ac=article_view&entry_id=512555",
+            "type": "반박"
+          },
+          "topics": ["인사청문회", "기본소득당", "겸직", "성평등가족부"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260905-1",
+          "date": "2026.09.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 1.64% 반등해 6687 마감, 반도체 대형주가 상승 견인",
+          "summary": "코스피가 외국인·기관의 동반 순매수에 힘입어 전 거래일보다 107.73포인트(1.64%) 오른 6687.21에 마감했다. 삼성전자·SK하이닉스 등 반도체 대형주가 강세를 이끌었다.",
+          "why": "미국 기준금리 동결 기대감과 한국의 경상수지 역대급 흑자 소식이 겹치며 투자심리가 살아났다.",
+          "soWhat": "반도체 주도 반등이 이어질지, 미국 물가지표와 엔 캐리 트레이드 변수에 다시 흔들릴지가 다음 주 시장의 관건이다.",
+          "context": {
+            "background": "국내 증시는 최근 조정 국면을 거치며 반도체주 중심의 변동성이 커진 상태였다.",
+            "issueContext": "외국인은 4793억원, 기관은 1조6691억원을 순매수하며 지수를 끌어올렸고 코스닥도 3%대 급등했다.",
+            "coreQuestion": "이번 반등이 추세적 상승의 시작일까요, 단기 되돌림에 그칠까요?",
+            "resolution": "삼성전자와 SK하이닉스가 각각 2.20%, 3.20% 오르며 마감했고 SK스퀘어 등 관련주도 강세를 보였다."
+          },
+          "sources": [
+            {
+              "name": "EBN",
+              "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1723078"
+            }
+          ],
+          "related": {
+            "title": "반도체·로보틱스株 강세, 투심 회복됐지만 美 물가·엔 캐리 '변수'",
+            "source": "머니투데이",
+            "url": "https://www.mt.co.kr/stock/2026/09/04/2026090416050226740",
+            "type": "다름"
+          },
+          "topics": ["코스피", "반도체", "외국인투자", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260905-2",
+          "date": "2026.09.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "8월 무역수지 347.5억달러 흑자, 반도체 수출 역대 최대 경신",
+          "summary": "8월 수출이 전년 대비 68.7% 늘어난 982.5억달러를 기록하며 무역수지가 347.5억달러 흑자를 냈다. 반도체 수출은 466.5억달러로 역대 최대치를 새로 썼다.",
+          "why": "구글·아마존 등 하이퍼스케일러의 AI 인프라 수요가 이어지며 반도체 수출이 3개월 연속 무역흑자 300억달러 이상을 견인했다.",
+          "soWhat": "반도체 편중 심화로 대외 경기 민감도가 커진 만큼, 이 호황이 내수·고용으로 얼마나 확산될지가 남은 과제다.",
+          "context": {
+            "background": "올해 들어 한국의 수출은 반도체를 중심으로 가파르게 늘며 누적 무역흑자가 크게 확대돼 왔다.",
+            "issueContext": "8월 무역흑자로 3개월 연속 300억달러를 넘겼고, 1~8월 누적 흑자는 지난해 같은 기간보다 크게 늘었다.",
+            "coreQuestion": "반도체 호황의 온기가 중소기업과 내수 소비로 확산될까요, 대기업 편중에 그칠까요?",
+            "resolution": "산업통상부는 컴퓨터 수출도 역대 최대를 기록했다고 밝히며 연내 수출 1조달러 달성 가능성을 시사했다."
+          },
+          "sources": [
+            {
+              "name": "한국경제",
+              "url": "https://www.hankyung.com/article/2026090154607"
+            }
+          ],
+          "related": {
+            "title": "반도체만 활황…변동성·양극화 우려",
+            "source": "경향신문",
+            "url": "https://www.khan.co.kr/article/202606012037015",
+            "type": "다름"
+          },
+          "topics": ["수출", "반도체", "무역", "제조업"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260905-1",
+          "date": "2026.09.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "추석 성수품 18.3만톤 역대 최대 공급, 명절자금 43.4조원 투입",
+          "summary": "정부가 추석을 앞두고 19대 성수품을 역대 최대인 18.3만톤 공급하고 농축수산물 할인에 1030억원을 투입하기로 했다. 소상공인 명절자금도 43.4조원 규모로 공급한다.",
+          "why": "사과·배추 등 성수품 가격이 한 달 새 20~60%씩 뛰며 장바구니 부담이 커지자 정부가 물가 대책을 서둘러 확정했다.",
+          "soWhat": "할인 행사와 공급 확대가 실제 체감 물가 하락으로 이어질지가 추석 연휴 전까지의 관전 포인트다.",
+          "context": {
+            "background": "정부는 지난 1일 국무회의에서 추석 민생안정대책을 확정하며 성수품 공급과 할인 지원 규모를 발표했다.",
+            "issueContext": "채소류는 평시 대비 1.9배, 과일은 3배 이상 공급을 늘리고 가공식품까지 할인 폭을 확대했다.",
+            "coreQuestion": "정부의 이번 대책이 추석 밥상 물가를 실제로 낮출 수 있을까요?",
+            "resolution": "정부는 소상공인·청년층 대상 정책금융도 4800억원 규모로 확대해 지원하기로 했다."
+          },
+          "sources": [
+            {
+              "name": "헤럴드경제",
+              "url": "https://biz.heraldcorp.com/article/10858477"
+            }
+          ],
+          "related": {
+            "title": "[사설] 정부가 추석 물가 불안 확실히 잡겠다지만",
+            "source": "경인일보",
+            "url": "https://www.kyeongin.com/article/1770157",
+            "type": "반박"
+          },
+          "topics": ["추석", "성수품", "물가", "농가"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260905-2",
+          "date": "2026.09.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "정부24, 흩어진 가족관계교육 정보 통합 제공 서비스 개시",
+          "summary": "성평등가족부와 행정안전부가 4일부터 정부24를 통해 부모교육·양육·자녀교육 등 가족관계교육 정보를 7개 분야로 나눠 통합 제공한다고 밝혔다.",
+          "why": "결혼·출산·양육 관련 교육이 여러 부처·기관에 흩어져 있어 국민이 필요한 정보를 찾기 어렵다는 지적이 이어져 왔다.",
+          "soWhat": "연말에는 이용자의 연령·거주지·가족 상황을 분석해 맞춤 프로그램을 추천하는 AI 서비스도 도입될 예정이다.",
+          "context": {
+            "background": "가족관계교육은 성평등부의 부모·가족교육, 교육부의 학부모교육, 복지부의 임신·출산 교육 등으로 나뉘어 운영돼 왔다.",
+            "issueContext": "개별 기관·사업명을 따로 검색하지 않아도 정부24의 '생활·가족 가이드'에서 한 번에 확인하고 신청할 수 있게 됐다.",
+            "coreQuestion": "통합 서비스가 실제 이용률을 끌어올려 저출생 대응에 도움이 될까요?",
+            "resolution": "정부는 올해 말까지 AI 맞춤 추천 기능을 추가로 도입하겠다는 계획을 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "이투데이",
+              "url": "https://www.etoday.co.kr/news/view/2621413"
+            }
+          ],
+          "related": {
+            "title": "부모교육부터 사춘기 자녀 상담까지…'정부24'서 한 번에 찾는다",
+            "source": "이데일리",
+            "url": "https://www.edaily.co.kr/News/Read?newsId=03735926645576512",
+            "type": "유사"
+          },
+          "topics": ["성평등가족부", "가족", "저출생", "행정서비스"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260904-1",
           "date": "2026.09.04",
@@ -5149,10 +5329,190 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.09.04",
-      "period": "2026.09.03 08:00 ~ 2026.09.04 08:00",
-      "updatedAt": "2026.09.04 08:00 KST",
+      "latestDate": "2026.09.05",
+      "period": "2026.09.04 08:00 ~ 2026.09.05 08:00",
+      "updatedAt": "2026.09.05 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260905-1",
+          "date": "2026.09.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "미군, 이란에 재차 공습…웨딩파티 오폭으로 민간인 사상",
+          "summary": "미군이 이란의 기뢰 부설 시도와 요르단 내 미군기지 공격 시도에 대응해 이란에 재차 공습을 가했다. 이 과정에서 결혼식 하객이 있던 주택이 타격을 받아 다수의 민간인 사상자가 발생했다.",
+          "why": "트럼프 대통령은 이란의 '실패한 기뢰 부설 시도'에 대한 보복이라며 추가 공습을 예고했다.",
+          "soWhat": "이란도 쿠웨이트·UAE 등지에 미사일과 드론으로 맞대응하면서 호르무즈해협 인근 선박 87척이 우회하는 등 물류 차질이 커지고 있다.",
+          "context": {
+            "background": "미국과 이란은 6개월 넘게 간헐적 무력 충돌을 이어오고 있으며 이번 공습은 최근 한 달 만의 첫 충돌이었다.",
+            "issueContext": "미 중부사령부는 이란의 방공망·레이더·해상자산을 겨냥한 보복 공습을 완료했다고 밝혔다.",
+            "coreQuestion": "이 충돌이 전면전으로 확대될까요, 다시 소강 국면으로 접어들까요?",
+            "resolution": "이란은 쿠웨이트와 UAE의 미군 관련 시설을 겨냥해 미사일과 드론 공격을 감행했다."
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war"
+            }
+          ],
+          "related": {
+            "title": "Iran war updates: US launches new strikes, kills 4 at Sirik wedding party",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/9/1/iran-war-live-trump-vows-to-hit-iran-following-first-clash-in-a-month",
+            "type": "다름"
+          },
+          "topics": ["이란", "호르무즈해협", "미국", "안보"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260905-2",
+          "date": "2026.09.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프 지지율 33%로 하락, 중간선거 앞두고 이란전·물가 부담",
+          "summary": "로이터·입소스 여론조사에서 트럼프 대통령 지지율이 33%까지 떨어졌다. 이란전 장기화와 체감 물가 부담이 겹치며 11월 중간선거를 앞둔 공화당의 고민이 커지고 있다.",
+          "why": "6개월 넘게 이어진 이란전이 인기를 얻지 못한 데다 경제 불안까지 겹치며 지지율 하락이 가속화됐다.",
+          "soWhat": "역대 최저 수준의 지지율이 중간선거에서 공화당의 하원·상원 다수당 수성에 부담으로 작용할 전망이다.",
+          "context": {
+            "background": "트럼프 대통령의 지지율은 집권 2기 들어 여러 여론조사에서 반등 없이 하락세를 이어왔다.",
+            "issueContext": "여성 응답자의 64%가 국정 운영에 반대한다고 답하는 등 성별 격차도 뚜렷하게 나타났다.",
+            "coreQuestion": "지지율 하락세가 11월 중간선거에서 공화당의 의석 손실로 이어질까요?",
+            "resolution": "백악관은 여론조사 결과를 일축하며 2024년 대선 승리를 '궁극적인 여론조사'라고 반박하고 있다."
+          },
+          "sources": [
+            {
+              "name": "The Hill",
+              "url": "https://thehill.com/homenews/administration/6062781-donald-trump-approval-dropping-reuters-ipsos-survey/"
+            }
+          ],
+          "related": {
+            "title": "Trump's Approval Rating Deep Underwater on All Issues for First Time: Poll",
+            "source": "Newsweek",
+            "url": "https://www.newsweek.com/donald-trump-approval-rating-underwater-issues-poll-12373563",
+            "type": "다름"
+          },
+          "topics": ["트럼프", "지지율", "중간선거", "여론조사"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260905-1",
+          "date": "2026.09.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "8월 고용 16.2만명 증가, 예상 3배 웃돌며 금리 인상 기대 재점화",
+          "summary": "미국의 8월 비농업 고용이 16만2000명 늘며 시장 예상치 5만3000명을 크게 웃돌았다. 실업률은 4.1%로 유지됐지만 예상 밖 호조에 연준의 금리 인상 가능성이 다시 부각됐다.",
+          "why": "예상보다 강한 고용 지표가 인플레이션 억제를 최우선 과제로 삼은 연준의 셈법을 복잡하게 만들었다.",
+          "soWhat": "다음 주 발표될 CPI·PPI 지표가 이달 연준의 금리 인상 여부를 가를 결정적 변수로 꼽힌다.",
+          "context": {
+            "background": "연준은 지난 7월 금리를 동결하며 인플레이션과 고용 사이에서 균형을 모색해왔다.",
+            "issueContext": "고용 서프라이즈로 2년물 국채금리가 2025년 1월 이후 최고치로 치솟았다.",
+            "coreQuestion": "이달 연준이 실제로 금리를 인상할까요, 다시 동결을 선택할까요?",
+            "resolution": "시장은 CME 페드워치 기준으로 9월 금리 인상 가능성을 58%로 반영하고 있다."
+          },
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/business/2026/09/04/us-economy-added-162000-jobs-august-beating-expectations/"
+            }
+          ],
+          "related": {
+            "title": "Fed Rate Decision Still Hangs on Inflation After Jobs Report",
+            "source": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-04/fed-rate-decision-still-hangs-on-inflation-after-jobs-report",
+            "type": "다름"
+          },
+          "topics": ["고용", "연준", "금리", "물가"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260905-2",
+          "date": "2026.09.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "워시 의장 매파 발언에 9월 금리 인상 기대 확산, 골드만은 회의적",
+          "summary": "케빈 워시 연준 의장이 잭슨홀 연설에서 인플레이션 억제 의지를 강조하면서 9월 금리 인상 기대가 커졌다. 그러나 골드만삭스는 소매판매 둔화 등을 이유로 인상 가능성을 낮게 본다.",
+          "why": "워시 의장이 5월 파월의 뒤를 이어 취임한 이후 첫 잭슨홀 연설에서 매파적 색채를 분명히 하면서 시장의 셈법이 바뀌었다.",
+          "soWhat": "9월 금리 결정이 매파적으로 나올 경우 증시와 주택시장 등 금리 민감 자산에 즉각적인 충격이 예상된다.",
+          "context": {
+            "background": "워시 의장은 지난 5월 상원의 초당적이지 않은 표결로 파월의 후임으로 확정됐다.",
+            "issueContext": "시장은 9월 25bp 인상 가능성을 57%로 반영하고 있지만 JP모건은 연내 인상이 없을 것이라는 전망을 유지하고 있다.",
+            "coreQuestion": "워시 의장 체제의 연준이 실제로 매파적 노선을 밀어붙일까요?",
+            "resolution": "무디스 애널리틱스는 연준이 침묵을 이어가는 것 자체가 '심각한 실수'가 될 수 있다고 경고했다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html"
+            }
+          ],
+          "related": {
+            "title": "Odds of Fed Rate Hike This Year Fall as Goldman Sachs Warns Against Hawkish Bets",
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/economy/policy/articles/odds-fed-rate-hike-fall-083935313.html",
+            "type": "다름"
+          },
+          "topics": ["연준", "금리", "물가", "국채금리"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260905-1",
+          "date": "2026.09.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "오픈AI, 'AGI 시대' 선언하며 GPT-6 아스트라 공개",
+          "summary": "오픈AI가 새 모델 'GPT-6 아스트라'를 공개하며 그렉 브록만 사장이 AGI 시대의 도래일 수 있다고 밝혔다. 그러나 사이버보안 위험도가 최고 등급으로 분류되며 안전성 우려도 커졌다.",
+          "why": "경쟁사들의 오픈소스 모델이 빠르게 따라붙자 오픈AI가 성능과 상징성을 동시에 과시할 필요가 있었다.",
+          "soWhat": "AGI 여부를 둘러싼 논쟁과 함께, 모델의 사고 과정을 들여다보기 어려워진 데 따른 안전 감시 체계 재정비가 과제로 남았다.",
+          "context": {
+            "background": "오픈AI는 그동안 모델의 추론 과정을 그대로 노출하는 방식으로 안전성을 검증해왔다.",
+            "issueContext": "아스트라는 '불투명 재귀'라는 기법으로 질문을 여러 차례 반복 처리해 답을 내놓아 사고 과정 파악이 어려워졌다.",
+            "coreQuestion": "오픈AI 스스로도 안전 모니터링이 '취약하다'고 인정한 이 모델을 시장이 신뢰할 수 있을까요?",
+            "resolution": "일부 조직에 한정된 미리보기로 시작해 API와 챗GPT 유료 요금제로 순차 확대될 예정이다."
+          },
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/"
+            }
+          ],
+          "related": {
+            "title": "OpenAI unveils GPT-6 Astra amid rising scrutiny and safety concerns",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/9/4/openai-unveils-gpt-6-astra-amid-rising-scrutiny-and-safety",
+            "type": "반박"
+          },
+          "topics": ["오픈AI", "AI", "AGI", "빅테크"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260905-2",
+          "date": "2026.09.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "DHS, H-1B 신규 신청에 1인당 10만3265달러 수수료 제안",
+          "summary": "국토안보부가 연간 쿼터에 해당하는 H-1B 비자 신청 건마다 10만3265달러의 수수료를 부과하는 규정을 제안했다. DHS 자체 분석으로도 소기업 76%가 큰 타격을 받을 것으로 추정된다.",
+          "why": "트럼프 행정부가 지난해 발표한 10만달러 부과 조치가 법원에서 무효화되자 정식 규정 제정 절차로 방향을 튼 것이다.",
+          "soWhat": "30일간의 의견수렴을 거쳐 확정되면 스타트업·컨설팅업체의 해외 인재 채용 비용 구조가 근본적으로 바뀔 전망이다.",
+          "context": {
+            "background": "지난해 트럼프 대통령의 10만달러 부과 포고령은 리오 소로킨 연방판사에 의해 무효화됐다.",
+            "issueContext": "DHS는 연간 이민 관련 지출 88억달러를 8만5000개 H-1B 쿼터로 나눈 값이라며 수수료 산정 근거를 제시했다.",
+            "coreQuestion": "이 수수료가 확정되면 빅테크의 해외 인재 채용 전략이 근본적으로 바뀔까요?",
+            "resolution": "1심 판결에 불복해 항소한 행정부는 이번엔 규정 제정 절차를 통해 재도입을 시도하고 있다."
+          },
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/08/25/trump-h1b-visas-fee-startups/"
+            }
+          ],
+          "related": {
+            "title": "Feds Announce $103,265 Fee for Each New H-1B Visa",
+            "source": "Breitbart",
+            "url": "https://www.breitbart.com/economy/2026/08/24/feds-announce-103265-fee-for-each-new-h-1b-visas/",
+            "type": "반박"
+          },
+          "topics": ["H-1B", "이민", "비자", "취업난"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260904-1",
           "date": "2026.09.04",
@@ -10170,10 +10530,190 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.09.04",
-      "period": "2026.09.03 08:00 ~ 2026.09.04 08:00",
-      "updatedAt": "2026.09.04 08:00 KST",
+      "latestDate": "2026.09.05",
+      "period": "2026.09.04 08:00 ~ 2026.09.05 08:00",
+      "updatedAt": "2026.09.05 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260905-1",
+          "date": "2026.09.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "시진핑, 상하이협력기구 정상회의·키르기스스탄·이집트 순방 마치고 귀국",
+          "summary": "시진핑 국가주석이 2026년 상하이협력기구(SCO) 정상회의 참석과 키르기스스탄·이집트 국빈방문 일정을 마치고 3일 베이징으로 돌아왔다. 서방 주도 질서의 대안 축을 다지려는 행보로 풀이된다.",
+          "why": "중국은 러시아와 함께 SCO를 G7 등 서방 주도 기구의 대안으로 키우며 유라시아 국가들의 독자 안보협력 가능성을 보여주려 했다.",
+          "soWhat": "SCO 개발은행 설립 협상이 이번에도 본부 소재지를 둘러싼 회원국 간 이견으로 타결되지 못하며 조직의 실질적 결속력 한계가 다시 드러났다.",
+          "context": {
+            "background": "시진핑 주석은 지난달 30일 베이징을 출발해 비슈케크에서 열린 SCO 정상회의에 참석한 뒤 키르기스스탄·이집트를 국빈방문했다.",
+            "issueContext": "왕이 외교부장 등이 동행한 이번 순방에서 중국은 SCO의 범위와 영향력 확대를 지속적으로 추진했다.",
+            "coreQuestion": "SCO가 서방 주도 질서에 실질적 대안이 될 수 있을까요, 선언적 수사에 그칠까요?",
+            "resolution": "전문가들은 이번 정상회의가 실패는 아니지만 그 의미를 과대평가해서도 안 된다고 평가했다."
+          },
+          "sources": [
+            {
+              "name": "新华网",
+              "url": "https://www.news.cn/politics/leaders/20260903/59633f38736b413db1294e70410755db/c.html"
+            }
+          ],
+          "related": {
+            "title": "中国欲借上合峰会挑战美国主导秩序，但内部分歧暴露行动力局限",
+            "source": "美国之音(VOA)",
+            "url": "https://www.voachinese.com/a/at-sco-summit-china-showcases-an-alternative-order-even-as-divisions-limit-action-20260902/8193302.html",
+            "type": "다름"
+          },
+          "topics": ["시진핑", "다자외교", "국제협력", "상하이협력기구"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260905-2",
+          "date": "2026.09.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "장유샤 중앙군사위 부주석 정식 해임, 군 반부패 숙청 확대",
+          "summary": "중국 전국인민대표대회 상무위원회가 장유샤 중앙군사위 부주석과 류전리 위원의 직무를 정식으로 해임했다. 올해 1월 조사 착수 발표 이후 8개월 만의 공식 면직 절차 완료다.",
+          "why": "군 내 인사·이권을 둘러싼 파벌 형성과 부정부패 혐의가 군사위 주석 책임제를 훼손했다는 것이 해임 사유로 제시됐다.",
+          "soWhat": "10월로 예정된 20기 5중전회를 앞두고 장유샤·류전리에 대한 출당·제명 조치까지 이어질 가능성이 거론되며 군 지휘부 재편이 계속될 전망이다.",
+          "context": {
+            "background": "장유샤는 시진핑 다음가는 군 서열 2위로 꼽혀온 인물로, 올해 1월 조사 착수가 처음 알려졌다.",
+            "issueContext": "당국은 두 사람이 군내에서 파벌을 지어 군사위의 통일된 지도를 따르지 않았다고 밝혔다.",
+            "coreQuestion": "이번 해임이 군 지휘체계 정비로 마무리될까요, 추가 고위 장성 낙마로 번질까요?",
+            "resolution": "전인대 상무위는 8월 28일 회의에서 장유샤의 중앙군사위 부주석직, 류전리의 위원직 면직을 결정했다."
+          },
+          "sources": [
+            {
+              "name": "红歌会网",
+              "url": "https://www.szhgh.com/Article/news/politics/2026-08-29/412538.html"
+            }
+          ],
+          "related": {
+            "title": "中国正式免去张又侠、刘振立国家军委职务；习近平军中亲信钟绍军首次被证实出事",
+            "source": "美国之音(VOA)",
+            "url": "https://www.voachinese.com/a/china-formally-removes-zhang-youxia-and-liu-zhenli-from-state-central-military-commission-posts-20260828/8191566.html",
+            "type": "다름"
+          },
+          "topics": ["숙청", "군부", "반부패", "중앙군사위"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260905-1",
+          "date": "2026.09.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "8월 제조업 PMI 49.8%로 반등, 위축 국면은 여전",
+          "summary": "중국 8월 공식 제조업 구매관리자지수(PMI)가 49.8%로 전월보다 0.6포인트 올랐다. 생산·신규주문 지수가 개선됐지만 여전히 경기 확장·위축 기준선인 50을 밑돌았다.",
+          "why": "21개 조사 업종 중 16개 업종의 경기가 개선되며 전반적인 생산·수요 심리가 살아난 결과다.",
+          "soWhat": "대기업 PMI만 확장 국면에 진입했을 뿐 중소기업은 여전히 위축 국면에 머물러, 경기 회복의 온기가 고르게 퍼지지 않고 있음을 보여준다.",
+          "context": {
+            "background": "중국 제조업 PMI는 올해 들어 50 안팎에서 등락을 거듭하며 뚜렷한 회복 신호를 보이지 못했다.",
+            "issueContext": "생산지수는 50.4%로 0.5포인트, 신규주문지수는 50.6%로 2.1포인트 각각 상승했다.",
+            "coreQuestion": "이번 반등이 경기 저점 통과의 신호일까요, 일시적 반등에 그칠까요?",
+            "resolution": "국가통계국은 대형기업 PMI가 50.6%로 확장 국면에 진입한 반면 중형·소형기업은 여전히 기준선을 밑돈다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "中国新闻网",
+              "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687020.shtml"
+            }
+          ],
+          "related": {
+            "title": "8月统计局制造业PMI升至49.8 供需均转为扩张",
+            "source": "财新网",
+            "url": "https://economy.caixin.com/2026-08-31/102479964.html",
+            "type": "유사"
+          },
+          "topics": ["PMI", "제조업", "경기", "내수"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260905-2",
+          "date": "2026.09.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국, 9월부터 현물주택 판매 전면 전환…분양 리스크 개발사에 이전",
+          "summary": "중국 주택도시건설부 등 3개 부처가 상품주택 판매제도 개선 통지를 발표해 9월부터 선분양을 줄이고 현물(준공 후) 판매를 단계적으로 확대하기로 했다. 미완공 아파트 문제를 근본적으로 손보려는 조치다.",
+          "why": "선분양 제도 아래 누적된 공사 중단·입주 지연·자금 유용 등 고질적 문제가 소비자 신뢰를 계속 갉아먹었기 때문이다.",
+          "soWhat": "분양 리스크가 구매자에서 개발사와 금융권으로 옮겨가면서, 이미 자금난을 겪는 부동산 기업들의 유동성 압박이 한층 커질 전망이다.",
+          "context": {
+            "background": "8월 20일 선전 법원은 헝다그룹에 벌금 88.2억위안, 헝다부동산에 70억위안을 선고하고 쉬자인 전 회장에게 무기징역을 확정했다.",
+            "issueContext": "현물판매 확대로 자금 회수 기간이 길어지면서 개발사들은 토지 매입에 더 신중해질 수밖에 없는 상황이다.",
+            "coreQuestion": "이번 제도 전환이 미완공 아파트 문제를 해결할까요, 오히려 건설사 도산을 늘릴까요?",
+            "resolution": "당국은 화이트리스트 제도를 상시화해 우량 프로젝트에 대한 자금 지원을 이어가겠다는 방침이다."
+          },
+          "sources": [
+            {
+              "name": "新浪财经",
+              "url": "https://finance.sina.com.cn/roll/2026-08-28/doc-inipwnxp4463019.shtml"
+            }
+          ],
+          "related": {
+            "title": "分析：中共楼市新规令房企资金压力加剧",
+            "source": "大纪元",
+            "url": "https://www.epochtimes.com/gb/26/9/1/n14840829.htm",
+            "type": "다름"
+          },
+          "topics": ["부동산", "헝다그룹", "규제", "대출"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260905-1",
+          "date": "2026.09.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "태풍 '사덕얼' 푸젠 세 번째 상륙, 저장 온주 기록적 폭우",
+          "summary": "18호 태풍 사덕얼이 3일 오전 푸젠성 장저우 해안에 세 번째로 상륙했다. 저장성 원저우 창난현은 하루 강수량이 역대 최고치인 332.3㎜를 기록하며 곳곳이 침수됐다.",
+          "why": "8월 말 열대저압부로 약화됐던 사덕얼이 바다 위에서 다시 세력을 회복하며 재상륙한 이례적 사례다.",
+          "soWhat": "푸젠 곳곳에서 도로·지하주차장이 물에 잠기고 차량이 급류에 휩쓸리는 등 인명·재산 피해가 커, 임시 휴교·휴업 조치가 잇따랐다.",
+          "context": {
+            "background": "사덕얼은 지난달 30일 세력이 약화돼 예보 번호가 해제됐다가 9월 1일 다시 열대폭풍급으로 발달했다.",
+            "issueContext": "푸젠 닝더 샤푸현에서는 홍수위가 경계 수위를 넘어서며 저지대 마을이 1m 이상 침수됐다.",
+            "coreQuestion": "이례적으로 부활한 이번 태풍이 9월 남은 기간 추가 상륙으로 이어질까요?",
+            "resolution": "지방정부는 저지대 주민 대피와 배수 작업을 이어가며 피해 복구에 나섰다."
+          },
+          "sources": [
+            {
+              "name": "中国新闻网",
+              "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689198.shtml"
+            }
+          ],
+          "related": {
+            "title": "台风沙德尔卷土重来 福建多地暴雨成灾",
+            "source": "大纪元",
+            "url": "https://www.epochtimes.com/gb/26/9/1/n14840991.htm",
+            "type": "다름"
+          },
+          "topics": ["태풍", "홍수", "폭우", "재난"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260905-2",
+          "date": "2026.09.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "APEC 중소기업 장관회의 광저우 개최, 亞太 AI 지원센터 설립",
+          "summary": "제32차 APEC 중소기업 장관회의가 4일 광저우에서 열려 '아시아태평양 인공지능 부여 중소기업 발전 협력센터' 설립이 발표됐다. 각국 중소기업의 AI 도구 접근을 돕는 것이 목표다.",
+          "why": "중소기업이 자금·기술 부족으로 AI 전환에서 소외되는 것을 막기 위해 중국이 플랫폼 구축을 주도하고 나섰다.",
+          "soWhat": "미중 기술 패권 경쟁이 이어지는 가운데 중국이 AI 표준·생태계 확산을 아시아태평양 중소기업 지원이라는 명분으로 넓혀가는 모양새다.",
+          "context": {
+            "background": "이번 회의는 '혁신 주도, 협력 상생'을 주제로 과학기술 혁신, 디지털지능 부여, 포용적 발전을 논의했다.",
+            "issueContext": "광저우는 AI 응용 시나리오 110개, 구현 지능형 로봇 응용 142개를 이번 회의 기간 선보이며 자국 AI 산업을 홍보했다.",
+            "coreQuestion": "이 협력센터가 실제로 아시아태평양 중소기업의 AI 접근성을 넓힐까요, 중국 AI 생태계 확산의 통로에 그칠까요?",
+            "resolution": "공업정보화부는 관련 종합서비스 플랫폼을 구축·운영해 정책·시장 정보를 제공하겠다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "新浪新闻",
+              "url": "https://news.sina.com.cn/o/2026-09-04/doc-iniqskuq0866704.shtml"
+            }
+          ],
+          "related": {
+            "title": "APEC这场部长会议全面转向AI，工信部：不让一个经济体在数智时代掉队",
+            "source": "网易",
+            "url": "https://www.163.com/dy/article/L1GRN9330519APGA.html",
+            "type": "다름"
+          },
+          "topics": ["AI", "중소기업", "APEC", "기술패권"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260904-1",
           "date": "2026.09.04",
@@ -15190,10 +15730,190 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.09.04",
-      "period": "2026.09.03 08:00 ~ 2026.09.04 08:00",
-      "updatedAt": "2026.09.04 08:00 KST",
+      "latestDate": "2026.09.05",
+      "period": "2026.09.04 08:00 ~ 2026.09.05 08:00",
+      "updatedAt": "2026.09.05 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260905-1",
+          "date": "2026.09.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 내각 소폭 개조, 스즈키 간사장·아소 부총재·기하라 관방장관 유임",
+          "summary": "다카이치 사나에 총리가 16~18일로 검토 중인 내각·자민당 인사에서 스즈키 도시미쓰 간사장, 아소 다로 부총재, 기하라 미노루 관방장관 등 '정권의 골격'을 그대로 유지하기로 가닥을 잡았다.",
+          "why": "내년 가을 자민당 총재 선거 재선을 염두에 두고 정권 기반을 흔들지 않으려는 다카이치 총리의 안정 우선 전략이 반영됐다.",
+          "soWhat": "핵심 인사 유임으로 당분간 정국 안정이 예상되지만, 소폭 개조가 실질적 쇄신 없는 '자리 지키기'라는 비판도 함께 제기된다.",
+          "context": {
+            "background": "스즈키 간사장은 지난 2월 중의원 선거에서 자민당의 대승을 이끈 공로로 유임 명분을 얻었다.",
+            "issueContext": "다카이치 총리는 아소 부총재와의 독대 회식을 거치며 개조 인사를 조율한 것으로 알려졌다.",
+            "coreQuestion": "이번 소폭 개조가 정권 안정으로 이어질까요, 당내 쇄신 요구를 억누르는 데 그칠까요?",
+            "resolution": "산케이신문 등은 다카이치 총리가 '정권의 골격'을 지키는 방향으로 인사를 확정했다고 전했다."
+          },
+          "sources": [
+            {
+              "name": "産経新聞(Yahoo!ニュース)",
+              "url": "https://news.yahoo.co.jp/articles/c2325fb8f23ad65280b91f63aedf37848074f07a"
+            }
+          ],
+          "related": {
+            "title": "高市内閣「小幅」改造の真の目的…首相は「挙党体制」を建前に党総裁選のライバル潰しに虎視眈々",
+            "source": "日刊ゲンダイ",
+            "url": "https://www.nikkan-gendai.com/articles/view/news/392549",
+            "type": "반박"
+          },
+          "topics": ["개각", "내각", "자민당", "다카이치"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260905-2",
+          "date": "2026.09.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리 대만 '존립위기사태' 발언, 美 정보기관 연례보고서 '중대한 전환'으로 평가",
+          "summary": "미국 국가정보국이 연례 위협 평가 보고서에서 다카이치 총리의 대만 유사시 '존립위기사태' 발언을 현직 일본 총리로서는 이례적인 '중대한 전환'이라고 평가했다. 중국은 이 발언에 강하게 반발해왔다.",
+          "why": "다카이치 총리가 대만 유사시를 안보법상 존립위기사태로 규정할 수 있다는 취지의 발언을 하며 '전략적 모호성'에서 벗어났기 때문이다.",
+          "soWhat": "미 정보기관은 중일 갈등이 더 격화되면 중국이 추가 경제적 보복 조치에 나설 가능성이 크다고 내다봤다.",
+          "context": {
+            "background": "왕이 외교부장은 다카이치 총리의 발언을 두고 중국의 영토 주권에 대한 공공연한 도전이라고 비판한 바 있다.",
+            "issueContext": "중국 외교부는 지난 2월에도 다카이치 총리의 발언 철회를 요구하며 군국주의의 전철을 밟지 말라고 촉구했다.",
+            "coreQuestion": "다카이치 총리의 이번 발언이 중일관계의 새로운 균열점으로 굳어질까요?",
+            "resolution": "일본 정부는 기존 입장에 변화가 없다는 태도를 유지하며 중국의 반발에 정면 대응하지 않고 있다."
+          },
+          "sources": [
+            {
+              "name": "日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOGN18CAV0Y6A310C2000000/"
+            }
+          ],
+          "related": {
+            "title": "存立危機事態「手の内」を明かした高市早苗総理への中国の怒りを解説",
+            "source": "RKB毎日放送",
+            "url": "https://rkb.jp/contents/202511/199027/",
+            "type": "다름"
+          },
+          "topics": ["대만", "다카이치", "중일관계", "안보"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260905-1",
+          "date": "2026.09.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "美 고용지표 후 엔화 급등, 日銀 9월 금리인상 기대 확산",
+          "summary": "미국의 8월 고용지표 호조로 금리인상 기대가 재점화되면서 3일 엔화가 하루 만에 4엔 가까이 급등해 달러당 155엔대 후반을 기록했다. 베센트 미 재무장관도 우에다 총재에게 단호한 대응을 재차 주문했다.",
+          "why": "미일 장기금리差 축소 기대와 일본은행 심의위원들의 잇단 매파 발언이 겹치며 엔화 매수세가 강해졌다.",
+          "soWhat": "시장에서는 일본은행의 9월 금리인상 확률을 약 73%까지 반영하고 있어, 이달 금융정책결정회의가 초미의 관심사로 떠올랐다.",
+          "context": {
+            "background": "베센트 장관은 우에다 총재와의 회담에서 엔저의 대폭적인 저평가에 대응한 단호한 시장·금융정책 조치를 강하게 지지한다고 전했다.",
+            "issueContext": "일본은행 심의위원들 사이에서도 금리인상 속도를 높여야 한다는 견해가 잇따라 나오고 있다.",
+            "coreQuestion": "일본은행이 9월 금융정책결정회의에서 실제로 금리를 올릴까요?",
+            "resolution": "고다 소 심의위원은 9월 2일, 마스 가즈유키 위원은 10일 강연을 앞두고 있어 발언 수위가 다시 주목된다."
+          },
+          "sources": [
+            {
+              "name": "時事通信(Yahoo!ニュース)",
+              "url": "https://news.yahoo.co.jp/articles/cc9ea166242de07e45eaf22d90497f37b4dd8358"
+            }
+          ],
+          "related": {
+            "title": "日銀利上げ、経済学者の見方割れる 「円安是正を」「景気下押し」",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOCD222AP0S6A420C2000000/",
+            "type": "반박"
+          },
+          "topics": ["일본은행", "환율", "금리", "미국"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260905-2",
+          "date": "2026.09.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 806엔 반등해 6만5020엔, AI·반도체株가 견인",
+          "summary": "4일 도쿄 증시에서 닛케이평균이 전일 대비 806.46엔(1.26%) 오른 6만5020.94엔에 마감하며 5거래일 만에 반등했다. 미 장기금리 상승세가 진정되며 소프트뱅크그룹 등 AI·반도체 관련주가 급등했다.",
+          "why": "월러 연준 이사가 인플레이션 둔화 조짐을 언급하며 미 장기금리가 낮아지자 미국발 기술주 강세가 도쿄 증시로 옮겨붙었다.",
+          "soWhat": "다만 엔화 급등이 자동차 등 수출관련주에는 부담으로 작용해, 지수 상승 속에서도 업종별 희비가 엇갈렸다.",
+          "context": {
+            "background": "이날 도쿄 시장은 국내 장기금리가 낮아지는 가운데 AI·하이테크 관련주 매수세가 지수 전체를 견인했다.",
+            "issueContext": "소프트뱅크그룹은 전일 대비 11% 급등하며 홀로 닛케이평균을 약 470엔 끌어올렸다.",
+            "coreQuestion": "이번 반등이 추세적 상승으로 이어질까요, 미국 고용지표 발표를 앞둔 일시적 되돌림에 그칠까요?",
+            "resolution": "어드테스트·키옥시아·후지쿠라 등 AI·반도체 관련주가 아침부터 매수세를 이끌었다."
+          },
+          "sources": [
+            {
+              "name": "財経新聞",
+              "url": "https://www.zaikei.co.jp/article/20260904/868687.html"
+            }
+          ],
+          "related": {
+            "title": "円高でセリアや神戸物産が急伸、金利低下でソフトバンクグループも/日経平均反発",
+            "source": "ダイヤモンド・ザイ(Yahoo!ニュース)",
+            "url": "https://news.yahoo.co.jp/articles/b2055c1eae795a6c97bca0d11ce6d5ceddfa52a4",
+            "type": "다름"
+          },
+          "topics": ["닛케이", "반도체", "소프트뱅크", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260905-1",
+          "date": "2026.09.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "구마모토 지진 '복구·부흥본부'로 전환, 예비비 200억엔 지원",
+          "summary": "일본 정부가 구마모토 지진 비상재해대책본부를 복구·부흥본부로 전환하고 첫 회의를 열었다. 다카이치 총리는 예비비 200억엔 이상을 투입하고 10월부터 관광 수요 회복을 위한 할인 지원을 시행하겠다고 밝혔다.",
+          "why": "지난 8월 초 발생한 지진 피해가 커 정부가 격심재해로 지정하고 중장기 복구 체제로 전환할 필요가 있었기 때문이다.",
+          "soWhat": "긴급 대응 단계를 넘어 중장기 지원 체제로 전환되면서, 이재민의 생활 재건과 지역 관광 산업 회복이 다음 단계 과제로 떠올랐다.",
+          "context": {
+            "background": "다카이치 총리는 지난달 초 헬기로 야쓰시로·우키 등 피해 지역을 시찰하고 격심재해 지정 방침을 밝힌 바 있다.",
+            "issueContext": "정부는 도로·농지 등 공공시설 복구사업에 대한 국고보조율을 높이는 격심재해 지정과 함께 예비비 지출을 결정했다.",
+            "coreQuestion": "정부의 이번 지원이 이재민의 생활 재건 체감으로 이어질까요?",
+            "resolution": "다카이치 총리는 피해 주민과 지자체를 위해 신속하고 강력하게 지원책을 시행하겠다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOUA030O40T00C26A8000000/"
+            }
+          ],
+          "related": {
+            "title": "熊本復興へ支援推進と首相 政府、復旧本部初会合",
+            "source": "熊本日日新聞",
+            "url": "https://kumanichi.com/articles/2021471",
+            "type": "다름"
+          },
+          "topics": ["지진", "재난", "예산", "관광"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260905-2",
+          "date": "2026.09.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "일본 인구 8월 기준 59만명 감소, 15세 미만 인구 최소치 경신",
+          "summary": "일본 총무성 통계국이 8월 개산치 기준 총인구가 1억2268만명으로 전년 동월보다 59만명(0.48%) 줄었다고 발표했다. 15세 미만 인구는 1331만9000명으로 역대 최소를 다시 경신했다.",
+          "why": "출생아 수 감소와 고령화가 동시에 진행되며 인구 감소 속도가 예상보다 빨라지고 있기 때문이다.",
+          "soWhat": "생산가능인구 감소가 가속화되면서 노동력 부족과 사회보장 재정 부담이 함께 커질 것으로 우려된다.",
+          "context": {
+            "background": "2025년 한 해 출생아 수는 70만5809명으로 전년보다 2.1% 줄어 10년 연속 역대 최소를 기록했다.",
+            "issueContext": "75세 이상 인구는 2148만8000명으로 전년보다 47만9000명(2.28%) 늘어 고령화가 동시에 심화되고 있다.",
+            "coreQuestion": "정부의 저출생 대책이 인구 감소 속도를 실제로 늦출 수 있을까요?",
+            "resolution": "통계국은 이번 수치가 2020년 국세조사를 기준으로 한 개산치라고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "総務省統計局",
+              "url": "https://www.stat.go.jp/data/jinsui/new.html"
+            }
+          ],
+          "related": {
+            "title": "2025年の出生数70.5万人 少子化は推計より17年早く、人口減も進行",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUA197970Z10C26A2000000/",
+            "type": "다름"
+          },
+          "topics": ["저출생", "인구감소", "고령화", "통계"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260904-1",
           "date": "2026.09.04",
