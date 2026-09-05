@@ -113,10 +113,172 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.09.05",
-      "period": "2026.09.04 08:00 ~ 2026.09.05 08:00",
-      "updatedAt": "2026.09.05 08:00 KST",
+      "latestDate": "2026.09.06",
+      "period": "2026.09.05 08:00 ~ 2026.09.06 08:00",
+      "updatedAt": "2026.09.06 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260906-1",
+          "date": "2026.09.06",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "이재명 대통령, 6~9일 프랑스 국빈방문…마크롱과 정상회담",
+          "summary": "이재명 대통령이 6일부터 9일까지 프랑스를 국빈 방문해 마크롱 대통령과 정상회담을 갖는다. 지난 4월 마크롱 대통령의 방한 이후 5개월 만의 상호 방문 완성으로, 안보·경제는 물론 AI·우주·원자력·바이오 등 첨단산업 협력을 구체화한다.",
+          "why": "지난 4월 마크롱 대통령의 국빈 방한 이후 '글로벌 전략적 동반자 관계'를 내실화하려는 후속 조치다.",
+          "soWhat": "7일 뤼미에르 서밋 공동의장 참석 등 일정을 통해 양국이 영화·문화 협력까지 관계를 확장할 전망이다.",
+          "context": {
+            "background": "양국은 지난 4월 마크롱 대통령의 방한을 계기로 관계를 '글로벌 전략적 동반자 관계'로 격상했다.",
+            "issueContext": "이 대통령은 엘리제궁에서 마크롱 대통령과 단독 오찬 및 확대 정상회담을 갖고, 국빈만찬에도 참석한다.",
+            "coreQuestion": "이번 방문이 양국 협력을 첨단기술 분야까지 실질적으로 확장하는 계기가 될까요?",
+            "resolution": "이 대통령은 9일 프랑스 하원의장 면담과 동포 간담회, OECD 사무총장 접견을 끝으로 순방을 마무리한다."
+          },
+          "sources": [
+            { "name": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202609041125291122" }
+          ],
+          "related": {
+            "title": "국민의힘 \"동맹엔 패싱·북한엔 조롱당해\"",
+            "source": "헤럴드경제",
+            "url": "https://biz.heraldcorp.com/article/10849044",
+            "type": "반박"
+          },
+          "topics": ["외교", "프랑스", "원전", "AI"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260906-2",
+          "date": "2026.09.06",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "김승원 법무장관 후보자 청문회 9월15일 확정…국민의힘 \"낙마 1순위\" 총공세",
+          "summary": "김승원 법무부 장관 후보자의 국회 인사청문회가 9월15일 열리는 것으로 확정됐다. 국민의힘은 신약 임상시험 청탁 의혹과 공소취소 이해충돌 등을 겨냥해 총력 검증을 예고했다.",
+          "why": "김 후보자가 2021년 국회의원 시절 코로나19 치료제 개발업체의 민원을 식약처장에게 전달한 사실이 청탁 논란으로 번졌기 때문이다.",
+          "soWhat": "정기국회 초반 청문정국이 본격화하며 여야 대치가 예산·법안 심사에도 영향을 줄 전망이다.",
+          "context": {
+            "background": "김 후보자는 이재명 대통령의 8월30일 개각에서 법무부 장관으로 지명됐다.",
+            "issueContext": "국민의힘은 김 후보자가 대통령 재판 취소를 위한 '공소취소 모임' 공동대표였다는 점도 검증 쟁점으로 삼고 있다.",
+            "coreQuestion": "청문회에서 제기될 의혹들이 김 후보자의 임명을 무산시킬 정도로 확산될까요?",
+            "resolution": "청문회 준비단은 청탁금지법상 허용되는 고충민원 전달이었다고 해명하며 정면 대응하고 있다."
+          },
+          "sources": [
+            { "name": "이데일리", "url": "https://www.edaily.co.kr/News/Read?newsId=05284086645576512" }
+          ],
+          "related": {
+            "title": "민주당, 용혜원·김승원 언급 보니... \"국힘, '답정너'식 비난 멈춰라\"",
+            "source": "오마이뉴스",
+            "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003264577",
+            "type": "반박"
+          },
+          "topics": ["김승원", "인사청문회", "법무부", "국회"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260906-1",
+          "date": "2026.09.06",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "한화오션, 이틀 새 2조원 수주 잭팟…양밍해운 1년 만에 후속 발주",
+          "summary": "한화오션이 오세아니아 VLGC 3척(4778억원)과 대만 양밍해운 컨테이너선 6척(1조5527억원) 등 이틀 만에 2조305억원 규모를 수주했다. 양밍해운은 지난해 첫 발주 이후 1년 만에 대규모 후속 계약을 맡겼다.",
+          "why": "독자 개발한 고망간강 기반 LNG 연료탱크 등 기술 경쟁력이 대형 후속 발주로 이어졌다.",
+          "soWhat": "조선업 호황이 이어지는 가운데서도 현장 인력 부족 문제가 병목으로 지적되며 인도 일정 관리가 과제로 떠올랐다.",
+          "context": {
+            "background": "양밍해운은 지난해 9월 1만5880TEU급 컨테이너선 7척을 발주하며 한화오션과 첫 신조 계약을 맺었다.",
+            "issueContext": "이번 컨테이너선 6척은 거제사업장에서 건조돼 2029년 하반기까지 순차 인도된다.",
+            "coreQuestion": "수주 호황이 조선업 인력난이라는 구조적 문제를 얼마나 더 키우게 될까요?",
+            "resolution": "한화오션은 고부가 선종 위주 선별 수주 기조를 유지하며 추가 계약을 이어갈 방침이다."
+          },
+          "sources": [
+            { "name": "아시아경제", "url": "https://view.asiae.co.kr/article/2026090309042509446" }
+          ],
+          "related": {
+            "title": "수주 쌓이는 조선소, 정작 용접봉 잡을 사람이 없다",
+            "source": "전국인력신문",
+            "url": "https://www.kjob.news/news/519645",
+            "type": "다름"
+          },
+          "topics": ["조선", "수주", "한화오션", "고용"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260906-2",
+          "date": "2026.09.06",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "8월 소비자심리지수 104.5로 하락, 4개월 만에 상승세 멈춰",
+          "summary": "한국은행이 발표한 8월 소비자심리지수(CCSI)가 전월보다 2.3포인트 내린 104.5를 기록했다. 국내 증시 조정과 누적된 물가 부담이 겹치며 지난 4월 이후 이어진 상승세가 꺾였다.",
+          "why": "실물경제는 양호한 흐름을 유지했지만 증시 변동성 확대가 체감경기 판단을 비관적으로 돌려세웠다.",
+          "soWhat": "소비자심리와 달리 제조업 기업심리지수는 5개월 연속 상승해 체감경기의 온도차가 뚜렷해졌다.",
+          "context": {
+            "background": "CCSI는 지난 4월 이후 석 달 연속 상승하며 낙관적인 흐름을 보여왔다.",
+            "issueContext": "현재경기판단지수는 5포인트 하락한 79로, 소비지출전망을 포함한 6개 구성지수가 모두 내렸다.",
+            "coreQuestion": "이번 하락이 일시적 조정에 그칠까요, 소비 위축의 신호탄이 될까요?",
+            "resolution": "한국은행은 실물지표는 견조하다면서도 증시 조정에 따른 심리 위축을 예의주시하겠다고 밝혔다."
+          },
+          "sources": [
+            { "name": "헤럴드경제", "url": "https://biz.heraldcorp.com/article/10850505" }
+          ],
+          "related": {
+            "title": "[단독분석] 8월 소비자심리 104.5 꺾였는데 기업은 99.6 최고치…'체감경기 엇갈린 이유'",
+            "source": "한국데이터경제신문",
+            "url": "https://www.dataeconomy.co.kr/news/articleView.html?idxno=42302",
+            "type": "다름"
+          },
+          "topics": ["소비자심리지수", "소비", "증시", "물가"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260906-1",
+          "date": "2026.09.06",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "9월 대한민국 과학기술인상에 최수석 포스텍 교수…'인공전자피부' 개발",
+          "summary": "과학기술정보통신부와 한국연구재단이 9월 대한민국 과학기술인상 수상자로 포스텍 최수석 교수를 선정했다. 카이랄 나노구조로 빛의 색과 파장을 직접 바꾸는 '인공전자피부' 등 차세대 디스플레이 기술이 평가받았다.",
+          "why": "2V의 낮은 전압으로 색을 바꾸는 가변 컬러필터 등 독창적 광전자 소자 연구 성과를 인정받았다.",
+          "soWhat": "관련 기술은 차세대 디스플레이·AR·홀로그램·광반도체 등으로 응용 범위가 넓어질 전망이다.",
+          "context": {
+            "background": "최 교수는 SCI 논문 40편을 발표해 2500회 이상 인용됐으며 국내외 특허 약 250개를 확보했다.",
+            "issueContext": "그의 연구는 국제학술지 표지논문으로도 여러 차례 선정된 바 있다.",
+            "coreQuestion": "이번 수상 기술이 실제 상용 디스플레이 제품으로 이어질 수 있을까요?",
+            "resolution": "과기정통부는 시상식을 통해 최 교수의 연구를 국가 차원에서 공식 인정했다."
+          },
+          "sources": [
+            { "name": "서울경제", "url": "https://www.sedaily.com/article/20086429" }
+          ],
+          "related": {
+            "title": "전자피부 등 차세대 디스플레이 혁신···9월 과기인상 최수석 교수",
+            "source": "헬로디디",
+            "url": "https://www.hellodd.com/news/articleView.html?idxno=113030",
+            "type": "유사"
+          },
+          "topics": ["과학기술인상", "디스플레이", "반도체", "연구"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260906-2",
+          "date": "2026.09.06",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "'2026 국제양자산업대전' 9일 코엑스 개막…양자 강국 도약 노려",
+          "summary": "한국양자산업협회 등이 주최하는 '2026 국제양자산업대전'이 9월9일부터 11일까지 서울 코엑스에서 열린다. 양자컴퓨팅·통신·보안 기업이 한자리에 모여 글로벌 협력을 모색한다.",
+          "why": "연구개발 단계의 양자기술을 실제 산업에 적용할 접점을 마련하려는 목적이다.",
+          "soWhat": "9일 글로벌 양자서밋을 시작으로 IR 피칭데이·산업생태계 포럼이 이어지며 국내외 투자 유치 기회로 활용될 전망이다.",
+          "context": {
+            "background": "정부는 올해를 양자 산업화 원년으로 삼고 관련 예산을 대폭 늘려왔다.",
+            "issueContext": "정부는 내년 양자 분야 투자액을 올해보다 24.3% 늘린 3700억원으로 예산안에 반영했다.",
+            "coreQuestion": "이번 행사가 한국 양자기술의 실질적 경쟁력 향상으로 이어질까요?",
+            "resolution": "과학기술정보통신부와 서울시가 후원하는 이번 행사는 초기 상용화·실증에 초점을 맞췄다."
+          },
+          "sources": [
+            { "name": "동아경제신문", "url": "https://www.daenews.co.kr/26127" }
+          ],
+          "related": {
+            "title": "중국은 양자·우주 향해 질주하는데…한국선 \"인프라도, 연구할 사람도 없다\"",
+            "source": "한국일보",
+            "url": "https://www.hankookilbo.com/news/article/A2026062115120000029",
+            "type": "다름"
+          },
+          "topics": ["양자컴퓨터", "과학기술", "투자", "연구"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260905-1",
           "date": "2026.09.05",
@@ -5329,10 +5491,172 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.09.05",
-      "period": "2026.09.04 08:00 ~ 2026.09.05 08:00",
-      "updatedAt": "2026.09.05 08:00 KST",
+      "latestDate": "2026.09.06",
+      "period": "2026.09.05 08:00 ~ 2026.09.06 08:00",
+      "updatedAt": "2026.09.06 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260906-1",
+          "date": "2026.09.06",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "CENTCOM, 이란 웨딩파티 오폭 내부조사 착수…전문가 \"직격탄 가능성\"",
+          "summary": "미 중부사령부가 지난 1일 이란 남부에서 발생한 웨딩파티 공습에 대한 내부 검토에 착수했다. 무기 전문가들은 피해 양상이 이란 방공 미사일의 유탄보다 미군의 직접 타격에 가깝다고 분석했다.",
+          "why": "이란 국영TV가 사망자를 5명으로 집계하는 등 민간인 피해가 확인되면서 국제적 파장이 커졌기 때문이다.",
+          "soWhat": "조사 결과에 따라 미군의 교전수칙과 표적 확인 절차에 대한 신뢰가 흔들릴 수 있다.",
+          "context": {
+            "background": "미군은 해당 지역의 군민 겸용 통신탑을 표적으로 삼았다고 주장해왔다.",
+            "issueContext": "브래드 쿠퍼 중부사령관이 드론 영상과 표적 확인 절차를 재검토하라고 지시했다.",
+            "coreQuestion": "조사가 실제로 미군의 오폭 책임을 인정하는 결론으로 이어질까요?",
+            "resolution": "중부사령부는 \"미군은 민간인을 표적으로 삼지 않는다\"는 기존 입장을 유지하고 있다."
+          },
+          "sources": [
+            { "name": "Axios", "url": "https://www.axios.com/2026/09/04/iran-wedding-strike-us-military-investigation" }
+          ],
+          "related": {
+            "title": "Iran Red Crescent urges ICC probe into deadly US strike on wedding party",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/amp/news/2026/9/3/iran-red-crescent-urges-icc-probe-into-deadly-us-strike-on-wedding-party",
+            "type": "다름"
+          },
+          "topics": ["이란", "호르무즈해협", "안보", "트럼프행정부"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260906-2",
+          "date": "2026.09.06",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "공화당, 사상 첫 '중간선거 전당대회' 9~10일 댈러스 개최",
+          "summary": "공화당이 다음 주 댈러스에서 사상 첫 중간선거 전당대회를 연다. 9일 밤 밴스 부통령, 10일 밤 트럼프 대통령이 각각 기조연설에 나서며 약 2만명이 참석할 예정이다.",
+          "why": "11월 중간선거를 앞두고 지지층 결집과 대규모 유세 효과를 노린 이례적 시도다.",
+          "soWhat": "민주당은 트럼프 행정부의 경제정책과 선거 관련 행정명령에 반대하는 시위를 예고했다.",
+          "context": {
+            "background": "이번 대회는 대선 후보 선출과 달리 대의원·당무 표결이 없는 유세 성격의 행사다.",
+            "issueContext": "일부 주 공화당 지도부는 촉박한 일정과 비용 부담을 이유로 불만을 제기해왔다.",
+            "coreQuestion": "사상 첫 중간선거 전당대회가 실제 지지율 반등으로 이어질까요?",
+            "resolution": "공화당은 이번 대회를 '상식 혁명'을 내세운 대규모 유세로 준비하고 있다."
+          },
+          "sources": [
+            { "name": "공화당전국위원회(GOP)", "url": "https://gop.com/press-release/president-trump-to-headline-2026-republican-midterm-convention-showcasing-the-common-sense-revolution/" }
+          ],
+          "related": {
+            "title": "Republican state party leaders grumble about the timing, cost and planning of Trump's midterm convention",
+            "source": "NBC News",
+            "url": "https://www.nbcnews.com/politics/2026-election/republican-state-party-leaders-grumble-trump-midterm-convention-rcna595566",
+            "type": "반박"
+          },
+          "topics": ["트럼프", "중간선거", "공화당", "선거"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260906-1",
+          "date": "2026.09.06",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "뉴욕증시, 국방예산 확대 기대에 국방주 급등…기술주는 AI 수익성 우려로 하락",
+          "summary": "5일 뉴욕증시에서 나스닥이 1.4% 내리며 기술주 매도세가 이어진 반면, 록히드마틴(4.3%)·노스롭그루먼(2.6%) 등 국방주는 급등했다. 투자자들이 AI 투자에 실질적 수익 증명을 요구하기 시작했다는 분석이 나온다.",
+          "why": "트럼프 대통령이 2027 회계연도 국방예산으로 1.5조달러를 거론하며 국방주에 훈풍이 불었다.",
+          "soWhat": "AI 밸류에이션에 대한 검증 압박이 커지면서 반도체·빅테크 중심의 랠리가 조정 국면에 들어설 수 있다는 우려가 제기된다.",
+          "context": {
+            "background": "나스닥은 3월 말 이후 26% 넘게 오르며 가파른 상승세를 이어왔다.",
+            "issueContext": "엔비디아(-2.2%)·TSMC(-3%) 등 반도체 대형주가 이날 하락을 주도했다.",
+            "coreQuestion": "이번 조정은 과열 해소를 위한 숨고르기일까요, 본격적인 밸류에이션 재평가의 시작일까요?",
+            "resolution": "시장은 다음 주 발표될 8월 CPI 지표를 다음 변수로 주목하고 있다."
+          },
+          "sources": [
+            { "name": "CBS News", "url": "https://www.cbsnews.com/news/tech-stock-selloff-ai-profits-nasdaq-nvidia-alphabet-spacex/" }
+          ],
+          "related": {
+            "title": "Wall Street mixed as tech dips and defense stocks rally",
+            "source": "MarketScreener",
+            "url": "https://www.marketscreener.com/news/wall-street-mixed-as-tech-dips-and-defense-stocks-rally-ce7e59ddd18df224",
+            "type": "다름"
+          },
+          "topics": ["나스닥", "AI", "국방", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260906-2",
+          "date": "2026.09.06",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "AMD, 앤트로픽에 최대 50억달러 투자…IPO 신고서 공개 임박",
+          "summary": "AMD가 AI 스타트업 앤트로픽에 최대 50억달러를 투자하기로 했다. 앤트로픽은 노동절 이후 IPO 신고서를 공개할 계획으로, 최대 2조달러 밸류에이션과 1000억달러 조달을 목표로 하고 있다.",
+          "why": "앤트로픽이 이미 사모 시장에서 1300억달러 넘게 조달하며 상장 채비를 서두르고 있기 때문이다.",
+          "soWhat": "스페이스X(860억달러)를 넘어서는 사상 최대 IPO가 될 수 있다는 전망이 나오며 AI 밸류에이션 거품 논쟁이 재점화됐다.",
+          "context": {
+            "background": "앤트로픽은 지난봄 시리즈H 투자에서 9650억달러 밸류에이션을 인정받았다.",
+            "issueContext": "올해 7월 기준 앤트로픽의 연환산 매출은 650억달러로 집계됐다.",
+            "coreQuestion": "2조달러 밸류에이션은 실적이 뒷받침된 것일까요, 투기적 기대의 정점일까요?",
+            "resolution": "앤트로픽은 8월 말 공개 상장 신청을 목표로 절차를 밟고 있으며 10월 상장이 유력하게 거론된다."
+          },
+          "sources": [
+            { "name": "The Motley Fool", "url": "https://www.fool.com/investing/2026/09/05/amd-committed-up-to-usd5-billion-to-anthropic-and-anthropic-s-ipo-prospectus-is-reportedly-days-away/" }
+          ],
+          "related": {
+            "title": "Michael Burry Predicts SpaceX, Anthropic & OpenAI IPOs Will Raise More Than the Entire 2000 Dot-Com Bubble",
+            "source": "KuCoin",
+            "url": "https://www.kucoin.com/blog/fr-michael-burry-predicts-ai-ipo-bubble-1b-short",
+            "type": "반박"
+          },
+          "topics": ["AI", "IPO", "앤트로픽", "AMD"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260906-1",
+          "date": "2026.09.06",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "NASA·스페이스X, 크루-13 발사 산화제 누출로 9월 하순으로 연기",
+          "summary": "NASA와 스페이스X가 국제우주정거장행 크루-13 발사를 발사 전 표준 점검 중 발견된 드래건 우주선 추진 시스템 산화제 누출로 연기했다. 당초 9월12일 예정이던 발사는 9월 하순 이후로 미뤄졌다.",
+          "why": "발사 전 표준 처리 과정에서 누출이 발견돼 안전을 우선한 조치가 필요했기 때문이다.",
+          "soWhat": "보잉 스타라이너의 인증 지연으로 이미 스페이스X 의존도가 높아진 상황에서 일정 차질이 ISS 승무원 교대 계획에 영향을 줄 수 있다.",
+          "context": {
+            "background": "크루-13은 왓킨스·딜레이니(NASA), 쿠트리크(캐나다우주청), 테테리아트니코프(로스코스모스) 4명이 탑승할 예정이다.",
+            "issueContext": "NASA와 스페이스X 합동팀이 추가 시험과 데이터 검토를 거쳐 필요한 재작업을 완료할 계획이다.",
+            "coreQuestion": "이번 지연이 ISS 승무원 공백 없이 매끄럽게 해결될 수 있을까요?",
+            "resolution": "NASA는 새 발사일을 아직 발표하지 않았으며 임무 페이지에는 9월 하순 이후로 표시돼 있다."
+          },
+          "sources": [
+            { "name": "NASA", "url": "https://www.nasa.gov/blogs/spacestation/2026/08/29/nasa-spacex-adjust-crew-13-launch-date/" }
+          ],
+          "related": {
+            "title": "NASA, SpaceX delay Crew-13 launch after Dragon leak detected, officials say",
+            "source": "FOX 35 Orlando",
+            "url": "https://www.fox35orlando.com/news/nasa-spacex-delay-crew-13-launch-after-dragon-leak-detected-officials",
+            "type": "유사"
+          },
+          "topics": ["우주정거장", "스페이스X", "NASA", "위성"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260906-2",
+          "date": "2026.09.06",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "美 홍역 3134명 돌파…사상 최다 경신, 11월 퇴치국 재평가 앞둬",
+          "summary": "미국의 2026년 누적 홍역 확진자가 9월3일 기준 3134명으로 늘며 또다시 사상 최다를 경신했다. 범미보건기구(PAHO)는 11월 미국의 홍역 퇴치국 지위를 공식 재검토할 예정이다.",
+          "why": "MMR 백신 접종률이 집단면역 기준선인 95%를 밑돌면서 확진자가 계속 늘고 있다.",
+          "soWhat": "확진자의 93%가 백신 미접종자이거나 접종 이력이 불분명해, 재평가에서 퇴치국 지위를 잃을 가능성이 거론된다.",
+          "context": {
+            "background": "올해 확진자 중 20%가 5세 이하, 69%가 19세 이하 어린이·청소년이다.",
+            "issueContext": "케네디 보건복지장관이 PAHO에 재평가를 11월로 미뤄달라고 요청했다는 지적이 나온다.",
+            "coreQuestion": "미국은 11월 재평가에서 홍역 퇴치국 지위를 지켜낼 수 있을까요?",
+            "resolution": "CDC는 47개 관할지역에서 38건의 신규 집단발병이 확인됐다고 밝혔다."
+          },
+          "sources": [
+            { "name": "CDC", "url": "https://www.cdc.gov/measles/data-research/index.html" }
+          ],
+          "related": {
+            "title": "Measles Is Back—and RFK Jr. Is Undermining the Response",
+            "source": "Newsweek",
+            "url": "https://www.newsweek.com/measles-is-backand-rfk-jr-is-undermining-the-response-opinion-11915549",
+            "type": "반박"
+          },
+          "topics": ["홍역", "백신", "보건", "질병"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260905-1",
           "date": "2026.09.05",
@@ -10530,10 +10854,172 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.09.05",
-      "period": "2026.09.04 08:00 ~ 2026.09.05 08:00",
-      "updatedAt": "2026.09.05 08:00 KST",
+      "latestDate": "2026.09.06",
+      "period": "2026.09.05 08:00 ~ 2026.09.06 08:00",
+      "updatedAt": "2026.09.06 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260906-1",
+          "date": "2026.09.06",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "제8회 중러 에너지비즈니스포럼 블라디보스토크 개막…시진핑 축전",
+          "summary": "제8회 중러 에너지비즈니스포럼이 4일 러시아 블라디보스토크에서 열렸다. 시진핑 국가주석은 축전에서 에너지 공급망의 안정적 유지를 위해 러시아와 협력을 계속 심화하겠다고 밝혔다.",
+          "why": "올해가 중러 전략적 협력동반자 관계 수립 30주년이자 양국 우호협력조약 체결 25주년을 맞아 상징성이 컸다.",
+          "soWhat": "서방의 대러 제재가 갈수록 중국 기업까지 겨냥하는 가운데, 양국의 에너지 밀착이 한층 공식화된 모양새다.",
+          "context": {
+            "background": "딩쉐샹 부총리가 2~4일 러시아를 방문해 중러 투자협력위원회·에너지협력위원회 회의를 잇달아 주재했다.",
+            "issueContext": "러시아 노바크 부총리는 안정적 에너지 협력을 위해 파이프라인·항만 확충이 필요하다고 밝혔다.",
+            "coreQuestion": "서방의 대중 제재 확대가 중러 에너지 협력의 속도를 늦출 수 있을까요?",
+            "resolution": "딩 부총리는 러시아와 전방위 에너지 협력을 진전시킬 준비가 됐다고 밝혔다."
+          },
+          "sources": [
+            { "name": "中国新闻网", "url": "https://www.chinanews.com.cn/gn/2026/09-04/10690311.shtml" }
+          ],
+          "related": {
+            "title": "Russia LNG Sanctions Need to Expand to China",
+            "source": "Foreign Policy",
+            "url": "https://foreignpolicy.com/2026/08/12/lng-sanctions-russia-shadow-fleet-china/",
+            "type": "다름"
+          },
+          "topics": ["에너지", "러시아", "제재", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260906-2",
+          "date": "2026.09.06",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 국방부 \"무력으로 독립 도모 시도 반드시 실패\"…대만 국방보고서 반박",
+          "summary": "중국 국방부 대변인 장빈이 대만이 입법원에 제출한 '2026년 대륙군사력 보고서'를 겨냥해 \"시비를 뒤섞고 흑백을 전도했다\"고 비판했다. 대만은 이 보고서와 함께 무인기 등을 위한 추가 국방예산도 편성했다.",
+          "why": "대만 국방부가 인민해방군의 봉쇄·격리 훈련 강화를 근거로 위협 평가를 제시했기 때문이다.",
+          "soWhat": "대만이 무인기 확보 등에 559억 대만달러 규모의 추가 예산을 편성하면서 양안 군비 경쟁이 한층 가팔라질 전망이다.",
+          "context": {
+            "background": "대만 국방부는 최근 입법원에 대륙 군사력 평가 보고서와 향후 5개년 병력 정비계획 보고서를 함께 제출했다.",
+            "issueContext": "장빈 대변인은 인민해방군의 대만 주변 상시 전비태세 순찰이 국가주권 수호를 위한 것이라고 주장했다.",
+            "coreQuestion": "이런 공방이 실제 군사적 충돌 위험을 높이는 방향으로 갈까요, 예년과 같은 수사전에 그칠까요?",
+            "resolution": "중국은 조국통일이 대세이며 무력에 의한 독립 시도는 반드시 실패할 것이라고 재확인했다."
+          },
+          "sources": [
+            { "name": "中新网", "url": "https://www.chinanews.com.cn/gn/2026/09-04/10690316.shtml" }
+          ],
+          "related": {
+            "title": "台湾政府通过追加46亿美元国防预算应对中国军事威胁",
+            "source": "美国之音(VOA)",
+            "url": "https://www.voachinese.com/a/taiwan-proposed-4-6-billion-additional-defense-budget-to-counter-chinese-threats-20260903/8193867.html",
+            "type": "다름"
+          },
+          "topics": ["양안관계", "대만", "국방", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260906-1",
+          "date": "2026.09.06",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中, 국채 발행 가속화…연말까지 대규모 물량 쏟아낸다",
+          "summary": "중국이 경기 부양을 위해 연말까지 국채·지방정부 특별채 발행에 속도를 낸다. 8월 말 기준 중앙정부 국채 소진율이 65%로 4년 만에 가장 느려, 국가발전개혁위원회가 정책성 금융수단 투입을 앞당기기로 했다.",
+          "why": "국채 소진 속도가 예년보다 크게 뒤처지며 하반기 경기 방어를 위한 재정 집행 압박이 커졌다.",
+          "soWhat": "연말로 몰린 대규모 채권 발행이 시장 금리와 은행권 유동성에 부담을 줄 수 있다는 우려가 나온다.",
+          "context": {
+            "background": "올해 정부채 발행 계획은 일반국채·초장기 특별국채·지방정부 특별채를 합쳐 10조3000억~12조6000억 위안 규모다.",
+            "issueContext": "국가발전개혁위원회는 지난달 28일 회의에서 주요 건설사업에 대한 자금 투입을 앞당기기로 했다.",
+            "coreQuestion": "연말 집중 발행이 실제 경기 부양 효과로 이어질까요, 시장 부담만 키울까요?",
+            "resolution": "당국은 지방정부 특별채 투입을 서둘러 3분기 성장률 방어에 나설 방침이다."
+          },
+          "sources": [
+            { "name": "이비엔(EBN)뉴스센터", "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1722722" }
+          ],
+          "related": {
+            "title": "中 국가부채, 작년 사상 처음 EU 추월…연평균 17%씩 폭증",
+            "source": "에포크타임즈",
+            "url": "https://www.epochtimes.kr/2026/04/746648.html",
+            "type": "다름"
+          },
+          "topics": ["국채", "재정", "경기부양", "지방자치"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260906-2",
+          "date": "2026.09.06",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中, AI·로봇으로 내수 키운다…2030년 소비시장 60조위안 목표",
+          "summary": "중국 상무부 등 7개 부처가 '상품소비 확대·고도화 실시 의견'을 발표해 2030년까지 사회소비품 소매판매액을 60조위안 규모로 끌어올리겠다는 목표를 내놨다. AI·로봇을 활용해 녹색·스마트·건강 소비를 10조위안급 시장으로 키운다는 구상이다.",
+          "why": "내수 부진이 장기화되는 가운데 15차 5개년 계획 기간 소비 구조 고도화가 시급하다는 판단에서다.",
+          "soWhat": "정부 주도 소비 진작책이 실제 가계 소비 여력 확대로 이어질지가 정책 성패를 가를 전망이다.",
+          "context": {
+            "background": "중국의 최종소비 기여율은 2023년 2분기 이후 지속적으로 낮아지는 추세다.",
+            "issueContext": "전문가들은 의료·연금 등 사회안전망 부족에 따른 과잉 저축이 소비 부진의 근본 원인이라고 지적한다.",
+            "coreQuestion": "AI·로봇 중심의 새 소비 진작책이 저축 성향 자체를 바꿔놓을 수 있을까요?",
+            "resolution": "정부는 서비스 소비 육성과 상품 소비 고도화를 함께 추진해 내수 기반을 강화하겠다고 밝혔다."
+          },
+          "sources": [
+            { "name": "머니투데이", "url": "https://www.mt.co.kr/world/2026/09/01/2026090111093379131" }
+          ],
+          "related": {
+            "title": "【名家专栏】中共刺激家庭支出 成效受质疑",
+            "source": "大纪元",
+            "url": "https://www.epochtimes.com/gb/26/8/8/n14825912.htm",
+            "type": "반박"
+          },
+          "topics": ["소비", "내수", "AI", "로봇"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260906-1",
+          "date": "2026.09.06",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "중국 민영 재사용로켓 '즈선싱 1호' 첫 발사 성공",
+          "summary": "중국 민영 우주기업 싱허둥리(星河动力)의 중형 재사용 액체로켓 '즈선싱 1호' 1차 발사가 1일 성공했다. 7기 엔진을 병렬 배치한 이 로켓은 최대 25회 재사용을 목표로 하며, 이번 발사는 모사 탑재체를 실은 궤도 진입 시험이었다.",
+          "why": "저궤도 위성군 구축 수요가 늘면서 5~7톤급 발사 능력을 갖춘 재사용 로켓의 필요성이 커졌기 때문이다.",
+          "soWhat": "1단 회수 시험은 이번에 하지 않고 후속 발사에서 단계적으로 진행하는 신중한 전략을 택해, 스페이스X와는 다른 개발 경로를 보여준다.",
+          "context": {
+            "background": "즈선싱 1호는 전장 52m, 이륙중량 약 283톤, 이륙추력 350톤 규모의 2단형 로켓이다.",
+            "issueContext": "회사는 우선 궤도 진입 능력을 검증한 뒤 재사용 기술을 순차적으로 실증하겠다는 방침을 밝혀왔다.",
+            "coreQuestion": "신중한 단계적 접근이 결국 스페이스X식 즉시 회수 시도보다 안정적인 성과로 이어질까요?",
+            "resolution": "회사는 후속 발사부터 1단 회수 검증을 단계적으로 전개할 계획이라고 밝혔다."
+          },
+          "sources": [
+            { "name": "新华网", "url": "https://www.news.cn/20260901/a09f4dfb31b14f28b957d2fe8d8ea083/c.html" }
+          ],
+          "related": {
+            "title": "详解星河动力技术路线：\"智神星一号\"缘何选择稳健式回收路径？",
+            "source": "21世纪经济报道",
+            "url": "https://www.21jingji.com/article/20260526/herald/839a9acb53529349ca7620f2d39f56f5.html",
+            "type": "다름"
+          },
+          "topics": ["우주", "발사", "로켓", "상용화"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260906-2",
+          "date": "2026.09.06",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "中 신학기 입학 개혁 전면 시행…'무시험·거주지 배정·임대 동등권' 원칙",
+          "summary": "중국 교육부의 신학기 입학 개혁이 9월1일부터 전면 시행됐다. 시험·면접 없이 거주지 기준으로 배정하는 '무시험 근거리 입학'과 임차인 자녀도 매매 가구와 동등하게 배정받는 '임대매매 동등권'이 핵심이다.",
+          "why": "명문학군 아파트값 상승과 조기 입시 경쟁 과열을 막기 위한 조치다.",
+          "soWhat": "학군 아파트 가치의 90%를 차지했던 '명문 진학 보장'이 사라지면서 부동산 시장에도 파장이 예상된다.",
+          "context": {
+            "background": "교육부는 지난 4월 '중소학 양광입학 특별행동' 통지와 '기초교육 규범관리 네거티브 리스트'를 발표한 바 있다.",
+            "issueContext": "공사립 학교가 동시에 모집하며, 지원자가 정원을 초과하면 컴퓨터 무작위 배정으로 우수 학생 사전 선발을 막는다.",
+            "coreQuestion": "이번 개혁이 실제로 학군 아파트값 거품을 걷어낼 수 있을까요?",
+            "resolution": "전국 초·중학교가 9월 신학기부터 새 원칙을 일괄 적용하기 시작했다."
+          },
+          "sources": [
+            { "name": "新华网", "url": "https://education.news.cn/20260830/64a19a6ac472461ba80764044ad2e212/c.html" }
+          ],
+          "related": {
+            "title": "重磅消息!2026 教育部多校划片 9 月全面铺开,学区房价值面临全面\"崩塌\"!",
+            "source": "新浪财经",
+            "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401901xy86?froms=ggmp",
+            "type": "다름"
+          },
+          "topics": ["교육", "부동산", "규제", "청소년"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260905-1",
           "date": "2026.09.05",
@@ -15730,10 +16216,172 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.09.05",
-      "period": "2026.09.04 08:00 ~ 2026.09.05 08:00",
-      "updatedAt": "2026.09.05 08:00 KST",
+      "latestDate": "2026.09.06",
+      "period": "2026.09.05 08:00 ~ 2026.09.06 08:00",
+      "updatedAt": "2026.09.06 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260906-1",
+          "date": "2026.09.06",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국민민주당 대표선거 오늘 투개표…다마키 유이치로 재선 도전",
+          "summary": "일본 국민민주당 대표선거가 6일 투개표된다. 현직 다마키 유이치로 대표(57)와 30세 초선급 하시모토 미키히코 중의원이 맞붙는 일대일 대결이다.",
+          "why": "창당 이후 이어진 '다마키 일강' 체제의 당 운영 방식이 적절한지가 최대 쟁점으로 떠올랐다.",
+          "soWhat": "결과에 따라 다카이치 정권과의 거리두기, 식료품 소비세율 등 연립 참여를 둘러싼 당의 노선이 갈릴 전망이다.",
+          "context": {
+            "background": "다마키 대표는 2020년 창당 이후 줄곧 대표직을 맡아왔다.",
+            "issueContext": "자민당 일각에서는 국민민주당의 연립 합류를 기대하지만, 다마키 대표는 소비세율 견해차를 이유로 신중한 입장이다.",
+            "coreQuestion": "30세 신진 후보의 도전이 '다마키 일강' 구도를 실제로 흔들 수 있을까요?",
+            "resolution": "159포인트를 걸고 국회의원·지방의원·당원 표가 각각 53포인트씩 반영돼 결과가 집계된다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUA143MH0U6A810C2000000/" }
+          ],
+          "related": {
+            "title": "国民民主党代表選は「玉木一強」の現状打破なるか、30歳・橋本幹彦氏の挑戦と注目度は",
+            "source": "Yahoo!ニュース(専門家)",
+            "url": "https://news.yahoo.co.jp/expert/articles/609c63fd9931ae3135a495867ed4179e1a2e2d44",
+            "type": "다름"
+          },
+          "topics": ["국민민주당", "선거", "다카이치", "정계"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260906-2",
+          "date": "2026.09.06",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "오키나와현지사선거 13일 투개표…역대 최다 6명 후보 확정",
+          "summary": "오키나와현지사선거가 8월27일 공시돼 역대 최다인 6명의 후보가 등록했다. 헤노코 이전 반대를 내세운 3선 도전 현직 다마키 데니 지사와 보수 진영이 미는 고샤 겐타 전 나하시 부시장의 대결 구도다.",
+          "why": "후텐마 기지의 헤노코 이전 찬반과 경제 진흥책이 이번 선거의 핵심 쟁점으로 떠올랐다.",
+          "soWhat": "지난 3월 헤노코 항의선 전복 사고로 다마키 지사에 대한 관리·감독 책임론이 불거지며 선거전이 예상보다 팽팽해졌다.",
+          "context": {
+            "background": "다마키 지사는 '올 오키나와' 세력의 지지를 받아온 반면, 고샤 후보는 자민당·유신회 등의 지지를 받고 있다.",
+            "issueContext": "다마키 지사는 기지 이전 반대에 얼마나 무게를 둘지 고심하는 반면, 고샤 후보는 경제 진흥을 전면에 내세우고 있다.",
+            "coreQuestion": "헤노코 문제가 이번에도 선거의 최대 승부처가 될까요, 경제 이슈가 판세를 가를까요?",
+            "resolution": "기일 전 투표가 8월28일부터 시작됐으며, 최종 결과는 13일 밤 판가름난다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOJC010RB0R00C26A9000000/" }
+          ],
+          "related": {
+            "title": "沖縄知事選 対決構図は鮮明/県民のリーダー デニー知事か、国の奉仕者 自民推薦候補か",
+            "source": "しんぶん赤旗",
+            "url": "https://www.jcp.or.jp/akahata/aik26/2026-09-02/2026090201_01_0.php",
+            "type": "반박"
+          },
+          "topics": ["오키나와", "선거", "헤노코", "기지"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260906-1",
+          "date": "2026.09.06",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "최저임금 전국 가중평균 1177엔 확정, 56엔 인상",
+          "summary": "일본 최저임금 전국 가중평균이 올해 1177엔으로 확정됐다. 전년 1121엔보다 56엔 오른 것으로, 1978년 현행 목표제도 도입 이후 두 번째로 큰 인상폭이다.",
+          "why": "중앙최저임금심의회가 제시한 목표액 55엔을 웃도는 인상이 33개 부현에서 이뤄졌다.",
+          "soWhat": "30인 미만 사업장의 영향률이 4년 새 16.2%에서 23.2%로 뛰어 중소기업의 부담이 한층 커질 전망이다.",
+          "context": {
+            "background": "도쿄가 시간당 1280엔으로 가장 높고, 미야자키현이 1085엔으로 가장 낮다.",
+            "issueContext": "최저임금에 못 미쳐 임금을 올린 사업장이 45.1%에 달했고, 지방 사업장의 부담감이 도시보다 9.6포인트 높았다.",
+            "coreQuestion": "역대 두 번째 규모의 인상이 중소기업 경영난으로 이어질까요?",
+            "resolution": "정부는 중소기업 지원책을 확충하겠다는 방침이며, 새 최저임금은 10월부터 적용된다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUA026ED0S6A900C2000000/" }
+          ],
+          "related": {
+            "title": "「中小企業における最低賃金の影響に関する調査」の集計結果について",
+            "source": "日本商工会議所",
+            "url": "https://www.jcci.or.jp/news/research/2026/0317150010.html",
+            "type": "반박"
+          },
+          "topics": ["임금", "고용", "중소기업", "노동시장"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260906-2",
+          "date": "2026.09.06",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 신미 출하로 쌀값 추가 하락 전망…5kg 3000엔 붕괴 가능성도",
+          "summary": "2026년산 신미 출하가 본격화하며 소매 쌀값이 5kg당 3000엔 아래로 떨어질 수 있다는 전망이 나온다. 지난해산 재고와 올해 증산이 겹치는 '이중 과잉'이 배경으로 꼽힌다.",
+          "why": "10월 말 기준 민간 재고가 329만톤으로 최근 10년 새 최대치에 이를 것으로 예상되기 때문이다.",
+          "soWhat": "소비자 부담은 줄어들지만 농기계·비료 가격이 오른 상황에서 농가 채산성 악화가 우려된다.",
+          "context": {
+            "background": "2026년 1월 5kg당 4000엔대였던 소매가는 4월 3000엔대까지 이미 내려왔다.",
+            "issueContext": "도매 거래 기준 상대가격은 오히려 7월 현미 60kg당 3만2486엔으로 상승세를 보였다.",
+            "coreQuestion": "쌀값 하락이 소비자에게는 반가운 소식이지만 농가 지속가능성에는 어떤 영향을 미칠까요?",
+            "resolution": "농림수산성은 신미 공급 증가에 따른 가격 추이를 지속 점검하겠다고 밝혔다."
+          },
+          "sources": [
+            { "name": "MONEYIZM", "url": "https://www.all-senmonka.jp/moneyizm/news/315661/" }
+          ],
+          "related": {
+            "title": "【2026年最新】お米はいつから安くなる？農家が教える「価格が下がらない」本当の理由",
+            "source": "おかもと農場",
+            "url": "https://okamotonojo.com/11001.html",
+            "type": "다름"
+          },
+          "topics": ["쌀값", "농가", "물가", "소비"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260906-1",
+          "date": "2026.09.06",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "JAXA 신형 화물우주선 'HTV-X2', 2026회계연도 내 다네가시마서 발사 예정",
+          "summary": "JAXA가 국제우주정거장 보급을 위한 신형 화물우주선 HTV-X 2호기를 2026회계연도 안에 다네가시마우주센터에서 H3로켓으로 발사할 예정이다. 미쓰비시중공업이 제작한 HTV-X는 기존 고노토리보다 비용을 절반으로 낮추는 것이 목표다.",
+          "why": "1호기가 지난해 10월 첫 비행에 성공한 데 이어 정기 보급 체계를 이어가기 위해서다.",
+          "soWhat": "보잉 스타라이너의 유인 인증 지연으로 미국 측 보급선 공백까지 우려되는 가운데, HTV-X의 안정적 운영이 ISS 물자 공급의 신뢰도를 좌우하게 됐다.",
+          "context": {
+            "background": "HTV-X 개발은 H3로켓 개발 지연 등으로 당초 계획보다 여러 해 늦춰졌다.",
+            "issueContext": "HTV-X는 기존 고노토리보다 탑재량을 늘리면서도 개발비는 30%가량 줄이는 것을 목표로 설계됐다.",
+            "coreQuestion": "HTV-X2가 예정대로 발사돼 시스템 신뢰성을 입증할 수 있을까요?",
+            "resolution": "JAXA는 발사 준비 절차를 순차적으로 진행 중이며 구체적 발사일은 추후 공지할 예정이다."
+          },
+          "sources": [
+            { "name": "JAXA", "url": "https://global.jaxa.jp/projects/iss_human/htv-x/index.html" }
+          ],
+          "related": {
+            "title": "NASA, SpaceX Adjust Crew-13 Launch Date",
+            "source": "NASA",
+            "url": "https://www.nasa.gov/blogs/spacestation/2026/08/29/nasa-spacex-adjust-crew-13-launch-date/",
+            "type": "다름"
+          },
+          "topics": ["우주", "JAXA", "위성", "우주정거장"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260906-2",
+          "date": "2026.09.06",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "일본 독감 이례적 조기 유행…1999년 이후 두 번째로 빠른 속도",
+          "summary": "일본 후생노동성이 8월23일 기준 전국적으로 인플루엔자 유행이 시작됐다고 밝혔다. 감염병법 시행 이후인 1999년 이후 2009년에 이어 두 번째로 빠른 유행 개시다.",
+          "why": "여름휴가철 해외 이동 증가와 개학에 따른 집단생활 재개, 남반구발 유행 확산 등이 복합적으로 작용한 것으로 분석된다.",
+          "soWhat": "백신 공급 전에 감염이 확산되면서 조기 접종 체계 정비가 시급한 과제로 떠올랐다.",
+          "context": {
+            "background": "전문가들은 코로나19 기간 면역력이 떨어진 인구가 늘어난 점도 요인으로 지목한다.",
+            "issueContext": "현재 유행을 주도하는 A형 H3N2 변이주의 영향도 함께 거론된다.",
+            "coreQuestion": "이례적으로 이른 유행 개시가 겨울철 대유행 규모를 키우는 신호일까요?",
+            "resolution": "후생노동성은 백신 접종 시기를 앞당길 필요성을 포함해 대응책을 검토하고 있다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUD285AJ0Y6A820C2000000/" }
+          ],
+          "related": {
+            "title": "早くもインフル流行“もはや異例ではない!?” 真冬の南半球から拡大か ワクチン供給前の感染拡大懸念も",
+            "source": "TOKYO MX(Yahoo!ニュース)",
+            "url": "https://news.yahoo.co.jp/articles/d09d5447d4e70929f30d7c947f4ee4feeff77e12",
+            "type": "유사"
+          },
+          "topics": ["질병", "보건", "인플루엔자", "백신"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260905-1",
           "date": "2026.09.05",
