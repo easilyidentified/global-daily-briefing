@@ -113,10 +113,172 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.09.08",
-      "period": "2026.09.07 08:00 ~ 2026.09.08 08:00",
-      "updatedAt": "2026.09.08 08:00 KST",
+      "latestDate": "2026.09.09",
+      "period": "2026.09.08 08:00 ~ 2026.09.09 08:00",
+      "updatedAt": "2026.09.09 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260909-1",
+          "date": "2026.09.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국회 대정부질문 시작…여야, 개각·개헌·대법관 제청 놓고 격돌",
+          "summary": "국회가 9일부터 나흘간 정치·외교안보·경제·교육사회문화 분야로 나눠 대정부질문을 진행한다. 첫날 정치 분야에서는 이재명 정부의 6개 부처 개각, 개헌, 대법관 제청 갈등을 놓고 여야가 정면충돌했다.",
+          "why": "정기국회 개회 후 첫 대정부질문에서 여야가 국정 운영 전반을 놓고 누적된 쟁점을 한꺼번에 꺼내들었기 때문이다.",
+          "soWhat": "10일 외교안보, 11일 경제, 14일 교육사회문화 분야로 이어지는 대정부질문 내내 여야 공방이 계속될 전망이다.",
+          "context": {
+            "background": "여야는 지난 3일부터 순차적으로 교섭단체 대표연설을 진행하며 정기국회 초반 기싸움을 벌여왔다.",
+            "issueContext": "국민의힘은 2기 개각과 부동산·주식시장 정책 실패를 겨냥했고, 민주당은 공소청·중대범죄수사청 출범 등 사법개혁 성과를 앞세워 방어에 나섰다.",
+            "coreQuestion": "나흘간의 대정부질문이 예산·입법 협상까지 여야 대치를 그대로 이어갈까요?",
+            "resolution": "국민의힘은 이후 국정감사와 예산안 심사에서도 정부 정책을 정면으로 겨냥하겠다는 방침이다."
+          },
+          "sources": [
+            { "name": "경향신문", "url": "https://www.khan.co.kr/article/202609090741001/" }
+          ],
+          "related": {
+            "title": "대정부질문에 쏠린 눈…대법관 공백∙호르무즈 파병 등 쟁점화",
+            "source": "매일일보",
+            "url": "https://www.m-i.kr/news/articleView.html?idxno=1411450",
+            "type": "다름"
+          },
+          "topics": ["국회", "정기국회", "여야갈등", "개각"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260909-2",
+          "date": "2026.09.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "장동혁 \"24일 뒤 검찰청 사라져\"…제주 실종 허위종결 특검 촉구",
+          "summary": "장동혁 국민의힘 대표가 9일 국회 토론회에서 제주 장미란씨 실종 사건의 경찰 허위종결 의혹을 언급하며 국회에 특검 도입 논의 착수를 촉구했다. 그는 검찰청 폐지와 보완수사권 박탈로 국민 안전이 경찰에만 맡겨진다고 주장했다.",
+          "why": "담당 경찰관이 실종자와 연락됐다는 허위 보고로 수색을 중단시켰다는 의혹과 함께 유사한 허위종결 사건이 25건 추가로 드러났기 때문이다.",
+          "soWhat": "10월 검찰청 폐지를 앞두고 경찰 수사에 대한 견제 장치 마련이 정치 쟁점으로 떠오를 전망이다.",
+          "context": {
+            "background": "국민의힘은 지난달 27일부터 제주경찰청을 직접 찾아 원점 재수사를 요구해왔다.",
+            "issueContext": "검찰은 전날 제주경찰청과 제주서부경찰서를 압수수색하며 뒤늦게 수사에 착수했다.",
+            "coreQuestion": "검찰청 폐지 이후에도 경찰 수사에 대한 견제 수단을 특검 도입으로 확보할 수 있을까요?",
+            "resolution": "장 대표는 국회가 지금 당장 특검 도입 논의에 착수해야 한다고 요구했다."
+          },
+          "sources": [
+            { "name": "이데일리", "url": "https://www.edaily.co.kr/News/Read?newsId=03306246645578480" }
+          ],
+          "related": {
+            "title": "무소불위 권력 경찰 정조준한 장동혁 \"민주당 정권 제주 실종 진짜 범인\"",
+            "source": "THE PUBLIC",
+            "url": "https://www.thepublic.kr/news/articleView.html?idxno=318080",
+            "type": "유사"
+          },
+          "topics": ["제주", "특검", "경찰개혁", "국민의힘"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260909-1",
+          "date": "2026.09.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "2분기 기업 영업이익률 16.9% 역대 최고…'삼전닉스'가 3분의 2 책임",
+          "summary": "한국은행이 9일 발표한 2분기 기업경영분석에 따르면 매출액영업이익률이 16.9%로 역대 최고치를 기록했다. 제조업 영업이익률은 24.0%까지 치솟았지만 삼성전자·SK하이닉스를 빼면 7.2%에 그쳐 반도체 편중이 뚜렷했다.",
+          "why": "글로벌 AI 투자 확대에 따른 반도체 수요 급증으로 삼성전자·SK하이닉스의 실적이 기업 전체 수익성을 끌어올렸기 때문이다.",
+          "soWhat": "반도체를 뺀 제조업의 수익성 개선은 미미해 성장의 온기가 산업 전반으로 퍼지지 못하고 있다는 우려가 커지고 있다.",
+          "context": {
+            "background": "기계·전기전자 업종 영업이익률은 지난해 7.4%에서 43.0%로 급등하며 실적 개선을 주도했다.",
+            "issueContext": "석유·화학 업종도 중동전쟁에 따른 정제마진 상승으로 영업이익률이 2.5%에서 9.5%로 개선됐다.",
+            "coreQuestion": "반도체 편중 성장이 비반도체 제조업과 내수·고용까지 온기를 전달할 수 있을까요?",
+            "resolution": "한국은행은 삼성전자·SK하이닉스를 제외해도 비제조업을 포함한 전체 기업의 성장성·수익성 지표가 개선됐다고 설명했다."
+          },
+          "sources": [
+            { "name": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202609091159358699" }
+          ],
+          "related": {
+            "title": "[사설] 반도체 호황 속 일자리 그늘, K 양극화의 실상이다",
+            "source": "국민일보",
+            "url": "https://www.kmib.co.kr/article/view.asp?arcid=1781163144&code=11171111&sid1=opi",
+            "type": "다름"
+          },
+          "topics": ["반도체", "실적", "제조", "경기"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260909-2",
+          "date": "2026.09.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "8월 가계대출 증가폭 축소…주담대는 다시 확대",
+          "summary": "8월 전 금융권 가계대출이 2조6000억원 늘어 증가폭이 석 달째 줄었다. 신용대출은 4개월 만에 감소로 돌아섰지만 주택담보대출은 4조3000억원 늘며 확대폭이 오히려 커졌다.",
+          "why": "신용대출 관리 강화와 개인 주식투자 둔화가 겹치며 다른 대출이 줄었지만, 수도권 주택 거래·입주 증가의 지연 효과로 주담대는 늘었기 때문이다.",
+          "soWhat": "금융당국은 실수요자 자금 공급과 총량 관리를 병행하겠다는 방침이지만 총량 관리의 실효성에 대한 의문도 함께 커지고 있다.",
+          "context": {
+            "background": "금융위원회와 금융감독원은 9일 관계기관 합동 가계부채 점검회의를 열고 8·13 대책 후속조치 이행 현황을 점검했다.",
+            "issueContext": "이주비대출 LTV 산정방식 합리화, DSR 장래소득 인정기준 확대 등 부동산 금융대책 후속조치가 지난달 31일부터 시행됐다.",
+            "coreQuestion": "정부의 총량 관리가 은행권 밖으로 대출 수요를 옮기는 풍선효과 없이 가계부채 증가세를 잡을 수 있을까요?",
+            "resolution": "당국은 주택 공급과 청년 주거 안정에 필요한 자금은 적시에 공급하되 금융회사별 총량관리 목표는 차질 없이 이행하겠다고 밝혔다."
+          },
+          "sources": [
+            { "name": "머니투데이", "url": "https://www.mt.co.kr/finance/2026/09/09/2026090911160286684" }
+          ],
+          "related": {
+            "title": "돈길 골라 열다 '풍선효과' 우려⋯건전성도 시험대",
+            "source": "이투데이",
+            "url": "https://www.etoday.co.kr/news/view/2617147",
+            "type": "다름"
+          },
+          "topics": ["가계부채", "부동산", "대출", "금리"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260909-1",
+          "date": "2026.09.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "삼성전기·LG이노텍, AI 반도체 기판 기술 격돌…'KPCA쇼 2026' 개막",
+          "summary": "삼성전기와 LG이노텍이 9일부터 인천 송도에서 열리는 'KPCA Show 2026'에 참가해 차세대 반도체 패키지기판 기술을 공개했다. LG이노텍은 AI 가속기용 대형 FC-BGA를, 삼성전기는 유리기판 등 5개 품목을 전시했다.",
+          "why": "AI 반도체 성능이 미세공정뿐 아니라 HBM 적층과 칩 간 연결을 좌우하는 패키징 기술에 달려 있어 국내 기업들이 기술 경쟁에 속도를 내고 있기 때문이다.",
+          "soWhat": "LG이노텍은 2027년, 유리기판은 2028년 양산을 목표로 내걸며 차세대 기판 시장 선점 경쟁이 본격화할 전망이다.",
+          "context": {
+            "background": "KPCA Show는 국내외 반도체 기판·패키징 기업이 참가하는 국내 대표 전시회로 9일부터 11일까지 열린다.",
+            "issueContext": "글로벌 첨단 패키징 생태계는 이미 TSMC·ASE를 중심으로 대만에 쏠려 있어 한국 기업들이 격차를 좁혀야 하는 상황이다.",
+            "coreQuestion": "한국 기업들이 유리기판 등 차세대 기술로 대만 중심의 패키징 생태계 재편에서 주도권을 가져올 수 있을까요?",
+            "resolution": "삼성전기와 LG이노텍은 이번 전시에서 유리기판·FC-BGA 등 신기술을 공개하며 기술력을 과시했다."
+          },
+          "sources": [
+            { "name": "이데일리", "url": "https://www.edaily.co.kr/News/Read?newsId=03024166645578480" }
+          ],
+          "related": {
+            "title": "총성 울린 유리기판 경쟁…\"HBM 수성도 패키징에 달려\"",
+            "source": "서울경제",
+            "url": "https://www.sedaily.com/article/20082313",
+            "type": "다름"
+          },
+          "topics": ["반도체", "패키징", "제조", "기술패권"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260909-2",
+          "date": "2026.09.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "2026학년도 수시 원서접수 시작…의치한약수 지원자 5년 새 최저",
+          "summary": "4년제 대학의 2026학년도 수시모집 원서접수가 8일 시작된 가운데 의치한수약 계열 지원자 수가 1만8297명으로 최근 5년 새 최저치를 기록했다. 서울권 582명(11.6%), 경인권 647명(38.7%) 등 전국적으로 지원자가 줄었다.",
+          "why": "저출생에 따른 학령인구 감소와 의대 정원 확대에 따른 지역인재전형 비중 확대가 맞물리며 일반전형 지원 문턱이 높아졌기 때문이다.",
+          "soWhat": "지방 의대의 지역인재·지역의사 선발 비중이 계속 늘어나며 수도권과 지방 대입 판도가 더 크게 갈릴 전망이다.",
+          "context": {
+            "background": "4년제 대학은 9월 8일부터 12일 사이 3일 이상 수시 원서를 접수하며, 전문대는 30일까지 접수한다.",
+            "issueContext": "2027학년도 전국 39개 의대 모집 인원의 49.4%가 지역인재전형 등으로 지방 학생만 선발하는 구조로 바뀌었다.",
+            "coreQuestion": "지역인재전형 확대가 지방 의료 인력난 해소로 이어지기 전에 수도권 수험생의 입시 부담부터 키우지 않을까요?",
+            "resolution": "교육 당국은 지역의사제 등 신설 전형을 통해 지방 의대 정원의 절반 이상을 지역 선발로 채운다는 방침을 유지하고 있다."
+          },
+          "sources": [
+            { "name": "진학사", "url": "https://www.jinhak.com/jh/high3/univ-entrance-info/ipsi-analysis/ipsi-strategy/100000209" }
+          ],
+          "related": {
+            "title": "의치한 계열 수시 지원자 29% 급감…의대 정원 축소 여파",
+            "source": "메디칼타임즈",
+            "url": "https://www.medicaltimes.com/Mobile/News/NewsView.html?ID=1165266",
+            "type": "유사"
+          },
+          "topics": ["저출생", "대학", "의료", "입시"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260908-1",
           "date": "2026.09.08",
@@ -5815,10 +5977,172 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.09.08",
-      "period": "2026.09.07 08:00 ~ 2026.09.08 08:00",
-      "updatedAt": "2026.09.08 08:00 KST",
+      "latestDate": "2026.09.09",
+      "period": "2026.09.08 08:00 ~ 2026.09.09 08:00",
+      "updatedAt": "2026.09.09 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260909-1",
+          "date": "2026.09.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "캐나다, 대미 27조원 보복관세 발효…무역전쟁 격화",
+          "summary": "캐나다가 8일 자정을 기해 철강·유제품·가전 등 700여개 품목, 276억캐나다달러(약 27조원) 규모의 미국산 제품에 15~50% 보복관세를 발효했다. 트럼프 행정부가 지난 7월 캐나다산 제품에 부과한 50% 관세에 대한 '달러 대 달러' 맞대응이다.",
+          "why": "미국과 캐나다의 무역협상이 지난달 결렬되면서 마크 카니 캐나다 총리가 예고한 보복관세 시행일이 도래했기 때문이다.",
+          "soWhat": "캐나다 정부는 타격을 입는 기업·노동자를 위해 75억캐나다달러 규모의 지원 패키지를 함께 가동하기로 했다.",
+          "context": {
+            "background": "트럼프 행정부는 지난 7월 자동차·주류·유제품 등 캐나다산 제품에 관세법 338조를 근거로 추가 50% 관세를 부과했다.",
+            "issueContext": "카니 총리는 미국이 협상 막판 새로운 조건을 제시해 캐나다에 불리하고 비경제적이었다며 협상장을 떠났다고 밝혔다.",
+            "coreQuestion": "다자간 관세전쟁이 수출 의존 기업의 고용 감소로 번지기 전에 양국이 협상 테이블로 되돌아갈까요?",
+            "resolution": "캐나다는 미국이 '그림자 던지기'를 멈출 때까지 협상을 재개하지 않겠다는 입장이다."
+          },
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html" }
+          ],
+          "related": {
+            "title": "Canada hits US with counter-tariffs on more than 700 products",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products",
+            "type": "유사"
+          },
+          "topics": ["관세", "캐나다", "무역", "트럼프"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260909-2",
+          "date": "2026.09.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "후티 반군, 사우디 석유시설 공격…유가 100달러 육박",
+          "summary": "예멘 후티 반군이 사우디아라비아 남부 석유시설을 공격해 73명이 다치고 일부 시설 가동이 중단됐다. 미국-이란 간 주말 공습 교전까지 겹치며 브렌트유는 배럴당 99달러까지 치솟았다.",
+          "why": "이란이 지원하는 후티 반군이 세계 최대 산유국인 사우디의 에너지 인프라를 겨냥한 대규모 군사작전을 예고한 뒤 실행에 옮겼기 때문이다.",
+          "soWhat": "사우디는 보복을 예고했고 국제 유가 상승이 미국 등 소비국 물가에도 부담으로 작용할 전망이다.",
+          "context": {
+            "background": "2026년 2월 미국·이스라엘의 이란 공습으로 시작된 이란전쟁 이후 사우디는 이란의 반복적인 보복 공격에 노출돼 왔다.",
+            "issueContext": "사우디 에너지부는 남부 지역 여러 석유·유틸리티 시설에서 화재가 발생해 일부 가동을 일시 중단했다고 밝혔다.",
+            "coreQuestion": "사우디의 보복이 미국·이란의 직접 충돌로 번지지 않고 억제될 수 있을까요?",
+            "resolution": "후티 측은 사우디 내륙을 겨냥한 '대규모 군사작전'에 대한 별도 성명을 예고한 상태다."
+          },
+          "sources": [
+            { "name": "Times of Israel", "url": "https://www.timesofisrael.com/houthi-attack-on-saudi-oil-facilities-wounds-73-some-operations-halted/" }
+          ],
+          "related": {
+            "title": "Saudi Arabia vows retaliation after Iran-backed Houthis attack oil facilities",
+            "source": "Daily Caller",
+            "url": "https://dailycaller.com/2026/09/08/saudi-arabia-houthis-attack-oil/",
+            "type": "다름"
+          },
+          "topics": ["사우디", "이란", "중동", "원유"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260909-1",
+          "date": "2026.09.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "美 주간 실업수당 청구 20만6000건…7월 저점서 완만한 반등",
+          "summary": "8월 마지막 주(29일 마감) 미국의 주간 신규 실업수당 청구 건수가 계절조정 기준 20만6000건으로 전주보다 2000건 늘었다. 4주 이동평균도 20만7250건으로 소폭 상승해 노동시장 둔화 신호가 조금씩 쌓이고 있다.",
+          "why": "7월 중순 근 60년 만의 최저치(18만9000건)까지 떨어졌던 청구 건수가 이후 완만하게 올라오는 흐름을 보이고 있기 때문이다.",
+          "soWhat": "시장 예상치에 부합하는 수준이지만, 연준이 9월 회의를 앞두고 노동시장 냉각 신호를 얼마나 반영할지 주목된다.",
+          "context": {
+            "background": "계속 실업수당 청구 건수로 산출하는 보험실업률은 8월22일 마감 기준 1.2%로 전주와 같았다.",
+            "issueContext": "전주 수치는 20만3000건에서 20만4000건으로 상향 조정됐다.",
+            "coreQuestion": "완만한 청구 건수 증가가 본격적인 고용 둔화의 전조로 굳어질까요?",
+            "resolution": "노동부는 이번 수치가 여전히 낮은 청구 건수 흐름을 유지하고 있다고 평가했다."
+          },
+          "sources": [
+            { "name": "미 노동부", "url": "https://www.dol.gov/ui/data.pdf" }
+          ],
+          "related": {
+            "title": "United States Initial Jobless Claims",
+            "source": "Trading Economics",
+            "url": "https://tradingeconomics.com/united-states/jobless-claims",
+            "type": "유사"
+          },
+          "topics": ["고용", "연준", "경기", "미국"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260909-2",
+          "date": "2026.09.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "뉴욕증시, 중동 리스크·관세 갈등에 다우 628p 급락",
+          "summary": "8일 뉴욕증시에서 다우존스30 산업평균지수가 1.18% 내린 5만2786.07로 마감하며 이틀 연속 하락했다. S&P500은 0.58%, 나스닥은 0.32% 떨어졌다.",
+          "why": "사우디 석유시설 공격에 따른 유가 급등과 캐나다의 보복관세 발효, 이스라엘·이란 갈등 격화가 한꺼번에 겹치며 투자심리가 얼어붙었기 때문이다.",
+          "soWhat": "다만 반도체 업종은 예외적으로 강세를 보여 엔비디아·브로드컴·인텔 등 AI 관련주는 오히려 상승했다.",
+          "context": {
+            "background": "이번 주는 노동절 연휴 이후 단축 거래 주간으로 시작부터 하락 출발했다.",
+            "issueContext": "브렌트유는 사우디 공격 여파로 배럴당 100달러에 근접하며 인플레이션 재점화 우려를 키웠다.",
+            "coreQuestion": "중동발 유가 충격이 다가오는 물가지표 발표와 겹쳐 연준의 금리 결정에까지 영향을 미칠까요?",
+            "resolution": "투자자들은 이번 주 후반 발표될 인플레이션 지표를 주시하며 관망세를 이어가고 있다."
+          },
+          "sources": [
+            { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-8-dow-sp-500-nasdaq-080440338.html" }
+          ],
+          "related": {
+            "title": "Stock Market Today: Dow Drops 628 Points as Oil Nears $100 and Gold Slides",
+            "source": "Eurasia Business News",
+            "url": "https://eurasiabusinessnews.com/2026/09/08/stock-market-today-dow-drops-628-points-as-oil-nears-100-and-gold-slides/",
+            "type": "유사"
+          },
+          "topics": ["나스닥", "다우", "원유", "관세"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260909-1",
+          "date": "2026.09.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "앤트로픽 클로드, AI 홀로 '페르마의 마지막 정리' 완전 증명",
+          "summary": "앤트로픽은 자사 AI 모델 클로드가 11일간 대부분 자율적으로 작업해 페르마의 마지막 정리를 린(Lean) 언어로 컴퓨터 검증까지 마친 첫 증명을 만들어냈다고 밝혔다. 이번 결과물은 1300만 줄의 린 코드와 3만300개 정리로 구성됐다.",
+          "why": "다수의 클로드 에이전트를 조율하는 협업 플랫폼 'Prove2Me'를 활용해 앤드루 와일스의 원래 증명 구조를 형식화하는 데 성공했기 때문이다.",
+          "soWhat": "이번 증명으로 20년 된 '프리크 비다이크의 100대 정형화 난제' 목록이 모두 완료되며 AI 보조 수학 형식화 연구의 이정표가 세워졌다.",
+          "context": {
+            "background": "정리 검증에는 프로그램 검증 도구 린(Lean)의 표준 공리 3가지만 사용됐다.",
+            "issueContext": "대규모 수학 증명의 정확성을 사람이 검토하는 데는 수년이 걸릴 수 있어, 컴퓨터로 검증 가능한 형식화가 대안으로 주목받아왔다.",
+            "coreQuestion": "AI가 스스로 만든 대규모 수학 증명을 인간 수학자들이 어디까지 신뢰하고 활용하게 될까요?",
+            "resolution": "앤트로픽은 이번 성과가 최종 증명에 쓰인 2만9500개 정리를 포함해 총 60억개의 출력 토큰을 소비했다고 밝혔다."
+          },
+          "sources": [
+            { "name": "Anthropic", "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem" }
+          ],
+          "related": {
+            "title": "Anthropic Claude Formalized Fermat's Last Theorem. It Did Not Discover the Proof",
+            "source": "Remio",
+            "url": "https://www.remio.ai/post/anthropic-claude-formalized-fermats-last-theorem-it-did-not-discover-the-proof",
+            "type": "다름"
+          },
+          "topics": ["AI", "앤트로픽", "연구", "과학기술"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260909-2",
+          "date": "2026.09.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "오픈AI, AI가 '나비에-스토크스 방정식' 밀레니엄 난제 풀었다고 발표",
+          "summary": "오픈AI가 미공개 내부 AI 모델이 유체의 움직임을 기술하는 나비에-스토크스 방정식에서 유한 시간 내 특이점이 발생할 수 있음을 증명했다고 8일 밝혔다. 약 1만개의 AI 에이전트가 88시간 동안 병렬로 작업했고, 린(Lean)을 이용한 형식 검증에 17시간이 추가로 걸렸다.",
+          "why": "밀레니엄 문제 7개 중 하나인 나비에-스토크스 존재·매끄러움 문제는 20여년째 미해결 상태였는데, 대규모 에이전트 조율로 이를 공략했기 때문이다.",
+          "soWhat": "클레이수학연구소 인정 절차는 논문 공개 후 최소 2년간 검증을 거치도록 하고 있어, 정식 인정까지는 상당한 시간이 걸릴 전망이다.",
+          "context": {
+            "background": "이 문제는 클레이수학연구소가 지정한 밀레니엄 문제 7개 중 하나로 100만달러의 상금이 걸려 있다.",
+            "issueContext": "일부 수학자들은 증명이 공개 검증을 거치지 않았다는 점과 함께, 다른 연구자들의 기존 접근법을 참고했을 가능성을 두고도 이의를 제기하고 있다.",
+            "coreQuestion": "AI가 만든 밀레니엄 난제 증명이 수학계의 공식 검증을 통과해 정식으로 인정받을 수 있을까요?",
+            "resolution": "오픈AI는 166쪽 분량의 논문과 린 검증 프로젝트를 공개하며 독자적으로 문제를 풀었다는 입장을 유지하고 있다."
+          },
+          "sources": [
+            { "name": "Nature", "url": "https://www.nature.com/articles/d41586-026-02842-5" }
+          ],
+          "related": {
+            "title": "OpenAI claims blockbuster math breakthrough amid swirl of controversy",
+            "source": "Scientific American",
+            "url": "https://www.scientificamerican.com/article/openai-claims-blockbuster-math-breakthrough-amid-swirl-of-controversy/",
+            "type": "다름"
+          },
+          "topics": ["AI", "오픈AI", "연구", "과학기술"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260908-1",
           "date": "2026.09.08",
@@ -11502,10 +11826,172 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.09.08",
-      "period": "2026.09.07 08:00 ~ 2026.09.08 08:00",
-      "updatedAt": "2026.09.08 08:00 KST",
+      "latestDate": "2026.09.09",
+      "period": "2026.09.08 08:00 ~ 2026.09.09 08:00",
+      "updatedAt": "2026.09.09 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260909-1",
+          "date": "2026.09.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "시진핑·푸틴, 北 정권수립 78주년에 김정은 축전…김정은은 불참",
+          "summary": "북한 정권수립기념일(9·9절) 78주년을 맞아 시진핑 중국 국가주석과 푸틴 러시아 대통령이 김정은 국무위원장에게 축전을 보내 밀착 관계를 과시했다. 다만 김정은은 고위간부들의 금수산태양궁전 참배 행사에는 모습을 드러내지 않았다.",
+          "why": "북·중·러 3국이 각자의 이해관계 속에서 전략적 밀착을 재확인할 필요가 있었기 때문이다.",
+          "soWhat": "북·중·러의 외교적 밀착 과시가 이어지는 가운데 한반도 정세에 대한 국제사회의 관심도 함께 커지고 있다.",
+          "context": {
+            "background": "시진핑 주석은 지난 6월 평양을 방문해 김정은과 정상회담을 가진 바 있다.",
+            "issueContext": "시진핑 주석은 축전에서 \"양국 관계에 대한 전략적 인도를 강화하겠다\"고 밝혔고, 푸틴 대통령도 \"포괄적 전략적 동반자 관계를 공고히 하겠다\"고 화답했다.",
+            "coreQuestion": "북·중·러의 전략적 밀착이 실질적인 경제·군사 협력 확대로 이어질까요?",
+            "resolution": "베트남·라오스·캄보디아·몽골 등 여러 나라도 북한에 축전을 보내며 우호 관계를 확인했다."
+          },
+          "sources": [
+            { "name": "머니투데이", "url": "https://www.mt.co.kr/politics/2026/09/09/2026090909161559929" }
+          ],
+          "related": {
+            "title": "9·9절 북한 정권수립 78주년 맞아 고위간부 참배…김정은은 불참",
+            "source": "콜뉴스24",
+            "url": "https://www.callnews.co.kr/news/articleView.html?idxno=51468",
+            "type": "다름"
+          },
+          "topics": ["북한", "외교", "러시아", "중국"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260909-2",
+          "date": "2026.09.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "홍콩 초대 행정장관 둥젠화 별세…향년 89세",
+          "summary": "홍콩 반환 후 첫 행정장관을 지낸 둥젠화가 8일 밤 89세로 별세했다. 1937년 저장성 저우산 출신으로 1997년 홍콩 주권 반환과 함께 초대 행정장관에 취임해 2005년 건강 문제로 임기 중 사임할 때까지 재임했다.",
+          "why": "재임 중 추진한 국가보안법 '23조 입법' 시도가 대규모 반대 시위로 이어지며 홍콩 정치사에 뚜렷한 흔적을 남긴 인물이기 때문이다.",
+          "soWhat": "그는 퇴임 후에도 전국정협 부주석과 싱크탱크 '단결향항기금' 이사장을 맡아 베이징과 홍콩을 잇는 역할을 이어왔다.",
+          "context": {
+            "background": "둥젠화는 홍콩 해운재벌 둥하오윈의 장남으로 영국 리버풀대에서 해양공학을 전공했다.",
+            "issueContext": "그는 2002년 경쟁자 없이 연임에 성공했지만, 2003년 국가보안법 입법을 강행하려다 대규모 시위에 부딪혀 법안을 철회했다.",
+            "coreQuestion": "홍콩 반환 초기를 이끈 1세대 지도자의 별세가 오늘날 홍콩의 통치 방식에 대한 재평가로 이어질까요?",
+            "resolution": "중국 정부와 홍콩 정치권은 그의 별세에 애도를 표하며 홍콩 반환 초기 안정을 이끈 공로를 기렸다."
+          },
+          "sources": [
+            { "name": "미국의소리(VOA)중문판", "url": "https://www.voachinese.com/a/first-hong-kong-chief-executive-tung-chee-hwa-dies-20260908/8195678.html" }
+          ],
+          "related": {
+            "title": "前香港特首董建华去世 终年89岁",
+            "source": "대기원(大紀元)",
+            "url": "https://www.epochtimes.com/gb/26/9/8/n14845124.htm/amp",
+            "type": "유사"
+          },
+          "topics": ["홍콩", "국가보안법", "중국", "별세"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260909-1",
+          "date": "2026.09.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中 1~8월 무역 17.6% 증가…수입 증가율, 6개월째 수출 웃돌아",
+          "summary": "중국 해관총서에 따르면 1~8월 누적 화물무역 총액이 34조7800억위안으로 전년 대비 17.6% 늘었다. 8월 한 달만 놓고 보면 수입이 21.7%, 수출이 18.6% 늘며 수입 증가율이 6개월 연속 수출을 앞질렀다.",
+          "why": "기계·전기전자 제품 수출이 21.9% 늘며 전체 수출의 64%를 차지하는 등 첨단 제조업 중심의 수출 구조가 굳어지고 있기 때문이다.",
+          "soWhat": "자동차·산업용 로봇·조선 수출이 두 자릿수로 늘며 중국의 '제조 굴기'가 무역 통계에 그대로 반영되고 있다는 평가가 나온다.",
+          "context": {
+            "background": "중국 무역은 지난 4개월 연속 두 자릿수 성장세를 이어가고 있다.",
+            "issueContext": "리튬전지·태양광 제품·풍력발전기 부품 수출도 각각 34.4%, 9.5%, 29.5% 늘었다.",
+            "coreQuestion": "수입 증가세가 수출을 앞지르는 흐름이 내수 회복의 신호로 이어질까요, 원자재 재고 확충에 그칠까요?",
+            "resolution": "중국 정부는 이런 흐름을 '중국 스마트 제조'가 수출을 견인하고 있다는 근거로 제시하고 있다."
+          },
+          "sources": [
+            { "name": "중국신문사(中新网)", "url": "https://www.chinanews.com.cn/cj/2026/09-08/10692421.shtml" }
+          ],
+          "related": {
+            "title": "我国进口月度增速连续6个月超过出口",
+            "source": "인민망(人民网)",
+            "url": "http://finance.people.com.cn/n1/2026/0908/c1004-40794817.html",
+            "type": "다름"
+          },
+          "topics": ["무역", "수출", "제조", "중국"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260909-2",
+          "date": "2026.09.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中 8월 CPI 0.8%↑ 완만한 반등…PPI도 3.8%↑로 상승폭 확대",
+          "summary": "중국 국가통계국이 9일 발표한 8월 소비자물가지수(CPI)는 전년 대비 0.8% 올라 완만한 반등세를 보였다. 생산자물가지수(PPI)는 3.8% 올라 상승폭이 더 커지며 디플레이션 우려가 다소 완화됐다.",
+          "why": "식품 가격은 1.4% 내렸지만 비식품 가격이 1.2% 오르고 근원 CPI도 1.0%로 반등했기 때문이다.",
+          "soWhat": "PPI 상승폭 확대가 시장 예상치(3.6%)를 웃돌며 산업생산 현장의 디플레이션 압력이 조금씩 걷히고 있다는 해석이 나온다.",
+          "context": {
+            "background": "중국은 그동안 여러 달째 이어진 PPI 마이너스·저물가 흐름으로 디플레이션 우려에 시달려왔다.",
+            "issueContext": "도시 소비자물가는 0.8%, 농촌은 0.7% 올랐고, 생산자구매가격은 전년 대비 5.8% 상승했다.",
+            "coreQuestion": "완만한 물가 반등이 중국 경제의 디플레이션 국면 탈출 신호로 굳어질까요?",
+            "resolution": "통계국은 이번 CPI·PPI 반등이 시장 예상을 웃돈 결과라고 설명했다."
+          },
+          "sources": [
+            { "name": "중국신문사(中新网)", "url": "https://www.chinanews.com.cn/cj/2026/09-09/10693046.shtml" }
+          ],
+          "related": {
+            "title": "内地8月CPI按年升0.8%符预期 PPI按年升3.8%",
+            "source": "星島頭條(星島日報)",
+            "url": "https://www.stheadline.com/zh-hans/macroeconomics/3613216/%E5%86%85%E5%9C%B08%E6%9C%88CPI%E6%8C%89%E5%B9%B4%E5%8D%8708%E7%AC%A6%E9%A2%84%E6%9C%9F-PPI%E6%8C%89%E5%B9%B4%E5%8D%8738",
+            "type": "유사"
+          },
+          "topics": ["물가", "경기", "중국", "제조"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260909-1",
+          "date": "2026.09.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "中 유니트리, 세계 첫 완전자율 인간형 로봇 격투 영상 공개",
+          "summary": "중국 로봇기업 유니트리가 7일 자사의 인간형 로봇 G1이 사람과 원격조종 없이 자율적으로 대련하는 영상을 공개했다. 새 AI 모델 'UnifoLM-X2-1.0'이 상대의 움직임을 예측해 다음 동작을 스스로 결정한다.",
+          "why": "기존 인간형 로봇 격투 시연이 VR·게임패드 등 사람의 원격조종에 의존해온 한계를 넘어서려 했기 때문이다.",
+          "soWhat": "중국중앙TV(CMG)가 예고한 2026년 인간형 로봇 격투대회를 앞두고 로봇 간 실전 능력 경쟁이 한층 가열될 전망이다.",
+          "context": {
+            "background": "앞서 중국은 올해 초 세계 최초로 인간형 로봇 격투 대회를 TV로 생중계한 바 있다.",
+            "issueContext": "UnifoLM-X2-1.0은 조작 명령을 변환하는 대신 주변 환경을 지속적으로 인식해 상대의 움직임을 예측하고 대응 동작을 계획한다.",
+            "coreQuestion": "완전자율 로봇 격투 기술이 실제 산업·안전 분야의 자율 로봇 상용화로 얼마나 빨리 이어질까요?",
+            "resolution": "유니트리는 이번 시연이 세계 최초의 '월드모델' 실시간 구동 방식이라고 설명했다."
+          },
+          "sources": [
+            { "name": "인터레스팅엔지니어링", "url": "https://interestingengineering.com/ai-robotics/humanoid-robot-learns-to-fight-autonomously" }
+          ],
+          "related": {
+            "title": "UnifoLM-X2-1.0: Unitree Unveils World's 1st Autonomous Humanoid Robot Combat Capability",
+            "source": "LatestLY",
+            "url": "https://www.latestly.com/socially/technology/unifolm-x2-1-0-unitree-unveils-worlds-1st-autonomous-humanoid-robot-combat-capability-powered-by-ai-model-7594012.html",
+            "type": "유사"
+          },
+          "topics": ["로봇", "AI", "과학기술", "중국"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260909-2",
+          "date": "2026.09.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "2026 서비스무역교역회 베이징 개막…90개국 1800여개 기업 참가",
+          "summary": "중국국제서비스무역교역회(서비스무역박람회)가 9일부터 13일까지 베이징 서우강(首鋼)공원에서 열린다. 상설 회장이 완공된 첫해로, 90개국·국제기구가 전시·행사에 참여하고 1800여개 기업이 오프라인 참가했다.",
+          "why": "'전 세계 서비스, 상호 공유'를 주제로 서비스 무역 분야에서 중국의 대외 개방을 계속 확대하겠다는 신호를 보내려 했기 때문이다.",
+          "soWhat": "처음으로 '중국 서비스 사례전'이 마련돼 중국 기업의 서비스 수출 성과를 부각할 예정이다.",
+          "context": {
+            "background": "이번 행사부터는 서비스무역교역회 상설 회장이 정식 가동되며 매년 이곳에서 열리게 된다.",
+            "issueContext": "5일간의 행사 중 앞의 3일은 전문 참관객을 위한 날로, 나머지 이틀은 일반에 공개된다.",
+            "coreQuestion": "서비스무역 개방 확대가 무역전쟁으로 위축된 외국인 투자심리를 되돌릴 수 있을까요?",
+            "resolution": "주최 측은 글로벌서비스무역서밋과 전시·포럼·상담·성과발표 등 다양한 부대행사를 함께 연다고 밝혔다."
+          },
+          "sources": [
+            { "name": "경제관찰보(经济观察网)", "url": "https://www.eeo.com.cn/2026/0909/1028858.shtml" }
+          ],
+          "related": {
+            "title": "2026服贸之约：共享、共促的世界交响",
+            "source": "신화망(新华网)",
+            "url": "https://www.news.cn/fortune/20260908/bc492da8b06e45b98d3f33f5674f508c/c.html",
+            "type": "유사"
+          },
+          "topics": ["무역", "국제협력", "외국인투자", "중국"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260908-1",
           "date": "2026.09.08",
@@ -17188,10 +17674,172 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.09.08",
-      "period": "2026.09.07 08:00 ~ 2026.09.08 08:00",
-      "updatedAt": "2026.09.08 08:00 KST",
+      "latestDate": "2026.09.09",
+      "period": "2026.09.08 08:00 ~ 2026.09.09 08:00",
+      "updatedAt": "2026.09.09 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260909-1",
+          "date": "2026.09.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "오키나와 지사선 초박빙…\"경제·생활\" 쟁점이 기지 문제 앞질러",
+          "summary": "9월 13일 투개표하는 오키나와현 지사선에서 헤노코 이전을 용인하는 신인 고샤 겐타와 반대하는 현직 다마키 데니가 초박빙 승부를 벌이고 있다. 교도통신 조사에서는 두 후보가 팽팽했고, QAB·오키나와타임스 조사에서는 고샤 후보가 한발 앞섰다.",
+          "why": "이번 선거에서는 과거와 달리 미군기지 이전 문제보다 경제·관광·고용 등 생활 이슈가 유권자의 최대 관심사로 떠올랐기 때문이다.",
+          "soWhat": "아직 부동층이 10~40%에 달해 투표일까지 판세가 뒤집힐 가능성도 남아 있다.",
+          "context": {
+            "background": "오키나와현 지사선은 8월 27일 공시돼 역대 최다인 6명이 입후보했다.",
+            "issueContext": "경제·관광·고용을 중시한다는 응답이 46%로 가장 많았고, 이 중 70%가 고샤 후보 지지로 이어진 반면 후텐마 기지 이전 문제를 꼽은 유권자의 80%는 다마키 후보를 지지했다.",
+            "coreQuestion": "기지 문제보다 생활 이슈가 앞선 이번 선거 구도가 오키나와 현정의 대미·대중앙정부 관계를 바꿔놓을까요?",
+            "resolution": "고샤 후보는 자민·공명·참정 지지층 대다수를 확보했고, 다마키 후보는 공산·입헌·사민 지지층을 굳힌 상태다."
+          },
+          "sources": [
+            { "name": "류큐신보(琉球新報)", "url": "https://ryukyushimpo.jp/politics/entry-5501503.html" }
+          ],
+          "related": {
+            "title": "迫る沖縄県知事選挙、進まない基地問題の論戦に各陣営は消極的…争点はぼやけ民意は置き去りに",
+            "source": "東京新聞",
+            "url": "https://www.tokyo-np.co.jp/article/509849",
+            "type": "다름"
+          },
+          "topics": ["선거", "기지", "지방자치"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260909-2",
+          "date": "2026.09.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 정부, 식료품 소비세 8%→1%로 인하 추진…9월 세제대강 확정",
+          "summary": "다카이치 사나에 총리가 2027년 4월부터 2년간 주류·외식을 제외한 식료품 소비세율을 현행 8%에서 1%로 낮추는 방안을 9월 여당 세제개정대강에 담기로 했다. 남는 1%분에 해당하는 금액은 중저소득 근로자에게 소득 연동 급부로 지급한다.",
+          "why": "다카이치 총리가 취임 초부터 내세운 물가고 대책의 핵심 공약을 임기 중 실현하겠다고 공언해왔기 때문이다.",
+          "soWhat": "소비세율 인하가 실현되면 1989년 다케시타 정권의 3% 도입 이후 처음 있는 세율 인하가 된다.",
+          "context": {
+            "background": "정부는 지난달 초 식료품 소비세 인하 방침을 각의 결정했다.",
+            "issueContext": "세제개정대강 확정 이후 가을 임시국회에 관련 법안을 제출할 예정이며, 신문 등은 8% 경감세율이 그대로 유지된다.",
+            "coreQuestion": "세수 감소를 감내하면서까지 추진하는 식료품 소비세 인하가 실제 체감 물가 부담을 낮출 수 있을까요?",
+            "resolution": "다카이치 총리는 \"내가 2년 안에 확실히 되돌리겠다\"며 감세 실현 의지를 밝혔다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUA29AI80Z20C26A7000000/" }
+          ],
+          "related": {
+            "title": "消費税減税の是非論 ～財源に大穴が開いて大丈夫か？～",
+            "source": "第一生命経済研究所",
+            "url": "https://www.dlri.co.jp/report/macro/570561.html",
+            "type": "반박"
+          },
+          "topics": ["소비세", "세제개편", "물가", "다카이치"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260909-1",
+          "date": "2026.09.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "엔·달러 152엔대…베센트 \"이례적\" 압박에 日銀 9월 인상 기정사실화",
+          "summary": "9일 도쿄외환시장에서 달러·엔 환율이 152엔89전까지 떨어지며 6개월 만에 최저(엔화 강세)를 기록했다. 미국 베센트 재무장관이 지난달 30일 우에다 가즈오 일본은행 총재와 만나 조기 금리 인상을 이례적으로 직접 촉구한 여파다.",
+          "why": "미·일 통화당국이 지난 7월 말 엔저 저지를 위해 협조 개입에 나선 이후 처음으로 재무장관이 직접 총재를 만나 통화정책에 관여했기 때문이다.",
+          "soWhat": "오는 17~18일 일본은행 금융정책결정회의에서 추가 금리 인상이 유력해지며 엔 캐리 트레이드 청산 움직임도 가속화하고 있다.",
+          "context": {
+            "background": "미·일 통화당국은 7월 말 엔저 저지를 위한 협조 개입을 단행한 바 있다.",
+            "issueContext": "베센트 장관은 \"엔화의 대폭적인 과소평가에 대응하기 위해 일본이 시장과 통화정책 양면에서 단호한 조치를 취해야 한다\"고 밝혔다.",
+            "coreQuestion": "외국 당국의 이례적 압박이 일본은행의 통화정책 독립성 논란으로 번지지 않을까요?",
+            "resolution": "일본은행은 9월 금리 인상을 유력한 선택지로 검토하며 시장과의 소통을 이어가고 있다."
+          },
+          "sources": [
+            { "name": "時事通信", "url": "https://www.jiji.com/jc/article?k=2026090201035&g=eco" }
+          ],
+          "related": {
+            "title": "日銀追加利上げ予想は9月視野に前倒し進む、円安阻止の日米介入受け",
+            "source": "Bloomberg",
+            "url": "https://www.bloomberg.com/jp/news/articles/2026-08-03/TJ62GHKK3NYA00",
+            "type": "유사"
+          },
+          "topics": ["엔화", "엔저", "일본은행", "금리"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260909-2",
+          "date": "2026.09.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 6만5000엔대 유지…美 반도체株 강세·円高 진정이 지지",
+          "summary": "9일 도쿄증시에서 닛케이평균주가는 전날 종가 6만5269엔에서 큰 변동 없이 6만5000엔대를 지켰다. 미국 AI·반도체 관련주 강세와 그동안 진행되던 엔고 흐름이 잠시 진정된 점이 지수를 떠받쳤다.",
+          "why": "미국 증시에서 엔비디아·인텔 등 반도체주가 강세를 보이며 도쿄증시 반도체 관련주에도 매수세가 유입됐기 때문이다.",
+          "soWhat": "다만 엔고 진정이 일시적일 수 있어 수출기업 실적에 대한 환율 부담 우려는 여전히 남아 있다.",
+          "context": {
+            "background": "닛케이평균은 최근 미·일 금리차 축소 기대에 따른 엔고로 상승 탄력이 둔화돼 왔다.",
+            "issueContext": "반도체 관련주 강세가 지수 전반의 하방을 방어하는 역할을 했다는 평가가 나온다.",
+            "coreQuestion": "미국발 반도체株 훈풍이 일본은행의 9월 금리 인상 이후에도 이어질 수 있을까요?",
+            "resolution": "시장에서는 이번 주 예정된 미국 물가지표와 일본은행 회의 결과를 주시하며 관망세를 보이고 있다."
+          },
+          "sources": [
+            { "name": "8and.jp(에이트앤드)", "url": "https://8and.jp/2026/09/09/%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E3%81%8C6%E4%B8%875000%E5%86%86%E5%8F%B0%E3%82%92%E3%82%AD%E3%83%BC%E3%83%97%EF%BC%819%E6%9C%889%E6%97%A5%E3%81%AF%E7%B1%B3%E5%8D%8A%E5%B0%8E%E4%BD%93%E6%A0%AA/" }
+          ],
+          "related": {
+            "title": "日経平均終値1130円安、円高が相場の重荷に 輸出関連株に売り",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOFL080JWTY6A900C2000000/",
+            "type": "다름"
+          },
+          "topics": ["닛케이", "반도체", "엔화", "미국"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260909-1",
+          "date": "2026.09.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "태풍 24호, 열대저압부로 약화됐지만 서일본 대우 경계",
+          "summary": "태풍 24호(크로반)가 7일 열대저압부로 약화된 뒤에도 북상을 이어가 9일 시코쿠 지방에 접근하며 서일본을 중심으로 큰비가 내릴 우려가 있다. 9일 오전 중심 부근 최대풍속은 초속 15m, 오후에는 10m로 예상된다.",
+          "why": "열대저압부로 바뀐 뒤에도 가을장마전선·새로운 열대저압부의 영향이 겹치며 대우 가능성이 남아 있기 때문이다.",
+          "soWhat": "기상 당국은 9~10일경 일본 열도 접근에 따른 국지적 호우를 경고하며 방재에 대한 경계를 늦추지 말라고 당부했다.",
+          "context": {
+            "background": "태풍 24호는 발생 이후 진로를 남쪽으로 틀며 두 차례 진로 변화를 겪었다.",
+            "issueContext": "미군 합동태풍경보센터(JTWC)는 열대저압부가 시코쿠·긴키 지방에 근접할 것으로 예상하고 있다.",
+            "coreQuestion": "세력이 약해진 열대저압부라도 서일본에 침수·산사태급 피해를 남기지 않고 지나갈 수 있을까요?",
+            "resolution": "기상청은 열대저압부로 바뀐 뒤에도 방심은 금물이라며 9~10일 대우 가능성에 계속 주의를 당부하고 있다."
+          },
+          "sources": [
+            { "name": "tenki.jp(日本気象協会)", "url": "https://tenki.jp/forecaster/y_maki/2026/09/06/40493.html" }
+          ],
+          "related": {
+            "title": "台風24号(クロヴァン)進路を南へ 秋雨前線や新たな熱帯低気圧の影響で大雨警戒",
+            "source": "ウェザーニュース",
+            "url": "https://weathernews.jp/news/202609/040101/",
+            "type": "유사"
+          },
+          "topics": ["태풍", "폭우", "방재"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260909-2",
+          "date": "2026.09.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "후생과학심의회, 인간 게놈편집 배아 임상이용 규제 논의 착수",
+          "summary": "후생노동성 산하 후생과학심의회 재생의료등평가부회가 9일 제120회 회의를 열어 줄기세포 유래 생식세포로 수정한 배아를 이용한 의료기술의 재생의료안전확보법 적용 범위와, 인간 게놈편집 배아에 대한 규제 방향을 논의했다.",
+          "why": "줄기세포로 정자·난자를 만들어 수정시키는 기술이 현실화하면서 기존 법 체계로 다루기 어려운 새로운 유형의 배아·유전자 치료 사례가 늘고 있기 때문이다.",
+          "soWhat": "심의 결과에 따라 인간 배아를 이용한 첨단 생식·유전자 치료 연구의 허용 범위가 정해질 전망이다.",
+          "context": {
+            "background": "이번 회의는 웹회의 방식으로 진행됐으며 방청 신청은 지난 7일 오후 3시까지였다.",
+            "issueContext": "회의는 유전자치료 임상연구 지침의 취급과 제1종 재생의료 제공계획의 준수 기준 확인도 함께 안건으로 다뤘다.",
+            "coreQuestion": "줄기세포 유래 생식세포로 만든 배아까지 기존 재생의료 규제 틀 안에서 다룰 수 있을까요?",
+            "resolution": "후생노동성은 이번 논의를 바탕으로 게놈편집 배아의 임상 이용 여부에 대한 규제 방향을 정리해나갈 방침이다."
+          },
+          "sources": [
+            { "name": "厚生労働省", "url": "https://www.mhlw.go.jp/stf/newpage_75617.html" }
+          ],
+          "related": {
+            "title": "ゲノム編集技術等を用いたヒト受精胚等の臨床利用のあり方に関する専門委員会 議論の整理",
+            "source": "こども家庭庁",
+            "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/68102051-f8e4-4314-a97c-a1ad221c2afb/36ecb12d/20251208_councils_shingikai_kagaku_gijutsu_art_68102051_11.pdf",
+            "type": "다름"
+          },
+          "topics": ["의료", "유전공학", "생명윤리"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260908-1",
           "date": "2026.09.08",
