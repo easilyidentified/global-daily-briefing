@@ -113,10 +113,172 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.09.18",
-      "period": "2026.09.17 08:00 ~ 2026.09.18 08:00",
-      "updatedAt": "2026.09.18 08:00 KST",
+      "latestDate": "2026.09.19",
+      "period": "2026.09.18 08:00 ~ 2026.09.19 08:00",
+      "updatedAt": "2026.09.19 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260919-1",
+          "date": "2026.09.19",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "이재명 대통령 \"연임할 생각 전혀 없다\"…개헌 통한 연임도 불가 재확인",
+          "summary": "이재명 대통령이 18일 기자회견에서 연임 의사가 전혀 없다고 재확인하며 헌법상 연임 자체가 불가능하다고 못박았다. 다만 4년 중임제 개헌 소신은 유지했다.",
+          "why": "야당이 대통령의 개헌 소신 발언을 \"장기집권 프레임\"으로 몰아붙이며 지지율 하락 국면에서 명확한 선긋기가 필요해졌다.",
+          "soWhat": "개헌 논의 자체는 계속되지만 연임 가능성을 둘러싼 정치적 의혹 제기는 당분간 잦아들 전망이다.",
+          "context": {
+            "background": "이 대통령은 그동안 4년 중임제·연임제 개헌 소신을 여러 차례 밝혀왔고, 야당은 이를 장기집권 시도로 의심해왔다.",
+            "issueContext": "국민의힘은 대통령이 직접 \"연임은 없다\"고 선언해야 한다고 요구해왔다.",
+            "coreQuestion": "대통령의 선긋기로 개헌을 둘러싼 여야 공방이 잦아들까요?",
+            "resolution": "대통령이 기자회견에서 연임 의사가 없음을 명확히 밝혔다."
+          },
+          "sources": [
+            { "name": "머니투데이", "url": "https://www.mt.co.kr/politics/2026/09/18/2026091810501983162" }
+          ],
+          "related": {
+            "title": "장동혁 \"시간 버리고 귀만 버렸다\"…李대통령 회견 한 줄 평",
+            "source": "서울신문",
+            "url": "https://www.seoul.co.kr/news/politics/2026/09/18/20260918500283",
+            "type": "반박"
+          },
+          "topics": ["개헌", "연임", "이재명", "국민의힘"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260919-2",
+          "date": "2026.09.19",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "한미 외교장관 회담 종료…호르무즈 파병·대미투자 합의 없이 \"검토 중\"",
+          "summary": "조현 외교부 장관과 마코 루비오 미 국무장관이 18일 워싱턴에서 회담했으나 호르무즈해협 파병과 대미투자 협상에서 구체적 합의를 도출하지 못했다.",
+          "why": "미국이 청해부대 등 전투함 파병을 요청했지만 여당 내에서 조선·플랜트 지원 등 대안을 검토하며 신중론이 우세하기 때문이다.",
+          "soWhat": "파병 결정이 늦춰지면서 추석 이후로 최종 결론이 미뤄질 가능성이 커졌다.",
+          "context": {
+            "background": "미국은 호르무즈해협 안전 확보를 위해 동맹국에 파병을 요청해왔고, 정부는 비전투 지원 방안도 함께 검토해왔다.",
+            "issueContext": "여당 내에서는 병력 대신 조선·플랜트 재건 지원 등 \"평화적 기여\"를 대안으로 띄우는 목소리가 나온다.",
+            "coreQuestion": "한국은 결국 호르무즈해협에 전투 병력을 파병하게 될까요?",
+            "resolution": "조 장관은 파병이 아직 결정되지 않았으며 항행의 자유와 국익을 종합적으로 검토 중이라고 밝혔다."
+          },
+          "sources": [
+            { "name": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202609190759229401" }
+          ],
+          "related": {
+            "title": "與 내부 \"병력 대신 조선·플랜트로\"…파병 딜레마에 '평화적 기여' 급부상",
+            "source": "서울신문",
+            "url": "https://www.seoul.co.kr/news/politics/diplomacy/2026/09/17/20260917001004",
+            "type": "다름"
+          },
+          "topics": ["호르무즈해협", "파병", "한미", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260919-1",
+          "date": "2026.09.19",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "토허구역 실거주 의무 유예 또 확대…최대 2029년까지 입주 미뤄도 된다",
+          "summary": "정부가 토지거래허가구역 내 세입자 낀 주택을 매입한 무주택자의 실거주 의무 유예를 2029년까지 확대했다. 갱신 임대차 기간까지 입주를 미룰 수 있게 됐다.",
+          "why": "매물 출회를 늘리고 세입자의 갑작스러운 이주 부담을 줄이려는 취지지만, 서울 아파트값이 84주 연속 오르는 가운데 나온 조치다.",
+          "soWhat": "갭투자 심리를 자극해 토허제 취지가 흔들리고 집값 과열이 재현될 수 있다는 우려가 커졌다.",
+          "context": {
+            "background": "정부는 지난 5월에도 토허구역 실거주 유예 조치를 완화한 바 있어 이번이 4개월 만의 재조정이다.",
+            "issueContext": "전문가들은 갱신계약 기간까지 입주를 인정하면 매수자의 실거주가 수년 뒤로 미뤄져 제도 취지와 어긋난다고 지적한다.",
+            "coreQuestion": "실거주 예외 확대가 서울 집값을 더 자극하게 될까요?",
+            "resolution": "정부는 유예 신청 기한을 2027년 12월 31일까지로 연장하고 갱신 임대차기간까지 입주 유예를 인정하기로 했다."
+          },
+          "sources": [
+            { "name": "머니투데이", "url": "https://www.mt.co.kr/estate/2026/09/17/2026091713252386547" }
+          ],
+          "related": {
+            "title": "[사설] 토허제 실거주 유예 1년 연장, 불확실성만 키운다",
+            "source": "헤럴드경제",
+            "url": "https://biz.heraldcorp.com/article/10878286",
+            "type": "반박"
+          },
+          "topics": ["부동산", "토허제", "실거주", "갭투자"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260919-2",
+          "date": "2026.09.19",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 2.66% 급등…美·日 동반 기준금리 인상 소화",
+          "summary": "코스피가 18일 178.82포인트(2.66%) 오른 6894.23에 마감했다. 미국과 일본이 나란히 기준금리를 인상했지만 시장은 불확실성 해소로 받아들이며 AI 밸류체인 관련주가 강세를 보였다.",
+          "why": "연준이 3년 만에 첫 금리 인상을 단행하고 일본은행도 추가 인상을 결정하면서 통화정책 불확실성이 오히려 걷혔기 때문이다.",
+          "soWhat": "외국인과 기관이 동반 매수에 나서며 국내 증시의 단기 반등 동력이 될 전망이다.",
+          "context": {
+            "background": "미 연준은 17일 기준금리를 3.75~4.0%로 0.25%포인트 인상했고, 일본은행도 같은 날 1.25%로 추가 인상했다.",
+            "issueContext": "시장은 두 중앙은행의 인상이 예고된 조치였다는 점에서 불확실성 해소로 받아들였다.",
+            "coreQuestion": "미국의 추가 금리 인상 예고가 국내 증시 반등세를 이어가게 할까요?",
+            "resolution": "코스피는 2%대 상승 마감했고 반도체 등 AI 밸류체인 관련주가 강세를 나타냈다."
+          },
+          "sources": [
+            { "name": "머니투데이", "url": "https://www.mt.co.kr/stock/2026/09/18/2026091815482588713" }
+          ],
+          "related": {
+            "title": "코스피, 美·日 기준금리 인상 소화하며 2.6% 반등 마감",
+            "source": "한국경제",
+            "url": "https://www.hankyung.com/article/2026091841056",
+            "type": "유사"
+          },
+          "topics": ["코스피", "금리", "연준", "반도체"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260919-1",
+          "date": "2026.09.19",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "인플루엔자 유행주의보, 작년보다 한 달 빨라…초등생 환자 급증",
+          "summary": "질병관리청이 예년보다 한 달가량 이른 인플루엔자 유행주의보를 발령했다. 초등학생 의사환자 비율이 지난해 같은 기간의 4.6배로 뛰었다.",
+          "why": "개학 이후 집단생활이 재개되면서 아동·청소년을 중심으로 A형(H1N1) 바이러스가 빠르게 확산됐기 때문이다.",
+          "soWhat": "겨울철에 집중되던 독감 유행 패턴이 깨지면서 예방접종 일정을 앞당기라는 권고가 나왔다.",
+          "context": {
+            "background": "질병관리청은 지난 11일 0시부터 2026~2027절기 인플루엔자 유행주의보를 발령했다. 2011년 이후 가장 이른 발령이다.",
+            "issueContext": "7~12세 의사환자 분율이 인구 1000명당 79.6명으로 전 연령대 중 가장 높다.",
+            "coreQuestion": "이례적으로 이른 독감 유행이 겨울철 재유행으로 이어질까요?",
+            "resolution": "당국은 예방접종 시기를 앞당기고 손씻기 등 개인위생 수칙 준수를 당부했다."
+          },
+          "sources": [
+            { "name": "한국일보", "url": "https://www.hankookilbo.com/news/article/A2026091811150004858" }
+          ],
+          "related": {
+            "title": "독감 의심환자 지난해의 4.6배…초등생 1000명당 79.6명",
+            "source": "서울신문",
+            "url": "https://www.seoul.co.kr/news/society/2026/09/18/20260918500251",
+            "type": "유사"
+          },
+          "topics": ["인플루엔자", "보건복지부", "백신", "교육"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260919-2",
+          "date": "2026.09.19",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "누리호 5차 발사 준비 완료 단계…국내 최초 군집위성 시대 개막",
+          "summary": "우주항공청이 초소형 군집위성 5기를 실은 누리호 5차 발사를 앞두고 위성 장착을 마쳤다. 한국 최초의 군집위성 임무로, 위성 제작과 조립이 이달 말 마무리된다.",
+          "why": "앞선 시제기와 검증기 발사에서 추력기 성능이 기대에 못 미쳐 발사가 6월에서 9월로, 다시 10월로 순연됐기 때문이다.",
+          "soWhat": "발사가 성공하면 한국은 위성 대량생산과 군집 운용 체계로 전환하는 전환점을 맞는다.",
+          "context": {
+            "background": "누리호 5차 발사는 초소형 군집위성 2~6호기 5기와 큐브위성 10기 등 총 15기를 실을 예정이다.",
+            "issueContext": "앞선 시제기·검증기에서 추력기 문제가 확인돼 발사 일정이 여러 차례 미뤄졌다.",
+            "coreQuestion": "누리호 5차 발사는 예정대로 10월 초 성공적으로 이뤄질까요?",
+            "resolution": "위성은 9월 14일 나로우주센터에서 누리호에 장착됐고, 이달 말 조립이 완료될 예정이다."
+          },
+          "sources": [
+            { "name": "서울신문", "url": "https://www.seoul.co.kr/news/society/science-news/2026/09/17/20260917016002" }
+          ],
+          "related": {
+            "title": "누리호 5차 발사, 9월 → 10월로 연기... \"완성도 확보\"",
+            "source": "인사이트",
+            "url": "https://www.insight.co.kr/news/565993",
+            "type": "다름"
+          },
+          "topics": ["누리호", "우주항공청", "위성"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260918-1",
           "date": "2026.09.18",
@@ -7435,10 +7597,172 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.09.18",
-      "period": "2026.09.17 08:00 ~ 2026.09.18 08:00",
-      "updatedAt": "2026.09.18 08:00 KST",
+      "latestDate": "2026.09.19",
+      "period": "2026.09.18 08:00 ~ 2026.09.19 08:00",
+      "updatedAt": "2026.09.19 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260919-1",
+          "date": "2026.09.19",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "美의회, 그레이엄 러시아·이란 제재법 처리…트럼프 서명 앞둬",
+          "summary": "미 하원이 16일 262대159로 '린지 그레이엄 러시아·이란 제재법'을 통과시켜 트럼프 대통령에게 넘겼다. 러시아산 원유 최대 구매국에 최대 100% 관세를 부과할 수 있는 권한을 담았다.",
+          "why": "우크라이나를 침공한 러시아를 압박하고 이란까지 제재 대상에 포함해 중동 갈등 억지력을 강화하려는 목적이다.",
+          "soWhat": "중국·인도 등 러시아산 원유 주요 수입국이 관세 대상이 될 수 있어 통상 마찰이 커질 전망이다.",
+          "context": {
+            "background": "이 법안은 지난 7월 타계한 린지 그레이엄 상원의원의 이름을 딴 것으로, 상원은 8월 86대11로 이미 통과시켰다.",
+            "issueContext": "민주당 일부는 관세 조항이 미국 물가만 끌어올리고 우크라이나 지원 동력은 오히려 약화시킬 것이라고 우려했다.",
+            "coreQuestion": "트럼프 대통령은 이 법안에 서명해 실제로 관세 카드를 꺼내들까요?",
+            "resolution": "법안은 트럼프 대통령의 서명만 남겨두고 있으며 서명 시 즉시 발효된다."
+          },
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/16/russia-sanctions-bill-lindsey-graham-congress.html" }
+          ],
+          "related": {
+            "title": "U.S. Congress Passes 'Sanctions From Hell' Bill Against Russia",
+            "source": "Moscow Times",
+            "url": "https://www.themoscowtimes.com/2026/09/17/us-congress-passes-sanctions-from-hell-bill-against-russia-a93732",
+            "type": "반박"
+          },
+          "topics": ["러시아", "이란", "관세", "우크라이나"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260919-2",
+          "date": "2026.09.19",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "백악관, ICE 국장 지명자 슈로이어 지명 철회",
+          "summary": "백악관이 도널드 트럼프 대통령이 지명했던 랜스 슈로이어 이민세관단속국(ICE) 국장 지명을 철회했다. 별도 사유는 밝히지 않았다.",
+          "why": "상원 국토안보위원장인 랜드 폴 의원이 ICE 단속 과정의 민간인 사망 관련 자료 제출을 요구하며 인사청문회를 미뤄왔고, 슈로이어의 ICE 경력 부재도 논란이 됐다.",
+          "soWhat": "ICE는 당분간 상원 인준을 받은 국장 없이 운영되며 트럼프 행정부의 이민 단속 정책 지휘 체계에 공백이 생겼다.",
+          "context": {
+            "background": "슈로이어는 오클라호마 주경찰 출신으로, 국토안보부 마크웨인 멀린 장관의 보좌관으로 지난 6월 지명됐다.",
+            "issueContext": "공화당 내에서도 그의 ICE 관련 경험 부족을 이유로 반대 목소리가 나왔다.",
+            "coreQuestion": "백악관은 ICE 국장 후임으로 누구를 새로 지명하게 될까요?",
+            "resolution": "지명은 상원 인준 절차조차 밟지 못한 채 철회로 마무리됐다."
+          },
+          "sources": [
+            { "name": "NPR", "url": "https://www.npr.org/2026/09/17/nx-s1-5973271/trump-withdraws-lance-schroyer-a-former-oklahoma-state-trooper-as-his-nominee-to-lead-ice" }
+          ],
+          "related": {
+            "title": "White House withdraws Lance Schroyer's nomination to lead ICE",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/9/18/white-house-withdraws-lance-schroyers-nomination-to-lead-ice",
+            "type": "반박"
+          },
+          "topics": ["이민", "백악관", "트럼프행정부", "인사청문회"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260919-1",
+          "date": "2026.09.19",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "연준, 3년 만에 첫 금리 인상…3.75~4.0%로",
+          "summary": "미 연방준비제도가 17일 기준금리를 0.25%포인트 올려 3.75~4.0%로 결정했다. 2023년 이후 첫 인상으로, 위원 18명 중 16명이 연내 추가 인상을 예상했다.",
+          "why": "이란 갈등에 따른 에너지발 공급망 충격으로 물가가 목표치를 웃도는 상황이 이어지고 있기 때문이다.",
+          "soWhat": "연준은 10월과 12월 회의에서 추가 인상 가능성을 열어뒀다.",
+          "context": {
+            "background": "연준은 12대0 만장일치로 인상을 결정했으며, 케빈 워시 의장은 이번 인상이 적절했다고 밝혔다.",
+            "issueContext": "트럼프 대통령은 금리를 1% 이하로 낮춰야 한다며 연준 결정에 강하게 반발했다.",
+            "coreQuestion": "연준은 예고대로 연내 추가 인상을 단행하게 될까요?",
+            "resolution": "위원회는 인플레이션이 2% 목표로 충분히 빠르게 수렴하지 않았다고 판단해 인상을 결정했다."
+          },
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html" }
+          ],
+          "related": {
+            "title": "The Fed just raised rates. Here's what it means for borrowers and savers",
+            "source": "CNN",
+            "url": "https://www.cnn.com/2026/09/16/economy/fed-rate-decision-sept-2026-your-money",
+            "type": "유사"
+          },
+          "topics": ["연준", "금리", "인플레이션"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260919-2",
+          "date": "2026.09.19",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "트럼프 \"금리 1%로\"…워시 의장은 인상 강행",
+          "summary": "트럼프 대통령이 연준에 기준금리를 1% 이하로 낮추라고 공개 요구했지만, 본인이 지명한 케빈 워시 의장은 이를 거부하고 인상을 밀어붙였다.",
+          "why": "트럼프는 미국의 신용도가 세계 최고 수준이라며 낮은 금리를 요구했지만, 워시 의장은 중동 갈등발 인플레이션 압력을 이유로 맞섰다.",
+          "soWhat": "대통령이 지명한 의장과의 정면 충돌이 부각되며 연준의 독립성 논란이 재점화됐다.",
+          "context": {
+            "background": "트럼프는 트루스소셜에 \"금리는 1% 또는 그 이하여야 한다\"고 썼다.",
+            "issueContext": "백악관 통상보좌관 피터 나바로는 이번 인상을 \"기념비적 실수\"라고 비판했다.",
+            "coreQuestion": "트럼프와 워시 의장의 갈등이 연준의 독립성을 흔들게 될까요?",
+            "resolution": "워시 의장은 인상이 적절하다며 트럼프의 요구를 받아들이지 않았다."
+          },
+          "sources": [
+            { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-17/trump-denied-rate-cut-as-federal-reserve-targets-war-stoked-inflation" }
+          ],
+          "related": {
+            "title": "Trump says he told Warsh to vote for hike with the rest of Fed board: 'It's not going to matter'",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/16/trump-fed-interest-rate-warsh.html",
+            "type": "다름"
+          },
+          "topics": ["연준", "금리", "트럼프", "독립성"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260919-1",
+          "date": "2026.09.19",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "前 앤트로픽 연구원 잇단 경고에 AI 안전 논쟁 격화",
+          "summary": "전직 앤트로픽 연구원의 사직 경고를 계기로 오픈AI·앤트로픽 내부 연구자들의 AI 개발 속도조절 촉구가 잇따르고 있다. 일부 전문가는 이런 '멸종 위험' 경고가 과장됐다고 반박한다.",
+          "why": "연구자들이 초지능 개발 경쟁이 안전보다 우선시되고 있다고 우려하며 공개적으로 문제를 제기했기 때문이다.",
+          "soWhat": "AI 업계 안팎에서 개발 속도조절과 규제 논의가 본격화될 전망이다.",
+          "context": {
+            "background": "제이콥 콕슨은 두 회사에서 3년간 사전학습 연구를 해온 뒤 \"AI가 모든 인류를 죽일 수 있다\"고 경고하며 사직했다.",
+            "issueContext": "컴퓨터과학자 멀라니 미첼 등은 이런 멸종 위험 주장이 새로운 증거 없이 반복되는 것이라며 언론의 과도한 보도를 비판했다.",
+            "coreQuestion": "AI 업계는 실제로 개발 속도를 늦추게 될까요?",
+            "resolution": "두 회사 CEO는 산업 전반의 개발 속도조절 필요성에 공감을 표했지만 구체적 조치는 아직 없다."
+          },
+          "sources": [
+            { "name": "The Hill", "url": "https://thehill.com/policy/technology/6085616-anthropic-resignation-viral-debate/" }
+          ],
+          "related": {
+            "title": "Misleading Metaphors, Real Risks",
+            "source": "AI Guide (Substack)",
+            "url": "https://aiguide.substack.com/p/misleading-metaphors-and-real-risks",
+            "type": "반박"
+          },
+          "topics": ["AI", "앤트로픽", "오픈AI", "AI안전"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260919-2",
+          "date": "2026.09.19",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "케네디 장관, 백신 반대 단체 행사서 \"싸움 계속하겠다\"",
+          "summary": "로버트 F. 케네디 주니어 미 보건복지부 장관이 자신이 이끌었던 반백신 단체 행사에서 20분 넘게 백신 안전성에 의문을 제기하며 \"계속 싸우겠다\"고 말했다.",
+          "why": "케네디 장관은 이미 수천만 회 접종된 백신의 위험 프로필을 대중이 제대로 알지 못한다고 주장해왔다.",
+          "soWhat": "소아과 학회 등 의료계가 백신 일정 축소에 강하게 반발하며 갈등이 계속될 전망이다.",
+          "context": {
+            "background": "케네디 장관 취임 이후 보건복지부는 소아 백신 접종 권고 대상 질환을 17종에서 6종 줄이는 등 일정을 대폭 개편해왔다.",
+            "issueContext": "미국소아과학회 등 주요 의료단체는 의학적 근거 없이 이뤄진 개편이라며 소송을 제기한 상태다.",
+            "coreQuestion": "케네디 장관의 백신 정책 개편은 법정에서 최종적으로 유지될까요?",
+            "resolution": "법원은 지난해 6월 이후 개편 조치의 효력을 정지시킨 상태다."
+          },
+          "sources": [
+            { "name": "CNN", "url": "https://www.cnn.com/2026/09/17/health/kennedy-antivaccine-group-speech" }
+          ],
+          "related": {
+            "title": "RFK Jr. delivers victory lap speech at anti-vaccine nonprofit he once led",
+            "source": "STAT News",
+            "url": "https://www.statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference/",
+            "type": "반박"
+          },
+          "topics": ["백신", "보건복지부", "의료"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260918-1",
           "date": "2026.09.18",
@@ -14742,10 +15066,172 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.09.18",
-      "period": "2026.09.17 08:00 ~ 2026.09.18 08:00",
-      "updatedAt": "2026.09.18 08:00 KST",
+      "latestDate": "2026.09.19",
+      "period": "2026.09.18 08:00 ~ 2026.09.19 08:00",
+      "updatedAt": "2026.09.19 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260919-1",
+          "date": "2026.09.19",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "中외교부, \"9·18은 일본이 장기 은폐한 전쟁 음모\"…\"부인주의\" 첫 사용 비판",
+          "summary": "중국 외교부가 만주사변(9·18사변) 95주년인 18일 정례 브리핑에서 일본의 역사 인식을 \"부인주의\"로 규정하며 강하게 비판했다. 이 표현이 쓰인 것은 이번이 처음이다.",
+          "why": "다카이치 정부의 안보 정책이 \"전전 회귀\" 경향을 보인다는 일본 내 언론·학자들의 경고가 이어지는 가운데 나온 발언이다.",
+          "soWhat": "중일 간 역사 인식을 둘러싼 외교 갈등이 다카이치 정부의 방위비 증액 등과 맞물려 더 격화할 전망이다.",
+          "context": {
+            "background": "9·18사변은 1931년 일본 관동군이 조작한 류탸오후 사건을 빌미로 만주를 침공한 사건이다.",
+            "issueContext": "외교부는 일본 교과서가 침략 정의를 축소하고 있으며 우익 세력이 AI 기술로 전전 자료를 걸러 역사를 미화한다고 지적했다.",
+            "coreQuestion": "중일 간 역사 갈등이 양국 관계 전반에 악영향을 미치게 될까요?",
+            "resolution": "외교부는 일본에 침략의 역사를 직시하고 성찰할 것을 촉구했다."
+          },
+          "sources": [
+            { "name": "중국신문망", "url": "https://www.chinanews.com.cn/gn/2026/09-18/10698984.shtml" }
+          ],
+          "related": {
+            "title": "\"九一八\"当天，外交部首次使用这一表述批评日本",
+            "source": "텅쉰신문",
+            "url": "https://news.qq.com/rain/a/20260918A09ZES00",
+            "type": "유사"
+          },
+          "topics": ["역사왜곡", "일본", "외교부"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260919-2",
+          "date": "2026.09.19",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "中외교부, 시진핑 방미 질문에 \"소통 중\"만 확인…24일 방문설엔 침묵",
+          "summary": "중국 외교부가 18일 정례 브리핑에서 시진핑 주석의 방미 여부를 묻는 질문에 \"중미 양측이 연내 정상 교류 일정에 대해 소통을 유지하고 있다\"고만 답하며 구체적 확인을 피했다.",
+          "why": "트럼프 대통령이 9월 24일 백악관 방문을 이미 공개적으로 확인한 상태여서, 중국 측의 신중한 태도와 대비를 이룬다.",
+          "soWhat": "정상회담이 예정대로 성사되면 올해 두 번째 미중 정상회담이 되며 무역·기술 패권 문제가 핵심 의제로 다뤄질 전망이다.",
+          "context": {
+            "background": "트럼프 대통령은 지난 4일 시 주석 부부를 9월 24일 백악관 국빈 만찬에 초청했다고 밝힌 바 있다.",
+            "issueContext": "보도에 따르면 시 주석은 23일 밤 도착해 25일 귀국하며 유엔총회 일반토의에는 참석하지 않을 예정이다.",
+            "coreQuestion": "시진핑 주석의 9월 24일 방미는 예정대로 성사될까요?",
+            "resolution": "외교부는 구체 일정에 대한 확인 없이 \"소통을 유지하고 있다\"는 원론적 답변에 그쳤다."
+          },
+          "sources": [
+            { "name": "펑황망", "url": "https://news.ifeng.com/c/8wWMeBeRERp" }
+          ],
+          "related": {
+            "title": "特朗普邀请习近平和夫人于9月24日到访美国白宫",
+            "source": "RTHK",
+            "url": "https://gbcode.rthk.hk/TuniS/newsprd.rthk.hk/rthk/ch/component/k2/1854706-20260514.htm",
+            "type": "다름"
+          },
+          "topics": ["시진핑", "트럼프", "외교", "미중관계"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260919-1",
+          "date": "2026.09.19",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "위안화, 3년7개월 만에 최고치…8거래일 연속 절상",
+          "summary": "역내외 위안화 환율이 달러당 6.7위안 선을 돌파하며 2023년 2월 이후 최고 수준을 기록했다. 중간가격은 8거래일 연속 절상됐다.",
+          "why": "미 연준의 금리 인상에도 불구하고 중국의 수출 호조와 경상수지 흑자로 결제 수요가 견조하게 유지되고 있기 때문이다.",
+          "soWhat": "위안화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있다.",
+          "context": {
+            "background": "올해 들어 위안화 환율의 가격 결정 기준이 금리차보다 무역 수지 쪽으로 옮겨갔다는 분석이 나온다.",
+            "issueContext": "연준이 2027년 금리 중간값을 4.1%로 제시하며 인상 사이클이 정점에 가까워졌다는 인식도 달러 강세를 제한하고 있다.",
+            "coreQuestion": "위안화는 연말까지 6.7~6.9위안 박스권을 유지하게 될까요?",
+            "resolution": "18일 중간가격은 달러당 6.7521위안으로, 전일보다 59bp 절상됐다."
+          },
+          "sources": [
+            { "name": "중국신문망", "url": "https://www.chinanews.com.cn/cj/2026/09-18/10698666.shtml" }
+          ],
+          "related": {
+            "title": "人民币兑美元升破6.7，创2023年以来新高...为何人民币汇率不跌反涨？",
+            "source": "텅쉰신문",
+            "url": "https://news.qq.com/rain/a/20260918Q04THI00",
+            "type": "다름"
+          },
+          "topics": ["위안화", "환율", "연준", "무역"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260919-2",
+          "date": "2026.09.19",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "주택공적금 인출 범위 6종→9종 확대…20일 시행",
+          "summary": "국무원이 개정한 주택공적금관리조례가 20일부터 시행돼 인출 가능 사유가 기존 6종에서 9종으로 늘어난다. 월세·인테리어·관리비 납부에도 공적금을 쓸 수 있게 됐다.",
+          "why": "내수 진작과 서민 주거 부담 완화를 위해 공적금 활용 범위를 넓혀야 한다는 요구가 이어져왔기 때문이다.",
+          "soWhat": "자영업자와 비정규 취업자도 자발적으로 공적금에 가입할 수 있게 돼 제도 적용 대상이 넓어진다.",
+          "context": {
+            "background": "이번 개정은 2002년, 2019년에 이은 세 번째 전면 개정이다.",
+            "issueContext": "그동안 월세 인출에는 가계 소득 대비 임대료 비율 조건이 있어 실제 인출이 어려운 경우가 많았다.",
+            "coreQuestion": "공적금 인출 확대가 실제로 내수 소비 진작으로 이어질까요?",
+            "resolution": "새 조례는 20일부터 시행되며 인출 심사 기한도 3일 이내로 단축된다."
+          },
+          "sources": [
+            { "name": "텅쉰신문", "url": "https://news.qq.com/rain/a/20260918A0B3FL00" }
+          ],
+          "related": {
+            "title": "国务院修改《住房公积金管理条例》，9月20日起施行！专家解读\"小调整\"背后的四重政策信号",
+            "source": "왕이신문",
+            "url": "https://www.163.com/dy/article/L4LB6HTC05508FYJ.html",
+            "type": "유사"
+          },
+          "topics": ["부동산", "주택공적금", "내수"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260919-1",
+          "date": "2026.09.19",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "화웨이, 커넥트 2026서 AI칩 '어센드960' 조기 공개…성능 2배",
+          "summary": "화웨이가 17일 상하이에서 개막한 '화웨이 커넥트 2026'에서 차세대 AI칩 어센드960을 예정보다 3분기 앞당겨 공개했다. 성능은 기존 대비 두 배로 향상됐다.",
+          "why": "미국의 대중 반도체 수출 규제 속에서 자국산 AI 연산력 자립을 서두르고 있기 때문이다.",
+          "soWhat": "어센드 슈퍼노드가 이미 1000세트 넘게 배치되며 국산 AI 인프라 확산에 속도가 붙을 전망이다.",
+          "context": {
+            "background": "어센드960은 광통신 기술(NPO)을 세계 최초로 적용한 슈퍼노드로, 10조 파라미터급 대형모델 학습·추론을 지원한다.",
+            "issueContext": "어센드950 슈퍼노드는 이미 상용화 단계에 들어섰다.",
+            "coreQuestion": "화웨이의 자체 AI칩이 엔비디아 의존도를 실제로 낮출 수 있을까요?",
+            "resolution": "어센드960DT는 2027년 1분기, 960PR은 3분기 출시가 목표로 제시됐다."
+          },
+          "sources": [
+            { "name": "텅쉰신문", "url": "https://news.qq.com/rain/a/20260918A02ZH000" }
+          ],
+          "related": {
+            "title": "华为全联接大会2026开幕：昇腾960芯片提前至2027年Q1发布",
+            "source": "电子工程专辑",
+            "url": "https://www.eet-china.com/news/202609173089.html",
+            "type": "유사"
+          },
+          "topics": ["화웨이", "AI", "반도체"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260919-2",
+          "date": "2026.09.19",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "中 톈옌(FAST), 사상 가장 가벼운 쌍중성자별 발견…아인슈타인 이론 재검증",
+          "summary": "중국 국가천문대 연구팀이 초강력 전파망원경 '톈옌(FAST)'으로 궤도 주기가 극히 짧고 총질량이 가장 가벼운 쌍중성자별 시스템을 발견했다.",
+          "why": "극단적 천체물리 현상과 중력 본질을 규명할 새로운 관측 대상을 확보하기 위한 펄사 탐사 프로젝트의 성과다.",
+          "soWhat": "이번 관측 결과는 일반상대성이론을 다시 한번 정밀하게 검증하는 자료로 활용될 전망이다.",
+          "context": {
+            "background": "발견된 시스템(PSR J1856-0039)은 궤도 주기 2.36시간으로 인류가 알고 있는 쌍중성자별 중 두 번째로 짧다.",
+            "issueContext": "이 시스템의 총질량은 태양의 2.488배로, 지금까지 발견된 쌍중성자별 중 가장 가볍다.",
+            "coreQuestion": "이 발견이 중력파 관측 등 후속 연구로 이어질까요?",
+            "resolution": "연구 결과는 지난 15일 국제학술지 '피지컬 리뷰 레터스'에 발표돼 편집진의 주목할 성과로 선정됐다."
+          },
+          "sources": [
+            { "name": "신화통신", "url": "https://www.news.cn/tech/20260916/6961532c259d47408e7d9263ec32694a/c.html" }
+          ],
+          "related": {
+            "title": "爱因斯坦是对的！中国天眼发现最轻双中子星，2.36小时绕一圈",
+            "source": "텅쉰신문",
+            "url": "https://news.qq.com/rain/a/20260917A027GR00",
+            "type": "유사"
+          },
+          "topics": ["중성자별", "과학기술"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260918-1",
           "date": "2026.09.18",
@@ -22048,10 +22534,172 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.09.18",
-      "period": "2026.09.17 08:00 ~ 2026.09.18 08:00",
-      "updatedAt": "2026.09.18 08:00 KST",
+      "latestDate": "2026.09.19",
+      "period": "2026.09.18 08:00 ~ 2026.09.19 08:00",
+      "updatedAt": "2026.09.19 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260919-1",
+          "date": "2026.09.19",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "제2차 다카이치 개조내각 발足…\"결단과 실행\" 내세우며 뒷돈 의원도 기용",
+          "summary": "다카이치 사나에 총리가 17일 2차 개조내각을 출범시켰다. 핵심 각료는 대부분 유임했지만 정치자금 문제로 논란이 된 의원 2명을 기용해 논란이 일고 있다.",
+          "why": "유신회와의 연립 심화를 상징적으로 보여주기 위해 유신회 인사를 처음 입각시키는 한편, 자당 내 반대파였던 하야시 요시마사 전 관방장관은 개각에서 배제됐다.",
+          "soWhat": "\"실행력\"을 내세운 인선이지만 정치자금 문제 인사 기용을 둘러싼 야당의 비판이 예상된다.",
+          "context": {
+            "background": "다카이치 총리는 이번 개각에서 자신의 정책에 동조하는 인사를 핵심에 앉히고 이견을 가진 인사를 내각 밖으로 내보냈다는 평가를 받는다.",
+            "issueContext": "하야시 전 장관은 개각 인선에 응답을 주저했던 것으로 알려졌다.",
+            "coreQuestion": "뒷돈 의혹 의원 기용이 다카이치 내각 지지율에 악재가 될까요?",
+            "resolution": "2차 다카이치 개조내각은 17일 오후 정식 발족했으며 골격은 유지됐다."
+          },
+          "sources": [
+            { "name": "지지통신", "url": "https://www.jiji.com/jc/article?k=2026091700731&g=pol" }
+          ],
+          "related": {
+            "title": "高市首相「アンケートで決めた」改造人事 回答ためらった林芳正氏",
+            "source": "닛케이",
+            "url": "https://www.nikkei.com/article/DGXZQOUA157UU0V10C26A9000000/",
+            "type": "반박"
+          },
+          "topics": ["다카이치", "개각", "자민당"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260919-2",
+          "date": "2026.09.19",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "주중 日대사관, 만주사변 95주년 앞두고 재중 자국민에 반일감정 주의보",
+          "summary": "주중 일본대사관이 9·18 만주사변 95주년을 맞아 재중 일본인들에게 외출 시 안전에 각별히 유의하라는 주의보를 발령했다.",
+          "why": "같은 날 중국 외교부가 일본의 역사 인식을 \"부인주의\"로 규정하며 강하게 비판하는 등 반일 정서가 고조될 우려가 있기 때문이다.",
+          "soWhat": "선양 등지에서 추모 행사가 열리는 가운데 재중 일본인 사회의 긴장감이 높아졌다.",
+          "context": {
+            "background": "대사관은 매년 9월 18일을 전후해 유사한 주의보를 발령해왔다.",
+            "issueContext": "대사관은 공공장소에서 일본어를 크게 말하거나 눈에 띄는 행동을 자제하고 단체로 행동할 것을 당부했다.",
+            "coreQuestion": "올해 9·18을 둘러싼 중일 갈등은 예년보다 더 격화될까요?",
+            "resolution": "선양 주재 일본총영사관도 별도로 자국민에게 안전 주의를 당부했다."
+          },
+          "sources": [
+            { "name": "주중국일본대사관", "url": "https://www.cn.emb-japan.go.jp/itpr_ja/00_0035.html" }
+          ],
+          "related": {
+            "title": "満州事変から95年、瀋陽で追悼式典 日本総領事館が在中邦人に安全注意喚起",
+            "source": "차이나리스크정보",
+            "url": "https://www.alertchina.com/post-41543/",
+            "type": "유사"
+          },
+          "topics": ["역사왜곡", "중일관계", "일본"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260919-1",
+          "date": "2026.09.19",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "일본은행 기준금리 1.25%로 인상…31년 만의 최고 수준",
+          "summary": "일본은행이 18일 정책금리를 0.25%포인트 올려 1.25%로 결정했다. 1995년 이후 31년 만의 최고 수준으로, 심의위원 2명이 반대했다.",
+          "why": "물가상승률이 목표를 웃도는 가운데 다카이치 정권의 개혁파 자문역까지 인상을 기정사실화하며 인상 속도가 빨라졌다.",
+          "soWhat": "닛케이지수는 환영 랠리를 벌였지만 엔화는 반대표 2표 영향으로 오히려 약세를 보이는 엇갈린 반응이 나타났다.",
+          "context": {
+            "background": "일본은행은 2024년 3월 정책 정상화를 시작한 이후 6월 인상 이후 3개월 만에 다시 인상을 단행했다.",
+            "issueContext": "다카이치 총리가 임명한 심의위원 2명이 이번에도 반대표를 던지며 정권과 중앙은행의 시각차가 드러났다.",
+            "coreQuestion": "일본은행은 내년 1월까지 분기별 인상을 계속 이어가게 될까요?",
+            "resolution": "표결은 7대2로 갈렸고, 정책금리는 1.25%로 확정됐다."
+          },
+          "sources": [
+            { "name": "NHK", "url": "https://news.web.nhk/newsweb/na/nd-20260918de50968" }
+          ],
+          "related": {
+            "title": "円下落、一時158円台 日銀利上げ決定も「反対」2票で売り",
+            "source": "닛케이",
+            "url": "https://www.nikkei.com/article/DGXZQOUB1809Y0Y6A910C2000000/",
+            "type": "다름"
+          },
+          "topics": ["일본은행", "금리", "엔화", "니케이"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260919-2",
+          "date": "2026.09.19",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "쌀값, 2년 만에 2000엔대로…5주 연속 하락",
+          "summary": "농림수산성이 18일 전국 슈퍼 평균 쌀 5kg 가격이 전주보다 32엔 내린 2971엔을 기록했다고 발표했다. 2000엔대 진입은 2024년 9월 이후 약 2년 만이다.",
+          "why": "정부 비축미 방출과 생산량 증가로 수급이 완화되면서 5주 연속 가격이 내렸기 때문이다.",
+          "soWhat": "소비자 부담은 줄지만 생산 농가에서는 원가 이하 판매에 대한 우려가 나온다.",
+          "context": {
+            "background": "쌀값은 지난 2년간 고공행진을 이어오다 최근 들어서야 3000엔 아래로 떨어졌다.",
+            "issueContext": "브랜드 쌀 평균가는 2988엔, PB상품 등은 2866엔으로 모두 2000엔대에 진입했다.",
+            "coreQuestion": "쌀값 하락세가 앞으로도 계속 이어질까요?",
+            "resolution": "농림수산성은 하락이 5주 연속 이어지고 있다고 밝혔다."
+          },
+          "sources": [
+            { "name": "NHK", "url": "https://news.web.nhk/newsweb/na/nd-20260918de51070" }
+          ],
+          "related": {
+            "title": "コメ、２年ぶり２０００円台＝５週連続下落、コスト割れに懸念も―農水省",
+            "source": "닛폰닷컴",
+            "url": "https://www.nippon.com/ja/news/yjj2026091800862/",
+            "type": "유사"
+          },
+          "topics": ["쌀값", "농업"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260919-1",
+          "date": "2026.09.19",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "규슈신칸센, 구마모토 지진 이후 52일 만에 전 노선 재개통",
+          "summary": "규슈신칸센이 18일 구마모토 지진으로 인한 부분 운행 중단 52일 만에 전 노선 운행을 재개했다.",
+          "why": "지난 7월 28일 지진으로 신야쓰시로역 궤도 변형과 지붕 손상 등이 발생해 구마모토~신미즈사와 구간 운행이 중단됐었다.",
+          "soWhat": "정부는 10월부터 규슈 7개 현 관광 진작을 위한 '규슈 부흥 지원 할인'을 시행할 계획이다.",
+          "context": {
+            "background": "지진은 지난 7월 28일 발생했으며 이후 부분 구간 운행 중단이 이어져왔다.",
+            "issueContext": "가고시마추오역에서는 재개통을 반기는 승객들의 모습이 이어졌다.",
+            "coreQuestion": "규슈신칸센 재개통이 지역 관광 회복으로 이어질까요?",
+            "resolution": "전 노선 운행이 18일부로 정상화됐다."
+          },
+          "sources": [
+            { "name": "NHK", "url": "https://news.web.nhk/newsweb/na/nb-5050037211" }
+          ],
+          "related": {
+            "title": "九州新幹線が52日ぶりに全線運転再開",
+            "source": "교도통신",
+            "url": "https://topics.smt.docomo.ne.jp/article/kyodo_nor/nation/kyodo_nor-2026091801000106",
+            "type": "유사"
+          },
+          "topics": ["지진", "교통", "규슈신칸센"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260919-2",
+          "date": "2026.09.19",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "노토반도 지진 2년8개월 만에… 스즈시 오사카 터널 통행 재개",
+          "summary": "2024년 노토반도 지진으로 산사태에 매몰됐던 이시카와현 스즈시 국도 249호 오사카터널이 18일 오후 1시부로 통행을 재개했다.",
+          "why": "터널 입구 위쪽에서 무너진 토사가 터널을 완전히 막아 통행이 끊긴 지 2년 8개월 만이다.",
+          "soWhat": "우회로로 쓰였던 해안 융기지에 새로 만든 긴급복구도로는 통행이 중단된다.",
+          "context": {
+            "background": "국가가 권한대행으로 공사를 맡아 약 16만㎥의 토사를 반출하는 복구 작업을 진행해왔다.",
+            "issueContext": "노토부흥사무소는 터널 이북 구간에 더 내륙 쪽으로 새 터널을 짓는 계획도 밝혔다.",
+            "coreQuestion": "노토반도의 다른 지진 피해 도로들도 예정대로 복구를 마칠 수 있을까요?",
+            "resolution": "오사카터널은 18일 오후 1시부로 통행이 재개됐고, 신규 터널은 2029년 봄 완공이 목표다."
+          },
+          "sources": [
+            { "name": "Yahoo!뉴스(노리모노뉴스)", "url": "https://news.yahoo.co.jp/articles/7d5904a19a223df70a35e766bb444024dc6c278f" }
+          ],
+          "related": {
+            "title": "2年8か月でようやく 能登半島地震で土砂崩れの石川・珠洲市の逢坂トンネル 通行を再開",
+            "source": "테레비카나자와",
+            "url": "https://news.infoseek.co.jp/article/tvkanazawa_2026091804661425/",
+            "type": "유사"
+          },
+          "topics": ["지진", "교통", "재난"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260918-1",
           "date": "2026.09.18",
