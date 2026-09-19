@@ -113,10 +113,172 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.09.19",
-      "period": "2026.09.18 08:00 ~ 2026.09.19 08:00",
-      "updatedAt": "2026.09.19 08:00 KST",
+      "latestDate": "2026.09.20",
+      "period": "2026.09.19 08:00 ~ 2026.09.20 08:00",
+      "updatedAt": "2026.09.20 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20260920-1",
+          "date": "2026.09.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국민의힘 \"김승원 지명 철회하라\"…22일 '이재명 정권 실정' 대국민 보고대회",
+          "summary": "국민의힘이 김승원 법무부 장관 후보자 지명 철회를 촉구하며 22일 국회 본청 앞에서 대국민 보고대회를 열기로 했다. 추석 이후 장외투쟁도 검토 중이다.",
+          "why": "민주당이 17일 법사위에서 청문보고서 채택을 밀어붙이면서 음주운전 전력 등 의혹이 해소되지 않은 채 임명 수순이 이어지고 있기 때문이다.",
+          "soWhat": "추석 민심을 겨냥한 여야 공방이 격화되면서 정기국회 초반 협치가 더 어려워질 전망이다.",
+          "context": {
+            "background": "김승원 후보자는 음주운전 전력과 코로나19 치료제 임상시험 관련 민원 청탁 의혹으로 야당의 집중 공격을 받아왔다.",
+            "issueContext": "청와대는 청문회에서 \"새롭거나 치명적인 의혹은 없었다\"는 입장이나 임명 강행 여부는 밝히지 않고 있다.",
+            "coreQuestion": "정부는 결국 김승원 후보자 임명을 강행하게 될까요?",
+            "resolution": "국민의힘은 22일 대국민 보고대회를 예고했고, 정부는 아직 최종 임명 여부를 결정하지 않았다."
+          },
+          "sources": [
+            { "name": "이투데이", "url": "https://www.etoday.co.kr/news/view/2626473" }
+          ],
+          "related": {
+            "title": "[사설] 與 김승원 청문보고서 강행…대통령이 결자해지를",
+            "source": "서울경제",
+            "url": "https://www.sedaily.com/article/20092237",
+            "type": "반박"
+          },
+          "topics": ["김승원", "인사청문회", "법무부", "국민의힘"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20260920-2",
+          "date": "2026.09.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "김지용 중수청장 임명 강행에 여권 내홍…행안부 \"적임자\" 재확인",
+          "summary": "이재명 대통령이 검찰개혁 반대 이력이 있는 김지용 변호사를 초대 중수청장으로 지명하면서 여권 내부 반발이 커지고 있다. 행안부는 17일 \"적임자\"라며 임명을 재확인했다.",
+          "why": "민변 등은 김 후보자가 과거 수사·기소 분리에 반대해온 이력을 문제 삼았고, 추미애 경기지사 등 범여권 인사까지 지명 철회를 요구했다.",
+          "soWhat": "10월 2일 중수청 출범을 앞두고 여권 내 개혁파와 실용파 간 갈등이 정기국회 기간 계속될 가능성이 크다.",
+          "context": {
+            "background": "중수청은 검찰청 폐지 이후 중대범죄 수사를 전담할 신설 기구로 10월 2일 출범을 앞두고 있다.",
+            "issueContext": "행안부는 김 후보자가 사회적 약자와 범죄 피해자 보호를 우려했을 뿐 수사·기소 분리 자체에는 반대하지 않았다고 해명했다.",
+            "coreQuestion": "여권 내 반발에도 정부는 김지용 후보자 임명을 그대로 밀어붙일까요?",
+            "resolution": "행안부는 김 후보자가 수사 전문성과 공정성을 갖췄다며 임명을 강행하는 쪽으로 가닥을 잡았다."
+          },
+          "sources": [
+            { "name": "뉴데일리", "url": "https://www.newdaily.co.kr/site/data/html/2026/09/17/2026091700109.html" }
+          ],
+          "related": {
+            "title": "[속보]행안부 \"김지용은 중수청장 적임자…수사·기소 분리 반대 안해\"",
+            "source": "경향신문",
+            "url": "https://www.khan.co.kr/article/202609170939001/",
+            "type": "다름"
+          },
+          "topics": ["김지용", "중수청장", "검찰개혁", "인사청문회"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260920-1",
+          "date": "2026.09.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 상순 반도체 수출 비중 47.1% 역대 최고…전체 수출도 사상 최대",
+          "summary": "9월 1~10일 반도체 수출액이 164억8000만달러로 전체 수출의 47.1%를 차지해 역대 최고 비중을 기록했다. 같은 기간 총수출액도 349억7000만달러로 9월 상순 기준 최대치다.",
+          "why": "구글·아마존·마이크로소프트 등 글로벌 빅테크의 AI 데이터센터 투자가 이어지며 HBM 등 메모리 수요가 계속 늘고 있기 때문이다.",
+          "soWhat": "정부는 2027년 예산에 AI·반도체 메가프로젝트 예산을 21조3000억원으로 늘려 반도체 쏠림 흐름에 대응할 방침이다.",
+          "context": {
+            "background": "한국 수출은 올해 들어 반도체 비중이 꾸준히 높아지며 특정 품목 의존도가 심화되는 추세를 보여왔다.",
+            "issueContext": "수출 호조에도 반도체 편중이 지나치면 글로벌 업황 변동에 한국 경제 전체가 취약해질 수 있다는 우려가 나온다.",
+            "coreQuestion": "반도체 쏠림 현상이 한국 경제에 위험 요인이 될까요?",
+            "resolution": "정부는 반도체 특별예산 2조6000억원을 별도 편성해 공급망과 생태계 다변화를 함께 추진하기로 했다."
+          },
+          "sources": [
+            { "name": "이투데이", "url": "https://www.etoday.co.kr/news/view/2624344" }
+          ],
+          "related": {
+            "title": "반도체가 수출의 절반∙∙∙ 한국 경제, AI 호황의 빛과 그림자",
+            "source": "리드경제",
+            "url": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=9677",
+            "type": "반박"
+          },
+          "topics": ["반도체", "수출", "무역", "AI"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20260920-2",
+          "date": "2026.09.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "강남·서초 아파트값 6주 연속 하락…李 \"평탄화\" 진단에 오세훈 \"서민에 죽으라는 메시지\"",
+          "summary": "서울 강남·서초 아파트값이 6주 연속 하락한 가운데 이재명 대통령이 이를 \"가격 평탄화\"라고 진단했다. 오세훈 서울시장은 18일 \"무책임한 발언\"이라며 정면 반박했다.",
+          "why": "8월 서울 아파트 평균 매매가가 16억원을 처음 돌파하는 등 외곽 지역까지 '키 맞추기' 상승이 이어지는 상황에서 나온 진단이라 논란이 커졌다.",
+          "soWhat": "부동산 가격 책임론을 둘러싼 대통령과 서울시장의 공방이 격화되며 실거주·대출 규제 완화 논의에도 영향을 줄 전망이다.",
+          "context": {
+            "background": "이 대통령은 강남 등 고가 지역은 내리고 외곽은 오르며 가격 격차가 줄어드는 흐름을 \"평탄화\"로 설명해왔다.",
+            "issueContext": "오세훈 시장은 전세난도 \"실거주 집착이 낳은 대참사\"라며 대통령 책임론을 정면으로 제기했다.",
+            "coreQuestion": "강남 하락과 외곽 상승이 정말 집값 안정으로 이어질까요?",
+            "resolution": "전문가들은 초고가 아파트 하락과 중저가 상승이 동시에 일어나는 지금 상황이 1~2년 내 다시 양극화될 수 있다고 본다."
+          },
+          "sources": [
+            { "name": "서울신문", "url": "https://www.seoul.co.kr/news/economy/estate/2026/09/18/20260918500239" }
+          ],
+          "related": {
+            "title": "오세훈 \"李, 부동산 가격 '평탄화'...서민에게 '죽어나라'는 메시지\"",
+            "source": "서울경제",
+            "url": "https://m.sedaily.com/article/20092950",
+            "type": "반박"
+          },
+          "topics": ["부동산", "서울", "강남", "이재명"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260920-1",
+          "date": "2026.09.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "정부, 한미 \"에너지 동맹\" 제안…변압기·전력망·SMR로 협력 확대",
+          "summary": "이호현 기후에너지환경부 2차관이 15일 미국 휴스턴에서 미 내무부·에너지부 고위급과 회담하고 변압기·전력망·SMR을 중심으로 한 '한미 에너지 동맹'을 제안했다.",
+          "why": "AI 데이터센터 확산으로 미국 내 전력 수요가 급증하면서 한국 기업의 전력기자재·SMR 진출 기회가 커졌기 때문이다.",
+          "soWhat": "정례 협의 채널과 MOU 추진이 예고돼 있어 국내 원전·전력기자재 기업의 대미 수주 기대가 커질 전망이다.",
+          "context": {
+            "background": "정부는 앞서 한미일 SMR 배치·수출 협력 MOU를 체결하는 등 원전 공급망에서 중·러 견제 움직임에 동참해왔다.",
+            "issueContext": "전문가들은 원자로 수출만으로는 부족하고 연료·인허가·금융까지 묶은 패키지 수출 모델이 필요하다고 지적한다.",
+            "coreQuestion": "한미 에너지 동맹이 실제 SMR·전력기자재 수주 성과로 이어질까요?",
+            "resolution": "정부는 정례 협의 채널과 MOU를 추진하며 국내 기업의 대미 투자와 진출을 연계할 계획이라고 밝혔다."
+          },
+          "sources": [
+            { "name": "서울신문", "url": "https://www.seoul.co.kr/news/economy/2026/09/17/20260917500314" }
+          ],
+          "related": {
+            "title": "작다고 안전할까…SMR, 기대와 불확실성 사이",
+            "source": "경향신문",
+            "url": "https://www.khan.co.kr/article/202603210900021",
+            "type": "반박"
+          },
+          "topics": ["SMR", "전력망", "원전", "한미"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20260920-2",
+          "date": "2026.09.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "누리호 5차 발사일 10월 7일 확정…국내 첫 군집위성 15기 싣는다",
+          "summary": "누리호 5차 발사일이 10월 7일로 확정됐다. 주탑재위성인 초소형군집위성(네온샛) 2~6호 5기와 큐브위성 10기 등 총 15기가 실린다.",
+          "why": "당초 9월 발사가 목표였으나 최종 조립·점검 일정이 늘어지며 10월로 연기됐다.",
+          "soWhat": "국내 최초로 군집위성을 궤도에 올리는 임무로, 성공하면 한국형 발사체의 상업·안보 활용 가능성이 한층 넓어진다.",
+          "context": {
+            "background": "누리호는 4차 발사까지 성공하며 한국형 발사체의 신뢰성을 입증해왔고, 5차부터는 군집위성 임무를 처음 수행한다.",
+            "issueContext": "초소형군집위성은 재난 감시 등에 쓰일 예정으로, 다수 위성을 동시에 정확한 궤도에 배치하는 기술이 관건이다.",
+            "coreQuestion": "누리호는 이번에도 다수 위성을 목표 궤도에 성공적으로 안착시킬 수 있을까요?",
+            "resolution": "발사 준비는 일정대로 진행 중이며 최종 발사일이 10월 7일로 공식 확정됐다."
+          },
+          "sources": [
+            { "name": "서울신문", "url": "https://www.seoul.co.kr/news/society/science-news/2026/09/17/20260917016002" }
+          ],
+          "related": {
+            "title": "누리호 5차 발사일 10월 7일 확정…위성 15기 싣고 우주로",
+            "source": "데일리안",
+            "url": "https://www.dailian.co.kr/news/view/1683204/%EB%A6%AC%ED%98%B8-5%EC%B0%A8-%EB%B0%9C%EC%82%AC%EC%9D%BC-10%EC%9B%94-7%EC%9D%BC-%ED%99%95%EC%A0%95%EC%9C%84-2026",
+            "type": "유사"
+          },
+          "topics": ["누리호", "위성", "우주", "로켓"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20260919-1",
           "date": "2026.09.19",
@@ -7597,10 +7759,172 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.09.19",
-      "period": "2026.09.18 08:00 ~ 2026.09.19 08:00",
-      "updatedAt": "2026.09.19 08:00 KST",
+      "latestDate": "2026.09.20",
+      "period": "2026.09.19 08:00 ~ 2026.09.20 08:00",
+      "updatedAt": "2026.09.20 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20260920-1",
+          "date": "2026.09.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "美 상원, 여야 예산안 모두 부결…10월 1일 셧다운 위기 고조",
+          "summary": "미 상원이 19일 공화당 잠정예산안(44대48)과 민주당 대안(47대45)을 모두 부결시켰다. 10월 1일 회계연도 마감을 앞두고 셧다운 가능성이 커졌다.",
+          "why": "민주당이 오바마케어 보조금 연장을 예산안에 끼워 넣으라고 요구하는 반면 공화당은 이를 \"불필요한 조건\"이라며 거부하고 있기 때문이다.",
+          "soWhat": "트럼프 대통령은 셧다운이 현실화하면 보건 관련 예산을 \"되돌릴 수 없게\" 삭감하는 데 활용할 수 있다고 밝혀 파장이 커질 전망이다.",
+          "context": {
+            "background": "하원은 9월 초 12월 초까지 정부를 운영하는 잠정예산안을 통과시켰으나 상원에서 60표 문턱을 넘지 못하고 있다.",
+            "issueContext": "공화당 머카우스키·폴 의원이 이탈표를 던졌고 민주당에서는 페터만 의원만 공화당안에 찬성하는 등 당론 이탈도 나타났다.",
+            "coreQuestion": "10월 1일 전에 여야가 예산안 합의에 도달할 수 있을까요?",
+            "resolution": "두 법안 모두 60표를 얻지 못해 부결됐고, 의회는 마감 시한을 앞두고 뚜렷한 다음 수순을 제시하지 못하고 있다."
+          },
+          "sources": [
+            { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/government-shutdown-latest-trump-congress-senate-vote/" }
+          ],
+          "related": {
+            "title": "Reporter's Notebook: Government shutdown stalls as Democrats demand Obamacare subsidy extension",
+            "source": "Fox News",
+            "url": "https://www.foxnews.com/politics/reporters-notebook-government-shutdown-stalls-democrats-demand-obamacare-subsidy-extension",
+            "type": "반박"
+          },
+          "topics": ["셧다운", "의회", "인플레이션", "공화당"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20260920-2",
+          "date": "2026.09.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "美·덴마크, 그린란드 군사 협력 합의…트럼프 \"영구적 안보 통제권\"",
+          "summary": "트럼프 대통령이 18일 덴마크와 그린란드 내 미군 주둔을 확대하는 합의에 이르렀다고 발표했다. 그린란드 영유권은 덴마크에 남지만 안보는 미국이 사실상 통제한다.",
+          "why": "트럼프 대통령이 수개월간 그린란드 강제 편입 가능성까지 거론하며 압박해온 끝에 나온 절충안이기 때문이다.",
+          "soWhat": "다음 주 유엔총회 기간 3국 정부가 서명할 예정이지만 덴마크·그린란드 의회 비준 절차가 남아 있어 최종 발효까지는 시간이 걸린다.",
+          "context": {
+            "background": "그린란드는 북극 요충지이자 희토류 등 자원이 풍부해 미국의 전략적 관심이 꾸준히 이어져 왔다.",
+            "issueContext": "합의는 그린란드 내 비(非)나토 기지 설치를 금지하고 중국·러시아의 투자를 원천 차단하는 내용을 담고 있다.",
+            "coreQuestion": "이번 합의가 그린란드 주민들의 독립 여론에는 어떤 영향을 미칠까요?",
+            "resolution": "3국 정부는 합의안에 원칙적으로 합의했으며 세부 서명은 다음 주 유엔총회 계기에 이뤄질 예정이다."
+          },
+          "sources": [
+            { "name": "NPR", "url": "https://www.npr.org/2026/09/19/g-s1-144158/us-and-denmark-reach-deal" }
+          ],
+          "related": {
+            "title": "'Nervous and skeptical,' Greenlanders question the new deal with Trump",
+            "source": "The Philadelphia Inquirer",
+            "url": "https://www.inquirer.com/news/nation-world/trump-deal-greenland-denmark-military-presence-residents-20260919.html",
+            "type": "다름"
+          },
+          "topics": ["그린란드", "트럼프", "안보", "북방영토"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260920-1",
+          "date": "2026.09.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "美 연준, 3년 만에 금리 인상…3.75~4.00%로 12대0 만장일치",
+          "summary": "연준이 16일 기준금리를 0.25%포인트 올려 3.75~4.00%로 결정했다. 2023년 이후 첫 인상이며 워시 의장을 포함해 12대0 만장일치로 의결됐다.",
+          "why": "이란과의 전쟁 여파로 물가 상승세가 다시 커지면서 \"인플레이션이 너무 오래, 너무 높았다\"는 판단이 작용했다.",
+          "soWhat": "위원 18명 중 16명이 추가 인상 가능성을 열어두고 있어 연내 한 차례 더 금리가 오를 수 있다는 전망이 나온다.",
+          "context": {
+            "background": "트럼프 대통령이 직접 지명한 워시 의장은 그동안 금리 인하를 요구하는 트럼프와 거리를 둬왔다.",
+            "issueContext": "트럼프 대통령은 회의 전 무역정책까지 동원해 금리 인하를 압박했지만 워시 의장은 \"독립성은 양방향 도로\"라며 선을 그었다.",
+            "coreQuestion": "이번 인상이 연준의 독립성을 둘러싼 트럼프와의 갈등을 다시 키우게 될까요?",
+            "resolution": "위원회는 만장일치로 인상을 의결했고 워시 의장도 찬성표를 던졌다."
+          },
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html" }
+          ],
+          "related": {
+            "title": "Analysis: How Trump could reignite the Fed independence fight after Warsh's rate hike",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/16/fed-interest-rates-kevin-warsh-trump.html",
+            "type": "반박"
+          },
+          "topics": ["연준", "금리", "트럼프", "인플레이션"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20260920-2",
+          "date": "2026.09.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "美 10년물 국채금리 5% 돌파…2007년 이후 최고치",
+          "summary": "미 10년물 국채금리가 5.04%까지 올라 2007년 이후 최고 수준을 기록했다. 연준의 금리 인상과 재정 우려가 겹치며 채권 시장이 흔들리고 있다.",
+          "why": "연준이 3년 만에 금리를 올린 데다 정부 셧다운 우려까지 겹치며 장기 국채에 대한 투자 심리가 악화됐기 때문이다.",
+          "soWhat": "주택담보대출·기업대출 등 실물경제 전반의 조달 비용이 오르면서 부동산·부채 기업에 부담이 서서히 번질 수 있다는 우려가 나온다.",
+          "context": {
+            "background": "10년물 금리는 9월 들어 꾸준히 오르며 5% 심리적 저항선에 근접해왔다.",
+            "issueContext": "골드만삭스·블랙록 등은 기업 실적과 AI 투자 열기를 근거로 \"강세장이 꺾이지는 않을 것\"이라는 낙관론을 유지하고 있다.",
+            "coreQuestion": "국채금리 5% 돌파가 결국 주식시장의 강세장을 끝내게 될까요?",
+            "resolution": "S&P500 지수는 8월 최고치 대비 2.5% 이내에서 버티고 있어 아직 충격은 제한적인 것으로 평가된다."
+          },
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/17/a-breakout-in-the-10-year-treasury-yield-could-hold-back-stocks-if-it-reaches-this-level.html" }
+          ],
+          "related": {
+            "title": "Here's what 5% bond yields mean for the stock market — and which stocks to buy",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/15/heres-what-5percent-bond-yields-mean-for-the-stock-market-and-which-stocks-to-buy.html",
+            "type": "반박"
+          },
+          "topics": ["국채금리", "연준", "증시", "금리"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260920-1",
+          "date": "2026.09.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "\"AI 속도조절 담합\" 소송…앤트로픽·오픈AI·구글에 반독점 제소",
+          "summary": "앤트로픽·오픈AI·xAI·구글이 AI 개발 속도를 늦추기로 담합했다며 반독점법 위반 소송이 19일 제기됐다. 앞서 이들 CEO는 안전을 이유로 개발 속도 조절에 공개 동의한 바 있다.",
+          "why": "다리오 아모데이 앤트로픽 CEO가 12일 AI 안전을 위해 업계 공동의 속도 조절이 필요하다는 글을 올렸고 올트먼·머스크·하사비스가 잇따라 동의했기 때문이다.",
+          "soWhat": "안전을 명분으로 한 업계 공조가 반독점 심사대에 오르면서 향후 AI 기업 간 협력 자체가 법적 리스크로 번질 수 있다.",
+          "context": {
+            "background": "아모데이는 6개월 안에 AI 에이전트 무리가 인터넷을 장악할 수 있다고 경고하며 산업 전반의 감속을 제안했다.",
+            "issueContext": "캘리포니아 북부연방법원에 제기된 소송은 경쟁사 CEO들의 속도 조절 합의가 반독점법상 담합에 해당한다고 주장한다.",
+            "coreQuestion": "AI 안전을 위한 공동 대응이 결국 반독점법 위반으로 인정될까요?",
+            "resolution": "소송은 이제 막 제기된 단계로 법원의 판단은 아직 나오지 않았다."
+          },
+          "sources": [
+            { "name": "ABC News", "url": "https://abcnews.com/Technology/wireStory/lawsuit-anthropic-openai-spacexai-google-made-illegal-agreement-136588615" }
+          ],
+          "related": {
+            "title": "Anthropic and OpenAI CEOs call for AI development to slow down, OpenAI to delay IPO",
+            "source": "NPR",
+            "url": "https://www.npr.org/2026/09/12/nx-s1-5950588/openai-anthropic-ai-safety-researchers-hacks",
+            "type": "다름"
+          },
+          "topics": ["AI", "AI안전", "빅테크", "소송"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20260920-2",
+          "date": "2026.09.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "케네디센터 앞 \"인간 사슬\" 시위…트럼프 철거 가능성 시사에 반발",
+          "summary": "19일 밤 수천 명이 워싱턴 케네디센터를 둘러싸고 인간 사슬 시위를 벌였다. 트럼프 이사회의 즉시 폐쇄·리모델링 결정과 건물 철거 가능성 시사에 대한 반발이다.",
+          "why": "트럼프 대통령이 지명한 이사회가 케네디센터를 2년간 즉시 폐쇄하기로 하고, 트럼프 본인의 이름을 붙이지 않으면 재건축을 하지 않겠다고 밝혔기 때문이다.",
+          "soWhat": "법원은 케네디센터에 대한 중대한 변경 30일 전 사전 고지를 명령한 상태여서 철거 강행 여부를 둘러싼 법적 다툼이 이어질 전망이다.",
+          "context": {
+            "background": "트럼프 대통령은 지난해 이사회를 자신의 측근들로 교체하며 케네디센터 이사장을 자임해왔다.",
+            "issueContext": "의회는 지난해 이미 재건축 예산 약 2억5700만달러를 배정했으나 트럼프 측은 집행을 미루고 있다는 비판을 받는다.",
+            "coreQuestion": "케네디센터는 결국 트럼프 대통령의 이름이 붙은 채로 재건축될까요?",
+            "resolution": "트럼프 대통령은 기부금 1700만달러가 모였다며 폐쇄·리모델링이 \"더 빠르고 질 높은 결과\"를 낼 것이라고 주장했다."
+          },
+          "sources": [
+            { "name": "The Grio", "url": "https://thegrio.com/2026/09/19/kennedy-center-protest-trump-demolition-human-chain/" }
+          ],
+          "related": {
+            "title": "'It will never be the same': How Trump turned on the Kennedy Center and brought it to its knees",
+            "source": "CNN",
+            "url": "https://www.cnn.com/2026/09/19/politics/trump-kennedy-center",
+            "type": "다름"
+          },
+          "topics": ["케네디센터", "트럼프", "표현의자유"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20260919-1",
           "date": "2026.09.19",
@@ -15066,10 +15390,172 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.09.19",
-      "period": "2026.09.18 08:00 ~ 2026.09.19 08:00",
-      "updatedAt": "2026.09.19 08:00 KST",
+      "latestDate": "2026.09.20",
+      "period": "2026.09.19 08:00 ~ 2026.09.20 08:00",
+      "updatedAt": "2026.09.20 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20260920-1",
+          "date": "2026.09.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프-시진핑 전화 통화…틱톡·무역서 \"진전\", 11월 APEC서 정상회담",
+          "summary": "트럼프 대통령과 시진핑 주석이 19일 전화 통화를 갖고 틱톡 매각과 무역 현안에서 \"진전\"을 이뤘다고 밝혔다. 두 정상은 11월 한국 APEC 계기에 정상회담을 갖기로 했다.",
+          "why": "11월 만료를 앞둔 미중 관세 휴전 시한이 다가오면서 양국이 정상 간 소통으로 갈등 격화를 막으려 했기 때문이다.",
+          "soWhat": "트럼프 대통령은 내년 초 방중 의사를, 시 주석은 적절한 시기에 방미하겠다는 뜻을 밝혀 정상 교류가 이어질 전망이다.",
+          "context": {
+            "background": "미중은 올해 여러 차례 협상을 거쳐 관세 휴전을 유지해왔으나 틱톡 매각 등 세부 쟁점에서 이견이 계속돼왔다.",
+            "issueContext": "중국 측은 \"기업의 의사를 존중한다\"면서도 미국이 추가 무역 제한 조치를 취하지 말아야 한다고 못박았다.",
+            "coreQuestion": "이번 통화가 11월 관세 휴전 시한 이전 실질적 합의로 이어질까요?",
+            "resolution": "양측은 무역·펜타닐·러시아-우크라이나 종전 등에서 진전을 이뤘다고 밝혔고 11월 정상회담 개최에 합의했다."
+          },
+          "sources": [
+            { "name": "NBC News", "url": "https://www.nbcnews.com/world/asia/trump-xi-call-tiktok-deal-china-trade-tariffs-rcna231560" }
+          ],
+          "related": {
+            "title": "China says it will work with U.S. to resolve TikTok issues after Trump-Xi meeting",
+            "source": "PBS News",
+            "url": "https://www.pbs.org/newshour/world/china-says-it-will-work-with-u-s-to-resolve-tiktok-issues-after-trump-xi-meeting",
+            "type": "다름"
+          },
+          "topics": ["트럼프", "시진핑", "무역", "미중관계"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20260920-2",
+          "date": "2026.09.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "남중국해서 中·필리핀 선박 충돌…양측 \"상대가 들이받았다\" 정반대 주장",
+          "summary": "남중국해 스프래틀리 군도 인근에서 19일 중국 해경선과 필리핀 정부 선박이 충돌했다. 필리핀은 중국이 들이받았다고, 중국은 필리핀이 고의로 진로를 가로막았다고 주장한다.",
+          "why": "필리핀 선박이 어민에게 연료를 보급하는 임무 중 중국 해경선과 근접 항행을 벌이다 충돌이 발생했다.",
+          "soWhat": "인명 피해는 없었지만 남중국해 영유권 갈등이 재점화하며 미국 등 역내 국가들의 개입 목소리가 커질 수 있다.",
+          "context": {
+            "background": "스프래틀리 군도 인근 해역은 어족 자원이 풍부해 중국과 필리핀 해경선 간 충돌이 반복돼온 지역이다.",
+            "issueContext": "필리핀 해경은 중국 선박이 10m 거리까지 접근해 진로를 가로막다 충돌했다고 주장하는 반면, 중국은 반복 경고를 무시한 필리핀 책임이라고 반박한다.",
+            "coreQuestion": "이번 충돌로 남중국해에서 무력 충돌 위험이 더 커지게 될까요?",
+            "resolution": "양측 모두 상대 책임을 주장하며 공식 항의에 나섰고, 제3자 조사는 이뤄지지 않았다."
+          },
+          "sources": [
+            { "name": "The Japan Times", "url": "https://www.japantimes.co.jp/news/2026/09/19/asia-pacific/philippines-chinese-ship-rammed-vessel/" }
+          ],
+          "related": {
+            "title": "Philippine vessel collides with China Coast Guard ship near Xianbin Jiao",
+            "source": "CGTN",
+            "url": "https://news.cgtn.com/news/2026-09-19/Philippine-vessel-collides-with-China-Coast-Guard-ship-near-Xianbin-Jiao-1Qz1TdSIcuI/p.html",
+            "type": "다름"
+          },
+          "topics": ["남중국해", "필리핀", "해경", "영유권분쟁"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260920-1",
+          "date": "2026.09.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中 주택도농건설부 \"현물 판매가 대세\"…선분양 제도 손질 착수",
+          "summary": "중국 주택도농건설부가 18일 기자회견에서 부동산 시장이 재고 시대에 접어들었다며 '현물 판매제' 정착을 추진하겠다고 밝혔다. 신규 사업장은 준공 후 분양을 우선하도록 유도한다.",
+          "why": "선분양 이후 공사가 중단되는 '란웨이러우(烂尾楼)' 문제가 반복되자 \"보이는 대로 사는\" 현물 판매로 인도 리스크를 근본적으로 막으려는 취지다.",
+          "soWhat": "건설사는 분양대금을 미리 회수할 수 없어 자금 압박이 커지고, 이는 토지 매입 위축과 부동산 개발 모델 전환으로 이어질 전망이다.",
+          "context": {
+            "background": "중국 부동산 중고 거래 비중은 2020년 27%에서 2025년 46%로 늘었고 올해 1~8월에는 52%까지 상승했다.",
+            "issueContext": "8월 말 발표된 관련 통지에 따라 지자체마다 현물 판매를 유도하되 기존 선분양 사업장은 자금 감독을 강화하기로 했다.",
+            "coreQuestion": "현물 판매 전환이 건설사 자금난을 얼마나 심화시킬까요?",
+            "resolution": "당국은 지분·채권·토지 공동담보 등 다양한 자금 조달 방식을 통해 건설사의 자금 부담을 완화하겠다고 밝혔다."
+          },
+          "sources": [
+            { "name": "人民网", "url": "http://finance.people.com.cn/n1/2026/0918/c1004-40801272.html" }
+          ],
+          "related": {
+            "title": "分析：中共楼市新规令房企资金压力加剧",
+            "source": "大纪元",
+            "url": "https://www.epochtimes.com/gb/26/9/1/n14840829.htm",
+            "type": "반박"
+          },
+          "topics": ["부동산", "분양제도", "재정"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20260920-2",
+          "date": "2026.09.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中 AI 모델, 미국 제치고 세계 사용량 1위…딥시크 점유율 25.4%",
+          "summary": "오픈라우터 기준 중국 AI 모델의 세계 사용량 점유율이 20주 연속 미국을 앞질렀다. 딥시크가 25.4%로 1위, 중국 기업 전체 점유율은 45%를 넘어 미국(43%)을 추월했다.",
+          "why": "가격 경쟁력을 앞세운 중국 모델들이 기업의 실사용 단계(추론) 비용을 크게 낮추며 시장을 빠르게 흡수하고 있기 때문이다.",
+          "soWhat": "중국 AI 산업의 국제 경쟁력이 부각되지만, 최상위 대형모델 학습에 쓰이는 고성능 GPU는 여전히 엔비디아 의존도가 절대적이라는 한계도 함께 드러났다.",
+          "context": {
+            "background": "중국 대형모델 기업들은 올해 들어 앱·클라우드 서비스에 AI를 대거 결합하며 해외 시장 점유율을 늘려왔다.",
+            "issueContext": "엔비디아는 세계 GPU 서버 시장의 68%를 차지하는 반면 중국 자국산 GPU는 4% 미만에 그쳐 고성능 학습에서는 격차가 여전하다.",
+            "coreQuestion": "미국의 반도체 수출 통제가 계속되는 가운데 중국 AI 모델의 점유율 우위가 유지될 수 있을까요?",
+            "resolution": "현재까지는 저비용 추론 시장에서 중국 모델의 점유율 확대가 이어지고 있다."
+          },
+          "sources": [
+            { "name": "新浪财经", "url": "https://finance.sina.com.cn/tech/roll/2026-09-17/doc-inisayan9359155.shtml" }
+          ],
+          "related": {
+            "title": "中美AI对弈之下的算力难题",
+            "source": "钛媒体",
+            "url": "https://www.tmtpost.com/8036519.html",
+            "type": "다름"
+          },
+          "topics": ["AI", "반도체", "미중갈등", "컴퓨팅파워"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260920-1",
+          "date": "2026.09.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "화웨이, 세계 최초 3D 데이터센터 안후이 우후에 공개",
+          "summary": "화웨이클라우드가 18일 안후이성 우후시에 지은 세계 최초 3D 데이터센터를 처음으로 외부에 공개했다. 2층 설비층에는 쿤펑950 슈퍼노드 1024장이 배치됐다.",
+          "why": "기존 평면형 데이터센터로는 AI 대형모델 학습에 필요한 전력·냉각 밀도를 감당하기 어려워지면서 3층 구조의 새 설계를 도입했다.",
+          "soWhat": "쿤펑950 슈퍼노드 기반 지능컴퓨팅 클러스터 서비스는 9월 30일 중국 내 상용화, 11월 30일 해외 상용화가 예정돼 있다.",
+          "context": {
+            "background": "화웨이는 미국의 첨단 반도체 수출 통제 속에서도 자체 AI 칩과 데이터센터 설계로 컴퓨팅 인프라 자립을 추진해왔다.",
+            "issueContext": "새 데이터센터는 냉각층·설비층·전력층으로 나뉜 3층 구조로 설계돼 기존 대비 전력 밀도를 크게 높였다.",
+            "coreQuestion": "미국의 반도체 규제 속에서 중국이 독자 AI 인프라로 격차를 얼마나 좁힐 수 있을까요?",
+            "resolution": "화웨이클라우드는 해당 클러스터가 FP8 기준 1EFLOPS급 연산 성능을 낸다고 밝혔다."
+          },
+          "sources": [
+            { "name": "腾讯新闻", "url": "https://news.qq.com/rain/a/20260918A021C600" }
+          ],
+          "related": {
+            "title": "美国在全球范围内禁用华为芯片",
+            "source": "北京市商务局",
+            "url": "https://sw.beijing.gov.cn/zt/mymcyd/smdtx/202507/t20250730_4162594.html",
+            "type": "다름"
+          },
+          "topics": ["화웨이", "데이터센터", "AI", "컴퓨팅파워"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20260920-2",
+          "date": "2026.09.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "中 \"15·5 규획\" 문화관광 목표 발표…5년간 18억 인次 여행 증가 유도",
+          "summary": "중국 문화여유부가 '15차 5개년 규획' 기간 문화관광 소비를 활성화해 5년간 국내 여행을 약 18억 인次 늘리겠다는 목표를 내놨다. 크루즈·캠핑카 등 신소비 업종 육성도 포함됐다.",
+          "why": "내수 소비가 둔화하는 가운데 중추절·국경절 연휴를 계기로 관광 소비를 경기 부양의 지렛대로 삼으려는 취지다.",
+          "soWhat": "각 지방정부가 수천만 위안 규모의 문화관광 보조금을 잇따라 내놓으며 연휴 기간 소비 진작 경쟁이 벌어지고 있다.",
+          "context": {
+            "background": "중국은 최근 몇 년간 '보복성 소비' 열기가 식으면서 명절 연휴 소비 증가폭이 예전만 못하다는 평가를 받아왔다.",
+            "issueContext": "정부는 탄력적 휴가제, 몰입형 관광 콘텐츠 등을 통해 소비 심리를 자극하겠다는 계획이지만 가계 소득 둔화가 걸림돌로 꼽힌다.",
+            "coreQuestion": "정부 주도 관광 진작책이 실제 소비자 지갑을 열게 만들 수 있을까요?",
+            "resolution": "각지 상무부문은 중추절·국경절 연휴에 맞춰 문화관광·특산품 할인 보조금을 집중 투입하기로 했다."
+          },
+          "sources": [
+            { "name": "21财经", "url": "https://www.21jingji.com/article/20260917/herald/ec7fcd853ed50e26ff1f83dbc0a58e14.html" }
+          ],
+          "related": {
+            "title": "报复性消费彻底退场？中秋国庆双节将至，老百姓不再无脑大手消费",
+            "source": "腾讯新闻",
+            "url": "https://news.qq.com/rain/a/20260916A04RN300",
+            "type": "반박"
+          },
+          "topics": ["중추절", "소비", "국경절", "관광"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20260919-1",
           "date": "2026.09.19",
@@ -22534,10 +23020,172 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.09.19",
-      "period": "2026.09.18 08:00 ~ 2026.09.19 08:00",
-      "updatedAt": "2026.09.19 08:00 KST",
+      "latestDate": "2026.09.20",
+      "period": "2026.09.19 08:00 ~ 2026.09.20 08:00",
+      "updatedAt": "2026.09.20 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20260920-1",
+          "date": "2026.09.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "제2차 다카이치 개조내각 출범…골격 유지, 유신회 첫 입각",
+          "summary": "다카이치 사나에 총리가 17일 취임 후 첫 내각 개조를 단행해 제2차 다카이치 개조내각이 출범했다. 각료 18명 중 8명이 유임됐고 일본유신회 출신 각료도 처음 배출됐다.",
+          "why": "취임 11개월 만의 첫 개조로, 내년 가을 자민당 총재 선거를 앞두고 당내 비주류를 견제하며 정권 안정을 도모하려는 포석이다.",
+          "soWhat": "가타야마 재무상, 모테기 외무상, 고이즈미 방위상 등 핵심 각료가 유임되면서 고물가 대응과 외교·안보 정책 기조는 이어질 전망이다.",
+          "context": {
+            "background": "다카이치 총리는 자민당과 일본유신회 연립정부를 이끌어왔으며 이번이 취임 후 첫 내각·당직 인사다.",
+            "issueContext": "총리에 우호적인 인사가 요직에 전진 배치되면서 당내 비주류파가 \"차기 총재 선거의 약점\"이 될 수 있다는 우려도 나온다.",
+            "coreQuestion": "이번 개조가 다카이치 총리의 재선 가도에 실질적으로 도움이 될까요?",
+            "resolution": "다카이치 총리는 \"강한 경제를 위해 실행력을 중시해 인선했다\"고 밝히며 골격 유지를 선택했다."
+          },
+          "sources": [
+            { "name": "時事通信", "url": "https://www.jiji.com/jc/article?k=2026091700093&g=pol" }
+          ],
+          "related": {
+            "title": "内閣改造は特効薬か劇薬か 支持率アップも息切れの例、党内に「副作用」",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUA098A60Z00C26A9000000/",
+            "type": "반박"
+          },
+          "topics": ["다카이치", "개각", "자민당", "유신회"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20260920-2",
+          "date": "2026.09.20",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "고이즈미 방위상·헤그세스 美국방장관 전화회담…안보협력 강화 합의",
+          "summary": "고이즈미 신지로 방위상이 18일 저녁 피트 헤그세스 미 국방장관과 약 10분간 전화 통화를 갖고 미일동맹 억지력 강화를 위한 안보협력 추진에 뜻을 모았다.",
+          "why": "개각에서 방위상으로 유임된 고이즈미 방위상이 안보 관련 3문서 개정 작업을 흔들림 없이 이어가겠다는 뜻을 미국 측에 전달했기 때문이다.",
+          "soWhat": "양측은 조속한 대면 회담에도 합의해 방위비 증액을 포함한 안보 3문서 개정 논의가 속도를 낼 전망이다.",
+          "context": {
+            "background": "일본 여당은 올해 6월 무인기·AI 등 \"새로운 전쟁 방식\"에 대응한 방위비 증액을 담은 안보 3문서 개정을 제안한 바 있다.",
+            "issueContext": "헤그세스 장관은 고이즈미 방위상의 유임을 축하하며 긴밀한 협력에 대한 기대를 밝혔다.",
+            "coreQuestion": "안보 3문서 개정이 실제 대폭적인 방위비 증액으로 이어지게 될까요?",
+            "resolution": "두 장관은 미일동맹의 억지력·대응력 강화를 위한 안보협력을 긴박감 있게 추진하기로 확인했다."
+          },
+          "sources": [
+            { "name": "NHKニュース", "url": "https://news.web.nhk/newsweb/na/nd-20260919de51167" }
+          ],
+          "related": {
+            "title": "主張/安保３文書の改定/膨大な負担増強いる自民提言",
+            "source": "しんぶん赤旗",
+            "url": "https://www.jcp.or.jp/akahata/aik26/2026-06-18/2026061802_01_0.php",
+            "type": "반박"
+          },
+          "topics": ["안보", "한미일", "고이즈미", "방위"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260920-1",
+          "date": "2026.09.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "日銀 기준금리 1.25%로 인상…3개월 만에 추가 인상, 위원 2명 반대",
+          "summary": "일본은행이 18일 금융정책결정회의에서 기준금리를 0.25%포인트 올려 1.25%로 결정했다. 6월 이후 3개월 만의 추가 인상으로 위원 2명이 반대표를 던졌다.",
+          "why": "유가 상승과 엔저가 겹치며 물가 상승 위험이 커지자 기존 반년 주기였던 인상 속도를 가속화했다.",
+          "soWhat": "일본은행은 12월 회의에서 1.5%, 내년 1~3월에는 1.75%까지 인상한 뒤 상황을 지켜볼 것으로 전망된다.",
+          "context": {
+            "background": "일본은행은 2024년 3월 마이너스 금리를 해제한 이후 대체로 반년에 한 번꼴로 금리를 올려왔다.",
+            "issueContext": "이번 1.25%는 1995년 이후 약 31년 만의 최고 수준으로, 기조적 물가상승률이 목표치 2%에 근접했다는 판단이 작용했다.",
+            "coreQuestion": "금리 인상 가속이 가계와 중소기업의 이자 부담을 어디까지 키우게 될까요?",
+            "resolution": "일본은행은 \"물가 상승 위험을 억제하기 위해 계속 정책금리를 인상하며 완화 정도를 조정해가겠다\"고 밝혔다."
+          },
+          "sources": [
+            { "name": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUB182840Y6A910C2000000/" }
+          ],
+          "related": {
+            "title": "日銀利上げで住宅ローン金利上昇、変動と固定の差は過去最大 対応策は",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUB277ZH0X20C26A8000000/",
+            "type": "다름"
+          },
+          "topics": ["일본은행", "금리", "엔화", "물가"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20260920-2",
+          "date": "2026.09.20",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 식품값 인상 4923개 품목…올해 최대 \"인상 러시\"",
+          "summary": "9월 일본 식음료 값 인상 품목이 4923개로 올해 들어 월간 최다를 기록했다. 지난해 9월(1467개)의 약 3배 규모로 조미료·냉동식품 인상이 두드러졌다.",
+          "why": "원재료비 상승(90.9%)과 포장재 가격(64.0%), 중동 정세(27.8%)가 겹치며 식품업계 전반의 비용 부담이 커졌기 때문이다.",
+          "soWhat": "정부는 내년 4월부터 2년간 식료품 소비세율을 8%에서 1%로 낮추는 감세안을 확정해 가계 부담 완화에 나선다.",
+          "context": {
+            "background": "일본의 월별 식품 가격 인상 품목 수는 올해 들어 꾸준히 늘며 2023년 이후 3년 만에 최대 수준의 인상 러시를 기록했다.",
+            "issueContext": "이번 인상은 조미료(1959개), 가공식품(1848개) 품목이 중심으로 마요네즈·간장·냉동식품 등이 포함됐다.",
+            "coreQuestion": "소비세 인하가 실제 가계의 체감 물가 부담을 낮출 수 있을까요?",
+            "resolution": "정부는 소비세 인하분을 사실상 \"실질 제로\"로 만드는 취업자 부담경감 지원금 제도를 함께 도입하기로 했다."
+          },
+          "sources": [
+            { "name": "Yahoo!ニュース", "url": "https://news.yahoo.co.jp/pickup/6593723" }
+          ],
+          "related": {
+            "title": "食品消費税27年4月から1%、政府が午後決定へ 自民党が了承",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUA011O20R00C26A8000000/",
+            "type": "다름"
+          },
+          "topics": ["물가", "소비세", "식품안전"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260920-1",
+          "date": "2026.09.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "\"수성, 탄생 이후 반지름 12km 줄어\"…홋카이도대 새 해석법으로 확인",
+          "summary": "홋카이도대 연구팀이 수성 지형 데이터를 새 방식으로 분석해 수성이 탄생 이후 현재까지 반지름이 12km 가까이 줄어들었다고 발표했다. 기존 추정치보다 최대 30% 큰 수치다.",
+          "why": "수성 내부가 식으면서 수축하는 과정에서 생긴 지표면 \"주름\" 지형이 다른 지질 현상에 가려진 부분을 새 해석법으로 보정했기 때문이다.",
+          "soWhat": "행성의 열 진화를 밝히는 새로운 분석 기법으로 평가받아 다른 암석 행성 연구에도 적용될 수 있을 전망이다.",
+          "context": {
+            "background": "수성은 46억년 전 탄생 이후 내부가 식으며 서서히 수축해온 것으로 알려져 왔지만 정확한 수축량은 논쟁이 있어왔다.",
+            "issueContext": "연구팀은 지표면 요철 정도를 바탕으로 수축 지형이 가려지는 효과를 보정해 기존 추정치를 상향 조정했다.",
+            "coreQuestion": "이번 새 분석법이 다른 암석 행성의 수축량 추정도 바꾸게 될까요?",
+            "resolution": "논문은 10일 미국 과학지 '지오피지컬 리서치 레터스'에 게재됐다."
+          },
+          "sources": [
+            { "name": "マイナビニュース", "url": "https://news.mynavi.jp/techplus/article/20260918-4987325/" }
+          ],
+          "related": {
+            "title": "水星が縮んでいる…４５億年で直径２３キロ収縮か",
+            "source": "ハンギョレ新聞(Yahoo!ニュース)",
+            "url": "https://news.yahoo.co.jp/articles/280351c1d21800d323805985f98c242ebf684b33",
+            "type": "유사"
+          },
+          "topics": ["수성", "탐사", "우주", "연구"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20260920-2",
+          "date": "2026.09.20",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "日 총인구 1억2268만명…59만명 감소, 이민 없이 외국인은 늘어",
+          "summary": "일본 총무성이 8월 1일 기준 총인구가 1억2268만명으로 전년 대비 59만명(0.48%) 줄었다고 발표했다. 반면 외국인 인구는 382만1000명으로 7.2% 늘었다.",
+          "why": "15세 미만 인구가 36만명 줄어드는 등 저출생이 계속되는 가운데 65세 이상 인구는 소폭 늘며 고령화가 함께 진행되고 있다.",
+          "soWhat": "정부는 \"이민정책은 취하지 않는다\"는 원칙을 유지하면서도 특정기능 등 외국인 노동자 수용 확대에 계속 의존할 수밖에 없는 상황이다.",
+          "context": {
+            "background": "일본의 출생아 수는 2025년 70만5809명으로 10년 연속 역대 최소를 경신하며 감소 속도가 정부 추계보다 17년 빠르게 진행되고 있다.",
+            "issueContext": "정부는 2028년까지 특정기능·기능실습 수용 상한을 123만명으로 설정하는 등 외국인 인력 의존도를 관리하려 하고 있다.",
+            "coreQuestion": "\"이민정책은 아니다\"라는 정부 원칙이 외국인 노동자 의존 확대와 계속 양립할 수 있을까요?",
+            "resolution": "정부는 특정기능 등 체류자격 확대로 노동력 부족에 대응하되 공식적인 이민정책 전환은 선을 긋고 있다."
+          },
+          "sources": [
+            { "name": "総務省統計局", "url": "https://www.stat.go.jp/data/jinsui/pdf/202608.pdf" }
+          ],
+          "related": {
+            "title": "「移民政策とらない」のに外国人労働者増 政府の建前が妨げる体制整備",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUA26C9C0W5A920C2000000/",
+            "type": "다름"
+          },
+          "topics": ["저출생", "인구감소", "이민", "고령화"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20260919-1",
           "date": "2026.09.19",
