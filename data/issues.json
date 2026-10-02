@@ -113,10 +113,130 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.01",
-      "period": "2026.09.30 08:00 ~ 2026.10.01 08:00",
-      "updatedAt": "2026.10.01 08:00 KST",
+      "latestDate": "2026.10.02",
+      "period": "2026.10.01 08:00 ~ 2026.10.02 08:00",
+      "updatedAt": "2026.10.02 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261002-1",
+          "date": "2026.10.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국민의힘, 중수청 청사 앞 의총…“졸속 출범에 사법 공백”",
+          "summary": "국민의힘이 검찰청 폐지 하루 전인 1일 중수청 청사 앞에서 현장 의원총회를 열고 보완수사권 폐지와 준비 부족을 비판했다. 중수청장·공소청장 등 수장 인선이 공석이라는 점도 지적했다.",
+          "why": "검찰청이 10월 2일 폐지되는데 새 기관의 청사와 수장 인선이 갖춰지지 않았다는 야당의 문제 제기다.",
+          "soWhat": "출범 직후 수사 공백 논란이 이어지면 인선과 보완수사 제도를 둘러싼 여야 공방이 국정감사까지 번질 수 있다.",
+          "context": {
+            "background": "수사와 기소를 분리하는 형사사법 개편에 따라 검찰청이 폐지되고 공소청과 중대범죄수사청이 신설된다.",
+            "issueContext": "야당은 청사 내부 공사가 끝나지 않았고 중수청장 등 수장 자리가 비어 있다고 지적한다.",
+            "coreQuestion": "새 수사·기소 체계는 준비 부족 논란 속에서도 수사 공백 없이 안착할 수 있을까요?",
+            "resolution": "정부·여당은 예정대로 10월 2일 출범을 진행하며, 수장 인선은 청문 절차를 거쳐 채워질 예정이다."
+          },
+          "sources": [{ "name": "노컷뉴스", "url": "https://nocutnews.co.kr/news/6585782" }],
+          "related": { "title": "78년 만에 역사 속으로…10월 2일 ‘검찰청’ 문 닫고 중수청·공소청 출범", "source": "세계일보", "url": "https://www.segye.com/newsView/20260928512081", "type": "다름" },
+          "topics": ["검찰개혁", "중수청", "공소청", "국민의힘"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261002-2",
+          "date": "2026.10.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "한병도 “CPTPP 가입, 농어민 대책 전 일방 추진 안 해”…농정특위 구성",
+          "summary": "한병도 민주당 원내대표가 1일 CPTPP 가입을 농어민 의견 수렴과 대책 마련 전에는 일방적으로 추진하지 않겠다고 밝혔다. 본인이 위원장을 맡는 농정특별위원회도 추진한다.",
+          "why": "CPTPP 가입 검토가 본격화되며 농림수산업 피해 우려가 커졌다.",
+          "soWhat": "농정특위의 대책 수준이 가입 협상 속도와 시점을 좌우할 수 있다.",
+          "context": {
+            "background": "정부와 여당이 CPTPP 가입을 검토하면서 농수산업 피해 보전 방안이 쟁점으로 떠올랐다.",
+            "issueContext": "가입 시 15년간 농림수산업 생산이 연평균 8,523억 원 줄 것이라는 추산이 나왔다.",
+            "coreQuestion": "경제 전체의 이익과 농어업 피해 보전을 함께 만족시키는 가입 방안이 나올 수 있을까요?",
+            "resolution": "여당은 농어민 의견을 수렴하고 대책을 마련하기 전에는 가입을 일방적으로 추진하지 않겠다는 입장이다."
+          },
+          "sources": [{ "name": "머니투데이", "url": "https://www.mt.co.kr/politics/2026/10/01/2026100109533378947" }],
+          "related": { "title": "韓 CPTPP 가입시 농수산 피해 15년간 최대 12조원", "source": "뉴스핌", "url": "https://www.newspim.com/news/view/20260930000961", "type": "다름" },
+          "topics": ["통상", "농업", "수산업", "무역협정"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261002-1",
+          "date": "2026.10.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "이형일 경제부총리 취임…“부동산·금융·외환 리스크 원점 재점검”",
+          "summary": "이형일 신임 경제부총리 겸 재정경제부 장관이 취임 첫날 실물경제와 부동산·금융·외환시장의 리스크를 원점에서 재점검하라고 주문했다. 물가 안정과 양극화 완화를 핵심 과제로 제시했다.",
+          "why": "경제 컨트롤타워 수장이 바뀌면서 정책 기조와 우선순위를 밝힐 필요가 있었다.",
+          "soWhat": "물가와 대미 투자 프로젝트 등 현안 대응이 새 경제팀의 첫 시험대가 된다.",
+          "context": {
+            "background": "경제부총리 교체로 새 경제팀이 출범했다.",
+            "issueContext": "취임식 없이 업무를 시작하며 잠재성장률 제고와 물가 안정을 첫 과제로 내놨다.",
+            "coreQuestion": "새 경제팀은 물가 안정과 성장 제고를 함께 이뤄낼 수 있을까요?",
+            "resolution": "이 부총리는 기존 정책을 흔들림 없이 추진하되 거시경제 분석·전망 역량을 높이라고 지시했다."
+          },
+          "sources": [{ "name": "EBN", "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1725431" }],
+          "related": { "title": "이형일, 취임 첫날 “부동산·금융·외환 리스크 원점 재점검”", "source": "헤럴드경제", "url": "https://biz.heraldcorp.com/article/10882438", "type": "유사" },
+          "topics": ["물가", "대미투자", "외환보유액", "경제개혁"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261002-2",
+          "date": "2026.10.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 수출 반도체가 절반…자동차·디스플레이·가전은 감소",
+          "summary": "9월 수출이 1,209억 달러로 사상 최대를 기록했지만 반도체 비중이 49.9%에 달했다. 반도체를 뺀 수출은 23% 늘었고 자동차는 5%, 디스플레이는 9%, 가전은 13% 줄었다.",
+          "why": "AI 인프라 투자 확대와 메모리 가격 상승이 반도체 수출을 끌어올렸다.",
+          "soWhat": "반도체 쏠림이 깊어질수록 업황 변동이 수출 전체의 변동성으로 이어질 수 있다.",
+          "context": {
+            "background": "올해 들어 반도체가 수출 증가를 주도해 왔다.",
+            "issueContext": "반도체 수출은 603억 달러로 단일 품목 첫 600억 달러를 넘은 반면 주요 제조업 품목은 부진했다.",
+            "coreQuestion": "반도체 편중 수출은 지속 가능한 성장 동력일까요, 아니면 위험 요인일까요?",
+            "resolution": "정부는 1~9월 누적 수출 8,145억 달러가 지난해 연간 실적을 넘어섰다고 발표했다."
+          },
+          "sources": [{ "name": "뉴스웨이", "url": "https://newsway.co.kr/news/view?ud=2026100116550608870" }],
+          "related": { "title": "쉼없는'반도체 질주'… 11월 중 '수출 1조달러' 고지 찍는다", "source": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202610011807411464", "type": "다름" },
+          "topics": ["수출", "반도체", "무역흑자", "자동차"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261002-1",
+          "date": "2026.10.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "제78주년 국군의 날 계룡대 기념식…현무-5·KF-21 등 첨단전력 공개",
+          "summary": "제78주년 국군의 날 기념식이 1일 충남 계룡대에서 ‘자주국방 실현! 대체불가 국군’을 주제로 열렸다. 대규모 장비 기동은 줄이고 AI 기반 첨단 과학기술군 비전과 국산 무기체계를 소개했다.",
+          "why": "행사 규모를 줄이는 대신 참여·체험형으로 바꾸고 국산 방산 역량을 알리려는 취지다.",
+          "soWhat": "자주국방과 K방산 메시지가 향후 국방 예산과 방산 수출 논의의 배경이 될 수 있다.",
+          "context": {
+            "background": "국군의 날 행사는 해마다 열리지만 올해는 대규모 장비 기동과 병력 동원을 줄였다.",
+            "issueContext": "이재명 대통령 등 3,600여 명이 참석했고 46종 70여 대의 무기체계가 등장했다.",
+            "coreQuestion": "자주국방 강화와 군 행사의 간소화는 함께 갈 수 있을까요?",
+            "resolution": "이 대통령은 기념식에 참석해 자주국방과 강력한 억지력을 강조했다."
+          },
+          "sources": [{ "name": "강원도민일보", "url": "https://www.kado.net/news/articleView.html?idxno=2075887" }],
+          "related": { "title": "이 대통령 참석한 국군의 날…계룡대서 펼쳐진 국군 첨단전력", "source": "뉴스후플러스", "url": "https://www.newswhoplus.com/news/articleView.html?idxno=70826", "type": "다름" },
+          "topics": ["국방", "자주국방", "무기수출", "이재명"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261002-2",
+          "date": "2026.10.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "10월 첫날 올가을 가장 쌀쌀…낮 기온 하루 새 5도 하락",
+          "summary": "북쪽 찬 공기가 내려오며 10월 1일 전국 내륙 기온이 전날보다 5도가량 떨어졌다. 낮 최고기온은 20~25도로 올가을 들어 가장 쌀쌀했다.",
+          "why": "북쪽에서 찬 공기가 남하하고 바람까지 강해졌다.",
+          "soWhat": "중부 내륙은 일교차가 10~15도로 커져 건강 관리에 유의해야 한다.",
+          "context": {
+            "background": "전날 낮 최고기온은 26~30도로 늦더위가 이어졌다.",
+            "issueContext": "급격한 기온 변화와 강한 바람으로 체감온도가 더 낮았다.",
+            "coreQuestion": "이번 가을 추위는 일시적일까요, 당분간 이어질까요?",
+            "resolution": "기상청은 급격한 기온 변화에 따른 건강 관리를 당부했다."
+          },
+          "sources": [{ "name": "경향신문", "url": "https://www.khan.co.kr/article/202610010712001/" }],
+          "related": { "title": "10월 첫날 찬 바람에 기온 ‘뚝’…당분간 ‘가을 추위’", "source": "강원도민일보", "url": "https://www.kado.net/news/articleView.html?idxno=2075862", "type": "유사" },
+          "topics": ["기상청", "기상", "한파", "건강"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261001-1",
           "date": "2026.10.01",
@@ -9376,10 +9496,130 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.01",
-      "period": "2026.09.30 08:00 ~ 2026.10.01 08:00",
-      "updatedAt": "2026.10.01 08:00 KST",
+      "latestDate": "2026.10.02",
+      "period": "2026.10.01 08:00 ~ 2026.10.02 08:00",
+      "updatedAt": "2026.10.02 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261002-1",
+          "date": "2026.10.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "상원, 중간선거 전 마지막 회기 종료…주식거래 금지법·데이터센터법 불발",
+          "summary": "상원이 9월 30일 중간선거 전 마지막으로 휴회에 들어갔다. 공화당이 추진한 의원 주식거래 금지법과 데이터센터 전기요금 법안은 민주당이 막아 통과하지 못했다.",
+          "why": "공화당은 접전 지역 의원들에게 내세울 입법 성과가 필요했지만 민주당이 ‘실효 없는 법안’이라며 막았다.",
+          "soWhat": "양당 모두 새 입법 성과 없이 11월 선거를 치르게 돼 트럼프 지지율이 선거 변수로 부각된다.",
+          "context": {
+            "background": "하원을 통과한 두 법안에 대해 공화당 지도부가 절차 표결을 시도했다.",
+            "issueContext": "주식거래 금지법에는 유권자 신분 확인 의무 조항이 함께 붙어 있었다.",
+            "coreQuestion": "입법 성과 없이 치르는 중간선거에서 어느 당이 유리할까요?",
+            "resolution": "상원은 선거 이후까지 휴회하기로 했다."
+          },
+          "sources": [{ "name": "워싱턴포스트", "url": "https://washingtonpost.com/politics/2026/09/30/senate-leaves-town-until-after-midterms-final-bills-founder" }],
+          "related": { "title": "Senate Democrats sink 'toothless' stock trading ban, data center bill in last act before election recess", "source": "CNBC", "url": "https://cnbc.com/2026/09/30/senate-stock-trading-ban-data-center-election.html", "type": "반박" },
+          "topics": ["의회", "중간선거", "트럼프", "공화당"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261002-2",
+          "date": "2026.10.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "밀워키 G20 무역장관회의…트럼프 관세 그늘에 성과 없이 폐막",
+          "summary": "G20 무역장관들이 위스콘신 밀워키에서 이틀간 회의를 열었지만 미국발 관세 갈등을 풀 돌파구는 나오지 않았다. 강제노동 문제에서도 합의에 이르지 못했다.",
+          "why": "미국이 강제노동 대응 부족을 이유로 60개국에 새 관세를 부과해 각국이 미국 밖 협력을 모색하고 있다.",
+          "soWhat": "다자 무역 협력이 미국을 빼고 진행될 가능성이 커진다.",
+          "context": {
+            "background": "연방대법원이 트럼프의 기존 관세를 일부 무효화한 뒤 행정부가 새 근거로 관세를 재부과했다.",
+            "issueContext": "캐나다는 미국 의존도를 줄이려 하며 미·캐나다 협상은 교착 상태다.",
+            "coreQuestion": "미국을 제외한 무역 협력 틀이 관세 충격을 흡수할 수 있을까요?",
+            "resolution": "회의는 큰 합의 없이 마무리됐다."
+          },
+          "sources": [{ "name": "프리 말레이시아 투데이", "url": "https://www.freemalaysiatoday.com/category/business/2026/09/30/g20-trade-ministers-open-talks-under-strain-of-trump-tariffs" }],
+          "related": { "title": "G20 trade ministers are meeting in Wisconsin. Many will be discussing deals without their U.S. host", "source": "CBC", "url": "https://www.cbc.ca/news/politics/g20-trade-ministers-meeting-summit-trump-tariffs-9.7363275", "type": "다름" },
+          "topics": ["관세", "무역", "캐나다", "트럼프"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261002-1",
+          "date": "2026.10.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "미 증시 10월 첫날 반등…국채금리 하락·반도체주 강세",
+          "summary": "다우·S&P500·나스닥이 10월 1일 국채금리 하락과 반도체주 강세에 힘입어 반등했다. 투자자들은 2일 발표되는 9월 고용보고서를 주시했다.",
+          "why": "24년 만의 고금리 부담 속에서도 기술주가 시장을 떠받쳤다.",
+          "soWhat": "고용보고서 결과가 연준의 추가 긴축 기대를 좌우할 수 있다.",
+          "context": {
+            "background": "연준이 9월에 금리를 올리며 긴축으로 돌아섰다.",
+            "issueContext": "시장은 9월 고용이 약 10만 명 증가할 것으로 예상했다.",
+            "coreQuestion": "고용 지표가 연준의 추가 인상 여부를 바꿔 놓을까요?",
+            "resolution": "10월 1일 미 증시 주요 지수는 장 초반부터 상승세를 보였다."
+          },
+          "sources": [{ "name": "야후 파이낸스", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-oct-1-dow-sp-500-nasdaq-080602402.html" }],
+          "related": { "title": "Stocks Up on Firm Tech Despite 24-Year Yield Highs", "source": "슈왑", "url": "https://www.schwab.com/learn/story/stock-market-update-open", "type": "유사" },
+          "topics": ["나스닥", "다우", "연준", "국채금리"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261002-2",
+          "date": "2026.10.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "미 국채금리 24년 만의 최고…에너지發 인플레 우려",
+          "summary": "미 10년물 금리가 5.33%, 30년물이 5.67%까지 올라 24년 만의 최고 수준을 기록했다. 에너지 가격에서 비롯된 인플레이션 우려가 긴축 기대를 키웠다.",
+          "why": "유가 상승이 물가 압력을 키우며 추가 금리 인상 가능성이 거론된다.",
+          "soWhat": "기업·가계 대출 비용 부담이 커지고 위험자산이 흔들릴 수 있다.",
+          "context": {
+            "background": "연준은 9월에 금리를 3.75~4.00%로 올렸다.",
+            "issueContext": "금리 상승은 달러 강세와 아시아 통화 약세로 이어지고 있다.",
+            "coreQuestion": "국채금리 급등은 인플레이션 우려를 반영한 것일까요, 긴축 과잉에 대한 경고일까요?",
+            "resolution": "10월 추가 인상 기대는 냉각된 PCE 지표로 39% 수준으로 낮아졌다."
+          },
+          "sources": [{ "name": "FXStreet", "url": "https://www.fxstreet.com/news/us-treasury-yields-hit-24-year-highs-amid-energy-driven-inflation-concerns-202610010841" }],
+          "related": { "title": "US 10-year Treasury yield hits 24-year high above 5.30%", "source": "인베즈", "url": "https://invezz.com/news/2026/09/30/us-10-year-treasury-yield-hits-24-year-high-above-5-30/", "type": "유사" },
+          "topics": ["국채금리", "인플레이션", "유가", "연준"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261002-1",
+          "date": "2026.10.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "오픈AI, 안전 기준 미달로 차기 모델 출시 포기",
+          "summary": "오픈AI가 GPT-6.1 Astra가 자사 안전 기준을 충족하지 못한다며 출시하지 않기로 했다. 연례 개발자 행사 하루 전에 나온 발표다.",
+          "why": "AI 업계에서 첨단 모델의 안전성에 대한 우려가 커지고 있다.",
+          "soWhat": "다른 AI 기업의 출시 판단과 규제 논의에도 영향을 줄 수 있다.",
+          "context": {
+            "background": "트럼프와 주요 AI 기업 수장들이 자발적 안전 협약에 서명했다.",
+            "issueContext": "오픈AI는 개발자 행사에서 20여 개 제품을 공개했다.",
+            "coreQuestion": "자율적 안전 기준은 AI 경쟁 속에서도 지켜질 수 있을까요?",
+            "resolution": "오픈AI는 해당 모델 대신 다른 모델을 개발자 행사에서 공개했다."
+          },
+          "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/09/28/openai-abandons-plan-to-release-upcoming-model-as-safety-concerns-escalate.html" }],
+          "related": { "title": "Everything That Happened in AI Today (Wednesday, September 30, 2026)", "source": "더 뉴런", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-september-30-2026/", "type": "다름" },
+          "topics": ["오픈AI", "AI안전", "AI", "규제"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261002-2",
+          "date": "2026.10.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "연방대법원 새 회기 10월 5일 개막…기후소송·이민 사건 첫 심리",
+          "summary": "연방대법원이 10월 5일 새 회기를 시작해 첫 2주간 7개 사건을 심리한다. 기후변화 책임, 이민자 구금, 디지털 프라이버시 등이 포함된다.",
+          "why": "새 회기를 앞두고 대법원 일정이 공개됐다.",
+          "soWhat": "기후소송 결과에 따라 오염 기업 책임 추궁 가능성이 달라질 수 있다.",
+          "context": {
+            "background": "대법원은 매년 10월 첫째 월요일에 새 회기를 연다.",
+            "issueContext": "2026-27 회기에는 수정헌법 2조, 종교의 자유, 선거법 등도 다뤄질 전망이다.",
+            "coreQuestion": "보수 우위 대법원은 기후소송에서 어떤 판단을 내릴까요?",
+            "resolution": "10월 5일 Suncor 대 볼더 카운티 사건 구두변론이 예정돼 있다."
+          },
+          "sources": [{ "name": "뉴스위크", "url": "https://www.newsweek.com/supreme-court-major-cases-docket-october-list-12289142" }],
+          "related": { "title": "Previewing the 2026-2027 Supreme Court Term: Continuing the Rightward March", "source": "Center for American Progress", "url": "https://www.americanprogress.org/article/previewing-the-2026-2027-supreme-court-term-continuing-the-rightward-march/", "type": "다름" },
+          "topics": ["대법원", "기후", "이민", "소송"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261001-1",
           "date": "2026.10.01",
@@ -18681,10 +18921,130 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.01",
-      "period": "2026.09.30 08:00 ~ 2026.10.01 08:00",
-      "updatedAt": "2026.10.01 08:00 KST",
+      "latestDate": "2026.10.02",
+      "period": "2026.10.01 08:00 ~ 2026.10.02 08:00",
+      "updatedAt": "2026.10.02 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261002-1",
+          "date": "2026.10.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "미중, 3백억 달러 상호 관세 인하·AI 사고 소통 채널 합의",
+          "summary": "트럼프와 시진핑이 워싱턴 정상회담에서 무역 휴전을 2개월 연장해 2027년 1월 10일까지로 하고 3백억 달러 규모 상품의 관세를 서로 낮추기로 했다. AI 사고 대응 채널도 만들기로 했다.",
+          "why": "양국 모두 중간선거 전 관세 충격과 갈등 확대를 피하려는 계산이 맞아떨어졌다.",
+          "soWhat": "구체적 품목과 희토류·첨단칩 공급 약속은 비어 있어 이행 여부가 관건이다.",
+          "context": {
+            "background": "양국은 관세 휴전을 이어 오고 있었다.",
+            "issueContext": "합의 대상은 농산물·에너지 등 비핵심 품목이고 대만 문제는 해결되지 않았다.",
+            "coreQuestion": "이번 합의는 갈등 관리일까요, 경쟁 구도의 변화일까요?",
+            "resolution": "AI 관련 첫 회담은 11월로 예정돼 있다."
+          },
+          "sources": [{ "name": "더힐", "url": "https://thehill.com/homenews/administration/6112947-donald-trump-xi-jinping-tariffs/" }],
+          "related": { "title": "Trump, Xi wrap state visit centered on spectacle over substance. Here are the top takeaways", "source": "CNBC", "url": "https://www.cnbc.com/2026/09/25/trump-xi-summit-takeaways.html", "type": "반박" },
+          "topics": ["미중관계", "관세", "시진핑", "트럼프"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20261002-2",
+          "date": "2026.10.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 2026~30년 과학기술 전략…AI·반도체·양자·핵융합 자립 추진",
+          "summary": "중국의 2026~30년 기술 전략은 AI와 함께 반도체, 양자, 바이오, 뇌-컴퓨터 인터페이스, 핵융합을 핵심으로 꼽는다. 기술 자립을 강화하려는 방향이다.",
+          "why": "미국과의 기술 경쟁 속에서 핵심 기술 자립이 필요해졌다.",
+          "soWhat": "반도체와 AI 인프라 분야에서 국산 대체 투자가 더 빨라질 수 있다.",
+          "context": {
+            "background": "중국은 5개년 계획 단위로 산업 정책을 제시해 왔다.",
+            "issueContext": "AI뿐 아니라 양자·핵융합 등 미래 기술로 범위를 넓혔다.",
+            "coreQuestion": "기술 자립 전략은 미국의 견제를 넘어설 수 있을까요?",
+            "resolution": "세부 실행 계획은 아직 구체적으로 공개되지 않았다."
+          },
+          "sources": [{ "name": "비즈니스 스탠더드", "url": "https://www.business-standard.com/amp/technology/artificial-intelligence/beyond-ai-china-bets-on-quantum-chips-and-fusion-in-five-year-tech-plan-126092900659_1.html" }],
+          "related": { "title": "China’s Race to Leave Nvidia Behind", "source": "ETC Journal", "url": "https://etcjournal.com/2026/09/30/chinas-race-to-leave-nvidia-behind/", "type": "다름" },
+          "topics": ["5개년계획", "기술자립", "반도체", "양자컴퓨터"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261002-1",
+          "date": "2026.10.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국, 첫 주택 대출 이자 보조 첫 도입…10월 1일부터 시행",
+          "summary": "중국 정부가 10월 1일부터 첫 주택 구입용 신규 상업대출에 연 1%포인트 이자를 최대 5년간 보조한다. 중앙정부가 상업 주택담보대출을 보조하는 것은 처음이다.",
+          "why": "부동산 침체로 내수가 약해지자 국무원이 예고한 추가 정책이 구체화됐다.",
+          "soWhat": "지방 도시 주택 수요가 되살아날지가 부동산 안정의 관건이다.",
+          "context": {
+            "background": "국무원은 부동산·고용 안정을 위한 추가 정책을 예고했다.",
+            "issueContext": "대상은 120㎡ 이하, 150만 위안 이하 주택이며 보조 대출 한도는 가구당 100만 위안이다.",
+            "coreQuestion": "이자 보조만으로 부동산 수요를 되살릴 수 있을까요?",
+            "resolution": "제도는 1년간 시범 운영된다."
+          },
+          "sources": [{ "name": "차이신", "url": "https://www.caixinglobal.com/2026-09-29/beijing-steps-in-with-mortgage-subsidies-to-revive-housing-demand-102489811.html" }],
+          "related": { "title": "Three Takeaways from the Two Sets of Additional Policy Measures to Support Investment and the Property Market", "source": "CF40", "url": "https://cf40research.substack.com/p/three-takeaways-from-the-two-sets", "type": "다름" },
+          "topics": ["부동산", "대출", "주택", "경기부양"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261002-2",
+          "date": "2026.10.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "인민은행 PSL 금리 0.25%p 인하…구조적 통화완화 확대",
+          "summary": "중국 인민은행이 담보보완대출(PSL) 1년물 금리를 0.25%p 내려 1.5%로 낮추고 재대출 지원도 늘렸다. 투자와 부동산 시장 안정을 위한 두 묶음 정책의 일부다.",
+          "why": "성장 목표 달성을 위해 더 강한 정책이 필요하다는 판단이 나왔다.",
+          "soWhat": "시장은 더 강한 수요 부양 조치를 기대하고 있어 추가 조치 여부가 주목된다.",
+          "context": {
+            "background": "중국은 2024년 9월 이후 가장 큰 규모의 부양책을 내놨다.",
+            "issueContext": "정책 발표에도 9월 한 달 상하이종합지수는 3.61% 하락했다.",
+            "coreQuestion": "이번 부양책은 투자 심리를 되살릴 만큼 충분할까요?",
+            "resolution": "국무원은 실효성 있는 추가 정책 패키지를 내놓겠다고 밝혔다."
+          },
+          "sources": [{ "name": "BNN 블룸버그", "url": "https://www.bnnbloomberg.ca/business/international/2026/09/29/china-rolls-out-new-measures-to-bolster-its-property-sector-and-economy/" }],
+          "related": { "title": "China Subsidizes Mortgage Interest for First-Time Homebuyers", "source": "서울경제", "url": "https://en.sedaily.com/international/2026/09/30/china-subsidizes-mortgage-interest-for-first-time-homebuyers", "type": "유사" },
+          "topics": ["인민은행", "통화정책", "경기부양", "부동산"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261002-1",
+          "date": "2026.10.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "딥시크, 화웨이 어센드용 오픈소스 도구 공개…엔비디아 CUDA 대안",
+          "summary": "딥시크가 화웨이 어센드 AI 칩용 무료 오픈소스 도구 묶음을 공개했다. 핵심인 TileLang은 엔비디아 CUDA를 대체하려는 프로그래밍 언어다.",
+          "why": "엔비디아 소프트웨어 생태계 의존을 줄이려는 중국 AI 업계의 흐름이다.",
+          "soWhat": "엔비디아 GPU 없이 대형 모델을 훈련·구동할 수 있는 길이 넓어질 수 있다.",
+          "context": {
+            "background": "중국은 미국 칩 수출 규제 속에서 국산 AI 칩을 키워 왔다.",
+            "issueContext": "하드웨어뿐 아니라 CUDA 같은 소프트웨어 계층의 대체가 관건이었다.",
+            "coreQuestion": "오픈소스 도구가 CUDA 중심 생태계를 대체할 수 있을까요?",
+            "resolution": "도구는 DeepGEMM, DeepEP, FlashMLA 등과 함께 공개됐다."
+          },
+          "sources": [{ "name": "The Next Web", "url": "https://thenextweb.com/news/deepseek-huawei-ascend-tilelang-open-source-cuda" }],
+          "related": { "title": "China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips", "source": "The Decoder", "url": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/", "type": "유사" },
+          "topics": ["화웨이", "엔비디아", "오픈소스", "AI"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261002-2",
+          "date": "2026.10.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "국경절 연휴 연인원 21억 명 이동 전망…일본행은 감소",
+          "summary": "중국 정부는 국경절 연휴 기간 연인원 21억 3천만 명이 이동하고 첫날에만 3억 4천만 명이 움직일 것으로 예상했다. 해외 인기 여행지 상위 10위에 일본은 들지 못했다.",
+          "why": "일중 관계 악화가 중국인의 일본 여행 수요에 영향을 주고 있다.",
+          "soWhat": "일본 관광·소비 업계는 중국인 방문객 감소를 감안해야 한다.",
+          "context": {
+            "background": "예년에는 일본이 중국인 해외여행지 1위를 다퉜다.",
+            "issueContext": "올해는 인도네시아·튀르키예·한국 등이 상위권이다.",
+            "coreQuestion": "중국인의 일본 여행 감소는 일시적 현상일까요, 구조적 변화일까요?",
+            "resolution": "정부는 고속도로에 급속 충전설비 1만 곳 이상을 새로 설치했다."
+          },
+          "sources": [{ "name": "NHK", "url": "https://news.web.nhk/newsweb/na/nd-20260930de53487" }],
+          "related": { "title": "中国「国慶節」大型連休始まる/国際/社会総合", "source": "デイリースポーツ", "url": "https://www.daily.co.jp/society/world/2026/10/01/0020879407.shtml", "type": "유사" },
+          "topics": ["국경절", "관광", "중일관계", "인바운드"],
+          "review": "pending"
+        },
         {
           "id": "cn-eco-20261001-1",
           "date": "2026.10.01",
@@ -27874,10 +28234,130 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.01",
-      "period": "2026.09.30 08:00 ~ 2026.10.01 08:00",
-      "updatedAt": "2026.10.01 08:00 KST",
+      "latestDate": "2026.10.02",
+      "period": "2026.10.01 08:00 ~ 2026.10.02 08:00",
+      "updatedAt": "2026.10.02 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261002-1",
+          "date": "2026.10.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 “재원 확실히 확보…국민 생활에 마이너스 없다”",
+          "summary": "다카이치 총리가 1일 닛폰TV 보도 프로그램에서 재원을 확실히 확보하며 재정을 운영해 국민 생활에 마이너스 영향이 없을 것이라고 강조했다.",
+          "why": "임시국회 소집을 앞두고 경제·재정 정책의 신뢰를 확보하려는 발언이다.",
+          "soWhat": "재원 설명의 구체성이 임시국회 예산·감세 논의의 쟁점이 될 수 있다.",
+          "context": {
+            "background": "다카이치 정권은 경제재정 정책을 국정 핵심으로 내세워 왔다.",
+            "issueContext": "시장 금리 상승 속에서 재정 운영에 대한 우려가 이어진다.",
+            "coreQuestion": "재원 확보와 국민 생활 보호를 동시에 이룰 수 있을까요?",
+            "resolution": "정부는 시장 동향에 기동적으로 대응하겠다는 방침을 소신표명 원안에 담았다."
+          },
+          "sources": [{ "name": "NHK", "url": "https://news.web.nhk/newsweb/na/nd-20261001de53714" }],
+          "related": { "title": "高市首相、市場動向に機動的対応 所信表明演説の原案", "source": "日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOUA304L90Q6A930C2000000/", "type": "다름" },
+          "topics": ["다카이치", "재정", "국채금리", "임시국회"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261002-2",
+          "date": "2026.10.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "제2차 다카이치 개조내각 지지율 59%…석 달 만에 상승",
+          "summary": "요미우리·NNN 긴급 여론조사에서 제2차 다카이치 개조내각 지지율이 59%로 전월보다 3%포인트 올랐다. 개각·당 간부 인사를 ‘평가한다’는 응답은 52%였다.",
+          "why": "유신회 의원의 첫 입각 등 개각이 비교적 긍정적으로 받아들여졌다.",
+          "soWhat": "높은 지지율은 임시국회에서 정권의 협상력을 뒷받침한다.",
+          "context": {
+            "background": "9월 17일 개조내각이 출범하며 유신회가 처음 입각했다.",
+            "issueContext": "유신회 입각을 ‘평가한다’는 응답은 59%에 달했다.",
+            "coreQuestion": "높은 지지율은 정권 운영의 동력으로 이어질까요?",
+            "resolution": "다른 조사에서도 지지율은 60% 안팎을 유지했다."
+          },
+          "sources": [{ "name": "라이브도어뉴스", "url": "https://news.livedoor.com/topics/detail/32363912/" }],
+          "related": { "title": "9月世論調査 高市内閣支持率62％ 改造内閣・自民新執行部 「評価する」49％", "source": "YouTube(テレ東・日経)", "url": "https://www.youtube.com/watch?v=_ny24Od5aM4", "type": "유사" },
+          "topics": ["다카이치", "지지율", "유신회", "내각"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261002-1",
+          "date": "2026.10.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "재무성 “최근 1개월 환율 개입 0엔”…엔, 9월 152~160엔대 등락",
+          "summary": "재무성이 30일 최근 1개월 외환 개입액이 0엔이었다고 공표했다. 엔은 9월 2일 160.39엔을 찍은 뒤 급등해 8일 152엔대까지 올랐다.",
+          "why": "일본은행의 연속 금리 인상 관측으로 엔고가 진행됐다.",
+          "soWhat": "엔이 다시 약세로 돌면 개입 가능성과 10월 일본은행 회의가 변수가 된다.",
+          "context": {
+            "background": "일본 당국은 160엔 부근에서 엔화 매입 개입을 해 왔다.",
+            "issueContext": "미국 금리 상승으로 달러 강세가 다시 나타났다.",
+            "coreQuestion": "엔화 약세는 개입 없이 진정될 수 있을까요?",
+            "resolution": "일본은행의 10월 연속 인상 기대는 3할 정도다."
+          },
+          "sources": [{ "name": "블룸버그 재팬", "url": "https://www.bloomberg.com/jp/news/articles/2026-09-30/TM45AGKJH6VH00" }],
+          "related": { "title": "2026年ドル円見通し｜9月日銀会合で円安は止まるのか？", "source": "外為どっとコム", "url": "https://www.gaitame.com/media/entry/2026/09/07/081048", "type": "다름" },
+          "topics": ["엔화", "환율", "일본은행", "엔저"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261002-2",
+          "date": "2026.10.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "10월 주세 개편…맥주 감세, 발포주·츄하이 증세",
+          "summary": "10월 1일부터 맥주계 음료 세율이 350ml당 54.25엔으로 일원화됐다. 맥주는 약 9엔 내리고 발포주·신장르·츄하이는 약 7엔 오른다.",
+          "why": "세율 체계를 통일하는 주세법 개정이 시행됐다.",
+          "soWhat": "저가 주류 선택지가 바뀌고 제조사 판매 전략도 달라질 전망이다.",
+          "context": {
+            "background": "맥주계 음료는 종류별로 세율이 달랐다.",
+            "issueContext": "‘기타 발포성 주류’ 세율이 올라 캔 츄하이가 증세 대상이 됐다.",
+            "coreQuestion": "세율 일원화는 소비자 선택과 업계 구도를 어떻게 바꿀까요?",
+            "resolution": "개정은 10월 1일부터 시행됐다."
+          },
+          "sources": [{ "name": "비즈니스 저널", "url": "https://biz-journal.jp/company/post_396087.html" }],
+          "related": { "title": "【2026年10月】酒税法改正でビールが値下げ？お酒の値段変更一覧と大手4社の生き残り戦略", "source": "ダイヤモンド・ベンチャー", "url": "https://www.diamondv.jp/article/dcG7zYEy6fV6qozPqSoCx4", "type": "다름" },
+          "topics": ["소비세", "소비", "유통", "물가"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261002-1",
+          "date": "2026.10.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "태풍 26호 이즈 제도 접근…간토 산사태·침수 주의",
+          "summary": "태풍 26호가 10월 1일에 걸쳐 이즈 제도에 접근해 간토 고신 지역에 산사태와 침수 주의가 당부됐다. 하치조지마와 아오가시마 등 남부 섬에서 비바람이 강해질 전망이었다.",
+          "why": "태풍이 일본 남쪽 해상에서 북동진하며 이즈 제도에 접근했다.",
+          "soWhat": "접근 후에는 일본에 미치는 영향이 점차 약해질 전망이다.",
+          "context": {
+            "background": "9월 30일 오전 태풍은 중심기압 1000hPa로 북동진 중이었다.",
+            "issueContext": "비구름이 간토 쪽에도 닿아 호우 위험이 거론됐다.",
+            "coreQuestion": "이즈 제도와 간토는 태풍 접근 때 피해를 피할 수 있을까요?",
+            "resolution": "기상 당국은 접근 이후 영향이 줄어들 것으로 내다봤다."
+          },
+          "sources": [{ "name": "닛케이", "url": "https://www.nikkei.com/article/DGXZQOUD300W10Q6A930C2000000/" }],
+          "related": { "title": "台風26号(スリゲ) 伊豆諸島に接近 今日30日(水)から大雨や暴風に警戒", "source": "ウェザーニュース", "url": "https://weathernews.jp/news/202609/300051/", "type": "유사" },
+          "topics": ["태풍", "방재", "산사태", "침수"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261002-2",
+          "date": "2026.10.02",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "10월 가격 인상 잇따라…가열식 담배·우편 요금·도쿄가스 기본요금 개정",
+          "summary": "10월 1일부터 가열식 담배가 상표별로 한 갑 20~40엔 오르고 유팩 등 일본우편 요금도 개정됐다. 도쿄가스는 46년 만에 기본요금을 바꿨다.",
+          "why": "세제 개편과 비용 상승이 겹쳐 생활 물가 항목이 한꺼번에 조정됐다.",
+          "soWhat": "가계는 식품 가격 인상과 함께 생활 요금 부담이 커진다.",
+          "context": {
+            "background": "해마다 10월에 가격 인상 품목이 몰린다.",
+            "issueContext": "식품은 약 3천 개 품목이 오르는 것으로 집계됐다.",
+            "coreQuestion": "연이은 가격 인상이 소비 심리를 얼마나 꺾을까요?",
+            "resolution": "개정은 10월 1일부터 일제히 적용됐다."
+          },
+          "sources": [{ "name": "머니프로", "url": "https://money-pro.net/price-increase/202610neage1/" }],
+          "related": { "title": "【2026年10月最新】値上げ一覧｜食品3,033品目・日用品は何が上がる？", "source": "パパマママネー", "url": "https://papamamamoney.com/trend/2026-october-price-increase/", "type": "유사" },
+          "topics": ["물가", "소비", "인플레이션", "요금"],
+          "review": "pending"
+        },
         {
           "id": "jp-eco-20261001-1",
           "date": "2026.10.01",
