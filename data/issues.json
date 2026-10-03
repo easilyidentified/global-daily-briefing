@@ -113,10 +113,110 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.02",
-      "period": "2026.10.01 08:00 ~ 2026.10.02 08:00",
-      "updatedAt": "2026.10.02 08:00 KST",
+      "latestDate": "2026.10.03",
+      "period": "2026.10.02 08:00 ~ 2026.10.03 08:00",
+      "updatedAt": "2026.10.03 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261003-1",
+          "date": "2026.10.03",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "검찰청 폐지 첫날…중수청·공소청, 수장도 인력도 다 못 채우고 출발",
+          "summary": "78년 만에 검찰청이 폐지되고 2일 중수청과 공소청이 공식 업무를 시작했다. 두 기관 모두 수장 없이 출발했고 중수청은 정원의 3분의 2 정도만 채웠다.",
+          "why": "형사사법 개편 일정에 맞춰 기관 출범이 강행되면서 인선과 전산망 등 준비가 뒤따르지 못했다.",
+          "soWhat": "초기 혼선이 길어지면 수사·기소 공백 논란과 인선을 둘러싼 여야 공방이 국정감사로 이어질 수 있다.",
+          "context": {
+            "background": "수사와 기소를 분리하는 형사사법 개편에 따라 검찰청이 폐지되고 공소청과 중대범죄수사청이 신설됐다.",
+            "issueContext": "전산망이 구축되지 않아 고소장을 서류로 접수하는 등 현장 혼선이 보도됐고, 공소청장·중수청장·경찰청장이 공석이다.",
+            "coreQuestion": "새 수사·기소 체계는 초기 혼선을 넘어 공백 없이 안착할 수 있을까요?",
+            "resolution": "정부는 예정대로 출범을 진행했으며 수장 인선과 인프라 구축은 순차적으로 진행 중이다."
+          },
+          "sources": [{ "name": "경향신문", "url": "https://www.khan.co.kr/article/202610021546001/" }],
+          "related": { "title": "중수청, 공소청 내걸린 간판…인력도 수장도 없이 일단 출발", "source": "헤럴드경제", "url": "https://biz.heraldcorp.com/article/10891852", "type": "반박" },
+          "topics": ["검찰개혁", "중수청", "공소청", "국회"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261003-2",
+          "date": "2026.10.03",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국정감사 6일 개시…국민의힘은 장외 대회, 여야 ‘팩트 전쟁’ 예고",
+          "summary": "2026년도 국정감사가 6일부터 25일간 진행되며 대상 기관은 846곳이다. 국민의힘은 3일 서울에서 장외 국민행동대회를 열어 정부를 압박한다.",
+          "why": "국감을 앞두고 야당이 장외 여론전과 원내 공세를 병행하며 정국 주도권을 잡으려 한다.",
+          "soWhat": "검찰청 폐지와 경제 현안을 둘러싼 여야 충돌이 국감 기간 내내 이어질 가능성이 크다.",
+          "context": {
+            "background": "국정감사는 매년 가을 국회가 행정부를 점검하는 절차로, 올해는 대상 기관이 지난해보다 36곳 늘었다.",
+            "issueContext": "국민의힘은 거리 집회와 국감을 오가는 이원 전략을 택했고 여당은 정책 성과를 부각하려 한다.",
+            "coreQuestion": "장외 투쟁과 국감 공세를 병행하는 야당의 전략이 여론에 통할까요?",
+            "resolution": "국감은 예정대로 6일 시작하며 국회사무처가 종합상황실을 가동한다."
+          },
+          "sources": [{ "name": "뉴스핌", "url": "https://www.newspim.com/news/view/20261002000833" }],
+          "related": { "title": "거리로 나간 국힘, 국감선 '팩트 전쟁'…장동혁 승부수 통할까", "source": "이투데이", "url": "https://www.etoday.co.kr/news/view/2632058", "type": "다름" },
+          "topics": ["국회", "국정감사", "국민의힘", "여야갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261003-1",
+          "date": "2026.10.03",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피, 기관 막판 매수에 5거래일 만에 7000선 탈환…환율 1350.6원",
+          "summary": "코스피가 2일 0.46% 오른 7003.74에 마감하며 7000선을 되찾았다. 원·달러 환율은 7.8원 내린 1350.6원에 거래를 마쳤다.",
+          "why": "장 초반 미 국채금리 불안으로 밀렸으나 장 막판 기관이 3,814억 원을 순매수해 낙폭을 만회했다.",
+          "soWhat": "개인 매도가 이어지는 가운데 기관 수급이 지수 방향을 좌우하는 흐름이 연휴 이후에도 이어질지가 관건이다.",
+          "context": {
+            "background": "코스피는 7000선 안팎에서 등락을 거듭해 왔다.",
+            "issueContext": "개인이 1조 7천억 원대를 팔았고 외국인도 1,367억 원 순매도했다.",
+            "coreQuestion": "기관 매수만으로 7000선을 지켜낼 수 있을까요?",
+            "resolution": "지수는 강보합으로 마감했고 코스닥은 0.11% 하락했다."
+          },
+          "sources": [{ "name": "머니투데이", "url": "https://www.mt.co.kr/stock/2026/10/02/2026100216085371801" }],
+          "related": { "title": "개미 1.7조 투매에도…코스피 7000선 회복 마감 [시황]", "source": "데일리안", "url": "https://www.dailian.co.kr/news/view/1697497/%EA%B0%9C%EB%AF%B8-17%EC%A1%B0-%ED%88%AC%EB%A7%A4%EC%97%90%EB%8F%84%EC%BD%94%EC%8A%A4%ED%94%BC-7000%EC%84%A0-2026", "type": "다름" },
+          "topics": ["코스피", "증시", "환율", "국채금리"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261003-2",
+          "date": "2026.10.03",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 수출 1209억 달러 역대 최대…반도체 첫 600억 달러 돌파",
+          "summary": "9월 수출이 전년 대비 83.5% 늘어난 1209억 달러로 월간 사상 최대를 기록했다. 반도체 수출은 603억 달러로 처음 600억 달러를 넘었다.",
+          "why": "반도체 수출이 전년 동기 대비 262.8% 급증하며 전체 수출을 끌어올렸다.",
+          "soWhat": "반도체 쏠림이 더 커져 업황 변동이 무역수지와 환율에 미치는 영향도 커졌다.",
+          "context": {
+            "background": "올해 1~9월 누적 수출은 8145억 달러로 지난해 연간 수출액을 이미 넘어섰다.",
+            "issueContext": "9월 무역수지는 498억 5천만 달러 흑자로 월간 처음 400억 달러를 넘겼다.",
+            "coreQuestion": "반도체 중심의 수출 호황은 지속 가능할까요?",
+            "resolution": "산업통상부는 1일 9월 수출입 동향을 발표했다."
+          },
+          "sources": [{ "name": "머니투데이", "url": "https://www.mt.co.kr/economy/2026/10/01/2026100109004992929" }],
+          "related": { "title": "[투데이e코노믹] 9월 수출 1209억 달러 '역대 최대'... 반도체가 쌓은 기록, 그 뒤에 남은 숙제", "source": "투데이e코노믹", "url": "https://www.todayeconomic.com/news/article.html?no=32313", "type": "반박" },
+          "topics": ["수출", "반도체", "무역", "제조업"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261003-1",
+          "date": "2026.10.03",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "온열질환자는 줄었는데 사망자는 역대 2위…‘폭염의 역설’",
+          "summary": "질병관리청 감시체계에 따르면 올여름 온열질환자는 4,066명으로 줄었지만 사망자는 36명으로 2018년 다음으로 많았다.",
+          "why": "환자 수는 줄었어도 중증·고령 환자 비중이 커 사망으로 이어진 사례가 많았다.",
+          "soWhat": "단순 환자 수 중심의 폭염 대응에서 고위험군 중심 대책으로 전환하라는 요구가 커질 수 있다.",
+          "context": {
+            "background": "올여름 한반도는 기록적인 폭염을 겪었고 경남 양산에서는 2일 42.5℃가 관측됐다.",
+            "issueContext": "환자 감소와 사망 증가가 엇갈리면서 방역 지표 해석이 논란이다.",
+            "coreQuestion": "환자 수 감소를 폭염 대응의 성과로 볼 수 있을까요, 아니면 고위험군 보호의 실패로 봐야 할까요?",
+            "resolution": "질병관리청은 감시 결과를 공개했으며 대응 체계 보완이 과제로 남았다."
+          },
+          "sources": [{ "name": "서울신문", "url": "https://seoul.co.kr/news/society/health-medical/2026/10/02/20261002500124" }],
+          "related": { "title": "온열질환자 줄었는데 사망은 급증… 2026년 '역대 두 번째 비상'의 역설", "source": "의약일보", "url": "https://medicaldaily.co.kr/post/121488", "type": "유사" },
+          "topics": ["폭염", "온열질환", "보건", "기후"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261002-1",
           "date": "2026.10.02",
@@ -9496,10 +9596,90 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.02",
-      "period": "2026.10.01 08:00 ~ 2026.10.02 08:00",
-      "updatedAt": "2026.10.02 08:00 KST",
+      "latestDate": "2026.10.03",
+      "period": "2026.10.02 08:00 ~ 2026.10.03 08:00",
+      "updatedAt": "2026.10.03 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261003-1",
+          "date": "2026.10.03",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "미 대법원, 이민자 의무 구금 정책 심리 착수",
+          "summary": "미 연방대법원이 보석 심리 없이 이민자를 구금하는 트럼프 행정부의 의무 구금 해석을 심리하기로 했다. 변론은 2027년 초, 판결은 여름께 나올 전망이다.",
+          "why": "불법 입국 이민자를 전원 구금하는 행정부의 새로운 법 해석을 둘러싸고 하급심 판단이 엇갈렸다.",
+          "soWhat": "판결 결과에 따라 추방 정책의 핵심 수단인 구금 관행이 유지되거나 제동이 걸린다.",
+          "context": {
+            "background": "행정부는 허가 없이 입국한 이민자를 범죄 이력과 무관하게 구금해 왔다.",
+            "issueContext": "수년간 미국에 거주한 이민자에게도 보석 심리 없이 구금이 적용되는 것이 쟁점이다.",
+            "coreQuestion": "장기 거주 이민자를 보석 심리 없이 구금하는 것이 이민법상 허용될까요?",
+            "resolution": "대법원이 사건 심리를 받아들였고 변론기일을 기다리는 단계다."
+          },
+          "sources": [{ "name": "PBS NewsHour", "url": "https://www.pbs.org/newshour/politics/supreme-court-grants-review-of-trump-administrations-mandatory-detention-policy-for-immigrants" }],
+          "related": { "title": "Supreme Court to hear challenge to detentions at heart of Trump's deportations", "source": "Washington Times", "url": "https://www.washingtontimes.com/news/2026/oct/1/supreme-court-hear-challenge-detentions-heart-trumps-deportations/", "type": "유사" },
+          "topics": ["이민", "대법원", "트럼프행정부", "소송"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261003-2",
+          "date": "2026.10.03",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 앨라배마 유세로 중간선거 막판 17개 주 공세 이어가",
+          "summary": "트럼프 대통령이 2일 앨라배마 모바일에서 중간선거 유세를 열고 터버빌 주지사 후보 등 공화당 후보를 지원했다. 11월 3일 선거까지 거의 매일 유세한다는 계획이다.",
+          "why": "낮은 지지율과 당내 비관론 속에서 지지층 결집이 급해졌다.",
+          "soWhat": "대통령 지지율이 하원·상원 경합 지역 판세에 부담이 될지가 선거 막판 최대 변수다.",
+          "context": {
+            "background": "공화당은 11월 3일 중간선거를 앞두고 17개 주 유세를 계획했다.",
+            "issueContext": "상원 공화당 일각에서는 트럼프가 선거 부담이 될 수 있다는 우려를 내놓는다.",
+            "coreQuestion": "대통령의 직접 유세가 지지층을 결집시킬까요, 중도층을 이탈시킬까요?",
+            "resolution": "백악관은 선거일까지 유세 강행군을 이어갈 방침이다."
+          },
+          "sources": [{ "name": "PBS NewsHour", "url": "https://www.pbs.org/newshour/politics/watch-live-trump-holds-rally-in-alabama-as-he-tries-to-boost-up-midterm-enthusiasm" }],
+          "related": { "title": "Senate GOP sees Trump as potential liability in 2026 midterm election", "source": "The Hill", "url": "https://thehill.com/homenews/senate/6003165-senate-republicans-trump-political-liability-midterms/", "type": "반박" },
+          "topics": ["중간선거", "트럼프", "공화당", "지지율"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261003-1",
+          "date": "2026.10.03",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 미 고용 2.9만 명 증가에 그쳐…실업률 4.2%로 상승",
+          "summary": "9월 비농업 일자리가 2만 9천 개 늘어 전문가 예상(약 8만 4천 개)을 크게 밑돌았고 실업률은 4.2%로 올랐다. 7~8월 수치도 합계 6만 개 하향 수정됐다.",
+          "why": "노동시장 둔화가 예상보다 빠르게 나타났다.",
+          "soWhat": "연준의 10월 금리 인상 가능성이 낮아지고 정책 판단은 추가 지표에 달렸다.",
+          "context": {
+            "background": "연준은 금리 인상 가능성을 열어 둔 채 고용과 물가를 주시해 왔다.",
+            "issueContext": "최근 3개월 평균 증가폭은 5만 1천 명으로 균형 수준에 가깝다는 평가도 있다.",
+            "coreQuestion": "고용 둔화는 일시적 부진일까요, 경기 둔화의 신호일까요?",
+            "resolution": "시장은 연준이 10월에 금리를 동결할 것으로 기울었다."
+          },
+          "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html" }],
+          "related": { "title": "September Jobs Report: Fed Hiked Into Headwinds After BLS Revises Away 60,000 Prior Jobs", "source": "TechTimes", "url": "https://www.techtimes.com/articles/328483/20261002/september-jobs-report-fed-hiked-headwinds-after-bls-revises-away-60000-prior-jobs.htm", "type": "다름" },
+          "topics": ["고용", "연준", "금리", "통화정책"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261003-2",
+          "date": "2026.10.03",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "고용 부진에 연준 인상 기대 후퇴…다우·S&P·나스닥 기술주 주도 상승",
+          "summary": "약한 고용지표로 연준의 10월 금리 인상 기대가 꺾이며 미 증시가 기술주 중심으로 올랐다. CME 페드워치의 인상 확률은 일주일 전 약 36%에서 17%로 떨어졌다.",
+          "why": "고용 부진이 금리 인상 압력을 덜어 준다는 해석이 시장에 퍼졌다.",
+          "soWhat": "연준의 10월 회의까지 물가 지표가 인상 논쟁을 다시 키울 수 있다.",
+          "context": {
+            "background": "금리 인상 가능성이 시장의 주요 불안 요인이었다.",
+            "issueContext": "2년물 국채금리는 7bp 내린 4.716%를 기록했다.",
+            "coreQuestion": "금리 인상 우려 후퇴가 증시 상승을 이어 가게 할까요?",
+            "resolution": "백악관 경제 참모는 추가 인상이 없을 것으로 내다봤다."
+          },
+          "sources": [{ "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-2-dow-sp-500-nasdaq-september-jobs-report-080623878.html" }],
+          "related": { "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report", "source": "CNBC", "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html", "type": "유사" },
+          "topics": ["증시", "연준", "국채금리", "금리"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261002-1",
           "date": "2026.10.02",
@@ -18921,10 +19101,90 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.02",
-      "period": "2026.10.01 08:00 ~ 2026.10.02 08:00",
-      "updatedAt": "2026.10.02 08:00 KST",
+      "latestDate": "2026.10.03",
+      "period": "2026.10.02 08:00 ~ 2026.10.03 08:00",
+      "updatedAt": "2026.10.03 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261003-1",
+          "date": "2026.10.03",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "시진핑, 국경절 연설서 자신감 강조…대만 독립 세력엔 경고",
+          "summary": "시진핑 주석이 건국 77주년 국경절 연설에서 도전을 이겨낼 자신감과 경제 성장을 강조했다. 대만 독립 세력에 대한 강경 경고도 함께 나왔다.",
+          "why": "지정학적 불확실성 속에서 대내 결집과 대만 압박 메시지를 동시에 내놓을 필요가 있었다.",
+          "soWhat": "10월 26~29일 당 중앙위 전체회의를 앞두고 대내외 노선 메시지가 구체화될 수 있다.",
+          "context": {
+            "background": "9월 30일 시 주석은 열사 기념일 헌화와 건국 기념 리셉션 연설에 참석했다.",
+            "issueContext": "연설에는 중국식 사회주의 제도의 우월성과 민족 부흥이라는 기조가 담겼다.",
+            "coreQuestion": "강경한 대만 메시지는 양안 긴장을 더 키울까요?",
+            "resolution": "중국은 일주일간 국경절 연휴 행사를 이어 간다."
+          },
+          "sources": [{ "name": "SCMP", "url": "https://www.scmp.com/news/china/politics/article/3369370/xi-projects-confidence-national-day-speech-rallying-call-economic-growth" }],
+          "related": { "title": "习近平国庆涉台讲话：“坚决打击”台独势力", "source": "禁闻网", "url": "https://www.bannedbook.org/bnews/headline/20261001/2365529.html", "type": "다름" },
+          "topics": ["시진핑", "대만", "양안관계", "국경절"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20261003-2",
+          "date": "2026.10.03",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 공산당, 10월 26~29일 중앙위 전체회의 개최…당 자체 혁명 의제",
+          "summary": "시진핑 주석이 주재한 정치국 회의가 중앙위원회 전체회의를 10월 26~29일 열기로 했다. 의제는 전면적이고 엄격한 당 통치의 지속 추진이다.",
+          "why": "당 기강 확립과 인사 정비를 위해 정례 전체회의 일정이 확정됐다.",
+          "soWhat": "회의 결과에 따라 군·당 고위직 인사와 반부패 기조의 방향이 가늠된다.",
+          "context": {
+            "background": "중국은 최근 군과 당 고위 인사 숙청이 이어져 왔다.",
+            "issueContext": "회의 주제가 당 자체 혁명에 맞춰져 있어 인사 변화 여부에 관심이 쏠린다.",
+            "coreQuestion": "이번 전체회의는 지도부 인사 변화로 이어질까요?",
+            "resolution": "일정만 공개됐고 구체적인 안건과 결과는 회의 이후 발표된다."
+          },
+          "sources": [{ "name": "U.S. News (Reuters)", "url": "https://www.usnews.com/news/world/articles/2026-09-21/chinas-xi-chairs-politburo-central-committee-plenum-set-for-october-26-29" }],
+          "related": { "title": "习近平失去五中定调权！胡春华为核心…国庆讲话露异常", "source": "禁闻网", "url": "https://www.bannedbook.org/bnews/sohnews/20261001/2365559.html", "type": "반박" },
+          "topics": ["시진핑", "정치국", "숙청", "반부패"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261003-1",
+          "date": "2026.10.03",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "황금연휴 여행은 사상 최대 규모지만 소비 심리는 신중",
+          "summary": "중국 교통운수부는 국경절 연휴 기간 연인원 약 21억 3천만 건의 이동을 예상했다. 하지만 디플레이션 압력 속에 1인당 지출은 낮은 수준에 머물 것으로 전망된다.",
+          "why": "여행 수요는 회복됐으나 가계가 지갑을 여는 데는 신중하다.",
+          "soWhat": "소비 부진이 이어지면 내수 부양책 압력이 커진다.",
+          "context": {
+            "background": "올해는 중추절과 국경절이 이어져 13일 연휴가 만들어졌다.",
+            "issueContext": "지난해 연휴 1인당 지출은 3년 내 최저인 911위안이었다.",
+            "coreQuestion": "여행 호황은 소비 회복으로 이어질까요?",
+            "resolution": "당국은 연휴 소비 동향을 지켜보며 내수 대책을 검토 중이다."
+          },
+          "sources": [{ "name": "The Star", "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/29/china039s-golden-week-travel-surge-masks-cautious-consumer-spending" }],
+          "related": { "title": "Cautious consumer spending suggests few spoils for China's Golden Week", "source": "Inside Retail Asia", "url": "https://insideretail.asia/2026/09/30/cautious-consumer-spending-suggests-few-spoils-for-chinas-golden-week/", "type": "유사" },
+          "topics": ["소비", "내수", "경기부양", "물가"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261003-2",
+          "date": "2026.10.03",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 9월 제조업 PMI 50.1로 확장 복귀…생산지수 51.7",
+          "summary": "중국 9월 제조업 PMI가 8월 49.8에서 50.1로 올라 확장 국면에 복귀했다. 생산지수는 51.7로 9개월 만의 최고치다.",
+          "why": "외수 중심의 제조업 호조가 지수를 끌어올렸다.",
+          "soWhat": "수출 호조가 이어지면 무역흑자가 사상 최대를 경신할 수 있다.",
+          "context": {
+            "background": "미중은 관세 휴전을 내년 1월까지 연장한 상태다.",
+            "issueContext": "위안화는 52주 범위 강세권인 6.776 수준이다.",
+            "coreQuestion": "수출 중심 회복이 내수 부진을 메울 수 있을까요?",
+            "resolution": "10월 공식 PMI는 이달 말 발표된다."
+          },
+          "sources": [{ "name": "DTN", "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/09/30/factory-activity-returns-expansion" }],
+          "related": { "title": "China's economic policy holds line as growth weakens", "source": "MERICS", "url": "https://merics.org/en/tracker/chinas-economic-policy-holds-line-growth-weakens", "type": "반박" },
+          "topics": ["제조업", "수출", "미중관계", "무역"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261002-1",
           "date": "2026.10.02",
@@ -28234,10 +28494,110 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.02",
-      "period": "2026.10.01 08:00 ~ 2026.10.02 08:00",
-      "updatedAt": "2026.10.02 08:00 KST",
+      "latestDate": "2026.10.03",
+      "period": "2026.10.02 08:00 ~ 2026.10.03 08:00",
+      "updatedAt": "2026.10.03 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261003-1",
+          "date": "2026.10.03",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "자민당, 중의원 정수 삭감 처리 늦추는 방안…소비 감세 논의 영향 우려",
+          "summary": "자민당 안에서 중의원 정수 삭감 법안 처리를 미루자는 신중론이 나왔다. 소비세 감세 논의에 영향을 주지 않으려는 판단이다.",
+          "why": "다카이치 총리가 소비세 감세를 비원으로 삼고 있어 야당과의 협조가 중요해졌다.",
+          "soWhat": "정수 삭감 법안은 가을 임시국회로 넘어가 연립 파트너 유신회와 갈등할 수 있다.",
+          "context": {
+            "background": "자민당과 유신회는 비례 45석 삭감 법안을 제출했다.",
+            "issueContext": "야당 반발이 강해 처리 기한이 9월 말에서 10월 말로 미뤄졌다.",
+            "coreQuestion": "정수 삭감과 소비 감세를 함께 추진할 수 있을까요?",
+            "resolution": "법안은 계속 심의 안건이 됐고 임시국회에서 결론을 내기로 했다."
+          },
+          "sources": [{ "name": "시사통신", "url": "https://www.jiji.com/jc/article?k=2026100200980&g=pol&m=rss" }],
+          "related": { "title": "衆院定数削減法案は継続審議/自民が野党に伝達 塩川氏が廃案主張", "source": "しんぶん赤旗", "url": "https://www.jcp.or.jp/akahata/aik26/2026-07-09/2026070902_02_0.php", "type": "반박" },
+          "topics": ["다카이치", "자민당", "소비세", "국회"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261003-2",
+          "date": "2026.10.03",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 외교부, 다카이치 총리 직함 빼고 이름만 호칭…의도적 분석",
+          "summary": "중국 외교부 궈자쿤 부대변인이 9월 30일 회견에서 직함 없이 ‘다카이치 사나에’라고만 불렀다. 홍콩 매체는 의도적이라고 분석했다.",
+          "why": "고이즈미 방위상의 핵 관련 논의 발언에 중국이 반발하며 일본 정부를 압박했다.",
+          "soWhat": "중일 관계 개선 조짐이 없는 가운데 외교적 수사가 더 거칠어질 수 있다.",
+          "context": {
+            "background": "대만 문제를 둘러싼 중일 갈등이 이어지고 있다.",
+            "issueContext": "8월 린젠 부대변인도 비슷한 호칭을 쓴 적이 있다.",
+            "coreQuestion": "중국의 호칭 변화는 일본에 대한 압박 강화의 신호일까요?",
+            "resolution": "회견록에도 호칭이 그대로 남아 있다."
+          },
+          "sources": [{ "name": "공동통신(Yahoo!ニュース)", "url": "https://news.yahoo.co.jp/articles/60b403f37686afefbf227548edfb71f7fa6df434" }],
+          "related": { "title": "Japan inflates 'external threat' to accelerate remilitarization — Chinese Foreign Ministry", "source": "TASS", "url": "https://tass.com/world/2194445", "type": "다름" },
+          "topics": ["다카이치", "중일관계", "중국", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261003-1",
+          "date": "2026.10.03",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "일본은행 9월 단칸, 대형 제조업 DI 24로 예상 밑돌아도 8년 반 만의 고수준",
+          "summary": "9월 단칸에서 대형 제조업 업황판단지수는 24로 예상 25를 밑돌았지만 약 8년 반 만의 높은 수준이다. 대형 비제조업은 35였다.",
+          "why": "기업 체감 경기는 견조하나 시장 예상에는 못 미쳤다.",
+          "soWhat": "10월 일본은행 회의에서 추가 금리 인상 명분이 약해졌다.",
+          "context": {
+            "background": "일본은행은 단칸과 물가 전망을 보고 금리 인상 시기를 가늠해 왔다.",
+            "issueContext": "OIS 시장의 10월 인상 확률은 약 20%로 낮아졌다.",
+            "coreQuestion": "일본은행은 10월에 금리를 올릴까요, 동결할까요?",
+            "resolution": "시장은 10월 인상이 어렵다고 보고 있다."
+          },
+          "sources": [{ "name": "OANDA Japan", "url": "https://www.oanda.jp/lab-education/market_news/tankan-sep-2026-review/" }],
+          "related": { "title": "日銀｢主な意見｣で円下落、10月利上げの示唆乏しい－短観も決め手欠く", "source": "Bloomberg(Yahoo!ファイナンス)", "url": "https://finance.yahoo.co.jp/news/detail/5e36b756b83616cbca15503d0437992cc9600efa", "type": "유사" },
+          "topics": ["일본은행", "금리", "통화정책", "제조업"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261003-2",
+          "date": "2026.10.03",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "엔·달러 158엔대 회복…닛케이 평균 0.94% 하락한 68,309",
+          "summary": "일본은행의 연속 인상 관측이 후퇴하며 엔화가 약세를 보여 달러·엔이 158엔대를 회복했다. 닛케이 평균은 2일 0.94% 내린 68,309.46이었다.",
+          "why": "단칸이 예상을 밑돌며 금리 인상을 서두를 재료가 되지 못했다.",
+          "soWhat": "엔저가 이어지면 수입 물가와 인상 압력이 다시 커질 수 있다.",
+          "context": {
+            "background": "닛케이 평균은 6월 22일 72,831.73의 연고점을 기록한 바 있다.",
+            "issueContext": "엔 약세와 증시 조정이 겹쳤다.",
+            "coreQuestion": "엔저는 일본은행의 인상을 재촉할까요?",
+            "resolution": "시장은 10월 회의를 주시하고 있다."
+          },
+          "sources": [{ "name": "외환닷컴", "url": "https://www.gaitame.com/media/entry/2026/10/01/162512" }],
+          "related": { "title": "日銀は10月に利上げ再開へ 日経平均株価4.5万円と「不確実性」は相容れない", "source": "第一生命経済研究所", "url": "https://www.dlri.co.jp/report/macro/517354.html", "type": "반박" },
+          "topics": ["엔화", "엔저", "닛케이", "일본은행"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261003-1",
+          "date": "2026.10.03",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "태풍 26호 소멸, 27호는 6일께 오가사와라 접근 전망",
+          "summary": "태풍 26호는 2일 오전 3시 일본 동쪽에서 온대저기압으로 바뀌었다. 태풍 27호는 마리아나 제도 부근에서 발달하며 6일께 오가사와라 제도에 접근할 전망이다.",
+          "why": "10월에도 태풍 발생이 이어지는 계절 패턴이다.",
+          "soWhat": "27호의 진로에 따라 고파도와 비 대비가 필요하다.",
+          "context": {
+            "background": "일본은 올해 연이어 태풍 영향을 받고 있다.",
+            "issueContext": "북일본은 저기압 영향으로 거칠어질 우려가 있다.",
+            "coreQuestion": "27호는 일본 본토까지 영향을 줄까요?",
+            "resolution": "기상청이 진로 정보를 계속 갱신하고 있다."
+          },
+          "sources": [{ "name": "라이브도어 뉴스", "url": "https://news.livedoor.com/topics/detail/32467039/" }],
+          "related": { "title": "台風26号と低気圧に注意 北日本は大荒れの恐れ 10月も夏日続く 2週間天気予報", "source": "tenki.jp(Yahoo!ニュース)", "url": "https://news.yahoo.co.jp/articles/cebcf4b84b162caae1ac0697458fe731dbb16639", "type": "다름" },
+          "topics": ["태풍", "재난", "방재", "기후"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261002-1",
           "date": "2026.10.02",
