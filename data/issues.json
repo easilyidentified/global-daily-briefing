@@ -113,10 +113,130 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.03",
-      "period": "2026.10.02 08:00 ~ 2026.10.03 08:00",
-      "updatedAt": "2026.10.03 08:00 KST",
+      "latestDate": "2026.10.04",
+      "period": "2026.10.03 08:00 ~ 2026.10.04 08:00",
+      "updatedAt": "2026.10.04 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261004-1",
+          "date": "2026.10.04",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국민의힘, 개천절 숭례문 앞 대규모 장외집회…‘이재명 정권 심판’",
+          "summary": "국민의힘이 3일 서울 숭례문 앞에서 1년 만의 대규모 장외집회를 열고 정부를 규탄했다. 당은 20만 명이 모였다고 주장했고 장동혁 대표와 현역 의원 70여 명이 참석했다.",
+          "why": "6일 국정감사를 앞두고 야당이 장외 여론전으로 정국 주도권을 잡으려 했다.",
+          "soWhat": "국감 기간 여야의 장외·원내 공방이 한층 거세지고 검찰청 폐지와 대통령 재판 문제가 쟁점이 될 가능성이 크다.",
+          "context": {
+            "background": "국민의힘은 지난 1년간 서울 도심에서 대규모 장외집회를 열지 않았다.",
+            "issueContext": "집회에서는 안보 실패, 검찰청 폐지, DMZ 지뢰 사고, 대통령 재판 재개 요구 등이 거론됐다.",
+            "coreQuestion": "장외집회가 국감을 앞둔 야당의 입지를 넓혀줄까요, 반민생 공세라는 역풍을 부를까요?",
+            "resolution": "집회는 예정대로 열렸고 더불어민주당은 국감을 앞둔 반민생 행보라고 비판했다."
+          },
+          "sources": [{ "name": "뉴데일리", "url": "https://www.newdaily.co.kr/site/data/html/2026/10/03/2026100300066.html" }],
+          "related": { "title": "국민의힘, 대규모 개천절 장외집회…민주당 “국감 앞두고 반민생”", "source": "이투데이", "url": "https://www.etoday.co.kr/news/view/2632305", "type": "반박" },
+          "topics": ["국민의힘", "국회", "국정감사", "여야갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261004-2",
+          "date": "2026.10.04",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "김여정 “중거리 전략미사일 발사훈련”…발사 당일 이례적 공개",
+          "summary": "김여정이 3일 동해상에서 중거리 전략미사일 발사훈련을 했다고 발표했다. 한일이 밝힌 사거리를 ‘흥미로운 수치’라고 했고 저고도 비행궤도 변경 능력을 주장했다.",
+          "why": "DMZ 지뢰 폭발로 북한 책임론이 커진 시점에 북한이 무력 시위로 주도권을 잡으려 한 것으로 풀이된다.",
+          "soWhat": "한미일의 탐지·요격 체계에 대한 의문 제기가 이어지고 국감에서 안보 대응 공방으로 번질 수 있다.",
+          "context": {
+            "background": "북한은 최근 DMZ에서 지뢰 매설과 방벽 구축 작업을 이어왔다.",
+            "issueContext": "합참은 사거리를 700km 이상, 일본 방위성은 약 680km로 발표했으나 북한은 이를 반박했다.",
+            "coreQuestion": "북한의 저고도 변칙 비행 주장은 실제 위협일까요, 선전일까요?",
+            "resolution": "한국과 일본은 발사를 규탄했고 추가 분석을 진행 중이다."
+          },
+          "sources": [{ "name": "노컷뉴스", "url": "https://nocutnews.co.kr/news/6586896" }],
+          "related": { "title": "김여정 \"중거리 전략미사일 발사훈련\"...지뢰 도발 시선 돌리기 나섰나", "source": "뉴스핌", "url": "https://www.newspim.com/news/view/20261003000125", "type": "다름" },
+          "topics": ["북한", "미사일", "안보", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261004-1",
+          "date": "2026.10.04",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "트럼프, 알래스카 LNG 압박…“한국 합의 안 하면 2배로 청구”",
+          "summary": "트럼프 대통령이 2일 한국이 알래스카 LNG 사업 투자에 곧 합의하지 않으면 두 배로 청구하겠다고 말했다. 무엇을 두 배로 하겠다는 것인지는 밝히지 않았다.",
+          "why": "트럼프가 한국이 약속한 대미 투자에 알래스카 LNG 개발을 포함한다고 일방 발표했으나 한국은 텍사스 가스발전만 확정한 상태다.",
+          "soWhat": "관세 재인상이나 투자 확대 요구로 이어질 수 있어 한미 무역합의 이행 협상이 난항을 겪을 수 있다.",
+          "context": {
+            "background": "한미는 관세 인하와 대미 투자를 맞바꾸는 무역합의를 맺었다.",
+            "issueContext": "한국 정부가 첫 투자처로 확인한 것은 223억 달러 규모 텍사스 가스발전 사업이고 알래스카 LNG는 협의 대상이다.",
+            "coreQuestion": "한국은 알래스카 LNG 투자 압박을 수용할까요, 협상으로 버틸까요?",
+            "resolution": "한국 정부는 알래스카 사업은 향후 협의 사안이라는 입장이다."
+          },
+          "sources": [{ "name": "머니투데이", "url": "https://www.mt.co.kr/world/2026/10/03/2026100306094814060" }],
+          "related": { "title": "트럼프 \"한국, 알래스카 투자 합의 안 하면 두 배로 청구\"", "source": "MBC", "url": "https://imnews.imbc.com/news/2026/world/article/6855520_36925.html", "type": "유사" },
+          "topics": ["트럼프", "관세", "투자", "무역"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261004-2",
+          "date": "2026.10.04",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 소비자물가 2.9%…두 달 만에 2%대 복귀",
+          "summary": "9월 소비자물가 상승률이 2.9%로 8월 3.1%보다 낮아졌다. 석유류는 14.8% 올랐다.",
+          "why": "농산물 가격이 4.0% 내렸고 정부의 석유 최고가격제가 물가를 0.6%포인트 끌어내렸다.",
+          "soWhat": "한국은행은 10월에는 3% 안팎의 높은 수준이 이어질 것으로 보고 있어 물가 부담은 쉽게 풀리지 않을 전망이다.",
+          "context": {
+            "background": "물가는 7월 2.8%에서 8월 3.1%로 올랐다가 9월에 내려왔다.",
+            "issueContext": "최고가격제가 없었다면 9월 물가는 3.5%에 달했을 것으로 정부는 추정한다.",
+            "coreQuestion": "고유가 속에서 물가 안정세가 이어질 수 있을까요?",
+            "resolution": "한국은행은 10월 소비자물가가 3% 안팎일 것으로 전망했다."
+          },
+          "sources": [{ "name": "뉴스핌", "url": "https://www.newspim.com/news/view/20261002000042" }],
+          "related": { "title": "9월 물가 다시 2%대…한은 10월은 3% 안팎 오를 것", "source": "한국경제", "url": "https://www.hankyung.com/article/2026100209811", "type": "다름" },
+          "topics": ["물가", "금리", "유가", "내수"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261004-1",
+          "date": "2026.10.04",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "은행→저축은행→캐피탈 ‘AI 해킹’ 확산…금융당국 전 업권 CEO 긴급소집",
+          "summary": "금융위원회와 금감원이 4일 오후 은행·보험·저축은행·핀테크 등 전 금융권 CEO를 소집해 긴급 상황대응 회의를 연다. AI 에이전트를 활용한 신종 해킹과 고객정보 유출이 잇따랐다.",
+          "why": "신한은행에서 약 2만5천 명, 예가람저축은행에서 약 4만 명의 고객 정보가 유출되는 등 피해가 2금융권까지 번졌다.",
+          "soWhat": "금융권 보안 투자와 책임 기준이 강화되고 사고 대응 의무를 둘러싼 규제 논의가 빨라질 수 있다.",
+          "context": {
+            "background": "AI 에이전트를 활용한 사이버 공격이 금융사를 겨냥해 늘고 있다.",
+            "issueContext": "신한은행은 대출모집인 전용 간편조회 서비스의 인증 우회로 정보가 빠져나갔다.",
+            "coreQuestion": "금융권은 AI 기반 공격에 맞설 보안 체계를 갖출 수 있을까요?",
+            "resolution": "이억원 금융위원장이 주재하는 긴급 회의에서 대응책이 논의된다."
+          },
+          "sources": [{ "name": "뉴시스", "url": "https://www.newsis.com/view/NISX20261003_0003813711" }],
+          "related": { "title": "은행부터 캐피탈까지 해커에 뚫려…금융당국, 전 업권 긴급소집", "source": "이데일리", "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03735926645609312", "type": "유사" },
+          "topics": ["해킹", "AI", "금융당국", "규제"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261004-2",
+          "date": "2026.10.04",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "DMZ 폭발 현장서 북한 지뢰 추가 발견…“지뢰 4개 매설”",
+          "summary": "DMZ 군사분계선 남쪽에서 수색 작전 중 지뢰가 폭발해 대대장 등 3명이 다쳤다. 군은 현장에서 지뢰 4개가 의도적으로 매설된 것으로 봤다.",
+          "why": "북한이 DMZ에서 지뢰 매설과 방벽 구축을 이어가면서 우리 군 작전 구역과 겹쳤다.",
+          "soWhat": "경계·수색 작전 지침과 대북 대응 수위를 둘러싼 논란이 국감에서 이어질 전망이다.",
+          "context": {
+            "background": "북한은 최근 DMZ에서 지뢰, 철책, 전술도로 공사를 진행해 왔다.",
+            "issueContext": "대대장이 발목 절단 부상을 입었고 군의 사건 축소 의혹도 제기됐다.",
+            "coreQuestion": "군의 DMZ 대응은 충분했을까요?",
+            "resolution": "국방부 장관은 지뢰가 떠내려온 것이 아니라 의도적으로 매설됐다고 밝혔다."
+          },
+          "sources": [{ "name": "MBC", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6854813_37004.html" }],
+          "related": { "title": "DMZ 지뢰 폭발, 軍 사건축소 의혹", "source": "한국경제", "url": "https://www.hankyung.com/article/2026092339991", "type": "반박" },
+          "topics": ["북한", "안보", "국방", "지뢰"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261003-1",
           "date": "2026.10.03",
@@ -9596,10 +9716,130 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.03",
-      "period": "2026.10.02 08:00 ~ 2026.10.03 08:00",
-      "updatedAt": "2026.10.03 08:00 KST",
+      "latestDate": "2026.10.04",
+      "period": "2026.10.03 08:00 ~ 2026.10.04 08:00",
+      "updatedAt": "2026.10.04 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261004-1",
+          "date": "2026.10.04",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중간선거 한 달 앞…민주당 우세 속 공화당은 ‘손실 방어’",
+          "summary": "중간선거가 마지막 한 달에 들어서며 민주당이 우세한 분위기다. 공화당은 안전하다고 여기던 지역구에까지 자금을 쏟아붓고 있다.",
+          "why": "트럼프 지지율이 낮고 유가 등 경제 문제가 최대 쟁점이어서 무당층이 민주당 쪽으로 기울고 있다.",
+          "soWhat": "공화당의 자금력과 선거구 조정이 민주당의 우위를 얼마나 상쇄할지가 하원 다수당 결정의 관건이다.",
+          "context": {
+            "background": "공화당은 상·하원 모두 근소한 차이로 다수당을 지키고 있다.",
+            "issueContext": "에머슨 조사에서 민주당이 의회 투표 선호도 53%대 42%로 앞섰고 AP-NORC 조사의 트럼프 지지율은 31%다.",
+            "coreQuestion": "민주당의 여론조사 우위가 실제 의석으로 이어질까요?",
+            "resolution": "각종 전망기관은 민주당의 하원 탈환 가능성을 높게 평가하고 있다."
+          },
+          "sources": [{ "name": "알자지라", "url": "https://www.aljazeera.com/news/2026/10/3/bordering-on-angry-the-state-of-play-as-us-midterms-enter-final-month" }],
+          "related": { "title": "US midterms polls: Are Democrats winning or is Trump losing?", "source": "채텀하우스", "url": "https://www.chathamhouse.org/2026/09/us-midterms-polls-are-democrats-winning-or-trump-losing", "type": "다름" },
+          "topics": ["중간선거", "트럼프", "여론조사", "지지율"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261004-2",
+          "date": "2026.10.04",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 메디케어 가입 노인 2천만 명에 90달러 지급 발표",
+          "summary": "백악관이 메디케어 파트B 가입자 2천만 명 이상에게 1회 90달러를 지급한다고 밝혔다. 재원은 2008년 설치된 메디케어 개선기금이다.",
+          "why": "중간선거를 한 달 앞두고 고령층 표심을 겨냥한 조치로 해석된다.",
+          "soWhat": "선거를 앞둔 현금 살포라는 논란과 기금 사용의 적법성 문제가 불거질 수 있다.",
+          "context": {
+            "background": "트럼프는 앨라배마 모바일 유세를 마치고 돌아오는 길에 이를 발표했다.",
+            "issueContext": "메디케이드가 보험료를 대신 내는 사람, 고소득자, 메디케어 어드밴티지 가입자는 대상에서 빠진다.",
+            "coreQuestion": "90달러 지급이 고령층 표심을 움직일 수 있을까요?",
+            "resolution": "대부분은 10월 초 직접 입금으로, 나머지는 우편 수표로 받는다."
+          },
+          "sources": [{ "name": "FOX10", "url": "https://www.fox10tv.com/2026/10/03/trump-announces-payments-seniors-help-pay-medicare-premiums-ahead-midterm-elections/" }],
+          "related": { "title": "Trump Rolls Out $90 Medicare Payments As Election-Year Cash Promises Draw Scrutiny", "source": "타스님 통신", "url": "https://www.tasnimnews.ir/en/news/2026/10/03/3712562/trump-rolls-out-90-medicare-payments-as-election-year-cash-promises-draw-scrutiny", "type": "반박" },
+          "topics": ["트럼프", "중간선거", "메디케어", "재정"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261004-1",
+          "date": "2026.10.04",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 비농업 고용 2.9만 명 증가…예상치 크게 밑돌아",
+          "summary": "9월 비농업 일자리가 2만 9천 개 늘어 시장 예상 8만 4천 개를 크게 밑돌았다. 실업률은 4.2%로 올랐다.",
+          "why": "7월 수치가 1만 개 감소로, 8월은 13만 3천 개로 하향 수정되는 등 고용 둔화가 뚜렷해졌다.",
+          "soWhat": "연준의 추가 긴축 부담이 줄어 10월 금리 동결 전망이 커졌다.",
+          "context": {
+            "background": "최근 12개월 월평균 고용 증가는 4만 5천 개였다.",
+            "issueContext": "이번 보고서와 하향 수정으로 이전 집계 고용이 6만 개 줄었다.",
+            "coreQuestion": "고용 둔화는 일시적일까요, 경기 침체의 신호일까요?",
+            "resolution": "시장은 10월 연준 동결 확률을 77% 안팎으로 반영했다."
+          },
+          "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html" }],
+          "related": { "title": "U.S. September 2026 jobs report: payrolls miss forecasts badly", "source": "야후 파이낸스", "url": "https://finance.yahoo.com/economy/articles/september-2026-jobs-report-payrolls-123334753.html", "type": "유사" },
+          "topics": ["고용", "연준", "통화정책", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261004-2",
+          "date": "2026.10.04",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "고용 부진에 연준 10월 금리 인상 기대 급감…뉴욕증시 상승",
+          "summary": "고용 지표 부진으로 연준의 10월 금리 인상 가능성이 크게 낮아졌다. 2일 다우는 0.5%, S&P500은 0.7%, 나스닥은 1.2% 올랐다.",
+          "why": "고용이 예상보다 크게 둔화하면서 인상 베팅이 후퇴하고 국채금리와 달러가 내렸다.",
+          "soWhat": "물가 압력이 남아 있어 연준이 금리 인상 카드를 완전히 접었다고 보기는 어렵다.",
+          "context": {
+            "background": "시장에는 지속적인 인플레이션으로 연준이 인상에 나설 수 있다는 관측이 있었다.",
+            "issueContext": "CME 페드워치 기준 10월 인상 확률은 18% 안팎으로 떨어졌다.",
+            "coreQuestion": "연준은 인플레이션 압력에도 금리를 동결할 수 있을까요?",
+            "resolution": "나스닥은 장중 사상 최고치를 찍은 뒤 상승 마감했다."
+          },
+          "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html" }],
+          "related": { "title": "Wall Street Bets on Rate Hike From a Fed Hemmed In by Persistent Inflation", "source": "야후 파이낸스", "url": "https://finance.yahoo.com/economy/policy/articles/wall-street-bets-rate-hike-040100597.html", "type": "반박" },
+          "topics": ["연준", "금리", "증시", "물가"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261004-1",
+          "date": "2026.10.04",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "테네시 사형 집행 실패 후폭풍…사형제 논란 재점화",
+          "summary": "테네시주에서 크리스타 파이크에 대한 사형 집행이 두 차례 약물 주입에도 실패해 중단됐다. 주지사는 연말까지 모든 집행을 중단하고 외부 검토를 지시했다.",
+          "why": "정맥 확보에 바늘 7개가 쓰이는 등 집행 절차의 문제가 드러났다.",
+          "soWhat": "약물 주입 방식의 타당성과 사형제 존폐를 둘러싼 논쟁이 전국으로 번질 수 있다.",
+          "context": {
+            "background": "테네시에서 여성에 대한 사형 집행은 약 200년 만이었다.",
+            "issueContext": "파이크는 의식이 없는 채 인공호흡기를 달고 위중한 상태라고 변호인이 밝혔다.",
+            "coreQuestion": "미국의 사형 집행 방식은 지속될 수 있을까요?",
+            "resolution": "빌 리 주지사가 올해 남은 집행을 모두 멈추고 제3자 검토를 명령했다."
+          },
+          "sources": [{ "name": "NPR", "url": "https://www.npr.org/2026/10/02/nx-s1-5988832/christa-pike-reignites-death-penalty-debate" }],
+          "related": { "title": "Tennessee governor orders third-party review, pauses all executions for the rest of the year", "source": "테네시 룩아웃", "url": "https://tennesseelookout.com/2026/10/01/tennessee-governor-orders-third-party-review-pause-all-executions-for-the-rest-of-the-year/", "type": "다름" },
+          "topics": ["사형제", "소송", "대법원", "규제"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261004-2",
+          "date": "2026.10.04",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "연방대법원 새 회기 개막 앞두고 트럼프와 충돌 예고",
+          "summary": "연방대법원의 2026-27 회기가 5일 시작되며 종교·총기·기후변화 사건과 트럼프의 이민 정책이 다뤄진다. 법원은 앞서 관세와 출생시민권 등에서 트럼프에게 제동을 걸었다.",
+          "why": "대법원이 트럼프의 주요 정책에 잇따라 제동을 걸면서 행정부와 사법부의 긴장이 커졌다.",
+          "soWhat": "이번 회기 판결이 이민·권한 범위에 대한 행정부 정책의 향방을 좌우한다.",
+          "context": {
+            "background": "대법원은 올해 2월 IEEPA 관세를 6대 3으로 위법이라 판결했다.",
+            "issueContext": "트럼프는 대법관들을 공개 비판했지만 법원에서의 전체 전적은 여전히 우세하다.",
+            "coreQuestion": "새 회기에서도 대법원은 트럼프 행정부에 제동을 걸까요?",
+            "resolution": "법원은 회기 개막에 앞서 신규 사건 세 건을 심리하기로 했다."
+          },
+          "sources": [{ "name": "SCOTUSblog", "url": "https://scotusblog.com/2026/10/court-grants-three-cases-as-new-term-is-set-to-begin" }],
+          "related": { "title": "Trump clashes ahead as new Supreme Court term begins", "source": "NBC 뉴스", "url": "https://www.nbcnews.com/politics/supreme-court/trump-clashes-ahead-new-supreme-court-term-begins-rcna600256", "type": "다름" },
+          "topics": ["대법원", "트럼프", "관세", "소송"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261003-1",
           "date": "2026.10.03",
@@ -19101,10 +19341,110 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.03",
-      "period": "2026.10.02 08:00 ~ 2026.10.03 08:00",
-      "updatedAt": "2026.10.03 08:00 KST",
+      "latestDate": "2026.10.04",
+      "period": "2026.10.03 08:00 ~ 2026.10.04 08:00",
+      "updatedAt": "2026.10.04 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261004-1",
+          "date": "2026.10.04",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "시진핑, 국경절 연설서 대만 독립세력 “타격” 표현으로 수위 높여",
+          "summary": "시진핑 주석이 건국 77주년 리셉션에서 ‘대만 독립 반대’ 대신 ‘대만 독립 세력을 단호히 타격한다’는 표현을 썼다. 외부 간섭에 반대하고 통일을 추진하겠다고도 했다.",
+          "why": "미국 국빈 방문 직후 대만 문제에서 원칙을 재확인하며 내부 결속과 대외 메시지를 함께 노렸다.",
+          "soWhat": "양안 긴장과 미중 ‘건설적 전략적 안정 관계’ 합의의 실효성에 대한 의문이 커질 수 있다.",
+          "context": {
+            "background": "시진핑은 9월 23~25일 미국을 국빈 방문해 트럼프와 정상회담을 가졌다.",
+            "issueContext": "올해 연설에서는 지난해보다 대만 독립 세력에 대한 표현 수위가 높아졌다.",
+            "coreQuestion": "강화된 대만 표현은 미중 관계 안정 기조와 양립할 수 있을까요?",
+            "resolution": "중국은 연설에서 양안 관계의 평화 발전과 통일 추진 입장을 재확인했다."
+          },
+          "sources": [{ "name": "서울경제 영문판", "url": "https://en.sedaily.com/international/2026/10/01/xi-sharpens-taiwan-rhetoric-vows-to-strike-independence" }],
+          "related": { "title": "Xi warns against Taiwan independence in National Day speech", "source": "타이베이타임스", "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/01/2003865216", "type": "다름" },
+          "topics": ["시진핑", "대만", "양안관계", "미중관계"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20261004-2",
+          "date": "2026.10.04",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "미중 정상회담 며칠 뒤, 미국의 국경절 축하는 ‘간소한’ 메시지",
+          "summary": "루비오 국무장관의 중국 국경절 축하 성명에는 시진핑의 방미나 무역 합의 언급이 없었다. 정상회담 직후 양국 온도 차가 드러났다는 분석이다.",
+          "why": "미국은 정상회담 성과를 공개적으로 부각하는 데 신중한 태도를 보였다.",
+          "soWhat": "올해 하반기로 예정된 추가 정상 회동까지 합의 이행 여부를 두고 신경전이 이어질 수 있다.",
+          "context": {
+            "background": "양국은 정상회담에서 무역에 관한 ‘새로운 공동 방안’과 건설적 전략적 안정 관계 수립에 합의했다고 밝혔다.",
+            "issueContext": "성명에서 방미 성과가 빠져 양국 간 해석 차이가 있는지 관심이 쏠린다.",
+            "coreQuestion": "정상회담 합의는 실제 관계 개선으로 이어질까요?",
+            "resolution": "양국은 올해 안에 추가 회동을 예정하고 있다."
+          },
+          "sources": [{ "name": "SCMP", "url": "https://www.scmp.com/news/china/diplomacy/article/3369459/days-after-xi-trump-summit-us-marks-chinas-national-day-pared-down-note" }],
+          "related": { "title": "Takeaways from the Trump-Xi state visit: Pageantry and pandas", "source": "NPR", "url": "https://www.npr.org/2026/09/25/nx-s1-5981265/takeaways-trump-xi-state-visit-pageantry-pandas", "type": "유사" },
+          "topics": ["미중관계", "시진핑", "트럼프", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261004-1",
+          "date": "2026.10.04",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국, 첫 주택구입자 주담대 이자 보조…10월부터 시행",
+          "summary": "중국이 10월부터 첫 주택 구매자에게 대출 원금의 연 1%포인트를 최대 5년간 보조한다. 대상은 120㎡ 이하, 150만 위안 이하 주택이다.",
+          "why": "2분기 성장률이 4.3%로 3년여 만에 가장 낮아 부동산과 내수 부양이 급해졌다.",
+          "soWhat": "부동산 부진이 풀릴지는 보조 효과와 소비 심리 회복에 달려 있다.",
+          "context": {
+            "background": "중국은 올해 4.5~5% 성장을 목표로 한다.",
+            "issueContext": "9월 공식 제조업 PMI는 50.1로 확장 국면에 복귀했다.",
+            "coreQuestion": "이자 보조만으로 부동산 침체를 되돌릴 수 있을까요?",
+            "resolution": "당국은 은행의 특정 부문 대출 장려와 이자 보조 방안을 9월 29일 발표했다."
+          },
+          "sources": [{ "name": "블룸버그", "url": "https://www.bloomberg.com/news/articles/2026-09-29/china-offers-mortgage-subsidies-to-boost-ailing-property-sector" }],
+          "related": { "title": "China rolls out new measures to bolster its property sector and economy", "source": "코리아타임스", "url": "https://www.koreatimes.co.kr/amp/world/20260929/china-rolls-out-new-measures-to-bolster-its-property-sector-and-economy", "type": "유사" },
+          "topics": ["부동산", "내수", "대출", "소비"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261004-2",
+          "date": "2026.10.04",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 황금연휴 이동 폭증…소비는 여전히 조심스러워",
+          "summary": "중추절과 국경절을 합친 연휴 기간 이동 인원이 사상 최대치로 집계됐다. 다만 1인당 지출은 늘지 않아 소비 회복은 제한적이라는 평가다.",
+          "why": "연휴가 길어져 여행 수요가 늘었지만 가계는 지출을 아끼고 있다.",
+          "soWhat": "연휴 효과가 내수 회복으로 이어지지 않으면 추가 부양 압력이 커진다.",
+          "context": {
+            "background": "올해는 9월 25일 중추절과 10월 1일 국경절 연휴가 이어졌다.",
+            "issueContext": "지난해 황금연휴 1인당 지출은 3년 만의 최저인 911위안이었다.",
+            "coreQuestion": "여행 급증은 소비 회복의 신호일까요?",
+            "resolution": "당국은 이번 연휴 이동 인원을 24.3억 건으로 집계했다."
+          },
+          "sources": [{ "name": "더 스타", "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/29/china039s-golden-week-travel-surge-masks-cautious-consumer-spending" }],
+          "related": { "title": "In photos: China's Xi hardens Taiwan warning as country celebrates week-long National Day holiday", "source": "CNBC", "url": "https://www.cnbc.com/2026/10/01/china-golden-week-holiday-taiwan-consumption-travel.html", "type": "다름" },
+          "topics": ["소비", "내수", "중국", "경기"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261004-1",
+          "date": "2026.10.04",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "화웨이, 신형 AI 칩 로드맵 공개…엔비디아 추격 가속",
+          "summary": "화웨이가 상하이 연례 행사에서 2027년 출시할 어센드 960과 2028·2029년 후속 칩을 공개했다. 올해 중국 AI 칩 시장 점유율 1위가 유력하다.",
+          "why": "미국의 수출 규제로 선진 칩 접근이 막히자 중국 기업들이 자국산 대안을 찾고 있다.",
+          "soWhat": "중국의 AI 반도체 자립이 빨라지면 미국의 수출 통제 효과를 둘러싼 논쟁이 커진다.",
+          "context": {
+            "background": "화웨이는 9월 17일 연례 콘퍼런스에서 칩 로드맵을 발표했다.",
+            "issueContext": "엔비디아 H200 수출은 규제 불확실성에 묶여 있다.",
+            "coreQuestion": "화웨이는 엔비디아와의 격차를 좁힐 수 있을까요?",
+            "resolution": "화웨이는 올해 AI 칩 매출을 120억 달러로 예상한다."
+          },
+          "sources": [{ "name": "NBC 뉴스", "url": "https://www.nbcnews.com/world/china/huawei-unveils-new-chip-technologies-chinese-firm-steps-ai-race-nvidia-rcna598288" }],
+          "related": { "title": "China's AI Chip Deficit: Why Huawei Can't Catch Nvidia and U.S. Export Controls Should Remain", "source": "외교협회(CFR)", "url": "https://www.cfr.org/articles/chinas-ai-chip-deficit-why-huawei-cant-catch-nvidia-and-us-export-controls-should-remain", "type": "반박" },
+          "topics": ["화웨이", "AI", "반도체", "규제"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261003-1",
           "date": "2026.10.03",
@@ -28494,10 +28834,130 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.03",
-      "period": "2026.10.02 08:00 ~ 2026.10.03 08:00",
-      "updatedAt": "2026.10.03 08:00 KST",
+      "latestDate": "2026.10.04",
+      "period": "2026.10.03 08:00 ~ 2026.10.04 08:00",
+      "updatedAt": "2026.10.04 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261004-1",
+          "date": "2026.10.04",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치, 5일 임시국회 개회…집권 후 최대 시험대",
+          "summary": "다카이치 총리가 5일 69일 일정의 임시국회를 새 내각으로 시작한다. 같은 날 정책 연설을 하고 7~9일 양원 대표질문이 이어진다.",
+          "why": "식품 소비세 인하와 중의원 의석 감축 등 굵직한 법안을 처리해야 한다.",
+          "soWhat": "재원 문제와 야당 반발로 법안 처리가 난항을 겪으면 내각 지지율에 부담이 된다.",
+          "context": {
+            "background": "다카이치 총리는 식품 소비세율을 2년간 1%로 낮추겠다고 결정했다.",
+            "issueContext": "연 5조 엔 안팎의 세수 감소 재원을 어떻게 마련할지를 두고 자민당 안팎에서도 우려가 나온다.",
+            "coreQuestion": "다카이치 내각은 69일 안에 소비세 인하 법안을 통과시킬 수 있을까요?",
+            "resolution": "정부와 여당, 일본유신회는 소비세 인하와 의원 정수 감축 법안 처리를 목표로 한다."
+          },
+          "sources": [{ "name": "재팬타임스", "url": "https://www.japantimes.co.jp/news/2026/10/01/japan/politics/takaichi-parliament-test/" }],
+          "related": { "title": "Tax Relief and Electoral Reform in Focus at Next Extraordinary Diet Session", "source": "News on Japan", "url": "https://newsonjapan.com/article/150899.php", "type": "유사" },
+          "topics": ["다카이치", "소비세", "내각", "자민당"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261004-2",
+          "date": "2026.10.04",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "북한 탄도미사일 발사…다카이치, 정보 수집·항공기 선박 안전 확보 지시",
+          "summary": "북한이 3일 탄도미사일을 최소 1발 발사했고 일본 방위성은 비행거리를 약 680km로 발표했다. 낙탄 지점은 일본 EEZ 밖이며 피해는 확인되지 않았다.",
+          "why": "북한은 한국과의 지뢰 공방 속에서 동해상 무력 시위를 이어갔다.",
+          "soWhat": "일본은 한미와의 탐지·정보 공유와 대북 대응 강화를 압박받는다.",
+          "context": {
+            "background": "북한은 최근 한반도 DMZ 지뢰 문제로 남북 긴장을 높여 왔다.",
+            "issueContext": "북한 김여정은 한일이 발표한 사거리를 반박하며 요격이 어렵다고 주장했다.",
+            "coreQuestion": "북한의 미사일 능력 과시에 한미일은 어떻게 대응할까요?",
+            "resolution": "일본은 유엔 안보리 결의 위반이라며 북한에 엄중 항의했다."
+          },
+          "sources": [{ "name": "재팬타임스", "url": "https://www.japantimes.co.jp/news/2026/10/03/japan/north-korea-missile-october-3/" }],
+          "related": { "title": "Japan Says North Korean Missile Flew 680 km, Fell Outside EEZ", "source": "서울경제 영문판", "url": "https://en.sedaily.com/international/2026/10/03/japan-says-north-korean-missile-flew-680-km-fell-outside-eez", "type": "유사" },
+          "topics": ["북한", "미사일", "안보", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261004-1",
+          "date": "2026.10.04",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "일본은행 단칸, 대기업 제조업 6분기 연속 개선…AI 수요 견인",
+          "summary": "일본은행의 7~9월 단칸 조사에서 대기업 제조업 업황판단지수가 +24로 6분기 연속 개선됐다. 비제조업은 +35였다.",
+          "why": "AI 관련 수요가 강해 제조업 체감 경기를 끌어올렸다.",
+          "soWhat": "경기 부담이 크지 않아 일본은행이 금리 인상을 서두를 압력은 줄었다.",
+          "context": {
+            "background": "6월 조사에서 대기업 제조업은 +22였다.",
+            "issueContext": "시장 예상은 제조업 +25, 비제조업 +36이어서 소폭 밑돌았다.",
+            "coreQuestion": "일본은행은 단칸 결과를 바탕으로 금리를 올릴까요, 동결할까요?",
+            "resolution": "단칸 발표 후 엔화는 약세를 보였다."
+          },
+          "sources": [{ "name": "닛케이 아시아", "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-tankan-shows-sixth-straight-rise-in-manufacturer-sentiment" }],
+          "related": { "title": "investingLive Asia-Pacific market news: Yen weakens, Nikkei jumps", "source": "investingLive", "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-yen-weakens-nikkei-jumps/", "type": "다름" },
+          "topics": ["일본은행", "엔화", "AI", "통화정책"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261004-2",
+          "date": "2026.10.04",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이 2.5% 급등, 마이크론 호실적에 반도체주 강세…엔화는 약세",
+          "summary": "마이크론의 호실적과 한국의 대미 에너지 투자 계획에 닛케이225가 2.5% 올랐다. 달러·엔은 157엔대 후반으로 엔화 약세가 이어졌다.",
+          "why": "AI 메모리 수요 기대가 반도체 관련주 매수를 이끌었다.",
+          "soWhat": "엔저가 이어지면 수입물가 부담과 일본은행의 정책 판단에 영향을 줄 수 있다.",
+          "context": {
+            "background": "엔화는 최근 한 달 사이 1.3% 약세를 보였다.",
+            "issueContext": "단칸 발표 뒤 일본은행 인상 압력이 줄었다는 해석이 나왔다.",
+            "coreQuestion": "반도체주 주도 랠리는 지속될 수 있을까요?",
+            "resolution": "닛케이는 칩 관련주 중심으로 상승 마감했다."
+          },
+          "sources": [{ "name": "investingLive", "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-yen-weakens-nikkei-jumps/" }],
+          "related": { "title": "Chart of the Day: JP225, Nikkei Plays Its Own Tune (01.10.2026)", "source": "XTB", "url": "https://www.xtb.com/int/market-analysis/news-and-research/chart-of-the-day-jp225-nikkei-plays-its-own-tune-01-10-2026", "type": "유사" },
+          "topics": ["닛케이", "엔저", "반도체", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261004-1",
+          "date": "2026.10.04",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "하야부사2, 마지막 이온엔진 이상…JAXA는 회로 전환으로 대응",
+          "summary": "소행성 탐사선 하야부사2의 마지막 이온엔진 B가 이상을 일으켰다. JAXA는 B엔진의 중화기와 D엔진의 이온원을 조합해 가동을 되살릴 계획이다.",
+          "why": "설계 수명을 훌쩍 넘겨 운용하면서 이온엔진이 차례로 고장 났다.",
+          "soWhat": "2031년 소행성 1998 KY26 도착 계획을 지키려면 우회 운용이 성공해야 한다.",
+          "context": {
+            "background": "하야부사2는 이온엔진 4기 중 3기가 먼저 고장 났다.",
+            "issueContext": "엔진 B는 8월 중순 이온원이 고장 났지만 중화기는 정상이다.",
+            "coreQuestion": "하야부사2는 우회 운용으로 2031년 목표 소행성에 도달할 수 있을까요?",
+            "resolution": "JAXA는 하야부사1 때 쓴 회로 전환 기법을 적용하기로 했다."
+          },
+          "sources": [{ "name": "신화통신", "url": "https://english.news.cn/20261002/5a244897aacf40a5984e03100bfdfa64/c.html" }],
+          "related": { "title": "Hayabusa-2’s last working ion engine fails", "source": "Behind the Black", "url": "https://behindtheblack.com/behind-the-black/points-of-information/hayabusa-2s-last-working-ion-engine-fails/", "type": "다름" },
+          "topics": ["우주탐사", "하야부사2", "과학", "기술"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261004-2",
+          "date": "2026.10.04",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "일본 은행권, 미토스 AI 도입 뒤 취약점 2배 발견…사이버 대응 강화 촉구",
+          "summary": "일본 대형은행들이 AI 보안 모델 도입 이후 시스템 취약점을 이전의 두 배 발견했다. 금융당국은 은행에 서비스 중단을 포함한 사이버 공격 대응 강화를 요구했다.",
+          "why": "AI가 취약점 탐지와 공격 양면에서 속도를 높이면서 금융 인프라 위협이 커졌다.",
+          "soWhat": "금융청 주도 민관 협의체를 중심으로 은행의 AI 사이버 방어 투자가 확대될 전망이다.",
+          "context": {
+            "background": "미쓰비시UFJ·미즈호·SMFG 3대 은행이 Anthropic의 제한 모델 미토스를 이용하게 됐다.",
+            "issueContext": "미토스는 주요 운영체제와 브라우저에서 수천 개의 중대한 취약점을 찾았다고 알려졌다.",
+            "coreQuestion": "AI 기반 사이버 공격에 은행권은 충분히 대비할 수 있을까요?",
+            "resolution": "금융청이 일본은행·사이버안전보장국 등과 민관 실무그룹을 가동했다."
+          },
+          "sources": [{ "name": "닛케이 아시아", "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-banks-uncover-twice-the-vulnerabilities-following-mythos-ai-release" }],
+          "related": { "title": "Japan launches financial task force to address cybersecurity risks linked to AI vulnerabilities", "source": "TRT 월드", "url": "https://www.trtworld.com/article/2b61a24d62fc", "type": "유사" },
+          "topics": ["해킹", "AI", "금융당국", "규제"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261003-1",
           "date": "2026.10.03",
