@@ -113,10 +113,190 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.04",
-      "period": "2026.10.03 08:00 ~ 2026.10.04 08:00",
-      "updatedAt": "2026.10.04 08:00 KST",
+      "latestDate": "2026.10.05",
+      "period": "2026.10.04 08:00 ~ 2026.10.05 08:00",
+      "updatedAt": "2026.10.05 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261005-1",
+          "date": "2026.10.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "강훈식 비서실장 사의 2주째, 후임 인선 '장고'",
+          "summary": "이재명 대통령이 지난달 21일 사의를 표명한 강훈식 비서실장의 후임을 아직 정하지 못했다. 국정감사를 앞두고 한시적 유임설까지 거론된다.",
+          "why": "지지율 하락 등 국정 상황에 대한 책임을 지겠다며 비서실장이 사의를 냈기 때문이다.",
+          "soWhat": "6일 국감 시작 전후로 대통령실 개편 방향이 드러나며 여권 내 계파 균형에도 영향을 줄 전망이다.",
+          "context": {
+            "background": "강 실장은 이재명 정부 출범과 함께 초대 비서실장에 임명됐고 인사위원장도 겸해 왔다.",
+            "issueContext": "후임 후보로 친명계 의원과 중량급 인사가 거론되지만 발표는 없고, 사표도 수리되지 않았다.",
+            "coreQuestion": "새 인물을 앉힐까요, 한시적으로 유임시킬까요?",
+            "resolution": "10월 5일 현재 후임은 미정이며 인선은 국감 직전까지 이어지는 분위기다."
+          },
+          "sources": [
+            {
+              "name": "경향신문",
+              "url": "https://www.khan.co.kr/article/202610030600101/"
+            }
+          ],
+          "related": {
+            "title": "'비서실장 할 사람이 없나'…강훈식 유임설에 민주당 '설왕설래'",
+            "source": "데일리안",
+            "url": "https://www.dailian.co.kr/news/view/1697796/%EB%B9%84%EC%84%9C%EC%8B%A4%EC%9E%A5-%ED%95%A0-%EC%82%AC%EB%9E%8C-%EC%97%86%EB%82%98%EA%B0%95%ED%9B%88%EC%8B%9D-%EC%9C%A0%EC%9E%84%EC%84%A4-2026",
+            "type": "다름"
+          },
+          "topics": ["이재명", "인사", "지지율", "국정감사"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261005-2",
+          "date": "2026.10.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "조희대 대법원장, 국감 증인 출석 사실상 거부",
+          "summary": "조희대 대법원장이 6일 법사위 국감 증인 출석에 응하기 어렵다는 의견서를 냈고, 민주당은 국회법 위반이라며 반발했다.",
+          "why": "제청권 행사에 대해 증언하는 것은 삼권분립과 사법부 독립에 반한다는 것이 대법원장의 입장이다.",
+          "soWhat": "국감 첫날부터 여야의 사법부 공방이 격화할 가능성이 크다.",
+          "context": {
+            "background": "민주당은 지난 8월부터 대법원장의 재제청 문제를 두고 소명을 요구해 왔다.",
+            "issueContext": "여당은 사퇴까지 거론하고 야당은 겁박 정치라고 맞서고 있다.",
+            "coreQuestion": "사법부 독립은 증언 거부의 정당한 근거일까요, 국회 견제를 피하는 방패일까요?",
+            "resolution": "의견서 제출 이후에도 출석 여부는 확정되지 않았고 6일 국감에서 다뤄질 전망이다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://fnnews.com/news/202610041247054467"
+            }
+          ],
+          "related": {
+            "title": "野 “민주당, 조희대에 국감 증인석 윽박…망신주기·겁박 그만”",
+            "source": "서울신문",
+            "url": "https://www.seoul.co.kr/news/politics/2026/10/04/20261004500052",
+            "type": "반박"
+          },
+          "topics": ["대법원", "국회", "여야갈등", "헌법", "국정감사"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261005-1",
+          "date": "2026.10.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 수출 1209억 달러 사상 최대, 반도체 첫 600억 달러",
+          "summary": "산업통상부는 9월 수출이 전년 대비 83.5% 늘어난 1209억 달러로 역대 최대라고 밝혔다. 반도체는 단일 품목 최초로 600억 달러를 넘었다.",
+          "why": "메모리 수요 증가에 따른 물량 확대와 가격 상승이 겹쳤다.",
+          "soWhat": "1~9월 누적 수출이 지난해 연간 실적을 넘어 첫 연간 1조 달러 달성이 가시권에 들어왔다.",
+          "context": {
+            "background": "한국 수출은 반도체 업황에 크게 좌우돼 왔다.",
+            "issueContext": "반도체 쏠림이 커졌다는 점이 호황의 지속성 논란으로 이어진다.",
+            "coreQuestion": "반도체 호황은 구조적 성장일까요, 일시적 가격 효과일까요?",
+            "resolution": "1~9월 누적 수출은 8145억 달러로 집계됐다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20261001000167"
+            }
+          ],
+          "related": {
+            "title": "쉼없는'반도체 질주'… 11월 중 '수출 1조달러' 고지 찍는다",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202610011807411464",
+            "type": "유사"
+          },
+          "topics": ["수출", "반도체", "무역", "실적"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261005-2",
+          "date": "2026.10.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 7000선 공방, 외국인 매도에 발목",
+          "summary": "코스피가 7000선 안팎에서 오르내리는 가운데 외국인 순매도와 개인 매수가 맞서고 있다.",
+          "why": "미국 국채금리 상승과 유가 불안, 연초 대비 큰 상승에 따른 고점 부담이 외국인 이탈을 부추기고 있다.",
+          "soWhat": "지수가 다시 오르려면 외국인 수급 복귀가 필요하다는 평가가 많다.",
+          "context": {
+            "background": "코스피는 올해 큰 폭으로 올라 7000을 돌파했다.",
+            "issueContext": "개인과 기관이 받아내지만 외국인 매도가 이어지고 있다.",
+            "coreQuestion": "외국인은 돌아올까요, 개인 매수만으로 7000선을 지킬 수 있을까요?",
+            "resolution": "지수는 7000선을 방어하고 있으나 추가 상승 동력은 불확실하다."
+          },
+          "sources": [
+            {
+              "name": "한국경제",
+              "url": "https://www.hankyung.com/article/2026100210371"
+            }
+          ],
+          "related": {
+            "title": "'7000 넘어도 안 믿는다'…‘박스피’에 데인 개미, 9월 들어 15조 팔았다",
+            "source": "이투데이",
+            "url": "https://www.etoday.co.kr/news/view/2623658",
+            "type": "다름"
+          },
+          "topics": ["증시", "투자", "국채금리", "원유"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261005-1",
+          "date": "2026.10.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "누리호 5차 발사 7일, 역대 최다 위성 15기 탑재",
+          "summary": "우주항공청은 누리호 5차 발사를 10월 7일 낮 12시 23분~오후 1시 23분 사이에 하며 위성 15기를 싣는다고 밝혔다.",
+          "why": "초소형군집위성의 다중 사출 능력을 검증하는 것이 이번 발사의 목표다.",
+          "soWhat": "성공하면 국가안보와 재난 대응용 위성을 한꺼번에 운용하는 첫 사례가 된다.",
+          "context": {
+            "background": "누리호는 반복 발사로 신뢰성을 쌓아 왔다.",
+            "issueContext": "기상 변수에 대비해 예비 기간을 10월 8~14일로 두었다.",
+            "coreQuestion": "군집위성 분리는 처음 시도에서 성공할까요?",
+            "resolution": "발사는 7일로 확정됐고 5일 현재 준비 중이다."
+          },
+          "sources": [
+            {
+              "name": "아주경제",
+              "url": "https://www.ajunews.com/view/20260915145346981"
+            }
+          ],
+          "related": {
+            "title": "누리호 5차 발사일 10월 7일 확정…위성 15기 싣고 우주로",
+            "source": "데일리안",
+            "url": "https://www.dailian.co.kr/news/view/1683204/%EB%A6%AC%ED%98%B8-5%EC%B0%A8-%EB%B0%9C%EC%82%AC%EC%9D%BC-10%EC%9B%94-7%EC%9D%BC-%ED%99%95%EC%A0%95%EC%9C%84-2026",
+            "type": "유사"
+          },
+          "topics": ["우주", "위성", "로켓", "재난"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261005-2",
+          "date": "2026.10.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "2026 노벨상 시즌 개막, 생리의학상 5일 발표",
+          "summary": "노벨상 발표가 5일 생리의학상으로 시작해 12일까지 이어진다. GLP-1 비만치료제 연구가 유력 후보로 거론된다.",
+          "why": "클래리베이트 등이 GLP-1 연구진을 올해 후보로 꼽았기 때문이다.",
+          "soWhat": "수상 분야가 의료·제약 산업의 관심 방향을 보여 줄 수 있다.",
+          "context": {
+            "background": "GLP-1 계열 비만약은 최근 의약 시장의 핵심이 됐다.",
+            "issueContext": "한국인 최초 수상자가 나올지도 관심사다.",
+            "coreQuestion": "올해 생리의학상은 비만 치료 혁명을 택할까요?",
+            "resolution": "한국시간 5일 오후 6시 30분 생리의학상 발표가 예정돼 있다."
+          },
+          "sources": [
+            {
+              "name": "머니투데이",
+              "url": "https://www.mt.co.kr/tech/2026/10/03/2026100214403725977"
+            }
+          ],
+          "related": {
+            "title": "2026 노벨상 위고비·트럼프가 후보? 일정·관전 포인트 정리",
+            "source": "뉴닉",
+            "url": "https://newneek.co/@newneek/article/46893",
+            "type": "다름"
+          },
+          "topics": ["연구", "의료", "노벨상", "보건"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261004-1",
           "date": "2026.10.04",
@@ -9716,10 +9896,190 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.04",
-      "period": "2026.10.03 08:00 ~ 2026.10.04 08:00",
-      "updatedAt": "2026.10.04 08:00 KST",
+      "latestDate": "2026.10.05",
+      "period": "2026.10.04 08:00 ~ 2026.10.05 08:00",
+      "updatedAt": "2026.10.05 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261005-1",
+          "date": "2026.10.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 'Super Intelligence Force' AI 태스크포스 출범",
+          "summary": "트럼프 대통령이 AI 총괄 조정을 맡는 'Super Intelligence Force'를 만들고 제이 클레이턴 국가정보국장에게 이끌게 했다.",
+          "why": "AI 속도 조절 요구가 나오는 가운데 연방 차원의 주도권을 선언하려는 조치다.",
+          "soWhat": "구체적 감독 권한은 공개되지 않아 실제 규제 방향은 불투명하다.",
+          "context": {
+            "background": "트럼프는 AI를 '슈퍼 인텔리전스'로 재명명해 왔다.",
+            "issueContext": "FTC 위원장, 국방부 차관, 인사관리처장이 참여하고 와일스 비서실장에게 보고한다.",
+            "coreQuestion": "이 조직은 AI 규제 기구일까요, 산업 육성 기구일까요?",
+            "resolution": "발표는 4일 SNS로 이뤄졌고 세부 사항은 빠져 있다."
+          },
+          "sources": [
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/10/04/politics/trump-ai-task-force-jay-clayton"
+            }
+          ],
+          "related": {
+            "title": "Trump launches ‘Super Intelligence Force’ after calls for AI slowdown",
+            "source": "The Washington Post",
+            "url": "https://www.washingtonpost.com/politics/2026/10/04/trump-launches-super-intelligence-force-after-calls-ai-slowdown/",
+            "type": "다름"
+          },
+          "topics": ["트럼프", "AI", "백악관", "규제"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261005-2",
+          "date": "2026.10.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중간선거 한 달 앞, 트럼프 지지율 역대 최저권",
+          "summary": "중간선거를 한 달 앞두고 트럼프 대통령이 유세에 나섰지만 지지율은 30%대로 낮다.",
+          "why": "물가와 연료비 상승, 이란 전쟁에 대한 반대가 지지율을 끌어내리고 있다.",
+          "soWhat": "공화당이 상·하원 다수당 방어에 어려움을 겪을 수 있다.",
+          "context": {
+            "background": "선거일은 11월 3일이다.",
+            "issueContext": "유권자 46%는 트럼프가 공화당 승리를 어렵게 한다고 답했다.",
+            "coreQuestion": "대통령 인기 하락은 중간선거 패배로 이어질까요?",
+            "resolution": "여론조사 결과는 경제 지지율이 사상 최저임을 보여 준다."
+          },
+          "sources": [
+            {
+              "name": "알자지라",
+              "url": "https://aljazeera.com/news/2026/10/2/trump-launches-midterms-campaign-blitz-amidst-record-low-approval-ratings"
+            }
+          ],
+          "related": {
+            "title": "Why the 2026 election could be the worst midterm for the GOP this century",
+            "source": "CNN",
+            "url": "https://www.cnn.com/2026/09/25/politics/2026-midterm-election-trump",
+            "type": "유사"
+          },
+          "topics": ["트럼프", "중간선거", "지지율", "공화당"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261005-1",
+          "date": "2026.10.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 일자리 2만 9천 개 증가에 그쳐, 실업률 4.2%",
+          "summary": "9월 비농업 일자리가 2만 9천 개 늘어 예상치를 크게 밑돌았고 실업률은 4.2%로 올랐다.",
+          "why": "관세와 높은 비용이 고용을 짓누른 것으로 풀이된다.",
+          "soWhat": "연준의 10월 추가 금리 인상 가능성이 크게 낮아졌다.",
+          "context": {
+            "background": "7·8월 수치도 합계 6만 개 하향 수정됐다.",
+            "issueContext": "임금 상승률이 5년 내 최저로 떨어졌다.",
+            "coreQuestion": "약한 고용은 연준의 금리 인상을 막을까요?",
+            "resolution": "시장은 10월 인상 확률을 10%대로 반영했다."
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://npr.org/2026/10/02/nx-s1-5989140/jobs-labor-wages-federal-reserve"
+            }
+          ],
+          "related": {
+            "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+            "type": "다름"
+          },
+          "topics": ["고용", "연준", "금리", "관세"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261005-2",
+          "date": "2026.10.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "호르무즈 봉쇄 장기화, 유가 100달러 근접",
+          "summary": "호르무즈 해협 차단이 길어지면서 브렌트유가 97달러 선이다.",
+          "why": "미국·이스라엘과 이란의 전쟁으로 해협 통행이 사실상 막혔기 때문이다.",
+          "soWhat": "연료비 부담이 물가와 선거 판세에 계속 영향을 줄 수 있다.",
+          "context": {
+            "background": "전쟁으로 세계 연료 위기가 발생했다.",
+            "issueContext": "보험사가 통행 선박을 보증하지 않아 타국 유조선이 대기 중이다.",
+            "coreQuestion": "해협 정상화는 언제쯤 가능할까요?",
+            "resolution": "애널리스트들이 올해 유가 전망치를 올렸다."
+          },
+          "sources": [
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
+            }
+          ],
+          "related": {
+            "title": "Oil Price Forecasts Jump as Hormuz Disruption Drags On",
+            "source": "OilPrice.com",
+            "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Price-Forecasts-Jump-as-Hormuz-Disruption-Drags-On.html",
+            "type": "유사"
+          },
+          "topics": ["원유", "이란", "호르무즈해협", "에너지"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261005-1",
+          "date": "2026.10.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "우크라이나서 숨진 폭스뉴스 취재진 유족, 회사 상대 소송",
+          "summary": "2022년 우크라이나에서 숨진 두 취재진의 유족이 폭스뉴스가 안전을 소홀히 했다며 소송을 냈다.",
+          "why": "유족은 경고를 무시하고 위험 지역 취재를 밀어붙였다고 주장한다.",
+          "soWhat": "전쟁 취재 안전 책임 기준에 관한 선례가 될 수 있다.",
+          "context": {
+            "background": "2022년 3월 키이우 인근 러시아 공격으로 두 명이 숨졌다.",
+            "issueContext": "소송은 부당사망, 사기, 명예훼손을 주장한다.",
+            "coreQuestion": "취재 안전 책임은 방송사에 있을까요?",
+            "resolution": "폭스는 부정확한 주장이라며 적극 대응하겠다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/10/04/nx-s1-5987973/families-of-journalists-killed-in-ukraine-sue-fox-news-for-failing-to-keep-them-safe"
+            }
+          ],
+          "related": {
+            "title": "Fox News Star Blamed for Producer's Death in Explosive Report",
+            "source": "The Daily Beast",
+            "url": "https://thedailybeast.com/fox-news-star-blamed-for-producer-oleksha-sasha-kuvshynovas-death-in-explosive-report",
+            "type": "다름"
+          },
+          "topics": ["러시아", "언론", "소송", "인권"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261005-2",
+          "date": "2026.10.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "캘리포니아 샤스타카운티 선거책임자, 투표용지 잠그고 FBI 신고",
+          "summary": "샤스타카운티 선거 책임자가 6월 예비선거 투표용지가 이상하다며 창고를 자물쇠로 잠그고 FBI에 신고했다.",
+          "why": "본인이 후보이면서 선거 관리자였고 낙선한 뒤 부정 의혹을 제기했다.",
+          "soWhat": "선거 불신이 중간선거를 앞두고 확산될 수 있다.",
+          "context": {
+            "background": "결과는 먼저 인증됐다.",
+            "issueContext": "전문가들은 서명 검증 등 안전장치로 대규모 위조가 불가능하다고 본다.",
+            "coreQuestion": "이 사건은 선거 불신의 신호일까요, 한 지역의 해프닝일까요?",
+            "resolution": "FBI가 보관 장소를 방문해 상자를 점검했다."
+          },
+          "sources": [
+            {
+              "name": "CalMatters",
+              "url": "https://calmatters.org/politics/2026/09/shasta-county-elections-fbi-ballot-investigation/"
+            }
+          ],
+          "related": {
+            "title": "Shasta County’s new election official under scrutiny for election denial ties",
+            "source": "Yahoo News",
+            "url": "https://www.yahoo.com/news/shasta-county-election-official-under-220708628.html",
+            "type": "다름"
+          },
+          "topics": ["중간선거", "선거", "재검표", "FBI"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261004-1",
           "date": "2026.10.04",
@@ -19341,10 +19701,100 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.04",
-      "period": "2026.10.03 08:00 ~ 2026.10.04 08:00",
-      "updatedAt": "2026.10.04 08:00 KST",
+      "latestDate": "2026.10.05",
+      "period": "2026.10.04 08:00 ~ 2026.10.05 08:00",
+      "updatedAt": "2026.10.05 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261005-1",
+          "date": "2026.10.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "미중 3000억 달러 상호 관세 인하 합의, AI 대화 신설",
+          "summary": "중국 상무부는 미중이 약 3000억 달러 규모 상품 관세를 상호 인하하고 AI 대화 채널을 만들기로 했다고 밝혔다.",
+          "why": "9월 20~23일 뉴욕·워싱턴에서 열린 제8차 경제무역 협상에서 합의됐다.",
+          "soWhat": "관세 휴전 연장과 함께 양국 교역 부담이 일부 줄 전망이다.",
+          "context": {
+            "background": "양국은 관세 휴전을 이어 오고 있다.",
+            "issueContext": "대상 상품의 90% 이상이 최혜국 세율로 낮아진다.",
+            "coreQuestion": "이번 합의는 관세전쟁 완화의 신호일까요, 일시 휴전일까요?",
+            "resolution": "미중 무역이사회 신설과 11월 내 2차 AI 대화가 예정됐다."
+          },
+          "sources": [
+            {
+              "name": "중국신문망",
+              "url": "https://www.chinanews.com.cn/cj/2026/09-28/10704807.shtml"
+            }
+          ],
+          "related": {
+            "title": "美贸易代表叫嚣：不会坐视“过剩产品”涌入美国",
+            "source": "网易新闻",
+            "url": "https://163.com/news/article/L894E9A500019B3E.html",
+            "type": "반박"
+          },
+          "topics": ["미중갈등", "관세", "무역", "AI"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261005-1",
+          "date": "2026.10.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 제조업 PMI 50.1%, 확장 국면 복귀",
+          "summary": "국가통계국은 9월 제조업 PMI가 50.1%로 올라 확장 구간에 돌아왔다고 밝혔다.",
+          "why": "생산지수가 51.7%로 오르는 등 생산과 수요가 개선됐다.",
+          "soWhat": "내수 회복이 이어질지가 4분기 성장의 관건이다.",
+          "context": {
+            "background": "8월 PMI는 49.8%였다.",
+            "issueContext": "대기업 50.6%, 중소기업은 49.7%·48.9%로 아직 기준선 아래다.",
+            "coreQuestion": "회복은 중소기업까지 번질까요?",
+            "resolution": "21개 업종 중 12개가 기준선을 넘었다."
+          },
+          "sources": [
+            {
+              "name": "중국신문망",
+              "url": "https://www.chinanews.com.cn/cj/2026/09-30/10706141.shtml"
+            }
+          ],
+          "related": {
+            "title": "China’s economic policy holds line as growth weakens",
+            "source": "MERICS",
+            "url": "https://merics.org/en/tracker/chinas-economic-policy-holds-line-growth-weakens",
+            "type": "다름"
+          },
+          "topics": ["제조업", "경기", "PMI", "수출"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261005-2",
+          "date": "2026.10.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "국경절 연휴 소비 호조, 상권 매출 5.3% 증가",
+          "summary": "상무부 집계로 10월 1~3일 78개 보행가·상권 방문객은 3.4%, 매출은 5.3% 늘었다.",
+          "why": "정부가 문화관광 소비월 등으로 소비를 독려했다.",
+          "soWhat": "내수 부양책의 효과를 가늠하는 지표가 된다.",
+          "context": {
+            "background": "연휴는 10월 1~7일 7일간이다.",
+            "issueContext": "교통부는 연휴 인구 이동을 21.3억 명으로 예상했다.",
+            "coreQuestion": "연휴 소비는 일회성일까요, 내수 회복의 신호일까요?",
+            "resolution": "10월 1일 철도 이용객이 하루 기준 역대 최고였다."
+          },
+          "sources": [
+            {
+              "name": "新浪财经",
+              "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-initxsqi6401287.shtml"
+            }
+          ],
+          "related": {
+            "title": "解码流动中国的活力与韧性——2026年国庆假期半程观察",
+            "source": "百家号",
+            "url": "https://baijiahao.baidu.com/s?id=1878160072112121539",
+            "type": "유사"
+          },
+          "topics": ["소비", "내수", "경기", "유통"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261004-1",
           "date": "2026.10.04",
@@ -28834,10 +29284,70 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.04",
-      "period": "2026.10.03 08:00 ~ 2026.10.04 08:00",
-      "updatedAt": "2026.10.04 08:00 KST",
+      "latestDate": "2026.10.05",
+      "period": "2026.10.04 08:00 ~ 2026.10.05 08:00",
+      "updatedAt": "2026.10.05 08:00 KST",
       "issues": [
+        {
+          "id": "jp-eco-20261005-1",
+          "date": "2026.10.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "일본은행 9월 단칸, 대기업 제조업 +24로 6분기 연속 개선",
+          "summary": "대기업 제조업 업황판단지수가 +24로 6분기 연속 개선돼 2018년 3월 이후 최고 수준이다. 비제조업은 +35로 악화했다.",
+          "why": "AI·반도체 수요와 원유 가격 전가가 실적을 받쳤다.",
+          "soWhat": "향후 전망은 +21로 제조업이 다소 꺾일 것으로 본다.",
+          "context": {
+            "background": "6월 조사에서 제조업은 +22였다.",
+            "issueContext": "시장 예상 +25를 밑돌았다.",
+            "coreQuestion": "제조업 호조는 비제조업 부진을 상쇄할 수 있을까요?",
+            "resolution": "10월 1일 발표됐고 일본은행 정책 판단의 근거가 된다."
+          },
+          "sources": [
+            {
+              "name": "時事通信",
+              "url": "https://equity.jiji.com/market_watch/2026100100272"
+            }
+          ],
+          "related": {
+            "title": "【日銀短観】9月調査の大企業製造業はプラス24、予想（プラス25）を下回るも約8年半ぶりの高水準",
+            "source": "OANDA",
+            "url": "https://www.oanda.jp/lab-education/market_news/tankan-sep-2026-review/",
+            "type": "다름"
+          },
+          "topics": ["경기", "제조업", "일본은행", "AI"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261005-1",
+          "date": "2026.10.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "노벨상 5일 발표 시작, 일본 3년 연속 수상 주목",
+          "summary": "노벨상이 5일 생리의학상으로 시작해 12일까지 발표되며 일본인 3년 연속 수상 여부가 관심이다.",
+          "why": "작년 생리의학상·화학상, 재작년 평화상 수상이 이어졌기 때문이다.",
+          "soWhat": "일본 연구자들이 후보로 거론된다.",
+          "context": {
+            "background": "발표는 6일 물리학상 등으로 이어진다.",
+            "issueContext": "규슈대 아다치 지하야 교수 등이 후보로 꼽힌다.",
+            "coreQuestion": "일본은 3년 연속 수상을 이어갈까요?",
+            "resolution": "5일 일정이 시작된다."
+          },
+          "sources": [
+            {
+              "name": "NHK",
+              "url": "https://news.web.nhk/newsweb/na/nd-20260930de53274"
+            }
+          ],
+          "related": {
+            "title": "2026年ノーベル賞予想 誰が取る？マンジャロ研究者、村上春樹、安達千波矢…",
+            "source": "coki",
+            "url": "https://coki.jp/article/column/94443/",
+            "type": "다름"
+          },
+          "topics": ["연구", "노벨상", "면역", "의료"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261004-1",
           "date": "2026.10.04",
