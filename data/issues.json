@@ -113,10 +113,130 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.06",
-      "period": "2026.10.05 08:00 ~ 2026.10.06 08:00",
-      "updatedAt": "2026.10.06 08:00 KST",
+      "latestDate": "2026.10.07",
+      "period": "2026.10.06 08:00 ~ 2026.10.07 08:00",
+      "updatedAt": "2026.10.07 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261007-1",
+          "date": "2026.10.07",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국감 2일차, 10개 상임위 동시 가동…국방위·외통위는 DMZ 지뢰, 행안위는 투표용지 부족 쟁점",
+          "summary": "이재명 정부 2년차 국정감사가 2일차에 들어가 10개 상임위가 동시에 열렸다. 국방위·외통위는 DMZ 지뢰 사고를, 행안위는 6·3 지방선거 투표용지 부족 사태를 집중 추궁할 전망이다.",
+          "why": "국방부가 전날 북한군이 MDL 이남에 설치한 지뢰 탓이라고 최종 결론 내리면서 대북 대응 책임을 따지려는 여야 공세가 겹쳤기 때문이다.",
+          "soWhat": "국감 기간 내내 대북 노선과 선거 관리 책임 공방이 이어지며 정국 대치가 길어질 수 있다.",
+          "context": {
+            "background": "국방부는 DMZ 수색 중 장병이 다친 폭발 사고를 북한군이 MDL 이남에 묻은 지뢰 탓이라고 결론 냈고, 6·3 지방선거에서는 일부 투표소에서 투표용지가 모자랐다.",
+            "issueContext": "야당은 정부의 대북 노선 전환을 압박하고, 여당은 군의 초동 대응에 은폐 의혹이 없다고 반박하는 구도다.",
+            "coreQuestion": "국감에서 지뢰 사고와 선거 관리 책임이 실제 제도 개선으로 이어질까요, 정치 공방으로 끝날까요?",
+            "resolution": "국감은 이제 막 2일차이며, 지뢰 사고와 투표용지 부족 모두 아직 책임 소재가 가려지지 않았다."
+          },
+          "sources": [
+            {
+              "name": "로이슈",
+              "url": "https://www.lawissue.co.kr/view.php?ud=202610071023407128b3279dfb36_12"
+            }
+          ],
+          "related": {
+            "title": "\"북한 지뢰 도발은 명백한 침략\"…국민의힘, 李정부 '대북 노선' 폐기 압박",
+            "source": "데일리안",
+            "url": "https://www.dailian.co.kr/news/view/1696731/",
+            "type": "반박"
+          },
+          "topics": ["국정감사", "지뢰", "DMZ", "국방위", "선관위"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261007-2",
+          "date": "2026.10.07",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국감서 영화 '암살자(들)' 충돌…국힘 \"역사 왜곡, 감독 증인\" vs 민주 \"창작 검열\"",
+          "summary": "국정감사 2일차 문체위·교육위에서 육영수 여사 피격을 다룬 영화 '암살자(들)'을 두고 여야가 맞붙었다. 국민의힘은 허진호 감독 등을 증인으로 부르자고 했고 민주당·조국혁신당은 창작의 자유 침해라며 반대했다.",
+          "why": "영화가 열린 결말로 박정희 정권 배후설을 암시했다는 논란이 일자 국민의힘이 국감 증인 채택으로 쟁점을 키웠기 때문이다.",
+          "soWhat": "증인 채택 여부에 따라 국감이 문화 콘텐츠 검열 논쟁으로 번질 수 있다.",
+          "context": {
+            "background": "영화는 1974년 육영수 여사 피격 사건을 다루며, 당시 특별수사본부는 문세광 단독 범행으로 결론 냈다.",
+            "issueContext": "제작진은 특정 인물을 배후로 규정하지 않았다고 밝혔지만 국민의힘은 잘못된 역사 인식을 심을 수 있다고 주장한다.",
+            "coreQuestion": "국회가 영화 제작자를 증인으로 부르는 것은 정당한 감사일까요, 창작 검열일까요?",
+            "resolution": "증인 채택을 둘러싼 여야 합의는 이뤄지지 않았고 공방이 이어지고 있다."
+          },
+          "sources": [
+            {
+              "name": "아주경제",
+              "url": "https://www.ajunews.com/view/20261007135338692"
+            }
+          ],
+          "related": {
+            "title": "영화 '암살자(들)' 두고 중국자본 개입설까지... 파장 일파만파",
+            "source": "위키트리",
+            "url": "https://www.wikitree.co.kr/articles/1162702",
+            "type": "다름"
+          },
+          "topics": ["국정감사", "역사왜곡", "표현의자유", "국민의힘", "민주당"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261007-1",
+          "date": "2026.10.07",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 소비자물가 2.9%↑…정부 \"석유 최고가격제 없었다면 3.5%\"",
+          "summary": "9월 소비자물가가 1년 전보다 2.9% 올라 두 달 만에 다시 2%대로 내려왔다. 정부는 석유 최고가격제가 상승률을 0.6%포인트 낮췄다고 추정했다.",
+          "why": "농축수산물 가격 하락과 지난해 휴대전화 요금 변동의 기저효과가 상승률을 눌렀기 때문이다.",
+          "soWhat": "전기료 등 공공요금 부담이 남아 있어 체감 물가 안정은 당장 어렵고, 최고가격제 유지 논쟁도 이어질 전망이다.",
+          "context": {
+            "background": "고유가 국면에서 정부는 석유제품 최고가격제를 시행해 왔고 재정으로 정유사 손실을 보전해 왔다.",
+            "issueContext": "전기료는 전월보다 12.4% 오르는 등 공공요금 상승세가 여전하고 한은은 10월에도 3% 안팎의 높은 물가를 예상한다.",
+            "coreQuestion": "최고가격제 덕에 물가가 잡힌 것일까요, 부담을 재정에 미뤄 둔 것일까요?",
+            "resolution": "9월 물가는 2%대로 둔화됐지만 정부는 가격 통제 효과가 컸다고 평가한다."
+          },
+          "sources": [
+            {
+              "name": "노컷뉴스",
+              "url": "https://nocutnews.co.kr/news/6586423"
+            }
+          ],
+          "related": {
+            "title": "KDI \"최고 가격제 물가 낮췄다\"…여전한 실효성 논란",
+            "source": "SBS Biz",
+            "url": "https://biz.sbs.co.kr/amp/article/20000305872",
+            "type": "다름"
+          },
+          "topics": ["물가", "유가", "한국은행", "요금", "인플레이션"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261007-1",
+          "date": "2026.10.07",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "李대통령 \"추격자 관행 벗어나 녹색 시장의 설계자 돼야\"…K-GX 전략 보고회",
+          "summary": "이재명 대통령이 한국형 녹색대전환(K-GX) 전략 보고회에서 추격자 관행을 벗어나 녹색 시장의 설계자가 돼야 한다고 밝혔다. 기후 위기와 탄소 무역장벽에 대응하며 취약계층이 소외되지 않게 하라고도 당부했다.",
+          "why": "탄소 무역장벽이 높아지는 가운데 에너지·산업 구조를 탈탄소로 바꿔 경쟁력을 확보해야 한다는 판단 때문이다.",
+          "soWhat": "정부 주도의 투자·세제·금융 지원이 본격화되며 산업계의 탈탄소 투자 계획에 영향을 줄 전망이다.",
+          "context": {
+            "background": "정부는 올해 상반기 K-GX 전략 마련을 예고했고, 2035년까지 2018년 대비 온실가스 53~61% 감축을 목표로 한다.",
+            "issueContext": "산업계는 무탄소 전력망과 저탄소 제품 시장부터 갖춰야 전략이 현장에서 작동한다고 주문해 왔다.",
+            "coreQuestion": "K-GX는 기업 부담을 줄이는 성장 전략이 될까요, 새로운 규제가 될까요?",
+            "resolution": "대통령이 전략 방향을 확인했고 세부 이행 방안은 부처별로 구체화될 예정이다."
+          },
+          "sources": [
+            {
+              "name": "서울경제",
+              "url": "https://m.sedaily.com/article/20099055"
+            }
+          ],
+          "related": {
+            "title": "“K-GX〈한국형 녹색전환〉, 무탄소 전력망·저탄소 제품 시장부터 구축해야”",
+            "source": "헤럴드경제",
+            "url": "https://www.heraldk.com/article/2026051118301660962",
+            "type": "다름"
+          },
+          "topics": ["기후", "에너지", "산업정책", "탄소", "대통령"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261006-1",
           "date": "2026.10.06",
@@ -10076,10 +10196,70 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.06",
-      "period": "2026.10.05 08:00 ~ 2026.10.06 08:00",
-      "updatedAt": "2026.10.06 08:00 KST",
+      "latestDate": "2026.10.07",
+      "period": "2026.10.06 08:00 ~ 2026.10.07 08:00",
+      "updatedAt": "2026.10.07 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261007-1",
+          "date": "2026.10.07",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프 \"이란전, 좋은 방식이든 그렇지 않은 방식이든 끝낼 것\"…밴스는 농축 감축 요구",
+          "summary": "트럼프 대통령이 이란과의 전쟁을 '좋은 방식 또는 그렇지 않은 방식'으로 끝내겠다고 밝혔다. 밴스 부통령은 영구 휴전의 조건으로 이란의 농축 능력 대폭 감축을 요구했다.",
+          "why": "협상이 교착된 채 미국의 해상 봉쇄로 이란 원유 수출이 막혀 있어 압박 수위를 높이려는 것이다.",
+          "soWhat": "협상 재개 여부에 따라 호르무즈해협과 국제 유가, 미국 중간선거 판세까지 흔들릴 수 있다.",
+          "context": {
+            "background": "미국은 8월 25일 이후 이란 원유 선적을 막는 해상 봉쇄를 이어 오고 있고, 이란은 9월 말 7일 휴전안을 냈으나 트럼프가 거부했다.",
+            "issueContext": "트럼프는 이란 지도부가 누군지 알 수 없다고 했고 이란 외무부는 미국이 의사결정 구조를 안다고 반박했다.",
+            "coreQuestion": "미국과 이란은 협상으로 전쟁을 끝낼까요, 군사 압박이 더 커질까요?",
+            "resolution": "간접 접촉은 계속되지만 양측 모두 휴전 조건에서 물러서지 않고 있다."
+          },
+          "sources": [
+            {
+              "name": "걸프뉴스",
+              "url": "https://gulfnews.com/world/mena/iran-us-conflict-escalates-trump-warns-of-not-so-nice-end-vance-demands-enrichment-cuts-as-oil-blockade-hits-iran-economy-1.500701163"
+            }
+          ],
+          "related": {
+            "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump",
+            "source": "CBS News",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/",
+            "type": "다름"
+          },
+          "topics": ["트럼프", "이란", "호르무즈해협", "제재", "중동"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261007-1",
+          "date": "2026.10.07",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "S&P500·나스닥 사상 최고…엔비디아·AMD 주도, 10년물 금리는 5.27%로 하락",
+          "summary": "6일 뉴욕증시에서 S&P500이 0.7%, 나스닥이 0.4% 올라 사상 최고치를 경신했다. 엔비디아와 AMD가 신고가를 쓰며 상승을 이끌었고 10년물 국채금리는 5.27%로 내렸다.",
+          "why": "AI 반도체 수요가 공급을 앞선다는 기대가 이어지고 24년 만의 최고 수준이던 장기금리가 잠시 숨을 골랐기 때문이다.",
+          "soWhat": "일부 대형주만 오르는 쏠림이 심해 금리가 다시 오르면 조정 위험이 커질 수 있다.",
+          "context": {
+            "background": "10년물 금리는 24년 만의 최고 수준까지 올랐고 시장은 연준의 추가 인상 가능성을 가늠해 왔다.",
+            "issueContext": "S&P500 종목 중 50일 이동평균선 위에 있는 비중은 25%에 그쳐 시장 폭이 좁다.",
+            "coreQuestion": "AI 랠리는 실적으로 뒷받침되는 상승일까요, 쏠림이 만든 거품일까요?",
+            "resolution": "6일 장은 지수 신고가로 마감했고 콘스텔레이션 에너지는 구글과의 원전 계약으로 13% 급등했다."
+          },
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html"
+            }
+          ],
+          "related": {
+            "title": "Fed Officials Temper Rate Hike Bets as Jefferson, Williams Stress Patience",
+            "source": "Bloomberg",
+            "url": "https://bloomberg.com/news/articles/2026-10-02/warsh-s-top-fed-deputies-step-in-to-give-markets-a-clear-message",
+            "type": "다름"
+          },
+          "topics": ["나스닥", "엔비디아", "AMD", "국채금리", "연준"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261006-1",
           "date": "2026.10.06",
@@ -20061,10 +20241,70 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.06",
-      "period": "2026.10.05 08:00 ~ 2026.10.06 08:00",
-      "updatedAt": "2026.10.06 08:00 KST",
+      "latestDate": "2026.10.07",
+      "period": "2026.10.06 08:00 ~ 2026.10.07 08:00",
+      "updatedAt": "2026.10.07 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261007-1",
+          "date": "2026.10.07",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 외교부 \"미국의 대만 무기 판매 일관되게 반대\"…남중국해 필리핀 대응은 '정당'",
+          "summary": "중국 외교부가 6일 정례브리핑에서 미국의 대만 무기 판매에 일관되게 반대한다고 밝혔다. 남중국해에서 필리핀 항공기·선박에 대한 중국군과 해경의 대응은 정당하고 합리적이라고 주장했다.",
+          "why": "국경절 연설에서 대만 독립 세력 타격을 강조한 데 이어 대외 메시지에서도 대만·남중국해 원칙을 재확인한 것이다.",
+          "soWhat": "대만 무기 판매와 남중국해 충돌이 미중 관계 개선 흐름의 변수로 남는다.",
+          "context": {
+            "background": "시진핑 주석은 국경절 연설에서 '대만 독립 분열 세력'을 단호히 타격하겠다고 해 작년보다 수위를 높였다.",
+            "issueContext": "브리핑에서는 미국의 간첩 혐의 제기와 영국의 중국산 전기차 관세 검토 등도 질문으로 나왔다.",
+            "coreQuestion": "중국의 강경 메시지는 미중 대화 국면 속 협상용일까요, 노선 변화일까요?",
+            "resolution": "외교부는 대만 문제가 중국 내정이라는 기존 입장을 반복했다."
+          },
+          "sources": [
+            {
+              "name": "21경제망",
+              "url": "https://www.21jingji.com/article/20261006/herald/fc33a2328590c15240fe53104333602d.html"
+            }
+          ],
+          "related": {
+            "title": "In photos: China's Xi hardens Taiwan warning as country celebrates week-long National Day holiday",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/01/china-golden-week-holiday-taiwan-consumption-travel.html",
+            "type": "다름"
+          },
+          "topics": ["대만", "남중국해", "필리핀", "무기수출", "외교부"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261007-1",
+          "date": "2026.10.07",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "국경절 6일차 귀성 피크…하루 이동량 3억 명 넘을 전망, 철도 2210만 명",
+          "summary": "국경절 연휴 6일째인 6일 전국 지역 간 이동량이 3억 명을 넘을 것으로 예상됐다. 철도 이용객은 2210만 명이 예상되고 임시열차 2199편이 투입됐다.",
+          "why": "7일간의 연휴 막바지에 귀경·귀성 수요가 한꺼번에 몰리기 때문이다.",
+          "soWhat": "고속도로 44개 구간 정체와 교통 분산 대책이 연휴 마지막 이틀의 관건이 된다.",
+          "context": {
+            "background": "올해 국경절은 중추절과 겹쳐 연휴가 길어 장거리 이동과 다도시 여행이 늘었다.",
+            "issueContext": "도로 이동이 대부분을 차지해 장쑤·광둥·후난·안후이 구간의 혼잡이 예상됐다.",
+            "coreQuestion": "긴 연휴의 이동 수요는 소비 회복으로 이어질까요, 이동 규모 확대에 그칠까요?",
+            "resolution": "당국은 열차 증편과 고속도로 차선 100% 개방 등으로 분산 대응에 나섰다."
+          },
+          "sources": [
+            {
+              "name": "21경제망",
+              "url": "https://21jingji.com/article/20261006/herald/a2b4af99ab64ad6d1d6ecc2b80a77fff.html"
+            }
+          ],
+          "related": {
+            "title": "国庆假期迎来返程高峰 10月6日跨区域人员流动量预计突破3亿人次",
+            "source": "封面新闻",
+            "url": "https://www.thecover.cn/news/TOGrjSF1EjGH90qSdq8Jkw==",
+            "type": "유사"
+          },
+          "topics": ["국경절", "귀성길", "연휴", "철도", "교통"],
+          "review": "pending"
+        },
         {
           "id": "cn-eco-20261006-1",
           "date": "2026.10.06",
@@ -29704,10 +29944,40 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.06",
-      "period": "2026.10.05 08:00 ~ 2026.10.06 08:00",
-      "updatedAt": "2026.10.06 08:00 KST",
+      "latestDate": "2026.10.07",
+      "period": "2026.10.06 08:00 ~ 2026.10.07 08:00",
+      "updatedAt": "2026.10.07 08:00 KST",
       "issues": [
+        {
+          "id": "jp-oth-20261007-1",
+          "date": "2026.10.07",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "노벨 물리학상에 '아이스큐브' 할젠 교수…지바대 연구진도 중성미자 관측 참여",
+          "summary": "2026년 노벨 물리학상은 남극 관측시설 아이스큐브로 고에너지 중성미자를 관측한 미국 위스콘신대 프랜시스 할젠 교수에게 돌아갔다. 지바대 요시다 시게루·이시하라 야스노 교수 등 일본 연구자도 이 관측에 참여했다.",
+          "why": "2012년 은하계 밖 고에너지 중성미자를 처음 검출하고 2018년 발생 천체를 특정한 업적이 인정됐기 때문이다.",
+          "soWhat": "중성미자 천문학이 우주 관측의 새 축으로 자리 잡으며 일본의 기여도 재조명될 전망이다.",
+          "context": {
+            "background": "아이스큐브는 남극 빙하 속에 설치된 중성미자 관측시설로 우주에서 오는 극고에너지 입자를 포착한다.",
+            "issueContext": "일본에서는 광 연구 분야의 수상 기대가 높았으나 수상은 아이스큐브로 향했다.",
+            "coreQuestion": "중성미자 관측은 우주 기원 연구를 얼마나 바꿔 놓을까요?",
+            "resolution": "시상식은 12월 10일 스톡홀름에서 열린다."
+          },
+          "sources": [
+            {
+              "name": "시사통신",
+              "url": "https://www.jiji.com/jc/article?k=2026100600984&g=soc"
+            }
+          ],
+          "related": {
+            "title": "ノーベル物理学賞に米大学教授 「IceCube」でニュートリノ観測",
+            "source": "NHK",
+            "url": "https://news.web.nhk/newsweb/na/nd-20261005de54668",
+            "type": "유사"
+          },
+          "topics": ["노벨상", "물리학", "중성미자", "천문학", "일본"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261006-1",
           "date": "2026.10.06",
