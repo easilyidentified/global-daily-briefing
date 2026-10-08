@@ -113,10 +113,130 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.07",
-      "period": "2026.10.06 08:00 ~ 2026.10.07 08:00",
-      "updatedAt": "2026.10.07 08:00 KST",
+      "latestDate": "2026.10.08",
+      "period": "2026.10.07 08:00 ~ 2026.10.08 08:00",
+      "updatedAt": "2026.10.08 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261008-1",
+          "date": "2026.10.08",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "법사위 대법원 국감, 조희대 대법원장 증인선서 거부로 여야 충돌",
+          "summary": "조희대 대법원장이 법사위 국감에서 일반증인 선서를 거부했고, 여당은 답변 의무를 내세웠으며 야당은 이석 불허를 두고 강제 감금이라고 반발했다. 대법관 재제청 문제를 둘러싼 고성 속에 감사가 정회되기도 했다.",
+          "why": "여당이 대법관 후보 제청권 행사 경위를 대법원장이 직접 증언해야 한다고 요구한 반면, 대법원장은 삼권분립과 사법권 독립을 이유로 맞섰기 때문이다.",
+          "soWhat": "국회증언감정법에 따른 후속 조치 여부에 따라 입법부와 사법부의 대립이 길어질 수 있다.",
+          "context": {
+            "background": "통상 대법원장은 기관장 인사말 뒤 이석하고 법원행정처장이 질의에 답해 왔다. 이번에는 법사위원장이 이석을 허용하지 않았다.",
+            "issueContext": "여당은 증인선서와 직접 답변을 요구하고, 야당은 관례를 깬 사법부 망신주기라고 비판한다.",
+            "coreQuestion": "대법원장의 증언 거부는 사법권 독립의 방어일까요, 국회에 대한 답변 의무 회피일까요?",
+            "resolution": "대법원장은 오전 질의에 일부 답했지만 오후 국감에는 출석하지 않았고, 후속 조치는 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202610061121051132"
+            }
+          ],
+          "related": {
+            "title": "[스코어보드-법사위]대법원장 출석·대법관 제청권 놓고 맞붙은 여야…'작심발언' 쏟아낸 조희대",
+            "source": "네이트 뉴스",
+            "url": "https://m.news.nate.com/view/20261006n40058",
+            "type": "유사"
+          },
+          "topics": ["국정감사", "대법원", "국회", "여야갈등", "헌법"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261008-2",
+          "date": "2026.10.08",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 유세에서 한국 언급 \"관세 낮추려면 대가 내라고 말했다\"",
+          "summary": "트럼프 미국 대통령이 중간선거 유세에서 한국이 관세를 낮추려면 대가를 내야 했다며 대미 투자 규모를 다시 강조했다. 조선 협력과 대미투자 압박이 재차 부각됐다.",
+          "why": "11월 3일 중간선거를 앞두고 관세 정책의 성과를 홍보하려는 흐름에서 한국 사례가 반복 거론되고 있다.",
+          "soWhat": "한국 정부는 합의된 15% 관세와 투자 한도 해석을 두고 대미 협의에서 압박을 받을 수 있다.",
+          "context": {
+            "background": "한미는 지난해 자동차 관세 15%, 대미 현금투자 연 200억 달러 상한 등에 합의했다.",
+            "issueContext": "미국 대통령의 발언이 합의 범위를 넘어선 추가 부담을 시사하는 것인지가 쟁점이다.",
+            "coreQuestion": "대통령의 유세 발언은 정치적 수사일까요, 합의 재협상의 신호일까요?",
+            "resolution": "산업통상부 장관은 대미 투자가 관세 압박 관리용이며 15%를 넘지 않을 것이라고 밝힌 상태다."
+          },
+          "sources": [
+            {
+              "name": "한국일보",
+              "url": "https://www.hankookilbo.com/news/article/A2026100708370003678"
+            }
+          ],
+          "related": {
+            "title": "김정관 \"대미 투자는 관세 압박 관리용… 15% 안 넘을 것\"",
+            "source": "서울신문",
+            "url": "https://www.seoul.co.kr/news/economy/2026/10/01/20261001500026",
+            "type": "반박"
+          },
+          "topics": ["관세", "무역", "투자", "트럼프", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261008-1",
+          "date": "2026.10.08",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "재경위 국감, 수출대기업 달러 환전 요구 도마…부총리 \"직접 독촉 안 해\"",
+          "summary": "재정경제기획위 국감에서 고환율 대응을 위해 정부가 수출 대기업에 달러 환전을 요구했다는 지적이 나왔다. 부총리는 기업의 환전을 직접 독촉하거나 경영에 개입하지 않는다고 답했다.",
+          "why": "환율 부담이 이어지자 정부가 수출대금 조기 환전을 요청해 온 방식이 국감에서 쟁점이 됐다.",
+          "soWhat": "외환 당국의 기업 대상 요청이 압박으로 비칠 경우 정책 신뢰와 기업 자금 운용에 부담이 될 수 있다.",
+          "context": {
+            "background": "정부는 올해 6~7월 수출기업 간담회를 열어 수출대금 조기 환전과 해외 유보자금의 국내 유입을 요청했다.",
+            "issueContext": "야당은 사실상의 압박이라고 보고, 정부는 기업과의 협조일 뿐이라고 설명한다.",
+            "coreQuestion": "정부의 환전 요청은 시장 안정을 위한 협조일까요, 기업에 대한 간접 압박일까요?",
+            "resolution": "부총리는 기업들도 협력할 의사가 있다고 답했으며 제도 변경은 아직 없다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20261006001529"
+            }
+          ],
+          "related": {
+            "title": "Gov't begins foreign exchange inspections of more than 1,100 exporters",
+            "source": "코리아중앙데일리",
+            "url": "https://www.koreajoongangdaily.com/business/govt-begins-foreign-exchange-inspections-of-more-than-1100-exporters/12395103",
+            "type": "다름"
+          },
+          "topics": ["환율", "수출", "외환", "국정감사", "투자"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261008-1",
+          "date": "2026.10.08",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "북한, 원산 인근 미사일 발사 시설 확장…위성사진 분석",
+          "summary": "북한이 원산 인근 안변군 해안의 미사일 발사 관련 시설을 최근 확장한 것으로 위성사진 분석에서 확인됐다는 보도가 나왔다. 건물 증축과 새 도로 건설이 포착됐다.",
+          "why": "북한이 이달 3일에도 원산 일대에서 동해로 탄도미사일을 쏘는 등 발사 활동을 이어가고 있기 때문이다.",
+          "soWhat": "원산 일대가 상시 발사 거점으로 굳어지면 한반도 군사 긴장이 장기화될 수 있다.",
+          "context": {
+            "background": "합동참모본부는 3일 새벽 원산 일대에서 동해상으로 700km 이상 비행한 탄도미사일 1발을 포착했다고 밝혔다.",
+            "issueContext": "남북 대화 제의를 일축한 직후 발사가 이어져 도발 수위가 쟁점이다.",
+            "coreQuestion": "시설 확장은 발사 빈도 증가의 신호일까요, 기존 체계의 보강일까요?",
+            "resolution": "한미가 제원을 분석 중이며 정부는 안보리 결의 위반이라며 중단을 촉구했다."
+          },
+          "sources": [
+            {
+              "name": "SBS",
+              "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008786379"
+            }
+          ],
+          "related": {
+            "title": "북, '남북 대화' 일축 하루 만에 탄도미사일 발사",
+            "source": "네이트 뉴스",
+            "url": "https://m.news.nate.com/view/20261003n07125",
+            "type": "유사"
+          },
+          "topics": ["북한", "미사일", "안보", "외교", "위성"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261007-1",
           "date": "2026.10.07",
@@ -10196,10 +10316,130 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.07",
-      "period": "2026.10.06 08:00 ~ 2026.10.07 08:00",
-      "updatedAt": "2026.10.07 08:00 KST",
+      "latestDate": "2026.10.08",
+      "period": "2026.10.07 08:00 ~ 2026.10.08 08:00",
+      "updatedAt": "2026.10.08 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261008-1",
+          "date": "2026.10.08",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 중간선거 유세 지속…\"큰 반전 있을 것\" 자신감",
+          "summary": "트럼프 대통령이 오하이오 유세에서 중간선거 판세를 낙관하며 큰 반전이 올 것이라고 말했다. 메인·조지아 등지에서는 상원 후보 토론이 이어졌다.",
+          "why": "11월 3일 선거까지 한 달도 남지 않아 공화당 방어전에 대통령이 직접 나서고 있다.",
+          "soWhat": "이란 전쟁과 물가 부담 속에서 선거 결과가 남은 임기 동안의 의회 견제력을 좌우한다.",
+          "context": {
+            "background": "공화당은 상원 53석을 포함해 양원 다수당이며 하원 전체와 상원 33석이 이번에 걸려 있다.",
+            "issueContext": "일부 경합 선거구는 토론과 유세로 막판 판세가 갈리고 있다.",
+            "coreQuestion": "대통령의 낙관론은 실제 판세를 반영할까요, 지지층 결집용 발언일까요?",
+            "resolution": "투표 전이라 판세는 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "알자지라",
+              "url": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio"
+            }
+          ],
+          "related": {
+            "title": "Candidates debate in Georgia, Iowa, Maine and Michigan ahead of midterms",
+            "source": "NBC News",
+            "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-2026-midterm-elections-congress-live-updates-rcna601756",
+            "type": "다름"
+          },
+          "topics": ["중간선거", "트럼프", "공화당", "의회", "선거"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261008-2",
+          "date": "2026.10.08",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "캠프 데이비드서 이란전·후티 대응 논의…호르무즈 봉쇄 \"철통\"",
+          "summary": "미 고위 당국자들이 캠프 데이비드에서 이란 전쟁과 후티 분쟁을 논의했다. 헤그세스 국방장관은 호르무즈 해협 해상 봉쇄가 철통같다고 밝혔다.",
+          "why": "약 7개월째 이어진 전쟁이 선거를 앞두고 정치적 부담으로 커졌기 때문이다.",
+          "soWhat": "전쟁 장기화는 유가와 금리를 통해 미국 경제와 선거 구도에 계속 영향을 줄 수 있다.",
+          "context": {
+            "background": "트럼프 대통령은 7월 이란과의 적대행위 재개를 의회에 통지하고 해상 봉쇄를 재개했다.",
+            "issueContext": "전쟁권한법상 60일 시한을 둘러싼 법적·정치적 논란이 이어진다.",
+            "coreQuestion": "전쟁은 선거 전에 정리될까요, 선거 뒤까지 이어질까요?",
+            "resolution": "대통령은 선거 직후라도 승리할 것이라 말했으나 종전 시점은 불확실하다."
+          },
+          "sources": [
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/trump-iran-war-us-midterm-elections-troops-deployment/"
+            }
+          ],
+          "related": {
+            "title": "Trump notifies Congress the Iran war has resumed",
+            "source": "FOX 29",
+            "url": "https://www.fox29.com/news/trump-notifies-congress-iran-war-has-resumed",
+            "type": "다름"
+          },
+          "topics": ["이란", "호르무즈", "전쟁", "안보", "트럼프"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261008-1",
+          "date": "2026.10.08",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "높은 장기금리에 S&P500 기록 부근에서 후퇴",
+          "summary": "미국 증시가 사상 최고 부근에서 높은 채권금리 부담에 밀렸다. 연준 9월 회의록 공개를 앞두고 투자자들이 경계했다.",
+          "why": "유가 상승과 국채 공급 부담으로 장기금리가 5%대에 머물고 있기 때문이다.",
+          "soWhat": "금리가 더 오르면 반도체 중심 랠리의 지속성이 시험받을 수 있다.",
+          "context": {
+            "background": "30년물 국채금리는 8월 이후 2007년 이래 최고 수준으로 올랐다.",
+            "issueContext": "주식은 기록 부근인데 채권은 매도세가 이어지는 불균형이 나타난다.",
+            "coreQuestion": "주가는 고금리를 견딜 수 있을까요, 채권시장에 끌려 내려갈까요?",
+            "resolution": "연준 회의록 등 이벤트 전이라 방향은 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/06/stock-market-today-live-updates.html"
+            }
+          ],
+          "related": {
+            "title": "US 30-year Treasury yield hits highest since 2002 as bond sell-off deepens",
+            "source": "PrimeXBT",
+            "url": "https://primexbt.com/news/us-30-year-treasury-yield-hits-highest-since-2002-as-bond-sell-off-deepens/",
+            "type": "반박"
+          },
+          "topics": ["증시", "금리", "국채금리", "원유", "연준"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261008-1",
+          "date": "2026.10.08",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "시베리아 연구소 직원 페스트 의심 사망…트럼프 \"푸틴과 곧 통화\"",
+          "summary": "러시아 이르쿠츠크 방역연구소 직원이 페스트로 숨져 약 200명이 격리됐다. 트럼프 대통령은 푸틴과 곧 이 문제를 논의하겠다고 밝혔다.",
+          "why": "시료를 다루다 시험관이 깨졌다는 보도와 당국의 모호한 초기 발표가 국제적 우려를 키웠다.",
+          "soWhat": "러시아의 정보 공개 수준에 따라 국제 보건 공조와 불신이 함께 커질 수 있다.",
+          "context": {
+            "background": "28세 연구원이 9월 29일 폐렴 증세로 입원해 10월 1일 숨졌다.",
+            "issueContext": "초기에는 원인불명 폐렴으로 발표됐다가 이후 페스트로 알려져 은폐 논란이 일었다.",
+            "coreQuestion": "추가 감염은 차단됐을까요, 확산 우려가 남아 있을까요?",
+            "resolution": "당국은 상황이 통제되고 있다고 밝혔으나 공식 원인은 매체별로 엇갈린다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/07/trump-putin-russian-plague-death-cdc-pneumonic-.html"
+            }
+          ],
+          "related": {
+            "title": "Dozens quarantined after plague institute lab worker dies",
+            "source": "TimesLIVE",
+            "url": "https://www.timeslive.co.za/news/world/2026-10-05-dozens-quarantined-after-plague-institute-lab-worker-dies/",
+            "type": "유사"
+          },
+          "topics": ["러시아", "페스트", "보건", "격리", "트럼프"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261007-1",
           "date": "2026.10.07",
@@ -20241,10 +20481,70 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.07",
-      "period": "2026.10.06 08:00 ~ 2026.10.07 08:00",
-      "updatedAt": "2026.10.07 08:00 KST",
+      "latestDate": "2026.10.08",
+      "period": "2026.10.07 08:00 ~ 2026.10.08 08:00",
+      "updatedAt": "2026.10.08 08:00 KST",
       "issues": [
+        {
+          "id": "cn-eco-20261008-1",
+          "date": "2026.10.08",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "국경절 연휴 소비 호조 공식 평가 vs 'K자형 분화' 지적",
+          "summary": "신화사는 국경절 연휴 중반 장거리 여행과 상권 소비가 달아올랐다고 전했다. 상무부 집계로 주요 보행가 매출은 전년 대비 5.3% 늘었다.",
+          "why": "당국이 문화관광 소비월을 열고 3억 위안 넘는 소비쿠폰을 푸는 등 내수 부양에 힘을 싣고 있기 때문이다.",
+          "soWhat": "서비스 소비는 살아나도 대형 상품 소비 부진이 이어지면 내수 회복의 질이 논란이 될 수 있다.",
+          "context": {
+            "background": "1~8월 서비스 소매액은 4.9% 늘었지만 상품 소매액은 1.0% 증가에 그쳤다.",
+            "issueContext": "공식 매체는 공급과 수요 모두 활발하다고 보고, 일부 분석은 자동차·가구 등 대형 상품 부진을 지적한다.",
+            "coreQuestion": "연휴 소비 열기는 내수 회복의 신호일까요, 일시적 서비스 소비 쏠림일까요?",
+            "resolution": "연휴 종료 뒤 국가통계국과 상무부의 확정 수치가 나와야 판단할 수 있다."
+          },
+          "sources": [
+            {
+              "name": "신화망",
+              "url": "https://www.news.cn/politics/20261005/1fd0f2ad09634d3696cd6d3887b2446f/c.html"
+            }
+          ],
+          "related": {
+            "title": "2026年国庆黄金周21.3亿人次出行，消费呈现K型分化与服务消费崛起",
+            "source": "후슈",
+            "url": "https://www.huxiu.com/article/4895169.html",
+            "type": "반박"
+          },
+          "topics": ["내수", "소비", "관광", "서비스업", "경기부양"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20261008-1",
+          "date": "2026.10.08",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국공산당 20기 5중전회 10월 26~29일 개최 예정",
+          "summary": "중국공산당이 20기 중앙위원회 5차 전체회의를 10월 26~29일 베이징에서 연다. 의제는 전면적이고 엄격한 당 자치 문제다.",
+          "why": "내년 가을 당대회를 앞두고 인사와 당 기강 문제를 정리하는 단계이기 때문이다.",
+          "soWhat": "회의 결과에 따라 차기 지도부 구도와 정책 기조에 대한 신호가 나올 수 있다.",
+          "context": {
+            "background": "회의 날짜는 9월 말 정치국 회의 뒤 신화사를 통해 발표됐다.",
+            "issueContext": "일각에서는 대규모 인사 개편과 시진핑 4연임 구도가 거론되지만 확정된 것은 아니다.",
+            "coreQuestion": "이번 전체회의는 당 기강 정비에 그칠까요, 차기 지도부 구상의 신호가 될까요?",
+            "resolution": "개최 전이라 결과는 나오지 않았다."
+          },
+          "sources": [
+            {
+              "name": "로이터(인터나치오날레 전재)",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/21/china-s-xi-chairs-politburo-central-committee-plenum-set-for-october-26-29"
+            }
+          ],
+          "related": {
+            "title": "Communist party sets date for key political gathering in October",
+            "source": "SCMP",
+            "url": "https://scmp.com/news/china/politics/article/3368215/communist-party-sets-date-key-political-gathering-october",
+            "type": "유사"
+          },
+          "topics": ["공산당", "시진핑", "전체회의", "인사", "당대회"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261007-1",
           "date": "2026.10.07",
@@ -29944,10 +30244,70 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.07",
-      "period": "2026.10.06 08:00 ~ 2026.10.07 08:00",
-      "updatedAt": "2026.10.07 08:00 KST",
+      "latestDate": "2026.10.08",
+      "period": "2026.10.07 08:00 ~ 2026.10.08 08:00",
+      "updatedAt": "2026.10.08 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261008-1",
+          "date": "2026.10.08",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리 시정연설, 적자국채 없는 소비세 인하 공언…국회 대표질문 시작",
+          "summary": "다카이치 총리가 임시국회 시정연설에서 경제성장을 최우선으로 내세우고 적자국채 발행 없이 식료품 소비세를 한시 인하하겠다고 밝혔다. 7일부터 중의원 대표질문이 시작됐다.",
+          "why": "식료품 소비세를 2027년 4월부터 2년간 8%에서 1%로 낮추는 법안을 두고 여야가 맞붙고 있기 때문이다.",
+          "soWhat": "재원 마련 방식과 야당의 반대에 따라 재정 신뢰와 국채시장 반응이 갈릴 수 있다.",
+          "context": {
+            "background": "임시국회는 5일 소집돼 69일간 열리며 개각 이후 첫 국회다.",
+            "issueContext": "야당은 감세가 즉각적인 부담 완화가 되지 못한다며 반대하고 농상 등 각료 자질도 추궁할 방침이다.",
+            "coreQuestion": "적자국채 없는 소비세 인하는 재원 면에서 가능할까요, 결국 재정 부담으로 돌아올까요?",
+            "resolution": "법안은 심의 단계이며 처리 여부는 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "재팬투데이",
+              "url": "https://japantoday.com/category/politics/update1-japan-pm-vows-consumption-tax-cut-without-new-bond-issuance-in-diet-speech"
+            }
+          ],
+          "related": {
+            "title": "国会5日召集、消費減税で論戦へ 簗農相ら閣僚の資質追及",
+            "source": "구마니치",
+            "url": "https://kumanichi.com/articles/2042949",
+            "type": "다름"
+          },
+          "topics": ["소비세", "감세", "국회", "재정", "다카이치"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261008-1",
+          "date": "2026.10.08",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "엔화 158엔 안팎 약세 지속…우에다 총재 연설도 시장 못 움직여",
+          "summary": "달러·엔이 158엔 선 바로 위에서 움직이며 약세가 이어졌다. 우에다 일본은행 총재의 9월 금리 인상 이후 첫 주요 연설은 환율을 크게 움직이지 못했다.",
+          "why": "금리 인상에도 추가 인상 속도에 대한 불확실성이 커 엔 매수가 이어지지 않기 때문이다.",
+          "soWhat": "10월 29~30일 금융정책결정회의까지 엔화 변동성과 당국 개입 경계가 이어질 전망이다.",
+          "context": {
+            "background": "일본은행은 9월 18일 금리를 올렸고 정책위원 2명이 반대했다. 7월 말에는 미일 공조 개입이 있었다.",
+            "issueContext": "시장은 10월 회의 인상 확률을 약 25%로 본다.",
+            "coreQuestion": "엔화 약세는 추가 인상으로 멈출까요, 개입이 더 필요할까요?",
+            "resolution": "당국은 개입 가능성을 열어 두고 있으나 추세는 아직 꺾이지 않았다."
+          },
+          "sources": [
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/the-japanese-yen-flatlines-through-a-boj-speech-that-changed-nothing-202610062233"
+            }
+          ],
+          "related": {
+            "title": "Japan Markets Face BOJ, Yen and AI Test in First Full Week of October",
+            "source": "News On Japan",
+            "url": "https://newsonjapan.com/article/150947.php",
+            "type": "유사"
+          },
+          "topics": ["엔화", "금리", "일본은행", "환율", "증시"],
+          "review": "pending"
+        },
         {
           "id": "jp-oth-20261007-1",
           "date": "2026.10.07",
