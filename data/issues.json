@@ -113,10 +113,190 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.08",
-      "period": "2026.10.07 08:00 ~ 2026.10.08 08:00",
-      "updatedAt": "2026.10.08 08:00 KST",
+      "latestDate": "2026.10.09",
+      "period": "2026.10.08 08:00 ~ 2026.10.09 08:00",
+      "updatedAt": "2026.10.09 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261009-1",
+          "date": "2026.10.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "정부, 주우크라이나 대사 소환 결정…18년 만의 항의성 귀국 조치",
+          "summary": "정부가 박기창 주우크라이나 대사를 소환하기로 했다. 북한군 포로 공개와 한국발 석유제품의 러시아行 의혹을 둘러싼 우크라이나와의 외교 갈등이 전면화됐다.",
+          "why": "우크라이나가 한국이 대러 제재에 동참하지 않고 석유제품 공급으로 러시아를 도왔다고 공개 비판하자 정부가 강경 대응에 나섰다.",
+          "soWhat": "대사 귀국 시점과 우크라이나의 추가 대응에 따라 양국 관계 경색과 대러 제재 논란이 길어질 수 있다.",
+          "context": {
+            "background": "영국 가디언은 7~8월 한국 항구에서 선적된 석유제품 17만 6천 톤 이상이 러시아 극동으로 향했다고 보도했다.",
+            "issueContext": "청와대는 해당 수출 사례가 없다고 밝혔고, 외교부는 상업용 경유와 항공유가 수출통제 품목이 아니라고 설명했다.",
+            "coreQuestion": "대사 소환은 불필요한 외교 갈등의 확대일까요, 공개 비판에 대한 정당한 대응일까요?",
+            "resolution": "외교부는 실제 귀국 시점을 협의 경과를 보아 판단하겠다고 밝혔고, 사실관계 확인은 계속되고 있다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202610081725167180"
+            }
+          ],
+          "related": {
+            "title": "靑, 우크라 '대러 유류 지원' 주장 반박…\"사실과 다르고 부적절\"",
+            "source": "뉴스핌",
+            "url": "https://www.newspim.com/news/view/20261007001609",
+            "type": "반박"
+          },
+          "topics": ["우크라이나", "대러제재", "외교", "석유제품", "북한"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261009-2",
+          "date": "2026.10.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "차지훈 대사, 유엔에서 북한 지뢰 매설 규탄…\"정전협정 위반, 사과하라\"",
+          "summary": "한국이 유엔총회 제1위원회에서 북한의 지뢰 매설이 정전협정 위반이라며 사과와 재발 방지를 요구했다. 정부가 유엔 공식 회의에서 이 사건의 북한 책임을 공개 거론한 것은 처음이다.",
+          "why": "9월 21일 서부전선 DMZ에서 지뢰 폭발로 장병 3명이 다쳤고, 유엔사가 북한 지뢰로 특정해 정전협정 위반이라고 발표했기 때문이다.",
+          "soWhat": "북한이 자작극이라며 부인하고 있어 책임 공방이 이어지고 국경선 요새화 중단 요구도 평행선을 달릴 수 있다.",
+          "context": {
+            "background": "유엔사는 한미 합동조사 뒤 군사분계선 이남에서 발견된 지뢰를 북한 것으로 특정했다.",
+            "issueContext": "군은 북한의 의도적 매설로 보고, 유엔사는 지상에 놓인 것으로 보지만 책임은 피할 수 없다는 입장이다.",
+            "coreQuestion": "북한의 사과와 재발 방지 약속을 이끌어낼 수 있을까요?",
+            "resolution": "합참은 지뢰 매설 등 국경선 요새화 작업을 즉시 중단하라고 북한에 요구했다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20261009000002"
+            }
+          ],
+          "related": {
+            "title": "유엔사 \"북한 지뢰, 정전협정 위반\"‥군 \"'요새화' 중단해야\"",
+            "source": "MBC",
+            "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6855023_37004.html",
+            "type": "유사"
+          },
+          "topics": ["북한", "지뢰", "정전협정", "유엔", "안보"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261009-1",
+          "date": "2026.10.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "'107조 실적'도 역부족…코스피 2.6% 내린 6625.93 마감",
+          "summary": "삼성전자가 3분기 영업이익 107조 원의 잠정실적을 내놨지만 코스피는 2.62% 내린 6625.93에 마감했다. 외국인이 2조 4천억 원 넘게 순매도했다.",
+          "why": "미국 금리와 유가 상승 부담에 호재 뒤 차익을 챙기는 셀온이 겹쳤고, 옵션 만기와 ETF 리밸런싱이 장 막판 낙폭을 키웠다.",
+          "soWhat": "반도체 중심 증시가 실적보다 금리와 수급에 민감하게 움직이는 국면이 이어질 수 있다.",
+          "context": {
+            "background": "삼성전자는 매출 195조 원, 영업이익 107조 4천억 원으로 영업이익률 55.1%의 역대 최고 분기 실적을 발표했다.",
+            "issueContext": "사상 최대 실적에도 삼성전자와 SK하이닉스, SK스퀘어가 동반 하락했다.",
+            "coreQuestion": "이번 하락은 일시적 수급 요인일까요, 반도체 랠리 피로의 신호일까요?",
+            "resolution": "코스닥도 0.69% 하락한 892.27에 마감했다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20261008000948"
+            }
+          ],
+          "related": {
+            "title": "삼전 실적 이긴 '자사주 매입 종료·옵션 만기'…코스피, 6600선 마감 [fn마감시황]",
+            "source": "파이낸셜뉴스",
+            "url": "https://fnnews.com/news/202610081558204007",
+            "type": "다름"
+          },
+          "topics": ["코스피", "반도체", "증시", "금리", "실적"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261009-2",
+          "date": "2026.10.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "이억원 금융위원장 \"레버리지 ETF, 청와대 지시 없었다\"…국감 책임 공방",
+          "summary": "이억원 금융위원장이 정무위 국감에서 단일종목 레버리지 ETF 도입에 청와대 지시가 없었다고 거듭 부인했다. 야당은 청와대 개입 정황을 제기하며 책임을 추궁했다.",
+          "why": "레버리지 ETF로 개인투자자 손실이 커지자 도입 경위와 출시 시점이 앞당겨진 배경이 쟁점이 됐다.",
+          "soWhat": "도입 책임 공방이 정무위 후속 질의와 제도 보완 논의로 이어질 가능성이 크다.",
+          "context": {
+            "background": "금융위 보고 자료에서 상품 출시 시점이 하반기에서 2분기로 앞당겨졌다.",
+            "issueContext": "야당은 비공개회의에서 전 청와대 정책실장이 도입을 언급했다는 진술을 확보했다고 주장한다.",
+            "coreQuestion": "레버리지 ETF 도입은 금융위의 독자 판단이었을까요, 청와대 의중이 반영된 결정이었을까요?",
+            "resolution": "이 위원장은 관계부처 협의를 거쳤다고 밝히고 국민에게 송구하다고 사과했다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202610081815167765"
+            }
+          ],
+          "related": {
+            "title": "레버리지 ETF에 고개숙인 이억원…\"靑 지시는 아니다\"",
+            "source": "노컷뉴스",
+            "url": "https://nocutnews.co.kr/news/6588835",
+            "type": "유사"
+          },
+          "topics": ["레버리지ETF", "국정감사", "금융위원회", "개인투자자", "청와대"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261009-1",
+          "date": "2026.10.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "누리호 5차 발사 성공…군집위성 5기 사출 완료",
+          "summary": "누리호 5차 발사가 성공해 주탑재 군집위성 5기가 목표 궤도에 투입됐다. 큐브위성 10기 중 1기는 사출관 뚜껑이 열리지 않아 사출되지 않았다.",
+          "why": "우주항공청과 항우연이 발사 성공 기준인 고도 570㎞ 범위 충족을 확인했다.",
+          "soWhat": "세 번째 연속 실위성 발사 성공으로 신뢰도가 높아졌고, 2027년 6차 발사부터 민간 역할이 커진다.",
+          "context": {
+            "background": "누리호는 2023년 3차와 지난해 4차에 이어 이번에도 실제 위성 발사 임무에 성공했다.",
+            "issueContext": "이번에는 역대 최다인 15기의 위성을 실었고 큐브위성 1기 미사출 원인이 분석 대상이다.",
+            "coreQuestion": "누리호는 민간 중심의 반복 발사 체계로 넘어갈 수 있을까요?",
+            "resolution": "우주청은 큐브위성 1기 미사출과 별개로 5차 발사를 성공으로 판정했다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202610071305113454"
+            }
+          ],
+          "related": {
+            "title": "[종합] 누리호 5차 발사 성공...위성 14기 우주로, 민간 우주시대 성큼",
+            "source": "중앙이코노미뉴스",
+            "url": "https://www.joongangenews.com/news/articleView.html?idxno=553345",
+            "type": "유사"
+          },
+          "topics": ["우주", "누리호", "위성", "발사"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261009-2",
+          "date": "2026.10.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "환자 2명 숨진 강남 치과, 사망사고 사흘 뒤 홍보영상…유가족 국감서 울분",
+          "summary": "강남의 한 임플란트 치과에서 8개월 새 환자 2명이 숨진 사건이 국정감사에서 다뤄졌다. 대표원장은 두 사고가 있었다고 인정했고, 두 번째 사망 사흘 뒤 홍보영상이 올라온 사실이 문제 됐다.",
+          "why": "첫 사망 후에도 보건당국에 보고되지 않았고 관할 구청이 언론 보도로 사고를 알게 되는 등 관리 공백이 드러났다.",
+          "soWhat": "환자 안전 보고 의무와 사후 감독 강화 논의가 빨라질 수 있다.",
+          "context": {
+            "background": "첫 사망은 지난해 12월, 두 번째는 올해 8월에 발생했고 서울경찰청이 수사 중인 것으로 알려졌다.",
+            "issueContext": "최근 3년간 이 치과에 119 출동이 22차례 있었고 응급실 이송 환자도 13명으로 공개됐다.",
+            "coreQuestion": "반복된 사고를 막지 못한 책임은 병원에 있을까요, 감독 체계에 있을까요?",
+            "resolution": "수사가 진행 중이며 사망 원인과 책임 범위는 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "뉴데일리",
+              "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/08/2026100800289.html"
+            }
+          ],
+          "related": {
+            "title": "서울 강남 '임플란트' 치과, 8개월 새 2명 사망… 뒤늦게 알려진 이유?",
+            "source": "한국일보",
+            "url": "https://www.hankookilbo.com/news/article/A2026082613440003508",
+            "type": "유사"
+          },
+          "topics": ["치과", "의료사고", "국정감사", "환자안전"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261008-1",
           "date": "2026.10.08",
@@ -10316,10 +10496,190 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.08",
-      "period": "2026.10.07 08:00 ~ 2026.10.08 08:00",
-      "updatedAt": "2026.10.08 08:00 KST",
+      "latestDate": "2026.10.09",
+      "period": "2026.10.08 08:00 ~ 2026.10.09 08:00",
+      "updatedAt": "2026.10.09 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261009-1",
+          "date": "2026.10.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프 \"중간선거 전 이란 공격 없다\"…유가 불안은 가시지 않아",
+          "summary": "트럼프 대통령이 11월 3일 중간선거 전에는 이란을 공격하지 않겠다고 밝혔다. 백악관이 국방부에 선거 전 타격 옵션을 요청했다는 보도 직후였고 브렌트유는 4% 오른 104달러대에 마감했다.",
+          "why": "애틀랜틱이 선거 전 타격 옵션 요청을 보도하자 시장이 요동쳤고, 대통령이 직접 진화에 나섰다.",
+          "soWhat": "호르무즈 해협 재개방 협상 결과에 따라 유가와 미국 정치 일정이 함께 흔들릴 수 있다.",
+          "context": {
+            "background": "호르무즈 해협에서는 최근 일주일간 유조선 9척이 공격받았고 통과 물량은 전쟁 전보다 약 30% 줄었다.",
+            "issueContext": "이란 외무장관은 7일 내 해협 재개방 제안에 대한 미국 답변을 검토 중이라고 밝혔다.",
+            "coreQuestion": "트럼프의 약속은 시장을 안심시킬 수 있을까요, 선거용 발언에 그칠까요?",
+            "resolution": "최종 결정은 내려지지 않았고 미국은 이란과 생산적인 대화 중이라고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/business/energy/oil-prices-stocks-trump-iran-rcna602248"
+            }
+          ],
+          "related": {
+            "title": "Tuning Out Trump's Iran Talk Defines the New Oil Trade",
+            "source": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/newsletters/2026-10-08/tuning-out-trump-s-iran-talk-defines-the-new-oil-trade",
+            "type": "다름"
+          },
+          "topics": ["이란", "호르무즈해협", "트럼프", "중간선거", "안보"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261009-2",
+          "date": "2026.10.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "미 법무부, 마두로 부부를 고문 공모 혐의로 추가 기소",
+          "summary": "미 법무부가 니콜라스 마두로 전 베네수엘라 대통령과 부인 실리아 플로레스를 고문 공모 혐의로 기소한 수정 공소장을 공개했다. 미국 시민 학대도 포함됐다.",
+          "why": "기존 마약테러 혐의에 더해 반대파와 미국인 수감자에 대한 고문 의혹을 형사 책임으로 묶으려는 조치다.",
+          "soWhat": "2027년 6월 1일 재판을 앞두고 혐의가 늘어 형량 위험이 커졌다.",
+          "context": {
+            "background": "두 사람은 이미 마약테러, 코카인 수입 공모, 무기 혐의로 기소돼 브루클린에 구금돼 있다.",
+            "issueContext": "공소장은 마두로가 고문 방식을 승인하고 피해자 상황을 보고받았다고 주장한다.",
+            "coreQuestion": "추가 기소는 재판을 유리하게 만들까요, 정치적 압박 수단으로 비칠까요?",
+            "resolution": "두 사람은 기존 혐의에 무죄를 주장했고 새 혐의도 부인한다."
+          },
+          "sources": [
+            {
+              "name": "미 법무부",
+              "url": "https://www.justice.gov/opa/pr/nicolas-maduro-moros-and-cilia-adela-flores-de-maduro-charged-torture"
+            }
+          ],
+          "related": {
+            "title": "Maduro was already accused of narcoterrorism. Now he faces a torture charge",
+            "source": "Deseret News",
+            "url": "https://www.deseret.com/u-s-world/2026/10/08/new-us-charge-accuses-venezuelan-president-maduro-of-torturing-opponents-and-americans/",
+            "type": "유사"
+          },
+          "topics": ["마두로", "베네수엘라", "기소", "고문", "법무부"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261009-1",
+          "date": "2026.10.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "미 10년물 국채금리 2002년 이후 최고치…5.36% 찍고 반락",
+          "summary": "미국 10년물 국채금리가 장중 5.36%까지 올라 2002년 이후 최고를 기록했다. 390억 달러 규모 10년물 입찰 수요가 강하자 5.2%대로 내려왔다.",
+          "why": "중동발 유가 상승, 연방정부 차입 확대, AI 관련 기업채 공급이 금리를 밀어 올렸다.",
+          "soWhat": "높은 장기금리는 성장주 밸류에이션 부담과 연준의 추가 인상 관측을 키운다.",
+          "context": {
+            "background": "9월로 끝난 분기에 미 국채금리는 이번 세기 최대 폭으로 올랐다.",
+            "issueContext": "골드만삭스는 올해 AI 관련 채권 공급이 4,890억 달러라고 추정했다.",
+            "coreQuestion": "금리 급등은 입찰 수요로 진정될까요, 더 오를까요?",
+            "resolution": "뉴욕 채권시장 종가 기준 10년물 금리는 5.22%였다."
+          },
+          "sources": [
+            {
+              "name": "Forbes",
+              "url": "https://www.forbes.com/sites/garthfriesen/2026/10/07/why-the-10-year-treasury-yield-just-hit-a-24-year-high/"
+            }
+          ],
+          "related": {
+            "title": "Global bond sell-off pushes U.S. Treasury yields to fresh 24-year highs",
+            "source": "NBC News",
+            "url": "https://nbcnews.com/business/markets/treasury-yields-hit-24-year-highs-global-sell-accelerates-rcna602045",
+            "type": "다름"
+          },
+          "topics": ["국채금리", "금리", "물가", "유가", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261009-2",
+          "date": "2026.10.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "오픈AI 매출 전망 차질 보도에 나스닥 1% 하락",
+          "summary": "파이낸셜타임스가 오픈AI의 연환산 매출이 기존 시사치보다 약 200억 달러 적다고 보도하자 AI 관련주가 급락했다. 오라클이 5% 넘게, 엔비디아와 AMD도 각각 3~4% 떨어졌다.",
+          "why": "금리 급등 속에서 AI 투자 수익성 의구심이 커진 터에 대표 기업의 매출 격차가 드러났다.",
+          "soWhat": "AI 투자 사이클에 대한 시장의 눈높이가 매출 산정 방식까지 따지는 쪽으로 높아질 수 있다.",
+          "context": {
+            "background": "오픈AI는 파트너 판매 수익을 매출에서 제외하는 반면 앤스로픽은 AWS 등 파트너 매출을 포함한다.",
+            "issueContext": "격차 상당 부분이 회계 산정 방식 차이에서 비롯된 것으로 보인다.",
+            "coreQuestion": "AI 업계 매출 격차는 회계 기준 차이일 뿐일까요, 수요 둔화의 신호일까요?",
+            "resolution": "다음 날 미 증시는 혼조 마감했고 반도체 업종이 약세였다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html"
+            }
+          ],
+          "related": {
+            "title": "MARKETS LIVE: Nasdaq tumbles as OpenAI report rattles AI trade",
+            "source": "Proactive Investors",
+            "url": "https://www.proactiveinvestors.com/companies/news/1099785/markets-live-nasdaq-tumbles-as-openai-report-rattles-ai-trade-1099785.html",
+            "type": "다름"
+          },
+          "topics": ["오픈AI", "AI", "증시", "반도체", "엔비디아"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261009-1",
+          "date": "2026.10.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "펜타곤 \"포트후드 총기난사범 총살형 집행, 생중계한다\"",
+          "summary": "국방부가 포트후드 총기난사범 니달 하산의 총살형 집행을 생중계하겠다고 밝혔다. 집행은 12월 3일 텍사스에서 예정돼 있다.",
+          "why": "헤그세스 국방장관이 처벌의 무게를 대중이 알아야 한다며 공개를 주장했고 대통령이 승인했다.",
+          "soWhat": "미국에서 처형이 방송된 전례가 없어 법적 논란과 집행 지연 가능성이 크다.",
+          "context": {
+            "background": "하산은 2013년 군사재판에서 13명 살해와 30여 명 부상 혐의로 유죄를 선고받았다.",
+            "issueContext": "미군의 총살형 집행은 1945년이 마지막이었다.",
+            "coreQuestion": "처형 생중계는 공적 책임의 투명성일까요, 형벌의 오락화일까요?",
+            "resolution": "중계 플랫폼 등 세부 사항은 추후 발표될 예정이다."
+          },
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "url": "https://www.pbs.org/newshour/nation/pentagon-says-firing-squad-execution-of-fort-hood-shooter-will-be-livestreamed"
+            }
+          ],
+          "related": {
+            "title": "Hegseth says firing squad execution of Fort Hood shooter will be 'public'",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/8/hegseth-says-firing-squad-execution-of-fort-hood-shooter-will-be-public",
+            "type": "유사"
+          },
+          "topics": ["사형", "군사재판", "국방부", "헤그세스"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261009-2",
+          "date": "2026.10.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "거울상 분자 연구에 노벨 화학상…수상자 또 남성 일색 논란",
+          "summary": "소아이 겐소와 앙리 카간이 거울상 분자 연구로 노벨 화학상을 받았다. 이 연구는 많은 의약품 개발로 이어졌다.",
+          "why": "거울상 분자를 선택적으로 합성하는 기술이 약효와 안전성에 결정적이었다는 점이 평가됐다.",
+          "soWhat": "올해 의학·화학·물리 수상자가 모두 남성이어서 노벨상 다양성 논의가 다시 불붙을 수 있다.",
+          "context": {
+            "background": "올해 물리학상은 프랜시스 할젠, 의학상은 칼 다이서로스 등이 받았다.",
+            "issueContext": "연구 성과 평가와 별개로 수상자 성별 편중 비판이 이어진다.",
+            "coreQuestion": "노벨상의 성별 편중은 과학계 구조의 문제일까요, 수상 시점의 문제일까요?",
+            "resolution": "문학상 발표 등 일정이 이어지며 논의는 계속된다."
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry"
+            }
+          ],
+          "related": {
+            "title": "Optogenetics, Nobel 2026 men, mammogram AI: Morning Rounds",
+            "source": "STAT",
+            "url": "https://www.statnews.com/2026/10/08/health-news-nobel-boys-club-again-2026-winners/",
+            "type": "다름"
+          },
+          "topics": ["노벨상", "화학", "과학", "의약품"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261008-1",
           "date": "2026.10.08",
@@ -20481,10 +20841,190 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.08",
-      "period": "2026.10.07 08:00 ~ 2026.10.08 08:00",
-      "updatedAt": "2026.10.08 08:00 KST",
+      "latestDate": "2026.10.09",
+      "period": "2026.10.08 08:00 ~ 2026.10.09 08:00",
+      "updatedAt": "2026.10.09 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261009-1",
+          "date": "2026.10.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "FBI, 중국 연계 해커 조직 '플랙스 타이푼' 해킹 도구 압수",
+          "summary": "미 FBI와 법무부가 중국 정부 연계 조직 플랙스 타이푼이 쓰던 해킹 도구 MicroScan과 FishHub를 운영하던 도메인 7개를 압수했다. 중국 측 공식 반응은 확인되지 않았다.",
+          "why": "해당 도구가 미국 에너지 기업, 일본·폴란드 공항, 대만 대학 등 핵심 기반시설 침투에 쓰였다는 판단이다.",
+          "soWhat": "미중 휴전 기조 속에서도 사이버 안보 갈등이 별도 축으로 계속될 수 있다.",
+          "context": {
+            "background": "미국은 이 도구를 운영한 중국 보안업체 인테그리티 테크놀로지를 지난해 제재했다.",
+            "issueContext": "FBI는 이 회사가 중국 정부와 계약 관계라며 플랙스 타이푼의 실체로 본다.",
+            "coreQuestion": "도메인 압수는 중국발 해킹을 실질적으로 억제할 수 있을까요?",
+            "resolution": "FBI·CISA·NSA가 합동 권고문을 함께 냈다."
+          },
+          "sources": [
+            {
+              "name": "Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/oct/8/fbi-seized-tools-used-chinese-hackers-cyber-operations-say-officials/"
+            }
+          ],
+          "related": {
+            "title": "DOJ, FBI seize Flax Typhoon-linked hacking tools Microscan, FishHub",
+            "source": "CyberScoop",
+            "url": "https://cyberscoop.com/doj-fbi-seize-flax-typhoon-hacking-tools-microscan-fishhub/",
+            "type": "유사"
+          },
+          "topics": ["사이버안보", "해킹", "미중관계", "안보"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20261009-2",
+          "date": "2026.10.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "미중 무역 휴전 '취약'…시진핑·트럼프 정상회담 후에도 핵심 갈등 그대로",
+          "summary": "정상회담으로 무역 휴전이 두 달 연장됐지만 성과가 제한적이라 휴전이 취약하다는 분석이 나왔다. 양측은 약 300억 달러어치 상호 관세 인하에 합의했다.",
+          "why": "반도체 수출통제, 대중 기업 제한, 관세 수준, 희토류 공급을 둘러싼 불만이 양측에 남아 있다.",
+          "soWhat": "휴전 연장 시한이 짧아 다음 협상까지 불확실성이 이어진다.",
+          "context": {
+            "background": "양측은 공동성명 대신 각자 성명을 내 상대의 해석 여지를 남겼다.",
+            "issueContext": "대두 구매, 보잉 주문, 희토류 접근이 서로 다른 속도로 진행되고 있다.",
+            "coreQuestion": "휴전은 구조적 갈등 해소로 이어질까요, 단기 봉합에 그칠까요?",
+            "resolution": "양국은 무역·투자 위원회 설치를 공식화했다."
+          },
+          "sources": [
+            {
+              "name": "The Star",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/02/no-happy-ending-yet-us-china-trade-truce-remains-fragile-after-xi-trump-summit-analysts-say"
+            }
+          ],
+          "related": {
+            "title": "Takeaways from the Trump-Xi White House Summit",
+            "source": "CSIS",
+            "url": "https://www.csis.org/analysis/takeaways-trump-xi-white-house-summit",
+            "type": "다름"
+          },
+          "topics": ["미중관계", "무역", "관세", "시진핑", "트럼프"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261009-1",
+          "date": "2026.10.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 국경절 연휴 소매 5.3%↑…영화 박스오피스는 31.6% 감소",
+          "summary": "국경절 연휴 초반 주요 상권 소매 매출이 5.3% 늘었지만 연휴 6일간 박스오피스는 31.6% 줄었다. 이동량은 늘었는데 소비 회복은 제한적이었다.",
+          "why": "13일 장기 연휴로 지역 간 이동이 늘었으나 소비자들이 가성비 위주로 지출하고 있다.",
+          "soWhat": "내수 회복이 이동량만큼 빠르지 않다는 점이 연말 경기 부양 압력으로 이어질 수 있다.",
+          "context": {
+            "background": "연휴는 10월 1~7일이었고 사흘 휴가를 붙이면 13일까지 이어졌다.",
+            "issueContext": "집계 시점이 매체마다 달라 수치 비교에 주의가 필요하다.",
+            "coreQuestion": "연휴 소비 부진은 일시적일까요, 구조적일까요?",
+            "resolution": "연휴 전체 최종 통계는 아직 발표되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "Jing Daily",
+              "url": "https://jingdaily.com/intels/2026-10/08/china-holiday-retail-climbs-5-3-box-office-declines-31-6"
+            }
+          ],
+          "related": {
+            "title": "China's National Holiday Dilemma: Record Tourist Volume, 3-Year Low in Spending",
+            "source": "NTD",
+            "url": "https://www.ntd.com/chinas-national-holiday-dilemma-record-tourist-volume-3-year-low-in-spending_1176894.html",
+            "type": "반박"
+          },
+          "topics": ["내수", "소비", "국경절", "관광", "경기"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261009-2",
+          "date": "2026.10.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국, 부동산 부양책 발표…주택담보대출 이자 보조·정책금리 인하",
+          "summary": "중국이 부동산 부문과 경기를 떠받칠 새 대책을 내놨다. 인민은행이 담보보완대출 금리를 0.25%포인트 낮췄고 생애 첫 주택 구매자 대출 이자 보조가 10월부터 시작된다.",
+          "why": "2분기 성장률이 3년여 만에 가장 낮은 4.3%로 둔화되고 집값 하락이 이어지고 있다.",
+          "soWhat": "하위 도시 주택 수요가 회복될지가 올해 성장률 목표 4.5~5% 달성의 관건이다.",
+          "context": {
+            "background": "생애 첫 주택 구매자에게 최대 5년간 원금 기준 연 1%포인트 이자 보조가 제공된다.",
+            "issueContext": "9월 제조업 PMI는 3개월 만에 확장 국면으로 돌아섰다.",
+            "coreQuestion": "이번 대책은 집값 하락세를 멈출 수 있을까요?",
+            "resolution": "10월 19일 GDP 발표가 효과를 가늠할 첫 지표다."
+          },
+          "sources": [
+            {
+              "name": "BNN Bloomberg",
+              "url": "https://www.bnnbloomberg.ca/business/international/2026/09/29/china-rolls-out-new-measures-to-bolster-its-property-sector-and-economy/"
+            }
+          ],
+          "related": {
+            "title": "Factory Activity Returns to Expansion in a Positive Sign for China's Economy",
+            "source": "DTN",
+            "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/09/30/factory-activity-returns-expansion",
+            "type": "다름"
+          },
+          "topics": ["부동산", "대출", "주택", "금리", "경기"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261009-1",
+          "date": "2026.10.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "중국 항천사업 창설 70주년…신화통신 시진핑 우주강국 논술 재조명",
+          "summary": "10월 8일은 중국 항천사업이 창설된 지 70주년이 되는 날이다. 신화통신은 창어 6호 달 뒷면 샘플 귀환과 우주정거장 완공 등 성과를 정리했다.",
+          "why": "1956년 10월 8일 국방부 제5연구원 설립이 중국 우주개발의 출발점이다.",
+          "soWhat": "국가 주도 우주 성과 홍보가 이어질 전망이다. 다만 창어 7호는 올해 발사가 어려워 2027년으로 미뤄진 것으로 알려졌다.",
+          "context": {
+            "background": "창정 로켓은 누적 발사 670회, 성공률 97% 이상이라고 소개됐다.",
+            "issueContext": "관영매체 위주의 기념 보도라 성과 중심으로 서술된다.",
+            "coreQuestion": "중국의 우주 굴기는 달 탐사 일정 지연을 극복하고 속도를 낼 수 있을까요?",
+            "resolution": "창어 7호 발사 시점은 국가항천국 공식 발표를 기다려야 한다."
+          },
+          "sources": [
+            {
+              "name": "신화망",
+              "url": "https://www.news.cn/politics/leaders/20261008/0e13f43277e9476bb21d645602595b65/c.html"
+            }
+          ],
+          "related": {
+            "title": "10月8日新闻早知道｜昨夜今晨·热点不容错过",
+            "source": "京报网",
+            "url": "https://news.bjd.com.cn/2026/10/08/11986587.shtml",
+            "type": "유사"
+          },
+          "topics": ["우주", "항천", "달탐사", "시진핑"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261009-2",
+          "date": "2026.10.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "알리바바, '중국 최강' AI 칩 전략 공개…10조 파라미터 모델 예고",
+          "summary": "알리바바가 3배 성능을 내세운 AI 칩 전략을 공개하고 최대 10조 파라미터 모델 학습 계획을 밝혔다. 알리바바 클라우드의 데이터센터 용량도 2032년까지 20GW 이상으로 늘린다.",
+          "why": "미국 반도체 수출통제 속에서 자체 AI 칩과 대형 모델로 엔비디아 의존을 낮추려는 흐름이다.",
+          "soWhat": "실제 고객 도입 여부가 이 발표가 로드맵 이상인지 가르는 기준이 된다.",
+          "context": {
+            "background": "발표는 9월 22일 항저우 아프사라 컨퍼런스에서 나왔다.",
+            "issueContext": "'가장 강력하다'는 표현은 알리바바 자체 주장이다.",
+            "coreQuestion": "알리바바의 AI 칩은 실제 출하 제품일까요, 로드맵 발표일까요?",
+            "resolution": "독립 분석은 고객 배치 공개 여부를 핵심 검증 지점으로 본다."
+          },
+          "sources": [
+            {
+              "name": "SCMP",
+              "url": "https://www.scmp.com/tech/big-tech/article/3368338/alibaba-teases-10-trillion-parameter-model-debuts-chinas-most-powerful-ai-chip"
+            }
+          ],
+          "related": {
+            "title": "Zhenwu V900: Alibaba's AI Chip, Specs, and 20GW Plan",
+            "source": "ValueAdd VC",
+            "url": "https://valueaddvc.com/blog/zhenwu-v900-alibabas-ai-chip-and-its-20gw-data-center-plan",
+            "type": "반박"
+          },
+          "topics": ["AI", "반도체", "알리바바", "데이터센터", "화웨이"],
+          "review": "pending"
+        },
         {
           "id": "cn-eco-20261008-1",
           "date": "2026.10.08",
@@ -30244,10 +30784,190 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.08",
-      "period": "2026.10.07 08:00 ~ 2026.10.08 08:00",
-      "updatedAt": "2026.10.08 08:00 KST",
+      "latestDate": "2026.10.09",
+      "period": "2026.10.08 08:00 ~ 2026.10.09 08:00",
+      "updatedAt": "2026.10.09 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261009-1",
+          "date": "2026.10.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "공명당 오카모토 대표 \"소비세 감세 법안, 이대로면 찬성 못 해\"",
+          "summary": "공명당 오카모토 대표가 BS11 방송에서 소비세 감세 관련 법안에 이대로는 찬성하지 않겠다고 밝혔다. 2년 한시 1% 세율이 8%로 돌아가면 중간층에게 사실상 증세라는 이유다.",
+          "why": "물가고 대책으로 효과가 작고 다카이치 총리의 답변이 우려를 충분히 해소하지 못했다는 판단이다.",
+          "soWhat": "법안 제출 이후 국회 심의에서 연립 내 조율이 쟁점이 될 수 있다.",
+          "context": {
+            "background": "정부는 2027년 4월부터 2년간 식료품 소비세율을 1%로 낮추는 대강을 9월 15일 각의 결정했다.",
+            "issueContext": "27년 6월 이후 남는 1%분은 중저소득 근로자에게 소득에 따라 급부하는 구상이다.",
+            "coreQuestion": "한시 감세는 가계를 돕는 정책일까요, 2년 뒤 사실상 증세일까요?",
+            "resolution": "법안은 아직 성립하지 않았고 국회 논의가 진행 중이다."
+          },
+          "sources": [
+            {
+              "name": "데일리스포츠",
+              "url": "https://www.daily.co.jp/society/politics/2026/10/08/0020908708.shtml"
+            }
+          ],
+          "related": {
+            "title": "食品消費税、27年4月から1% 高市首相「私が2年で確実に戻す」",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUA29AI80Z20C26A7000000/",
+            "type": "반박"
+          },
+          "topics": ["소비세", "감세", "다카이치", "재정", "공명당"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261009-2",
+          "date": "2026.10.09",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다마키 국민민주당 대표, 중의원 대표질문서 다카이치 총리 추궁",
+          "summary": "국민민주당 다마키 대표가 8일 중의원 본회의에서 소신표명 연설에 대한 대표질문에 나섰다. 소비세 감세와 소득연동 급부, 성장투자 과제 등이 다뤄졌다.",
+          "why": "총리가 시정 방침을 밝힌 직후 야당이 정책의 구체성을 확인하는 첫 본격 공방이다.",
+          "soWhat": "급부 설계의 불투명성이 이후 예산·법안 심의에서 주요 쟁점이 될 가능성이 크다.",
+          "context": {
+            "background": "다마키 대표는 지원금으로 어느 소득층이 얼마를 받는지 알 수 없다고 지적했다.",
+            "issueContext": "질문에는 일본은행 독립성과 적극재정의 조정 여부도 포함됐다.",
+            "coreQuestion": "정부는 급부 제도를 충분히 구체화해 야당을 설득할 수 있을까요?",
+            "resolution": "총리 답변은 정책 방향 설명에 그쳤고 구체적 변경은 없었다."
+          },
+          "sources": [
+            {
+              "name": "국민민주당",
+              "url": "https://new-kokumin.jp/news/diet/20261008_1"
+            }
+          ],
+          "related": {
+            "title": "高市首相「リフレ政策が必要な局面でない」発言の答弁全文",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUA088QT0Y6A001C2000000/",
+            "type": "유사"
+          },
+          "topics": ["다카이치", "국민민주당", "국회", "소비세", "여야갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261009-1",
+          "date": "2026.10.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 993엔 급락 마감…금리 상승 경계",
+          "summary": "8일 도쿄 증시에서 닛케이평균은 993.60엔(1.42%) 내린 69,042.11엔에 안값으로 마감했다. 미 장기금리 급등과 중동 불확실성이 부담이었다.",
+          "why": "7일 미국 10년물 금리가 2002년 이후 최고치를 찍고 미 증시가 하락한 흐름을 이어받았다.",
+          "soWhat": "반도체 관련주 중심의 변동성은 글로벌 금리 방향이 정해질 때까지 이어질 수 있다.",
+          "context": {
+            "background": "TSMC 9월 월간 매출 발표 후 하락폭이 커졌다는 보도가 있다.",
+            "issueContext": "신TOPIX 개편에 따른 미쓰비시상사 매도 등 수급 요인도 지적됐다.",
+            "coreQuestion": "닛케이 하락은 금리 쇼크의 일시적 반응일까요, 조정의 시작일까요?",
+            "resolution": "미 10년물 금리는 8일 뉴욕 종가 5.22%로 내려왔다."
+          },
+          "sources": [
+            {
+              "name": "日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOUB07BY3TX01C26A0000000/"
+            }
+          ],
+          "related": {
+            "title": "【↓】日経平均 大引け｜ 続落、欧米株安を引き継ぎ安値引け (10月8日)",
+            "source": "株探",
+            "url": "https://kabutan.jp/news/marketnews/?b=n202610080918",
+            "type": "유사"
+          },
+          "topics": ["닛케이", "증시", "금리", "반도체", "국채금리"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261009-2",
+          "date": "2026.10.09",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "다카이치 총리 \"지금은 리플레 정책이 필요한 국면 아니다\"…적극재정은 유지",
+          "summary": "다카이치 총리가 중의원 본회의에서 일본 경제는 리플레 정책이 필요한 국면이 아니라고 답했다. 일본은행의 자주성을 최대한 존중하며 책임 있는 적극재정 방침은 유지한다고 밝혔다.",
+          "why": "9월 베센트 미 재무장관이 일본에 리플레 정책 중단을 이례적으로 요구했고 시장의 금리 경계도 커졌다.",
+          "soWhat": "시장 동향에 따라 지출 억제 등 정책 조정 가능성을 열어 둔 만큼 재정·금융정책 기대가 엇갈릴 수 있다.",
+          "context": {
+            "background": "정부는 총 370조 엔 넘는 관민 투자 전략을 성장 정책으로 내세운다.",
+            "issueContext": "총리는 이를 리플레 정책과 다르다고 설명했다.",
+            "coreQuestion": "정부의 성장 전략은 리플레 정책과 실질적으로 다를까요?",
+            "resolution": "답변은 방침 설명에 그쳤고 일본은행에 대한 구체 요청은 없었다."
+          },
+          "sources": [
+            {
+              "name": "日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOUA087JM0Y6A001C2000000/"
+            }
+          ],
+          "related": {
+            "title": "高市首相、日本経済はリフレ政策が必要な局面ではない－衆院本会議",
+            "source": "Bloomberg",
+            "url": "https://www.bloomberg.com/jp/news/articles/2026-10-08/TMK96MKJH6V400",
+            "type": "유사"
+          },
+          "topics": ["다카이치", "일본은행", "금리", "재정", "물가"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261009-1",
+          "date": "2026.10.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "구마모토현, 지진 '복구·부흥 플랜' 초안 공개…5개 기둥",
+          "summary": "구마모토현이 8일 2026년 구마모토 지진의 복구·부흥 플랜 초안을 공개했다. 피재자 지원과 주거·생활 재건 등 5개 기둥을 내세웠다.",
+          "why": "7월 지진 이후 지역경제 재건과 방재 강화를 중장기 계획으로 묶을 필요가 커졌다.",
+          "soWhat": "10월 27일 최종안 공개와 월말 계획 확정 과정에서 재원과 지원 규모가 구체화된다.",
+          "context": {
+            "background": "현은 복구·부흥본부를 설치했고 기무라 지사가 창조적 부흥을 내걸었다.",
+            "issueContext": "상공업 피해는 1,559억 엔, 중소기업 7,745건으로 집계되고 최대 15억 엔 재건 지원이 거론된다.",
+            "coreQuestion": "초안의 지원책은 피해 기업과 주민의 재건을 충분히 뒷받침할 수 있을까요?",
+            "resolution": "시정촌 의견은 14일까지 받고 27일 최종안을 공개한다."
+          },
+          "sources": [
+            {
+              "name": "NHK",
+              "url": "https://news.web.nhk/newsweb/na/nd-20261008de56849"
+            }
+          ],
+          "related": {
+            "title": "【熊本地震】商工業被害1,559億円、県が復興計画素案 中小企業7,745件が被災、最大15億円の再建支援も",
+            "source": "建設情報 JC-NET",
+            "url": "https://n-seikei.jp/2026/10/kumamoto-earthquake-recovery-plan-2026.html",
+            "type": "다름"
+          },
+          "topics": ["지진", "구마모토", "방재", "재난", "부흥"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261009-2",
+          "date": "2026.10.09",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "북오프 그룹, 회원정보 최대 643만 건 유출 가능성",
+          "summary": "북오프그룹홀딩스가 자회사 회원관리 시스템에 대한 부정 접속으로 최대 약 643만 건의 회원정보가 유출됐을 가능성이 있다고 밝혔다. 신용카드 등 결제정보는 포함되지 않았다.",
+          "why": "제3자가 회원관리 시스템에 침입했고, 유출 가능성이 있는 정보에는 비밀번호 해시값도 포함된다.",
+          "soWhat": "피해 규모가 확정되면 피싱·스미싱 경계와 비밀번호 재설정 요구가 커진다.",
+          "context": {
+            "background": "대상은 이름, 생년월일, 연락처, 주소, 포인트카드 번호 등이다.",
+            "issueContext": "643만 건은 회원번호 기준이며 실제 인원은 조사 중이다.",
+            "coreQuestion": "회원정보 유출은 이용자의 2차 피해로 이어질까요?",
+            "resolution": "회사는 침입 경로를 차단했고 현재까지 악용은 확인되지 않았다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "NHK",
+              "url": "https://news.web.nhk/newsweb/na/nd-20261009de56955"
+            }
+          ],
+          "related": {
+            "title": "ブックオフ、会員管理システムへ不正アクセスによるサイバー攻撃、最大約643万件の個人情報漏洩の恐れ",
+            "source": "セキュリティ対策Lab",
+            "url": "https://rocket-boys.co.jp/security-measures-lab/bookoff_customer_data_breach_20261009/",
+            "type": "다름"
+          },
+          "topics": ["정보유출", "해킹", "사이버안보", "개인정보"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261008-1",
           "date": "2026.10.08",
