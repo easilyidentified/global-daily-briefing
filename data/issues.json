@@ -113,10 +113,190 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.09",
-      "period": "2026.10.08 08:00 ~ 2026.10.09 08:00",
-      "updatedAt": "2026.10.09 08:00 KST",
+      "latestDate": "2026.10.11",
+      "period": "2026.10.10 08:00 ~ 2026.10.11 08:00",
+      "updatedAt": "2026.10.11 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261011-1",
+          "date": "2026.10.11",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "조희대·김현지·김용범…국감 달군 여야의 증인 채택 충돌",
+          "summary": "국정감사 2주차에도 핵심 증인 채택을 둘러싼 여야 충돌이 이어질 전망이다. 국민의힘은 김현지 제1부속실장과 김용범 전 정책실장을 여러 상임위에 요청했고 민주당은 반대한다.",
+          "why": "국민의힘은 인사 개입과 레버리지 ETF 도입 의혹을 따지려 하고, 민주당은 이미 사퇴한 인물을 반복 소환하는 여론몰이라고 맞서기 때문이다.",
+          "soWhat": "증인 채택 공방이 국감이 끝날 때까지 이어지며 상임위 파행과 정쟁 논란이 되풀이될 수 있다.",
+          "context": {
+            "background": "1주차 법사위에서는 조희대 대법원장이 일반증인으로 의결됐지만 선서를 거부해 여야가 충돌했다.",
+            "issueContext": "보건복지위에서는 국민연금 리밸런싱 유예 결정을 두고 김 전 실장 채택이 무산됐고, 재경위 1차 명단에서도 빠졌다.",
+            "coreQuestion": "핵심 증인 소환은 정당한 책임 규명일까요, 정치 공세일까요?",
+            "resolution": "운영위 등 일부 상임위의 최종 증인 명단은 아직 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202610100601059175"
+            }
+          ],
+          "related": {
+            "title": "[사설] 국감 시작… 정쟁·망신주기 아닌 정책 검증의 장 돼야",
+            "source": "서울신문",
+            "url": "https://www.seoul.co.kr/news/editOpinion/editorial/2026/10/06/20261006027008",
+            "type": "반박"
+          },
+          "topics": ["국정감사", "국회", "여야갈등", "청와대", "대법원"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261011-2",
+          "date": "2026.10.11",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "김지용 중수청장 후보자 14일 청문회…조직 정상화 시험대",
+          "summary": "김지용 초대 중대범죄수사청장 후보자의 인사청문회가 14일 열린다. 국민의힘은 청문회를 사실상 행정안전부 장관에 대한 공세의 장으로 삼겠다는 입장이다.",
+          "why": "이재명 대통령이 인사청문요청안을 재가하고 청문회를 거쳐 최종 임명 여부를 결정하겠다고 밝혔기 때문이다.",
+          "soWhat": "여당 내 강경파의 반대까지 겹쳐 청문 결과에 따라 중수청 수장 공백이 길어질 수 있다.",
+          "context": {
+            "background": "검찰청 폐지에 따라 중수청이 출범했지만 직제상 정원 2874명 가운데 1900명 수준만 임용된 상태다.",
+            "issueContext": "여권 내부에서도 후보자의 검사 시절 이력을 두고 이견이 있다.",
+            "coreQuestion": "청문회는 중수청의 정치적 중립성을 검증하는 자리가 될까요, 정치 공방으로 끝날까요?",
+            "resolution": "인사청문회법상 20일 안에 청문 절차를 마쳐야 하며 최종 임명은 청문회 뒤 결정된다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202610111311029588"
+            }
+          ],
+          "related": {
+            "title": "靑 “김지용 친윤 아니다”… 중수청장 임명 수순",
+            "source": "서울신문",
+            "url": "https://www.seoul.co.kr/news/politics/president/2026/10/02/20261002001006",
+            "type": "다름"
+          },
+          "topics": ["검찰개혁", "인사청문회", "국민의힘", "이재명", "법무부"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261011-1",
+          "date": "2026.10.11",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "국토부 국감서 집값·'부동산 블랙리스트' 여야 충돌",
+          "summary": "국토교통위 국정감사에서 서울 아파트값 상승 책임을 두고 여야가 부딪쳤다. 서울 아파트값이 9월 넷째 주까지 86주 연속 올라 역대 최장 기록을 넘었다는 점이 쟁점이 됐다.",
+          "why": "집값 상승세가 길어지면서 정부 공급·대출 대책의 실효성을 따지려는 야당 공세가 커졌기 때문이다.",
+          "soWhat": "15일 서울시 감사 등 후속 국감에서도 주택 공급과 재건축 규제 공방이 이어질 전망이다.",
+          "context": {
+            "background": "서울 아파트값은 86주 연속 상승해 문재인 정부 당시 최장 기록을 넘었다.",
+            "issueContext": "국토위에서는 집값과 LH 개혁, '부동산 블랙리스트' 의혹이 함께 다뤄졌다.",
+            "coreQuestion": "집값 상승의 주된 원인은 공급 부족일까요, 정책 실패일까요?",
+            "resolution": "정부 대책에 대한 여야 평가가 갈려 합의된 결론은 나오지 않았다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20261007001594"
+            }
+          ],
+          "related": {
+            "title": "범야권, 정부에 주거정책 대전환 촉구",
+            "source": "파이낸셜뉴스",
+            "url": "https://fnnews.com/news/202610071820478563",
+            "type": "반박"
+          },
+          "topics": ["부동산", "주택", "국정감사", "공급대책", "서울"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261011-2",
+          "date": "2026.10.11",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "국감 2주차 한은 금리·공수처·서울 부동산 '검증대'",
+          "summary": "12일 한국은행 국정감사를 앞두고 기준금리 운용이 쟁점으로 떠올랐다. 한은은 7월 기준금리를 연 2.50%에서 2.75%로 올렸다.",
+          "why": "고환율과 가계대출 증가, 집값 불안이 겹쳐 한은이 3년 6개월 만에 인상에 나섰기 때문이다.",
+          "soWhat": "국감에서 추가 인상 여부와 가계부채 관리 방향에 대한 발언이 시장에 영향을 줄 수 있다.",
+          "context": {
+            "background": "한은은 2026년 7월 16일 0.25%포인트 인상했고, 6월 평균 원·달러 환율은 1,527.3원으로 외환위기 이후 가장 높았다.",
+            "issueContext": "금리 인상이 환율과 집값을 잡는 데 효과가 있었는지가 검증 대상이다.",
+            "coreQuestion": "금리 인상은 물가·환율 안정에 효과가 있었을까요, 가계 부담만 키웠을까요?",
+            "resolution": "국감 질의는 12일 이후 진행되며 결과는 아직 나오지 않았다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202610111136066770"
+            }
+          ],
+          "related": {
+            "title": "한은, 기준금리 연 2.75%로 전격 인상… 물가·환율·집값 잡는다",
+            "source": "한국일보",
+            "url": "https://www.hankookilbo.com/news/article/A2026071608420005789",
+            "type": "유사"
+          },
+          "topics": ["금리", "환율", "통화정책", "가계부채", "국정감사"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261011-1",
+          "date": "2026.10.11",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "정신건강의 날 앞두고 '정신건강 목적 생성형 AI 이용 가이드라인' 공개",
+          "summary": "보건복지부와 대한신경정신의학회가 정신건강 목적의 생성형 AI 이용 가이드라인을 발표했다. 복지부는 2027년에 고위험군용 맞춤 지침도 내놓을 계획이다.",
+          "why": "AI에 고민을 털어놓는 이용이 늘면서 과의존과 부적절한 조언 위험이 커졌기 때문이다.",
+          "soWhat": "이용자 교육이 확대되고 고위험군 대상 별도 지침이 마련될 전망이다.",
+          "context": {
+            "background": "정신건강의 날(10월 10일)에 맞춰 8일 가이드라인이 나왔다.",
+            "issueContext": "조사에서 AI 조언으로 퇴사·이별 같은 중대한 결정을 내린 비율이 17.8%였다.",
+            "coreQuestion": "AI 상담 이용 확산은 정신건강 접근성을 높일까요, 과의존을 키울까요?",
+            "resolution": "복지부는 주체적 AI 이용을 위한 교육 프로그램을 마련하기로 했다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://fnnews.com/news/202610080830222469"
+            }
+          ],
+          "related": {
+            "title": "퇴사도 이별도 ‘AI 처방전’… 6명 중 1명 그 조언 따랐다",
+            "source": "서울신문",
+            "url": "https://www.seoul.co.kr/news/society/2026/10/09/20261009010003",
+            "type": "다름"
+          },
+          "topics": ["AI", "보건", "청소년", "규제"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261011-2",
+          "date": "2026.10.11",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "10억 건 쌓이는 '의료 AI 노다지'…정작 데이터 주인은 없다?",
+          "summary": "한국은 국민 대부분이 매년 진료를 받는 의료 빅데이터가 풍부하지만 진료기록 소유권을 정한 법은 없다. 이 공백이 의료 AI 학습과 상용화의 걸림돌로 지적된다.",
+          "why": "의료 AI 개발이 빨라지는데 데이터 소유와 활용 기준이 법에 정해져 있지 않기 때문이다.",
+          "soWhat": "입법 없이는 환자 권리와 산업 활용 사이의 분쟁이 커질 수 있다.",
+          "context": {
+            "background": "국내 의료기관에는 해마다 방대한 진료 데이터가 쌓이고 있다.",
+            "issueContext": "진료기록의 소유권을 명시한 법이 없어 AI 학습용 활용의 법적 근거가 모호하다.",
+            "coreQuestion": "의료 데이터의 주인은 환자일까요, 의료기관일까요?",
+            "resolution": "소유권을 정리하는 입법은 아직 이뤄지지 않았다."
+          },
+          "sources": [
+            {
+              "name": "서울신문",
+              "url": "https://www.seoul.co.kr/news/society/health-medical/2026/10/02/20261002500111"
+            }
+          ],
+          "related": {
+            "title": "AI시대 기본사회 미래상은…\"공정한 기회·경제력 무관 의료혜택\"",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202609221501291599",
+            "type": "다름"
+          },
+          "topics": ["AI", "의료", "데이터센터", "규제"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261009-1",
           "date": "2026.10.09",
@@ -10496,10 +10676,190 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.09",
-      "period": "2026.10.08 08:00 ~ 2026.10.09 08:00",
-      "updatedAt": "2026.10.09 08:00 KST",
+      "latestDate": "2026.10.11",
+      "period": "2026.10.10 08:00 ~ 2026.10.11 08:00",
+      "updatedAt": "2026.10.11 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261011-1",
+          "date": "2026.10.11",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 공화당 승리 시 성인 1인당 5천 달러 지급 재차 약속",
+          "summary": "트럼프 대통령이 중간선거에서 공화당이 이기면 성인에게 5천 달러를 주겠다는 약속을 이어가고 있다. 비용은 1조~1조 3천억 달러로 추산되며 의회 승인 여부와 재원은 밝혀지지 않았다.",
+          "why": "11월 3일 중간선거를 앞두고 민주당이 우세한 상황에서 유권자 표심을 잡으려는 시도이기 때문이다.",
+          "soWhat": "재원과 법적 근거 논란이 선거 막판 쟁점으로 남고, 당선 후 실제 지급 여부를 두고 공방이 커질 수 있다.",
+          "context": {
+            "background": "트럼프는 9월 9일 공화당 전국위원회 중간선거 대회에서 이 약속을 처음 밝혔다.",
+            "issueContext": "존슨 하원의장은 의회 협조 가능성은 언급했지만 지급을 보장하지 않았다.",
+            "coreQuestion": "5천 달러 약속은 실현 가능한 정책일까요, 선거용 공약일까요?",
+            "resolution": "CNN 여론조사에서 77%가 약속대로 받을 가능성이 낮다고 답했다."
+          },
+          "sources": [
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/10/05/politics/trump-taxpayer-money-midterms"
+            }
+          ],
+          "related": {
+            "title": "Trump dangles $5,000 checks as debt surges — but only if GOP can clear major midterm hurdle",
+            "source": "Fox News",
+            "url": "https://www.foxnews.com/politics/trump-dangles-5000-checks-us-debt-surges-gop-clear-major-midterm-hurdle",
+            "type": "다름"
+          },
+          "topics": ["트럼프", "중간선거", "공화당", "재정", "선거"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261011-2",
+          "date": "2026.10.11",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중간선거 한 달 앞…민주당 우세 뚜렷, 트럼프 \"지면 내 탓\"",
+          "summary": "NPR은 중간선거를 한 달 앞두고 민주당의 우위가 뚜렷하다고 분석했다. 트럼프 지지율은 NBC 평균 38%로 낮고, 트럼프는 선거에서 지면 자신이 비난받을 것이라고 말했다.",
+          "why": "물가와 이란 전쟁 부담 속에 일부 공화당 후보가 트럼프와의 유세 동행을 피하고 있기 때문이다.",
+          "soWhat": "하원 다수당이 바뀔 가능성이 커져 내년 의회 운영과 대통령 견제 구도가 달라질 수 있다.",
+          "context": {
+            "background": "쿡 정치보고서는 민주당이 하원에서 5~15석 순증할 것으로 본다.",
+            "issueContext": "메인과 텍사스 등 상원 경합 지역과 오하이오·아이오와가 변수로 꼽힌다.",
+            "coreQuestion": "민주당의 우세는 실제 의회 장악으로 이어질까요, 재획정이 격차를 줄일까요?",
+            "resolution": "공화당은 막판 광고전에 대규모 자금을 쏟고 있으나 판세는 아직 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress"
+            }
+          ],
+          "related": {
+            "title": "Trump seems pretty sore over Republicans not wanting to campaign with him",
+            "source": "CNN",
+            "url": "https://www.cnn.com/2026/10/07/politics/trump-republicans-distancing-midterms",
+            "type": "다름"
+          },
+          "topics": ["중간선거", "트럼프", "지지율", "여론조사", "의회"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261011-1",
+          "date": "2026.10.11",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "미 10년물 국채금리, 2002년 이후 최고치…연준 인상 경계",
+          "summary": "미국 10년물 국채금리가 10월 5일 2002년 4월 이후 최고 수준까지 올랐다. 9월 고용이 2만 9천 명 증가에 그쳐 10월 연준 인상 가능성은 낮아졌다.",
+          "why": "이란 전쟁발 에너지 물가 압력과 재정 우려로 장기금리가 오르는 가운데 연준의 추가 인상 기대가 엇갈리기 때문이다.",
+          "soWhat": "10월 27~28일 연준 회의까지 금리 변동성이 커지고 증시와 주택시장에 부담이 이어질 수 있다.",
+          "context": {
+            "background": "연준은 올해 인상 국면에 들어섰고 9월 회의에서도 올렸다는 보도가 있다.",
+            "issueContext": "고용 둔화에도 장기금리가 떨어지지 않아 시장이 물가 위험을 더 크게 반영한다.",
+            "coreQuestion": "장기금리 상승은 인플레이션 우려의 반영일까요, 재정 부담의 신호일까요?",
+            "resolution": "CME 페드워치상 10월 인상 확률은 낮지만 12월 인상 기대는 남아 있다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html"
+            }
+          ],
+          "related": {
+            "title": "In 8 weeks, the Iran war has dented the U.S. economy. The damage could linger, economists say.",
+            "source": "CBS News",
+            "url": "https://www.cbsnews.com/news/iran-war-economic-impact-gas-prices-inflation-2026/",
+            "type": "다름"
+          },
+          "topics": ["국채금리", "연준", "금리", "물가", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261011-2",
+          "date": "2026.10.11",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "호르무즈 해협 열렸는데 휘발유·경유값은 왜 비쌀까",
+          "summary": "호르무즈 해협 통행이 전쟁 전 수준에 가까워졌지만 미국 휘발유 평균가는 갤런당 4.36달러로 이 시기 사상 최고 수준이다. 10월 8일 브렌트유는 유조선 공격 속에 105달러 안팎까지 뛰었다.",
+          "why": "운송비와 보험료가 급등하고 비축 물량이 줄면서 가격에 위험 프리미엄이 붙었기 때문이다.",
+          "soWhat": "연료비 부담이 물가와 중간선거 민심에 계속 영향을 줄 수 있다.",
+          "context": {
+            "background": "이란 전쟁은 2월에 시작됐고 4월 휴전 뒤에도 양측 공격이 이어졌다.",
+            "issueContext": "CBO는 올해 2분기 인플레이션의 40% 이상이 전쟁 영향이라고 분석했다.",
+            "coreQuestion": "유가 고공행진은 일시적 충격일까요, 구조적 고물가의 시작일까요?",
+            "resolution": "경유는 사상 최고가보다 약 20센트 낮은 수준이다."
+          },
+          "sources": [
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/10/09/business/oil-gas-diesel-trump-iran-hormuz"
+            }
+          ],
+          "related": {
+            "title": "Iran war driving up inflation for Americans, CBO report says",
+            "source": "NBC News",
+            "url": "https://www.nbcnews.com/politics/national-security/iran-war-driving-inflation-americans-cbo-report-says-rcna597978",
+            "type": "유사"
+          },
+          "topics": ["유가", "이란", "호르무즈해협", "물가", "원유"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261011-1",
+          "date": "2026.10.11",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "허리케인 이사이아스 플로리다 상륙…남동부 최소 4명 사망",
+          "summary": "허리케인 이사이아스가 10월 9일 플로리다 데스틴 인근에 2등급으로 상륙한 뒤 열대성 저기압으로 약화됐다. 앨라배마와 플로리다에서 각 2명 등 최소 4명이 숨졌고 남동부 70만 가구 넘게 정전됐다.",
+          "why": "엘니뇨 영향으로 대서양 허리케인 시즌이 잠잠하다가 시즌 첫 허리케인이 미 남동부를 강타했기 때문이다.",
+          "soWhat": "내륙으로 이동하며 홍수 위험이 이어지고 복구와 재난 지원 규모가 쟁점이 될 수 있다.",
+          "context": {
+            "background": "올해 대서양 허리케인 시즌은 75년 만에 가장 잠잠하다고 보도됐다.",
+            "issueContext": "트럼프는 조지아에 대한 긴급사태 선포를 승인했다.",
+            "coreQuestion": "이번 피해는 일회성 재난일까요, 기후 변화 속 새 패턴의 신호일까요?",
+            "resolution": "남동부 일대 홍수 위협은 이어지고 있다."
+          },
+          "sources": [
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/isaias-southeastern-u-s-gulf-coast/"
+            }
+          ],
+          "related": {
+            "title": "Why the National Hurricane Center bet big on AI to forecast Isaias",
+            "source": "CNN",
+            "url": "https://www.cnn.com/2026/10/08/weather/hurricane-isaias-ai-models-google",
+            "type": "다름"
+          },
+          "topics": ["태풍", "재난", "기후", "방재", "폭우"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261011-2",
+          "date": "2026.10.11",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "허리케인 사이먼 4등급으로 멕시코 서부 해안 접근…열대폭풍 레이철도 북상",
+          "summary": "허리케인 사이먼이 최대 풍속 155마일의 4등급으로 강화해 일요일 멕시코 서부 해안에 상륙할 전망이다. 열대폭풍 레이철은 바하칼리포르니아로 향하며 미 남서부 해안 홍수 우려를 키운다.",
+          "why": "태평양에서 엘니뇨가 허리케인을 연달아 키우고 있기 때문이다.",
+          "soWhat": "멕시코 남서부에 최대 10~20인치 비가 예상돼 홍수와 산사태 피해가 우려된다.",
+          "context": {
+            "background": "대서양과 달리 동태평양에서는 허리케인이 잇따르고 있다.",
+            "issueContext": "멕시코는 서부 여러 주에서 비필수 활동을 중단시켰고 할리스코주는 휴교를 결정했다.",
+            "coreQuestion": "연이은 태평양 폭풍은 엘니뇨의 일시적 영향일까요, 더 큰 기후 위험의 신호일까요?",
+            "resolution": "상륙 이후 피해 규모는 아직 확인되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/news/hurricane-simon-takes-aim-mexico-pacific-coast/"
+            }
+          ],
+          "related": {
+            "title": "Un huracán y una tormenta tropical “simultáneamente”: México se prepara para la llegada de Simon y Rachel este fin de semana",
+            "source": "CNN 에스파뇰",
+            "url": "https://cnnespanol.cnn.com/2026/10/10/mexico/huracan-tormenta-tropical-simultaneamente-simon-rachel-orix",
+            "type": "유사"
+          },
+          "topics": ["태풍", "재난", "기후", "산사태", "대피"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261009-1",
           "date": "2026.10.09",
@@ -20841,10 +21201,160 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.09",
-      "period": "2026.10.08 08:00 ~ 2026.10.09 08:00",
-      "updatedAt": "2026.10.09 08:00 KST",
+      "latestDate": "2026.10.11",
+      "period": "2026.10.10 08:00 ~ 2026.10.11 08:00",
+      "updatedAt": "2026.10.11 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261011-1",
+          "date": "2026.10.11",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국·EU, 베이징 무역협의서 16개항 합의…하이브리드차·희토류 포함",
+          "summary": "중국과 EU가 10월 8~9일 베이징에서 열린 제2차 무역·투자 협의에서 무역, 수출통제, 지식재산권, WTO 개혁 등 16개 항목에 합의했다. 전기차 가격약속 절차는 계속 진행하기로 했다.",
+          "why": "중국은 분쟁을 협의로 푼다는 모델을 내세우고, EU는 수출통제와 전기차 관세 갈등을 관리하려 하기 때문이다.",
+          "soWhat": "다음 회의가 2027년 3월로 잡혀 있어 전기차·희토류 갈등이 당분간 협의 틀 안에서 관리될 전망이다.",
+          "context": {
+            "background": "EU는 2024년 10월 중국산 전기차에 상계관세를 부과했고, 올해 1월 양측은 가격약속 지침에 합의했다.",
+            "issueContext": "이번에는 하이브리드차와 희토류 등에서도 공감대가 나왔다.",
+            "coreQuestion": "이번 합의는 무역 갈등의 실질적 해소일까요, 일시적 관리일까요?",
+            "resolution": "왕원타오 상무부장과 셰프초비치 EU 통상담당 집행위원이 협의를 이끌었고 다음 회의는 2027년 3월이다."
+          },
+          "sources": [
+            {
+              "name": "글로벌타임스",
+              "url": "https://www.globaltimes.cn/page/202610/1371929.shtml"
+            }
+          ],
+          "related": {
+            "title": "China, EU to explore cooperation in AI and new energy following Beijing talks",
+            "source": "SCMP",
+            "url": "https://www.scmp.com/economy/policy/article/3370435/china-hails-constructive-trade-talks-eu-both-sides-seek-ties-ai-new-energy",
+            "type": "유사"
+          },
+          "topics": ["무역", "수출", "희토류", "공급망", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20261011-2",
+          "date": "2026.10.11",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프의 대중 노선 변화에 대만 \"홀로서기\" 가능성 직시",
+          "summary": "NBC는 트럼프가 중국에 대한 접근을 바꾸면서 대만이 스스로 방어해야 할 상황에 대비하고 있다고 보도했다. 중국은 대만 문제를 둘러싼 미일 군사 공조에 민감하게 반응한다.",
+          "why": "미중 관계 변화 속에서 대만의 안보 우산이 약해질 수 있다는 우려가 커졌기 때문이다.",
+          "soWhat": "양안 긴장과 미중 협상의 향방에 따라 동아시아 안보 구도가 달라질 수 있다.",
+          "context": {
+            "background": "다카이치 일본 총리가 2025년 11월 대만 유사시 일본의 군사 대응 가능성을 언급한 뒤 중일 관계가 악화됐다.",
+            "issueContext": "10월 19~29일 키 소드 27 훈련에서 미일이 요나구니섬에 미사일 체계를 배치할 예정이다.",
+            "coreQuestion": "대만은 미국의 지원 없이 독자 방어가 가능할까요?",
+            "resolution": "미중 관계의 향방은 아직 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "NBC News",
+              "url": "https://nbcnews.com/world/asia/taiwan-reckons-prospect-fending-trump-pivots-china-rcna600640"
+            }
+          ],
+          "related": {
+            "title": "How expanded Japan-US military exercises could complicate PLA planning over Taiwan",
+            "source": "SCMP",
+            "url": "https://scmp.com/news/china/military/article/3370210/how-expanded-japan-us-military-exercises-could-complicate-pla-planning-over-taiwan",
+            "type": "다름"
+          },
+          "topics": ["대만", "양안관계", "미중관계", "안보", "트럼프"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261011-1",
+          "date": "2026.10.11",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 생애 첫 주택 구입 대출 이자보조 시행…집값 반등 기대",
+          "summary": "중국이 10월 1일부터 생애 첫 주택 구입자에게 대출 원금 기준 연 1%포인트 이자를 최대 5년간 보조하는 정책을 시행하고 있다. 중앙정부가 상업용 주택대출에 이자 보조를 주는 것은 처음이다.",
+          "why": "장기 부동산 침체를 끝내고 내수를 살리려는 정책이기 때문이다.",
+          "soWhat": "1년 한시 정책인 만큼 효과가 이어지지 않으면 집값 반등이 제한될 수 있다.",
+          "context": {
+            "background": "대상은 면적 120㎡ 이하, 가격 150만 위안 이하 첫 주택이며 대출 한도는 100만 위안이다.",
+            "issueContext": "시행 초기 은행 창구에는 보조금 대상 대출 신청이 몰렸다.",
+            "coreQuestion": "이자보조는 침체된 주택시장을 되살릴까요, 일시적 효과에 그칠까요?",
+            "resolution": "정책은 우선 1년간 시행되며 효과는 아직 집계되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "차이나데일리",
+              "url": "https://www.chinadaily.com.cn/a/202610/10/WS6ac99d5be4b06d4aa05620a8.html"
+            }
+          ],
+          "related": {
+            "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html",
+            "type": "다름"
+          },
+          "topics": ["부동산", "주택", "대출", "내수", "경기부양"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261011-2",
+          "date": "2026.10.11",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 1~9월 도시 신규 취업 1052만 명…연간 목표의 87.7%",
+          "summary": "인력자원사회보장부는 올해 1~9월 도시 신규 일자리가 약 1052만 개로 연간 목표의 87.7%를 달성했다고 밝혔다. 직업훈련을 늘리고 플랫폼 노동자 보호를 강화하겠다고 약속했다.",
+          "why": "고용 안정이 내수 회복의 전제여서 당국이 추가 정책 지원을 내세웠기 때문이다.",
+          "soWhat": "직업훈련과 플랫폼 노동자 보호 조치가 구체화되면 소비 심리에 영향을 줄 수 있다.",
+          "context": {
+            "background": "중국은 매년 도시 신규 일자리 목표를 두고 분기별로 진척을 발표한다.",
+            "issueContext": "당국은 고용 안정 속에 추가 정책 지원을 약속했다.",
+            "coreQuestion": "고용 지표 개선은 체감 경기 회복으로 이어질까요?",
+            "resolution": "구체적인 지원 조치는 아직 발표되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "차이나데일리",
+              "url": "https://europe.chinadaily.com.cn/a/202610/10/WS6ac9e696e4b06d4aa0562170.html"
+            }
+          ],
+          "related": {
+            "title": "China rolls out rate cut, mortgage subsidies in push for innovation-driven development",
+            "source": "글로벌타임스",
+            "url": "https://www.globaltimes.cn/page/202609/1371580.shtml",
+            "type": "다름"
+          },
+          "topics": ["고용", "내수", "소비", "경기부양", "통계"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261011-1",
+          "date": "2026.10.11",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "'지구궤도에서 심우주로'…중국 우주 개발, 창어 7호는 내년으로",
+          "summary": "차이나데일리는 중국이 지구 궤도에서 심우주로 활동 범위를 넓히고 있다고 전했다. 신주 23호 승조원이 우주정거장에 머물고 있고 창어 7호 발사는 내년으로 예정돼 있다.",
+          "why": "달 남극 탐사와 장기 유인 체류 등 우주 경쟁이 가열되고 있기 때문이다.",
+          "soWhat": "창어 7호 일정에 따라 달 남극 물 탐색을 둘러싼 우주 경쟁 구도가 달라질 수 있다.",
+          "context": {
+            "background": "CNN은 8월 창어 7호가 올해 발사 시기를 놓쳤다고 전했다.",
+            "issueContext": "신주 23호 팀은 5월 말 우주정거장에 도착했다.",
+            "coreQuestion": "중국의 달 남극 탐사는 계획대로 진행될 수 있을까요?",
+            "resolution": "창어 7호 발사는 내년으로 미뤄졌다."
+          },
+          "sources": [
+            {
+              "name": "차이나데일리",
+              "url": "https://www.chinadaily.com.cn/a/202610/08/WS6ac6edffe4b06d4aa056199e.html"
+            }
+          ],
+          "related": {
+            "title": "China postpones launch of unprecedented water-hunting moon mission amid space race",
+            "source": "CNN",
+            "url": "https://www.cnn.com/2026/08/23/science/change-7-china-moon-mission-launch-postponed",
+            "type": "다름"
+          },
+          "topics": ["우주", "발사", "위성", "과학기술"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261009-1",
           "date": "2026.10.09",
@@ -30784,10 +31294,190 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.09",
-      "period": "2026.10.08 08:00 ~ 2026.10.09 08:00",
-      "updatedAt": "2026.10.09 08:00 KST",
+      "latestDate": "2026.10.11",
+      "period": "2026.10.10 08:00 ~ 2026.10.11 08:00",
+      "updatedAt": "2026.10.11 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261011-1",
+          "date": "2026.10.11",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 \"식품 소비세 인하로 1인당 3만 6천 엔 부담 경감\"",
+          "summary": "다카이치 총리가 식품 소비세 인하로 국민 1인당 약 3만 6천 엔의 부담이 줄 것이라고 밝혔다. 정부는 식품 소비세를 8%에서 1%로 낮추는 법안을 9일 국회에 제출할 예정이었다.",
+          "why": "다카이치 정부가 물가 부담을 줄이는 정책으로 지지를 모으려 하기 때문이다.",
+          "soWhat": "연 5조 엔으로 추산되는 세수 감소를 메울 방법을 두고 여야와 자민당 내 논란이 길어질 수 있다.",
+          "context": {
+            "background": "7월 30일 총리가 내년 4월부터 2년간 식품 소비세율을 1%로 낮추겠다고 발표했고 8월 각의가 승인했다.",
+            "issueContext": "야당과 자민당 일부는 재원 마련 방식을 비판하고 있다.",
+            "coreQuestion": "소비세 인하는 가계 부담을 덜 실효적 수단일까요, 재정 부담만 키울까요?",
+            "resolution": "총리는 지방 세수 감소분을 국비로 메우겠다고 약속했고, 2029년 소득 연동 급부 제도 도입 때 세율을 8%로 되돌릴 계획이다."
+          },
+          "sources": [
+            {
+              "name": "재팬타임스",
+              "url": "https://www.japantimes.co.jp/news/2026/10/10/japan/politics/tax-cut-36000-takaichi/"
+            }
+          ],
+          "related": {
+            "title": "LDP revolt grows in Japan over Takaichi plan to cut food tax to 1%",
+            "source": "닛케이 아시아",
+            "url": "https://asia.nikkei.com/politics/ldp-revolt-grows-in-japan-over-takaichi-plan-to-cut-food-tax-to-1",
+            "type": "반박"
+          },
+          "topics": ["다카이치", "소비세", "자민당", "재정", "감세"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261011-2",
+          "date": "2026.10.11",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 \"일본 경제에 더는 리플레이션 정책 필요 없다\"",
+          "summary": "다카이치 총리가 국회에서 일본 경제가 금융완화와 재정확대를 앞세운 리플레이션 정책이 필요한 단계가 아니라고 밝혔다. 5일 정책연설에서는 '책임 있는 적극 재정'을 내세웠다.",
+          "why": "금리 인상과 인플레이션 속에 정부가 경기 부양 노선의 수위를 조정하려 하기 때문이다.",
+          "soWhat": "적극 재정 기조와 일본은행 정상화 사이의 정책 조합이 시장의 쟁점이 될 수 있다.",
+          "context": {
+            "background": "가을 임시국회는 12월 12일까지 열린다.",
+            "issueContext": "총리는 투자 촉진을 위한 적극 재정과 리플레이션 불필요론을 함께 내놓았다.",
+            "coreQuestion": "적극 재정과 리플레이션 불필요론은 양립할 수 있을까요?",
+            "resolution": "국회 심의가 진행 중이며 구체적 예산 규모는 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "재팬타임스",
+              "url": "https://www.japantimes.co.jp/business/2026/10/08/economy/takaichi-no-reflation-policy/"
+            }
+          ],
+          "related": {
+            "title": "Japan 10-year yields seen rising on bets of rate hikes, more spending",
+            "source": "닛케이 아시아",
+            "url": "https://asia.nikkei.com/business/markets/bonds/japan-10-year-yields-seen-rising-on-bets-of-rate-hikes-more-spending",
+            "type": "다름"
+          },
+          "topics": ["다카이치", "재정", "통화정책", "일본은행", "국회"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261011-1",
+          "date": "2026.10.11",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "신규 10년물 일본국채 표면금리 30년 만에 3% 돌파…입찰 무난, 금리는 상승",
+          "summary": "일본 신규 10년물 국채의 표면금리가 약 30년 만에 처음 3%를 넘었다. 입찰은 무난했지만 10년물 금리는 같은 날 올랐다.",
+          "why": "중동 분쟁발 인플레이션과 일본의 재정 경로에 대한 우려가 커졌기 때문이다.",
+          "soWhat": "국채 이자 부담이 늘어 재정과 일본은행 정책 운용의 제약이 커질 수 있다.",
+          "context": {
+            "background": "일본은행은 9월 18일 기준금리를 1.25%로 올렸고 12월 추가 인상 전망이 나온다.",
+            "issueContext": "총리의 적극 재정 기조가 국채시장 부담으로 이어질 수 있다는 지적이 있다.",
+            "coreQuestion": "국채금리 상승은 일본 경제 정상화의 신호일까요, 재정 위험의 경고일까요?",
+            "resolution": "시장은 추가 금리 인상과 재정 확대 가능성을 주시하고 있다."
+          },
+          "sources": [
+            {
+              "name": "닛케이 아시아",
+              "url": "https://asia.nikkei.com/business/markets/jgb-yield-rises-despite-30-year-high-coupon"
+            }
+          ],
+          "related": {
+            "title": "Japan’s bond market is back in play after decades in the wilderness",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/14/japan-bond-jgb-yields-.html",
+            "type": "유사"
+          },
+          "topics": ["국채금리", "일본은행", "금리", "인플레이션", "재정"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261011-2",
+          "date": "2026.10.11",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균, AI 낙관론에 7만 선 일시 회복",
+          "summary": "닛케이평균이 AI 낙관론이 되살아나며 장중 한때 7만 선을 되찾았다. 약 3개월 만이다.",
+          "why": "AI·반도체 관련주가 오르면서 지수를 끌어올렸기 때문이다.",
+          "soWhat": "금리 상승과 AI 기대 사이에서 증시 변동성이 이어질 수 있다.",
+          "context": {
+            "background": "닛케이평균은 6월 16일 처음 7만을 넘었으나 종가는 69,404.50이었다.",
+            "issueContext": "국채금리 상승이 주가에 부담이 될 수 있다는 우려가 있다.",
+            "coreQuestion": "닛케이 7만 선은 안착할 수 있을까요, 일시적 돌파에 그칠까요?",
+            "resolution": "이번에도 7만 선은 장중에 잠깐 회복한 수준이다."
+          },
+          "sources": [
+            {
+              "name": "닛케이 아시아",
+              "url": "https://asia.nikkei.com/business/markets/japan-s-nikkei-average-briefly-regains-70-000-mark-as-ai-optimism-returns"
+            }
+          ],
+          "related": {
+            "title": "Nikkei 225 breaks 70,000 on hopes for peace and after rate increase",
+            "source": "재팬타임스",
+            "url": "https://www.japantimes.co.jp/business/2026/06/16/markets/nikkei-70000-first-time-june/",
+            "type": "유사"
+          },
+          "topics": ["닛케이", "증시", "AI", "반도체", "국채금리"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261011-1",
+          "date": "2026.10.11",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "소아이 겐소, 노벨 화학상 공동 수상…'비선형 효과와 자기촉매' 발견",
+          "summary": "일본의 소아이 겐소가 프랑스의 앙리 카건과 함께 2026년 노벨 화학상을 받았다. 비대칭 유기합성의 비선형 효과와 자기촉매 발견이 수상 이유다.",
+          "why": "분자의 좌우 대칭이 어떻게 생겨났는지에 대한 오랜 수수께끼에 실마리를 줬기 때문이다.",
+          "soWhat": "한쪽 거울상 분자만 선택적으로 만드는 기술은 의약품 합성에 응용될 수 있다.",
+          "context": {
+            "background": "소아이 반응은 생성물이 스스로 촉매가 되는 반응으로, 소아이의 이름이 붙었다.",
+            "issueContext": "카건은 촉매 구성과 생성물 키랄성이 선형으로 대응하지 않을 수 있음을 보였다.",
+            "coreQuestion": "자기촉매 반응은 생명체 분자의 비대칭 기원을 설명할 수 있을까요?",
+            "resolution": "노벨위원회는 10월 7일 두 사람의 수상을 발표했다."
+          },
+          "sources": [
+            {
+              "name": "알자지라",
+              "url": "https://www.aljazeera.com/news/2026/10/7/henri-kagan-kenso-soai-win-chemistry-nobel-for-mirror-image-breakthrough"
+            }
+          ],
+          "related": {
+            "title": "Nobel chemistry prize 2026 goes to Henri B Kagan, Kenso Soai: What is asymmetric autocatalysis",
+            "source": "비즈니스투데이",
+            "url": "https://www.businesstoday.in/science/story/nobel-chemistry-prize-2026-goes-to-henri-b-kagan-kenso-soai-what-is-asymmetric-autocatalysis-560159-2026-10-07",
+            "type": "다름"
+          },
+          "topics": ["노벨상", "연구", "과학기술", "의료"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261011-2",
+          "date": "2026.10.11",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "소행성 탐사선 하야부사2, 마지막 이온엔진 고장…JAXA '교차 운전'으로 복구 시도",
+          "summary": "하야부사2의 유일하게 작동하던 이온엔진이 고장 났다. JAXA는 다른 엔진의 이온원과 중화기를 조합하는 교차 운전으로 복구를 시도한다.",
+          "why": "엔진 A·C·D가 이미 열화된 상태에서 주력인 B 엔진마저 8월 중순부터 이상이 생겼기 때문이다.",
+          "soWhat": "복구 여부에 따라 2031년 소행성 1998 KY26 도착 계획이 흔들릴 수 있다.",
+          "context": {
+            "background": "하야부사2는 7월 소행성 도리후네를 근접 통과했고 2027년 12월 지구 스윙바이를 예정하고 있다.",
+            "issueContext": "JAXA는 새로 고장 난 엔진의 재가동을 이달 하반기 이르면 시도한다고 알려졌다.",
+            "coreQuestion": "하야부사2는 새 목표 소행성까지 갈 수 있을까요?",
+            "resolution": "교차 회로 조합이 작동함은 시험으로 확인됐고 실제 도달 가능성은 열화 정도에 달려 있다."
+          },
+          "sources": [
+            {
+              "name": "닛폰닷컴",
+              "url": "https://www.nippon.com/en/news/yjj2026100100139/"
+            }
+          ],
+          "related": {
+            "title": "Japan's asteroid probe lost its last working engine; engineers have a clever fix",
+            "source": "기즈모도",
+            "url": "https://gizmodo.com/japans-asteroid-probe-lost-its-last-working-engine-engineers-have-a-clever-fix-2000822183",
+            "type": "다름"
+          },
+          "topics": ["우주", "연구", "과학기술", "발사"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261009-1",
           "date": "2026.10.09",
