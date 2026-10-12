@@ -113,10 +113,100 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.11",
-      "period": "2026.10.10 08:00 ~ 2026.10.11 08:00",
-      "updatedAt": "2026.10.11 08:00 KST",
+      "latestDate": "2026.10.12",
+      "period": "2026.10.11 08:00 ~ 2026.10.12 08:00",
+      "updatedAt": "2026.10.12 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261012-1",
+          "date": "2026.10.12",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국감 2주차 개막…경찰개혁·사법부 독립·한미관계 쟁점",
+          "summary": "국정감사 2주차가 12일 12개 상임위에서 시작됐다. 경찰 수사 역량, 사법부 독립, 한미 관계, 증인 채택을 둘러싼 여야 대치가 예상된다.",
+          "why": "검찰청 폐지에 따른 수사체계 개편, 대법관 후보자 재제청 권한쟁의, 레버리지 ETF 의혹 등 쟁점이 2주차에 한꺼번에 몰려 있기 때문이다.",
+          "soWhat": "13일 헌법재판소 국감과 14일 김지용 중수청장 후보자 청문회에서 여야 충돌이 이어질 전망이다.",
+          "context": {
+            "background": "이재명 정부 두 번째 국감으로, 1주차에는 핵심 증인 채택을 두고 여야가 부딪혔다.",
+            "issueContext": "국민의힘이 대법관 후보자 재제청과 관련해 헌재에 권한쟁의심판을 청구했고, 행안위·외통위·재경위 등에서도 쟁점이 갈린다.",
+            "coreQuestion": "2주차 국감은 정책 검증의 장이 될까요, 정쟁의 장으로 끝날까요?",
+            "resolution": "12일 12개 상임위가 가동됐고, 헌재(13일)·농어촌공사(14일)·부동산원(15일) 등 일정이 이어진다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202610120601352810"
+            }
+          ],
+          "related": {
+            "title": "'맹탕 국감' 우려 속 2주차 돌입…野, 정부 '3대 정책 참사' 정조준",
+            "source": "아이뉴스24",
+            "url": "https://m.inews24.com/v/2013638",
+            "type": "다름"
+          },
+          "topics": ["국정감사", "국회", "여야갈등", "경찰개혁", "사법부", "한미"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261012-1",
+          "date": "2026.10.12",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "공정위 국감, 쿠팡 현장조사 거부·정유사 담합 추궁",
+          "summary": "12일 정무위 공정위 국감에서 쿠팡의 현장조사 거부와 정유 4사 담합 혐의, 배달앱 수수료가 집중 거론될 전망이다.",
+          "why": "공정위가 쿠팡 현장조사에 나섰지만 쿠팡이 사전통지가 없었다며 응하지 않았고, 정유 4사는 유가 관련 공정거래법 위반 혐의로 7월 재판에 넘겨졌기 때문이다.",
+          "soWhat": "증인으로 나선 쿠팡·배민·정유사 임원들의 답변이 향후 제재 수위와 플랫폼 규제 논의에 영향을 줄 수 있다.",
+          "context": {
+            "background": "쿠팡은 현장조사 집행정지를 신청했다가 기각되자 재항고했고, 공정위는 배달의민족·쿠팡이츠의 동의의결 신청을 기각했다.",
+            "issueContext": "주성원 쿠팡 총괄부사장과 정유 4사 대표, 우아한형제들 부사장이 증인으로 채택됐다.",
+            "coreQuestion": "현장조사 거부는 정당한 법적 대응일까요, 조사 방해일까요?",
+            "resolution": "쿠팡 사안은 법적 다툼이 진행 중이고 배달앱은 공정위 본안 심의 단계다."
+          },
+          "sources": [
+            {
+              "name": "이투데이",
+              "url": "https://www.etoday.co.kr/news/view/2634316"
+            }
+          ],
+          "related": {
+            "title": "쿠팡·배민 부사장 국감장 선다…‘쿠폰비 전가·배달비’ 집중 추궁",
+            "source": "이데일리",
+            "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01308726645612264",
+            "type": "유사"
+          },
+          "topics": ["국정감사", "유통", "플랫폼", "반독점", "쿠팡"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261012-2",
+          "date": "2026.10.12",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "신현송 한은 총재 첫 국감…연속 금리인상 효과 점검",
+          "summary": "국회 재경위가 12일 한국은행 국감을 실시한다. 7·8월 연속 인상으로 기준금리가 연 3.00%가 된 효과와 가계 이자 부담이 쟁점이다.",
+          "why": "한은이 수도권 집값 상승과 가계대출 증가를 금융안정 위험 요인으로 보고 금리를 올렸지만, 서울 아파트값은 9월 넷째 주까지 86주 연속 올랐기 때문이다.",
+          "soWhat": "한은은 추가 인상의 시기와 속도를 결정하겠다는 방침이어서 국감 발언이 시장의 금리 기대에 영향을 줄 수 있다.",
+          "context": {
+            "background": "기준금리는 7월 연 2.50%에서 2.75%로, 8월 다시 0.25%p 올라 연 3.00%가 됐다.",
+            "issueContext": "서울 아파트 매매가는 상승폭이 5주 연속 둔화했지만 상승세는 이어지고 있다.",
+            "coreQuestion": "금리인상은 집값과 가계부채를 잡을 수 있을까요, 이자 부담만 키울까요?",
+            "resolution": "신 총재는 인상이 주택가격·가계부채 증가세 완화에 도움이 될 것이라고 밝혔다. 12일 국감 결과는 이 기록 시점에 확인되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20261008000505"
+            }
+          ],
+          "related": {
+            "title": "서울 아파트값 84주째 상승, 최장기록 1주 앞…금리 올린 한은 머쓱",
+            "source": "MSN",
+            "url": "https://www.msn.com/ko-kr/news/other/%EC%84%9C%EC%9A%B8-%EC%95%84%ED%8C%8C%ED%8A%B8%EA%B0%92-84%EC%A3%BC%EC%A7%B8-%EC%83%81%EC%8A%B9-%EC%B5%9C%EC%9E%A5%EA%B8%B0%EB%A1%9D-1%EC%A3%BC-%EC%95%9E-%EA%B8%88%EB%A6%AC-%EC%98%AC%EB%A6%B0-%ED%95%9C%EC%9D%80-%EB%A8%B8%EC%93%B1/ar-AA2cp90h",
+            "type": "반박"
+          },
+          "topics": ["한국은행", "금리", "부동산", "가계부채", "집값"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261011-1",
           "date": "2026.10.11",
@@ -10676,10 +10766,100 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.11",
-      "period": "2026.10.10 08:00 ~ 2026.10.11 08:00",
-      "updatedAt": "2026.10.11 08:00 KST",
+      "latestDate": "2026.10.12",
+      "period": "2026.10.11 08:00 ~ 2026.10.12 08:00",
+      "updatedAt": "2026.10.12 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261012-1",
+          "date": "2026.10.12",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "퓨리서치: 트럼프 지지율 30%, 중간선거 앞두고 2기 최저",
+          "summary": "퓨리서치 조사에서 트럼프 대통령 지지율이 30%, 부정 평가가 68%로 나왔다. 2기 들어 가장 낮은 수치다.",
+          "why": "경제와 외교 등 현안 대응에 대한 신뢰가 떨어졌고, 2024년 트럼프 투표자 중에서도 31%가 부정 평가했기 때문이다.",
+          "soWhat": "유권자의 63%가 의회 투표에 트럼프를 요인으로 꼽아, 11월 3일 중간선거가 대통령 심판 성격을 띨 가능성이 크다.",
+          "context": {
+            "background": "조사는 9월 28일~10월 4일 성인 5,062명을 대상으로 했고 10월 8일 공개됐다.",
+            "issueContext": "의회 투표를 트럼프에 대한 반대표로 보는 응답(44%)이 찬성표(19%)보다 훨씬 많다.",
+            "coreQuestion": "낮은 지지율은 중간선거 결과로 이어질까요?",
+            "resolution": "다른 지지율 평균치는 이보다 높아 퓨 조사 하나만으로 단정하기는 어렵다."
+          },
+          "sources": [
+            {
+              "name": "Pew Research Center",
+              "url": "https://www.pewresearch.org/politics/2026/10/08/trumps-approval-rating-drops-as-fewer-americans-are-confident-in-his-handling-of-the-economy-other-issues/"
+            }
+          ],
+          "related": {
+            "title": "Trump Touts Popularity as Polls Show Some Voters Want GOP Distance",
+            "source": "Newsweek",
+            "url": "https://newsweek.com/trump-says-he-could-say-stupidest-things-as-polls-show-gop-concern-12551975",
+            "type": "반박"
+          },
+          "topics": ["트럼프", "중간선거", "여론조사", "지지율", "공화당"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261012-1",
+          "date": "2026.10.12",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "미 증시 주간 상승 마감…10년물 금리는 5.2%대 고공",
+          "summary": "10월 9일 S&P500이 0.59% 오른 7,811.54, 다우가 0.83% 오른 51,654.95, 나스닥이 0.64% 오른 27,366.17로 마감해 주간 상승을 기록했다. 10년물 국채금리는 약 5.23~5.25%였다.",
+          "why": "유가와 국채금리가 안정되고 트럼프 대통령이 중간선거 전 이란을 공격하지 않겠다고 밝혀 중동발 에너지 불안이 누그러졌기 때문이다.",
+          "soWhat": "수요일 24년 만의 최고(약 5.37%)를 찍은 금리가 높은 수준에 머문 채 실적 시즌이 증시 방향을 가를 전망이다.",
+          "context": {
+            "background": "S&P500은 이번 주 사상 최고치 7,844.52를 찍은 뒤 소폭 내려왔다.",
+            "issueContext": "고금리 부담과 중동 지정학 리스크가 증시의 변수로 남아 있다.",
+            "coreQuestion": "고금리 속 랠리는 이어질까요, 꺾일까요?",
+            "resolution": "주요 지수는 주간 기준 상승 마감했고 나스닥은 4주 연속 올랐다."
+          },
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-9-2026-105547352.html"
+            }
+          ],
+          "related": {
+            "title": "Stock Market Today (Oct. 9, 2026): Dow, S&P 500 end week higher as market rallies into earnings season",
+            "source": "TheStreet",
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-09-2026",
+            "type": "유사"
+          },
+          "topics": ["국채금리", "증시", "유가", "이란", "나스닥"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261012-1",
+          "date": "2026.10.12",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "노벨평화상에 나비 필라이…미국은 ICC 제재 확대",
+          "summary": "2026년 노벨평화상은 남아공 출신 전 ICC 재판관 나비 필라이에게 돌아갔다. 미국은 ICC와의 거래를 제한하는 제재를 새로 내놓았고 트럼프 대통령은 수상 결정을 비판했다.",
+          "why": "트럼프 행정부는 ICC가 미국 주권을 침해한다는 입장으로 제재를 이어왔고, 필라이는 이 제재를 수락할 수 없다고 비판했다.",
+          "soWhat": "6개월 유예 뒤 제재가 시행되면 ICC 운영에 타격이 예상되며, 동맹국과의 갈등도 커질 수 있다.",
+          "context": {
+            "background": "미국은 이미 ICC 재판관·직원 17명에게 개별 제재를 가한 상태다.",
+            "issueContext": "트럼프는 수상 결정을 '창피하고 부끄럽다', 노르웨이의 '지울 수 없는 오점'이라고 비난했다.",
+            "coreQuestion": "국제형사재판소 제재는 주권 수호일까요, 국제 사법체계에 대한 공격일까요?",
+            "resolution": "구테흐스 유엔 사무총장은 국제 형사사법에 대한 심각한 타격이라고 했고 ICC는 법치에 대한 공격이라고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "TBS News",
+              "url": "https://www.tbsnews.net/world/nobel-peace-laureate-says-us-sanctions-icc-unacceptable-1568701"
+            }
+          ],
+          "related": {
+            "title": "노벨평화상 발표 후 1 대 6 쪼개진 G7 [김태훈의 의미 또는 재미]",
+            "source": "세계일보",
+            "url": "https://segye.com/newsView/20261010502253",
+            "type": "다름"
+          },
+          "topics": ["노벨상", "ICC", "트럼프", "제재", "유엔"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261011-1",
           "date": "2026.10.11",
@@ -21201,10 +21381,70 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.11",
-      "period": "2026.10.10 08:00 ~ 2026.10.11 08:00",
-      "updatedAt": "2026.10.11 08:00 KST",
+      "latestDate": "2026.10.12",
+      "period": "2026.10.11 08:00 ~ 2026.10.12 08:00",
+      "updatedAt": "2026.10.12 08:00 KST",
       "issues": [
+        {
+          "id": "cn-eco-20261012-1",
+          "date": "2026.10.12",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "증감회, 연휴 뒤 A주 조정 속 전문가 좌담회 개최",
+          "summary": "중국 증감회가 10월 10일 우칭 주석 주재로 자본시장 전문가 좌담회를 열었다. 국경절 연휴 뒤 두 거래일 A주가 크게 조정받은 직후다.",
+          "why": "연휴 뒤 기술주 중심 매물이 쏟아져 시장 신뢰 문제가 불거졌기 때문이다.",
+          "soWhat": "전문가들은 시장 안정 메커니즘 강화, 중장기 자금 확대, 상장사 배당·자사주 매입 확대를 제안했다.",
+          "context": {
+            "background": "연휴 뒤 첫날 과창50이 하루 4.82% 급락했다가 이후 반등했다.",
+            "issueContext": "일부 전문가는 조정이 기본면 변화보다 외부 요인과 심리 때문이라고 본다.",
+            "coreQuestion": "A주 조정은 일시적 심리 문제일까요, 구조적 약세의 신호일까요?",
+            "resolution": "증권사들은 이번 좌담회가 긍정적 신호이며 중장기 상승 추세는 변함없다고 평가했다."
+          },
+          "sources": [
+            {
+              "name": "신랑재경",
+              "url": "https://finance.sina.com.cn/china/2026-10-10/doc-iniutyzf7370854.shtml"
+            }
+          ],
+          "related": {
+            "title": "A股短期调整，市场信心是否稳固？",
+            "source": "21财经",
+            "url": "https://m.21jingji.com/article/20261011/herald/a5bde40dc8a8ca6ac4057803887b17f0.html",
+            "type": "다름"
+          },
+          "topics": ["증시", "금융당국", "투자", "개인투자자", "중국"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261012-2",
+          "date": "2026.10.12",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "미 ITC, 립신정밀·폭스콘산업인터넷 상대 337조사 개시",
+          "summary": "미 국제무역위원회가 10월 9일 Vicor의 특허 침해 주장에 따라 337조사(337-TA-1526)를 시작했고 립신정밀과 폭스콘산업인터넷(공업부련)이 피조사자에 올랐다.",
+          "why": "Vicor가 데이터센터 전원 모듈·수직 급전 기술 특허 침해를 주장했고, 같은 취지의 337조사 청구는 이번이 세 번째다.",
+          "soWhat": "양사는 해당 제품이 검증 단계이거나 양산 전이라 실적 영향이 크지 않다고 밝혔으나, 조사 결과는 불확실하다.",
+          "context": {
+            "background": "피조사자에는 홍하이, 콴타, 플렉스, 델타, 인피니언 등 데이터센터 전원 공급망 기업이 포함된 것으로 보도됐다.",
+            "issueContext": "립신정밀은 적극 응소하겠다고 밝혔고 대부분의 337조사는 합의로 끝난다.",
+            "coreQuestion": "이번 조사는 특허 분쟁에 그칠까요, 중국 공급망 압박의 신호일까요?",
+            "resolution": "현재는 입건 단계로 판정 단계에 들어가지 않았다."
+          },
+          "sources": [
+            {
+              "name": "同花顺",
+              "url": "http://stock.10jqka.com.cn/20261011/c680560647.shtml"
+            }
+          ],
+          "related": {
+            "title": "立讯精密回应美国337调查",
+            "source": "凤凰网",
+            "url": "https://finance.ifeng.com/c/8x8XhwMk2rB",
+            "type": "유사"
+          },
+          "topics": ["미중갈등", "데이터센터", "소송", "무역", "반도체"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261011-1",
           "date": "2026.10.11",
