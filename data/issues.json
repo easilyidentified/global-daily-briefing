@@ -21681,10 +21681,190 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.13",
-      "period": "2026.10.12 08:00 ~ 2026.10.13 08:00",
-      "updatedAt": "2026.10.13 08:00 KST",
+      "latestDate": "2026.10.14",
+      "period": "2026.10.13 08:00 ~ 2026.10.14 08:00",
+      "updatedAt": "2026.10.14 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261014-1",
+          "date": "2026.10.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 공산당 20기 5중전회 10월 26~29일 개최…당 자체 거버넌스 의제",
+          "summary": "중국공산당 중앙위원회가 10월 26~29일 베이징에서 5중전회를 열고 당 전면 엄격 자체 거버넌스를 핵심 의제로 다룬다. 9월 시진핑 주재 정치국 회의에서 일정이 확정됐다.",
+          "why": "내년 당대회를 앞두고 반부패 숙청 이후의 당 기강과 인사 정비를 매듭지으려는 흐름이 배경이다.",
+          "soWhat": "전회 결과문건과 인사 조치에 따라 군·당 지도부 구도가 달라질 수 있어 한국 외교·통상 환경에도 변수가 된다.",
+          "context": {
+            "background": "20기 중앙위원회는 2022년 구성됐고 이번이 다섯 번째 전체회의다.",
+            "issueContext": "당 자체 거버넌스가 의제로 올라오면서 최근 낙마한 고위 인사 처리와 인사 개편이 이뤄질지가 관심사다.",
+            "coreQuestion": "이번 5중전회는 당 기강 다잡기에 그칠까요, 지도부 인사 재편의 신호일까요?",
+            "resolution": "공식 일정만 확정됐을 뿐 결과문건과 인사는 회의 이후에야 공개된다."
+          },
+          "sources": [
+            {
+              "name": "U.S. News (로이터)",
+              "url": "https://www.usnews.com/news/world/articles/2026-09-21/chinas-xi-chairs-politburo-central-committee-plenum-set-for-october-26-29"
+            }
+          ],
+          "related": {
+            "title": "China's 20th CPC Central Committee to Hold 5th Plenary Session from Oct. 26 to 29... \"To Implement Xi Jinping Thought\"",
+            "source": "SBS",
+            "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008764307",
+            "type": "유사"
+          },
+          "topics": ["오중전회", "공산당", "당대회", "시진핑", "반부패"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20261014-2",
+          "date": "2026.10.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "미중 무역휴전 내년 1월 10일까지 2개월 연장…시진핑 워싱턴 방문",
+          "summary": "미중이 시진핑의 워싱턴 방문에서 무역휴전을 2027년 1월 10일까지 두 달 연장했다. 각 300억 달러어치 상품 관세 인하와 AI 대화 채널 신설도 함께 거론됐다.",
+          "why": "11월 만료 예정이던 휴전을 끊지 않고 관리하려는 양국의 이해가 맞아떨어졌다.",
+          "soWhat": "11월 APEC과 12월 G20 정상회담까지 협상이 이어지며 한국 기업의 대중·대미 교역 불확실성도 길어진다.",
+          "context": {
+            "background": "2025년 10월 합의된 무역휴전은 11월 만료를 앞두고 있었다.",
+            "issueContext": "연장 기간이 기대보다 짧았고 중국 측의 공식 확인이 즉각 나오지 않았다는 점이 약점으로 지적된다.",
+            "coreQuestion": "이번 연장은 안정의 신호일까요, 시간 벌기일까요?",
+            "resolution": "미국 재무장관이 연장을 발표했고 추가 정상회담 두 차례가 예고됐다."
+          },
+          "sources": [
+            {
+              "name": "Nikkei Asia",
+              "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/us-and-china-agree-to-extend-trade-truce-until-january-bessent"
+            }
+          ],
+          "related": {
+            "title": "Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/28/trump-xi-summit-tangible-outcomes-us-china-truce.html",
+            "type": "반박"
+          },
+          "topics": ["미중", "무역", "관세", "시진핑", "APEC"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261014-1",
+          "date": "2026.10.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 9월 수출 36.3% 급증…1~9월 무역흑자 9380억 달러",
+          "summary": "중국 9월 수출이 전년 대비 36.3% 늘어 시장 예상(25.5%)을 크게 웃돌았다. 월간 무역흑자는 1335억 달러, 1~9월 누적은 9380억 달러다.",
+          "why": "글로벌 컴퓨팅 수요로 반도체 수출이 1년 새 136% 급증한 것이 가장 큰 동력이다.",
+          "soWhat": "흑자 확대로 EU 등의 무역 재균형 압박이 거세져 한국 수출 기업의 경쟁 구도에도 영향이 갈 수 있다.",
+          "context": {
+            "background": "중국의 연간 무역흑자는 지난해 사상 최대인 1조 2000억 달러였다.",
+            "issueContext": "수출 호조가 이어지면서 교역 상대국이 과잉생산 문제를 제기하며 대응책을 검토하고 있다.",
+            "coreQuestion": "이번 수출 급증은 지속 가능한 수요일까요, 과잉생산의 신호일까요?",
+            "resolution": "세관 통계는 확정됐지만 상대국의 대응은 아직 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "U.S. News (AP)",
+              "url": "https://www.usnews.com/news/business/articles/2026-10-13/chinas-exports-surge-36-3-in-september-as-pressure-ramps-up-to-rebalance-trade"
+            }
+          ],
+          "related": {
+            "title": "Europe has had enough of China's export surge",
+            "source": "Atlantic Council",
+            "url": "https://www.atlanticcouncil.org/dispatches/europe-has-had-enough-of-chinas-export-surge/",
+            "type": "반박"
+          },
+          "topics": ["수출", "무역흑자", "반도체", "공급과잉", "유럽연합"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261014-2",
+          "date": "2026.10.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 9월 CPI 0.9%·PPI 5.0%…생산자물가 4.4% 예상 웃돌아",
+          "summary": "중국 9월 소비자물가는 전년 대비 0.9% 올라 예상(1.0%)을 소폭 밑돌았고, 생산자물가는 5.0% 올라 예상(4.4%)을 크게 웃돌았다.",
+          "why": "AI 컴퓨팅 장비 수요와 중동 전쟁발 공급 차질이 생산자물가를 끌어올렸다.",
+          "soWhat": "디플레이션 우려는 걷히고 있지만 원가 상승이 소비자물가로 얼마나 번지느냐가 통화정책의 변수가 된다.",
+          "context": {
+            "background": "중국은 수년간 생산자물가 하락을 겪어 왔다.",
+            "issueContext": "생산자물가는 급등한 반면 소비자물가 상승은 완만해 둘 사이의 격차가 벌어졌다.",
+            "coreQuestion": "물가 반등은 경기 회복일까요, 비용 상승 압력일까요?",
+            "resolution": "국가통계국이 9월 수치를 발표했고 휘발유 가격은 16.6% 올랐다."
+          },
+          "sources": [
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/breaking-chinas-cpi-inflation-rises-to-09-yoy-in-september-vs-10-expected-202610140131"
+            }
+          ],
+          "related": {
+            "title": "China's September CPI Rises 0.9% Year-on-Year, Slightly Missing Expectations; PPI Surges 5% to a New High",
+            "source": "BigGo Finance",
+            "url": "https://finance.biggo.com/news/d47b7495-6ee7-45de-b569-697d3c828ed0",
+            "type": "유사"
+          },
+          "topics": ["CPI", "PPI", "물가", "인플레이션", "유가"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261014-1",
+          "date": "2026.10.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "시진핑 '건강중국' 전국 회의서 결정적 진전 촉구…기대수명 79.25세",
+          "summary": "시진핑 주석이 10월 12~13일 전국 보건 회의에서 15차 5개년계획 기간 건강중국 사업의 결정적 진전을 촉구했다. 2025년 평균 기대수명은 79.25세로 집계됐다.",
+          "why": "고령화 속에서 질병 예방과 의료 체계 개혁을 5개년계획의 핵심 과제로 올리려는 의도다.",
+          "soWhat": "의료 서비스·건강보험·의약품 규제를 아우르는 개혁이 예고돼 의료·바이오 산업 환경이 달라질 수 있다.",
+          "context": {
+            "background": "건강중국 2035는 당 중앙의 전략 결정으로 추진돼 왔다.",
+            "issueContext": "시 주석은 예방을 가장 비용 효과적인 방식으로 꼽고 의료 인력 양성과 글로벌 보건 협력을 주문했다.",
+            "coreQuestion": "건강중국 사업은 의료 개혁의 실행으로 이어질까요, 구호에 머물까요?",
+            "resolution": "회의에서 방향이 제시됐고 구체 정책은 후속 조치로 나온다."
+          },
+          "sources": [
+            {
+              "name": "신화통신",
+              "url": "https://english.news.cn/20261013/7735ad4b1e504be9b70a8730be6d3a08/c.html"
+            }
+          ],
+          "related": {
+            "title": "Xi urges strong steps to build Healthy China",
+            "source": "China Daily",
+            "url": "https://www.chinadaily.com.cn/a/202610/14/WS6ace56a5e4b06d4aa05629a0.html",
+            "type": "유사"
+          },
+          "topics": ["시진핑", "보건", "5개년계획", "의료", "고령화"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261014-2",
+          "date": "2026.10.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "창정12호, 저궤도 인터넷 위성 27번째 그룹 발사…하이난 상업발사장",
+          "summary": "중국이 10월 10일 하이난 상업 발사장에서 창정12호로 저궤도 인터넷 위성 27번째 그룹을 쏘아 올렸다.",
+          "why": "위성 인터넷 군집을 빠르게 채워 상용 서비스와 우주 인프라 경쟁에서 앞서려는 흐름이다.",
+          "soWhat": "저궤도 위성 인터넷 경쟁이 가열되며 스타링크 등 해외 사업자와의 주파수·시장 경쟁이 커질 수 있다.",
+          "context": {
+            "background": "중국은 하이난 상업 발사장을 통해 위성 군집 발사를 이어 오고 있다.",
+            "issueContext": "27번째 그룹은 위성 수가 아니라 발사 순번을 뜻하며, 배치 규모는 공개되지 않았다.",
+            "coreQuestion": "이번 발사는 군집 구축의 속도전일까요, 일상적인 배치 단계일까요?",
+            "resolution": "발사는 성공해 위성이 궤도에 올랐다."
+          },
+          "sources": [
+            {
+              "name": "China Daily",
+              "url": "https://europe.chinadaily.com.cn/a/202610/10/WS6ac97bc5e4b06d4aa056200d.html"
+            }
+          ],
+          "related": {
+            "title": "What Does China's Latest Satellite Internet Launch Establish?",
+            "source": "New Space Economy",
+            "url": "https://newspaceeconomy.ca/2026/10/10/what-does-chinas-latest-satellite-internet-launch-establish/",
+            "type": "다름"
+          },
+          "topics": ["우주", "위성", "로켓", "상업우주", "인터넷"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261013-1",
           "date": "2026.10.13",
