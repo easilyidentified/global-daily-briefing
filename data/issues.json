@@ -113,10 +113,130 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.13",
-      "period": "2026.10.12 08:00 ~ 2026.10.13 08:00",
-      "updatedAt": "2026.10.13 08:00 KST",
+      "latestDate": "2026.10.14",
+      "period": "2026.10.13 08:00 ~ 2026.10.14 08:00",
+      "updatedAt": "2026.10.14 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261014-1",
+          "date": "2026.10.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "헌재 국감서 조희대·김상환 두고 여야 격돌…대법관 재제청 논란",
+          "summary": "13일 헌법재판소 국정감사에서 조희대 대법원장의 대법관 재제청 문제와 김상환 헌재소장의 해외 출장비를 두고 여야가 맞붙었다.",
+          "why": "민주당은 조 대법원장이 대법관 후보를 다시 제청하지 않은 점을, 국민의힘은 헌재소장의 출장비 사용을 문제 삼았기 때문이다.",
+          "soWhat": "국민의힘이 헌재에 낸 권한쟁의심판을 둘러싼 공방이 이어지며 사법부 인사 갈등이 길어질 수 있다.",
+          "context": {
+            "background": "청와대가 대법관 후보 임명동의안을 국회에 보내지 않고 대법원장에게 재제청을 요청하면서 갈등이 시작됐다.",
+            "issueContext": "국민의힘은 이 조치가 국회의 임명동의권을 침해했다며 헌재에 권한쟁의심판을 청구했고, 이날 국감에서 이 문제가 다시 거론됐다.",
+            "coreQuestion": "대법관 재제청 논란은 헌재 판단으로 정리될까요, 정치 공방으로 이어질까요?",
+            "resolution": "이날 국감에서 쟁점이 정리되지는 않았고 여야는 각자의 입장을 재확인했다."
+          },
+          "sources": [
+            {
+              "name": "고코리아",
+              "url": "https://gokorea.kr/news/articleView.html?idxno=881208"
+            }
+          ],
+          "related": {
+            "title": "'김지용 반대' 추미애, 오늘 국감 데뷔…여야, 헌재서 조희대 공방 전망",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202610130615031082",
+            "type": "유사"
+          },
+          "topics": ["국정감사", "사법부", "대법관", "여야갈등", "헌법"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261014-2",
+          "date": "2026.10.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "경기도 국감서 추미애 '재정위기' 선언 도마…\"착시일 뿐\" 반박",
+          "summary": "13일 행안위 경기도 국감에서 여야 의원들이 추미애 경기도지사의 재정 비상 선언 근거를 따졌고, 추 지사는 예산 대비 채무비율이 위기를 가리는 지표라고 반박했다.",
+          "why": "예산 대비 채무비율이 10%대 초중반으로 재정주의단체 기준에 크게 못 미치는데도 도가 재정위기를 선언했기 때문이다.",
+          "soWhat": "재정 건전성 지표를 무엇으로 볼지를 둘러싼 논쟁이 지방재정 전반으로 번질 수 있다.",
+          "context": {
+            "background": "추 지사는 앞서 경기도 재정이 위기라며 비상 선언을 했다.",
+            "issueContext": "여야 의원들은 정부 기준상 채무비율이 낮다고 지적했고, 추 지사는 최근 2년 채무 증가 속도가 전국 평균의 3배라고 맞섰다.",
+            "coreQuestion": "경기도 재정은 위기 상황일까요, 지표 해석의 문제일까요?",
+            "resolution": "국감에서 합의된 결론은 없었고 지표 해석을 둘러싼 입장 차만 확인됐다."
+          },
+          "sources": [
+            {
+              "name": "아시아경제",
+              "url": "https://view.asiae.co.kr/article/2026101313112883842"
+            }
+          ],
+          "related": {
+            "title": "“경기도 재정 위기 아니다”… 여야, 추미애 경기도지사 십자포화 [행안위 경기도 국감]",
+            "source": "경인일보",
+            "url": "https://www.kyeongin.com/article/1772494",
+            "type": "반박"
+          },
+          "topics": ["국정감사", "재정", "부채", "경기", "지방자치"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261014-1",
+          "date": "2026.10.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 6300선 급락·환율 2년 만에 최저…증권가 '예측불허'",
+          "summary": "13일 코스피가 3.65% 내린 6384.24에 마감했고, 원·달러 환율은 수출업체 달러 매도 영향으로 2년 만에 최저 수준을 기록했다.",
+          "why": "외국인 매도가 이어지는 가운데 삼성전자·SK하이닉스 등 반도체 대형주가 약세를 보였기 때문이다.",
+          "soWhat": "반도체 비중이 큰 증시의 변동성이 당분간 이어질 수 있다.",
+          "context": {
+            "background": "코스피는 이날까지 4거래일 연속 내렸다.",
+            "issueContext": "증시 하락과 원화 강세가 동시에 나타나며 증권가에서는 방향을 예측하기 어렵다는 평가가 나온다.",
+            "coreQuestion": "이번 하락은 일시적 조정일까요, 추세 전환의 신호일까요?",
+            "resolution": "13일 코스피는 241.69포인트 하락한 6384.24로 거래를 마쳤다."
+          },
+          "sources": [
+            {
+              "name": "서울신문",
+              "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/13/20261013031003"
+            }
+          ],
+          "related": {
+            "title": "[마감시황] 코스피, 외국인 2조 매도에 3%대 급락...두 달 만에 6400선 하회",
+            "source": "뉴스핌",
+            "url": "https://www.newspim.com/news/view/20261012001236",
+            "type": "다름"
+          },
+          "topics": ["코스피", "외국인", "환율", "반도체", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261014-1",
+          "date": "2026.10.14",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "식약처 국감, 제넨셀 임상시험 청탁 의혹으로 시작부터 파행",
+          "summary": "13일 복지위 식약처 국감이 제넨셀 임상시험 청탁 의혹을 둘러싼 여야 충돌로 한때 정회됐다가 속개됐다.",
+          "why": "국민의힘이 '증인 거부, 자료 은폐' 피켓을 내걸고 증인 채택을 요구하자 민주당이 철거를 요구하며 충돌했기 때문이다.",
+          "soWhat": "청탁 의혹 공방이 남아 있어 식약처 현안 점검이 정쟁에 가려질 수 있다.",
+          "context": {
+            "background": "김승원 민주당 의원이 제넨셀 코로나19 치료제 임상시험과 관련해 식약처에 청탁했다는 의혹이 제기돼 왔다.",
+            "issueContext": "야당은 증인 채택 불발과 자료 축소 의혹을 문제 삼았고, 민주당은 정치 공세라고 반발했다.",
+            "coreQuestion": "식약처 국감은 의약품 안전 점검일까요, 청탁 의혹 공방의 장일까요?",
+            "resolution": "여야 간사 합의로 피켓이 철거되면서 국감이 속개됐고, 이후 위고비 부작용 대응 등이 질의됐다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20261013000480"
+            }
+          ],
+          "related": {
+            "title": "[2026 국정감사] 파행 딛고 속개된 식약처 국감…\"위고비 실명 부작용 방치\" 뒷북 행정 질타",
+            "source": "아주경제",
+            "url": "https://www.ajunews.com/view/20261013171124391",
+            "type": "다름"
+          },
+          "topics": ["국정감사", "의약품", "여야갈등", "김승원", "비만"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261013-1",
           "date": "2026.10.13",
@@ -10856,10 +10976,40 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.13",
-      "period": "2026.10.12 08:00 ~ 2026.10.13 08:00",
-      "updatedAt": "2026.10.13 08:00 KST",
+      "latestDate": "2026.10.14",
+      "period": "2026.10.13 08:00 ~ 2026.10.14 08:00",
+      "updatedAt": "2026.10.14 08:00 KST",
       "issues": [
+        {
+          "id": "us-eco-20261014-1",
+          "date": "2026.10.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "미 증시 보합 마감…대형 은행 실적 엇갈리고 반도체주 약세",
+          "summary": "13일 미국 증시는 대형 은행 실적 발표 속에 S&P500이 0.02% 내린 7805.45로 사실상 보합 마감했고, 나스닥은 소폭 하락했다.",
+          "why": "JPMorgan 등 은행 실적이 엇갈린 데다 어플라이드머티어리얼즈 등 반도체주가 크게 내렸기 때문이다.",
+          "soWhat": "이어지는 실적 시즌과 물가 지표 발표가 증시 방향을 좌우할 전망이다.",
+          "context": {
+            "background": "S&P500은 지난주 기록한 사상 최고치 바로 아래에서 거래되고 있다.",
+            "issueContext": "은행 실적 시즌이 시작됐고 메모리 반도체 관련주가 후퇴했으며, 투자자들은 유가와 물가 지표를 주시한다.",
+            "coreQuestion": "반도체주 약세는 일시적 조정일까요, 증시 상승세의 균열일까요?",
+            "resolution": "다우는 0.35% 내린 51,670.10, 나스닥은 27,204.38에 마감했다."
+          },
+          "sources": [
+            {
+              "name": "Motley Fool",
+              "url": "https://www.fool.com/coverage/stock-market-today/2026/10/13/stock-market-today-oct-13-markets-edge-lower-as-earnings-season-kicks-off/"
+            }
+          ],
+          "related": {
+            "title": "Markets News, Oct. 13, 2026: Major Indexes End Slightly Lower on Busy Earnings Day; Memory Stocks Retreat",
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-mixed-104049191.html",
+            "type": "유사"
+          },
+          "topics": ["증시", "나스닥", "다우", "반도체", "실적"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261013-1",
           "date": "2026.10.13",
@@ -31744,10 +31894,70 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.13",
-      "period": "2026.10.12 08:00 ~ 2026.10.13 08:00",
-      "updatedAt": "2026.10.13 08:00 KST",
+      "latestDate": "2026.10.14",
+      "period": "2026.10.13 08:00 ~ 2026.10.14 08:00",
+      "updatedAt": "2026.10.14 08:00 KST",
       "issues": [
+        {
+          "id": "jp-eco-20261014-1",
+          "date": "2026.10.14",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 4일 연속 하락…1253엔 내린 6만7777엔 마감",
+          "summary": "13일 닛케이평균은 전 거래일보다 1253엔(1.82%) 내린 6만7777엔으로 마감해 4거래일 연속 하락했다.",
+          "why": "전날 미국 시장에서 반도체 관련주가 내린 영향으로 AI·반도체주에 매도세가 몰렸기 때문이다.",
+          "soWhat": "지난주 처음 7만 엔을 넘은 닛케이평균의 조정이 반도체주 흐름에 따라 이어질 수 있다.",
+          "context": {
+            "background": "닛케이평균은 10월 6일 사상 처음으로 7만 엔대에 올랐다.",
+            "issueContext": "도쿄일렉트론이 지수를 450엔가량 끌어내리는 등 반도체주가 하락을 주도했다.",
+            "coreQuestion": "닛케이평균의 하락은 단기 조정일까요, AI 낙관론 후퇴의 신호일까요?",
+            "resolution": "TOPIX는 0.14% 올라 닛케이평균과 엇갈린 흐름을 보였다."
+          },
+          "sources": [
+            {
+              "name": "가부탄",
+              "url": "https://s.kabutan.jp/news/n202610130774/"
+            }
+          ],
+          "related": {
+            "title": "株価 大きく値下がり AI・半導体産業 競争激化の警戒感などで",
+            "source": "NHK",
+            "url": "https://news.web.nhk/newsweb/na/nd-20261013de58344",
+            "type": "유사"
+          },
+          "topics": ["닛케이평균", "반도체", "증시", "AI", "도쿄"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261014-1",
+          "date": "2026.10.14",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 \"취업자 부담 경감 지원금 획기적\"…금액·요건은 언급 피해",
+          "summary": "다카이치 총리는 13일 중의원 예산위에서 식품 소비세 인하와 함께 추진하는 지원금을 '획기적'이라 평가하면서 금액과 지급 요건은 밝히지 않았다.",
+          "why": "야당이 소비세 인하와 경제정책의 구체안을 따져 묻는 가운데 정부가 조기 입법을 서두르고 있기 때문이다.",
+          "soWhat": "지원금의 금액과 요건이 공개되기 전까지 예산위 공방이 이어질 전망이다.",
+          "context": {
+            "background": "예산위 기본적 질의는 총리와 전 각료가 출석한 가운데 이틀 일정으로 시작됐다.",
+            "issueContext": "총리는 소득에 따라 세심하게 지원하는 제도라고 강조했고, 야나 농림수산상 발언 논란도 쟁점이 됐다.",
+            "coreQuestion": "새 지원금은 소비세 인하의 부담을 덜어줄 수 있을까요, 재원 논란만 키울까요?",
+            "resolution": "총리는 조기 성립을 목표로 한다고 밝혔으나 구체적인 금액과 요건은 명시하지 않았다."
+          },
+          "sources": [
+            {
+              "name": "시사통신",
+              "url": "https://www.jiji.com/jc/article?k=2026101300630&g=pol"
+            }
+          ],
+          "related": {
+            "title": "きょうから予算委 消費税 経済政策 簗農相発言で論戦",
+            "source": "NHK",
+            "url": "https://news.web.nhk/newsweb/na/nd-20261012de58277",
+            "type": "다름"
+          },
+          "topics": ["다카이치", "소비세", "예산", "국회", "경제정책"],
+          "review": "pending"
+        },
         {
           "id": "jp-eco-20261013-1",
           "date": "2026.10.13",
