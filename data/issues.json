@@ -113,10 +113,100 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.14",
-      "period": "2026.10.13 08:00 ~ 2026.10.14 08:00",
-      "updatedAt": "2026.10.14 08:00 KST",
+      "latestDate": "2026.10.17",
+      "period": "2026.10.16 08:00 ~ 2026.10.17 08:00",
+      "updatedAt": "2026.10.17 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261017-1",
+          "date": "2026.10.17",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "법사위 국감서 '李 재판 중단' 공방…與 \"발목잡기\" vs 野 \"직무유기\"",
+          "summary": "16일 국회 법사위 국감에서 이재명 대통령의 선거법 위반 재판 중단 문제를 두고 여야가 헌법 84조 해석으로 맞붙었다.",
+          "why": "민주당은 대통령 불소추특권이 진행 중인 재판에도 적용된다고 보고, 국민의힘은 이를 편법이라고 보기 때문이다.",
+          "soWhat": "헌법 84조의 적용 범위를 둘러싼 논쟁이 국감 이후에도 이어지며 사법부 판단을 압박하는 정치 쟁점이 될 수 있다.",
+          "context": {
+            "background": "대통령의 재직 중 형사재판을 어떻게 볼 것인지는 이 대통령 취임 이후 여야가 반복해서 부딪혀 온 쟁점이다.",
+            "issueContext": "16일 법사위 국감에서 여당은 재판 중단이 헌법상 당연하다는 취지로, 야당은 편법이라는 취지로 맞섰다.",
+            "coreQuestion": "대통령의 재판 중단은 헌법상 당연한 일일까요, 편법일까요?",
+            "resolution": "국감에서 합의된 결론은 없었고 여야는 각자의 입장을 재확인했다."
+          },
+          "sources": [
+            {
+              "name": "아주경제",
+              "url": "https://www.ajunews.com/view/20261016153014128"
+            }
+          ],
+          "related": {
+            "title": "'李 재판 중단, 이재용·최태원 증인 채택'…국감장 곳곳 여야 충돌",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202610161334400893",
+            "type": "유사"
+          },
+          "topics": ["국정감사", "재판", "불소추특권", "여야갈등", "헌법"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261017-2",
+          "date": "2026.10.17",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "이진숙 제척 공방에 과방위 국감 파행…3시간 만에 본질의, 또 정회",
+          "summary": "16일 과방위 국감이 KBS 감사에 이진숙 의원이 참여할 수 있는지를 두고 충돌하며 파행했고, 약 3시간 만에 본질의에 들어갔으나 다시 정회했다.",
+          "why": "민주당 등은 이 의원이 방송통신위원장 재직 때 KBS·방문진 이사 선임에 관여해 이해충돌 소지가 있다고 보고, 국민의힘은 관여한 사안은 질의하지 않겠다며 참여를 막는 것이 부당하다고 맞섰기 때문이다.",
+          "soWhat": "피감기관 감사 일정이 늦어지고, 국감 중 제척 기준을 둘러싼 선례 논란이 이어질 수 있다.",
+          "context": {
+            "background": "이진숙 의원은 방송통신위원장을 지낸 뒤 현재 과방위 소속 의원으로 KBS 등 방송 관련 피감기관 감사에 참여하고 있다.",
+            "issueContext": "야당 측은 직접 관여한 의사결정이 있는 피감기관 감사에서 제척해야 한다고 주장하고, 국민의힘은 해당 사안만 피하면 된다고 주장한다.",
+            "coreQuestion": "이해충돌 소지가 있는 의원은 해당 감사에서 빠져야 할까요, 질의 범위만 제한하면 될까요?",
+            "resolution": "회의는 정회를 거듭했고 제척 문제에 대한 합의는 이뤄지지 않았다."
+          },
+          "sources": [
+            {
+              "name": "머니투데이",
+              "url": "https://www.mt.co.kr/politics/2026/10/16/2026101618201419726"
+            }
+          ],
+          "related": {
+            "title": "과방위 국감, '이진숙 제척' 공방에 정회…질의 시작도 못 해",
+            "source": "뉴스1",
+            "url": "https://www.news1.kr/politics/assembly/6322747",
+            "type": "유사"
+          },
+          "topics": ["국정감사", "방송", "이해충돌", "여야갈등", "국회"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261017-1",
+          "date": "2026.10.17",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 2.05% 반등한 5,668 마감…원/달러 환율 1,331원",
+          "summary": "16일 코스피가 전 거래일보다 113.83포인트(2.05%) 오른 5,668.05에, 코스닥은 4.46% 오른 794.78에 마감했고 원/달러 환율은 13.2원 내린 1,331.4원이었다.",
+          "why": "전날 급락했던 증시에서 기관과 외국인이 매수로 돌아서고 AI 우려가 완화됐기 때문이다.",
+          "soWhat": "외국인 자금 이탈 우려가 일부 누그러졌지만, 장중 상승폭을 일부 반납해 변동성은 이어질 수 있다.",
+          "context": {
+            "background": "코스피는 직전 거래일 큰 폭으로 하락했고 증시에서는 서킷브레이커가 발동됐다고 보도됐다.",
+            "issueContext": "이날 장중 5,800선까지 올랐다가 오후 들어 상승분 일부를 반납하고 5,600선대에서 마감했다.",
+            "coreQuestion": "이번 반등은 추세 전환일까요, 일시적 반발 매수일까요?",
+            "resolution": "지수와 환율은 안정을 찾는 모습이지만 추세 전환 여부는 확인되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "머니투데이",
+              "url": "https://www.mt.co.kr/stock/2026/10/16/2026101615331353587"
+            }
+          ],
+          "related": {
+            "title": "[마감 시황] 코스피, '7거래일' 연속 하락 끊어내며 5,600선 회복…원/달러 환율, 13.2원 내린 1330원대 초반 마감",
+            "source": "Businesskorea",
+            "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=279010",
+            "type": "유사"
+          },
+          "topics": ["증시", "환율", "AI", "외국인투자"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261014-1",
           "date": "2026.10.14",
@@ -10976,10 +11066,100 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.14",
-      "period": "2026.10.13 08:00 ~ 2026.10.14 08:00",
-      "updatedAt": "2026.10.14 08:00 KST",
+      "latestDate": "2026.10.17",
+      "period": "2026.10.16 08:00 ~ 2026.10.17 08:00",
+      "updatedAt": "2026.10.17 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261017-1",
+          "date": "2026.10.17",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 유세에서 \"정보 유출자는 총살해야\" 발언",
+          "summary": "트럼프 대통령이 중간선거 유세에서 정부 정보를 언론에 유출하는 사람은 총살해야 한다는 취지로 발언했다.",
+          "why": "이란전 관련 비판적 보도에 반발하는 과정에서 나온 발언으로 보도됐다.",
+          "soWhat": "언론 자유와 내부 고발자 보호를 둘러싼 논란이 중간선거 국면에서 커질 수 있다.",
+          "context": {
+            "background": "미국은 이란과의 전쟁을 둘러싸고 정부와 언론의 긴장이 이어지고 있다.",
+            "issueContext": "트럼프 대통령은 공화당 후보 지원 유세를 이어가던 중 유출자를 강하게 비난했다.",
+            "coreQuestion": "이번 발언은 선거용 수사에 그칠까요, 실제 유출 단속 강화로 이어질까요?",
+            "resolution": "발언 이후 백악관의 구체적 후속 조치는 확인되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/15/trump-suggests-those-who-leak-government-information-should-be-shot"
+            }
+          ],
+          "related": {
+            "title": "Trump says leakers should be shot",
+            "source": "Political Wire",
+            "url": "https://politicalwire.com/2026/10/14/trump-says-leakers-should-be-shot/",
+            "type": "유사"
+          },
+          "topics": ["트럼프", "언론", "중간선거", "이란", "유세"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261017-2",
+          "date": "2026.10.17",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프 행정부, 이란 겨냥 '모든 폭탄의 어머니' 포함 군사 옵션 검토",
+          "summary": "ABC뉴스는 트럼프 행정부가 이란을 겨냥한 군사 옵션을 마련했고 여기에 대형 폭탄 사용이 포함된다고 소식통을 인용해 전했다.",
+          "why": "이란과의 전쟁이 이어지는 가운데 군사적 압박 수위를 높일 선택지를 준비하는 것으로 보인다.",
+          "soWhat": "대통령이 결정을 내리면 확전 우려와 함께 의회의 전쟁권한 논쟁이 다시 불붙을 수 있다.",
+          "context": {
+            "background": "미국은 올해 이란과의 전쟁에 들어갔고 의회에서는 전쟁권한 결의안 표결이 여러 차례 있었다.",
+            "issueContext": "소식통에 따르면 대통령은 아직 결정을 내리지 않았고 백악관은 논평을 거부했다.",
+            "coreQuestion": "새로운 군사 옵션은 협상 압박용일까요, 실제 확전의 전조일까요?",
+            "resolution": "대통령이 결정을 내리지 않아 실행 여부는 정해지지 않았다."
+          },
+          "sources": [
+            {
+              "name": "ABC News",
+              "url": "https://abcnews.com/International/live-updates/iran-live-updates-trump-us-attack-iran-ahead/?id=137063637"
+            }
+          ],
+          "related": {
+            "title": "Congress Declines to Demand a Say in the Iran War",
+            "source": "Council on Foreign Relations",
+            "url": "https://www.cfr.org/articles/congress-declines-to-demand-a-say-in-the-iran-war",
+            "type": "다름"
+          },
+          "topics": ["이란", "전쟁", "안보", "트럼프", "의회"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261017-1",
+          "date": "2026.10.17",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "9월 CPI 3.7%로 예상 상회…금리 인상 우려에 뉴욕증시 하락",
+          "summary": "9월 미국 소비자물가가 전년 대비 3.7% 올라 예상치 3.6%를 웃돌았고, 14일 S&P500은 1.1%, 나스닥은 1.9% 하락했다.",
+          "why": "물가가 예상보다 높게 나오면서 연준의 추가 금리 인상 가능성이 다시 부각됐기 때문이다.",
+          "soWhat": "이달 연준 회의에서 인상 여부를 두고 시장 변동성이 커질 수 있다.",
+          "context": {
+            "background": "연준은 지난달 2023년 7월 이후 처음으로 금리를 올렸다.",
+            "issueContext": "CPI 발표 직후 10년물 국채금리가 5.3%를 넘어섰고 기술주가 하락을 주도했다.",
+            "coreQuestion": "연준은 이달 추가 인상에 나설까요, 지켜볼까요?",
+            "resolution": "연준 위원들은 추가 조치 전에 지켜볼 수 있다고 밝혔으나 시장은 인상 가능성을 반영 중이다."
+          },
+          "sources": [
+            {
+              "name": "The Star",
+              "url": "https://www.thestar.com.my/news/world/2026/10/15/us-stocks-close-drop-as-hot-cpi-revives-fed-rate-hike-bets"
+            }
+          ],
+          "related": {
+            "title": "Stock Market Today (Oct. 15, 2026): Dow edges higher as tech sell-off pivots",
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-15-140429285.html",
+            "type": "다름"
+          },
+          "topics": ["물가", "금리", "증시", "연준", "AI"],
+          "review": "pending"
+        },
         {
           "id": "us-eco-20261014-1",
           "date": "2026.10.14",
@@ -21681,10 +21861,70 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.14",
-      "period": "2026.10.13 08:00 ~ 2026.10.14 08:00",
-      "updatedAt": "2026.10.14 08:00 KST",
+      "latestDate": "2026.10.17",
+      "period": "2026.10.16 08:00 ~ 2026.10.17 08:00",
+      "updatedAt": "2026.10.17 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261017-1",
+          "date": "2026.10.17",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국·북한 신압록강대교 개통…10여 년 지연 끝에",
+          "summary": "중국 단둥과 북한 신의주를 잇는 약 3km 길이의 신압록강대교가 15일 개통될 예정이라고 중국 국영매체가 전했다.",
+          "why": "북한 쪽 연결 공사가 오랫동안 이뤄지지 않아 2014년 예정이던 개통이 미뤄져 왔다.",
+          "soWhat": "양국 육로 교역의 새 통로가 되지만 전문가들은 교역이 단기간에 급증하지는 않을 것으로 본다.",
+          "context": {
+            "background": "다리는 2014년께 완공됐으나 중국의 유엔 제재 동참 이후 관계가 냉각되며 개통되지 못했다.",
+            "issueContext": "노후한 단선 중조우의교를 대체할 주요 도로 교역로로 거론된다.",
+            "coreQuestion": "신압록강대교는 북중 교역을 크게 늘릴까요, 상징적 개통에 그칠까요?",
+            "resolution": "개통은 15일로 예고됐고, 당일 행사 진행은 이번 수집에서 확인되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/14/china-and-north-korea-to-open-new-yalu-river-bridge-state-media-reports"
+            }
+          ],
+          "related": {
+            "title": "New bridge linking China and North Korea will open more than a decade late",
+            "source": "ABC News (AP)",
+            "url": "https://abcnews.com/Business/wireStory/new-bridge-linking-china-north-korea-open-decade-137248630",
+            "type": "유사"
+          },
+          "topics": ["북한", "중국", "외교", "무역", "제재"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261017-1",
+          "date": "2026.10.17",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국, 신에너지차 수출 부가세 환급률 13%→9%로 인하",
+          "summary": "중국 재정부와 세무총국이 2027년 4월 1일부터 신에너지차 수출 부가세 환급률을 13%에서 9%로 낮추겠다고 12일 발표했다.",
+          "why": "저가 수출 경쟁을 억제하고 업계 구조조정을 유도하려는 조치로 풀이된다.",
+          "soWhat": "수출 마진이 줄어든 업체들이 해외 판매가를 올리거나 수익성이 악화될 수 있다.",
+          "context": {
+            "background": "내수 부진 속에 중국 자동차업체들은 해외 판매에 의존해 왔다.",
+            "issueContext": "9월 신에너지차 내수 소매는 전년 대비 감소한 반면 수출은 크게 늘었다.",
+            "coreQuestion": "환급률 인하는 과당경쟁을 줄일까요, 수출 업체 부담만 키울까요?",
+            "resolution": "시행은 2027년 4월부터여서 영향은 아직 나타나지 않았다."
+          },
+          "sources": [
+            {
+              "name": "CnEVPost",
+              "url": "https://cnevpost.com/2026/10/12/china-cuts-nev-export-tax-rebates/"
+            }
+          ],
+          "related": {
+            "title": "In-depth: China rethinks the tax rebates that drove its export machine",
+            "source": "Caixin Global",
+            "url": "https://www.caixinglobal.com/2026-07-17/in-depth-china-rethinks-the-tax-rebates-that-drove-its-export-machine-102465308.html",
+            "type": "반박"
+          },
+          "topics": ["전기차", "수출", "세제", "자동차", "무역"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261014-1",
           "date": "2026.10.14",
@@ -32074,10 +32314,70 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.14",
-      "period": "2026.10.13 08:00 ~ 2026.10.14 08:00",
-      "updatedAt": "2026.10.14 08:00 KST",
+      "latestDate": "2026.10.17",
+      "period": "2026.10.16 08:00 ~ 2026.10.17 08:00",
+      "updatedAt": "2026.10.17 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261017-1",
+          "date": "2026.10.17",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "야나 농수상 사임…다카이치 \"임명 책임은 나에게\"",
+          "summary": "야나 가즈오 농림수산상이 14일 사표를 냈고, 다카이치 총리는 임명 책임을 무겁게 받아들인다고 밝혔다.",
+          "why": "도로 예산 삭감 발언과 공직선거법 위반 의혹에 대한 비판이 커졌기 때문이다.",
+          "soWhat": "국회 심의가 이어지는 가운데 야당의 책임 추궁이 커져 정권 운영에 부담이 될 수 있다.",
+          "context": {
+            "background": "야나 장관은 자신을 지지하지 않은 단체장 지역의 도로 예산을 삭감했다고 발언했다가 철회·사과했다.",
+            "issueContext": "총리는 처음에 직책 수행을 지시했으나 이후 사표를 수리했고, 보도에 따르면 다카이치 정권 출범 후 각료가 불상사로 물러난 것은 처음이다.",
+            "coreQuestion": "이번 사임은 정권 부담을 덜어낼까요, 책임 논란을 키울까요?",
+            "resolution": "후임 농수상은 조정 중이라고 총리가 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "닛케이",
+              "url": "https://www.nikkei.com/article/DGXZQOUA149U40U6A011C2000000/"
+            }
+          ],
+          "related": {
+            "title": "簗農相辞任で揺らぐ高市政権 「強気の擁護」が裏目に出た2週間と危機管理の死角",
+            "source": "note (宮野宏樹)",
+            "url": "https://note.com/hirokimiyano/n/n9b7918516dac",
+            "type": "반박"
+          },
+          "topics": ["다카이치", "내각", "농림수산", "야당", "국회"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261017-1",
+          "date": "2026.10.17",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "일본, 미국 반도체 공장에 최대 210억 달러 투자…글로벌파운드리스 선정",
+          "summary": "미일 전략적 투자 이니셔티브에 따라 글로벌파운드리스가 뉴욕주 몰타에 2개 공장을 짓고 운영하며, 일본이 최대 210억 달러를 댄다.",
+          "why": "미일 통상 합의에 따른 대미 투자의 구체적 사업이 확정됐기 때문이다.",
+          "soWhat": "첫 공장은 2029년 가동이 목표이고, 2호 공장은 추가 자금이 확정돼야 진행된다.",
+          "context": {
+            "background": "미일은 올해 2월 대미 투자 이니셔티브의 첫 사업들에 합의했다.",
+            "issueContext": "초기 약 100억 달러가 첫 300mm 공장에, 추가 약 100억 달러가 2호 공장에 쓰일 예정이다.",
+            "coreQuestion": "210억 달러 투자는 계획대로 실현될까요, 2호 공장은 미뤄질까요?",
+            "resolution": "착공은 올해 안, 가동은 2029년을 목표로 하고 있다."
+          },
+          "sources": [
+            {
+              "name": "ABC News (AP)",
+              "url": "https://abcnews.com/Business/wireStory/globalfoundries-open-2-new-chip-plants-new-york-137269029"
+            }
+          ],
+          "related": {
+            "title": "GlobalFoundries Aktie: Japan-Deal bringt bis zu 21 Milliarden Dollar für zwei Fabs",
+            "source": "goldesel.de",
+            "url": "https://goldesel.de/aktien/news/globalfoundries-aktie-japan-deal-bringt-bis-zu-21-milliarden-dollar-fur-zwei-fabs",
+            "type": "다름"
+          },
+          "topics": ["반도체", "투자", "미일관계", "공급망"],
+          "review": "pending"
+        },
         {
           "id": "jp-eco-20261014-1",
           "date": "2026.10.14",
