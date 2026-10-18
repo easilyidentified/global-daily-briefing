@@ -113,10 +113,172 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.17",
-      "period": "2026.10.16 08:00 ~ 2026.10.17 08:00",
-      "updatedAt": "2026.10.17 08:00 KST",
+      "latestDate": "2026.10.18",
+      "period": "2026.10.17 08:00 ~ 2026.10.18 08:00",
+      "updatedAt": "2026.10.18 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261018-1",
+          "date": "2026.10.18",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "추미애, 순직 소방관 빈소 찾아 '재정 빨대' 발언 사과…野 \"진정성 없다\"",
+          "summary": "추미애 경기도지사가 17일 부천 화재 순직 소방관 빈소를 찾아 국감에서 나온 '소방 재정 빨대' 발언을 사과했으나, 국민의힘은 사과의 진정성을 문제 삼았다.",
+          "why": "국감에서 나온 표현이 순직 사고와 겹치며 논란이 커졌고, 전날 현장에서 사과 요구에 답하지 않은 점이 비판을 키웠기 때문이다.",
+          "soWhat": "사과 시점과 방식을 둘러싼 여야 공방이 이어지며 경기도 재정 논란이 정치 쟁점으로 남을 수 있다.",
+          "context": {
+            "background": "추 지사는 경기도 국정감사에서 소방 재정과 관련해 '빨대'라는 표현을 썼다.",
+            "issueContext": "부천 공장 화재로 소방관이 순직한 직후여서 발언이 부적절하다는 비판이 나왔고, 여당도 공개 사과를 요청했다.",
+            "coreQuestion": "늦은 사과는 충분한 사과일까요, 책임을 피하는 사과일까요?",
+            "resolution": "추 지사는 빈소에서 유감을 표했지만 야당은 사퇴까지 거론하며 비판을 이어갔다."
+          },
+          "sources": [
+            { "name": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202610171717341294" }
+          ],
+          "related": {
+            "title": "野, 추미애 '소방관 순직 사과' 맹공…\"진정한 사과 아냐, 사퇴하라\"",
+            "source": "아시아경제",
+            "url": "https://view.asiae.co.kr/article/2026101811564849520",
+            "type": "반박"
+          },
+          "topics": ["국정감사", "여야갈등", "재정", "경기", "민주당"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261018-2",
+          "date": "2026.10.18",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "대구 상가 붕괴 당일 대통령 골프 논란…野 \"직무 포기\" vs 與 \"사고 미리 알 수 없었다\"",
+          "summary": "이재명 대통령이 대구 상가 천장 붕괴 사고 당일 태릉CC에 있었다는 사실을 두고 여야가 충돌하고 있다.",
+          "why": "국민의힘은 대형 사고 당일의 휴일 행적이 부적절했다고 보고, 민주당은 사고를 미리 알 수 없었고 보고 후 지시했다고 보기 때문이다.",
+          "soWhat": "국감 후반부 쟁점이 현안 대신 대통령 행적 공방으로 옮겨갈 수 있다.",
+          "context": {
+            "background": "청와대는 대통령이 사고 당일 가족과 골프장에 있었고 보고를 받은 뒤 수습을 지시했다고 밝혔다.",
+            "issueContext": "야당은 사과와 체류 시간·대응 내역 공개를 요구하고 있다.",
+            "coreQuestion": "휴일 골프는 사생활일까요, 위기 대응의 문제일까요?",
+            "resolution": "양측 입장은 평행선이며 사실관계 공개 여부는 정해지지 않았다."
+          },
+          "sources": [
+            { "name": "시사저널", "url": "https://www.sisajournal.com/news/articleView.html?idxno=389712" }
+          ],
+          "related": {
+            "title": "이 대통령 태릉CC 방문 두고 공방…민주당 “사고 미리 알 수 있나”",
+            "source": "위키트리",
+            "url": "https://www.wikitree.co.kr/articles/1165376",
+            "type": "반박"
+          },
+          "topics": ["대통령", "국정감사", "여야갈등", "안전", "청와대"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261018-1",
+          "date": "2026.10.18",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "대미 무역흑자 1000억달러 눈앞…트럼프 '관세 청구서' 부담 커지나",
+          "summary": "올해 1~9월 대미 무역흑자가 847억달러로 지난해 연간 최대치를 넘어 사상 첫 연 1000억달러 돌파가 예상된다.",
+          "why": "미국 내 데이터센터 투자 확대로 반도체와 일반기계 수출이 늘었기 때문이다.",
+          "soWhat": "트럼프 행정부의 알래스카 LNG 투자 압박과 보복관세 명분으로 쓰일 우려가 있다.",
+          "context": {
+            "background": "한국은 3500억달러 대미 투자를 약속하며 관세율을 15%로 낮춘 바 있다.",
+            "issueContext": "한미 팩트시트에는 알래스카 LNG가 '검토 착수' 수준으로 담겼지만 트럼프 대통령은 투자가 확정된 것처럼 거론한다.",
+            "coreQuestion": "알래스카 LNG에 참여해야 할까요, 보복관세 위험을 감수해야 할까요?",
+            "resolution": "정부의 공식 결정은 아직 나오지 않았다."
+          },
+          "sources": [
+            { "name": "아주경제", "url": "https://www.ajunews.com/view/20261018093630273" }
+          ],
+          "related": {
+            "title": "'1000억불 흑자' 부메랑 맞은 韓…트럼프 '알래스카 투자' 청구서에 진퇴양난",
+            "source": "EBN",
+            "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1728211",
+            "type": "유사"
+          },
+          "topics": ["무역흑자", "관세", "한미", "반도체", "트럼프"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261018-2",
+          "date": "2026.10.18",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "금통위 폴: 전문가 10명 전원 \"이달 동결\"…11월부터 두 번 더 올려 3.5% 전망",
+          "summary": "22일 금통위를 앞두고 조사 대상 전문가 10명 전원이 기준금리 연 3.00% 동결을 예상했다.",
+          "why": "7~8월 연속 인상의 효과를 점검하는 시기이고 근원물가 상승률이 낮아졌으며 환율이 1330원대로 내렸기 때문이다.",
+          "soWhat": "관심은 11월과 내년 1분기 추가 인상 여부로 옮겨가며 대출 부담 전망에 영향을 줄 수 있다.",
+          "context": {
+            "background": "한국은행은 지난 7~8월 기준금리를 연속 인상했다.",
+            "issueContext": "9월 소비자물가 상승률이 3%에 근접하고 반도체 수출 호조로 경기 회복세가 이어져 추가 인상 가능성이 열려 있다.",
+            "coreQuestion": "한국은행은 11월에 금리를 다시 올릴까요, 동결을 이어갈까요?",
+            "resolution": "결정은 22일 금통위에서 나온다."
+          },
+          "sources": [
+            { "name": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202610180605279651" }
+          ],
+          "related": {
+            "title": "반도체 호황에 2년 만에 최저 환율…AI 불안이 원화 강세 막나[주간외환전망]",
+            "source": "이데일리",
+            "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01115206645614232",
+            "type": "다름"
+          },
+          "topics": ["금리", "한국은행", "환율", "물가", "통화정책"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261018-1",
+          "date": "2026.10.18",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "부천 공장 화재로 김진석 소방위 순직…유족·노조 \"투입 판단 적정했나\"",
+          "summary": "16일 부천 오정구 공장 화재에서 선착대로 투입된 김진석 소방위가 17일 숨졌고 경찰은 33명 전담팀을 꾸려 원인을 조사 중이다.",
+          "why": "퇴근 직전 대응 2단계가 발령돼 가장 먼저 현장에 도착했고, 유족과 노조는 내부에 구조 대상자가 없었는데 투입됐다고 문제를 제기한다.",
+          "soWhat": "현장 투입 기준과 공장 안전 관리 실태에 대한 제도 논의로 이어질 수 있다.",
+          "context": {
+            "background": "화재는 16일 오전 부천시 오정구의 5층 공장 3층에서 시작됐고 총 8명의 인명피해가 났다.",
+            "issueContext": "화재 원인은 확정되지 않았고 위험물 허가와 스프링클러 미설치 의혹이 제기됐다.",
+            "coreQuestion": "소방관 투입 판단은 적절했을까요, 무리했을까요?",
+            "resolution": "경찰과 소방당국이 합동 감식을 진행 중이며 소방청은 1계급 특별승진을 결정했다."
+          },
+          "sources": [
+            { "name": "한국일보", "url": "https://www.hankookilbo.com/news/article/A2026101714430004637" }
+          ],
+          "related": {
+            "title": "[사설] '부천 소방관 순직' 화재 현장 잇단 참사",
+            "source": "중도일보",
+            "url": "https://www.joongdo.co.kr/web/view.php?key=20261018010004714",
+            "type": "다름"
+          },
+          "topics": ["화재", "소방", "안전", "경찰", "재난"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261018-2",
+          "date": "2026.10.18",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "38명 다친 대구 상가 천장 붕괴…정기 안전점검 대상도 아니었다",
+          "summary": "대구 북구 상가 2층 행사장에서 천장 마감재가 무너져 38명이 다쳤고, 연면적 892㎡의 건물은 정기 안전점검 의무 대상이 아니었다.",
+          "why": "소규모 노후 건축물이 법정 점검 사각지대에 있었기 때문이다.",
+          "soWhat": "소규모 노후 건물 점검 기준 확대 논의가 커질 수 있다.",
+          "context": {
+            "background": "사고는 10일 노인 대상 생활용품 판매 행사 중 발생했고 66명이 대피했다.",
+            "issueContext": "천장 보수공사와 LED 조명 설치 등 하중 문제가 원인 후보로 거론되며 경찰이 시공·관리 과실을 조사 중이다.",
+            "coreQuestion": "법정 점검 대상이 아닌 건물의 안전은 누가 책임져야 할까요?",
+            "resolution": "원인은 확정되지 않았고 대구시는 30년 이상 노후 건축물 1743곳을 긴급 점검하기로 했다."
+          },
+          "sources": [
+            { "name": "ㅍㅍㅅㅅ", "url": "https://www.ppss.kr/news/articleView.html?idxno=314866" }
+          ],
+          "related": {
+            "title": "'천장붕괴' 화들짝…대구시, 노후건축물 1743곳 안전점검",
+            "source": "네이트 뉴스",
+            "url": "https://m.news.nate.com/view/20261012n21048",
+            "type": "다름"
+          },
+          "topics": ["안전", "건설", "지자체", "경찰", "재난"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261017-1",
           "date": "2026.10.17",
@@ -11066,10 +11228,118 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.17",
-      "period": "2026.10.16 08:00 ~ 2026.10.17 08:00",
-      "updatedAt": "2026.10.17 08:00 KST",
+      "latestDate": "2026.10.18",
+      "period": "2026.10.17 08:00 ~ 2026.10.18 08:00",
+      "updatedAt": "2026.10.18 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261018-1",
+          "date": "2026.10.18",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 켄터키 유세서 \"이란 전쟁 곧 끝난다\"…공화당 투표 독려",
+          "summary": "트럼프 대통령이 17일 켄터키 유세에서 중간선거를 자신에 대한 평가로 규정하며 공화당 투표를 독려하고 이란 전쟁이 곧 끝날 것이라고 말했다.",
+          "why": "11월 3일 중간선거를 앞두고 지지층 결집이 필요하고 전쟁과 물가가 부담이기 때문이다.",
+          "soWhat": "선거 전 이란 공격은 없다는 기조가 이어질 경우 협상 성과가 선거 쟁점이 될 수 있다.",
+          "context": {
+            "background": "미국과 이란의 충돌은 8개월 가까이 이어지고 있다.",
+            "issueContext": "관세와 전쟁으로 물가가 오르며 대통령에 대한 평가가 엇갈린다.",
+            "coreQuestion": "이란 전쟁은 말처럼 곧 끝날까요, 길어질까요?",
+            "resolution": "트럼프는 선거 전 공격은 없다며 이란과 협의 중이라고 밝혔다."
+          },
+          "sources": [
+            { "name": "Newsmax", "url": "https://www.newsmax.com/politics/donald-trump-midterm-elections-kentucky-rally/2026/10/17/id/1273133/" }
+          ],
+          "related": {
+            "title": "Live updates: Donald Trump heads to Baltimore; California officials fume over Iran remark",
+            "source": "The Hill",
+            "url": "https://thehill.com/homenews/administration/6130914-live-updates-donald-trump-iran-war-midterm-elections-healthcare/",
+            "type": "다름"
+          },
+          "topics": ["트럼프", "중간선거", "이란", "유세", "공화당"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261018-1",
+          "date": "2026.10.18",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "뉴욕증시 하락 마감…나스닥 2.1% 급락, 주간 기준 6월 이후 최악",
+          "summary": "16일 S&P500은 1.1%, 나스닥은 2.1% 하락했고 다우는 0.3% 내렸다.",
+          "why": "AI 관련주가 매도세를 주도했고 CoreWeave가 12% 급락하며 메타·마이크론·인텔도 약세였기 때문이다.",
+          "soWhat": "AI 투자 거품 우려가 이어지면 다음 주에도 기술주 변동성이 커질 수 있다.",
+          "context": {
+            "background": "9월 CPI가 예상을 웃돌며 금리 인상 우려가 커진 상태였다.",
+            "issueContext": "나스닥은 한 주간 4.5% 떨어졌고 S&P500과 나스닥 모두 6월 이후 최악의 주간 성적을 냈다.",
+            "coreQuestion": "이번 하락은 AI 거품 붕괴의 신호일까요, 일시적 조정일까요?",
+            "resolution": "다우는 주간 기준 0.7% 올라 지수별로 엇갈렸다."
+          },
+          "sources": [
+            { "name": "ABC News", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951" }
+          ],
+          "related": {
+            "title": "Markets News, Oct. 16, 2026: Nasdaq, S&P 500 End Lower, Post Weekly Losses; AI Stocks Fall; Dow Logs Weekly Gain",
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-16-2026-103800633.html",
+            "type": "유사"
+          },
+          "topics": ["나스닥", "AI", "급락", "버블", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261018-2",
+          "date": "2026.10.18",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "CoreWeave 채권 수익률 15% 급등…AI 부채 거품 우려 확산",
+          "summary": "CoreWeave 2032년물 채권 수익률이 약 15%까지 오르며 주가가 급락했고 투자자들이 풋옵션에 몰렸다.",
+          "why": "약 520억달러에 이르는 부채와 이자 비용 부담이 부각됐기 때문이다.",
+          "soWhat": "AI 인프라 기업의 자금 조달 비용 상승이 업종 전반의 투자 심리를 압박할 수 있다.",
+          "context": {
+            "background": "CoreWeave는 칩을 담보로 한 차입으로 데이터센터를 확장해 왔다.",
+            "issueContext": "14일 주가가 약 15.5% 떨어졌고 16일에도 12% 하락했다.",
+            "coreQuestion": "AI 인프라 투자 열기는 부채 위기로 이어질까요?",
+            "resolution": "공동 창업자는 칩 담보 차입을 옹호했지만 시장의 불안은 가시지 않았다."
+          },
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/14/coreweave-put-options-ai-trade.html" }
+          ],
+          "related": {
+            "title": "CoreWeave Stock Forms H&S Pattern as Key Bond Yield Hits 15% Amid Insider Selling",
+            "source": "Benzinga",
+            "url": "https://www.benzinga.com/markets/equities/26/10/62428511/coreweave-stock-forms-hs-pattern-as-key-bond-yield-hits-15-amid-insider-selling",
+            "type": "다름"
+          },
+          "topics": ["AI", "버블", "데이터센터", "채권", "급락"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261018-1",
+          "date": "2026.10.18",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "남부 캘리포니아 산불 확산…노르테 화재로 1만6천명 대피령",
+          "summary": "산타아나 강풍을 타고 남부 캘리포니아에서 산불이 번져 오렌지카운티 노르테 화재만으로 약 1만6천명이 대피 구역에 들었다.",
+          "why": "산타아나 강풍이 16일 절정에 이르면서 건조한 지역에서 불이 빠르게 번졌기 때문이다.",
+          "soWhat": "주택 피해 집계가 늘고 열대성 폭풍 피해 복구와 겹쳐 주정부 대응 부담이 커질 수 있다.",
+          "context": {
+            "background": "캘리포니아는 열대성 폭풍 레이철로 4개 카운티에 비상사태가 선포된 상태였다.",
+            "issueContext": "브라이슨 화재와 헨더슨 화재도 동시에 번졌고 노르테 화재로 최소 7채가 피해를 입었다.",
+            "coreQuestion": "강풍 속 산불에서 대피 체계는 충분했을까요?",
+            "resolution": "당국이 진화와 피해 조사를 이어가고 있으며 주지사는 주 차원의 대응 체계를 가동했다."
+          },
+          "sources": [
+            { "name": "ABC News", "url": "https://abcnews.com/US/norte-fire-evacuation-orders-issued-wildfire-burns-orange-county-california/story?id=137332229" }
+          ],
+          "related": {
+            "title": "Governor Newsom activates statewide response amid dangerous fire weather, signs actions to speed Tropical Storm Rachel recovery and wildfire cleanup",
+            "source": "California Governor's Office",
+            "url": "https://www.gov.ca.gov/2026/10/15/governor-newsom-activates-statewide-response-amid-dangerous-fire-weather-signs-actions-to-speed-tropical-storm-rachel-recovery-and-wildfire-cleanup/",
+            "type": "다름"
+          },
+          "topics": ["산불", "캘리포니아", "대피", "기상", "재난"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261017-1",
           "date": "2026.10.17",
@@ -21861,10 +22131,91 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.17",
-      "period": "2026.10.16 08:00 ~ 2026.10.17 08:00",
-      "updatedAt": "2026.10.17 08:00 KST",
+      "latestDate": "2026.10.18",
+      "period": "2026.10.17 08:00 ~ 2026.10.18 08:00",
+      "updatedAt": "2026.10.18 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261018-1",
+          "date": "2026.10.18",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "시진핑, 네이멍구 울란차푸 시찰…\"생태 우선 녹색 발전\"·컴퓨팅망 강조",
+          "summary": "시진핑 주석이 16일 울란차푸에서 황치하이 자연보호구와 차하얼 하이테크 개발구를 시찰하며 고품질 발전과 고수준 보호의 병행을 강조했다.",
+          "why": "생태 복원 성과를 내세우는 동시에 '동수서산' 컴퓨팅 허브와 녹색 컴퓨팅 산업을 국가 전략으로 밀기 위해서다.",
+          "soWhat": "컴퓨팅망 건설이 일정대로 추진되도록 전력·수자원 연계 정책이 강화될 수 있다.",
+          "context": {
+            "background": "컴퓨팅망은 국가가 계획한 '6대 망' 중 하나다.",
+            "issueContext": "시 주석은 기존 프로젝트의 효율적 운영과 후속 프로젝트의 기한 내 완공을 주문했다.",
+            "coreQuestion": "녹색 컴퓨팅 확대는 생태 보호와 양립할 수 있을까요?",
+            "resolution": "관영 매체는 시찰을 생태 보호에서 녹색 컴퓨팅으로 이어지는 방향 제시로 소개했다."
+          },
+          "sources": [
+            { "name": "신화망", "url": "https://www.news.cn/20261016/39f56b2d49da4be0a813897c39a8f5b7/c.html" }
+          ],
+          "related": {
+            "title": "“苍凉草原”变“智算热土”的启示（人民论坛）",
+            "source": "인민망",
+            "url": "http://opinion.people.com.cn/n1/2026/1018/c461529-40816651.html",
+            "type": "유사"
+          },
+          "topics": ["시진핑", "컴퓨팅파워", "환경", "데이터센터", "산업정책"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261018-1",
+          "date": "2026.10.18",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 \"미중 합의 연장과 무관하게 유럽에 희토류 허가 계속\"",
+          "summary": "중국 상무부는 15일 미국과의 무역 합의 연장 여부와 관계없이 유럽에 대한 희토류 수출 허가를 계속하겠다고 밝혔다.",
+          "why": "유럽과의 관계를 관리하면서 이중용도 품목 허가 완화를 상호적으로 얻으려는 계산이 깔려 있다.",
+          "soWhat": "미중 휴전 시한인 1월 10일 이후에도 유럽 공급망의 희토류 불확실성이 일부 줄 수 있다.",
+          "context": {
+            "background": "미중은 지난해 10월 희토류 수출 통제를 1년간 유예했고 최근 두 달 연장했다.",
+            "issueContext": "9월 희토류 수출은 전년 대비 6.7% 늘었지만 1~9월 누적은 9.6% 줄었다.",
+            "coreQuestion": "중국의 희토류 허가는 무조건적인 약속일까요, 조건부 거래일까요?",
+            "resolution": "중국은 유럽이 이중용도 허가를 완화해 주기를 기대한다고 밝혔다."
+          },
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html" }
+          ],
+          "related": {
+            "title": "China Just Put a Price on Europe's Rare Earth Channel",
+            "source": "Substack(William David)",
+            "url": "https://williamdavid.substack.com/p/china-just-put-a-price-on-europes",
+            "type": "다름"
+          },
+          "topics": ["희토류", "미중", "유럽연합", "수출", "무역"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261018-1",
+          "date": "2026.10.18",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "중국 최초 100만톤급 저농도 CCUS 전 과정 시범 사업 승리유전서 착공",
+          "summary": "중국 첫 100만톤급 저농도 CCUS 시범 사업이 16일 산둥 둥잉의 승리유전에서 착공했고 2028년 말 가동을 목표로 한다.",
+          "why": "석탄화력 배기가스의 낮은 이산화탄소 농도라는 기술적 난제를 풀어 감축 수단을 넓히려는 것이다.",
+          "soWhat": "포집한 이산화탄소를 유전 증산과 저장에 쓰는 모델이 다른 사업으로 확산될 수 있다.",
+          "context": {
+            "background": "앞선 치루석화-승리유전 CCUS는 고농도 배기가스를 포집해 2022년 8월 가동됐다.",
+            "issueContext": "이번 사업은 농도 12~15%의 연소 배기가스를 대상으로 하고 풍력·저장 연계 녹색 전력을 직접 공급한다.",
+            "coreQuestion": "저농도 CCUS는 경제성을 확보할 수 있을까요?",
+            "resolution": "포집률 90% 이상이 목표이며 보도된 세부 수치는 매체별로 일부만 공개됐다."
+          },
+          "sources": [
+            { "name": "중국신문망", "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715865.shtml" }
+          ],
+          "related": {
+            "title": "我国首个百万吨级低浓度CCUS全链条示范工程开工",
+            "source": "21경제망",
+            "url": "https://www.21jingji.com/article/20261016/herald/c9820b593c84630024d7573c424b696b.html",
+            "type": "다름"
+          },
+          "topics": ["탄소", "석탄", "재생에너지", "기후", "에너지"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261017-1",
           "date": "2026.10.17",
@@ -32314,10 +32665,145 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.17",
-      "period": "2026.10.16 08:00 ~ 2026.10.17 08:00",
-      "updatedAt": "2026.10.17 08:00 KST",
+      "latestDate": "2026.10.18",
+      "period": "2026.10.17 08:00 ~ 2026.10.18 08:00",
+      "updatedAt": "2026.10.18 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261018-1",
+          "date": "2026.10.18",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리, 야스쿠니에 마사카키 봉납…추계 예대제 참배는 보류",
+          "summary": "다카이치 총리가 17일 야스쿠니 추계 예대제 첫날 마사카키를 봉납했고 기간 중 참배는 보류할 전망이며, 각료로는 기우치 미노루 담당상이 참배했다.",
+          "why": "참배 대신 공물로 한일·중일 관계의 파장을 줄이면서 지지층의 기대를 챙기려는 판단으로 보인다.",
+          "soWhat": "한국 외교부가 유감을 표명한 만큼 한일 관계 관리에 부담이 남는다.",
+          "context": {
+            "background": "총리는 예대제마다 참배 여부를 두고 주목을 받아 왔다.",
+            "issueContext": "한국 외교부는 봉납과 각료 참배에 대해 깊은 실망과 유감을 표명했다.",
+            "coreQuestion": "공물 봉납은 참배의 대안일까요, 또 다른 도발일까요?",
+            "resolution": "예대제는 19일까지이며 총리의 참배 여부는 기간 종료 때 확정된다."
+          },
+          "sources": [
+            { "name": "시사통신", "url": "https://www.jiji.com/jc/article?k=2026101700164&g=pol" }
+          ],
+          "related": {
+            "title": "高市早苗首相が靖国神社に供物を奉納 韓国外務省「深い失望と遺憾」",
+            "source": "라이브도어뉴스",
+            "url": "https://news.livedoor.com/topics/detail/32591058/",
+            "type": "다름"
+          },
+          "topics": ["야스쿠니", "다카이치", "한일관계", "외교", "역사"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261018-1",
+          "date": "2026.10.18",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 7거래일 만에 반등…AI·반도체주 매수 복귀",
+          "summary": "16일 닛케이평균은 898엔 오른 6만5324엔으로 마감해 7거래일 만에 반등했다.",
+          "why": "전날 3318엔 급락한 데 따른 반발 매수와 미국 증시 회복, 장기금리 하락이 겹쳤기 때문이다.",
+          "soWhat": "AI 투자 우려가 남아 있어 반등이 이어질지는 불확실하다.",
+          "context": {
+            "background": "15일 닛케이평균은 6일 연속 하락하며 6만4425엔까지 밀렸다.",
+            "issueContext": "도쿄일렉트론 등 반도체주가 지수를 끌어올렸지만 상승폭은 장중 1200엔 이상에서 줄었다.",
+            "coreQuestion": "이번 반등은 바닥 신호일까요, 기술적 반발일까요?",
+            "resolution": "상승폭이 전날 하락폭의 3할 정도에 그쳐 힘이 약하다는 평가가 나온다."
+          },
+          "sources": [
+            { "name": "가부탄", "url": "https://kabutan.jp/news/marketnews/?b=n202610160962" }
+          ],
+          "related": {
+            "title": "日経平均は反発、買い戻し広がり65000円台を回復／ランチタイムコメント",
+            "source": "財経新聞",
+            "url": "https://www.zaikei.co.jp/article/20261016/873765.html",
+            "type": "유사"
+          },
+          "topics": ["닛케이평균", "반도체", "AI", "증시", "반등"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261018-2",
+          "date": "2026.10.18",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "달러/엔 158엔대 지지부진…미 금리 하락·유가 110달러·나스닥 급락",
+          "summary": "17일 도쿄 시장 기준 달러/엔은 158엔대 초반에서 정체됐고 미국 장기금리 하락이 엔화를 떠받쳤다.",
+          "why": "미국 금리 인상 관측이 후퇴한 반면 유가 상승이 부담으로 작용했기 때문이다.",
+          "soWhat": "당국의 개입 경계 속에 엔 매도가 한쪽으로 쏠리기 어려운 구간이 이어진다.",
+          "context": {
+            "background": "미국 CPI와 PPI가 모두 강하게 나와 인플레이션 경계가 다시 커졌다.",
+            "issueContext": "원유가 110달러 부근까지 올랐고 우에다 총재는 물가 상승이 이어지면 추가 인상 가능성을 시사했다.",
+            "coreQuestion": "엔화는 158엔대에서 벗어날 수 있을까요?",
+            "resolution": "다음 주 시장은 미국 금리와 유가 흐름에 좌우될 전망이다."
+          },
+          "sources": [
+            { "name": "외환닷컴", "url": "https://www.gaitame.com/media/entry/2026/10/17/070200" }
+          ],
+          "related": {
+            "title": "為替相場　　１７日（日本時間　３時）",
+            "source": "중일신문",
+            "url": "https://www.chunichi.co.jp/article/1326346",
+            "type": "유사"
+          },
+          "topics": ["엔화", "환율", "금리", "유가", "일본은행"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261018-1",
+          "date": "2026.10.18",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "화성 위성 탐사선 MMX, 20일 H3 로켓으로 발사",
+          "summary": "JAXA의 화성 위성 탐사선 MMX가 20일 오전 4시 41분 다네가시마에서 H3 10호기로 발사될 예정이다.",
+          "why": "당초 2024년도 계획이었으나 H3 시험기 1호기 실패 영향으로 2026년도로 미뤄졌다.",
+          "soWhat": "성공하면 2027년 화성 궤도에 진입하고 2031년 포보스 시료를 가지고 귀환해 세계 최초의 화성 위성 시료 회수가 된다.",
+          "context": {
+            "background": "JAXA는 8월 발사일을 20일로 발표했고 예비 기간은 10월 21일~11월 7일이다.",
+            "issueContext": "H3는 메인엔진 2기와 고체 부스터 4기의 24형태로 가장 큰 발사 능력을 가진 구성이다.",
+            "coreQuestion": "MMX는 세계 최초의 화성 위성 시료 회수에 성공할까요?",
+            "resolution": "18일 기준 각 보도는 20일 발사 일정을 그대로 전하고 있다."
+          },
+          "sources": [
+            { "name": "NHK", "url": "https://news.web.nhk/newsweb/na/nd-20261017de61034" }
+          ],
+          "related": {
+            "title": "JAXA、火星衛星探査機「MMX」を10月20日打ち上げ 帰還すれば世界初の試料回収に",
+            "source": "ITmedia NEWS",
+            "url": "https://www.itmedia.co.jp/news/article/2608/20/2000000661/",
+            "type": "유사"
+          },
+          "topics": ["우주", "발사", "JAXA", "로켓", "우주탐사"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261018-2",
+          "date": "2026.10.18",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "기상청, 긴급지진속보 첫 취소…캄차카 M6.9를 M9.9로 과대 예측",
+          "summary": "기상청이 16일 캄차카 반도 부근 M6.9 지진을 M9.9로 잘못 예측해 긴급지진속보를 냈다가 약 8분 만에 취소했고, 실제 최대 진도는 1이었다.",
+          "why": "계산에 쓰지 않아야 할 관측점 데이터가 사용됐기 때문이며 근본 원인은 조사 중이다.",
+          "soWhat": "긴급지진속보의 신뢰와 재발 방지 대책이 도마에 오를 수 있다.",
+          "context": {
+            "background": "취소보가 나온 것은 2007년 운용 개시 이후 처음이다.",
+            "issueContext": "기상청은 사이버 공격 가능성을 부인했고 당일 밤 긴급 대책을 마련했다고 설명했다.",
+            "coreQuestion": "오보의 원인은 시스템 결함일까요, 운용상 실수일까요?",
+            "resolution": "기상청은 원인을 계속 조사 중이다."
+          },
+          "sources": [
+            { "name": "웨더뉴스", "url": "https://weathernews.jp/news/202610/160171/" }
+          ],
+          "related": {
+            "title": "気象庁 M6.9をM9.9と過大に予測",
+            "source": "Yahoo!ニュース",
+            "url": "https://news.yahoo.co.jp/pickup/6598983",
+            "type": "다름"
+          },
+          "topics": ["지진", "기상청", "경보", "시스템오류", "방재"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261017-1",
           "date": "2026.10.17",
