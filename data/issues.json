@@ -113,10 +113,70 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.18",
-      "period": "2026.10.17 08:00 ~ 2026.10.18 08:00",
-      "updatedAt": "2026.10.18 08:00 KST",
+      "latestDate": "2026.10.21",
+      "period": "2026.10.20 08:00 ~ 2026.10.21 08:00",
+      "updatedAt": "2026.10.21 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261021-1",
+          "date": "2026.10.21",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "李대통령 재판 중단 놓고 여야 충돌…헌법 84조 해석 공방",
+          "summary": "이재명 대통령의 형사재판 중단을 두고 여야가 헌법 84조 해석으로 정면충돌했다. 여당은 헌법상 소추 금지에 재판 진행도 포함된다고, 국민의힘은 형사소송법 근거 없는 편법이라고 맞섰다.",
+          "why": "법사위 국정감사에서 재판 중단의 근거와 적정성이 쟁점으로 떠올랐기 때문이다.",
+          "soWhat": "법사위 국감이 이어지는 동안 대통령 재판 중단의 정당성 공방이 계속될 가능성이 크다.",
+          "context": {
+            "background": "대통령의 형사재판이 중단된 상태에서 헌법 84조 해석이 정치 쟁점이 되어 왔다.",
+            "issueContext": "재판 중단이 헌법에 근거한 정당한 판단인지, 법적 근거 없는 편법인지가 다투어지고 있다.",
+            "coreQuestion": "헌법 84조의 불소추특권은 진행 중인 재판까지 멈추게 하는 것일까요, 아니면 재판은 계속되어야 하는 것일까요?",
+            "resolution": "서울고법원장은 재판 중단이 헌법 84조에 근거한 개별 재판부의 판단이라는 입장을 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "경기일보",
+              "url": "https://www.kyeonggi.com/article/20261016580303"
+            }
+          ],
+          "related": {
+            "title": "[추승호의 이슈in] 헌법에도 법률에도 없는 '재판 정지'...대통령은 법정에 서라",
+            "source": "펜앤마이크",
+            "url": "https://www.pennmike.com/news/articleView.html?idxno=129644",
+            "type": "반박"
+          },
+          "topics": ["대통령", "헌법", "재판", "불소추특권", "국정감사", "국민의힘"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261021-1",
+          "date": "2026.10.21",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피, 외국인·기관 매도에 3.73% 하락…5552.74 마감",
+          "summary": "코스피가 외국인과 기관의 동반 매도로 3.73% 급락한 5552.74에 마감했다. 삼성전자와 SK하이닉스 약세가 지수를 크게 끌어내렸다.",
+          "why": "AI 투자 수익성 우려와 미 국채금리 상승으로 위험회피 심리가 커졌기 때문이다.",
+          "soWhat": "AI·반도체 쏠림이 큰 국내 증시의 변동성이 당분간 이어질 수 있다.",
+          "context": {
+            "background": "코스피는 이달 들어 AI 관련주 매도로 큰 폭 하락을 여러 차례 겪었다.",
+            "issueContext": "외국인이 약 5천억 원, 기관이 약 1조 원을 순매도했고 개인이 9천억 원가량 사들였다.",
+            "coreQuestion": "이번 급락은 일시적 조정일까요, AI 쏠림 장세의 구조적 균열일까요?",
+            "resolution": "코스닥도 3.33% 하락한 781.97로 마감했다."
+          },
+          "sources": [
+            {
+              "name": "머니투데이",
+              "url": "https://www.mt.co.kr/stock/2026/10/20/2026102015384373141"
+            }
+          ],
+          "related": {
+            "title": "[마감시황] 코스피, 외인·기관 쌍끌이 투매에 3.7% 급락한 5,552선 마감",
+            "source": "Businesskorea",
+            "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=279245",
+            "type": "유사"
+          },
+          "topics": ["코스피", "외국인", "삼성전자", "SK하이닉스", "AI", "급락"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261018-1",
           "date": "2026.10.18",
@@ -11228,10 +11288,70 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.18",
-      "period": "2026.10.17 08:00 ~ 2026.10.18 08:00",
-      "updatedAt": "2026.10.18 08:00 KST",
+      "latestDate": "2026.10.21",
+      "period": "2026.10.20 08:00 ~ 2026.10.21 08:00",
+      "updatedAt": "2026.10.21 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261021-1",
+          "date": "2026.10.21",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "로이터 \"이란, 중간선거 앞 트럼프 약화 노려 협상 일부러 끈다\"",
+          "summary": "이란 고위 당국자들이 로이터에 미국과의 협상을 11월 3일 중간선거 전까지 일부러 끌고 있다고 밝혔다. 이란은 조만간 폭격이 재개될 것으로 예상한다고 전했다.",
+          "why": "휘발유값 부담과 전쟁으로 트럼프 지지율이 낮아진 상황을 이란이 정치적으로 활용하려 하기 때문이다.",
+          "soWhat": "협상 교착이 길어지면 선거 이후 군사 행동 재개 가능성이 커질 수 있다.",
+          "context": {
+            "background": "미국과 이란의 전쟁은 8개월째 이어지고 있고 호르무즈해협 봉쇄가 핵심 현안이다.",
+            "issueContext": "미국은 핵 프로그램을 처음부터 의제로 올리려 하고, 이란은 봉쇄 해제와 동결자산 반환 등을 먼저 요구한다.",
+            "coreQuestion": "이란의 지연 전략은 트럼프를 압박하는 카드일까요, 전쟁 재개를 부르는 오판일까요?",
+            "resolution": "트럼프는 앞서 선거 전에는 이란을 공격하지 않겠다고 밝힌 바 있다."
+          },
+          "sources": [
+            {
+              "name": "Detroit News (Reuters)",
+              "url": "https://www.detroitnews.com/story/news/world/2026/10/20/iran-prolongs-talks-stalemate-influence-us-midterms-officials-say/92342771007/"
+            }
+          ],
+          "related": {
+            "title": "Trump says US will not strike Iran before midterm elections",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/9/trump-says-us-will-not-strike-iran-before-midterm-elections",
+            "type": "다름"
+          },
+          "topics": ["이란", "트럼프", "중간선거", "전쟁", "호르무즈해협", "협상"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261021-1",
+          "date": "2026.10.21",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "다우 530포인트 급등·나스닥 보합…3M 실적에 블루칩 반등",
+          "summary": "20일 뉴욕증시에서 다우지수가 약 530포인트(1.02%) 올라 52,495.88에 마감했다. S&P500은 0.28% 상승했고 나스닥은 보합권에서 소폭 내렸다.",
+          "why": "3M이 예상보다 좋은 실적과 연간 전망 상향을 내놓고 유가가 내렸기 때문이다.",
+          "soWhat": "AI 대형주 부진 속에 실적 중심 종목으로 매기가 옮겨가는 흐름이 이어질 수 있다.",
+          "context": {
+            "background": "전주에는 기술주 매도로 시장이 크게 흔들렸다.",
+            "issueContext": "대형 기술주는 약세를 보였고 AI 관련주는 장중 낙폭을 일부 만회했다.",
+            "coreQuestion": "블루칩 반등은 시장 안정의 신호일까요, 기술주 약세 속 일시적 순환매일까요?",
+            "resolution": "19일에는 나스닥이 1.11% 올랐고 다우는 0.07% 내렸다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
+            }
+          ],
+          "related": {
+            "title": "Stock Market Midday, Oct. 20: Blue Chips Rally, Eli Lilly Gains 5%",
+            "source": "Motley Fool",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/10/20/stock-market-midday-oct-20-blue-chips-rally-eli-lilly-gains-5/",
+            "type": "유사"
+          },
+          "topics": ["증시", "다우", "나스닥", "유가", "AI", "실적"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261018-1",
           "date": "2026.10.18",
@@ -22131,10 +22251,40 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.18",
-      "period": "2026.10.17 08:00 ~ 2026.10.18 08:00",
-      "updatedAt": "2026.10.18 08:00 KST",
+      "latestDate": "2026.10.21",
+      "period": "2026.10.20 08:00 ~ 2026.10.21 08:00",
+      "updatedAt": "2026.10.21 08:00 KST",
       "issues": [
+        {
+          "id": "cn-eco-20261021-1",
+          "date": "2026.10.21",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 3분기 GDP 4.5% 성장…전망 웃돌았지만 내수 부진 우려",
+          "summary": "중국 국가통계국은 3분기 GDP가 전년 대비 4.5% 성장했다고 발표했다. 1~3분기 누계는 4.6%로 연간 목표 범위 안이다.",
+          "why": "수출 호조가 성장을 떠받쳤기 때문이다.",
+          "soWhat": "내수와 투자 부진이 이어지면 추가 부양 요구가 커질 수 있다.",
+          "context": {
+            "background": "2분기 성장률은 4.3%였다.",
+            "issueContext": "외신은 수출이 성장을 이끌고 소매판매와 고정자산투자는 약하다고 지적한다.",
+            "coreQuestion": "수출 의존 성장은 지속 가능할까요, 내수 약세가 발목을 잡을까요?",
+            "resolution": "통계국은 4.6% 성장이 연간 목표에 부합한다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "국가통계국",
+              "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html"
+            }
+          ],
+          "related": {
+            "title": "China's third quarter GDP beats forecasts, though worries abound",
+            "source": "Semafor",
+            "url": "https://www.semafor.com/article/10/19/2026/chinas-powerful-export-machine-propelled-gdp-growth-beyond-expectations",
+            "type": "반박"
+          },
+          "topics": ["GDP", "성장률", "수출", "내수", "부동산"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261018-1",
           "date": "2026.10.18",
@@ -32665,10 +32815,100 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.18",
-      "period": "2026.10.17 08:00 ~ 2026.10.18 08:00",
-      "updatedAt": "2026.10.18 08:00 KST",
+      "latestDate": "2026.10.21",
+      "period": "2026.10.20 08:00 ~ 2026.10.21 08:00",
+      "updatedAt": "2026.10.21 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261021-1",
+          "date": "2026.10.21",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "소비세 감세 법안 중의원 심의 시작…다카이치, 재원·급부 구체안 안 밝혀",
+          "summary": "식품 소비세 감세 관련 법안이 중의원에서 심의에 들어갔다. 다카이치 총리는 재원 규모와 새 급부 설계를 구체적으로 밝히지 않았다.",
+          "why": "감세와 소득 연동 급부를 묶은 법안의 재원 공백이 야당의 추궁 대상이 되었기 때문이다.",
+          "soWhat": "참의원에서 여당이 소수여서 법안 통과 전망이 불투명하다.",
+          "context": {
+            "background": "다카이치 정권은 식품 소비세 감세를 추진해 왔다.",
+            "issueContext": "재원과 급부 설계가 불명확하고 지자체 사무 부담도 쟁점이다.",
+            "coreQuestion": "재원이 불명확한 감세 법안은 참의원 문턱을 넘을 수 있을까요?",
+            "resolution": "총리는 지방 6단체 협의에서 지자체 부담을 최소화하겠다고 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "时事通信 (Yahoo!ニュース)",
+              "url": "https://news.yahoo.co.jp/articles/01b70c2d08fe44fdc21699f601be782a7ba09cad"
+            }
+          ],
+          "related": {
+            "title": "高市首相“自治体の負担最小化に取り組む”消費税減税法案で",
+            "source": "NHK",
+            "url": "https://news.web.nhk/newsweb/na/nd-20261020de62451",
+            "type": "유사"
+          },
+          "topics": ["소비세", "감세", "다카이치", "참의원", "재원"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261021-2",
+          "date": "2026.10.21",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 \"핵 반입 불허, 일시 기항도 포함\"…비핵3원칙 해석 답변",
+          "summary": "다카이치 총리는 19일 참의원 예산위에서 핵무기의 일본 반입은 허용하지 않으며 일시 기항과 영해 통과도 포함된다고 답했다.",
+          "why": "비핵3원칙 중 '반입 금지'의 현행 정부 해석을 야당이 따져 물었기 때문이다.",
+          "soWhat": "안보 3문서 개정 논의에서 비핵3원칙 재검토가 계속 쟁점이 될 전망이다.",
+          "context": {
+            "background": "총리는 비핵3원칙을 정책 방침으로 견지한다면서도 장래 방침은 명확히 하지 않아 왔다.",
+            "issueContext": "중국은 앞서 총리 발언을 비판하며 일본의 핵보유 야심이 드러났다고 주장했다.",
+            "coreQuestion": "이번 답변은 비핵3원칙 재검토 논란을 가라앉힐까요, 키울까요?",
+            "resolution": "총리는 현행 해석을 확인했으나 야당은 파장을 계속 문제 삼고 있다."
+          },
+          "sources": [
+            {
+              "name": "时事通信",
+              "url": "https://www.jiji.com/jc/article?k=2026101900777&g=pol&m=rss"
+            }
+          ],
+          "related": {
+            "title": "中国、高市首相の非核三原則巡る発言批判 「核保有の野心露呈」",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOGM167XI0W6A011C2000000/",
+            "type": "다름"
+          },
+          "topics": ["다카이치", "핵억지", "안보", "참의원", "중일관계"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261021-1",
+          "date": "2026.10.21",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 841엔 하락…AI·반도체주 매도",
+          "summary": "20일 닛케이평균은 전일 대비 841.28엔(1.30%) 내린 64,075.42에 마감했다. 소프트뱅크그룹 등 AI 관련주 매도가 두드러졌다.",
+          "why": "인플레이션 경계감과 AI 투자 수익성 우려가 겹쳤기 때문이다.",
+          "soWhat": "AI·반도체 의존도가 높은 일본 증시의 변동성이 이어질 수 있다.",
+          "context": {
+            "background": "닛케이평균은 이틀 연속 하락했다.",
+            "issueContext": "장중 하락폭이 한때 1,100엔을 넘었고 TOPIX는 4,009.21, 그로스250지수는 2.7% 내렸다.",
+            "coreQuestion": "AI주 매도는 단기 조정일까요, 추세 전환의 시작일까요?",
+            "resolution": "소프트뱅크그룹 하나만으로 약 235엔의 하락 기여가 있었다고 보도됐다."
+          },
+          "sources": [
+            {
+              "name": "新潟日報 (共同通信)",
+              "url": "https://www.niigata-nippo.co.jp/articles/-/927705"
+            }
+          ],
+          "related": {
+            "title": "日経平均サマリー（20日）",
+            "source": "OANDA",
+            "url": "https://www.oanda.jp/lab-education/market_news/mn_1039722_202610201753/",
+            "type": "유사"
+          },
+          "topics": ["닛케이평균", "소프트뱅크", "반도체", "AI", "인플레이션"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261018-1",
           "date": "2026.10.18",
