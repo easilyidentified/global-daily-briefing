@@ -113,10 +113,130 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.21",
-      "period": "2026.10.20 08:00 ~ 2026.10.21 08:00",
-      "updatedAt": "2026.10.21 08:00 KST",
+      "latestDate": "2026.10.22",
+      "period": "2026.10.21 08:00 ~ 2026.10.22 08:00",
+      "updatedAt": "2026.10.22 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261022-1",
+          "date": "2026.10.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국감 막바지, 공소청 첫 국감에서 '이 대통령 사건 공소취소' 공방",
+          "summary": "검찰청 폐지 후 처음 열리는 공소청 본청 국정감사에서 이재명 대통령 관련 사건의 공소취소 문제가 최대 쟁점으로 떠올랐다. 이정현 검찰총장 직무대행의 입장이 관심사다.",
+          "why": "검찰청이 폐지되고 공소청 체제로 바뀐 뒤 첫 국감이어서, 법무부 진상조사 결과를 둘러싼 공소취소 논란이 그대로 국회로 옮겨 붙었다.",
+          "soWhat": "공소청 지휘부가 공소취소에 어떤 입장을 내느냐에 따라 여야 대립과 사법 신뢰 논란이 계속될 수 있다.",
+          "context": {
+            "background": "법무부 산하 검찰미래위 진상조사단이 사건 19건을 선정해 조사 중이며, 앞선 법무부·공소청 국감에서도 공소취소와 진상조사단 활동의 적절성을 두고 공방이 있었다.",
+            "issueContext": "여당은 진상조사 결과를 지켜봐야 한다는 입장이고, 국민의힘은 재판 중인 사건에 사실상 개입하는 것이라며 진상조사단 해산을 요구한다.",
+            "coreQuestion": "재판 중인 대통령 관련 사건의 공소취소는 정당한 사법 절차일까요, 정치적 개입일까요?",
+            "resolution": "아직 공소취소 여부는 정해지지 않았다. 국감에서 공소청의 입장과 초대 총장 인선, 사건 처리 지연 문제도 함께 다뤄질 전망이다."
+          },
+          "sources": [
+            {
+              "name": "세계일보",
+              "url": "https://www.segye.com/newsView/20261022504416"
+            }
+          ],
+          "related": {
+            "title": "국힘 \"'李 공소취소 지우기' 검찰미래위 즉각 해산해야\"",
+            "source": "아이뉴스24",
+            "url": "https://inews24.com/view/2011729",
+            "type": "반박"
+          },
+          "topics": ["국정감사", "공소청", "이재명", "대통령", "기소"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261022-2",
+          "date": "2026.10.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "헌재 가처분 일부 인용, 이진숙 의원 방미통위 종합감사 참석…제척 범위 충돌",
+          "summary": "헌법재판소가 21일 국감 제척 효력정지 가처분을 일부 인용해 국민의힘 이진숙 의원이 22일 방미통위 종합감사에 참석한다. 다만 방통위원장 시절 업무 등 본인 관련 사안은 제척이 유지된다.",
+          "why": "과방위가 12일 이해충돌을 이유로 이 의원을 국감에서 제척하자 이 의원이 가처분을 신청했고, 헌재가 일부만 받아들였다.",
+          "soWhat": "제척이 유지되는 범위를 두고 여야가 다시 부딪쳐 종합감사가 파행될 가능성이 있고, 향후 국감 제척 기준의 선례가 된다.",
+          "context": {
+            "background": "과방위는 방미통위 국감에서 방통위원장 출신인 이 의원을 이해충돌을 이유로 제척했다.",
+            "issueContext": "헌재는 제척 효력을 일부 정지했지만 방통위원장 시절 업무, 국감 위증 고발, 대전MBC 법인카드 관련 배임 고발 건은 제척을 유지했다.",
+            "coreQuestion": "헌재 결정은 이 의원에게 면죄부일까요, 아니면 제한적 복귀일 뿐일까요?",
+            "resolution": "이 의원은 22일 종합감사에 출석한다. 여당 과방위원들은 제척이 유지된 사안에서는 참여 제한을 지키겠다는 입장이다."
+          },
+          "sources": [
+            {
+              "name": "뉴스1",
+              "url": "https://www.news1.kr/politics/assembly/6328344"
+            }
+          ],
+          "related": {
+            "title": "헌재, 이진숙 국감 제척 제동... 그러나 '본인 관련 의혹'은 국감 못 한다",
+            "source": "오마이뉴스",
+            "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003277465",
+            "type": "다름"
+          },
+          "topics": ["국정감사", "이진숙", "국회", "야당", "방송"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261022-1",
+          "date": "2026.10.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "이형일 부총리 \"가상자산 과세, 최대한 숙고해 판단\"…여야 유예 놓고 이견",
+          "summary": "재정경제부 종합감사에서 이형일 부총리가 가상자산 과세 유예 여부를 전문가·업계·국회 의견을 모아 신중히 판단하겠다고 밝혔다. 현행법상 과세는 내년 1월 시행이다.",
+          "why": "내년 1월 시행을 앞두고 업계가 과세 인프라 미비를 이유로 유예를 요구하고, 국회에는 폐지안·유예안이 이미 발의돼 있다.",
+          "soWhat": "정부가 유예 쪽으로 기울면 세 번째 유예가 되어 정책 신뢰 논란이 커지고, 그렇지 않으면 업계 반발 속에 시행 준비가 속도를 내야 한다.",
+          "context": {
+            "background": "가상자산 과세는 여야 합의로 법제화됐으나 이미 여러 차례 유예됐고, 국세청 과세 고시안은 10월 말 확정 예정으로 보고됐다.",
+            "issueContext": "민주당은 반복된 유예가 정책 신뢰를 해친다며 시행을 촉구했고, 국민의힘은 국내외 거래 과세 형평성과 인프라 미비를 지적했다.",
+            "coreQuestion": "가상자산 과세는 예정대로 시행해야 할까요, 한 번 더 미뤄야 할까요?",
+            "resolution": "정부 입장은 확정되지 않았다. 이 부총리는 결론 없이 의견 수렴 중이라는 답변에 그쳤다."
+          },
+          "sources": [
+            {
+              "name": "아시아투데이",
+              "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261022010007581"
+            }
+          ],
+          "related": {
+            "title": "재경부도 한발 물러섰나…코인 과세 유예 힘 받는다",
+            "source": "데일리안",
+            "url": "https://www.dailian.co.kr/news/view/1703686/%EC%9E%AC%EA%B2%BD%EB%B6%80%EB%8F%84-%ED%95%9C%EB%B0%9C-%EB%AC%BC%EB%9F%AC%EC%84%B0%EB%82%98%EC%BD%94%EC%9D%B8-%EA%B3%BC%EC%84%B8-%EC%9C%A0%EC%98%88-2026",
+            "type": "반박"
+          },
+          "topics": ["가상자산", "세제", "국정감사", "재정", "국회"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261022-2",
+          "date": "2026.10.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 3.29% 급반등해 5,735 마감, 원/달러 1,325.2원 연저점",
+          "summary": "21일 코스피는 반도체 대형주 급등과 외국인 매수에 힘입어 전 거래일보다 3.29% 오른 5,735.66으로 마감했다. 원/달러 환율은 1,325.2원으로 4거래일 연속 종가 기준 연저점을 경신했다.",
+          "why": "전날 3% 넘게 급락했던 지수가 삼성전자·SK하이닉스 등 반도체주 중심의 외국인 순매수로 하루 만에 되돌려졌고, 원화는 강세를 이어갔다.",
+          "soWhat": "22일 금융통화위원회 결과가 변수로 꼽혀, 증시 반등과 환율 하락세가 이어질지가 갈린다.",
+          "context": {
+            "background": "코스피는 20일 3% 넘게 급락했고, 환율은 16일부터 종가 기준 연저점을 연일 갈아치우고 있었다.",
+            "issueContext": "장중 5,800선을 넘어 매수 사이드카가 발동됐고, 코스피에서는 외국인이 6,600억원가량 순매수했다.",
+            "coreQuestion": "하루 만의 급반등은 추세 회복일까요, 일시적 반발일까요?",
+            "resolution": "21일 종가는 코스피 5,735.66, 환율 1,325.2원(2024년 10월 이후 최저)으로 정리됐다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20261021001168"
+            }
+          ],
+          "related": {
+            "title": "떨어지는 환율, 코스피는 상승",
+            "source": "서울신문",
+            "url": "https://www.seoul.co.kr/news/economy/2026/10/21/20261021500227",
+            "type": "유사"
+          },
+          "topics": ["코스피", "환율", "반도체", "외국인", "한국은행"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261021-1",
           "date": "2026.10.21",
@@ -11288,10 +11408,70 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.21",
-      "period": "2026.10.20 08:00 ~ 2026.10.21 08:00",
-      "updatedAt": "2026.10.21 08:00 KST",
+      "latestDate": "2026.10.22",
+      "period": "2026.10.21 08:00 ~ 2026.10.22 08:00",
+      "updatedAt": "2026.10.22 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261022-1",
+          "date": "2026.10.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "연방요원, 일한 오마 하원의원 자택 수색…트럼프 \"전혀 관여 안 해\"",
+          "summary": "국토안보수사국(HSI) 요원들이 법원 영장에 따라 민주당 일한 오마 하원의원의 자택을 수색했다. 트럼프 대통령은 오마를 \"totally crooked\"라 부르면서도 수사와는 무관하다고 말했다.",
+          "why": "법무부는 진행 중인 형사 수사의 일환이라고 밝혔고, 보도들은 오마의 이민 서류 문제와 연결짓는다. 수색 범위는 공개되지 않았다.",
+          "soWhat": "중간선거를 한 달도 안 남기고 벌어진 일이라 '정치 보복' 공방이 선거 정국을 더 달굴 전망이다.",
+          "context": {
+            "background": "트럼프는 올해 1월 SNS에서 오마를 투옥하거나 소말리아로 돌려보내야 한다고 주장하는 등 오랜 앙금이 있었다.",
+            "issueContext": "오마는 정적을 겨냥한 연방 법집행의 무기화라고 반발했고, 민주당 지도부는 수색을 '터무니없다'고 규탄했다.",
+            "coreQuestion": "이번 수색은 정당한 수사일까요, 정치적 표적 수사일까요?",
+            "resolution": "수사는 진행 중이며 영장의 구체적 내용은 공개되지 않았다. 트럼프는 판단을 법무부에 맡긴다는 입장이다."
+          },
+          "sources": [
+            {
+              "name": "ABC News (AP)",
+              "url": "https://abcnews4.com/news/nation-world/president-donald-trump-calls-minnesota-democratic-rep-ilhan-omar-totally-crooked-says-he-had-nothing-to-do-with-justice-department-homeland-security-raid-on-home-immigration-paperwork-criminal-investigation"
+            }
+          ],
+          "related": {
+            "title": "US House Dem leaders condemn Homeland Security raid on home of Rep. Ilhan Omar",
+            "source": "Missouri Independent",
+            "url": "https://missouriindependent.com/?p=33208",
+            "type": "반박"
+          },
+          "topics": ["트럼프", "민주당", "이민", "중간선거", "법무부"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261022-2",
+          "date": "2026.10.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중간선거 2주 앞, 트럼프가 '전례 없는 권한'을 밀어붙인다",
+          "summary": "NPR은 선거를 2주도 남기지 않은 시점에서 트럼프 대통령이 1기 때는 넘지 않았던 선을 계속 넘고 있다고 분석했다.",
+          "why": "행정부 장악력을 넓혀 온 트럼프가 중간선거 판세에 대한 부담 속에서 대통령 권한을 한층 공세적으로 쓰고 있다.",
+          "soWhat": "선거 결과와 관계없이 대통령 권한의 한계를 둘러싼 법적·정치적 다툼이 선거 뒤까지 이어질 수 있다.",
+          "context": {
+            "background": "트럼프는 2025년 1월 두 번째 임기를 시작했고 공화당이 상하원 다수당이다. 의회는 정부 예산을 12월 11일까지 임시 연장해 셧다운을 피했다.",
+            "issueContext": "비판자들은 대통령이 선거 관련 권한까지 확장하려 한다고 우려하고, 지지층은 행정부 통제권 행사라고 본다.",
+            "coreQuestion": "대통령 권한 확장은 정당한 국정 운영일까요, 견제 장치를 허무는 일일까요?",
+            "resolution": "11월 선거를 앞둔 상태로, 아직 정리된 것은 없다."
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/10/21/nx-s1-6009395/trump-power-midterm-elections"
+            }
+          ],
+          "related": {
+            "title": "Trump's 'total power' over admin cannot hide president's midterm worries: analysis",
+            "source": "Raw Story",
+            "url": "https://www.rawstory.com/trump-midterms-2675071285/",
+            "type": "다름"
+          },
+          "topics": ["트럼프", "중간선거", "행정명령", "공화당", "선거"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261021-1",
           "date": "2026.10.21",
@@ -22251,10 +22431,40 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.21",
-      "period": "2026.10.20 08:00 ~ 2026.10.21 08:00",
-      "updatedAt": "2026.10.21 08:00 KST",
+      "latestDate": "2026.10.22",
+      "period": "2026.10.21 08:00 ~ 2026.10.22 08:00",
+      "updatedAt": "2026.10.22 08:00 KST",
       "issues": [
+        {
+          "id": "cn-eco-20261022-1",
+          "date": "2026.10.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국, AI·바이오·태양광 핵심기술 40개 수출통제 초안 공개",
+          "summary": "중국 상무부와 과기부가 16일 AI·바이오·태양광 분야 40개 기술의 수출을 제한하거나 금지하는 초안을 내놨다. 의견 수렴은 11월 15일까지다.",
+          "why": "중국은 국가안보와 AI의 인간 통제 유지를 명분으로 들었다.",
+          "soWhat": "대형 모델과 컴퓨팅 클러스터 기술의 해외 이전이 막힐 수 있어 미중 기술 경쟁에서 새 변수가 된다.",
+          "context": {
+            "background": "미국이 반도체 수출을 통제해 온 가운데, 중국이 AI 기술까지 통제 대상에 넣는 것이다.",
+            "issueContext": "40개 중 23개가 AI 관련이며 약 2조 개 이상 파라미터 모델이 제한 대상에 오를 수 있다. API·웹·앱·SaaS 형태의 이용과 공개 기술은 제외된다.",
+            "coreQuestion": "이번 조치는 자국 기술을 지키는 방어일까요, 기술 패권 경쟁의 맞대응일까요?",
+            "resolution": "초안 단계이며 시행 전까지 사전 등록 요건이 임시 적용된다."
+          },
+          "sources": [
+            {
+              "name": "ITV News (AP)",
+              "url": "https://www.itv.com/news/2026-10-16/china-moves-to-curb-tech-exports-including-for-ai-and-solar"
+            }
+          ],
+          "related": {
+            "title": "外媒炒作的 AI 禁令，其实是给核心技术装个防盗门",
+            "source": "新浪新闻",
+            "url": "https://www.sina.cn/weibo/detail/5356459594614838.html",
+            "type": "반박"
+          },
+          "topics": ["AI", "수출", "미중갈등", "상무부", "기술패권"],
+          "review": "pending"
+        },
         {
           "id": "cn-eco-20261021-1",
           "date": "2026.10.21",
@@ -32815,10 +33025,40 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.21",
-      "period": "2026.10.20 08:00 ~ 2026.10.21 08:00",
-      "updatedAt": "2026.10.21 08:00 KST",
+      "latestDate": "2026.10.22",
+      "period": "2026.10.21 08:00 ~ 2026.10.22 08:00",
+      "updatedAt": "2026.10.22 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261022-1",
+          "date": "2026.10.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "소비세 감세·지원금 법안 중의원 심의 시작, 재원 불투명 논란",
+          "summary": "다카이치 내각이 이번 임시국회 최우선 법안으로 꼽는 소비세 감세·지원금 법안이 20일 중의원 본회의에서 심의에 들어갔다. 재원과 제도 설계는 구체적으로 제시되지 않았다.",
+          "why": "정부·여당은 11월 초 중의원 통과, 12월 12일 회기 말까지 성립을 노리지만 참의원에서 소수라 야당 협력이 필요하다.",
+          "soWhat": "재원 공방이 법안 처리 속도를 좌우하고, 국민민주당·공명당 대안과의 절충이 변수가 된다.",
+          "context": {
+            "background": "정부는 식품 소비세를 내년 4월부터 2년간 낮추는 법안을 각의 결정했고, 재원은 2년간 약 10조 엔으로 거론된다.",
+            "issueContext": "소득 연동형 신규 현금 지원이 포함됐지만, 총리는 연봉 상한을 특정 금액으로 염두에 두고 있지 않다고 답했다.",
+            "coreQuestion": "재원이 불분명한 감세 법안을 그대로 처리해도 될까요?",
+            "resolution": "심의가 막 시작됐고 재원은 향후 예산 편성 과정에서 제시하겠다는 것이 재무상의 입장이다."
+          },
+          "sources": [
+            {
+              "name": "구마니치(교도통신)",
+              "url": "https://kumanichi.com/articles/2047873"
+            }
+          ],
+          "related": {
+            "title": "食料品の消費税減税関連法案が来週、審議入り 野党は財源や支援金の対象の明示を求める構え",
+            "source": "NHK",
+            "url": "https://news.web.nhk/newsweb/na/nd-20261017de60791",
+            "type": "다름"
+          },
+          "topics": ["소비세", "다카이치", "감세", "재정", "국회"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261021-1",
           "date": "2026.10.21",
