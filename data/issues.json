@@ -113,10 +113,160 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.22",
-      "period": "2026.10.21 08:00 ~ 2026.10.22 08:00",
-      "updatedAt": "2026.10.22 08:00 KST",
+      "latestDate": "2026.10.23",
+      "period": "2026.10.22 08:00 ~ 2026.10.23 08:00",
+      "updatedAt": "2026.10.23 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261023-1",
+          "date": "2026.10.23",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "공소청 첫 국정감사, '공소취소' 놓고 여야 정면충돌",
+          "summary": "검찰청 폐지 뒤 처음 열린 공소청 국정감사에서 여야가 이재명 대통령 관련 사건의 공소취소 문제로 맞붙었다. 국민의힘은 대통령이 공소취소를 종용했다고 주장했고 여당은 정치 공세라고 반박했다.",
+          "why": "이달 2일 검찰청이 폐지되고 공소청이 출범하면서 새 기관을 처음 검증하는 자리가 22일 법사위 국감이 됐기 때문이다.",
+          "soWhat": "공소취소 의혹과 수사권 환원 논쟁이 남은 종합감사에서도 이어지며 검찰개혁 후속 입법의 쟁점이 될 전망이다.",
+          "context": {
+            "background": "검찰청이 폐지되고 이달 2일 공소청이 출범해 수사 기능이 다른 기관으로 넘어갔다.",
+            "issueContext": "국민의힘은 6월 국무회의에서 대통령이 공소취소와 관련한 발언을 했다고 문제 삼았고, 여당은 공소취소를 지시하거나 검토한 적이 없다고 맞섰다.",
+            "coreQuestion": "공소청 체제는 안착해야 할까요, 아니면 검사 수사권을 되살려야 할까요?",
+            "resolution": "22일 국감에서는 결론 없이 여야 공방만 이어졌고, 민주당은 수사권 부활은 없다는 입장을 유지했다."
+          },
+          "sources": [{ "name": "쿠키뉴스", "url": "https://www.kukinews.com/article/view/kuk202610220218" }],
+          "related": {
+            "title": "[2026 국감] 檢수사권 폐지 두고 맞붙은 與·野…\"제도 안착 집중\" vs \"원상복구\"",
+            "source": "데일리안",
+            "url": "https://www.dailian.co.kr/news/view/1703822/2026-%EA%B5%AD%EA%B0%90-%E6%AA%A2%EC%88%98%EC%82%AC%EA%B6%8C-%ED%8F%90%EC%A7%80-%EB%91%90%EA%B3%A0-%EB%A7%9E-2026",
+            "type": "반박"
+          },
+          "topics": ["검찰개혁", "공소청", "국정감사", "국회"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261023-2",
+          "date": "2026.10.23",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "정부, 'DMZ 지뢰' 관련 유엔 안보리 의장에 서한 발송",
+          "summary": "정부가 DMZ 지뢰 폭발이 북한군 매설 지뢰 탓이라며 북한의 사과와 책임 있는 조치를 촉구하는 서한을 유엔 안보리 의장에게 보냈다. 같은 날 김여정은 새 대응 수단이 임무 대기에 들어갔다고 밝혀 긴장이 높아졌다.",
+          "why": "지뢰 폭발 이후 한 달이 지나도록 북한의 사과가 없자 정부가 국제 무대에서 외교적 압박에 나선 것이다.",
+          "soWhat": "국방부도 비례조치를 검토하고 있어 남북 간 대응 수위가 한 단계 더 올라갈 수 있다.",
+          "context": {
+            "background": "한 달 전 DMZ에서 지뢰 폭발 사고가 발생했고 정부는 북한군이 매설한 지뢰로 보고 있다.",
+            "issueContext": "정부는 정전협정 위반이라는 입장이고, 북한은 이를 반박하며 대남 확성기까지 대기 상태에 둔다고 밝혔다.",
+            "coreQuestion": "외교적 압박은 북한의 태도를 바꿀 수 있을까요, 군사적 긴장만 키울까요?",
+            "resolution": "서한은 안보리 의장국을 통해 회람될 예정이며 회람까지 수일이 걸릴 전망이다."
+          },
+          "sources": [{ "name": "머니투데이", "url": "https://www.mt.co.kr/politics/2026/10/22/2026102214442755076" }],
+          "related": {
+            "title": "북 김여정 \"새 대응 수단 임무 대기\"…정부 \"유엔 안보리 의장에 서한 발송\"",
+            "source": "경향신문",
+            "url": "https://www.khan.co.kr/article/202610222213025/",
+            "type": "다름"
+          },
+          "topics": ["북한", "지뢰", "유엔", "안보리", "정전협정"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261023-1",
+          "date": "2026.10.23",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 3.52% 급락해 5533 마감…삼성전자·SK하이닉스 4~5%대 하락",
+          "summary": "코스피가 하루 만에 3.52% 하락한 5533.77로 마감했다. 삼성전자와 SK하이닉스가 각각 4%, 5%대 급락했고 코스닥도 3%대 내렸다.",
+          "why": "미국 빅테크의 AI 투자 수익성에 대한 불안이 커진 데다 기관 매도가 겹쳤다.",
+          "soWhat": "6거래일 새 세 번째 3%대 하락이어서 반도체 중심의 변동성 확대가 당분간 이어질 수 있다.",
+          "context": {
+            "background": "코스피는 15일 7%대, 20일 3%대 하락에 이어 전날 반등했다.",
+            "issueContext": "반등 하루 만에 상승분을 모두 반납했고 종가는 4월 이후 가장 낮은 수준이다.",
+            "coreQuestion": "이번 하락은 일시적 조정일까요, 반도체 호황의 반동일까요?",
+            "resolution": "기관이 약 4,630억원을 순매도했고 개인은 약 3,810억원을 순매수한 채 마감했다."
+          },
+          "sources": [{ "name": "한국경제", "url": "https://www.hankyung.com/article/2026102290026" }],
+          "related": {
+            "title": "삼성전자·SK하이닉스 왜 급락했나…55조 매수세 사라지고 AI 투자 불안",
+            "source": "톱스타뉴스",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16255068",
+            "type": "다름"
+          },
+          "topics": ["코스피", "삼성전자", "SK하이닉스", "반도체", "AI", "자사주"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261023-2",
+          "date": "2026.10.23",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "금융위·금감원 종합감사서 단일종목 레버리지 ETF 책임 공방 재연",
+          "summary": "정무위 종합감사에서 단일종목 레버리지 ETF 도입 경위와 책임을 두고 질타가 이어졌다. 금융당국은 거듭 사과하면서도 졸속 심사는 아니라고 선을 그었다.",
+          "why": "상품 출시 이후 개인투자자 손실이 6조원을 넘어서면서 도입 결정 과정의 책임이 국감 핵심 쟁점이 됐다.",
+          "soWhat": "심사 일정과 시장감시 체계가 도마에 올라 상장 심사 절차와 투자자 보호 장치 보완 논의가 불가피하다.",
+          "context": {
+            "background": "단일종목 레버리지 ETF는 올해 도입됐고 금융위 국감은 8일, 금감원 국감은 19일에 먼저 열렸다.",
+            "issueContext": "상장 심사 기간이 29일로 일반 ETF 평균보다 짧았다는 지적과 함께 개인투자자 손실이 6조3000억원을 넘었다는 자료가 나왔다.",
+            "coreQuestion": "도입 결정의 책임은 누구에게 있을까요?",
+            "resolution": "금융당국은 사과했지만 해외와의 규제 격차를 들어 도입 필요성은 있었다고 설명했다."
+          },
+          "sources": [{ "name": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202610220601025637" }],
+          "related": {
+            "title": "금융위·금감원, '단일종목 레버리지' 재차 사과…\"졸속 심사는 아냐\"",
+            "source": "프레시안",
+            "url": "https://www.pressian.com/pages/articles/2026102217072939031",
+            "type": "반박"
+          },
+          "topics": ["레버리지ETF", "개인투자자", "금융위원회", "국정감사", "금융당국"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261023-1",
+          "date": "2026.10.23",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "노동부, 쿠팡 물류센터서 노동법 위반 206건 적발…김범석 '부적절 지시'는 시효 지나 불기소 송치",
+          "summary": "고용노동부가 쿠팡 물류센터 감독에서 산업안전보건법·근로기준법 위반 206건을 적발해 61건을 사법처리하고 과태료 19억원대를 부과했다. 김범석 의장의 산재 은폐 관련 부적절한 지시는 확인됐지만 공소시효가 지나 불기소 의견으로 송치된다.",
+          "why": "2020년 숨진 노동자의 산재 은폐 의혹 고발에 따라 대규모 감독이 진행됐고 그 결과가 22일 공개됐다.",
+          "soWhat": "처벌은 어렵지만 노동계가 면죄부라고 반발하고 있어 쿠팡의 노동 환경 논란은 계속될 전망이다.",
+          "context": {
+            "background": "2020년 10월 쿠팡풀필먼트 대구센터 노동자가 숨졌고 산재 은폐 의혹이 제기됐다.",
+            "issueContext": "산재 은폐죄 공소시효 5년이 고발 전에 이미 완성돼 처벌이 어렵다는 것이 노동부 판단이다.",
+            "coreQuestion": "시효가 지난 지시에는 책임을 물을 수 없을까요?",
+            "resolution": "쿠팡은 전직 임원의 일방적 주장이라며 유감을 표하면서도 적극 조치하겠다는 입장을 밝혔다."
+          },
+          "sources": [{ "name": "한국경제", "url": "https://www.hankyung.com/article/202610228918g" }],
+          "related": {
+            "title": "쿠팡 김범석 ‘부적절 지시’에도 불기소",
+            "source": "세계일보",
+            "url": "https://www.segye.com/newsView/20261022520289",
+            "type": "반박"
+          },
+          "topics": ["쿠팡", "노동시장", "안전", "산재"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261023-2",
+          "date": "2026.10.23",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "한파주의보 속 전국 '가을 한파'…서울 첫 서리 평년보다 10일 빨라",
+          "summary": "전날 밤부터 전국 내륙에 한파주의보가 내려진 가운데 아침 기온이 하루 새 최대 10도 안팎 떨어졌다. 서울의 첫 서리는 평년보다 10일 빨랐고 설악산은 영하 6.6도를 기록했다.",
+          "why": "찬 공기가 한반도로 내려오면서 기온이 급락했다.",
+          "soWhat": "낮에도 20도를 밑도는 쌀쌀한 날씨가 이어져 농작물 관리와 난방 준비가 앞당겨질 수 있다.",
+          "context": {
+            "background": "올가을은 한동안 평년보다 따뜻한 날이 이어졌다.",
+            "issueContext": "경기 동부와 강원 내륙·산지에서는 얼음이 얼고 파주 -2.1도, 봉화 -2.2도까지 내려갔다.",
+            "coreQuestion": "이른 한파는 올겨울 추위의 신호일까요, 일시적 현상일까요?",
+            "resolution": "기상청은 낮에도 전국 대부분 지역에서 기온이 20도를 밑돌 것으로 예보했다."
+          },
+          "sources": [{ "name": "서울신문", "url": "https://www.seoul.co.kr/news/society/2026/10/22/20261022008005" }],
+          "related": {
+            "title": "\"패딩 꺼냈어요\"…설악산 -6.6도, 전국 곳곳 '가을 한파'(종합)",
+            "source": "뉴스1",
+            "url": "https://www.news1.kr/local/kangwon/6328138",
+            "type": "유사"
+          },
+          "topics": ["한파", "기상청", "기후", "서울"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261022-1",
           "date": "2026.10.22",
@@ -11408,10 +11558,135 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.22",
-      "period": "2026.10.21 08:00 ~ 2026.10.22 08:00",
-      "updatedAt": "2026.10.22 08:00 KST",
+      "latestDate": "2026.10.23",
+      "period": "2026.10.22 08:00 ~ 2026.10.23 08:00",
+      "updatedAt": "2026.10.23 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261023-1",
+          "date": "2026.10.23",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "연방대법원, 트럼프 행정부의 성전환 수감자 치료 제한 정책 집행 보류 유지",
+          "summary": "연방대법원이 트럼프 행정부의 긴급 요청을 받아들이지 않아 연방교정국의 성전환 수감자 치료 제한 정책은 소송이 끝날 때까지 시행되지 못한다. 서명 없는 결정이었고 토머스·알리토 대법관은 요청을 받아들이려 했다.",
+          "why": "하급심 법원이 정책 집행을 막은 명령을 행정부가 뒤집으려 긴급 신청을 냈지만 대법원이 거부했다.",
+          "soWhat": "본안 소송이 진행되는 동안 수감자 치료는 현행대로 유지되며, 행정부의 성소수자 정책 전반에 대한 법적 다툼이 이어질 전망이다.",
+          "context": {
+            "background": "연방교정국 정책은 성전환 수술, 호르몬 치료, 가발·패딩 등 사회적 지원을 제한하는 내용이었다.",
+            "issueContext": "수감자 3명이 소송을 냈고 8월 램버스 판사가 시행 금지 명령을 내렸으며 항소법원도 이를 중단하지 않았다.",
+            "coreQuestion": "연방정부는 수감자의 성전환 치료 비용을 부담해야 할까요, 아닐까요?",
+            "resolution": "이번 결정은 잠정적이어서 정책은 본안 판단 전까지 막혀 있다."
+          },
+          "sources": [{ "name": "NBC News", "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-rejects-trump-transgender-prison-policy-rcna601889" }],
+          "related": {
+            "title": "U.S. must pay for gender transitions for prisoners after Supreme Court declines Trump case",
+            "source": "Washington Times",
+            "url": "https://www.washingtontimes.com/news/2026/oct/21/us-must-pay-gender-transitions-prisoners-supreme-court-declines-trump/",
+            "type": "반박"
+          },
+          "topics": ["대법원", "트럼프행정부", "인권", "소송"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261023-2",
+          "date": "2026.10.23",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "미국, 후티 공격 확대 속 사우디 주재 비필수 외교관 철수 명령",
+          "summary": "미 국무부가 사우디아라비아 주재 비필수 공무원과 가족에게 출국을 명령했다. 후티의 킹파드 공항·석유시설 공격이 이어진 가운데 브렌트유는 배럴당 110달러를 넘었다.",
+          "why": "후티 반군이 사우디 공항과 아람코 시설을 잇따라 공격하며 안전 우려가 커졌기 때문이다.",
+          "soWhat": "중동 긴장이 이란을 둘러싼 갈등과 맞물리며 유가와 미국의 대중동 정책에 불확실성이 커진다.",
+          "context": {
+            "background": "후티는 최근 몇 주간 사우디 아람코와 공항을 공격해 왔다.",
+            "issueContext": "국무부는 사우디 내 공항 이용에도 별도 승인을 요구했고 다른 걸프 지역 공관 가족도 출국을 통보받았다는 보도가 있다.",
+            "coreQuestion": "이번 철수는 사우디에 한정된 조치일까요, 중동 전반으로 번지는 신호일까요?",
+            "resolution": "국무부 대변인은 사우디에 한정된 조치라며 광범위한 철수를 부인했다."
+          },
+          "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/22/us-iran-trump-hormuz-.html" }],
+          "related": {
+            "title": "US pulls diplomats from Saudi Arabia but denies wider Gulf withdrawal",
+            "source": "The National",
+            "url": "https://www.thenationalnews.com/news/gulf/2026/10/22/us-pulls-diplomats-from-saudi-arabia-but-denies-wider-gulf-withdrawal/",
+            "type": "다름"
+          },
+          "topics": ["사우디", "중동", "이란", "유가", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261023-1",
+          "date": "2026.10.23",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "뉴욕증시 나스닥 2.6% 급락…AI 투자 우려에 반도체지수 6.7% 하락",
+          "summary": "22일 뉴욕증시에서 S&P500이 1.21%, 나스닥이 2.6% 떨어졌고 다우는 보합으로 마감했다. AI 지출 우려로 반도체 주가가 급락한 가운데 유가는 상승했다.",
+          "why": "AI 투자 수익성에 대한 의구심이 다시 커졌고 이란 관련 긴장으로 유가까지 올랐다.",
+          "soWhat": "기술주 변동성이 확대돼 한국과 일본 등 반도체 비중이 큰 증시에도 파장이 이어질 수 있다.",
+          "context": {
+            "background": "미국 증시는 최근 사상 최고 부근에서 거래돼 왔다.",
+            "issueContext": "S&P500은 7월 이후 가장 부진했고 나스닥은 6월 이후 최대 낙폭을 기록했다.",
+            "coreQuestion": "이번 하락은 AI 랠리의 조정 국면일까요, 추세 전환의 시작일까요?",
+            "resolution": "국채로 자금이 몰리며 금리는 하락했다."
+          },
+          "sources": [{ "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html" }],
+          "related": {
+            "title": "Wall Street Plunges as AI Investment Anxiety Weighs; Nasdaq Drops 2.6% and Semiconductor Index Plummets 6.7%",
+            "source": "SBS News",
+            "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008811300",
+            "type": "유사"
+          },
+          "topics": ["나스닥", "AI", "반도체", "증시", "유가"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261023-2",
+          "date": "2026.10.23",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "뉴멕시코 법원, 메타에 케임브리지 애널리티카 관련 250억 달러 벌금 명령",
+          "summary": "뉴멕시코주 법원이 메타에 소비자 오도 혐의로 250억 달러를 물리라고 명령했다. 메타는 항소하겠다고 밝혔다.",
+          "why": "9월 배심이 메타가 개인정보 보호에 관해 소비자를 오도했다고 평결한 데 따른 후속 판결이다.",
+          "soWhat": "빅테크 개인정보 소송의 벌금 규모 기준이 바뀔 수 있고, 메타의 주 단위 영업에 영향이 불가피하다.",
+          "context": {
+            "background": "소송은 케임브리지 애널리티카의 페이스북 이용자 데이터 사용에서 비롯됐다.",
+            "issueContext": "판사는 법상 2,190억 달러 이상도 가능했다고 봤으나 250억 달러로 낮췄고 메타는 34억 달러 이하를 주장했다.",
+            "coreQuestion": "250억 달러 벌금은 정당한 제재일까요, 과도한 처벌일까요?",
+            "resolution": "금지명령 여부는 추가 변론 뒤 판단하기로 유보됐다."
+          },
+          "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html" }],
+          "related": {
+            "title": "Meta faces $25 billion penalty in New Mexico privacy case: Plans to appeal ruling",
+            "source": "BusinessToday",
+            "url": "https://www.businesstoday.in/technology/news/story/meta-faces-25-billion-penalty-in-new-mexico-privacy-case-plans-to-appeal-ruling-563079-2026-10-22",
+            "type": "반박"
+          },
+          "topics": ["메타", "개인정보", "소송", "규제", "빅테크"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261023-1",
+          "date": "2026.10.23",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "CISA, PHP 치명적 원격코드실행 취약점 2건 즉시 패치 촉구",
+          "summary": "미 사이버보안인프라보안국(CISA)이 PHP의 인증 없는 원격코드실행 취약점 2건(CVE-2026-109618, CVE-2026-109619)을 즉시 패치하라고 경고했다. 공개 전인 17일 악용 시도가 있었다는 보고가 나왔다.",
+          "why": "취약점이 PHP 엔진 자체에 있어 개별 사이트 코드와 무관하게 웹 요청을 처리하는 PHP 설치 전반이 영향을 받는다.",
+          "soWhat": "업데이트하지 않은 서버는 공격 표적이 될 수 있어 전 세계 사이트 운영자에게 긴급 패치 부담이 생겼다.",
+          "context": {
+            "background": "PHP는 이달 21일 8.5.12, 8.4.27, 8.3.36, 8.2.35 등 수정 버전을 배포했다.",
+            "issueContext": "세부 내용이 20일 사전 유출돼 공개가 앞당겨졌고 완전한 우회책은 없다고 개발진은 밝혔다.",
+            "coreQuestion": "긴급 패치는 공격보다 먼저 전 세계 서버에 적용될 수 있을까요?",
+            "resolution": "CISA는 발표 시점에 악용을 확인하지 못했다고 밝혔고 클라우드플레어는 알려진 공격 경로용 WAF 규칙을 배포했다."
+          },
+          "sources": [{ "name": "CISA", "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching" }],
+          "related": {
+            "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+            "source": "The Hacker News",
+            "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+            "type": "유사"
+          },
+          "topics": ["사이버보안", "인터넷", "해킹", "기술"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261022-1",
           "date": "2026.10.22",
@@ -22431,10 +22706,85 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.22",
-      "period": "2026.10.21 08:00 ~ 2026.10.22 08:00",
-      "updatedAt": "2026.10.22 08:00 KST",
+      "latestDate": "2026.10.23",
+      "period": "2026.10.22 08:00 ~ 2026.10.23 08:00",
+      "updatedAt": "2026.10.23 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261023-1",
+          "date": "2026.10.23",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "리창 총리, 상트페테르부르크서 중러 총리 제31차 정례회담 공동 주재",
+          "summary": "리창 총리가 러시아 총리와 정례회담을 열어 공동성명에 서명하고 경제·무역, 우주, 과학기술, 교육 분야 협력 문건을 체결했다. 리창은 푸틴 대통령도 만났고 푸틴은 11월 선전 APEC에서 시진핑 주석과 다시 만날 수 있다고 말했다.",
+          "why": "중러가 매년 정례회담으로 협력 틀을 갱신하는 가운데 에너지·무역 확대가 양국의 공통 관심사다.",
+          "soWhat": "중러 결제의 탈달러화와 북극항로·국경 인프라 협력이 확대되어 서방 제재 환경에서 양국 밀착이 더 강해질 전망이다.",
+          "context": {
+            "background": "중러 총리 정례회담은 올해 31차를 맞았고 양국은 신시대 전면 전략협력 동반자 관계를 내세운다.",
+            "issueContext": "공동성명은 만저우리 국경 연결도로 건설, 북극항로 화물 협력, 중몽러 철도 개선, 사회보장 분과 신설 등을 담았다.",
+            "coreQuestion": "중러 밀착은 서방 제재에 대한 대응일까요, 장기적 전략 동맹일까요?",
+            "resolution": "양국은 에너지·자원, 인공지능 등에서 협력을 심화하고 '중러 교육의 해'를 함께 열기로 했다."
+          },
+          "sources": [{ "name": "신화망", "url": "https://www.news.cn/politics/leaders/20261021/dd9aca9a20fb456189cf61606628c337/c.html" }],
+          "related": {
+            "title": "Russia and China's $214 Billion Trade Surge Is Nearly Dollar Free. Here's what it means for Latin America.",
+            "source": "Latin Times",
+            "url": "https://www.latintimes.com/russia-chinas-214-billion-trade-surge-nearly-dollar-free-heres-what-it-means-latin-america-600404",
+            "type": "다름"
+          },
+          "topics": ["중국", "러시아", "리창", "에너지", "무역"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261023-1",
+          "date": "2026.10.23",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "상무부 \"자유무역 네트워크 초기 완성\"…1~3분기 화물 수출입 18.8% 증가",
+          "summary": "국무원 신문판공실 브리핑에서 상무부가 26건의 자유무역협정으로 33개 국가·지역과 연결됐고 자유무역 파트너가 대외무역의 45%를 차지한다고 밝혔다. 1~3분기 화물 수출입은 18.8% 늘었다고 설명했다.",
+          "why": "15차 5개년 계획 시작을 앞두고 상무 분야 방향을 설명하는 시리즈 브리핑의 일환이다.",
+          "soWhat": "화물·서비스·디지털 무역을 3대 축으로 무역강국 건설을 추진해 대외 개방과 자유무역 확대 기조가 이어진다.",
+          "context": {
+            "background": "중국은 올해 아프리카 40개국, 태평양 도서국 8개국과 경제 파트너십 협정 틀을 맺었다.",
+            "issueContext": "상무부는 세계 경제 성장, 무역 장벽, 공급망의 3대 불확실성을 외부 리스크로 꼽았다.",
+            "coreQuestion": "자유무역 네트워크 확대는 외부 불확실성을 상쇄할 수 있을까요?",
+            "resolution": "1~3분기 실제 사용 외자는 5488억 위안, 비금융 대외직접투자는 1010억 달러로 집계됐다."
+          },
+          "sources": [{ "name": "신화망", "url": "https://www.news.cn/fortune/20261022/7b5f82108f0a4c5c8415c22ca133fbdc/c.html" }],
+          "related": {
+            "title": "事关消费、外贸、外商投资等领域，商务部公布多个重磅数据",
+            "source": "21세기경제보도",
+            "url": "https://m.21jingji.com/article/20261022/herald/624077e9168c281c1de5b87f2217d78a.html",
+            "type": "유사"
+          },
+          "topics": ["무역", "FTA", "수출", "상무부", "5개년계획"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261023-2",
+          "date": "2026.10.23",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "위안화, 4년 만의 최강세…달러당 6.67위안대",
+          "summary": "역내 위안화가 달러당 6.6740위안까지 올라 2022년 6월 이후 가장 강한 수준을 기록했다. 인민은행이 고시한 기준환율은 6.7195위안으로 시장 수준과 차이가 있었다.",
+          "why": "달러가 전반적으로 약세를 보이면서 위안화가 상대적으로 강세를 나타냈다.",
+          "soWhat": "인민은행 고시환율과 시장 환율의 괴리는 당국이 급격한 절상을 완충하려 한다는 해석을 낳는다.",
+          "context": {
+            "background": "인민은행은 20일 대출우대금리를 17개월째 동결해 1년물 3.00%, 5년물 3.50%를 유지했다.",
+            "issueContext": "위안화가 강세지만 기준환율은 로이터 추정치보다 낮게 고시됐다.",
+            "coreQuestion": "위안화 강세는 당국이 용인하는 흐름일까요, 억제하려는 흐름일까요?",
+            "resolution": "22일 인민은행은 기준환율을 전일과 거의 같은 6.7195위안으로 고시했다."
+          },
+          "sources": [{ "name": "Business Recorder", "url": "https://www.brecorder.com/news/amp/40445427" }],
+          "related": {
+            "title": "PBOC Nudges Yuan Fix Higher, Sets New Daily Midpoint",
+            "source": "Tradingpedia",
+            "url": "https://www.tradingpedia.com/2026/10/22/pboc-nudges-yuan-fix-higher-sets-new-daily-midpoint/",
+            "type": "다름"
+          },
+          "topics": ["위안화", "인민은행", "환율", "금리"],
+          "review": "pending"
+        },
         {
           "id": "cn-eco-20261022-1",
           "date": "2026.10.22",
@@ -33025,10 +33375,85 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.22",
-      "period": "2026.10.21 08:00 ~ 2026.10.22 08:00",
-      "updatedAt": "2026.10.22 08:00 KST",
+      "latestDate": "2026.10.23",
+      "period": "2026.10.22 08:00 ~ 2026.10.23 08:00",
+      "updatedAt": "2026.10.23 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261023-1",
+          "date": "2026.10.23",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리 취임 1년…소비세 감세 재원·총재선·참의원선이 3대 난관",
+          "summary": "다카이치 총리가 21일 취임 1년을 맞았다. 내각 지지율은 역대 정권과 비교해 높은 편이지만 공동통신 조사에서는 49.1%로 처음 50% 아래로 떨어졌다.",
+          "why": "임시국회에서 식품 소비세 감세 법안 처리를 앞두고 재원 마련이 최대 과제로 떠올랐다.",
+          "soWhat": "감세 재원과 2027년 가을 자민당 총재선, 2028년 참의원선이 장기 집권 여부를 가를 변수가 된다.",
+          "context": {
+            "background": "다카이치 정권은 2025년 10월 21일 출범했고 이번 임시국회는 10월 5일 소집됐다.",
+            "issueContext": "식품 소비세 감세에는 2년간 약 10조 엔의 재원이 필요하며 야당과의 협의가 필요하다.",
+            "coreQuestion": "높은 지지율은 장기 집권으로 이어질까요, 하락세의 시작일까요?",
+            "resolution": "닛케이 9월 조사 지지율은 62%, 공동통신 10월 조사는 49.1%로 조사별 차이가 컸다."
+          },
+          "sources": [{ "name": "닛케이", "url": "https://www.nikkei.com/article/DGXZQOUA212390R21C26A0000000/" }],
+          "related": {
+            "title": "高市首相、支持率49.1％で発足後最低に…「長期政権の条件」はクリアも、消費税減税・議員定数削減・G7欠席問題など前途多難",
+            "source": "SMART FLASH",
+            "url": "https://smart-flash.jp/sociopolitics/434289/",
+            "type": "다름"
+          },
+          "topics": ["다카이치", "소비세", "자민당", "지지율"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261023-1",
+          "date": "2026.10.23",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 1,713엔 급락한 6만2907엔…AI·반도체주 매도",
+          "summary": "22일 닛케이평균이 전일 대비 1,713.40엔(2.65%) 내린 62,907.84엔으로 마감했다. 7월 30일 이후 약 3개월 만의 낮은 수준이며 토픽스도 1.14% 하락했다.",
+          "why": "AI·반도체 관련주에 대한 매도가 이어졌고 한국 증시 급락 등 아시아 반도체주 약세가 영향을 줬다.",
+          "soWhat": "반도체 비중이 큰 일본 증시도 미국 기술주 흐름에 따라 변동성이 커질 수 있다.",
+          "context": {
+            "background": "닛케이평균은 최근 6만 엔대 높은 수준에서 움직여 왔다.",
+            "issueContext": "미국 램리서치 실적 발표 뒤 하락과 한국 증시 급락이 겹쳤다.",
+            "coreQuestion": "일본 증시의 고점 부담은 이번 하락으로 해소될까요?",
+            "resolution": "16시 기준 환율은 달러당 약 157엔대 초반이었다."
+          },
+          "sources": [{ "name": "ZAIKEI", "url": "https://www.zaikei.co.jp/article/20261022/874563.html" }],
+          "related": {
+            "title": "【10月22日(木)東京株式市場】日経平均株価は大幅反落、1713円安／PHP欠陥で対応急ぐ、セキュリティー関連上昇／韓国株急落、半導体ブームの反動鮮明に",
+            "source": "YAYAFA",
+            "url": "https://www.yayafa.com/2916484/",
+            "type": "유사"
+          },
+          "topics": ["닛케이", "엔화", "반도체", "AI", "증시"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261023-1",
+          "date": "2026.10.23",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "PHP 심각 취약점 대응에 일본 사이트 예방적 중단…다카이치 총리도 대응 호소",
+          "summary": "PHP의 인증 없는 원격코드실행 취약점 2건이 공개되자 일본에서는 많은 사이트가 예방적으로 공개를 중단했다. 다카이치 총리도 대응을 호소했고 IPA는 사전 준비를 당부했다.",
+          "why": "취약점이 PHP 자체에 있어 이를 쓰는 서버 전반에 영향을 줄 수 있기 때문이다.",
+          "soWhat": "수정 버전 적용이 유일한 대책이어서 서버 사업자와 사이트 운영자의 긴급 업데이트 대응이 이어질 전망이다.",
+          "context": {
+            "background": "수정 버전은 PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35이며 7.4~8.1에는 최소 수정 소스가 제공됐다.",
+            "issueContext": "사쿠라인터넷은 예방적 긴급 점검을 22일 6시 30분에 마쳤고 엑스서버는 공식 사이트와 관리 화면을 일시 중단했다.",
+            "coreQuestion": "예방적 중단은 과잉 대응이었을까요, 필요한 조치였을까요?",
+            "resolution": "기업 발표 기준으로 이번 취약점을 악용한 공격이나 정보 유출은 확인되지 않았다."
+          },
+          "sources": [{ "name": "INTERNET Watch", "url": "https://internet.watch.impress.co.jp/docs/news/2150203.html" }],
+          "related": {
+            "title": "PHP、重大な脆弱性2件を修正 ——認証なしのリモートコード実行に対処。直ちに更新するよう強く推奨（10月22日更新）",
+            "source": "gihyo.jp",
+            "url": "https://gihyo.jp/article/2026/10/php-critical-security-release",
+            "type": "유사"
+          },
+          "topics": ["사이버보안", "인터넷", "다카이치", "기술"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261022-1",
           "date": "2026.10.22",
