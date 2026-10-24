@@ -113,10 +113,60 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.23",
-      "period": "2026.10.22 08:00 ~ 2026.10.23 08:00",
-      "updatedAt": "2026.10.23 08:00 KST",
+      "latestDate": "2026.10.24",
+      "period": "2026.10.23 08:00 ~ 2026.10.24 08:00",
+      "updatedAt": "2026.10.24 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261024-1",
+          "date": "2026.10.24",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "'탈북어민 강제북송' 항소심, 정의용·서훈 집행유예…노영민은 무죄",
+          "summary": "서울고법이 21일 정의용 전 안보실장과 서훈 전 국정원장에게 징역 1년 6개월에 집행유예 3년을 선고했다. 1심 선고유예보다 무거워졌고 노영민 전 비서실장은 무죄가 나왔다.",
+          "why": "정부가 나포 이틀 만에 북송을 결정하고 사흘 만에 집행한 점을 재판부가 직권남용의 미필적 고의로 봤기 때문이다.",
+          "soWhat": "피고인들이 대법원에 상고하겠다고 밝혀 최종 판단은 대법원으로 넘어가고, 22일 국감처럼 정치권 공방도 이어질 전망이다.",
+          "context": {
+            "background": "2019년 11월 동해상에서 나포된 북한 어민 2명을 정부가 판문점으로 북송했고, 검찰은 2023년 2월 전직 안보라인 4명을 재판에 넘겼다.",
+            "issueContext": "1심은 유죄를 인정하면서도 선고유예를 했으나 항소심은 북한 주민도 대한민국 국민이라는 판단을 유지하며 형을 높였다.",
+            "coreQuestion": "국민 보호 목적이 있었다면 북송 결정의 책임을 물을 수 없을까요, 법적 요건을 어긴 이상 책임을 져야 할까요?",
+            "resolution": "정의용·서훈은 징역 1년 6개월에 집행유예 3년, 김연철은 징역 1년에 집행유예 2년, 노영민은 무죄이며 세 사람은 상고 의사를 밝혔다."
+          },
+          "sources": [{ "name": "위키트리", "url": "https://www.wikitree.co.kr/articles/1168078" }],
+          "related": {
+            "title": "공소청 국감서 공소취소·제미나이 공방…강제북송 판결에 고성도(종합)",
+            "source": "파이낸셜뉴스",
+            "url": "https://www.fnnews.com/news/202610221709571686",
+            "type": "다름"
+          },
+          "topics": ["강제북송", "직권남용", "북한", "사법"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261024-1",
+          "date": "2026.10.24",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 장중 4% 급락 딛고 5550 마감…SK하이닉스 솔리다임 미국 상장 중단",
+          "summary": "코스피가 AI 투자 우려로 장중 4%대 급락했다가 16.53포인트 오른 5550.30에 마감했다. SK하이닉스가 솔리다임의 미국 상장 추진을 중단한다고 밝히며 주가가 4.42% 올랐다.",
+          "why": "AI 투자 지속성 우려로 지수가 밀렸지만, 중복상장 부담이 사라지며 반도체주에 매수세가 들어왔다.",
+          "soWhat": "솔리다임의 투자 시기와 규모, 조달 방식은 다시 검토하겠다는 입장이어서 재추진 가능성은 남아 있다.",
+          "context": {
+            "background": "SK하이닉스의 미국 낸드 손자회사 솔리다임의 상장 준비는 8월 5일 알려졌고, 모회사 가치가 희석된다는 주주 반발이 이어졌다.",
+            "issueContext": "이날 외국인은 코스피에서 1조938억원을 순매도했고 달러/원 환율은 1324.6원에 거래를 마쳤다.",
+            "coreQuestion": "솔리다임 상장 중단은 주주가치를 지킨 결정일까요, 자금 조달 부담을 미룬 것일까요?",
+            "resolution": "회사는 성장 가능성 판단은 그대로라며 다른 방안을 찾겠다고 했고, 정부 규제가 직접적인 배경은 아니라고 선을 그었다."
+          },
+          "sources": [{ "name": "뉴스핌", "url": "https://www.newspim.com/news/view/20261023001023" }],
+          "related": {
+            "title": "SK하이닉스, 솔리다임 상장 철회…주주가치 택했다",
+            "source": "MTN 머니투데이방송",
+            "url": "https://news.mtn.co.kr/article/2026102316301723485",
+            "type": "다름"
+          },
+          "topics": ["코스피", "SK하이닉스", "솔리다임", "반도체", "AI"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261023-1",
           "date": "2026.10.23",
@@ -11558,10 +11608,35 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.23",
-      "period": "2026.10.22 08:00 ~ 2026.10.23 08:00",
-      "updatedAt": "2026.10.23 08:00 KST",
+      "latestDate": "2026.10.24",
+      "period": "2026.10.23 08:00 ~ 2026.10.24 08:00",
+      "updatedAt": "2026.10.24 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261024-1",
+          "date": "2026.10.24",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프 행정부, 중간선거 앞두고 캐나다산 일부 품목 관세 면제",
+          "summary": "미국이 23일 캐나다산 농산물 일부와 포장재·냉동설비 등에 붙은 관세를 면제했다. 동시에 밸브·카펫 등에는 관세를 새로 붙여 세수 감소를 메웠다.",
+          "why": "11월 3일 중간선거를 앞두고 접전 지역 공화당 후보들이 관세 부담에서 거리를 두고 있기 때문이다.",
+          "soWhat": "콜린스 상원의원이 추가 완화와 포괄적 무역 합의를 추진하겠다고 해 관세 조정이 선거 때까지 이어질 수 있다.",
+          "context": {
+            "background": "미국과 캐나다의 무역전쟁은 8월에 시작됐고 미국이 두 차례 관세를 부과했으며 캐나다는 8월 말 협상에서 철수했다.",
+            "issueContext": "민주당 후보는 무역전쟁이 생활비를 올렸다며 부분 조치로 공을 가로채려 한다고 비판했다.",
+            "coreQuestion": "이번 면제는 정책 수정일까요, 선거용 임시방편일까요?",
+            "resolution": "백악관은 관세 범위를 더 다듬은 것이라고 설명했고, 면제 규모는 공개되지 않았다."
+          },
+          "sources": [{ "name": "NBC News", "url": "https://www.nbcnews.com/business/economy/trump-cancels-canada-tariffs-susan-collins-rcna605270" }],
+          "related": {
+            "title": "Trump to swap some tariffs on Canadian goods amid midterm pressure",
+            "source": "CBC",
+            "url": "https://www.cbc.ca/news/politics/trump-susan-collins-tariffs-midterms-9.7393675",
+            "type": "다름"
+          },
+          "topics": ["관세", "캐나다", "중간선거", "무역"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261023-1",
           "date": "2026.10.23",
@@ -22706,10 +22781,35 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.23",
-      "period": "2026.10.22 08:00 ~ 2026.10.23 08:00",
-      "updatedAt": "2026.10.23 08:00 KST",
+      "latestDate": "2026.10.24",
+      "period": "2026.10.23 08:00 ~ 2026.10.24 08:00",
+      "updatedAt": "2026.10.24 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261024-1",
+          "date": "2026.10.24",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 상무부, 미 국방부 '연구안보 심사' 결과에 \"차별 중단하라\"",
+          "summary": "중국 상무부가 23일 미 국방부의 대학 연구안보 심사 결과를 두고 국가안보 개념의 확대이자 중국 연구기관에 대한 낙인찍기라고 반발했다. 차별적 조치를 즉시 중단하지 않으면 필요한 조치를 취하겠다고 밝혔다.",
+          "why": "미 국방부가 19일 일부 대학이 '1286 목록' 중국 기관과의 협력을 전면 종료했다고 공개했기 때문이다.",
+          "soWhat": "중국이 어떤 대응을 내놓느냐에 따라 미중 과학기술 협력 단절 논란이 더 커질 수 있다.",
+          "context": {
+            "background": "미국은 8월 30개 대학에 1286 목록 기관과의 관계를 점검하라고 했고, 7월 갱신된 목록에는 중국 본토 기관 88곳이 올랐다.",
+            "issueContext": "중국은 미국이 연구 교류를 무기화하고 미국 연구기관에 편을 가르도록 강요한다고 주장한다.",
+            "coreQuestion": "미국의 연구안보 심사는 정당한 안보 조치일까요, 과학 협력을 정치화한 것일까요?",
+            "resolution": "구체적 대응 조치는 아직 공개되지 않았다."
+          },
+          "sources": [{ "name": "澎湃新闻", "url": "https://thepaper.cn/newsDetail_forward_34317269" }],
+          "related": {
+            "title": "Pentagon research security audits universities",
+            "source": "DefenseScoop",
+            "url": "https://defensescoop.com/2026/10/19/pentagon-research-security-audits-universities/",
+            "type": "반박"
+          },
+          "topics": ["미중갈등", "수출통제", "과학기술", "대학"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261023-1",
           "date": "2026.10.23",
