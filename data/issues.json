@@ -33475,10 +33475,160 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.23",
-      "period": "2026.10.22 08:00 ~ 2026.10.23 08:00",
-      "updatedAt": "2026.10.23 08:00 KST",
+      "latestDate": "2026.10.24",
+      "period": "2026.10.23 08:00 ~ 2026.10.24 08:00",
+      "updatedAt": "2026.10.24 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261024-1",
+          "date": "2026.10.24",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리, 일본은행에 국채 매입 확대 압박…우에다 총재와 엇박자",
+          "summary": "다카이치 총리가 장기금리 상승을 누르기 위해 일본은행에 국채 매입을 늘리라고 압박했다고 UPI가 21일 보도했다. 일본은행은 통화완화 축소 기조를 이어가고 있어 우에다 총재와 입장이 엇갈린다.",
+          "why": "소비세 감세 등 적극재정 기조에서 장기금리가 오르면 재정 부담이 커지기 때문이다.",
+          "soWhat": "정부와 중앙은행의 정책 충돌이 부각되면서 일본은행의 독립성 논란과 금리 변동성이 커질 수 있다.",
+          "context": {
+            "background": "다카이치 총리는 5월 22일 우에다 총재와 회담했고, 시장은 이를 금리 상승을 국채 매입으로 억제해 달라는 요청으로 받아들였다.",
+            "issueContext": "일본은행은 6월 정책금리를 1.0%로 올리면서 2027년 4월 이후 국채 매입 감액을 월 2조 엔 안팎에서 멈추기로 했다.",
+            "coreQuestion": "정부의 국채 매입 요구는 금리를 안정시킬까요, 일본은행의 신뢰를 흔들까요?",
+            "resolution": "일본은행은 6월 결정과 총리 회담의 관련성을 부인했고 우에다 총재와의 이견은 해소되지 않았다."
+          },
+          "sources": [{ "name": "UPI", "url": "https://www.upi.com/Top_News/World-News/2026/10/21/japan-sanae-takaichi-prime-minister-boj-Kazuo-Ueda/6091792632486/" }],
+          "related": {
+            "title": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/19/takaichi-weak-yen-jgb-yields.html",
+            "type": "반박"
+          },
+          "topics": ["다카이치", "일본은행", "국채", "금리", "재정"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261024-2",
+          "date": "2026.10.24",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리 G7 화상회의 불참 논란 재점화…\"취했나\" 비판까지",
+          "summary": "다카이치 총리가 10월 2일 G7 화상회의에 불참한 것을 두고 SNS에서 비판이 이어지고 있다고 신화통신이 23일 전했다. 일부 매체는 그날 만찬 자리에서 취해 있었을지 모른다고 보도했다.",
+          "why": "프랑스가 급히 소집한 회의에 총리 대신 외무성 간부가 참석했고, 총리가 관저에 있었다는 보도가 나오면서 불참 이유를 둘러싼 의문이 커졌다.",
+          "soWhat": "야당이 외교적 위상 문제를 계속 제기할 것이어서 임시국회 논쟁 소재로 남을 전망이다.",
+          "context": {
+            "background": "총리는 G7 화상회의에 엔도 외무성 간부를 대리 출석시켰고 그가 총리 메시지를 대독했다.",
+            "issueContext": "총리는 X에서 의장국이 급히 잡은 회의였고 대리 출석이 가능했다고 해명했으며, 야당은 총리만이 정상 간 협의를 대표할 수 있다고 반박했다.",
+            "coreQuestion": "대리 출석은 정당한 선택이었을까요, 외교 부담을 피한 것일까요?",
+            "resolution": "총리는 불참을 해명했지만 음주 의혹 보도에 대한 공식 확인은 검색 결과에서 확인되지 않았다."
+          },
+          "sources": [{ "name": "신화통신", "url": "https://english.news.cn/20261023/85238600e6b6444989fd580361d9fbc2/c.html" }],
+          "related": {
+            "title": "Japan PM Takaichi defends skipping G7 online meeting",
+            "source": "SCMP",
+            "url": "https://www.scmp.com/news/asia/east-asia/article/3369884/japan-pm-takaichi-defends-skipping-g7-online-meeting",
+            "type": "반박"
+          },
+          "topics": ["다카이치", "G7", "야당", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261024-1",
+          "date": "2026.10.24",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 214엔 하락한 6만2693엔 마감…AI 수익성 의구심에 이틀 연속 하락",
+          "summary": "23일 닛케이평균은 전날보다 214.68엔 내린 6만2693.16엔으로 마감해 이틀 연속 하락했다. 장중 1400엔 넘게 빠졌으나 오후 반도체주 매수세로 낙폭을 줄였다.",
+          "why": "미국 메타의 설비투자 확대를 계기로 AI 기업의 자금 조달 불안이 커졌고, 코어위브 신용불안이 AI 관련주 전반의 우려로 번졌다.",
+          "soWhat": "19~23일 한 주간 4.02% 하락해 2주 연속 큰 폭 약세여서 AI·반도체주 중심의 변동성이 당분간 이어질 수 있다.",
+          "context": {
+            "background": "닛케이평균은 15일 4.90% 급락해 6만4425.95엔을 기록했고 미국 CPI 상승과 코어위브 신용불안이 겹쳤다.",
+            "issueContext": "AI 인프라 투자의 수익성과 상환 능력을 시장이 의심하기 시작하면서 일본 반도체주가 매도 압력을 받았다.",
+            "coreQuestion": "이번 하락은 AI 투자 거품 붕괴의 신호일까요, 과매도에 따른 일시적 조정일까요?",
+            "resolution": "오후에 반도체주 환매수가 들어와 낙폭은 줄었지만 지수는 이틀 연속 내렸다."
+          },
+          "sources": [{ "name": "닛케이", "url": "https://www.nikkei.com/article/DGXZQOUB230JSTT21C26A0000000/" }],
+          "related": {
+            "title": "日経平均週間4.02％安 AI懸念でざわつく相場の森、個別の木に目線移るか",
+            "source": "楽天証券",
+            "url": "https://media.rakuten-sec.net/articles/-/53853",
+            "type": "유사"
+          },
+          "topics": ["닛케이", "AI", "반도체", "코어위브"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261024-2",
+          "date": "2026.10.24",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "AI 불안에 닛케이 3개월 만의 저점…엔화·채권은 상승",
+          "summary": "블룸버그는 22일 AI 불안이 확산되며 닛케이평균이 3개월 만의 저점으로 향하고 엔화와 채권이 올랐다고 전했다. 위험회피로 자금이 안전자산으로 이동했다.",
+          "why": "AI 관련주 약세가 번지면서 투자자들이 주식 대신 엔화와 국채로 자금을 옮겼다.",
+          "soWhat": "자금 도피로 금리가 낮아지는 흐름은 재정 부담을 덜지만, 증시 변동성이 길어지면 일본은행의 정책 판단에도 영향을 줄 수 있다.",
+          "context": {
+            "background": "닛케이평균은 15일 4.90% 급락한 뒤 반등하지 못하고 약세를 이어왔다.",
+            "issueContext": "메타의 설비투자 확대와 코어위브 신용불안이 겹쳐 AI 관련주 전반에 매도가 나왔다.",
+            "coreQuestion": "안전자산 선호는 일시적일까요, 금리 하락 국면의 시작일까요?",
+            "resolution": "닛케이평균은 23일에도 하락했고 금리 저하 흐름도 이어졌다."
+          },
+          "sources": [{ "name": "블룸버그", "url": "https://www.bloomberg.com/jp/news/articles/2026-10-22/TNACQOKJH6VG00" }],
+          "related": {
+            "title": "世界AI株安メタが拍車、信用不安の波が大手に マネー逃避で金利は低下",
+            "source": "日本経済新聞",
+            "url": "https://nikkei.com/article/DGXZQOUB231OQ0T21C26A0000000",
+            "type": "유사"
+          },
+          "topics": ["닛케이", "AI", "엔화", "금리", "코어위브"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261024-1",
+          "date": "2026.10.24",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "잇따른 개인정보 유출에 다카이치 총리 \"총리실 주도로 사이버보안 대응\"",
+          "summary": "다카이치 총리가 23일 잇따르는 기업 개인정보 유출에 대해 총리실이 주도해 사이버보안 문제에 대응하겠다고 밝혔다. 정부는 앞서 8일 관계부처 회의를 열어 유출 정보를 국가사이버통괄실로 모으기로 했다.",
+          "why": "다양한 업종에서 불법 접속에 의한 개인정보 유출이 잇따라 정부 차원의 대응 요구가 커졌기 때문이다.",
+          "soWhat": "국가사이버통괄실이 기업들에 보안 대책 철저를 요구하는 주의 환기를 곧 내놓을 예정이어서 기업 부담이 늘 전망이다.",
+          "context": {
+            "background": "로손의 로손ID 등에서 약 215만 건이 유출됐고 파크24 타임스카, 다이와증권 위탁처에서도 유출이 공표됐다.",
+            "issueContext": "보안업체 집계로는 올해 불법 접속으로 유출됐을 수 있는 개인정보가 연인원 1억6500만 명분을 넘는다고 NHK가 보도했다.",
+            "coreQuestion": "정부 주도 대응은 유출을 막을 수 있을까요, 사후 수습에 그칠까요?",
+            "resolution": "총리는 프로그램 업데이트와 다요소 인증 도입 등 대책 강화를 표명했다."
+          },
+          "sources": [{ "name": "베르나마", "url": "https://bernama.com/en/world/news.php?id=2624691" }],
+          "related": {
+            "title": "不正アクセスによる情報流出が多発、政府が関係省庁会議 対策強化へ情報集約",
+            "source": "電波新聞デジタル",
+            "url": "https://dempa-digital.com/article/727308",
+            "type": "유사"
+          },
+          "topics": ["개인정보", "사이버보안", "다카이치", "유출"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261024-2",
+          "date": "2026.10.24",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "겨울잠 앞둔 곰 활발…먹이 찾아 시가지 출몰 증가, 주의 당부",
+          "summary": "겨울잠에 들기 전 곰이 먹이를 찾아 시가지에까지 나타나는 사례가 늘어 주의가 당부되고 있다. 공동통신은 4~8월 츠키노와구마 출몰이 전국 1만9789건으로 최근 5년 중 가장 많았다고 집계했다.",
+          "why": "겨울잠 전 먹이 활동이 활발해지는 가을에 곰이 사람 생활권 가까이 내려오기 때문이다.",
+          "soWhat": "가을 산행과 시가지 생활 모두 곰 대비가 필요하며 지자체의 경계 조치가 이어질 전망이다.",
+          "context": {
+            "background": "2025년도 곰 출몰은 5만776건, 인명 피해는 238명(사망 13명)으로 모두 사상 최악이었다.",
+            "issueContext": "올해는 9월 기준 사망 6명을 포함해 인명 피해가 68명이며, 8월 출몰은 전년 같은 달보다 적어 감소 경향도 보인다.",
+            "coreQuestion": "올해 곰 피해는 줄어드는 추세일까요, 가을 들어 다시 커질까요?",
+            "resolution": "환경성은 출몰 속보치와 인명 피해 건수를 공개하며 주의를 당부하고 있다."
+          },
+          "sources": [{ "name": "구마니치신문", "url": "https://kumanichi.com/articles/2047864" }],
+          "related": {
+            "title": "クマ出没件数、25年度は5万件突破―環境省集計 : 人身被害も過去最悪に",
+            "source": "nippon.com",
+            "url": "https://www.nippon.com/ja/japan-data/h02784/",
+            "type": "다름"
+          },
+          "topics": ["곰", "환경성", "인명피해", "출몰"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261023-1",
           "date": "2026.10.23",
