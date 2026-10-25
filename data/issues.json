@@ -113,10 +113,85 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.24",
-      "period": "2026.10.23 08:00 ~ 2026.10.24 08:00",
-      "updatedAt": "2026.10.24 08:00 KST",
+      "latestDate": "2026.10.26",
+      "period": "2026.10.25 08:00 ~ 2026.10.26 08:00",
+      "updatedAt": "2026.10.26 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261026-1",
+          "date": "2026.10.26",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국감 끝나자 탄핵·특검 전선…조희대 탄핵 논의에 28일 조작기소 보고회",
+          "summary": "국정감사가 끝나자 여야 대립이 조희대 대법원장 탄핵과 조작기소 특검으로 옮겨갔다. 민주당 전용기 의원이 28일 국회에서 조작기소 보고회를 연다고 예고하자 국민의힘은 이재명 대통령 사건의 공소취소 시도라고 반발했다.",
+          "why": "민주당 김민석 대표가 16일 조 대법원장 탄핵 논의를 당 차원으로 공식화했고, 국감 내내 공소취소 논란이 이어졌기 때문이다.",
+          "soWhat": "탄핵안이 실제로 발의되는지와 특검법 처리 일정이 남은 정기국회의 최대 변수가 되고, 여야 충돌은 더 커질 전망이다.",
+          "context": {
+            "background": "민주당은 대법관 후보자 재제청 거부와 격려금 지급, 업무추진비 논란 등을 문제 삼아 왔고 조 대법원장의 임기는 내년 6월까지다.",
+            "issueContext": "국민의힘 장동혁 대표는 민주당의 목표가 탄핵 자체보다 직무 정지를 통한 대통령 재판 재개 차단이라고 주장하며 탄핵을 정권 몰락의 신호탄이라고 맞섰다.",
+            "coreQuestion": "조희대 탄핵 논의는 사법부 책임을 묻는 정당한 절차일까요, 대통령 재판을 막으려는 정치적 공세일까요?",
+            "resolution": "현재까지 검색으로 확인된 범위에서는 탄핵안이 실제로 발의되지는 않았고, 28일 보고회와 특검법 처리 일정이 다음 분수령이다."
+          },
+          "sources": [{ "name": "머니투데이", "url": "https://www.mt.co.kr/politics/2026/10/25/2026102510171670129" }],
+          "related": {
+            "title": "민주 “조희대 책임 끝까지 묻겠다” VS 국힘 “탄핵 정권 몰락의 신호탄될 것”",
+            "source": "주간경향",
+            "url": "https://weekly.khan.co.kr/article/202610172212001",
+            "type": "반박"
+          },
+          "topics": ["국정감사", "대법원", "조희대", "탄핵", "여야갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261026-1",
+          "date": "2026.10.26",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "10월 1~20일 수출 616억달러 역대 최대…반도체 275억달러, 비중 44.7%",
+          "summary": "관세청이 21일 발표한 10월 1~20일 수출은 616억달러로 1년 전보다 105.4% 늘어 이 기간 기준 역대 최대다. 반도체 수출이 222.5% 급증한 275억달러로 전체의 44.7%를 차지했다.",
+          "why": "AI 투자 확대로 반도체 수요가 폭증한 데다 조업일수가 작년보다 2.5일 많은 13일이었기 때문이다.",
+          "soWhat": "반도체 비중이 계속 커져 수출 호조가 반도체 업황에 크게 좌우되는 구조가 굳어지고 있다.",
+          "context": {
+            "background": "9월 1~20일에도 수출이 700억달러를 넘으며 반도체 비중이 절반에 육박했다.",
+            "issueContext": "조업일수를 반영한 일평균 수출은 47억4천만달러로 65.9% 늘었고 무역수지는 145억달러 흑자다. 중국과 미국 수출이 각각 154%대 늘었다.",
+            "coreQuestion": "반도체가 이끄는 수출 호황은 오래갈까요, 쏠림 때문에 취약해질까요?",
+            "resolution": "관세청은 이 통계가 잠정치이고 조업일수 변화 등으로 수치가 정정될 수 있다고 밝혔다."
+          },
+          "sources": [{ "name": "스페셜타임스", "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=476618" }],
+          "related": {
+            "title": "10월 1~20일 수출액이 616억달러로 역대 최대를 찍었어요. 📦",
+            "source": "뉴닉",
+            "url": "https://newneek.co/@newneek/article/47744",
+            "type": "유사"
+          },
+          "topics": ["수출", "반도체", "AI", "무역"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261026-2",
+          "date": "2026.10.26",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "[주간수급리포트] 외인·개인 양매도 폭격…코스피 5500선 ‘털썩’",
+          "summary": "지난주(19~23일) 코스피는 5550.30으로 마감해 한 주 동안 117.75포인트(2.08%) 내렸다. 개인과 외국인이 각각 1조1040억원, 7180억원을 순매도했고 기관만 4220억원을 순매수했다.",
+          "why": "AI 산업 고점 논란과 주요 기업 실적 우려가 지수를 눌렀다.",
+          "soWhat": "이번 주 빅테크 AI 실적이 나오면서 코스피의 방향이 다시 갈릴 수 있다.",
+          "context": {
+            "background": "코스피는 5500선대에서 AI 투자 지속성 논란에 흔들려 왔다.",
+            "issueContext": "23일 코스피는 전일보다 0.30% 오른 5550.30에 마감했지만 주간 기준으로는 하락했다.",
+            "coreQuestion": "외국인과 개인의 매도는 일시적 조정일까요, 추세 전환의 신호일까요?",
+            "resolution": "기관이 순매수로 지수를 방어했고 다음 주 빅테크 실적 발표가 시험대로 예정돼 있다."
+          },
+          "sources": [{ "name": "이투데이", "url": "https://www.etoday.co.kr/news/view/2639522" }],
+          "related": {
+            "title": "코스피·코스닥 어제보다 소폭 상승 마감",
+            "source": "MBC",
+            "url": "https://imnews.imbc.com/news/2026/econo/article/6843953_36932.html",
+            "type": "다름"
+          },
+          "topics": ["코스피", "증시", "AI", "반도체", "외국인"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261024-1",
           "date": "2026.10.24",
@@ -11608,10 +11683,135 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.24",
-      "period": "2026.10.23 08:00 ~ 2026.10.24 08:00",
-      "updatedAt": "2026.10.24 08:00 KST",
+      "latestDate": "2026.10.26",
+      "period": "2026.10.25 08:00 ~ 2026.10.26 08:00",
+      "updatedAt": "2026.10.26 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261026-1",
+          "date": "2026.10.26",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프 \"오늘은 공습 없다\"…카타르 중재단 테헤란 방문",
+          "summary": "트럼프 대통령이 25일(현지시간) 이란에 대한 즉각적인 군사 행동은 없다고 밝혔다. 그는 앞서 합의와 '끝장내기'를 저울질한다고 말했고, 카타르 중재단이 테헤란을 찾았다.",
+          "why": "이란과의 전쟁 재개 가능성이 커진 가운데 중재국들이 외교적 해법을 마지막으로 시도하고 있기 때문이다.",
+          "soWhat": "합의가 나오면 호르무즈 해협 긴장과 유가 압력이 완화되고, 결렬되면 공습이 재개돼 에너지 시장이 다시 흔들릴 수 있다.",
+          "context": {
+            "background": "미국과 이란은 올해 전쟁을 겪었고 호르무즈 해협 통항을 둘러싼 긴장이 이어져 왔으며 카타르·오만·파키스탄 등이 중재해 왔다.",
+            "issueContext": "아라그치 이란 외무장관은 이스라엘·미국과의 전쟁이 재개돼도 이란의 입장은 바뀌지 않는다고 말했고, 이란 외무부는 중재자를 통한 메시지 교환이 계속된다고 밝혔다.",
+            "coreQuestion": "트럼프의 공습 보류는 합의를 위한 시간 벌기일까요, 공격 전의 숨 고르기일까요?",
+            "resolution": "공습은 일단 보류됐지만 합의 타결 여부는 확인되지 않았고 중재 협상이 이어지고 있다."
+          },
+          "sources": [{ "name": "알자지라", "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached" }],
+          "related": {
+            "title": "Live Updates: Trump says he's weighing deal with Iran against action to \"finish them off\"",
+            "source": "CBS News",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/",
+            "type": "유사"
+          },
+          "topics": ["이란", "트럼프", "호르무즈해협", "중재외교", "유가"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261026-2",
+          "date": "2026.10.26",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 미시간 상원 선거 겨냥해 엘사이드 후보 공격 수위 높여",
+          "summary": "트럼프 대통령이 미시간주 포트휴런 유세에서 민주당 상원 후보 압둘 엘사이드를 향한 공세를 키웠다. AP는 무슬림인 그의 미국에 대한 충성심을 의심하고 극단주의와 엮는 발언이었다고 전했고, 엘사이드는 이를 부인했다.",
+          "why": "11월 3일 중간선거가 코앞이고 미시간 상원 의석이 접전 지역이라 후보 흔들기에 나선 것이다.",
+          "soWhat": "선거 막판 인종·종교 공방이 격화되며 미시간 판세와 중간선거 전체 분위기에 영향을 줄 수 있다.",
+          "context": {
+            "background": "트럼프는 주말에 조지아와 미시간에서 연달아 유세하며 중간선거 지원에 나섰다.",
+            "issueContext": "오바마 전 대통령도 민주당 후보 지원에 나서 트럼프를 '혼란과 잔인함'의 주체로 비판했다.",
+            "coreQuestion": "후보 개인을 겨냥한 공세는 지지층을 결집시킬까요, 역풍을 부를까요?",
+            "resolution": "엘사이드 후보는 트럼프의 주장을 부인했고 선거는 11월 3일 치러진다."
+          },
+          "sources": [{ "name": "PBS NewsHour", "url": "https://www.pbs.org/newshour/politics/trump-escalates-rhetoric-against-el-sayed-as-he-tries-to-undermine-democrat-in-michigan-senate-race" }],
+          "related": {
+            "title": "Trump in Georgia, Michigan this weekend ahead of 2026 midterm elections",
+            "source": "Fox News",
+            "url": "https://www.foxnews.com/live-news/trump-weekend-rallies-georgia-michigan-2026-midterm-elections",
+            "type": "다름"
+          },
+          "topics": ["중간선거", "트럼프", "선거", "상원"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261026-1",
+          "date": "2026.10.26",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "뉴욕증시, 유가 급등 압박에 하락…브렌트유 116.72달러",
+          "summary": "23일 뉴욕증시는 유가 급등에 하락 마감했다. S&P500은 0.52% 내린 7,623.68, 나스닥은 0.21% 내린 25,955.34였고 다우는 1.23% 내린 52,215.16을 기록했다.",
+          "why": "브렌트유가 3.1% 올라 2022년 6월 이후 최고치인 116.72달러에 마감하고 10년물 국채금리가 4.99%까지 오르면서 투자심리가 위축됐다.",
+          "soWhat": "이번 주 연준 회의와 빅테크 실적을 앞두고 유가·금리 부담이 이어지면 증시 변동성이 커질 수 있다.",
+          "context": {
+            "background": "브렌트유는 10월 초 97달러 아래에서 한 달도 안 돼 크게 올랐다.",
+            "issueContext": "S&P500 종목의 약 4분의 3이 하락했고 에너지만 뚜렷한 강세였다. 필라델피아 반도체지수는 전날 급락 뒤 0.44% 반등했다.",
+            "coreQuestion": "유가 상승은 증시 조정의 시작일까요, 일시적 충격일까요?",
+            "resolution": "지수는 하락 마감했고 시장의 관심은 연준 결정과 빅테크 실적으로 넘어갔다."
+          },
+          "sources": [{ "name": "워싱턴 타임스", "url": "https://www.washingtontimes.com/news/2026/oct/23/wall-street-loses-ground-friday-pressure-rising-oil-prices/" }],
+          "related": {
+            "title": "How major US stock indexes fared Friday 10/23/2026",
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
+            "type": "다름"
+          },
+          "topics": ["증시", "나스닥", "유가", "국채금리", "연준"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261026-2",
+          "date": "2026.10.26",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "연준 FOMC·빅테크 실적·GDP가 몰린 한 주 (10월 26~30일)",
+          "summary": "연준이 27~28일 FOMC에서 금리를 동결할 것이라는 전망이 우세하다. 선물시장은 10월 인상 확률을 10% 미만, 12월 인상 확률을 약 80%로 반영하고 있다.",
+          "why": "9월 연준이 2023년 이후 첫 인상을 단행했는데도 인플레이션이 목표치를 웃돌고 유가가 급등했기 때문이다.",
+          "soWhat": "워시 의장의 기자회견에서 12월 인상 신호가 나오는지, 알파벳·마이크로소프트·아마존 실적이 AI 투자 우려를 덜어내는지가 증시 방향을 가를 것이다.",
+          "context": {
+            "background": "케빈 워시 의장은 전통적인 포워드 가이던스를 거부하고 다른 위원들의 금리 전망과 거리를 둬 왔다.",
+            "issueContext": "FOMC 결과 발표는 수요일이고 이튿날 근원 PCE가 나온다. 나스닥은 6월 이후 가장 큰 일일 하락을 겪은 직후다.",
+            "coreQuestion": "연준은 동결 뒤 12월 인상을 예고할까요, 인상 시기를 앞당길까요?",
+            "resolution": "시장은 동결을 예상하지만 매파적 신호 여부는 회의 후 기자회견에서야 확인된다."
+          },
+          "sources": [{ "name": "Babypips", "url": "https://www.babypips.com/analysis/fundies-cheat-sheet-2026-10-26-fed-big-tech-oil-saudi" }],
+          "related": {
+            "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+            "type": "다름"
+          },
+          "topics": ["연준", "금리", "통화정책", "인플레이션", "나스닥"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261026-1",
+          "date": "2026.10.26",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "BBC, 트럼프 명예훼손 소송 증언녹취 강제 요청",
+          "summary": "BBC가 트럼프 대통령이 자신이 제기한 100억달러 소송에서 증언녹취에 응하도록 법원이 강제해 달라고 요청했다. 트럼프 측은 16일로 합의했던 일정을 취소하고 증거개시 종료일인 12월 18일 전에는 시간이 없다고 했다.",
+          "why": "트럼프 측이 '국가적으로 중요한 다른 사안'을 이유로 증언 일정을 미루자 BBC가 법원에 판단을 구했기 때문이다.",
+          "soWhat": "법원이 강제하면 현직 대통령이 선서 증언을 해야 하고, 일정이 밀리면 소송이 2027년으로 넘어갈 수 있다.",
+          "context": {
+            "background": "트럼프는 지난해 12월 다큐멘터리 'Trump: A Second Chance'를 문제 삼아 BBC를 상대로 100억달러 규모의 소송을 냈다.",
+            "issueContext": "트럼프 측은 증거개시 기간을 늘려 주면 2027년 1월 중순에 응할 수 있다고 제안했고 BBC는 지연 전략이라고 주장한다.",
+            "coreQuestion": "현직 대통령의 증언녹취를 미루는 것은 정당한 일정 조정일까요, 지연 전술일까요?",
+            "resolution": "담당 치안판사가 청문 일정을 잡고 양측에 답변을 요구했으나, 22일 청문 뒤 최종 결정은 검색으로 확인되지 않았다."
+          },
+          "sources": [{ "name": "News4Jax (AP)", "url": "https://www.news4jax.com/business/2026/10/15/bbc-asks-judge-to-force-trump-to-sit-for-deposition-in-his-own-lawsuit-against-the-channel/" }],
+          "related": {
+            "title": "judge warns trump of sanctions over conduct in bbc lawsuit",
+            "source": "Newsweek",
+            "url": "https://www.newsweek.com/judge-warns-trump-of-sanctions-over-conduct-in-bbc-lawsuit-12590264",
+            "type": "유사"
+          },
+          "topics": ["소송", "트럼프", "BBC", "언론"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261024-1",
           "date": "2026.10.24",
@@ -22781,10 +22981,110 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.24",
-      "period": "2026.10.23 08:00 ~ 2026.10.24 08:00",
-      "updatedAt": "2026.10.24 08:00 KST",
+      "latestDate": "2026.10.26",
+      "period": "2026.10.25 08:00 ~ 2026.10.26 08:00",
+      "updatedAt": "2026.10.26 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261026-1",
+          "date": "2026.10.26",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "크렘린 \"중국이 미·러·중 3자 정상회담 이미 준비 중\"",
+          "summary": "크렘린의 우샤코프 보좌관이 APEC 의장국인 중국이 러시아·미국·중국 정상회담을 이미 준비하고 있다고 밝혔다. 다만 3자 회담이 확정된 것은 아니다.",
+          "why": "우크라이나 전쟁 종식 논의를 위해 푸틴이 다음 달 3자 회동을 제안했고 트럼프도 19일 만날 의향이 있다고 밝혔기 때문이다.",
+          "soWhat": "11월 18~19일 선전 APEC에서 3자 또는 양자 회동이 성사되면 우크라이나 협상의 판도가 바뀔 수 있다.",
+          "context": {
+            "background": "우샤코프는 9월 초부터 세 정상이 선전 APEC에 참석할 것으로 보인다고 말해 왔다.",
+            "issueContext": "러시아는 의제와 기대 성과를 먼저 정해야 한다는 입장이고, 젤렌스키 대통령은 우크라이나 문제 논의에는 우크라이나가 참여해야 한다고 했다.",
+            "coreQuestion": "우크라이나 없는 3자 회담은 종전의 돌파구일까요, 당사자를 배제한 협상일까요?",
+            "resolution": "세 수도 모두 아이디어를 거부하지 않았지만 회담은 확정되지 않았고, 불발 시 양자 회담이 대안으로 거론된다."
+          },
+          "sources": [{ "name": "우크라인스카 프라우다", "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059094/" }],
+          "related": {
+            "title": "Kremlin signals possible three-way meeting at APEC summit between Putin, Trump, Xi",
+            "source": "키이우 인디펜던트",
+            "url": "https://kyivindependent.com/kremlin-signals-possible-three-way-meeting-at-apec-summit-between-putin-trump-xi/",
+            "type": "유사"
+          },
+          "topics": ["러시아", "우크라이나", "트럼프", "시진핑", "APEC"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261026-1",
+          "date": "2026.10.26",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 3분기 GDP 4.5% 성장…예상 웃돌았지만 증시는 하락",
+          "summary": "중국의 3분기 GDP 성장률이 전년 대비 4.5%로 시장 전망치 4.4%를 웃돌았다. 1~9월 성장률은 4.6%로 연간 목표 범위 4.5~5% 안에 들었다.",
+          "why": "수출과 공장 생산이 성장을 이끌었고 9월 산업생산 증가율이 5.5%로 높아졌기 때문이다.",
+          "soWhat": "고정자산투자와 부동산 부진이 계속돼 내수 회복 없이는 성장 동력이 수출에 치우친 구조가 이어진다.",
+          "context": {
+            "background": "2분기 성장률은 4.3%였고 3분기 전 분기 대비 성장률은 1.2%다.",
+            "issueContext": "1~9월 고정자산투자는 7.2%, 부동산 투자는 20.6% 감소했고 9월 소매판매 증가율은 1.1%에 그쳤다.",
+            "coreQuestion": "수출이 끌어올린 성장세는 내수 부진을 메울 수 있을까요, 한계에 부딪힐까요?",
+            "resolution": "발표 당일 상하이종합지수는 0.5% 내린 3,699, 선전성분지수는 0.9% 내린 11,702로 마감했다."
+          },
+          "sources": [{ "name": "CGTN", "url": "https://news.cgtn.com/news/2026-10-19/China-s-GDP-grows-4-5-in-Q3-1RmtO3rD0EU/p.html" }],
+          "related": {
+            "title": "Headline: China meets growth target but domestic demand remains weak",
+            "source": "Babypips",
+            "url": "https://www.babypips.com/news/headline-china-meets-growth-target-but-domestic-demand-remains-weak-2026-10-19",
+            "type": "반박"
+          },
+          "topics": ["GDP", "성장률", "내수", "수출", "부동산"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261026-1",
+          "date": "2026.10.26",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "올해 최강 태풍 참피, 대만 거쳐 중국 동부 해안으로",
+          "summary": "슈퍼태풍 참피가 올해 전 세계에서 가장 강한 폭풍으로 대만과 중국 동부를 향하고 있다. 중국 당국은 대피를 준비 중이며 대만 동쪽 해안 상륙은 토요일 무렵으로 예보됐다.",
+          "why": "올해 가장 강한 태풍이 서진하면서 대만·오키나와·중국 동부 해안이 한꺼번에 영향권에 들었기 때문이다.",
+          "soWhat": "원저우·닝보·항저우·상하이·샤먼 공항 등 주요 공항의 운항 차질과 대규모 대피가 이어질 수 있다.",
+          "context": {
+            "background": "21일 기준 중국 주요 공항의 대규모 결항은 아직 발표되지 않은 상태였다.",
+            "issueContext": "대만~오키나와 노선이 22일 결항했고 일본항공은 22~24일 섬 지역 9개 공항에서 다수 편을 결항시켰다.",
+            "coreQuestion": "대비 태세는 초강력 태풍의 피해를 줄이기에 충분할까요?",
+            "resolution": "실제 대피 인원과 중국 내 결항 규모는 검색으로 확인되지 않았다."
+          },
+          "sources": [{ "name": "SCMP", "url": "https://scmp.com/news/china/politics/article/3371627/strongest-storm-year-barrels-towards-taiwan-and-mainland-china" }],
+          "related": {
+            "title": "Typhoon Champi Cancels Flights Across Okinawa and Taiwan as JAL, ANA and China Airlines Cut Schedules",
+            "source": "Aerocorner",
+            "url": "https://aerocorner.com/news/typhoon-champi-okinawa-taiwan-flight-cancellations-jal-ana/",
+            "type": "다름"
+          },
+          "topics": ["태풍", "재난", "대만", "기후"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261026-2",
+          "date": "2026.10.26",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "창정4호을 로켓 '1발 6위성' 발사 성공",
+          "summary": "중국이 24일 새벽 3시 25분 주취안 발사센터에서 창정4호을 로켓으로 위성 6기를 발사했다. 위성은 요감 53호 07~09호와 요감 56호 19~21호다.",
+          "why": "요감 시리즈 위성을 계획대로 궤도에 올리는 발사로, 창정 시리즈의 673번째 비행이었다.",
+          "soWhat": "요감 위성이 추가돼 중국의 원격탐사 위성망이 더 늘어난다.",
+          "context": {
+            "background": "21일에는 타이위안 센터가 산둥 르자오 앞바다에서 구선싱1호(谷神星一号) 해상 발사형 로켓으로 위성을 올렸다.",
+            "issueContext": "이번 위성은 요감 시리즈 위성이며 임무 세부 용도는 공개되지 않았다.",
+            "coreQuestion": "중국의 잦은 위성 발사는 관측망 확대일까요, 군사적 목적의 강화일까요?",
+            "resolution": "발사는 성공했고 위성은 예정 궤도에 진입했다고 보도됐다."
+          },
+          "sources": [{ "name": "광명망", "url": "https://m.gmw.cn/2026-10/24/content_1304578722.htm" }],
+          "related": {
+            "title": "镜观中国·新华社国内新闻照片一周精选丨谷神星一号海射型遥八运载火箭发射成功",
+            "source": "소후닷컴(신화사)",
+            "url": "https://www.sohu.com/a/1092163344_267106",
+            "type": "다름"
+          },
+          "topics": ["우주", "위성", "발사", "과학기술"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261024-1",
           "date": "2026.10.24",
@@ -33475,10 +33775,35 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.24",
-      "period": "2026.10.23 08:00 ~ 2026.10.24 08:00",
-      "updatedAt": "2026.10.24 08:00 KST",
+      "latestDate": "2026.10.26",
+      "period": "2026.10.25 08:00 ~ 2026.10.26 08:00",
+      "updatedAt": "2026.10.26 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261026-1",
+          "date": "2026.10.26",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리, 농림상 경질 사과…후임 다케베에게도 의혹",
+          "summary": "다카이치 총리가 공직선거법 위반 의혹을 받은 야나 가즈오 농림수산상의 사표를 받아 사실상 경질하고 임명 책임을 사과했다. 15일 취임한 후임 다케베 아라타 농림상에게도 기업 헌금 의혹이 보도됐다.",
+          "why": "야나 전 농림상이 중의원 선거 때 지지자를 셔틀버스로 무료 송영한 의혹에 제대로 답하지 못해 경질됐다.",
+          "soWhat": "각료 불상사가 이어지면 내각 지지율이 더 떨어져 소비세 감세법안 심의 등 국회 운영에 부담이 된다.",
+          "context": {
+            "background": "다카이치 총리는 농림수산 부대신 경력을 중시해 다케베 신임 농림상을 기용했다.",
+            "issueContext": "경질 뒤 여론조사에서 내각 지지율은 49.1%로 출범 이후 처음 50% 아래로 떨어졌고, 경질 시기가 '너무 늦었다'는 응답이 57.7%였다.",
+            "coreQuestion": "각료 의혹은 개별 사안으로 수습될까요, 총리의 임명 책임 문제로 번질까요?",
+            "resolution": "총리가 임명 책임을 인정했으나 다케베 농림상의 헌금 의혹 사실관계는 아직 확인되지 않았다."
+          },
+          "sources": [{ "name": "구마모토일일신문(교도)", "url": "https://kumanichi.com/articles/2047176" }],
+          "related": {
+            "title": "4大臣炎上でも高市官邸は余裕シャクシャクだが…次に炸裂寸前の“時限爆弾”はまだいる！",
+            "source": "닛칸겐다이(Infoseek)",
+            "url": "https://news.infoseek.co.jp/article/gendainet_1258291/",
+            "type": "반박"
+          },
+          "topics": ["다카이치", "개각", "내각", "지지율", "자민당"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261024-1",
           "date": "2026.10.24",
