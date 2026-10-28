@@ -113,10 +113,135 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.27",
-      "period": "2026.10.26 08:00 ~ 2026.10.27 08:00",
-      "updatedAt": "2026.10.27 08:00 KST",
+      "latestDate": "2026.10.28",
+      "period": "2026.10.27 08:00 ~ 2026.10.28 08:00",
+      "updatedAt": "2026.10.28 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261028-1",
+          "date": "2026.10.28",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "민주당, 의총서 ‘조희대 국정조사’ 결론…내달 5일 본회의 요구서 보고 목표",
+          "summary": "더불어민주당이 27일 의원총회에서 조희대 대법원장에 대한 국정조사를 먼저 실시하기로 결론 냈다. 입법부가 사법부 수장을 상대로 국정조사를 추진하는 것은 처음이며, 요구서는 다음 달 5일 본회의 보고를 목표로 한다.",
+          "why": "탄핵에 앞서 대법관 후보자 재제청 거부, 국감 증인선서 거부, 업무추진비 논란 등의 근거를 확인해야 한다는 판단 때문이다.",
+          "soWhat": "국민의힘이 필리버스터와 장외투쟁을 예고해 11월 5일 본회의를 앞두고 여야 충돌 수위가 한층 높아질 전망이다.",
+          "context": {
+            "background": "민주당은 국정감사 기간 내내 조 대법원장의 탄핵 논의를 당 차원에서 이어 왔고, 전날까지는 국정조사 우선과 즉각 탄핵 사이에서 의견이 갈렸다.",
+            "issueContext": "당 지도부는 당장 탄핵 논의는 없다는 입장이지만, 국민의힘은 국정조사를 탄핵으로 가는 전 단계로 본다.",
+            "coreQuestion": "이번 국정조사는 사법부 수장의 의혹을 가리는 정당한 견제일까요, 사법부를 압박하는 정치적 수순일까요?",
+            "resolution": "구체적인 조사 일정은 정해지지 않았고, 요구서가 다음 달 5일 본회의에서 처리될지가 첫 관문이다."
+          },
+          "sources": [{ "name": "서울신문", "url": "https://www.seoul.co.kr/news/politics/congress/2026/10/28/20261028001003" }],
+          "related": {
+            "title": "국민의힘, 與 조희대 국정조사 추진에 \"李 탄핵 사유\" 반발",
+            "source": "한국일보",
+            "url": "https://www.hankookilbo.com/news/article/A2026102720270001328",
+            "type": "반박"
+          },
+          "topics": ["국정조사", "대법원", "조희대", "탄핵", "여야갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261028-2",
+          "date": "2026.10.28",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "與, 대장동 등 조작기소 사례보고회…특검법 처리 사전작업 착수",
+          "summary": "범여권이 28일 국회에서 대장동 등 이른바 조작기소 사건 사례보고회를 열고 특검법 처리 사전 작업에 들어갔다. 국민의힘은 이를 이재명 대통령 사건의 공소취소 시도라고 비판한다.",
+          "why": "정기국회 안에 조작기소 특검법을 처리하려면 국정감사 직후 여론과 당내 이견을 정리할 명분이 필요하기 때문이다.",
+          "soWhat": "공소취소권 조항 삭제 여부와 수사 대상 범위가 정해지면서 특검법 처리 일정과 여야 대치 강도가 갈릴 것이다.",
+          "context": {
+            "background": "민주당은 4월 대장동·쌍방울 대북송금 사건 등을 수사 대상으로 하는 특검법을 발의했지만 처리를 미뤄 왔다.",
+            "issueContext": "초안의 공소취소권이 논란이 되자 대통령이 해당 조항 삭제를 요청했다고 보도됐고, 대통령 연루 사건까지 포함할지를 두고 당내 이견도 있다.",
+            "coreQuestion": "조작기소 특검은 검찰 수사의 잘못을 바로잡는 절차일까요, 대통령 관련 재판을 무력화하는 수단일까요?",
+            "resolution": "보고회 결과와 특검법 최종 수정안은 아직 확인되지 않았다."
+          },
+          "sources": [{ "name": "뉴스1", "url": "https://www.news1.kr/politics/assembly/6333760" }],
+          "related": {
+            "title": "민주, 민생보단 탄핵·특검 … 물가·집값 뛰고 증시는 휘청",
+            "source": "뉴데일리",
+            "url": "https://newdaily.co.kr/site/data/html/2026/10/27/2026102700120.html",
+            "type": "반박"
+          },
+          "topics": ["특검", "조작기소", "공소취소", "여야갈등", "국정감사"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261028-1",
+          "date": "2026.10.28",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "SK하이닉스, 3분기 영업익 83조 ‘역대 최대’…100조 주주환원",
+          "summary": "SK하이닉스가 3분기 매출 104조6155억원, 영업이익 83조3338억원으로 분기 기준 사상 최대 실적을 냈다. 영업이익률은 80%이고 이사회는 주당 2만원 배당과 자사주 20조원 매입을 결의했다.",
+          "why": "HBM4 출하가 본격화되고 서버용 DDR5와 기업용 SSD 판매가 크게 늘었기 때문이다.",
+          "soWhat": "29일 삼성전자 실적과 주주환원 발표까지 이어지며 반도체 업종과 코스피 방향을 좌우할 변수가 된다.",
+          "context": {
+            "background": "SK하이닉스는 8월에 자사주 40조원 매입·소각을 발표했고 올해 총 100조원 안팎의 주주환원을 추진한다.",
+            "issueContext": "이번 실적은 시장 전망치를 영업이익 기준 약 6조원 웃돌았고, 새로 매입하는 20조원 중 약 10조원은 임직원 보상용이라 환원 규모에서 제외된다.",
+            "coreQuestion": "이번 어닝 서프라이즈는 메모리 초호황의 정점일까요, 아직 중간 지점일까요?",
+            "resolution": "배당금 14조원과 자사주 매입은 결의됐고, 이후 주가 재평가 여부는 시장 반응을 지켜봐야 한다."
+          },
+          "sources": [{ "name": "뉴스핌", "url": "https://www.newspim.com/news/view/20261028000155" }],
+          "related": {
+            "title": "SK하이닉스, 주주환원 100조원 규모…3분기 배당 주당 2만원",
+            "source": "세계일보",
+            "url": "https://www.segye.com/newsView/20261028503920",
+            "type": "유사"
+          },
+          "topics": ["반도체", "SK하이닉스", "주주환원", "실적", "HBM"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261028-2",
+          "date": "2026.10.28",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "앤트로픽 역대 최대 IPO 추진…국내 증시 ‘바닥 논쟁’ 커진다",
+          "summary": "앤트로픽이 상장을 위한 증권신고서를 제출하자 27일 코스피는 3.09% 오른 5638.34에 마감하며 5600선을 회복했다. 삼성전자와 SK하이닉스 등 반도체 대형주가 상승을 이끌었다.",
+          "why": "앤트로픽의 매출 급증과 영업손실 축소 소식이 AI 수익성 우려를 누그러뜨리며 반도체주 투자심리를 되살렸기 때문이다.",
+          "soWhat": "AI 투자 사이클에 대한 기대가 지수를 좌우하는 만큼 SK하이닉스·삼성전자 실적과 빅테크 실적이 다음 변곡점이 된다.",
+          "context": {
+            "background": "코스피는 26일 외국인 6955억원 순매도로 1.46% 하락한 5469.47에 마감해 7개월 만의 최저 수준까지 밀렸다.",
+            "issueContext": "27일에는 외국인이 5900억원대를 순매수로 돌아섰고 반도체 대형주에서 장비·기판주까지 상승이 번졌다.",
+            "coreQuestion": "이번 반등은 바닥 확인일까요, 일시적인 기술적 반등일까요?",
+            "resolution": "27일 종가 기준으로 5600선을 회복했지만 지속 여부는 이번 주 실적 발표에 달려 있다."
+          },
+          "sources": [{ "name": "한국경제", "url": "https://www.hankyung.com/article/202610276552i" }],
+          "related": {
+            "title": "삼전닉스 넘어 장비·기판주까지…앤트로픽 IPO에 반도체 ‘훨훨’",
+            "source": "뉴스1",
+            "url": "https://www.news1.kr/finance/market-exr/6333716",
+            "type": "유사"
+          },
+          "topics": ["코스피", "증시", "반도체", "AI", "외국인"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261028-1",
+          "date": "2026.10.28",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "기후장관 “AI 데이터센터 전력수요, 12차 전기본에 다 넣을 수 없어”…축소 시사",
+          "summary": "김성환 기후에너지환경부 장관이 26일 국감에서 AI 데이터센터 전력수요 전망을 12차 전력수급기본계획에 모두 반영하기 어렵다며 축소 가능성을 시사했다. 2040년 전망이 과대 추계됐다는 지적에 따른 것이다.",
+          "why": "기업 투자계획이 확정되지 않은 상태에서 AI 전력수요를 검증 없이 반영했다는 비판이 국감에서 제기됐기 때문이다.",
+          "soWhat": "전력수요 전망이 낮아지면 발전소 증설 규모와 한전 재무 계획, 데이터센터 입지 정책이 함께 조정될 수 있다.",
+          "context": {
+            "background": "8월 총괄위원회는 2040년 전력수요 전망을 138.2GW에서 165GW로 올렸고 AI 데이터센터 몫은 종전의 약 3배인 11.9GW로 잡았다.",
+            "issueContext": "장관은 이달 6일에도 과잉 추계된 측면이 있다고 인정했고, 한전은 중동 전쟁 등으로 수익성이 악화돼 있다.",
+            "coreQuestion": "AI 전력수요 전망 축소는 현실을 반영한 보정일까요, 전력 인프라 부족을 부를 위험한 판단일까요?",
+            "resolution": "축소 폭은 확정되지 않았고 12차 전기본 확정 과정에서 정해질 예정이다."
+          },
+          "sources": [{ "name": "머니투데이", "url": "https://www.mt.co.kr/economy/2026/10/26/2026102615185617675" }],
+          "related": {
+            "title": "[2026 국감] 기후부, AI 전력수요 검증도 없이 반영했나…실현 가능성 '의문'",
+            "source": "뉴스핌",
+            "url": "https://www.newspim.com/news/view/20261026001188",
+            "type": "다름"
+          },
+          "topics": ["데이터센터", "전력수요", "AI", "에너지", "국정감사"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261027-1",
           "date": "2026.10.27",
@@ -11733,10 +11858,135 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.27",
-      "period": "2026.10.26 08:00 ~ 2026.10.27 08:00",
-      "updatedAt": "2026.10.27 08:00 KST",
+      "latestDate": "2026.10.28",
+      "period": "2026.10.27 08:00 ~ 2026.10.28 08:00",
+      "updatedAt": "2026.10.28 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261028-1",
+          "date": "2026.10.28",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 텃밭 미시시피까지 유세…“위험을 감수할 수 없다”",
+          "summary": "트럼프 대통령이 중간선거를 8일 앞두고 공화당 텃밭인 미시시피에서 하이드스미스 상원의원 지원 유세를 열었다. 공화당이 안전하다고 여기던 의석까지 방어해야 하는 처지를 보여 준다.",
+          "why": "물가와 이란 전쟁 등에 대한 유권자 불만이 커지면서 민주당이 경합 지역을 넓혔고 공화당은 투표율 하락을 우려하기 때문이다.",
+          "soWhat": "11월 3일 선거에서 상원 다수당이 갈리는 만큼 남은 일주일의 유세와 자금 배분이 판세를 좌우한다.",
+          "context": {
+            "background": "민주당은 상원 51대 49 다수당을 위해 순증 4석이 필요하고 하원 435석 전체와 상원 35석이 걸려 있다.",
+            "issueContext": "텍사스, 미시간, 사우스캐롤라이나 등에서도 트럼프가 직접 유세에 나서고 있다.",
+            "coreQuestion": "공화당의 텃밭 유세는 투표율 단속을 위한 보험일까요, 판세 악화의 신호일까요?",
+            "resolution": "최근 여론조사는 하이드스미스가 근소하게 앞선 것으로 나오지만 결과는 11월 3일 투표로 가려진다."
+          },
+          "sources": [{ "name": "CNN", "url": "https://www.cnn.com/2026/10/26/politics/live-news/midterm-election-congress" }],
+          "related": {
+            "title": "GOP Senator Lets Trump Do All the Talking at Her Own Rally",
+            "source": "Mediaite",
+            "url": "https://www.mediaite.com/media/news/gop-senator-lets-trump-do-all-the-talking-at-her-own-rally-after-giving-a-9-word-speech/",
+            "type": "다름"
+          },
+          "topics": ["중간선거", "트럼프", "상원", "공화당", "유세"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261028-2",
+          "date": "2026.10.28",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "美 법원, 캘리포니아 우편투표 2만 건 보류 요구 기각",
+          "summary": "연방 제9순회항소법원이 트럼프 행정부가 요구한 캘리포니아 우편투표 약 2만 건 보류 요청을 기각했다. 행정부는 해당 유권자가 비시민권자라고 주장해 왔다.",
+          "why": "선거를 앞두고 행정부가 비시민권자 투표 의혹을 근거로 투표 관리에 개입하려 했기 때문이다.",
+          "soWhat": "선거 직전 투표 효력을 둘러싼 소송이 이어질 가능성이 커서 개표와 인증 단계의 법적 분쟁이 선거 결과 이후까지 번질 수 있다.",
+          "context": {
+            "background": "법무부는 알래스카 상원 선거 인증을 막으려는 별도 소송도 제기해 둔 상태다.",
+            "issueContext": "트럼프는 소셜미디어에서 미네소타 상원 선거에서도 부정을 주장할 여지를 둔 것으로 해석되는 글을 올렸다.",
+            "coreQuestion": "행정부의 투표 개입 시도는 선거 공정성을 지키는 조치일까요, 선거 결과를 흔드는 압박일까요?",
+            "resolution": "항소법원은 보류 요청을 받아들이지 않았고 투표는 그대로 집계될 전망이다."
+          },
+          "sources": [{ "name": "Al Jazeera", "url": "https://aljazeera.com/news/2026/10/27/us-court-rules-against-trump-administration-in-california-voting-case" }],
+          "related": {
+            "title": "Midterms live updates: Trump and Talarico holding rallies in Lubbock, Texas",
+            "source": "CNN",
+            "url": "https://www.cnn.com/2026/10/27/politics/live-news/midterm-election-congress",
+            "type": "유사"
+          },
+          "topics": ["중간선거", "투표", "법원", "트럼프", "캘리포니아"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261028-1",
+          "date": "2026.10.28",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "워시 연준, 이번 주 FOMC 동결 유력…12월 인상 가능성은 열려 있다",
+          "summary": "연준은 27~28일 FOMC에서 기준금리를 동결할 가능성이 크다는 전망이 지배적이다. 물가가 높고 유가가 비싸 12월 추가 인상 관측은 남아 있다.",
+          "why": "9월 소비자물가가 3.7%로 예상을 웃돌고 중동 전쟁으로 유가가 높은 수준을 유지하고 있기 때문이다.",
+          "soWhat": "워시 의장이 회견에서 인상 여지를 얼마나 열어 두는지에 따라 금리 경로 기대와 증시가 움직일 것이다.",
+          "context": {
+            "background": "연준은 9월 회의에서 2023년 이후 처음으로 금리를 올렸고 현재 정책금리는 3.75~4.00%다.",
+            "issueContext": "트레이더들은 이번 회의 동결 확률을 90% 넘게 보지만 워시 의장은 향후 회의에서 무엇을 할지 미리 말하지 않겠다고 밝혀 왔다.",
+            "coreQuestion": "연준의 동결은 인플레이션 대응의 일시 정지일까요, 인상 사이클의 끝일까요?",
+            "resolution": "결정과 의장 회견은 28일 나올 예정이며 현재까지 결과는 확인되지 않았다."
+          },
+          "sources": [{ "name": "Euronews", "url": "https://www.euronews.com/2026/10/27/what-to-expect-from-the-fed-as-warsh-weighs-hot-inflation-oil-and-us-midterms" }],
+          "related": {
+            "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+            "type": "반박"
+          },
+          "topics": ["연준", "금리", "물가", "유가", "워시"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261028-2",
+          "date": "2026.10.28",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "보잉, 3분기 조정손실 예상보다 커져…주가 장중 10% 급락",
+          "summary": "보잉이 3분기 주당 조정손실 34센트로 시장 예상(21센트)보다 큰 손실을 냈고 주가는 장중 한때 10%가량 급락했다. 상업용 항공기 부문이 6억9700만 달러의 영업손실을 기록했다.",
+          "why": "상업용 항공기 생산 문제가 이어지면서 이 부문 매출이 3% 줄고 손실이 계속됐기 때문이다.",
+          "soWhat": "방산 부문의 호조에도 민항기 생산 정상화가 늦어지면 현금흐름 개선 기대와 주가 회복이 지연될 수 있다.",
+          "context": {
+            "background": "보잉은 지난해 같은 분기 53억 달러 순손실을 냈고 이번 분기 GAAP 순손실은 1억1600만 달러로 줄었다.",
+            "issueContext": "방산 부문 매출은 15% 늘고 수주잔고는 사상 최대이지만 주가는 52주 최저 수준까지 밀렸다.",
+            "coreQuestion": "보잉의 손실 축소는 회복의 신호일까요, 부진이 길어지는 구조적 문제일까요?",
+            "resolution": "경영진은 재무 불확실성이 줄고 있다고 밝혔지만 시장은 손실 폭에 먼저 반응했다."
+          },
+          "sources": [{ "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-reports-wider-expected-q3-143229690.html" }],
+          "related": {
+            "title": "Boeing CEO Says Financial Uncertainty Is Narrowing Despite Wider-Than-Expected Loss",
+            "source": "Benzinga",
+            "url": "https://www.benzinga.com/markets/earnings/26/10/62623312/boeing-ceo-says-financial-uncertainty-is-narrowing-despite-wider-than-expected-loss",
+            "type": "반박"
+          },
+          "topics": ["보잉", "실적", "증시", "항공", "방산"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261028-1",
+          "date": "2026.10.28",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "앤트로픽 IPO 서류 공개…상반기 매출 163억 달러, 순손실 807억 달러",
+          "summary": "앤트로픽이 26일 증권신고서(S-1)를 제출해 상반기 매출 163억 달러(전년 대비 약 1300% 증가)와 순손실 807억 달러를 공개했다. 보도된 목표 기업가치는 1조5000억~2조 달러다.",
+          "why": "AI 수요 급증으로 매출이 폭증했지만 대규모 컴퓨팅 투자 약정과 전환사채 평가 손실이 순손실을 키웠기 때문이다.",
+          "soWhat": "역대급 규모의 상장이 성사되면 AI 기업 가치평가의 기준이 되고 반도체·데이터센터 투자 심리에도 영향을 줄 것이다.",
+          "context": {
+            "background": "앤트로픽은 나스닥에서 티커 ANT로 상장을 추진한다는 보도가 나왔고 공모가와 주식 수는 아직 정해지지 않았다.",
+            "issueContext": "순손실의 대부분은 전환사채 가치 변동에 따른 회계상 비용이라는 설명이 있고, 취소 불가능한 약정이 약 4980억 달러라는 지적도 나온다.",
+            "coreQuestion": "앤트로픽의 높은 기업가치는 정당한 성장 프리미엄일까요, 과열된 기대일까요?",
+            "resolution": "가격 범위와 상장 일정은 확정되지 않았고 시장 반응이 갈리고 있다."
+          },
+          "sources": [{ "name": "Fortune", "url": "https://fortune.com/2026/10/26/anthropics-s-1/" }],
+          "related": {
+            "title": "AI giant Anthropic files for an IPO that could break records",
+            "source": "NPR",
+            "url": "https://www.npr.org/2026/10/26/nx-s1-6014772/anthropic-ai-ipo-could-break-records",
+            "type": "유사"
+          },
+          "topics": ["앤트로픽", "IPO", "AI", "기업가치", "투자"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261027-1",
           "date": "2026.10.27",
@@ -23056,10 +23306,85 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.27",
-      "period": "2026.10.26 08:00 ~ 2026.10.27 08:00",
-      "updatedAt": "2026.10.27 08:00 KST",
+      "latestDate": "2026.10.28",
+      "period": "2026.10.27 08:00 ~ 2026.10.28 08:00",
+      "updatedAt": "2026.10.28 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261028-1",
+          "date": "2026.10.28",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 공산당 20기 5중전회 개막…기강 확립 속 시진핑 장기집권 포석 관측",
+          "summary": "중국 공산당이 26일 20기 중앙위원회 5차 전체회의를 열어 29일까지 전면적 종엄치당 관련 결정을 논의한다. 외신은 내년 지도부 개편에서 시진핑 체제를 5년 더 잇기 위한 포석으로 해석한다.",
+          "why": "당 기율을 다잡고 간부들이 중앙의 지시를 이행하도록 압박하려는 취지다.",
+          "soWhat": "회의 결과로 나올 결정문과 인사 내용이 내년 지도부 개편의 방향을 가늠하는 단서가 된다.",
+          "context": {
+            "background": "15차 5개년 계획 건의는 23일 폐막한 4중전회에서 이미 채택됐다.",
+            "issueContext": "시진핑은 정치국을 대표해 업무보고를 하고 종엄치당 결정 초안을 설명했다. 일부 중앙위원이 낙마했다는 관측도 외부 매체에서 나온다.",
+            "coreQuestion": "이번 전체회의는 당 기율 정비일까요, 권력 집중을 위한 정지 작업일까요?",
+            "resolution": "공식 공보는 29일 폐막 이후 나올 예정이어서 최종 문건은 아직 확인되지 않았다."
+          },
+          "sources": [{ "name": "U.S. News(Reuters)", "url": "https://www.usnews.com/news/world/articles/2026-10-25/chinas-communist-party-opens-fifth-plenum" }],
+          "related": {
+            "title": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+            "source": "新华网",
+            "url": "https://www.news.cn/politics/leaders/20261026/a85b8690693240b39c87fef4c5540220/c.html",
+            "type": "다름"
+          },
+          "topics": ["중전회", "시진핑", "공산당", "기강", "지도부"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20261028-2",
+          "date": "2026.10.28",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "시진핑, 후쿠다 전 총리 유족에 조전…“4개 정치문서 지켜야” 다카이치 정권에 주문",
+          "summary": "시진핑 주석이 22일 별세한 후쿠다 야스오 전 일본 총리의 유족에 조전을 보내 일본 현 정권이 1972년 공동성명 등 4개 정치문서를 지켜야 한다고 밝혔다. 총리가 아닌 유족을 수신인으로 택한 점도 눈에 띈다.",
+          "why": "다카이치 총리의 대만 유사시 관련 국회 답변 이후 악화된 중일 관계에 대해 중국이 입장을 재확인하려는 것으로 해석된다.",
+          "soWhat": "양국 관계가 풀릴지는 일본이 정치문서 준수에 어떤 답을 내놓는지에 달려 있다.",
+          "context": {
+            "background": "중일 관계는 지난해 말부터 냉각돼 있었고 시진핑이 양국 관계를 직접 언급하는 일은 드물다.",
+            "issueContext": "시진핑은 후쿠다를 중국의 오랜 친구로 평가하며 올바른 역사관을 견지했다고 말했다.",
+            "coreQuestion": "이번 조전은 대화의 문을 여는 신호일까요, 일본에 대한 압박일까요?",
+            "resolution": "일본 정부의 공식 반응은 검색으로 확인되지 않았다."
+          },
+          "sources": [{ "name": "時事通信", "url": "https://www.jiji.com/jc/article?k=2026102701042&g=int&m=rss" }],
+          "related": {
+            "title": "2026年10月27日外交部发言人郭嘉昆主持例行记者会",
+            "source": "중국 외교부",
+            "url": "https://www.fmprc.gov.cn/fyrbt_673021/jzhsl_673025/202610/t20261027_12047706.shtml",
+            "type": "다름"
+          },
+          "topics": ["중일관계", "시진핑", "다카이치", "외교", "역사"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261028-1",
+          "date": "2026.10.28",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 9월 산업이익 14.4% 증가…AI 호황에 3개월 만에 최고",
+          "summary": "중국 국가통계국에 따르면 9월 규모 이상 산업기업 이익이 전년 대비 14.4% 늘어 3개월 만에 가장 빠른 증가세를 보였다. 1~9월 누적은 15.5% 증가했다.",
+          "why": "AI 관련 전자 제조업과 광업 등 상류 원자재 업종의 이익이 크게 늘었기 때문이다.",
+          "soWhat": "이익 회복이 일부 업종에 쏠려 있어 내수 부진과 가격 경쟁이 이어지면 체감 경기와의 괴리가 커질 수 있다.",
+          "context": {
+            "background": "1~9월 이익 규모는 6조300억 위안이고 광업은 38.2%, 제조업은 17.0% 늘었지만 유틸리티는 14.3% 줄었다.",
+            "issueContext": "일부 분석은 기업 전반의 수익성은 여전히 약하다고 보며, CSI300 지수가 약세장에 들어섰다는 보도도 있다.",
+            "coreQuestion": "산업이익 반등은 경기 회복의 신호일까요, 일부 업종 쏠림에 그칠까요?",
+            "resolution": "9월 지표는 반등했지만 업종별 격차가 확인됐고 이후 지표를 더 봐야 한다."
+          },
+          "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html" }],
+          "related": {
+            "title": "China's industrial profits surge most in 3 months on oil",
+            "source": "BusinessMirror",
+            "url": "https://businessmirror.com.ph/2026/10/27/chinas-industrial-profits-surge-most-in-3-months-on-oil/",
+            "type": "다름"
+          },
+          "topics": ["산업이익", "AI", "반도체", "내수", "증시"],
+          "review": "pending"
+        },
         {
           "id": "cn-eco-20261027-1",
           "date": "2026.10.27",
@@ -33900,10 +34225,85 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.27",
-      "period": "2026.10.26 08:00 ~ 2026.10.27 08:00",
-      "updatedAt": "2026.10.27 08:00 KST",
+      "latestDate": "2026.10.28",
+      "period": "2026.10.27 08:00 ~ 2026.10.28 08:00",
+      "updatedAt": "2026.10.28 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261028-1",
+          "date": "2026.10.28",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중의원 정수 31석 삭감안 놓고 각당 이견…28일 재협의",
+          "summary": "여야 9개 정당이 27일 중의원 선거제도 실무 협의를 열었고 자민당이 비례 31석 삭감을 포함한 절충안을 정식 제시했다. 연립 파트너인 유신회는 45석 삭감을 요구해 입장 차가 남았다.",
+          "why": "여야가 이달 말까지 선거제도 개편안에 합의하겠다는 목표를 세웠기 때문이다.",
+          "soWhat": "28일 각당이 찬반을 밝히면 자민당 절충안으로 결론이 나는지, 유신회의 반발로 합의가 미뤄지는지 갈린다.",
+          "context": {
+            "background": "제222회 임시국회는 10월 6일 소집됐고 유신회 각료가 입각한 제2차 다카이치 개조내각이 처음 맞는 논전이다.",
+            "issueContext": "국민민주당은 자민당안을 평가하는 입장이고 유신회는 조세특별조치 재검토 등 별도의 요구도 내놓고 있다.",
+            "coreQuestion": "자민당의 31석 절충안은 합의의 출발점일까요, 연립 내 갈등의 불씨일까요?",
+            "resolution": "28일 열리는 다음 협의에서 각당의 입장이 정리될 예정이다."
+          },
+          "sources": [{ "name": "NHK", "url": "https://news.web.nhk/newsweb/na/nd-20261027de66067" }],
+          "related": {
+            "title": "自民、比例３１減で集約目指す 国民・維新の対応焦点",
+            "source": "時事通信",
+            "url": "https://www.jiji.com/jc/article?k=2026102701036&g=pol&m=rss",
+            "type": "유사"
+          },
+          "topics": ["중의원", "정수삭감", "자민당", "유신회", "국회"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261028-1",
+          "date": "2026.10.28",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이 평균 4거래일 만에 반등…1078엔 오른 6만3268엔",
+          "summary": "27일 도쿄 증시에서 닛케이 평균이 전일 대비 1078.72엔(1.73%) 오른 6만3268.37엔에 마감했다. 미국 앤트로픽의 IPO 신청 소식에 AI·반도체주가 매수세를 끌었다.",
+          "why": "미국 증시 호조와 AI·반도체 관련주 매수가 겹쳤고 어드밴테스트 한 종목이 지수를 약 600엔 끌어올렸다.",
+          "soWhat": "이번 주 일본은행 회의와 미국 빅테크 실적이 반등 지속 여부를 가를 것이다.",
+          "context": {
+            "background": "닛케이 평균은 전일 6만2189.65엔으로 3거래일 연속 하락한 뒤 반등했다.",
+            "issueContext": "장중 한때 1400엔 넘게 올랐지만 오후장에서 상승폭이 줄었다.",
+            "coreQuestion": "이번 반등은 AI 장세의 재개일까요, 단기 낙폭 만회일까요?",
+            "resolution": "27일 종가 기준 6만3268.37엔으로 마감했다."
+          },
+          "sources": [{ "name": "株探", "url": "https://kabutan.jp/news/marketnews/?b=n202610270838" }],
+          "related": {
+            "title": "日経平均は1041円高、企業決算や米経済指標に関心",
+            "source": "ZAiTEN",
+            "url": "https://www.zaikei.co.jp/article/20261027/875078.html",
+            "type": "유사"
+          },
+          "topics": ["닛케이", "증시", "반도체", "AI", "실적"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261028-2",
+          "date": "2026.10.28",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "일본은행 10월 회의 정책 유지 전망…2% 물가 도달 여부가 관건",
+          "summary": "일본은행은 29~30일 금융정책결정회의에서 정책금리를 1.25%로 동결할 것으로 전망된다. 기조적 물가상승률이 2% 목표에 사실상 도달했다는 판단을 밝힐지가 초점이다.",
+          "why": "9월 회의에서 금리를 올린 효과를 지켜보려는 것이다.",
+          "soWhat": "많은 이코노미스트가 다음 인상 시점을 12월로 보고 있어 이번 경제·물가 전망 문구가 12월 인상 신호로 읽힐 수 있다.",
+          "context": {
+            "background": "일본은행은 9월에 정책금리를 인상했고 식품과 원유 가격 상승이 이어지고 있다.",
+            "issueContext": "동결은 정책위원 9명의 다수결로 정해질 것으로 보이며 결과는 30일 정오께 발표될 예정이다.",
+            "coreQuestion": "일본은행의 동결은 인상 사이클의 일시 정지일까요, 12월 인상을 위한 숨 고르기일까요?",
+            "resolution": "회의 결과는 아직 나오지 않았고 총재 회견은 30일 15시 30분 예정이다."
+          },
+          "sources": [{ "name": "NHK", "url": "https://news.web.nhk/newsweb/na/nd-20261025de65328" }],
+          "related": {
+            "title": "日銀10月会合、連続利上げ見送りへ 2%物価目標は事実上到達",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUB20ANG0Q6A021C2000000/",
+            "type": "유사"
+          },
+          "topics": ["일본은행", "금리", "물가", "통화정책", "국채"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261027-1",
           "date": "2026.10.27",
