@@ -113,10 +113,135 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.10.28",
-      "period": "2026.10.27 08:00 ~ 2026.10.28 08:00",
-      "updatedAt": "2026.10.28 08:00 KST",
+      "latestDate": "2026.10.29",
+      "period": "2026.10.28 08:00 ~ 2026.10.29 08:00",
+      "updatedAt": "2026.10.29 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261029-1",
+          "date": "2026.10.29",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "윤석열 '내란 우두머리' 항소심 오늘 결심 시작…특검 구형 주목",
+          "summary": "서울고법이 29일 윤석열 전 대통령의 내란 우두머리 혐의 항소심 결심 절차를 시작했다. 특검은 1심처럼 사형을 구형할 것이라는 전망이 우세하지만 실제 구형은 확인되지 않았다.",
+          "why": "항소심 심리가 마무리 단계에 들어가 최종 의견과 구형을 밝히는 절차가 열렸기 때문이다.",
+          "soWhat": "피고인 측 최종변론(다음 달 3일·5일) 이후 선고 일정이 잡히면 계엄 책임에 대한 사법 판단이 확정 국면으로 간다.",
+          "context": {
+            "background": "1심에서 특검은 사형을 구형했고 법원은 무기징역을 선고했다.",
+            "issueContext": "윤 전 대통령 측은 계엄이 '메시지성'이었다고 주장하며 내란죄 성립을 다투고 있다.",
+            "coreQuestion": "항소심은 1심의 무기징역 판단을 유지할까요, 달리 볼까요?",
+            "resolution": "구형 내용과 선고기일은 아직 확인되지 않았다."
+          },
+          "sources": [{ "name": "쿠키뉴스", "url": "https://www.kukinews.com/article/view/kuk202610290005" }],
+          "related": {
+            "title": "'메시지성 계엄' 주장 윤석열…오늘 2심 재판부 최종 판단",
+            "source": "진일보",
+            "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000077679",
+            "type": "반박"
+          },
+          "topics": ["내란", "윤석열", "항소심", "대법원", "계엄"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261029-2",
+          "date": "2026.10.29",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "국민의힘 \"조희대 국조, 사법체계 흔드는 오만\"…필리버스터 등 강경 대응",
+          "summary": "국민의힘이 민주당의 조희대 대법원장 국정조사 추진을 사법부 탄압으로 규정하고 필리버스터를 포함한 강경 대응을 예고했다. 다만 요구서는 필리버스터 대상이 아니어서 본회의 지연 효과는 제한적이라는 분석이 나온다.",
+          "why": "국민의힘은 국정조사를 대법원장 탄핵으로 가는 사전 작업으로 보기 때문이다.",
+          "soWhat": "11월 5일 본회의를 앞두고 조사계획서 처리, 보이콧, 장외투쟁 여부를 놓고 여야 충돌이 커질 전망이다.",
+          "context": {
+            "background": "민주당은 27일 의원총회에서 탄핵에 앞서 국정조사를 먼저 실시하기로 결론 냈다.",
+            "issueContext": "국민의힘은 필리버스터, 국조 보이콧, 장외투쟁을 저울질하지만 원내 수단의 한계도 지적된다.",
+            "coreQuestion": "국정조사는 사법부 견제일까요, 사법부 압박일까요?",
+            "resolution": "본회의 보고는 11월 5일로 예정돼 있고 구체적 대응은 의원총회 결정에 달려 있다."
+          },
+          "sources": [{ "name": "데일리안", "url": "https://www.dailian.co.kr/news/view/1707510/%EA%B5%AD%EB%AF%BC%EC%9D%98%ED%9E%98-%EC%A1%B0%ED%9D%AC%EB%8C%80-%EA%B5%AD%EC%A1%B0-%EC%82%AC%EB%B2%95%EC%B2%B4%EA%B3%84-%ED%9D%94%EB%93%9C-2026" }],
+          "related": {
+            "title": "조희대 없는 '조희대 국조'에 고심하는 與…내부서도 회의론",
+            "source": "서울경제",
+            "url": "https://m.sedaily.com/article/20107244",
+            "type": "반박"
+          },
+          "topics": ["국정조사", "대법원", "조희대", "탄핵", "여야갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261029-1",
+          "date": "2026.10.29",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "반도체 부담 던 코스피, 10월 말 반등…연말 상승 기대감",
+          "summary": "코스피가 28일 SK하이닉스 실적과 주주환원 발표에 6.63% 급등한 6012.44로 마감하며 10거래일 만에 6000선을 회복했다. 외국인과 기관이 각각 8000억원대, 9000억원대를 순매수했다.",
+          "why": "SK하이닉스의 역대급 실적이 반도체 대형주 매수를 이끌었기 때문이다.",
+          "soWhat": "미국 FOMC 이후 외국인 수급이 이어지면 연말 상승 기대가 커지지만 변동성도 여전하다.",
+          "context": {
+            "background": "코스피는 고점 이후 외국인 매도로 6000선 아래로 밀려 있었다.",
+            "issueContext": "삼성전자와 SK하이닉스가 급등하며 이틀 연속 매수 사이드카가 발동됐다.",
+            "coreQuestion": "이번 반등은 추세 전환일까요, 일시적 되돌림일까요?",
+            "resolution": "28일 종가는 6012.44이며 29일 장 마감 수치는 확인되지 않았다."
+          },
+          "sources": [{ "name": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202610290701410620" }],
+          "related": {
+            "title": "9000선서 5000선까지 버틴 개미…6000선 반등엔 '팔자'",
+            "source": "이투데이",
+            "url": "https://www.etoday.co.kr/news/view/2641101",
+            "type": "반박"
+          },
+          "topics": ["코스피", "증시", "반도체", "SK하이닉스", "외국인"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261029-2",
+          "date": "2026.10.29",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "국감 끝나자 '820조' 예산전쟁…화약고는 162조 미래대응기금",
+          "summary": "국정감사가 끝나면서 820조9000억원 규모의 내년도 예산안 심사가 시작된다. 최대 쟁점은 162조3000억원 규모의 미래대응기금으로, 여당은 성장 동력, 야당은 철회 대상으로 맞서고 있다.",
+          "why": "반도체 호황에 따른 초과세수를 어디에 쓸지를 놓고 여야 입장이 갈리기 때문이다.",
+          "soWhat": "예결특위가 30일 공청회로 심사에 들어가며 법정 처리 시한인 12월 2일까지 증감액 협상이 이어질 전망이다.",
+          "context": {
+            "background": "정부는 올해 본예산보다 93조원 늘린 예산안과 함께 미래대응기금 신설을 추진해 왔다.",
+            "issueContext": "국민의힘은 기금이 국회 감시를 피하는 재량 지출 수단이 될 수 있다고 본다.",
+            "coreQuestion": "미래대응기금은 재정 안전판일까요, 정부의 쌈짓돈일까요?",
+            "resolution": "기금의 규모 상한과 존속기간 명시 여부는 협상 대상이다."
+          },
+          "sources": [{ "name": "뉴스토마토", "url": "http://www.newstomato.com/ReadNews.aspx?no=1318368" }],
+          "related": {
+            "title": "\"국회 감시 피하는 이재명 쌈짓돈\"… 162조 '미래대응기금' 충돌에 국감 난타전",
+            "source": "한국일보",
+            "url": "https://www.hankookilbo.com/news/article/A2026100816160003590",
+            "type": "반박"
+          },
+          "topics": ["예산", "미래대응기금", "재정", "국회", "여야갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261029-1",
+          "date": "2026.10.29",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "이 대통령 '외국인 노동자·다문화' 발언 논란…진보진영 반발",
+          "summary": "이재명 대통령이 국무회의에서 외국인 노동자가 국가 경제에 크게 도움이 되지 않는다는 취지로 말해 진보 정당과 이주노동자 단체가 사과를 요구했다. 다문화가족 우대 제도 재검토 언급까지 겹쳐 논란이 커졌다.",
+          "why": "농어촌 인력난을 논의하던 중 내국인 고용 지원을 강조하다 나온 발언이기 때문이다.",
+          "soWhat": "대통령실의 해명과 정책 검토 방향에 따라 외국인력·다문화 정책 논쟁이 이어질 전망이다.",
+          "context": {
+            "background": "대통령은 27일 국무회의에서 농업 인력난과 내국인 노동자 지원을 언급했다.",
+            "issueContext": "'크게'라는 표현이 빠진 보도에 대통령이 정정을 요구했고 진보 진영은 혐오 발언이라고 반발했다.",
+            "coreQuestion": "이번 발언은 통계에 근거한 문제 제기일까요, 외국인 노동자에 대한 편견일까요?",
+            "resolution": "팩트체크는 발언에 과장이 있다고 평가했고 대통령은 비교 화법이었다고 해명했다."
+          },
+          "sources": [{ "name": "YTN", "url": "https://www.ytn.co.kr/_ln/0101_202610282211528176" }],
+          "related": {
+            "title": "외국인 없으면 농가 붕괴인데… '소비'만 따진 대통령의 '경제 기여론' [팩트체크]",
+            "source": "한국일보",
+            "url": "https://www.hankookilbo.com/news/article/A2026102815590000742",
+            "type": "반박"
+          },
+          "topics": ["외국인", "이주노동자", "농업", "다문화", "이재명"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261028-1",
           "date": "2026.10.28",
@@ -11858,10 +11983,135 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.10.28",
-      "period": "2026.10.27 08:00 ~ 2026.10.28 08:00",
-      "updatedAt": "2026.10.28 08:00 KST",
+      "latestDate": "2026.10.29",
+      "period": "2026.10.28 08:00 ~ 2026.10.29 08:00",
+      "updatedAt": "2026.10.29 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261029-1",
+          "date": "2026.10.29",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "Peltola 캠프, 알래스카 상원 경선에 '동명이인' 후보 영입 의혹",
+          "summary": "뉴욕타임스가 28일 Mary Peltola 캠프와 민주당 측이 공화당 현역 Dan Sullivan 상원의원과 이름이 같은 후보의 출마를 도왔다고 보도했다. 트럼프 대통령은 Peltola를 투표용지에서 빼고 법적 책임을 져야 한다고 주장했다.",
+          "why": "선거를 엿새 앞두고 접전 지역에서 표 분산 전략 의혹이 불거졌기 때문이다.",
+          "soWhat": "법무부 소송과 주 선거 당국 판단에 따라 개표·인증 절차에 법적 다툼이 생길 수 있다.",
+          "context": {
+            "background": "NYT는 12건의 인터뷰와 문서를 근거로 2025년 여름부터 이어진 계획이라고 전했다.",
+            "issueContext": "Peltola 측과 민주당 상원 선거위원회는 개입을 부인했고 형사 기소 보도는 확인되지 않았다.",
+            "coreQuestion": "이번 의혹은 선거 조작 시도일까요, 과장된 정치 공세일까요?",
+            "resolution": "법무부가 인증 지연을 구하는 소송을 냈지만 전문가들은 넘어야 할 법적 문턱이 높다고 본다."
+          },
+          "sources": [{ "name": "Alaska Public Media", "url": "https://alaskapublic.org/news/politics/elections/2026-10-28/peltola-campaign-and-national-dems-recruited-spoiler-candidates-including-petersburg-sullivan-according-to-new-york-times-report" }],
+          "related": {
+            "title": "Peltola campaign's alleged Dan Sullivan spoiler plot takes new turn as DOJ faces major legal hurdle",
+            "source": "Fox News",
+            "url": "https://www.foxnews.com/politics/peltola-campaigns-alleged-dan-sullivan-spoiler-plot-takes-new-turn-doj-faces-major-legal-hurdle",
+            "type": "다름"
+          },
+          "topics": ["중간선거", "알래스카", "상원", "공화당", "트럼프"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261029-2",
+          "date": "2026.10.29",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프 '5천 달러 배당' 공약…경제학자들 \"인플레 재점화\"",
+          "summary": "트럼프 대통령이 공화당이 상·하원을 모두 지키면 성인 시민에게 5000달러를 주겠다는 공약을 반복하고 있다. 법안·재원 계획이 없고 경제학자들은 약 1조2000억 달러 비용과 인플레이션 재점화를 경고한다.",
+          "why": "중간선거 일주일 전 유권자 표심을 잡으려는 공약이기 때문이다.",
+          "soWhat": "의회 입법 없이는 지급이 불가능해 선거 이후 실현 여부가 논쟁이 될 전망이다.",
+          "context": {
+            "background": "트럼프 대통령은 9월 공화당 전당대회에서 이 구상을 처음 내놓았다.",
+            "issueContext": "대상이 모든 시민인지 성인인지 발언이 엇갈리고 소득 기준도 공개되지 않았다.",
+            "coreQuestion": "5천 달러 배당은 실현 가능한 경제 공약일까요, 선거용 약속일까요?",
+            "resolution": "하원의장은 의회 입법이 필요하다고 인정했고 관련 법안은 발의되지 않았다."
+          },
+          "sources": [{ "name": "CBS News", "url": "https://www.cbsnews.com/news/trump-5000-checks-inflation-deficit-economists/" }],
+          "related": {
+            "title": "Trump Pushes $5,000 Checks, Warns of Economic Trouble Under Democrats",
+            "source": "Newsweek",
+            "url": "https://www.newsweek.com/trump-pushes-5000-checks-as-he-attacks-democrats-on-the-economy-12557462",
+            "type": "반박"
+          },
+          "topics": ["중간선거", "트럼프", "재정", "인플레이션", "공화당"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261029-1",
+          "date": "2026.10.29",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "연준, 기준금리 3.75~4.00% 동결…쿡·해맥 2명 인상 소수의견",
+          "summary": "연준이 28일 기준금리를 3.75~4.00%로 10대2 동결했다. 쿡 이사와 해맥 클리블랜드 연은 총재가 25bp 인상을 주장해 12월 인상 가능성이 커졌다.",
+          "why": "물가를 2%로 되돌리는 데 초점을 두는 위원들이 인상 압력을 높였기 때문이다.",
+          "soWhat": "시장은 12월 인상을 높은 확률로 반영했고 10년물 국채금리는 5%를 넘었다.",
+          "context": {
+            "background": "워시 의장 체제의 연준이 중간선거를 엿새 앞두고 결정을 내렸다.",
+            "issueContext": "워시 의장은 정치가 결정에 영향을 주지 않았다고 말했고 12월 가이던스는 거부했다.",
+            "coreQuestion": "연준의 다음 수는 인상일까요, 동결 장기화일까요?",
+            "resolution": "다음 회의는 12월 9일이다."
+          },
+          "sources": [{ "name": "Axios", "url": "https://www.axios.com/2026/10/28/fed-warsh-interest-rates-cook" }],
+          "related": {
+            "title": "October FOMC: Federal Reserve holds rates steady ahead of election",
+            "source": "Fox Business",
+            "url": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-october-28-2026",
+            "type": "유사"
+          },
+          "topics": ["연준", "금리", "국채금리", "물가", "통화정책"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261029-2",
+          "date": "2026.10.29",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "이란전 8개월, 휘발유 4.29달러·경유 6달러 돌파",
+          "summary": "이란 전쟁 8개월 만에 미국 휘발유 평균가가 2.98달러에서 4.29달러로, 경유는 3.76달러에서 6.35달러로 올랐다. 국방부는 전쟁 비용을 471억 달러로 갱신했다.",
+          "why": "전쟁과 호르무즈해협 불안으로 에너지 가격이 높은 수준에 머물기 때문이다.",
+          "soWhat": "민주당이 유가를 공화당의 전쟁 지지와 연결하고 있어 중간선거 쟁점이 된다.",
+          "context": {
+            "background": "미국은 이스라엘과 함께 이란을 상대로 전쟁을 벌여 왔다.",
+            "issueContext": "10월 소비자신뢰는 유가 상승세 둔화로 개선됐다.",
+            "coreQuestion": "전쟁 비용은 유권자에게 어떤 정치적 대가로 돌아올까요?",
+            "resolution": "트럼프 대통령은 전쟁으로 큰 이득을 본다고 주장하나 가계 부담은 늘었다."
+          },
+          "sources": [{ "name": "Fortune", "url": "https://fortune.com/2026/10/26/trump-iran-war-gas-diesel-prices/" }],
+          "related": {
+            "title": "Trump Doesn't 'Give a Damn' About Iran War Price Hikes—His Oil and Gas Holdings Are Up to $81.6 Million",
+            "source": "Common Dreams",
+            "url": "https://www.commondreams.org/news/trump-gasoline-prices",
+            "type": "반박"
+          },
+          "topics": ["이란", "유가", "호르무즈해협", "중간선거", "물가"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261029-1",
+          "date": "2026.10.29",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "트럼프 행정부, 석유·가스 메탄 배출 규제 대폭 완화 추진",
+          "summary": "트럼프 대통령이 27일 텍사스 유세에서 바이든 정부의 메탄 규제를 완화하는 EPA 제안을 발표했다. 정부는 450억 달러 절감과 원유 2억1000만 배럴 확보를 내세우고 환경단체는 기업에 면죄부를 준다고 반발한다.",
+          "why": "에너지 생산을 늘리고 석유업계 부담을 줄이려는 정책 방향 때문이다.",
+          "soWhat": "확정 규정이 아닌 제안 단계여서 의견 수렴과 소송 과정에서 내용이 바뀔 수 있다.",
+          "context": {
+            "background": "메탄은 20년 기준 이산화탄소보다 온실효과가 훨씬 큰 기체다.",
+            "issueContext": "제안은 가스 소각 제한을 완화하고 초대형 배출원 프로그램을 없애는 내용을 담았다.",
+            "coreQuestion": "이번 완화는 에너지 비용 절감일까요, 기후 대응 후퇴일까요?",
+            "resolution": "최종 규정은 확정되지 않았다."
+          },
+          "sources": [{ "name": "NPR", "url": "https://www.npr.org/2026/10/28/nx-s1-5995910/trump-wants-remove-regulations-planet-heating-methane" }],
+          "related": {
+            "title": "Trump ends Biden admin methane rule, says it will unlock 210M barrels of oil",
+            "source": "Fox Business",
+            "url": "https://www.foxbusiness.com/politics/trump-announces-end-biden-era-methane-rule-citing-45b-savings",
+            "type": "반박"
+          },
+          "topics": ["기후", "메탄", "규제", "에너지", "트럼프행정부"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261028-1",
           "date": "2026.10.28",
@@ -23306,10 +23556,110 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.10.28",
-      "period": "2026.10.27 08:00 ~ 2026.10.28 08:00",
-      "updatedAt": "2026.10.28 08:00 KST",
+      "latestDate": "2026.10.29",
+      "period": "2026.10.28 08:00 ~ 2026.10.29 08:00",
+      "updatedAt": "2026.10.29 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261029-1",
+          "date": "2026.10.29",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 외교부, 英 국경 당국의 중국인 장시간 억류·전자기기 압수에 엄정 교섭",
+          "summary": "중국 외교부가 27일 영국 국경 당국이 중국 국민을 장시간 억류·조사하고 휴대전화 등을 압수했다며 강한 불만을 표하고 엄정 교섭을 제기했다고 밝혔다. 영국 측 입장은 확인되지 않았다.",
+          "why": "중국 측은 영국이 2019년 대테러·국경보안법을 근거로 불심검문을 확대했다고 본다.",
+          "soWhat": "양국 간 인적 교류와 여행 안전 경보 수위에 영향을 줄 수 있다.",
+          "context": {
+            "background": "주영 중국대사관은 19일 영국 입국 심사 관련 안전 경보를 냈다.",
+            "issueContext": "피해자는 무역 대표단, 관광객, 친지 방문자 등이라고 중국 측은 밝혔다.",
+            "coreQuestion": "이번 조치는 정당한 국경 보안일까요, 과도한 법 집행일까요?",
+            "resolution": "영국 정부의 공식 반응은 검색에서 확인되지 않았다."
+          },
+          "sources": [{ "name": "澎湃新闻", "url": "https://www.thepaper.cn/newsDetail_forward_34343382" }],
+          "related": {
+            "title": "China protests UK's 'excessive' border law enforcement",
+            "source": "Anews",
+            "url": "https://www.anews.com.tr/world/2026/10/27/china-protests-uks-excessive-border-law-enforcement",
+            "type": "유사"
+          },
+          "topics": ["중국", "영국", "외교", "국경", "인적교류"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261029-1",
+          "date": "2026.10.29",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "中 A주 3대 지수 반등…창업판 3.4%↑, AI 산업체인이 주도",
+          "summary": "28일 상하이종합지수가 0.91% 오른 3681.47, 창업판지수가 3.40% 오른 2634.76으로 마감했다. 거래대금은 1조6000억 위안을 넘었고 AI 산업체인과 휴머노이드 로봇이 상승을 이끌었다.",
+          "why": "산업 정책 기대와 연산 인프라 수요가 기술 성장주로 자금을 끌어들였기 때문이다.",
+          "soWhat": "기술주 쏠림이 이어지면 은행·소비 대형주와의 격차가 커질 수 있다.",
+          "context": {
+            "background": "전날 대비 거래대금이 1675억 위안 늘며 거래가 활발해졌다.",
+            "issueContext": "4100개가 넘는 종목이 올랐고 백주 등 소비 대형주는 약세였다.",
+            "coreQuestion": "이번 반등은 기술주 랠리의 시작일까요, 단기 반등일까요?",
+            "resolution": "이날 장세는 기술 성장주 중심의 상승이었다."
+          },
+          "sources": [{ "name": "新浪财经", "url": "https://finance.sina.com.cn/roll/2026-10-28/doc-iniwuqvs6582625.shtml" }],
+          "related": {
+            "title": "10月28日A股宽基指数全线上涨，创业板指涨幅居首（+3.40%），沪深300涨幅最小（+0.85%）",
+            "source": "金融界",
+            "url": "https://finance.jrj.com.cn/2026/10/28151658908284.shtml",
+            "type": "유사"
+          },
+          "topics": ["증시", "AI", "로봇", "반도체", "중국"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261029-1",
+          "date": "2026.10.29",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "음바페 '마오쩌둥 밈' 발언 파문…동펑음료·멍니우 등 중국 기업 계약 해지",
+          "summary": "프랑스 축구스타 음바페가 인터뷰에서 마오쩌둥 합성 밈을 언급하며 '독재자'라고 부른 영상이 논란이 되자 동펑음료가 27일 모든 협력 종료를 발표했다. 멍니우 등도 협력을 끊었고 외교부는 감정을 해치는 언행은 사회 각계의 보이콧을 받는다고 밝혔다.",
+          "why": "영상이 중국 소비자의 민족 감정을 건드렸다는 반응이 확산됐기 때문이다.",
+          "soWhat": "중국 시장에서 스포츠 스타의 후원·광고 계약 리스크가 커질 수 있다.",
+          "context": {
+            "background": "동펑음료는 올해 4월 음바페를 전해질 음료 브랜드 모델로 발탁했다.",
+            "issueContext": "프로그램 제작진은 영상이 불쾌감을 줬다며 사과했으나 음바페 본인의 사과는 확인되지 않았다.",
+            "coreQuestion": "이번 계약 해지는 정당한 소비자 반응일까요, 과도한 민족주의 압박일까요?",
+            "resolution": "복수 중국 기업이 협력 종료를 발표했다."
+          },
+          "sources": [{ "name": "ABC 中文", "url": "https://www.abc.net.au/chinese/2026-10-28/kylian-mbappe-mao-meme-backlash-china/107317472" }],
+          "related": {
+            "title": "麦巴比(姆巴佩)｜麦巴比涉辱华言论 遭中国赞助商、网民抵制",
+            "source": "星岛头条",
+            "url": "https://www.stheadline.com/zh-hans/football-news/3630460/%E9%BA%A6%E5%B7%B4%E6%AF%94%E5%A7%86%E5%B7%B4%E4%BD%A9%E9%BA%A6%E5%B7%B4%E6%AF%94%E6%B6%89%E8%BE%B1%E5%8D%8E%E8%A8%80%E8%AE%BA-%E9%81%AD%E4%B8%AD%E5%9B%BD%E8%B5%9E%E5%8A%A9%E5%95%86%E7%BD%91%E6%B0%91%E6%8A%B5%E5%88%B6",
+            "type": "다름"
+          },
+          "topics": ["중국", "브랜드", "민족주의", "불매", "프랑스"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261029-2",
+          "date": "2026.10.29",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "상하이, 2030년 궤도 위성 3000기·핵심 산업 800억 위안 목표",
+          "summary": "상하이시가 6개 부서 공동으로 위성 인터넷 산업 행동방안(2027~2030)을 내놓고 2030년까지 궤도 위성 3000기 초과, 핵심 산업 규모 800억 위안 돌파를 목표로 제시했다. 천첸(千帆) 성좌는 현재 256기를 발사했다.",
+          "why": "저궤도 위성 인터넷을 전략 산업으로 키우려는 지방정부 경쟁이 가열됐기 때문이다.",
+          "soWhat": "위성 제조·운용 기업 유치와 산업기금 조성이 속도를 낼 전망이다.",
+          "context": {
+            "background": "상하이시는 26일 방안을 인쇄·배포했고 27일 생태대회에서 공식 발표했다.",
+            "issueContext": "저궤도·중궤도 성좌 배치와 항공기 단말 탑재 등이 포함됐다.",
+            "coreQuestion": "이 목표는 실현 가능한 산업 계획일까요, 낙관적 청사진일까요?",
+            "resolution": "일부 매체는 이 수치가 중기 목표일 뿐 실제 주문이 아니라고 짚었다."
+          },
+          "sources": [{ "name": "财经网", "url": "http://economy.caijing.com.cn/20261028/5190182.shtml" }],
+          "related": {
+            "title": "3000颗卫星，800亿元产值目标背后：上海给出卫星全产业链提速时间表",
+            "source": "21财经",
+            "url": "https://m.21jingji.com/article/20261027/herald/3ffa15c2114fc34124f362ff959152c3.html",
+            "type": "다름"
+          },
+          "topics": ["위성", "우주", "중국", "과학기술", "투자"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261028-1",
           "date": "2026.10.28",
@@ -34225,10 +34575,110 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.10.28",
-      "period": "2026.10.27 08:00 ~ 2026.10.28 08:00",
-      "updatedAt": "2026.10.28 08:00 KST",
+      "latestDate": "2026.10.29",
+      "period": "2026.10.28 08:00 ~ 2026.10.29 08:00",
+      "updatedAt": "2026.10.29 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261029-1",
+          "date": "2026.10.29",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리 G7 온라인 회의 불참 해명 공방…외무성 설명과 엇갈려",
+          "summary": "다카이치 총리의 이달 G7 온라인 정상회의 불참 이유를 둘러싸고 총리·외무성·의장국 프랑스의 설명이 엇갈려 야당이 27일 참의원에서도 추궁했다. 모테기 외무상은 세부 설명을 삼갔다.",
+          "why": "총리는 회의 시간이 늦게 정해져 준비가 안 됐다고 설명했으나 프랑스 측은 며칠 전 안내했다고 반박해 사실관계가 갈렸기 때문이다.",
+          "soWhat": "해명이 정리되지 않으면 국회에서 책임 논쟁이 이어질 전망이다.",
+          "context": {
+            "background": "총리는 16일 참의원 예산위에서 대형 디스플레이 설치가 늦었다고 설명했다.",
+            "issueContext": "일부 주간지는 당일 회식설을 보도했으나 확인된 사실은 아니다.",
+            "coreQuestion": "총리의 불참 해명은 충분할까요, 책임 회피일까요?",
+            "resolution": "정부는 상세 설명을 피하고 있다."
+          },
+          "sources": [{ "name": "닛케이", "url": "https://www.nikkei.com/article/DGXZQOUA161FH0W6A011C2000000/" }],
+          "related": {
+            "title": "高市総理のG7欠席の“真相”は総理のドタキャン？ 外務省の判断？ 回線？ 食い違う説明に辻元清美氏が糾弾",
+            "source": "ABEMA TIMES",
+            "url": "https://times.abema.tv/articles/-/10284419",
+            "type": "반박"
+          },
+          "topics": ["다카이치", "G7", "외교", "내각", "국회"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261029-2",
+          "date": "2026.10.29",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리, 메르츠 독일 총리에 EU의 유럽산 EV 우대책 강한 우려 전달",
+          "summary": "다카이치 총리가 28일 일독 정상회담에서 EU가 검토하는 유럽산 전기차 우대책에 강한 우려를 전하고 적절한 대응을 요구했다. 양국은 AI·핵심광물 협력을 강화하기로 했다.",
+          "why": "독일·프랑스가 합의한 EV 우대안에서 일본산이 제외될 가능성이 크기 때문이다.",
+          "soWhat": "EU 본협의 전에 독일을 설득하려는 일본의 대응이 시험대에 오른다.",
+          "context": {
+            "background": "독·프 정부는 16일 산업촉진법안에 따른 EV 우대책에 합의했다.",
+            "issueContext": "메르츠 총리는 영국·일본·이탈리아 전투기 공동개발 참여 의욕도 보였다.",
+            "coreQuestion": "일본산 EV는 유럽 우대책에서 배제될까요, 포함될까요?",
+            "resolution": "EU의 공식 협의는 시작되지 않았다."
+          },
+          "sources": [{ "name": "新潟日報(共同)", "url": "https://www.niigata-nippo.co.jp/articles/-/932959" }],
+          "related": {
+            "title": "日独首脳が会談、戦闘機の共同開発参加にメルツ氏意欲 高市氏はＥＶ問題に強い懸念伝える",
+            "source": "ロイター(Yahoo!ニュース)",
+            "url": "https://news.yahoo.co.jp/articles/42a0091fc55bf5ac389b09232817932dcb553089",
+            "type": "다름"
+          },
+          "topics": ["다카이치", "독일", "EV", "무역", "외교"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261029-1",
+          "date": "2026.10.29",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "자민당, 휘발유 보조금 12월부터 월 5엔씩 축소 제언…총리 \"검토\"",
+          "summary": "자민당이 12월부터 휘발유 보조금 기준가를 월 5엔 정도씩 올려 단계적으로 줄이자는 제언을 28일 다카이치 총리에게 전달했다. 총리는 제언을 바탕으로 검토하겠다고 답했다.",
+          "why": "보조액이 리터당 52엔40전으로 최고 수준이라 재원 고갈 우려가 커졌기 때문이다.",
+          "soWhat": "휘발유 가격이 단계적으로 오르면 가계 부담과 소비에 영향을 줄 전망이다.",
+          "context": {
+            "background": "원유 가격이 높은 수준을 유지하며 보조금이 계속 늘었다.",
+            "issueContext": "등유는 가격 억제 지속을 요구했다.",
+            "coreQuestion": "보조금 축소는 재정 건전화일까요, 가계 부담 가중일까요?",
+            "resolution": "정부의 정식 방침은 아직 정해지지 않았다."
+          },
+          "sources": [{ "name": "時事通信", "url": "https://www.jiji.com/jc/article?k=2026102800984&g=pol" }],
+          "related": {
+            "title": "“クルマ離れ”拍車も…ガソリン補助金も段階的縮小へ、自民党が提言［新聞ウォッチ］",
+            "source": "レスポンス(Yahoo!ニュース)",
+            "url": "https://news.yahoo.co.jp/articles/f1889c931a8f2c5b0e74812a9cf8bc43e0760088",
+            "type": "반박"
+          },
+          "topics": ["유가", "물가", "재정", "다카이치", "소비"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261029-2",
+          "date": "2026.10.29",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이 평균 685엔 상승 6만3954엔…반도체 쏠림에 TOPIX는 하락",
+          "summary": "28일 닛케이 평균이 685엔82전 오른 6만3954엔19전으로 속등했다. 한국 SK하이닉스의 호실적에 반도체주가 오른 반면 TOPIX는 반락했다.",
+          "why": "SK하이닉스 실적이 일본 반도체 관련주 매수로 이어졌기 때문이다.",
+          "soWhat": "29~30일 일본은행 회의에서 정책금리 1.25% 동결이 예상되고 다음 인상은 12월이 유력하다.",
+          "context": {
+            "background": "닛케이는 전날 1078엔 올라 4거래일 만에 반등했다.",
+            "issueContext": "달러/엔은 157엔대 후반이었다.",
+            "coreQuestion": "일본 증시 상승은 폭넓은 회복일까요, 반도체 쏠림일까요?",
+            "resolution": "일본은행 회의 결과는 30일 낮에 나온다."
+          },
+          "sources": [{ "name": "TBLアドバイザリー", "url": "https://tbladvisory.com/20261028nk/" }],
+          "related": {
+            "title": "日本市場レポート 2026年10月28日",
+            "source": "宮野宏樹(note)",
+            "url": "https://note.com/hirokimiyano/n/n85ba4efd7c1c",
+            "type": "유사"
+          },
+          "topics": ["닛케이", "반도체", "일본은행", "엔화", "증시"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261028-1",
           "date": "2026.10.28",
