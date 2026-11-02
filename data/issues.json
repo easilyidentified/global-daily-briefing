@@ -113,10 +113,85 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.11.01",
-      "period": "2026.10.31 08:00 ~ 2026.11.01 08:00",
-      "updatedAt": "2026.11.01 08:00 KST",
+      "latestDate": "2026.11.02",
+      "period": "2026.11.01 08:00 ~ 2026.11.02 08:00",
+      "updatedAt": "2026.11.02 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261102-1",
+          "date": "2026.11.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "이재명 대통령 예산안 시정연설…성장펀드 앞세워 820조 예산 처리 요청",
+          "summary": "이재명 대통령이 국회 시정연설에서 820조9천억원 규모의 내년도 예산안을 설명하며 12월 2일까지 처리해 달라고 요청했다. 반도체 호황에 따른 추가 세수를 바탕으로 한 성장펀드를 핵심으로 내세웠다.",
+          "why": "내년 예산이 올해보다 12.8% 늘어난 역대 최대 규모여서, 대통령이 직접 국회에 협조를 구한 것이다.",
+          "soWhat": "이번 주 예결위 종합정책질의를 시작으로 본격 심사에 들어가며, 성장펀드와 예비비를 둘러싼 여야 공방이 예산 처리 시한까지 이어질 전망이다.",
+          "context": {
+            "background": "정부는 내년도 예산안을 820조9천억원으로 편성했고 지난주 예결위 공청회에서 미래대응기금 등을 두고 논의가 시작됐다.",
+            "issueContext": "민주당은 원안 유지를 주장하고, 국민의힘은 국가채무 상환이 먼저라며 예비비 전액 삭감까지 거론하고 있다.",
+            "coreQuestion": "국회는 12월 2일 시한 안에 예산안을 처리할 수 있을까요, 성장펀드를 둘러싼 대립으로 늦어질까요?",
+            "resolution": "시정연설로 심사 국면에 들어갔을 뿐 여야 합의는 아직 없다."
+          },
+          "sources": [{ "name": "코리아타임스", "url": "https://www.koreatimes.co.kr/southkorea/politics/20261102/president-highlights-growth-fund-as-he-seeks-parliamentary-backing-for-record-budget" }],
+          "related": {
+            "title": "Korea Opens Review of Record 821 Trillion Won Budget Amid Partisan Clash",
+            "source": "서울경제",
+            "url": "https://en.sedaily.com/politics/2026/11/02/korea-opens-review-of-record-821-trillion-won-budget-amid",
+            "type": "반박"
+          },
+          "topics": ["예산", "국회", "여야갈등", "미래대응기금"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261102-2",
+          "date": "2026.11.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "서해 중국 구조물 문제, 미국 비판과 한국 입장 온도차 부각",
+          "summary": "미국이 서해에서의 중국 행보를 비판하고 나서면서 한국 정부의 대응과 전략적 입장 차가 드러난다는 분석이 나왔다. 중국은 한중 잠정조치수역에 구조물을 설치해 왔다.",
+          "why": "중국이 한중 잠정조치수역에 구조물과 항행금지구역을 두며 존재감을 키우자 미국이 문제를 제기했기 때문이다.",
+          "soWhat": "서해 문제가 한미·한중 관계의 새로운 변수로 떠올라 한국의 외교적 균형 부담이 커질 수 있다.",
+          "context": {
+            "background": "중국은 2025년 잠정조치수역에 구조물을 설치하고 항행금지구역을 선포해 한국 정부가 우려를 표명해 왔다.",
+            "issueContext": "중국은 양식용이라 설명하지만 일부 구조물이 해양 시추 설비와 비슷해 의혹이 제기됐다.",
+            "coreQuestion": "한국은 미국의 문제 제기에 보조를 맞춰야 할까요, 중국과의 관계 관리를 우선해야 할까요?",
+            "resolution": "정부는 구조물 일부 이전을 의미 있는 조치로 평가한 바 있으나 근본 문제는 해소되지 않았다."
+          },
+          "sources": [{ "name": "코리아헤럴드", "url": "https://www.koreaherald.com/article/10922969" }],
+          "related": {
+            "title": "Korea calls China's move to relocate Yellow Sea structures 'meaningful step' in reducing tensions",
+            "source": "코리아중앙데일리",
+            "url": "https://www.koreajoongangdaily.com/korea/korea-calls-chinas-move-to-relocate-yellow-sea-structures-meaningful-step-in-reducing-tensions/12246707",
+            "type": "반박"
+          },
+          "topics": ["중국", "영유권분쟁", "한중관계", "안보"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261102-1",
+          "date": "2026.11.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피, 美 반도체주 급락 충격에도 기관 매수로 반등",
+          "summary": "코스피가 미국 반도체주 급락 여파로 1% 넘게 하락 출발했다가 기관 매수에 힘입어 오전 한때 5,820선까지 올라섰다. 원/달러 환율은 1,340원대였다.",
+          "why": "미국 기술주 실적 부진으로 AI 투자 우려가 커졌지만, 저가 매수가 들어오며 낙폭을 만회했다.",
+          "soWhat": "반도체 비중이 큰 증시 구조상 미국 반도체주 흐름에 따라 코스피 변동성이 당분간 커질 수 있다.",
+          "context": {
+            "background": "올해 10월 수출은 반도체가 이끌며 전년 대비 93.7% 늘었다.",
+            "issueContext": "미국 반도체주 급락이 삼성전자·SK하이닉스에 부담을 줬으나 기관은 순매수로 대응했다.",
+            "coreQuestion": "코스피의 반등은 일시적일까요, 추세 회복의 신호일까요?",
+            "resolution": "장 초반 하락분을 만회했으나 개인과 외국인은 매도세를 보였다."
+          },
+          "sources": [{ "name": "코리아타임스", "url": "https://www.koreatimes.co.kr/economy/20261102/seoul-stocks-open-lower-as-disappointing-tech-earnings-trigger-ai-spending-woes" }],
+          "related": {
+            "title": "Kospi rebounds despite US semiconductor shock, buoyed by institutional buying",
+            "source": "헤럴드경제",
+            "url": "https://biz.heraldcorp.com/article/10922398",
+            "type": "유사"
+          },
+          "topics": ["코스피", "반도체", "증시", "환율"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261101-1",
           "date": "2026.11.01",
@@ -12108,10 +12183,60 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.11.01",
-      "period": "2026.10.31 08:00 ~ 2026.11.01 08:00",
-      "updatedAt": "2026.11.01 08:00 KST",
+      "latestDate": "2026.11.02",
+      "period": "2026.11.01 08:00 ~ 2026.11.02 08:00",
+      "updatedAt": "2026.11.02 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261102-1",
+          "date": "2026.11.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중간선거 사전투표 5천만 표 돌파…상원 접전지서 급증",
+          "summary": "11월 3일 중간선거를 앞두고 사전투표가 5천만 표를 넘어 중간선거 기록을 쓰고 있다. 상원 경합주에서 증가폭이 특히 크다.",
+          "why": "상원 다수당 향방이 걸린 경합주마다 양당이 투표 독려에 총력을 쏟고 있기 때문이다.",
+          "soWhat": "공화당이 53대 47로 지킨 상원을 민주당이 뒤집을지에 따라 남은 임기 트럼프 행정부의 입법·인사 동력이 달라진다.",
+          "context": {
+            "background": "공화당은 상원 53석, 민주당은 47석으로 민주당이 다수당이 되려면 순증 4석이 필요하다.",
+            "issueContext": "텍사스 해리스카운티와 조지아 등에서 사전투표 기록이 나왔지만 전문가들은 사전투표 수치로 결과를 예단하지 말라고 경고한다.",
+            "coreQuestion": "높은 투표 열기는 야당에 유리하게 작용할까요, 양측 지지층의 동반 결집일까요?",
+            "resolution": "결과는 11월 3일 본투표 개표 뒤에야 확인된다."
+          },
+          "sources": [{ "name": "PBS", "url": "https://www.pbs.org/newshour/politics/millions-more-americans-vote-ahead-of-election-day-as-early-voting-jumps-across-senate-battlegrounds" }],
+          "related": {
+            "title": "More than 50 million votes cast in US midterm elections: What does it mean?",
+            "source": "알자지라",
+            "url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean",
+            "type": "유사"
+          },
+          "topics": ["중간선거", "투표", "상원", "공화당"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261102-1",
+          "date": "2026.11.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "고용 반등에도 연준 추가 인상 가능성…AI주 급락 뒤 '중대 한 주'",
+          "summary": "9월 고용이 2만9천 명 증가에 그친 가운데, 고용 지표 개선이 이어지면 연준이 금리를 다시 올릴 수 있다는 전망이 나온다. 10월 고용보고서는 11월 6일 발표된다.",
+          "why": "연준이 9월 첫 인상에 나선 뒤 고용·물가 지표 하나하나가 추가 인상 판단의 변수가 됐기 때문이다.",
+          "soWhat": "이번 주 중간선거와 고용보고서, 빅테크 실적이 겹쳐 증시와 금리 기대가 크게 출렁일 수 있다.",
+          "context": {
+            "background": "워시 의장 체제의 연준은 9월 16일 기준금리를 3.75~4.00%로 25bp 올렸다.",
+            "issueContext": "시장은 10월 고용이 6만 명대로 개선될지, 연준이 12월에도 인상할지에 주목한다.",
+            "coreQuestion": "연준은 12월에 추가 인상에 나설까요, 고용 둔화를 보고 멈출까요?",
+            "resolution": "10월 고용보고서와 연준 회의 결과가 나오기 전까지 시장 전망은 엇갈린다."
+          },
+          "sources": [{ "name": "비즈니스스탠더드", "url": "https://www.business-standard.com/amp/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html" }],
+          "related": {
+            "title": "Stock futures jump ahead of a monster week after a $5 trillion AI rout",
+            "source": "야후파이낸스",
+            "url": "https://finance.yahoo.com/markets/article/stock-futures-open-a-monster-week-after-a-5-trillion-ai-wipeout-232500194.html",
+            "type": "다름"
+          },
+          "topics": ["연준", "금리", "고용", "증시"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261101-1",
           "date": "2026.11.01",
@@ -23856,10 +23981,35 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.11.01",
-      "period": "2026.10.31 08:00 ~ 2026.11.01 08:00",
-      "updatedAt": "2026.11.01 08:00 KST",
+      "latestDate": "2026.11.02",
+      "period": "2026.11.01 08:00 ~ 2026.11.02 08:00",
+      "updatedAt": "2026.11.02 08:00 KST",
       "issues": [
+        {
+          "id": "cn-eco-20261102-1",
+          "date": "2026.11.02",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "10월 제조업 PMI 49.3 … 한 달 만에 위축 국면 복귀",
+          "summary": "중국 10월 공식 제조업 PMI가 49.3으로 9월(50.1)보다 하락해 기준선 50 아래로 내려갔다. 비제조업 PMI도 49.7로 떨어졌다.",
+          "why": "국경절 연휴를 앞둔 수요 선반영과 불안한 대외 환경, 해외 주문 감소가 겹쳤기 때문이다.",
+          "soWhat": "4분기 초반 내수와 수출이 함께 약해 추가 경기 부양책 기대가 커질 수 있다.",
+          "context": {
+            "background": "9월 제조업 PMI는 50.1로 확장 국면에 복귀했었다.",
+            "issueContext": "중소기업 PMI는 48.4와 47.5로 부진했지만 하이테크 제조업은 51.3으로 확장세를 유지했다.",
+            "coreQuestion": "10월 부진은 일시적 조정일까요, 둔화 추세의 시작일까요?",
+            "resolution": "국가통계국은 신성장동력 업종이 확장세를 유지한다고 설명했다."
+          },
+          "sources": [{ "name": "차이나데일리", "url": "http://global.chinadaily.com.cn/a/202610/31/WS6ae561fbe4b06d4aa05663b0.html" }],
+          "related": {
+            "title": "China's factory and services PMI gauges both drop below 50 as fourth quarter starts on a weak note",
+            "source": "인베스팅라이브",
+            "url": "https://investinglive.com/news/china-s-factory-and-services-pmi-gauges-both-drop-below-50-as-fourth-quarter-starts-on-a-weak-note/",
+            "type": "반박"
+          },
+          "topics": ["PMI", "제조업", "경기", "수출"],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261101-1",
           "date": "2026.11.01",
@@ -34975,10 +35125,35 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.11.01",
-      "period": "2026.10.31 08:00 ~ 2026.11.01 08:00",
-      "updatedAt": "2026.11.01 08:00 KST",
+      "latestDate": "2026.11.02",
+      "period": "2026.11.01 08:00 ~ 2026.11.02 08:00",
+      "updatedAt": "2026.11.02 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261102-1",
+          "date": "2026.11.02",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "식료품 소비세 1% 감세법안 공방…야당, 다카이치 총리 위원회 출석 요구",
+          "summary": "자민당은 식료품 소비세를 8%에서 1%로 2년간 낮추는 법안을 이번 회기 안에 성립시키려 한다. 야당은 총리의 위원회 출석과 충실한 심의를 요구하고 있다.",
+          "why": "정부가 내년 4월부터 2년간 시행하겠다며 10월 초 법안을 각의 결정했으나 약 10조 엔의 재원이 구체화되지 않아 논란이 커졌다.",
+          "soWhat": "법안 처리는 12월 12일 회기 종료 전까지 이어지는 이번 임시국회의 최대 쟁점이 될 전망이다.",
+          "context": {
+            "background": "다카이치 정권은 10월 5일 '적극 재정'을 표방하며 가을 임시국회를 시작했다.",
+            "issueContext": "야당은 재원과 대상이 모호하다고 비판하고, 다카이치 내각 지지율은 49.1%로 취임 후 최저를 기록했다.",
+            "coreQuestion": "법안은 회기 내 성립할 수 있을까요, 재원 논란으로 수정될까요?",
+            "resolution": "재무상은 재원을 향후 예산 편성 과정에서 제시하겠다고 설명했다."
+          },
+          "sources": [{ "name": "재팬타임스", "url": "https://www.japantimes.co.jp/news/2026/11/01/japan/politics/takaichi-tax-cut-bill-deliberation/" }],
+          "related": {
+            "title": "減税法案、20日審議入り 衆院本会議、首相出席",
+            "source": "구마모토일일신문",
+            "url": "https://kumanichi.com/articles/2047225",
+            "type": "유사"
+          },
+          "topics": ["소비세", "다카이치", "감세", "재정"],
+          "review": "pending"
+        },
         {
           "id": "jp-eco-20261101-1",
           "date": "2026.11.01",
