@@ -24251,10 +24251,60 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.11.03",
-      "period": "2026.11.02 08:00 ~ 2026.11.03 08:00",
-      "updatedAt": "2026.11.03 08:00 KST",
+      "latestDate": "2026.11.04",
+      "period": "2026.11.03 08:00 ~ 2026.11.04 08:00",
+      "updatedAt": "2026.11.04 08:00 KST",
       "issues": [
+        {
+          "id": "cn-eco-20261104-1",
+          "date": "2026.11.04",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국, 증시 부양책 재가동…자사주 매입 대출 비용 낮추고 위안화 랠리 진정 시도",
+          "summary": "중국 당국이 자사주 매입 대출 비용을 낮추는 등 증시 부양 수단을 되살렸다. 인민은행은 30년 만의 최장 연속 상승세를 보인 위안화 랠리를 식히는 조치도 내놓았다.",
+          "why": "벤치마크 지수가 올해 13% 하락하는 등 증시가 흔들리는 가운데 위안화 강세 속도도 부담이 됐기 때문이다.",
+          "soWhat": "긴급 대응이던 부양 수단이 상시 도구로 굳어질 수 있어, 시장 개입 확대와 시장 개방 기조 사이의 긴장이 커질 수 있다.",
+          "context": {
+            "background": "중국은 2024년 하반기부터 인민은행 재대출을 통한 자사주 매입·지분 확대 지원 도구를 운용해 왔다.",
+            "issueContext": "지수 하락과 위안화 급등이 동시에 나타나자 당국이 증시 떠받치기와 환율 속도 조절을 함께 꺼내 들었다.",
+            "coreQuestion": "이번 조치는 시장 불안을 가라앉힐까요, 개입 의존만 키울까요?",
+            "resolution": "당국은 자사주 매입 장려와 위안화 속도 조절 조치를 시행했으며 효과는 아직 확인되지 않았다."
+          },
+          "sources": [{ "name": "로이터 브레이킹뷰스", "url": "https://www.breakingviews.com/columns/breaking-view/chinas-stock-rout-prompts-new-contortions-2026-11-03/" }],
+          "related": {
+            "title": "China Talks Up Market Openness While Steering Stocks and Yuan",
+            "source": "블룸버그",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-03/china-talks-up-market-openness-while-steering-stocks-and-yuan",
+            "type": "다름"
+          },
+          "topics": ["증시", "위안화", "인민은행", "자사주"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261104-1",
+          "date": "2026.11.04",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "미국 법원의 화웨이 재판 진행 중…브루클린 연방법원에서 공방",
+          "summary": "화웨이에 대한 미국 연방 형사재판이 뉴욕 브루클린 법정에서 계속 진행 중이다. 검찰은 영업비밀 절취·은행 사기·제재 위반을 아우르는 공모를 주장하고, 화웨이는 이를 부인한다.",
+          "why": "미국이 약 8년간의 소송 끝에 화웨이 기소를 정식 재판으로 가져갔고, 법원이 대부분의 기각 신청을 받아들이지 않았기 때문이다.",
+          "soWhat": "재판은 수개월 이어질 전망이어서 판결에 따라 미중 기술 갈등과 대중 제재 논의에 영향을 줄 수 있다.",
+          "context": {
+            "background": "미국 검찰은 약 10년에 걸친 소송 끝에 화웨이를 재판에 세웠고, 재판은 2026년 9월 브루클린에서 시작됐다.",
+            "issueContext": "기소 내용은 영업비밀 절취, 은행 사기, 제재 위반 등을 포함한 16개 혐의다.",
+            "coreQuestion": "배심원단은 화웨이의 공모 혐의를 인정할까요, 정당한 기업 활동으로 볼까요?",
+            "resolution": "재판은 진행 중이며 평결은 나오지 않았다."
+          },
+          "sources": [{ "name": "더 와이어 차이나", "url": "https://www.thewirechina.com/2026/11/03/the-daily-roundup-november-3-2026/" }],
+          "related": {
+            "title": "Huawei goes on trial in US for racketeering after nearly decade of litigation",
+            "source": "더 스타",
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/10/huawei-goes-on-trial-in-us-for-racketeering-after-nearly-decade-of-litigation",
+            "type": "다름"
+          },
+          "topics": ["화웨이", "재판", "제재", "미중갈등"],
+          "review": "pending"
+        },
         {
           "id": "cn-eco-20261103-1",
           "date": "2026.11.03",
