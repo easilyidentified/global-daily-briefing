@@ -113,10 +113,190 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.11.04",
-      "period": "2026.11.03 08:00 ~ 2026.11.04 08:00",
-      "updatedAt": "2026.11.04 08:00 KST",
+      "latestDate": "2026.11.05",
+      "period": "2026.11.04 08:00 ~ 2026.11.05 08:00",
+      "updatedAt": "2026.11.05 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261105-1",
+          "date": "2026.11.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "조작기소 특검법 법사위 통과…민주당 5일 본회의 처리 방침, 국민의힘 필리버스터 예고",
+          "summary": "더불어민주당 주도로 법사위가 4일 조작수사·조작기소 의혹 진상규명 특검법안을 통과시켰다. 민주당은 5일 본회의 처리를 추진하고, 국민의힘은 필리버스터와 본회의 보이콧을 예고했다.",
+          "why": "민주당이 법안을 당론으로 채택해 속도를 내는 반면, 국민의힘은 이재명 대통령 관련 사건이 수사 대상에 포함됐다며 특혜라고 반발하고 있다.",
+          "soWhat": "본회의 상정 여부와 필리버스터 대치에 따라 예산안을 비롯한 다른 안건의 처리 일정도 흔들릴 수 있다.",
+          "context": {
+            "background": "법안은 윤석열 정권 시기 검찰·국정원·감사원 등의 조작수사·조작기소 의혹을 규명하기 위한 특별검사 임명을 골자로 한다.",
+            "issueContext": "법사위 표결 전 국민의힘 의원들이 집단 퇴장했고, 여야 원내협상은 본회의 일정과 안건을 두고 결렬됐다.",
+            "coreQuestion": "이번 특검법은 과거 수사의 진상규명일까요, 현직 대통령 관련 사건을 겨냥한 정치적 선택일까요?",
+            "resolution": "본회의 표결 결과는 아직 나오지 않았고, 여야 재협상 여부도 불투명하다."
+          },
+          "sources": [
+            {
+              "name": "대전일보",
+              "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2311551"
+            }
+          ],
+          "related": {
+            "title": "국힘, 與 공소취소 특검법 강행에 반발 … 필리버스터·장외투쟁 예고",
+            "source": "뉴데일리",
+            "url": "https://www.newdaily.co.kr/site/data/html/2026/11/04/2026110400296.html",
+            "type": "반박"
+          },
+          "topics": ["검찰개혁", "국회", "여야갈등", "국민의힘", "특검"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261105-2",
+          "date": "2026.11.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "美 민주당 의회 장악에 韓 외교 셈법 복잡…관세는 견제, 핵잠은 제동",
+          "summary": "미국 중간선거에서 민주당이 상·하원을 모두 차지하면서 한국 외교의 계산이 복잡해졌다. 관세에는 견제가 기대되지만 핵추진 잠수함 도입과 전시작전통제권 전환은 제약받을 수 있다는 분석이다.",
+          "why": "민주당이 2006년 이후 20년 만에 상·하원 다수당을 동시에 되찾으며 대외정책 견제 권한이 커졌다.",
+          "soWhat": "정부는 대미 통상·안보 현안별로 의회 협상 채널을 새로 짜야 하고, 한미 합의 이행 속도에도 변수가 생긴다.",
+          "context": {
+            "background": "한미는 관세 협상 과정에서 대미 투자와 조선 협력, 핵추진 잠수함 도입 등을 논의해 왔다.",
+            "issueContext": "관세는 행정부 권한이라 기조가 유지될 것이라는 시각과, 의회가 관세 기반 협상을 재검토할 것이라는 시각이 엇갈린다.",
+            "coreQuestion": "의회 권력 교체는 한국에 관세 부담을 덜어 줄까요, 오히려 불확실성만 키울까요?",
+            "resolution": "트럼프 대통령이 거부권을 쥐고 있어 실제 정책 변화의 폭은 아직 가늠하기 어렵다."
+          },
+          "sources": [
+            {
+              "name": "헤럴드경제",
+              "url": "https://biz.heraldcorp.com/article/10926324"
+            }
+          ],
+          "related": {
+            "title": "美 민주당 이겨도 韓 통상 세법 복잡…‘거부권 쥔’ 트럼프, 의회 충돌 시 불확실성 쑥",
+            "source": "서울신문",
+            "url": "https://seoul.co.kr/news/economy/2026/11/04/20261104500330",
+            "type": "반박"
+          },
+          "topics": ["미국", "중간선거", "관세", "한미동맹", "트럼프행정부"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261105-1",
+          "date": "2026.11.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "물가 3% 육박에 깜짝 성장까지…11월 금리 인상 명분 쌓였다",
+          "summary": "3분기 성장률이 1.0%로 한은 전망치의 3배를 웃돌고 물가가 3% 안팎에서 높게 유지되면서, 26일 금융통화위원회의 금리 인상 가능성이 커졌다. 한은은 10월 기준금리를 3.00%로 동결했다.",
+          "why": "수출·투자 중심의 높은 성장세와 높은 근원물가, 집값 상승과 주택 관련 대출이 모두 긴축 지속의 근거로 거론된다.",
+          "soWhat": "인상이 현실화하면 기준금리는 3.25%가 되고, 가계 대출 이자 부담과 부동산 시장 심리에 영향을 줄 수 있다.",
+          "context": {
+            "background": "한은은 10월 22일 기준금리를 동결하면서도 추가 인상 시기와 속도를 결정해 나가겠다는 문구를 유지했다.",
+            "issueContext": "증권가는 11월 인상 재개와 내년 초로의 지연으로 전망이 갈리며, 최종금리는 3.50% 안팎을 보는 시각이 많다.",
+            "coreQuestion": "한은은 11월에 금리를 올릴까요, 내년으로 미룰까요?",
+            "resolution": "올해 마지막 금통위는 26일로 예정되어 있고 결정은 그때 나온다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202611040600505451"
+            }
+          ],
+          "related": {
+            "title": "한은, 다음 금리인상은 언제?…증권가 11월 재개 vs 내년 초로 지연 팽팽",
+            "source": "뉴시스",
+            "url": "https://www.newsis.com/view/NISX20261022_0003836214",
+            "type": "반박"
+          },
+          "topics": ["금리", "물가", "한국은행", "GDP", "가계부채"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261105-2",
+          "date": "2026.11.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피, 장중 400포인트 요동 끝에 5683.80 소폭 상승 마감",
+          "summary": "코스피가 4일 35.01포인트(0.62%) 오른 5683.80에 마감했고 코스닥은 1.50% 오른 714.95로 장을 마쳤다. 외국인은 팔았지만 개인과 기관의 저가 매수가 지수를 떠받쳤다.",
+          "why": "미국 중간선거를 둘러싼 불확실성으로 장중 5421.72에서 5828.13까지 오가는 변동성이 컸다.",
+          "soWhat": "선거 결과가 확정된 만큼 외국인 수급과 AI·반도체주 흐름이 증시 방향을 좌우할 전망이다.",
+          "context": {
+            "background": "코스피는 전날 3.59% 급락해 5648.79에 마감했다.",
+            "issueContext": "외국인 매도 우위 속에서도 개인과 기관이 저가 매수에 나서 하루 만에 반등했다.",
+            "coreQuestion": "이번 반등은 조정 끝의 회복일까요, 변동성 속 일시적 숨고르기일까요?",
+            "resolution": "정규장 공매도 거래대금은 2조2779억원으로 33% 늘었다."
+          },
+          "sources": [
+            {
+              "name": "SEN",
+              "url": "https://www.sentv.co.kr/article/view/sentv202611040198"
+            }
+          ],
+          "related": {
+            "title": "[마감 시황] 코스피, 장중 400P 넘나든 ‘롤러코스터’ 속 극적 소폭 상승 마감",
+            "source": "Businesskorea",
+            "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=280482",
+            "type": "유사"
+          },
+          "topics": ["증시", "반도체", "외국인", "미국", "중간선거"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261105-1",
+          "date": "2026.11.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "10월 평균기온 역대 5위…한 달 새 14도 ‘기온 널뛰기’",
+          "summary": "기상청이 4일 발표한 10월 기후특성에 따르면 전국 평균기온은 15.8도로 평년보다 1.5도 높아 역대 5위였다. 12일 서울은 30.1도로 10월 최고기온 기록을 세웠다.",
+          "why": "하순에 북유럽과 우랄산맥 부근에서 대기 흐름을 막는 블로킹이 강하게 발달해 북쪽 찬 공기가 자주 내려왔다.",
+          "soWhat": "급격한 기온 변동이 잦아지면서 농작물 관리와 건강 관리, 에너지 수요 예측의 부담이 커진다.",
+          "context": {
+            "background": "10월 중순에는 늦더위가 이어졌고 하순에는 급격히 추워졌다.",
+            "issueContext": "12일과 28일의 전국 일평균기온 차이는 14도로 1973년 이후 10월 가운데 네 번째로 컸다.",
+            "coreQuestion": "올가을의 널뛰기 날씨는 일시적 현상일까요, 기후변화가 만든 새로운 일상일까요?",
+            "resolution": "월 강수량은 108.5mm로 평년의 약 1.7배였다."
+          },
+          "sources": [
+            {
+              "name": "서울신문",
+              "url": "https://www.seoul.co.kr/news/society/enviroment/2026/11/04/20261104500113"
+            }
+          ],
+          "related": {
+            "title": "10월 중순엔 30도 늦더위, 하순엔 급추위…비는 평년의 1.7배",
+            "source": "뉴스1",
+            "url": "https://www.news1.kr/society/environment/6342330",
+            "type": "유사"
+          },
+          "topics": ["기후변화", "기상청", "기온", "이상기후"],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261105-2",
+          "date": "2026.11.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "KAIST, 가짜 기지국 시험 플랫폼 개발…기존 탐지 시스템 사각지대 발견",
+          "summary": "KAIST 김용대 교수 연구팀이 가짜 기지국 공격을 재현하는 시험 플랫폼을 개발했다. 기존 탐지 시스템 7종은 2592가지 동작 구성 가운데 각각 최소 192개를 놓쳤다.",
+          "why": "가짜 기지국은 통신 가로채기와 사칭의 통로가 되는데도 기존 탐지 시스템의 검증 수단이 제한적이었다.",
+          "soWhat": "통신사와 장비업계가 탐지 성능을 재점검하고 보완하는 계기가 될 수 있다.",
+          "context": {
+            "background": "가짜 기지국 공격은 이동통신 단말을 속여 접속시키는 방식으로 이뤄진다.",
+            "issueContext": "연구팀은 플랫폼으로 공격 동작을 체계적으로 재현해 탐지 시스템의 허점을 확인했다.",
+            "coreQuestion": "현재의 탐지 기술만으로 가짜 기지국 공격을 충분히 막을 수 있을까요?",
+            "resolution": "연구는 ACSAC 2026에 채택돼 12월 7일부터 미국 로스앤젤레스에서 발표된다."
+          },
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "url": "https://www.newspim.com/news/view/20261104000147"
+            }
+          ],
+          "related": {
+            "title": "KAIST, 가짜 기지국 동작 2592가지 재현…탐지 허점 확인",
+            "source": "데일리안",
+            "url": "https://www.dailian.co.kr/news/view/1710439/KAIST-%EA%B0%80%EC%A7%9C-%EA%B8%B0%EC%A7%80%EA%B5%AD-%EB%8F%99%EC%9E%91-2592-2026",
+            "type": "유사"
+          },
+          "topics": ["사이버보안", "통신", "KAIST", "연구", "과학기술"],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261104-1",
           "date": "2026.11.04",
@@ -12333,10 +12513,190 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.11.04",
-      "period": "2026.11.03 08:00 ~ 2026.11.04 08:00",
-      "updatedAt": "2026.11.04 08:00 KST",
+      "latestDate": "2026.11.05",
+      "period": "2026.11.04 08:00 ~ 2026.11.05 08:00",
+      "updatedAt": "2026.11.05 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261105-1",
+          "date": "2026.11.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "민주당, 중간선거에서 상·하원 장악…트럼프 ‘나는 투표용지에 없었다’",
+          "summary": "민주당이 11월 3일 중간선거에서 하원과 상원을 모두 차지했다. 트럼프 대통령은 결과를 받아들이겠다면서도 자신은 투표용지에 없었다며 패배의 책임에서 한발 물러섰다.",
+          "why": "생활비 부담에 대한 불만과 이란 전쟁에 대한 반감이 겹치며 출구조사에서 트럼프 지지율이 38%에 그쳤다.",
+          "soWhat": "남은 임기 2년간 트럼프 대통령의 입법 의제는 사실상 멈추고, 의회 감독과 거부권 대치가 정국의 중심이 된다.",
+          "context": {
+            "background": "공화당은 2024년 선거에서 백악관과 의회를 모두 장악했지만 이란 전쟁과 물가 부담으로 지지가 빠졌다.",
+            "issueContext": "일부 경합 지역 개표가 이어지고 있어 의석수는 매체별로 추정치가 다르다. 마이크 존슨 하원의장은 소수당 원내대표에 나서지 않겠다고 밝혔다.",
+            "coreQuestion": "이번 결과는 트럼프 개인에 대한 심판일까요, 공화당 전체에 대한 심판일까요?",
+            "resolution": "트럼프 대통령은 결과를 받아들이겠다고 밝혔고 민주당과 협상할 의사도 내비쳤다."
+          },
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/4/democrats-win-control-of-house-and-senate-key-us-midterms-takeaways"
+            }
+          ],
+          "related": {
+            "title": "Trump says GOP lost because he wasn't on ballot, is willing to accept results",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/11/04/trump-republicans-midterms-2026-landslide-blue-wave",
+            "type": "반박"
+          },
+          "topics": ["중간선거", "민주당", "트럼프행정부", "의회", "미국"],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261105-2",
+          "date": "2026.11.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다수당 된 민주당, 트럼프 조사 목록 가동…이란전 종식 요구도",
+          "summary": "의회 다수당이 된 민주당이 트럼프 대통령 관련 조사와 이란 전쟁 종식 요구를 의제로 올리고 있다. 트럼프 대통령은 스스로 ‘미스터 거부권’이 되겠다며 맞서고 있다.",
+          "why": "다수당이 되면 청문회와 자료 제출 요구, 예산 심사 권한을 쓸 수 있게 돼 행정부를 직접 압박할 수단이 생겼다.",
+          "soWhat": "법안 상당수가 거부권에 막힐 가능성이 높아 조사와 예산 협상이 정치적 승부처가 될 전망이다.",
+          "context": {
+            "background": "의회는 앞서 이란 군사행동 종료를 요구하는 구속력 없는 전쟁권한 조치를 통과시켰지만 트럼프 대통령은 이를 무시했다.",
+            "issueContext": "민주당은 전쟁권한 결의안과 예산을 통한 전쟁 자금 차단 등을 검토하고 있다.",
+            "coreQuestion": "민주당의 감독 공세는 견제로 이어질까요, 거부권에 막힌 정치 쇼로 끝날까요?",
+            "resolution": "트럼프 대통령은 2년 내내 거부권만 쓰고 싶지는 않다며 민주당 지도부와의 협상 의사도 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations"
+            }
+          ],
+          "related": {
+            "title": "I'll become Mr. Veto: Trump braces for Democratic-controlled Congress and a wave of investigations",
+            "source": "Ynetnews",
+            "url": "https://www.ynetnews.com/article/h1flbrutgx",
+            "type": "반박"
+          },
+          "topics": ["의회", "민주당", "트럼프행정부", "이란전쟁", "중간선거"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261105-1",
+          "date": "2026.11.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "다우 3% 급등, 유가 급락…민주당 의회 장악에 월가 환호",
+          "summary": "민주당의 의회 장악 이튿날인 4일 다우지수가 1569포인트(3.03%) 올라 53,356.12에 마감했다. S&P500은 약 1.6%, 나스닥은 약 1.4% 올랐고 국제유가는 약 8% 떨어졌다.",
+          "why": "분할 정부가 급격한 정책 변화를 제한한다는 기대와 이란 협상 기대에 따른 유가 하락이 맞물렸다.",
+          "soWhat": "10년물 국채금리가 약 4.89%로 내리며 금리 부담이 완화됐지만, 정책 불확실성이 다시 커질 수 있다.",
+          "context": {
+            "background": "다우는 4월 이후 최고의 하루를 기록했고 변동성지수(VIX)는 16.7 안팎으로 내려갔다.",
+            "issueContext": "애플·마이크로소프트 같은 대형 기술주는 올랐지만 엔비디아와 AI 인프라 관련주는 내렸고 에너지주가 가장 약했다.",
+            "coreQuestion": "이번 랠리는 분할 정부에 대한 환영일까요, 유가 하락이 만든 일시적 반등일까요?",
+            "resolution": "연준의 정책 발표는 없었다."
+          },
+          "sources": [
+            {
+              "name": "TheStreet",
+              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
+            }
+          ],
+          "related": {
+            "title": "Tech, AI Stocks Split After Democratic Sweep: Microsoft Jumps, Tesla and Nvidia Tank",
+            "source": "Decrypt",
+            "url": "https://decrypt.co/382528/tech-ai-stocks-split-democratic-microsoft-jumps-tesla-nvidia-tank",
+            "type": "다름"
+          },
+          "topics": ["증시", "유가", "금리", "중간선거", "이란전쟁"],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261105-2",
+          "date": "2026.11.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "민주당 승리에 데이터센터주 급락…모라토리엄 우려",
+          "summary": "민주당이 의회를 장악하자 데이터센터 건설·전력·냉각 관련주가 4일 큰 폭으로 떨어졌다. 비스트라는 15.4%, 코어위브는 9.5% 하락했다는 보도가 나왔다.",
+          "why": "투자자들이 데이터센터 신규 건설을 제한하는 모라토리엄이 확산할 가능성을 우려했다. 한 분석은 계획된 미국 데이터센터 증설의 약 45%가 영향을 받을 수 있다고 추정했다.",
+          "soWhat": "AI 인프라 투자 속도에 제동이 걸리면 반도체와 전력 업종 실적 전망도 조정될 수 있다.",
+          "context": {
+            "background": "텍사스의 전력망 연결 보류 조치가 이미 데이터센터 인허가를 얼어붙게 했다는 분석이 있다.",
+            "issueContext": "엔비디아는 약 0~3% 하락에 그쳤는데, 칩 업체는 전 세계 데이터센터에 납품해 한 곳이 막혀도 다른 곳으로 옮겨 갈 수 있기 때문이라는 설명이다.",
+            "coreQuestion": "의회 권력 교체는 AI 인프라 투자 열기를 식힐까요, 입지만 옮기게 할까요?",
+            "resolution": "구체적인 입법은 아직 없고 시장의 우려가 먼저 가격에 반영된 상태다."
+          },
+          "sources": [
+            {
+              "name": "StockTitan",
+              "url": "https://www.stocktitan.net/articles/ai-data-center-stocks-fall-texas-vote-november-4-2026"
+            }
+          ],
+          "related": {
+            "title": "Steve Weiss Says the Midterms Just Put a Lid on AI Spending. Here's Who Could Get Hurt",
+            "source": "24/7 Wall St.",
+            "url": "https://247wallst.com/investing/2026/11/04/steve-weiss-says-the-midterms-just-put-a-lid-on-ai-spending-heres-who-could-get-hurt/",
+            "type": "유사"
+          },
+          "topics": ["AI", "데이터센터", "반도체", "증시", "규제"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261105-1",
+          "date": "2026.11.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "EPA, 석유·가스 메탄 규제 추가 완화 추진…유가 효과는 미미",
+          "summary": "트럼프 행정부 EPA가 2024년 석유·가스 메탄 규제를 추가로 완화하려 한다. EPA 자체 분석으로는 2027년 원유 가격을 배럴당 11센트(0.14%) 낮추는 데 그친다.",
+          "why": "행정부는 에너지 업계 부담 경감을 내세우지만 자체 모델은 가격 효과가 거의 없다고 보여 준다.",
+          "soWhat": "EPA는 2027~2050년 메탄 배출이 6천만 쇼트톤 늘어날 것으로 추정해 환경단체의 소송 가능성이 크다.",
+          "context": {
+            "background": "EPA는 4월에도 2024년 규정 일부를 고쳐 임시 플레어링 허용 기간을 늘리고 모니터링 요건을 바꿨다.",
+            "issueContext": "이번 안은 대규모 메탄 누출 대응 프로그램을 없애고 저생산 유정과 가스 플레어링 규정을 재검토하는 내용이다.",
+            "coreQuestion": "미미한 유가 효과를 위해 메탄 규제를 풀어도 되는 걸까요?",
+            "resolution": "현재는 제안 단계이며 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/trump-methane-rollback-oil-prices-epa.html"
+            }
+          ],
+          "related": {
+            "title": "Statement: EPA's methane repeal would put polluters first and waste America's energy",
+            "source": "Environmental Defense Fund",
+            "url": "https://www.edf.org/media/statement-epas-methane-repeal-would-put-polluters-first-and-waste-americas-energy",
+            "type": "반박"
+          },
+          "topics": ["환경", "메탄", "규제", "에너지", "트럼프행정부"],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261105-2",
+          "date": "2026.11.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "이란 협상 기대에 유가 7% 급락…트럼프 ‘합의 가능’",
+          "summary": "이란 지도부가 협상 추진을 승인했다는 보도에 WTI가 7.4% 떨어져 96.5달러 안팎에 마감했다. 트럼프 대통령은 이란이 합의를 원한다며 평화적 종료를 선호한다고 밝혔다.",
+          "why": "2월 말 시작된 이란 전쟁 이후 국제유가가 약 45% 올라 선거를 앞두고 유가 안정이 정치적으로 중요해졌다.",
+          "soWhat": "협상이 결렬되면 유가가 다시 뛰고 전쟁 책임을 둘러싼 의회 공방이 커질 수 있다.",
+          "context": {
+            "background": "과거에도 유가는 합의설에 급락했다가 충돌이 격화되며 되돌린 적이 있다.",
+            "issueContext": "이란 고위 관리는 합의까지는 아직 멀었다고 로이터에 밝혔고, 미국은 케슘섬에 공습을 가했다는 보도도 있다.",
+            "coreQuestion": "이란 협상 신호는 진짜 종전의 시작일까요, 선거용 전술일까요?",
+            "resolution": "공식 합의는 없고 양측 입장 차가 여전히 크다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+            }
+          ],
+          "related": {
+            "title": "Oil Prices Sink as Iran Signals Talks",
+            "source": "Rigzone",
+            "url": "https://www.rigzone.com/news/oil_prices_sink_as_iran_signals_talks-02-nov-2026-184993-article",
+            "type": "유사"
+          },
+          "topics": ["이란전쟁", "유가", "협상", "트럼프행정부", "중동"],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261104-1",
           "date": "2026.11.04",
@@ -24251,10 +24611,190 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.11.04",
-      "period": "2026.11.03 08:00 ~ 2026.11.04 08:00",
-      "updatedAt": "2026.11.04 08:00 KST",
+      "latestDate": "2026.11.05",
+      "period": "2026.11.04 08:00 ~ 2026.11.05 08:00",
+      "updatedAt": "2026.11.05 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261105-1",
+          "date": "2026.11.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "시진핑, 오만 술탄과 회담…‘중동은 대국 각축장 되어선 안 돼’",
+          "summary": "시진핑 주석이 2일 베이징에서 국빈 방중한 오만 술탄 하이삼과 회담하고 중동·걸프 지역이 대국 경쟁의 장이 되어서는 안 된다고 밝혔다. 양국은 전략적 동반자 관계 심화 공동성명을 발표했다.",
+          "why": "이란 전쟁 국면에서 중국이 중재 역할을 하는 오만과 밀착해 중동 문제에서 존재감을 키우려는 것이다.",
+          "soWhat": "중국이 중동 외교에서 미국과 다른 축을 만들려는 움직임이 구체화하고, 중국-아랍 정상회의 개최 논의도 이어질 전망이다.",
+          "context": {
+            "background": "오만 국가원수의 방중은 1978년 수교 이후 48년 만에 처음이다.",
+            "issueContext": "양측은 공급망, 녹색 발전, 디지털 금융 분야 협력 문서에 서명했고, 오만은 하나의 중국 원칙을 재확인했다.",
+            "coreQuestion": "중국의 중동 개입 확대는 분쟁 중재로 이어질까요, 미국과의 영향력 경쟁을 키울까요?",
+            "resolution": "두 나라는 적절한 시기에 중국에서 중국-아랍 국가 정상회의와 중국-걸프협력회의 정상회의를 열기로 했다."
+          },
+          "sources": [
+            {
+              "name": "신화망",
+              "url": "https://www.news.cn/politics/leaders/20261102/35150666f7a243d297032961ab44d904/c.html"
+            }
+          ],
+          "related": {
+            "title": "阿曼元首建交48年首訪陸 習近平：中東不應成大國角力場",
+            "source": "UDN",
+            "url": "https://udn.com/news/story/7331/9852011",
+            "type": "유사"
+          },
+          "topics": ["시진핑", "중동", "외교", "이란전쟁", "미중갈등"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20261105-2",
+          "date": "2026.11.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 외교부, 美 중간선거는 ‘내정’…건설적 관계 유지 강조",
+          "summary": "외교부 마오닝 대변인은 4일 미국 중간선거를 미국 내부 사안이라며 정치적 평가를 피했다. 중국은 미국과 계속 협력하겠다는 입장을 밝혔다.",
+          "why": "민주당 압승으로 트럼프 대통령의 입지가 흔들렸지만 시진핑-트럼프 정상 간 합의의 틀을 유지하려는 계산이 깔려 있다.",
+          "soWhat": "양국이 합의한 전략적 안정의 건설적 관계가 의회 권력 교체 이후에도 유지될지 시험대에 오른다.",
+          "context": {
+            "background": "양국 정상은 5월과 9월 회담에서 존중·공정·호혜에 기반한 전략적 안정의 건설적 관계를 추구하기로 했다.",
+            "issueContext": "중국 SNS에서는 ‘트럼프 완패’ 해시태그 조회수가 7천만 회를 넘었지만 관영 입장은 절제됐다.",
+            "coreQuestion": "중국은 의회가 바뀐 미국과도 기존 합의를 유지할 수 있을까요?",
+            "resolution": "공식 평가는 내정 불간섭 원칙에 따라 유보됐다."
+          },
+          "sources": [
+            {
+              "name": "Anadolu",
+              "url": "https://www.aa.com.tr/en/asia-pacific/china-calls-for-constructive-ties-with-us-amid-democratic-gains-in-midterm-elections/4111103"
+            }
+          ],
+          "related": {
+            "title": "Trump total defeat tops 70 million views, Beijing calls it internal",
+            "source": "NewsBytes",
+            "url": "https://www.newsbytesapp.com/news/world/trump-total-defeat-tops-70-million-views-beijing-calls-it-internal/tldr",
+            "type": "다름"
+          },
+          "topics": ["미중관계", "중간선거", "외교", "트럼프행정부", "미국"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261105-1",
+          "date": "2026.11.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "10월 제조업 PMI 49.3%로 하락…당국 ‘휴일 효과’ vs 시장 ‘수요 약화’",
+          "summary": "국가통계국은 10월 제조업 PMI가 49.3%로 전월보다 하락해 위축 구간에 들어섰다고 발표했다. 하이테크 제조업 PMI는 51.3%로 확장 구간을 유지했다.",
+          "why": "당국은 국경절 연휴 전 수요 조기 소화와 복잡한 국제 환경을 이유로 들었고, 일부 증권사는 고유가와 AI 산업 조정도 영향을 줬다고 봤다.",
+          "soWhat": "내수 부진이 이어지면 추가 경기 부양 요구가 커질 수 있다.",
+          "context": {
+            "background": "중국 제조업 PMI는 최근 4개월 사이 세 번째로 기준선 50 아래로 내려왔다.",
+            "issueContext": "생산지수는 49.8%, 신규주문지수는 49.4%로 모두 하락했고 소비재 업종은 48.8%였다.",
+            "coreQuestion": "10월 하락은 일시적 휴일 효과일까요, 수요 둔화의 신호일까요?",
+            "resolution": "비제조업 활동지수는 49.7%, 종합 PMI 산출지수도 49.7%였다."
+          },
+          "sources": [
+            {
+              "name": "21세기경제보도",
+              "url": "https://21jingji.com/article/20261102/herald/5e875e23707a8e446b7293451bea345c.html"
+            }
+          ],
+          "related": {
+            "title": "中国制造业再陷收缩 出口难填内需缺口",
+            "source": "대기원시보",
+            "url": "https://www.epochtimes.com/gb/26/10/31/n14880559.htm",
+            "type": "반박"
+          },
+          "topics": ["PMI", "제조업", "경기", "내수", "수출"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261105-2",
+          "date": "2026.11.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "제9회 수입박람회 5일 개막…딩쉐샹 기조연설",
+          "summary": "제9회 중국국제수입박람회가 5일부터 10일까지 상하이에서 열린다. 딩쉐샹 부총리가 개막식에 참석해 기조연설을 한다.",
+          "why": "중국이 시장 개방 의지를 부각하고 수출 중심 구조에 대한 해외 비판을 완화하려는 대외 홍보 무대다.",
+          "soWhat": "대미·대유럽 무역 긴장 속에서 개방과 수입 확대 메시지가 어떻게 구체화하는지가 관전 포인트다.",
+          "context": {
+            "background": "올해는 15차 5개년 계획의 첫해에 열리는 첫 수입박람회다.",
+            "issueContext": "해외 기업 4142곳이 참가해 규모가 사상 최대이고, 미국 기업 전시 면적은 8회 연속 1위로 보도됐다.",
+            "coreQuestion": "수입박람회의 개방 메시지는 실제 수입 확대로 이어질까요?",
+            "resolution": "개막식과 계약 성과는 5일 이후 발표된다."
+          },
+          "sources": [
+            {
+              "name": "중국신문망",
+              "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725179.shtml"
+            }
+          ],
+          "related": {
+            "title": "丁薛祥將出席進博會 美企參展面積8連霸",
+            "source": "중시신문망",
+            "url": "https://www.chinatimes.com/realtimenews/20261103002496-260409",
+            "type": "다름"
+          },
+          "topics": ["수입박람회", "무역", "개방", "미중관계", "5개년계획"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261105-1",
+          "date": "2026.11.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "중국 우주정거장 선외 노출 실험 진행…재료·생물 샘플 검증",
+          "summary": "중국 우주정거장의 선외 노출 플랫폼이 여러 차례 실험에서 독자 성과를 냈다. 현재 4차 노출 실험이 8개 과학 프로젝트, 26개 샘플 단위로 진행되고 있다.",
+          "why": "달 유인 착륙과 심우주 탐사에 필요한 재료의 우주 환경 내구성 데이터를 확보하려는 것이다.",
+          "soWhat": "고성능 마그네슘 합금과 윤활 소재의 실증 결과가 향후 우주선 부품 설계에 반영될 수 있다.",
+          "context": {
+            "background": "샘플은 톈저우 8호와 9호 화물선으로 올라가 1~2년 동안 우주에 노출된다.",
+            "issueContext": "첫 프로젝트는 우주 방사선에 강한 고성능 마그네슘 합금, 둘째는 겔 복합 윤활 소재의 수명 검증이다.",
+            "coreQuestion": "우주 노출 실험 성과는 달 탐사 일정을 앞당길 수 있을까요?",
+            "resolution": "실험은 계속 진행 중이며 최종 결과는 노출 기간이 끝나야 나온다."
+          },
+          "sources": [
+            {
+              "name": "신화통신",
+              "url": "https://english.news.cn/20261104/cabc9b7090b34795877a08daebbe667a/c.html"
+            }
+          ],
+          "related": {
+            "title": "揭秘“太空试炼场”：直面极端环境，解锁原创成果",
+            "source": "과기일보",
+            "url": "https://www.stdaily.com/web/gdxw/2026-10/29/content_604974.html",
+            "type": "유사"
+          },
+          "topics": ["우주정거장", "과학기술", "소재", "달탐사", "연구"],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261105-2",
+          "date": "2026.11.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "한정 부주석, 시진핑 특별대표로 COP31 정상회의 참석…조지아 방문",
+          "summary": "외교부는 한정 국가부주석이 시진핑 주석의 특별대표로 11월 6~12일 튀르키예에서 열리는 COP31 안탈리아 정상회의에 참석하고 조지아를 방문한다고 4일 발표했다.",
+          "why": "시 주석이 직접 가지 않고 특별대표를 보내는 방식으로 기후 협상에 정치적 지침을 제공하겠다는 신호다.",
+          "soWhat": "중국의 기후 협상 입장과 조지아와의 양자 관계 강화 메시지가 이번 방문에서 나올 전망이다.",
+          "context": {
+            "background": "COP31은 9일부터 20일까지 튀르키예 안탈리아에서 열린다.",
+            "issueContext": "중국은 조지아와의 전면적 전략 동반자 관계를 강조하며 양국 정상의 합의 이행을 강조했다.",
+            "coreQuestion": "중국은 이번 기후 총회에서 어떤 책임과 역할을 내세울까요?",
+            "resolution": "구체적인 중국의 협상 입장은 아직 공개되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "중국신문망",
+              "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725984.shtml"
+            }
+          ],
+          "related": {
+            "title": "韓正周五至下周四 赴土耳其開會及訪格魯吉亞",
+            "source": "홍콩 상업라디오",
+            "url": "https://www.881903.com/news/china/2657958",
+            "type": "유사"
+          },
+          "topics": ["기후변화", "COP31", "외교", "조지아", "국제협력"],
+          "review": "pending"
+        },
         {
           "id": "cn-eco-20261104-1",
           "date": "2026.11.04",
@@ -35475,10 +36015,190 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.11.04",
-      "period": "2026.11.03 08:00 ~ 2026.11.04 08:00",
-      "updatedAt": "2026.11.04 08:00 KST",
+      "latestDate": "2026.11.05",
+      "period": "2026.11.04 08:00 ~ 2026.11.05 08:00",
+      "updatedAt": "2026.11.05 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261105-1",
+          "date": "2026.11.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "소비감세 법안, 6일 중의원 통과 전망…다카이치 총리 출석 질의 합의",
+          "summary": "여야가 4일 다카이치 총리가 6일 중의원 재무금융위원회에 1시간 출석하기로 합의했다. 여당은 6일 위원회와 본회의 표결을 모두 마친다는 방침이다.",
+          "why": "법안의 핵심은 내년 4월부터 2년간 음식료품 소비세율을 8%에서 1%로 낮추는 것으로, 여당이 이번 주 안에 중의원 통과를 서두르고 있다.",
+          "soWhat": "참의원에서는 여당이 과반에 못 미쳐 야당 협력이 필요하며, 국민민주당 등 야당의 입장이 법안 성패를 가른다.",
+          "context": {
+            "background": "여당은 중의원에서 3분의 2를 넘는 의석을 갖고 있다.",
+            "issueContext": "야당은 질의 2시간을 요구했지만 1시간으로 합의했고, 총리에게 질문하는 것은 야당 의원으로 한정했다.",
+            "coreQuestion": "소비세 인하는 물가 대책이 될까요, 재정 부담만 키울까요?",
+            "resolution": "야당은 총리 답변을 듣고 당일 찬반을 정하겠다며 판단을 보류했다."
+          },
+          "sources": [
+            {
+              "name": "지지통신",
+              "url": "https://news.infoseek.co.jp/article/jiji_2026110400334/"
+            }
+          ],
+          "related": {
+            "title": "消費税国会も大詰め 与野党が6日の首相入り質疑で合意も…委員会採決は折り合わず",
+            "source": "산케이신문",
+            "url": "https://news.yahoo.co.jp/articles/06c0e2acf484bc5cdd3fbe2addc6e2adb99dca32",
+            "type": "반박"
+          },
+          "topics": ["소비세", "다카이치", "국회", "물가", "재정"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261105-2",
+          "date": "2026.11.05",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "자민·유신·국민민주, 중의원 비례 31석 삭감 법안화 협의",
+          "summary": "자민당, 일본유신회, 국민민주당이 4일 실무자 협의를 열고 비례대표 정수 31석 삭감과 주고쿠·시코쿠 블록 통합을 법안으로 만드는 작업을 진행했다. 다음 주까지 내용을 정리해 이번 국회에서 공동 제출한다는 방침이다.",
+          "why": "여당이 앞서 제출한 비례 45석 삭감안이 야당 반발로 계속 심의로 넘어가자 자민당이 31석 절충안으로 선회해 합의를 이끌어냈다.",
+          "soWhat": "중의원 선거제도 개편이 현실화하면 군소 정당의 영향력과 의석 배분 방식이 달라진다.",
+          "context": {
+            "background": "합의문에는 비례 통일명부 방식 허용, 수정 생라그 방식으로의 의석 배분 변경, 부활당선 최저 득표율 상향 등이 담겼다.",
+            "issueContext": "삭감 규모와 방식을 두고 여야의 이견이 이어져 왔다.",
+            "coreQuestion": "정수 삭감은 정치 개혁일까요, 소수 의견을 줄이는 선거제 개편일까요?",
+            "resolution": "법안 조문화 작업이 진행 중이며 제출 시점은 다음 주 이후로 전망된다."
+          },
+          "sources": [
+            {
+              "name": "교도통신",
+              "url": "https://ryukyushimpo.jp/kyodo/entry-5588561.html"
+            }
+          ],
+          "related": {
+            "title": "定数削減 自維国 31議席削減案の条文化に向けて意見交わす",
+            "source": "NHK",
+            "url": "https://news.web.nhk/newsweb/na/nd-20261104de70400",
+            "type": "유사"
+          },
+          "topics": ["선거제도", "국회", "자민당", "유신회", "국민민주당"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261105-1",
+          "date": "2026.11.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 893엔 하락한 6만2188엔…美 중간선거 ‘민주 우세’에 AI·반도체 매도",
+          "summary": "4일 닛케이평균은 893.23엔(1.42%) 내린 62,188.63엔에 마감해 3거래일 연속 하락했다. 장중 하락폭이 3천 엔을 넘어 6만 엔 선이 위태로웠다.",
+          "why": "미국 중간선거에서 민주당이 우세하다는 소식에 AI·반도체 관련주가 매도됐다.",
+          "soWhat": "트럼프 대통령이 결과를 받아들이겠다고 밝힌 뒤 장중 저점에서 2천 엔 넘게 되돌린 만큼 미국 정치 변수에 따라 변동성이 이어질 전망이다.",
+          "context": {
+            "background": "닛케이평균은 앞서 이틀 연속 내렸다.",
+            "issueContext": "AI 투자 열기에 기댄 반도체주가 정치 변수에 민감하게 반응했다.",
+            "coreQuestion": "이번 하락은 일시적 충격일까요, AI 랠리 조정의 시작일까요?",
+            "resolution": "대형 매도 이후 매수세가 들어와 낙폭은 상당 부분 줄었다."
+          },
+          "sources": [
+            {
+              "name": "일본경제신문",
+              "url": "https://www.nikkei.com/article/DGXZQOFL040X7TU6A101C2000000/"
+            }
+          ],
+          "related": {
+            "title": "日経平均終値は８９３円安の６万２１８８円…アメリカ中間選挙で民主党優勢、ＡＩ・半導体関連に売り",
+            "source": "요미우리신문",
+            "url": "https://news.infoseek.co.jp/article/yomiuri_20261104_gyt1t00259/",
+            "type": "유사"
+          },
+          "topics": ["증시", "반도체", "AI", "중간선거", "닛케이"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261105-2",
+          "date": "2026.11.05",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "日銀 우에다 총재, 12월 인상 배제 안 해…물가 상방 리스크 경계",
+          "summary": "우에다 총재는 10월 30일 회견에서 기조적 물가상승률이 2%에 도달했다고 보고 12월 금리 인상 가능성을 배제하지 않았다. 주가가 약세인 상황에서도 인상 기조는 유지했다.",
+          "why": "물가가 위로 벗어날 위험이 커지고 있어 정책 정상화의 속도를 늦추기 어렵다는 판단이다.",
+          "soWhat": "12월 회의가 다가오며 시장의 금리 인상 기대와 엔화 움직임에 관심이 쏠린다.",
+          "context": {
+            "background": "일본은행은 지난해 12월 기준금리를 0.75%로 올렸다.",
+            "issueContext": "총재는 12월 인상을 명시하지 않아 데이터에 따라 판단할 여지를 남겼다.",
+            "coreQuestion": "일본은행은 12월에 금리를 올릴까요, 한 번 더 지켜볼까요?",
+            "resolution": "12월 회의 때까지 결정은 미뤄졌다."
+          },
+          "sources": [
+            {
+              "name": "OANDA",
+              "url": "https://www.oanda.jp/lab-education/market_news/20261102_boj_underlying-inflation/"
+            }
+          ],
+          "related": {
+            "title": "植田日銀総裁は12月利上げ排除しない姿勢、2%到達の物価は上振れ警戒",
+            "source": "블룸버그",
+            "url": "https://www.bloomberg.com/jp/news/articles/2026-10-30/TNPS00T96OSG00",
+            "type": "다름"
+          },
+          "topics": ["일본은행", "금리", "물가", "엔화", "통화정책"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261105-1",
+          "date": "2026.11.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "북한, 동해로 미사일 수 발 발사…한국군 합참 발표",
+          "summary": "한국 합참은 북한이 4일 오전 함경남도 선덕 부근에서 동해를 향해 미사일 수 발을 발사했다고 밝혔다. 전날 전략순항미사일 시험에 이은 발사다.",
+          "why": "북한은 10월에도 12일과 29일 탄도미사일 발사를 이어 와 도발 주기가 짧아졌다.",
+          "soWhat": "일본은 배타적경제수역 낙하 여부를 확인하며 한미일 공조를 점검해야 한다.",
+          "context": {
+            "background": "일본 방위성은 10월 12일과 29일 발사에서 EEZ 안으로의 낙하는 확인되지 않았다고 발표했다.",
+            "issueContext": "이번 발사의 일본 EEZ 낙하 여부는 확인되지 않았다.",
+            "coreQuestion": "북한의 잇단 발사는 무기 시험의 일상화일까요, 대외 압박 카드일까요?",
+            "resolution": "일본 정부의 공식 평가는 아직 확인되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "NHK",
+              "url": "https://news.web.nhk/newsweb/na/nd-20261104de70141"
+            }
+          ],
+          "related": {
+            "title": "北朝鮮、日本海に向けて複数のミサイルを発射",
+            "source": "Arab News Japan",
+            "url": "https://arabnews.jp/japan/%E5%8C%97%E6%9C%9D%E9%AE%AE%E6%97%A5%E6%9C%AC%E6%B5%B7%E3%81%AB%E5%90%91%E3%81%91%E3%81%A6%E8%A4%87%E6%95%B0%E3%81%AE%E3%83%9F%E3%82%B5%E3%82%A4%E3%83%AB%E3%82%92%E7%99%BA%E5%B0%84-3001258",
+            "type": "유사"
+          },
+          "topics": ["북한", "미사일", "안보", "한미일", "국방"],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261105-2",
+          "date": "2026.11.05",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "일본 곳곳 곰 출몰 계속…홋카이도에서는 곰 충돌로 열차 탈선",
+          "summary": "4일에도 미야기현과 사이타마현 등지에서 곰 목격이 이어졌고 아키타현에서는 밭의 사과가 먹히는 피해가 있었다. 홋카이도에서는 곰과 충돌해 탈선한 소야선 열차가 전 구간 운행을 재개했다.",
+          "why": "곰 출몰이 주택가와 철도로 확대되면서 지역 사회의 불안이 커지고 있다.",
+          "soWhat": "지자체와 철도 운영사의 대응 체계 보강이 과제로 떠오른다.",
+          "context": {
+            "background": "일본에서는 곰에 의한 인명 피해가 최근 몇 년간 크게 늘었다.",
+            "issueContext": "4일 미야기현 경찰은 목격 정보 3건을 발표했고 부상자는 확인되지 않았다.",
+            "coreQuestion": "곰 출몰 급증을 개체 관리만으로 막을 수 있을까요?",
+            "resolution": "소야선은 4일 오후 운행을 재개했다."
+          },
+          "sources": [
+            {
+              "name": "기타니혼신문",
+              "url": "https://webun.jp/articles/-/1123089"
+            }
+          ],
+          "related": {
+            "title": "【クマ目撃情報一覧】住宅街での目撃も...11月4日夕方～5日朝＜宮城県内＞",
+            "source": "미야기TV",
+            "url": "https://news.yahoo.co.jp/articles/dd65cd8798abecfca6769a4f1e05e0174e08b00f",
+            "type": "유사"
+          },
+          "topics": ["곰", "지자체", "출몰", "대책", "철도"],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261104-1",
           "date": "2026.11.04",
