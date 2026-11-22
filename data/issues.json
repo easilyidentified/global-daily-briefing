@@ -113,10 +113,82 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.11.14",
-      "period": "2026.11.13 08:00 ~ 2026.11.14 08:00",
-      "updatedAt": "2026.11.14 08:00 KST",
+      "latestDate": "2026.11.22",
+      "period": "2026.11.21 08:00 ~ 2026.11.22 08:00",
+      "updatedAt": "2026.11.22 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261122-1",
+          "date": "2026.11.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "이재명 대통령, 선전 APEC서 북한과 대화 재개·AI 협력 제안",
+          "summary": "이재명 대통령이 19일 중국 선전 APEC 정상회의에서 북한과의 대화 재개를 통한 한반도 평화 체제 구축을 언급하고 AI·공급망·포용 성장 3대 비전을 제시했다.",
+          "why": "미·중·러 3자 회담 등으로 세계의 이목이 쏠린 자리에서 한반도 문제를 의제화하려는 것이다.",
+          "soWhat": "북한과의 대화 가능성이 국제 무대에서 거론되면서 향후 북·미 접촉 여부가 관심사가 된다.",
+          "context": {
+            "background": "올해 APEC 정상회의는 중국 선전에서 열렸고 의장국은 중국에서 베트남으로 넘어갔다.",
+            "issueContext": "회의에서 대통령은 에너지 수급 정보 공유·공동 비축과 아시아·태평양 AI 센터 설립 추진도 제안했다.",
+            "coreQuestion": "북한과의 대화 재개 발언이 실제 북·미 또는 남북 접촉으로 이어질까요?",
+            "resolution": "구체적 합의 없이 제안과 기대를 밝히는 수준에서 정상회의가 마무리되었다."
+          },
+          "sources": [
+            {
+              "name": "한국일보",
+              "url": "https://www.hankookilbo.com/news/article/A2026111910150002883"
+            }
+          ],
+          "related": {
+            "title": "李대통령, 아세안·APEC 순방 마무리 소회…“경주 날갯짓이 선전의 비상으로”",
+            "source": "헤럴드경제",
+            "url": "https://biz.heraldcorp.com/article/10942961",
+            "type": "유사"
+          },
+          "topics": [
+            "APEC",
+            "북한",
+            "한반도",
+            "이재명",
+            "외교"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261122-1",
+          "date": "2026.11.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 5100선 안착…코스닥 3%대 상승",
+          "summary": "19일 코스피가 5,100선에 안착하고 코스닥은 3%대 올랐다. 한중 정상회담 이후 한한령 완화 기대와 반도체 반등이 지수를 이끌었다는 평가가 나왔다.",
+          "why": "한중 관계 개선 기대와 반도체주 반등이 겹쳤기 때문이다.",
+          "soWhat": "한한령 완화 기대가 이어지면 콘텐츠·관광 관련주가 주목받을 수 있다.",
+          "context": {
+            "background": "코스피는 이달 중순 5,000선 안팎에서 등락하며 외국인 매도 영향을 받았다.",
+            "issueContext": "18일 5,000선을 되찾은 데 이어 19일 5,100선에 안착했다.",
+            "coreQuestion": "기대감 중심의 반등이 외국인 수급 복귀로 이어질까요?",
+            "resolution": "19일 코스피는 5,100선에서 마감했다."
+          },
+          "sources": [
+            {
+              "name": "머니투데이방송(MTN)",
+              "url": "https://news.mtn.co.kr/article/2026111916452697472"
+            }
+          ],
+          "related": {
+            "title": "한중 훈풍·반도체 반등, 양 지수↑",
+            "source": "KB증권",
+            "url": "https://kbthink.com/investment/today-pick/2611/261119-2.html",
+            "type": "유사"
+          },
+          "topics": [
+            "코스피",
+            "증시",
+            "반도체",
+            "외국인",
+            "한중관계"
+          ],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261114-1",
           "date": "2026.11.14",
@@ -16652,10 +16724,46 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.11.18",
-      "period": "2026.11.17 08:00 ~ 2026.11.18 08:00",
-      "updatedAt": "2026.11.18 08:00 KST",
+      "latestDate": "2026.11.22",
+      "period": "2026.11.21 08:00 ~ 2026.11.22 08:00",
+      "updatedAt": "2026.11.22 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261122-1",
+          "date": "2026.11.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프·시진핑·푸틴, 선전서 첫 3자 회담…핵전쟁 불가 재확인했지만 성과는 미미",
+          "summary": "트럼프·시진핑·푸틴이 19일 선전 APEC에서 사상 첫 3자 회담을 열고 핵전쟁에서 승자는 없다는 점을 재확인했으나, 구체적 성과는 거의 없다는 평가가 나왔다.",
+          "why": "이란 전쟁과 우크라이나 전쟁, 핵 군축 문제를 놓고 세 강대국 정상이 직접 소통할 필요가 커졌기 때문이다.",
+          "soWhat": "정례 대화 틀이 생길 수 있지만, 구속력 있는 합의가 없어 실제 정책 변화는 제한적일 전망이다.",
+          "context": {
+            "background": "트럼프는 3자 회담에 앞서 푸틴, 시진핑과 각각 별도로 만났다.",
+            "issueContext": "세 정상은 정제유 공급 확대와 핵 위험 대화에 뜻을 모았으나 시한이나 이행 수단은 제시되지 않았다.",
+            "coreQuestion": "상징적 선언에 그친 이번 회담이 이후 핵·에너지 협상의 출발점이 될까요, 아니면 일회성 행사로 끝날까요?",
+            "resolution": "평화 선언이 발표됐고 회담은 돌파구 없이 마무리됐다."
+          },
+          "sources": [
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+            }
+          ],
+          "related": {
+            "title": "Trump-Xi-Putin Summit Yields China-Russia ‘Peace Declaration’",
+            "source": "Modern Diplomacy",
+            "url": "https://moderndiplomacy.eu/2026/11/19/trump-xi-putin-summit-yields-china-russia-peace-declaration/",
+            "type": "다름"
+          },
+          "topics": [
+            "APEC",
+            "정상회담",
+            "트럼프",
+            "시진핑",
+            "러시아"
+          ],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261118-1",
           "date": "2026.11.18",
@@ -32930,10 +33038,46 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.11.18",
-      "period": "2026.11.17 08:00 ~ 2026.11.18 08:00",
-      "updatedAt": "2026.11.18 08:00 KST",
+      "latestDate": "2026.11.22",
+      "period": "2026.11.21 08:00 ~ 2026.11.22 08:00",
+      "updatedAt": "2026.11.22 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261122-1",
+          "date": "2026.11.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "시진핑, 선전서 트럼프·푸틴과 첫 3자 회동…“긍정적 상호작용은 선택 아닌 필수”",
+          "summary": "시진핑 주석이 19일 선전 APEC 계기 3자 회담 모두발언에서 “긍정적 상호작용은 선택이 아니라 필수”라고 밝혔다. 회담은 핵 군축과 이란 전쟁, 우크라이나 전쟁을 다뤘다.",
+          "why": "중국이 의장국으로서 미·러와 동시에 마주 앉는 외교적 위상을 내보이려는 것이다.",
+          "soWhat": "중국이 강대국 대화의 중재자 역할을 부각할 수 있으나 구체적 합의가 없어 실질 영향은 불확실하다.",
+          "context": {
+            "background": "중국 외교부는 앞서 3국 정상 회동을 위해 소통 중이라고 밝혔다.",
+            "issueContext": "회담은 평화 선언 발표로 마무리됐지만 구체 이행 약속은 없었다.",
+            "coreQuestion": "중국의 중재 이미지가 실제 외교 성과로 이어질까요?",
+            "resolution": "3국 정상이 평화 선언을 발표하고 회담을 마쳤다."
+          },
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "url": "https://scmp.com/news/china/diplomacy/article/3375055/xi-trump-and-putin-meet-landmark-trilateral-talks-apec"
+            }
+          ],
+          "related": {
+            "title": "Trump, Xi and Putin sit down for a rare 3-way meeting in China, but appear to achieve little",
+            "source": "CBS News",
+            "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+            "type": "반박"
+          },
+          "topics": [
+            "APEC",
+            "시진핑",
+            "정상회담",
+            "트럼프",
+            "러시아"
+          ],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261118-1",
           "date": "2026.11.18",
