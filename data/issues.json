@@ -48258,10 +48258,190 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.11.18",
-      "period": "2026.11.17 08:00 ~ 2026.11.18 08:00",
-      "updatedAt": "2026.11.18 08:00 KST",
+      "latestDate": "2026.11.22",
+      "period": "2026.11.21 08:00 ~ 2026.11.22 08:00",
+      "updatedAt": "2026.11.22 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261122-1",
+          "date": "2026.11.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리, 선전 APEC서 시진핑과 짧은 악수만…양자 회담은 불발",
+          "summary": "다카이치 총리가 중국 선전 APEC 정상회의에서 시진핑 주석과 환영 만찬 등에서 짧게 인사했지만 별도 양자 회담은 열리지 못했다. 중국 측은 공항에 퇴임 대사를 보내는 등 냉랭한 대응을 보였다.",
+          "why": "2025년 11월 다카이치 총리의 '대만 유사' 발언 이후 중일 관계가 얼어붙은 상태가 이어지고 있기 때문이다.",
+          "soWhat": "당분간 중일 정상 차원의 관계 개선은 기대하기 어렵고, 일본 내 대중 정책 여론이 변수가 된다.",
+          "context": {
+            "background": "다카이치 총리는 2025년 대만 해협 봉쇄 시 일본이 군사 대응할 수 있다는 취지로 발언했고, 이후 중국과 외교 갈등이 이어졌다.",
+            "issueContext": "이번 APEC에서 일본이 정상회담을 제안했으나 중국이 리창 총리와의 만남을 대신 제시했다고 전해진다.",
+            "coreQuestion": "냉각된 중일 관계가 이번 접촉을 계기로 풀릴 수 있을까요, 아니면 장기화될까요?",
+            "resolution": "별도 회담 없이 만찬·회의장에서의 악수에 그쳤고, 총리는 '건설적이고 안정적인 관계'를 원한다는 입장을 밝혔다."
+          },
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "url": "https://www.scmp.com/week-asia/people/article/3374747/japans-takaichi-faces-icy-apec-summit-support-china-policy-slides"
+            }
+          ],
+          "related": {
+            "title": "China’s summit snub could strengthen Takaichi’s standing at home",
+            "source": "The Japan Times",
+            "url": "https://www.japantimes.co.jp/news/2026/11/21/japan/politics/china-snub-boost-takaichi-base/",
+            "type": "반박"
+          },
+          "topics": [
+            "다카이치",
+            "중일관계",
+            "APEC",
+            "시진핑",
+            "외교"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261122-2",
+          "date": "2026.11.22",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치, 푸틴과 약 30분 대화…구금 기자·JT 자산 압류 문제 제기",
+          "summary": "다카이치 총리가 APEC 환영 만찬 계기에 푸틴 대통령과 약 30분간 대화하며 구금된 일본인 기자의 조기 석방과 일본담배(JT) 러시아 자산 압류 해제를 요구했다. 합의된 것은 없고 계속 소통하기로 하는 데 그쳤다고 일본 정부가 밝혔다.",
+          "why": "러시아가 일본인 기자를 간첩 혐의로 구금하고 대러 제재의 보복으로 일본 기업 자산을 압류하면서 일본이 직접 대화에 나선 것이다.",
+          "soWhat": "러일 간 정상 채널이 열렸지만 석방 등 실질 성과로 이어질지는 불투명하다.",
+          "context": {
+            "background": "러시아는 10월 일본 홋카이도신문 특파원을 간첩 혐의로 구속했고, 일본은 우크라이나 침공 이후 대러 제재를 이어왔다.",
+            "issueContext": "이번 대화는 일본 측 요청으로 이뤄졌고 러시아 대통령실은 아직 공식 발표를 하지 않은 것으로 전해진다.",
+            "coreQuestion": "이번 대화가 기자 석방이나 자산 문제 해결의 실마리가 될까요?",
+            "resolution": "양측은 다양한 수준에서 계속 대화하기로 했을 뿐 구체적 합의는 보고되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "Reuters(The Standard HK 전재)",
+              "url": "https://www.thestandard.com.hk/world/article/348964/Japan-says-PMA-Takaichi-Putin-held-talks-at-APEC-summit-in-China"
+            }
+          ],
+          "related": {
+            "title": "Japan’s Takaichi meets Putin in rare talks amid strained ties with Russia",
+            "source": "South China Morning Post",
+            "url": "https://www.scmp.com/news/china/diplomacy/article/3374961/japans-takaichi-meets-putin-rare-talks-amid-strained-ties-russia",
+            "type": "유사"
+          },
+          "topics": [
+            "다카이치",
+            "러시아",
+            "대러제재",
+            "외교",
+            "APEC"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261122-1",
+          "date": "2026.11.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "일본 GDP 정체에도 일본은행 12월 인상 관측 유지",
+          "summary": "7~9월 GDP가 연율 -0.1%로 뒷걸음쳤지만 시장은 일본은행의 12월 17~18일 금융정책회의 금리 인상을 여전히 유력하게 보고 있다. 정책금리는 현재 1.25%다.",
+          "why": "에너지 가격에 따른 물가 상승으로 일본은행이 물가 목표 달성을 이유로 긴축 기조를 이어갈 수 있기 때문이다.",
+          "soWhat": "인상이 현실화하면 엔화 약세(달러당 160엔 부근) 압력이 다소 완화될 수 있지만 가계 소비에는 부담이다.",
+          "context": {
+            "background": "일본 7~9월 GDP는 1년 만에 마이너스로 돌아섰고 이란 분쟁발 에너지 비용이 소비를 짓눌렀다.",
+            "issueContext": "경기 부진 속 인상이 적절한지를 두고 전문가 의견이 갈린다.",
+            "coreQuestion": "경기 둔화 속에서도 일본은행은 12월에 금리를 올릴까요, 미룰까요?",
+            "resolution": "12월 회의 결과가 나오기 전까지 인상 확률은 시장에서 일별로 변동 중이다."
+          },
+          "sources": [
+            {
+              "name": "Babypips",
+              "url": "https://www.babypips.com/analysis/headline-japan-gdp-stall-boj-december-hike-2026-11-20"
+            }
+          ],
+          "related": {
+            "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+            "type": "다름"
+          },
+          "topics": [
+            "일본은행",
+            "금리",
+            "GDP",
+            "엔화",
+            "물가"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261122-2",
+          "date": "2026.11.22",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "일본 정부, 라피더스 공장 이전에 최대 540억 엔 세금 면제 검토",
+          "summary": "경제산업성이 국유 반도체 공장을 NEDO→IPA→라피더스로 두 단계에 걸쳐 넘기는 과정에서 취득세·등록세를 면제하는 방안을 검토한다. 면제하지 않으면 세금이 최대 540억 엔에 이를 수 있다.",
+          "why": "홋카이도 지토세 공장의 현재 지위로는 상업 양산이 어려워 라피더스에 직접 넘겨야 하기 때문이다.",
+          "soWhat": "세부 내용은 연말 2027회계연도 세제개편 논의에서 정해질 전망이어서 라피더스 지원 규모가 다시 논란이 될 수 있다.",
+          "context": {
+            "background": "일본 정부는 2나노 반도체 양산을 목표로 라피더스에 수천억 엔 규모의 공적 자금을 지원해 왔다.",
+            "issueContext": "공장을 지분 출자 방식으로 이전하는 과정의 세 부담을 줄이려는 것이다.",
+            "coreQuestion": "세금 면제를 포함한 추가 지원이 라피더스의 고객 확보 문제까지 풀어줄 수 있을까요?",
+            "resolution": "면제 여부는 확정되지 않았고 연말 세제개편에서 결정될 예정이다."
+          },
+          "sources": [
+            {
+              "name": "Nation Thailand(지지통신 전재)",
+              "url": "https://www.nationthailand.com/news/world/40073699"
+            }
+          ],
+          "related": {
+            "title": "Japan’s $15 billion Rapidus chip bet hinges on winning customers",
+            "source": "Khaleej Times",
+            "url": "https://www.khaleejtimes.com/japans-15-billion-rapidus-chip-bet-hinges-on-winning-customers",
+            "type": "반박"
+          },
+          "topics": [
+            "라피더스",
+            "반도체",
+            "세제개편",
+            "보조금",
+            "산업정책"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261122-1",
+          "date": "2026.11.22",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "러시아, 일본인 기자 간첩 혐의 구금 장기화…12월 12일까지 구속",
+          "summary": "러시아 당국이 10월 사할린에서 체포한 홋카이도신문 특파원 이마이 유키 기자를 간첩 혐의로 12월 12일까지 구속 중이다. 유죄가 확정되면 최대 20년형이 가능하다.",
+          "why": "러시아 FSB는 그가 일본 정보기관을 위해 러시아 방위 관련 정보를 수집했다고 주장한다.",
+          "soWhat": "일본 정부의 석방 요구와 정상 간 대화에도 재판 절차가 이어질 가능성이 크다.",
+          "context": {
+            "background": "이마이 기자는 출국 하루 전 유즈노사할린스크에서 체포돼 모스크바로 이송됐다.",
+            "issueContext": "일본은 체포에 항의했고 언론자유 단체는 즉각 석방을 촉구했지만, 러시아는 일본이 기자를 정보 수집에 쓴다고 반박했다.",
+            "coreQuestion": "외교적 압박이 기자의 조기 석방으로 이어질까요, 아니면 재판이 길어질까요?",
+            "resolution": "구속 기한은 12월 12일까지이며 현재까지 석방 합의는 보고되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "Committee to Protect Journalists",
+              "url": "https://cpj.org/2026/10/russia-detains-japanese-journalist-on-suspicion-of-espionage/"
+            }
+          ],
+          "related": {
+            "title": "Russia arrests Japanese reporter for alleged espionage",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/13/russia-arrests-japanese-reporter-for-alleged",
+            "type": "다름"
+          },
+          "topics": [
+            "러시아",
+            "언론자유",
+            "구금",
+            "외교",
+            "일본"
+          ],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261118-1",
           "date": "2026.11.18",
