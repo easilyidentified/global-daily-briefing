@@ -113,10 +113,117 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.11.25",
-      "period": "2026.11.24 08:00 ~ 2026.11.25 08:00",
-      "updatedAt": "2026.11.25 08:00 KST",
+      "latestDate": "2026.11.26",
+      "period": "2026.11.25 08:00 ~ 2026.11.26 08:00",
+      "updatedAt": "2026.11.26 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261126-1",
+          "date": "2026.11.26",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "민주당, 조희대 대법원장 탄핵 '5당 연대' 공식 제안…국민의힘 반발",
+          "summary": "김민석 민주당 대표가 25일 최고위원회의에서 조국혁신당·진보당·기본소득당·사회민주당에 조희대 대법원장 탄핵 추진 연대를 제안했다. 국민의힘은 '사법 파괴 연대'라며 반발했다.",
+          "why": "민주당이 지난 20일 의원총회에서 탄핵소추 추진을 당론으로 정하고 연내 발의를 목표로 속도를 내고 있다.",
+          "soWhat": "조국혁신당이 12월 2일 발의·3일 처리를 제안해 연내 탄핵소추안 표결 가능성이 커졌다.",
+          "context": {
+            "background": "민주당은 비상계엄 관련 사법부 대응과 이재명 대통령 공직선거법 사건 파기환송 등을 탄핵 사유로 들어 왔다.",
+            "issueContext": "여권은 연대를 시민사회까지 넓히려 하고, 야당과 법조계는 사법권 독립 훼손이라며 중단을 요구한다.",
+            "coreQuestion": "대법원장 탄핵 추진은 사법 책임을 묻는 정당한 절차일까요, 사법부 독립을 흔드는 정치 공세일까요?",
+            "resolution": "5당 간 구체적 합의와 소추안 문안은 아직 조율 중이다."
+          },
+          "sources": [
+            {
+              "name": "경북일보",
+              "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4092082"
+            }
+          ],
+          "related": {
+            "title": "민주당·진보야당 '조희대 탄핵' 추진에…판사들 \"헌법질서 위태\"",
+            "source": "서울경제",
+            "url": "https://m.sedaily.com/article/20118998",
+            "type": "반박"
+          },
+          "topics": [
+            "조희대",
+            "탄핵",
+            "민주당",
+            "국민의힘",
+            "사법부"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261126-2",
+          "date": "2026.11.26",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "예산소위, 26일부터 45조 미래대응기금 심사 착수…졸속 심사 우려",
+          "summary": "국회 예결위 예산소위가 26일 미래대응기금 심사에 착수했다. 26~27일 이틀간 4대 계정 45조3625억 원, 135개 사업을 다루며 사업당 평균 13분 남짓이어서 졸속 심사 우려가 나온다.",
+          "why": "기금 신설법이 상임위를 넘지 못하자 예결위원장이 상임위 결론을 기다리지 않고 예산소위에서 직접 심사하기로 했다.",
+          "soWhat": "국민의힘은 전액 삭감, 민주당은 신설 유지를 고수해 소소위 협상으로 넘어갈 가능성이 크다.",
+          "context": {
+            "background": "162조 원대 기금을 두고 여야가 평행선을 달려 왔고 예산안 법정 처리 시한이 다가오고 있다.",
+            "issueContext": "기금 규모·성격과 짧은 심사 시간이 쟁점이며 여당 일부도 지방재정 지원 확대를 요구했다.",
+            "coreQuestion": "여야가 법정 시한 안에 미래대응기금을 합의 처리할 수 있을까요?",
+            "resolution": "26일 예산소위에서 공방이 시작됐고 심사는 27일까지 이어진다."
+          },
+          "sources": [
+            {
+              "name": "뉴스1",
+              "url": "https://www.news1.kr/politics/assembly/6367433"
+            }
+          ],
+          "related": {
+            "title": "[사설]45조 미래대응기금도 밀실 소소위서 '짬짜미'하려는 건가",
+            "source": "경향신문",
+            "url": "https://www.khan.co.kr/article/202611251815001/",
+            "type": "유사"
+          },
+          "topics": [
+            "예산",
+            "국회",
+            "미래대응기금",
+            "야당"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261126-1",
+          "date": "2026.11.26",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 6.16% 급락한 4697…AI·메모리 우려에 반도체 직격탄",
+          "summary": "코스피가 25일 308.52포인트(6.16%) 급락한 4697.51로 마감해 4700선이 무너졌다. 미국 반도체주 급락과 외국인 매도가 겹쳤고 삼성전자·SK하이닉스가 집중 매도됐다.",
+          "why": "미국 필라델피아 반도체지수가 7.88% 급락하는 등 AI 수익성과 메모리 공급 과잉 우려가 다시 부각됐다.",
+          "soWhat": "이익이 반도체에 쏠린 국내 증시 구조상 미국 AI 주가 흐름에 따라 변동성이 이어질 수 있다.",
+          "context": {
+            "background": "전날 코스피는 6.32% 급등한 5006.03으로 마감했으나 하루 만에 상승분을 반납했다.",
+            "issueContext": "AI 투자 불안과 미국 추가 관세 움직임이 투자심리를 눌렀다.",
+            "coreQuestion": "이번 급락은 일시적 조정일까요, 반도체 고점 논쟁의 시작일까요?",
+            "resolution": "장 초반 매도 사이드카가 발동됐고 코스닥도 2.29% 하락했다."
+          },
+          "sources": [
+            {
+              "name": "이투데이",
+              "url": "https://www.etoday.co.kr/news/view/2652940"
+            }
+          ],
+          "related": {
+            "title": "코스피, AI 수익성·메모리 공급 과잉 우려에 6%대 급락…4700선 붕괴",
+            "source": "프리진경제",
+            "url": "https://www.freezine.co.kr/news/articleView.html?idxno=18667",
+            "type": "다름"
+          },
+          "topics": [
+            "코스피",
+            "반도체",
+            "삼성전자",
+            "SK하이닉스",
+            "급락"
+          ],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261125-1",
           "date": "2026.11.25",
@@ -17012,10 +17119,118 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.11.25",
-      "period": "2026.11.24 08:00 ~ 2026.11.25 08:00",
-      "updatedAt": "2026.11.25 08:00 KST",
+      "latestDate": "2026.11.26",
+      "period": "2026.11.25 08:00 ~ 2026.11.26 08:00",
+      "updatedAt": "2026.11.26 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261126-1",
+          "date": "2026.11.26",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "엔비디아 스캔들, 의회 초당적 우려…AI 칩 중국 판매 제한 입법 압박",
+          "summary": "젠슨 황 엔비디아 CEO 관련 스캔들로 미 의회에서 초당적 우려가 커지고 있다. 크레이머 상원의원은 AI 칩의 중국 판매를 제한하는 입법을 즉시 처리하라고 촉구했다.",
+          "why": "엔비디아 칩이 중국 AI 기업에 밀수·불법 접근됐을 수 있다는 의혹과 황 CEO 복귀가 맞물렸다.",
+          "soWhat": "AI 칩 수출 제한이 국방수권법(NDAA)에 담길 수 있고 러트닉 상무장관이 의회에 출석할 예정이다.",
+          "context": {
+            "background": "황 CEO는 기소되지 않았고 트럼프 대통령은 안보 위협이 아니라며 사면도 선택지라고 말했다.",
+            "issueContext": "법무부 대응과 대중국 칩 수출 승인 경위를 둘러싸고 여야가 모두 답변을 요구한다.",
+            "coreQuestion": "의회는 AI 칩 대중 수출을 법으로 막을 수 있을까요, 행정부 재량에 맡길까요?",
+            "resolution": "황 CEO는 12월 상원 은행위원회에 출석할 예정이다."
+          },
+          "sources": [
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-white-house-congress-2026-live-updates-rcna611009"
+            }
+          ],
+          "related": {
+            "title": "Trump's Nvidia problems aren't going away",
+            "source": "Washington Examiner",
+            "url": "http://www.washingtonexaminer.com/news/white-house/4814002/trump-nvidia-jensen-huang-congress/",
+            "type": "다름"
+          },
+          "topics": [
+            "엔비디아",
+            "의회",
+            "중국",
+            "수출통제",
+            "반도체"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261126-1",
+          "date": "2026.11.26",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "백악관 신규 관세 발표 날 10월 PCE 3.8%…연준 인상 압박",
+          "summary": "미 상무부가 10월 PCE 물가가 전년 대비 3.8%로 2023년 11월 이후 최고라고 발표한 날, 백악관은 중국·EU 등 14개 교역국 대상 신규 관세를 제안했다. 근원 PCE는 3.3%였다.",
+          "why": "높은 물가 속에서 산업 과잉생산을 이유로 한 관세 카드가 겹쳤다.",
+          "soWhat": "시장은 12월 연준 금리 인상 가능성을 높게 반영하고 있다.",
+          "context": {
+            "background": "연방대법원이 2월 트럼프의 긴급 관세를 무효화해 약 1000억 달러를 환급해야 했다.",
+            "issueContext": "제안 관세율은 20~40%로 거론되지만 기존 무역합의 한도 안이라는 설명도 나온다.",
+            "coreQuestion": "신규 관세는 물가를 다시 자극해 연준을 더 조일까요?",
+            "resolution": "관세는 제안 단계로 보도되며 최종 확정 여부는 확인이 필요하다."
+          },
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/11/25/white-house-new-tariffs-inflation-data-expectations-fed/"
+            }
+          ],
+          "related": {
+            "title": "Data Shows Inflation Jumped Last Month as Trump Unveils Sweeping New Tariffs",
+            "source": "Common Dreams",
+            "url": "https://www.commondreams.org/news/trump-tariffs-pce-inflation",
+            "type": "다름"
+          },
+          "topics": [
+            "관세",
+            "인플레이션",
+            "연준",
+            "트럼프",
+            "물가"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261126-2",
+          "date": "2026.11.26",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "다우 1100포인트 낙폭 딛고 상승 마감…AI 매도 속 나스닥은 하락",
+          "summary": "추수감사절 전날인 25일 뉴욕증시에서 다우지수는 장중 1100포인트 하락을 만회해 50,183으로 올랐다. 반면 S&P500은 0.3%, 나스닥은 0.6% 내렸고 엔비디아는 4% 하락했다.",
+          "why": "AI 관련주 매도와 예상보다 높은 물가, 신규 관세 소식이 동시에 투자심리를 흔들었다.",
+          "soWhat": "26일은 휴장이고 27일은 단축 거래라 변동성이 이어질 수 있다.",
+          "context": {
+            "background": "VIX는 장중 35까지 치솟았다가 28 안팎에서 마감했다.",
+            "issueContext": "AI 매도의 지속 여부와 물가·관세가 증시의 변수다.",
+            "coreQuestion": "이번 반등은 바닥 신호일까요, 일시적 숨고르기일까요?",
+            "resolution": "이번 주 다우는 약 3.9%, S&P500은 4.2% 올라 있다."
+          },
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+            }
+          ],
+          "related": {
+            "title": "High US PCE, Trump tariffs and hawkish Fed outlook weigh on stocks",
+            "source": "Equiti",
+            "url": "https://www.equiti.com/sc-en/news/market-news/high-us-pce-trump-tariffs-and-hawkish-fed-outlook-weigh-on-stocks/",
+            "type": "다름"
+          },
+          "topics": [
+            "다우",
+            "나스닥",
+            "엔비디아",
+            "AI",
+            "급락"
+          ],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261125-1",
           "date": "2026.11.25",
@@ -33578,10 +33793,82 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.11.25",
-      "period": "2026.11.24 08:00 ~ 2026.11.25 08:00",
-      "updatedAt": "2026.11.25 08:00 KST",
+      "latestDate": "2026.11.26",
+      "period": "2026.11.25 08:00 ~ 2026.11.26 08:00",
+      "updatedAt": "2026.11.26 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261126-1",
+          "date": "2026.11.26",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 외교부, 미국의 14~16개국 대상 관세 추진에 \"관세전쟁은 누구에게도 이롭지 않다\"",
+          "summary": "궈자쿤 외교부 대변인은 25일 미국이 중국 등에 추가 관세를 부과하려 한다는 질문에 관세전쟁은 어느 쪽에도 이익이 아니라고 답했다. 미국이 내세운 '생산능력 과잉' 논리도 수긍하지 않는다고 밝혔다.",
+          "why": "미국 무역대표부가 과잉생산 조사 결과를 근거로 중국·EU 등에 관세를 준비 중이라는 보도가 나왔다.",
+          "soWhat": "중국은 정상 간 합의 이행과 평등·상호존중 기반 협상을 요구해 무역휴전 틀이 시험대에 오른다.",
+          "context": {
+            "background": "미중은 정상 간 합의로 무역휴전 틀을 유지해 왔다.",
+            "issueContext": "관세 상한이 기존 합의 안에 머물지가 관건이다.",
+            "coreQuestion": "미국의 신규 관세가 미중 무역휴전을 흔들까요, 틀 안에서 관리될까요?",
+            "resolution": "미국의 공식 공고는 아직 확인되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "중국신문망",
+              "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737570.shtml"
+            }
+          ],
+          "related": {
+            "title": "중국 외교부, 중미 경제무역 입장 재천명 \"관세전쟁은 어느 쪽 이익에도 부합 않는다\"",
+            "source": "홍콩01",
+            "url": "https://global.hk01.com/%E5%8D%B3%E6%97%B6%E5%9B%BD%E9%99%85/60414988/%E4%B8%AD%E5%9B%BD%E5%A4%96%E4%BA%A4%E9%83%A8%E9%87%8D%E7%94%B3%E4%B8%AD%E7%BE%8E%E7%BB%8F%E8%B4%B8%E7%AB%8B%E5%9C%BA-%E5%85%B3%E7%A8%8E%E6%88%98%E4%B8%8D%E7%AC%A6%E5%90%88%E4%BB%BB%E4%BD%95%E4%B8%80%E6%96%B9%E5%88%A9%E7%9B%8A",
+            "type": "다름"
+          },
+          "topics": [
+            "관세",
+            "미중",
+            "중국",
+            "공급과잉",
+            "무역"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261126-1",
+          "date": "2026.11.26",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "신저우 24호 발사 성공…중국 첫 외국인 우주비행사 파키스탄인 탑승",
+          "summary": "신저우 24호가 25일 오전 8시 18분 주취안에서 발사돼 궤도에 올랐다. 탕훙보·우이와 함께 파키스탄 공군 중령 무함마드 지샨 알리가 탑승해 중국 유인우주 사상 첫 중외 우주비행사 합동 비행이 이뤄졌다.",
+          "why": "중국이 톈궁 우주정거장을 외국에 개방해 우주 협력 외연을 넓히려는 흐름이다.",
+          "soWhat": "중국은 우주정거장 협력국을 늘릴 것으로 보이며 시진핑과 파키스탄 대통령이 축전을 교환했다.",
+          "context": {
+            "background": "파키스탄은 중국의 오랜 전략 파트너로 우주 협력을 이어 왔다.",
+            "issueContext": "외국 우주비행사는 탑재체 전문가 자격의 단기 비행으로 참여한다.",
+            "coreQuestion": "이번 비행은 중국 우주정거장 국제화의 출발점일까요, 상징적 협력에 그칠까요?",
+            "resolution": "발사는 성공했고 승무원 상태도 양호하다고 발표됐다."
+          },
+          "sources": [
+            {
+              "name": "펑파이",
+              "url": "https://www.thepaper.cn/newsDetail_forward_34555455"
+            }
+          ],
+          "related": {
+            "title": "神舟二十四号｜乘载3太空人 酒泉卫星发射中心升空",
+            "source": "星岛头条",
+            "url": "https://www.stheadline.com/zh-hans/realtime-china/3640888/%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B7%E4%B9%98%E8%BD%BD3%E5%A4%AA%E7%A9%BA%E4%BA%BA-%E9%85%92%E6%B3%89%E5%8D%AB%E6%98%9F%E5%8F%91%E5%B0%84%E4%B8%AD%E5%BF%83%E5%8D%87%E7%A9%BA%E6%9C%89%E7%89%87",
+            "type": "유사"
+          },
+          "topics": [
+            "우주",
+            "우주정거장",
+            "텐궁",
+            "파키스탄",
+            "중국"
+          ],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261125-1",
           "date": "2026.11.25",
@@ -48942,10 +49229,118 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.11.25",
-      "period": "2026.11.24 08:00 ~ 2026.11.25 08:00",
-      "updatedAt": "2026.11.25 08:00 KST",
+      "latestDate": "2026.11.26",
+      "period": "2026.11.25 08:00 ~ 2026.11.26 08:00",
+      "updatedAt": "2026.11.26 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261126-1",
+          "date": "2026.11.26",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "야당, 세키 문과상 문책결의안 참의원 제출…정부는 유임 방침",
+          "summary": "야당이 세키 문부과학상의 문책결의안을 26일 참의원에 제출해 27일 표결할 전망이다. 정부와 다카이치 총리는 유임 방침을 고수한다.",
+          "why": "'정치와 돈' 의혹으로 야당 6개 정당이 제출에 의견을 모았다.",
+          "soWhat": "가결되려면 무소속 등의 표가 필요해 여야가 다수파 공작을 벌이고 있고 감세 법안 심의도 멈췄다.",
+          "context": {
+            "background": "정부는 위법성이 없고 설명 책임을 다했다는 입장이다.",
+            "issueContext": "연립 파트너인 유신회와 여당 일부에서도 스스로 진퇴를 결정하라는 목소리가 나온다.",
+            "coreQuestion": "세키 문과상은 문책결의 표결 전에 사임할까요, 유임으로 버틸까요?",
+            "resolution": "결의안은 제출됐고 표결 결과는 불투명하다."
+          },
+          "sources": [
+            {
+              "name": "시사통신",
+              "url": "https://www.jiji.com/jc/article?k=2026112500706&g=pol"
+            }
+          ],
+          "related": {
+            "title": "【解説】“政治とカネ”関文科相への問責決議案…与党内の一部「辞任して早期幕引き図るべき」",
+            "source": "日テレNEWS NNN",
+            "url": "https://news.yahoo.co.jp/articles/e76aab13591f25efc7c0a054d6e5fb02cd827998",
+            "type": "반박"
+          },
+          "topics": [
+            "다카이치",
+            "참의원",
+            "야당",
+            "유신회",
+            "내각"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261126-1",
+          "date": "2026.11.26",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 1633엔 급락한 57,011…AI·반도체주 매도",
+          "summary": "25일 도쿄증시에서 닛케이평균은 1633.01엔(2.78%) 내린 57,011.62엔에 마쳤다. 장중 2100엔 넘게 빠졌다가 오후에 낙폭을 줄였다.",
+          "why": "미국 AI 관련주 급락과 트럼프 행정부의 추가 관세 준비 보도가 위험 회피를 불렀다.",
+          "soWhat": "미 PCE 발표 뒤 엔은 달러당 159엔대 초반에서 움직이며 증시·환율 변동성이 이어질 수 있다.",
+          "context": {
+            "background": "AI·반도체주가 지수를 이끌어 온 만큼 미국 기술주 흐름에 민감하다.",
+            "issueContext": "미국 AI 매도와 관세, 물가가 변수다.",
+            "coreQuestion": "닛케이 급락은 AI 랠리의 조정일까요, 일시적 충격일까요?",
+            "resolution": "26일에는 닛케이평균이 일시 반등했다."
+          },
+          "sources": [
+            {
+              "name": "재경뉴스",
+              "url": "https://www.zaikei.co.jp/article/20261125/879099.html"
+            }
+          ],
+          "related": {
+            "title": "日経平均は1673円安、米PCE物価指数などに関心",
+            "source": "인베스팅닷컴",
+            "url": "https://jp.investing.com/news/forex-news/article-1770235",
+            "type": "다름"
+          },
+          "topics": [
+            "닛케이평균",
+            "엔화",
+            "반도체",
+            "AI",
+            "급락"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261126-1",
+          "date": "2026.11.26",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "JAXA, 인도와 공동 개발 달 탐사차 시험 주행 공개…2028년도 발사",
+          "summary": "JAXA가 25일 인도와 공동 추진하는 달 극지 탐사(LUPEX)용 탐사차 지상 시험기의 주행을 공개했다. 2028년도에 H3 로켓으로 발사해 달 남극의 물을 찾는다.",
+          "why": "달 극지의 물 자원 확인이 향후 달 탐사와 거점 구축의 열쇠로 꼽힌다.",
+          "soWhat": "인도가 착륙선, 일본이 탐사차를 맡는 분담으로 2028년도 발사를 목표로 한다.",
+          "context": {
+            "background": "시험기는 네 다리의 크롤러로 초속 약 3센티미터로 약 18미터를 주행하며 장애물을 넘었다.",
+            "issueContext": "개발 일정과 달 극지 착륙 탐사의 성공이 과제다.",
+            "coreQuestion": "일본·인도 공동 탐사는 달 남극의 물 존재를 확인할 수 있을까요?",
+            "resolution": "시험 주행 공개를 마쳤고 발사는 2028년도 예정이다."
+          },
+          "sources": [
+            {
+              "name": "시사통신",
+              "url": "https://www.jiji.com/jc/article?k=2026112501057&g=soc&m=rss"
+            }
+          ],
+          "related": {
+            "title": "月で水探す探査車、JAXAが試験走行を公開 28年度にも打ち上げ",
+            "source": "日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOSG20AS20Q6A121C2000000/",
+            "type": "유사"
+          },
+          "topics": [
+            "우주탐사",
+            "달탐사",
+            "JAXA",
+            "인도",
+            "일본"
+          ],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261125-1",
           "date": "2026.11.25",
