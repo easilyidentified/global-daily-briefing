@@ -113,10 +113,225 @@
     "KR": {
       "countryName": "대한민국",
       "countryNameEn": "South Korea",
-      "latestDate": "2026.11.26",
-      "period": "2026.11.25 08:00 ~ 2026.11.26 08:00",
-      "updatedAt": "2026.11.26 08:00 KST",
+      "latestDate": "2026.11.27",
+      "period": "2026.11.26 08:00 ~ 2026.11.27 08:00",
+      "updatedAt": "2026.11.27 08:00 KST",
       "issues": [
+        {
+          "id": "kr-pol-20261127-1",
+          "date": "2026.11.27",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "한준호 행안부 장관 후보자 첫 출근…야당 '수사 방탄용 인사' 공세",
+          "summary": "한준호 행정안전부 장관 후보자가 26일 첫 출근하며 책임감을 밝혔고, 국민의힘 김장겸 의원은 '수사 방탄용 인사'라며 행정 경험과 전문성 부족을 지적했다.",
+          "why": "행안위 소관 법안 대표발의가 2건뿐인 데다 의원실 보좌진의 KBS 항의 전화가 고발돼 경찰이 수사 중이라는 점이 쟁점으로 떠올랐다.",
+          "soWhat": "인사청문회에서 전문성과 경찰·중수청 독립성 문제가 집중적으로 따져질 전망이다.",
+          "context": {
+            "background": "한 후보자는 재선 의원으로 행안위 경력 없이 행안부 장관 후보에 지명됐다.",
+            "issueContext": "야당은 방탄·보은 인사라고 비판하고, 후보자 측은 KBS 관련 의혹 연루를 강하게 부인한다.",
+            "coreQuestion": "한준호 후보자는 행안부를 이끌 전문성을 갖췄을까요, 수사 방탄용 인사일까요?",
+            "resolution": "청문회 일정과 결과는 아직 확인되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "머니투데이",
+              "url": "https://www.mt.co.kr/index.php/politics/2026/11/26/2026112617154733076"
+            }
+          ],
+          "related": {
+            "title": "한준호 행안장관 후보 “큰 책임감…경찰·중수청 등 독립성은 명확”",
+            "source": "시사저널",
+            "url": "https://www.sisajournal.com/news/articleView.html?idxno=395328",
+            "type": "반박"
+          },
+          "topics": [
+            "행정",
+            "국민의힘",
+            "경찰",
+            "중수청",
+            "인사청문회"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-pol-20261127-2",
+          "date": "2026.11.27",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "김정은, 새 핵물질 생산기지·핵무기연구소 시찰…'핵보유국 부정은 선전포고'",
+          "summary": "조선중앙통신은 김정은 국무위원장이 25일 새로 지은 핵물질 생산공장 등을 찾았다고 26일 전했다. 김 위원장은 핵보유국 지위를 부정하면 선전포고로 간주하겠다고 말했다.",
+          "why": "핵 능력 확대를 과시하며 전술핵 활용 영역을 넓혀야 한다고 강조하려는 행보다.",
+          "soWhat": "북한과 대화 재개를 제안한 한국 정부의 구상에 부담으로 작용할 수 있다.",
+          "context": {
+            "background": "통일부는 핵동력 생산기지의 공개 방문은 처음이고, 핵시설 방문은 올해 6월 이후 네 번째라고 설명했다.",
+            "issueContext": "시설의 명칭과 위치는 공개되지 않았고 전문가들은 영변·신포 인근 등을 거론한다.",
+            "coreQuestion": "북한의 핵시설 공개는 협상력 과시일까요, 핵 고도화의 신호일까요?",
+            "resolution": "통일부는 시설 위치를 확인 중이다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202611261055382243"
+            }
+          ],
+          "related": {
+            "title": "김정은, 새 핵물질 공장 방문… \"핵보유국 부정은 선전포고\"",
+            "source": "한국일보",
+            "url": "https://www.hankookilbo.com/news/article/A2026112615410004098",
+            "type": "유사"
+          },
+          "topics": [
+            "북한",
+            "핵",
+            "북핵",
+            "한반도"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261127-1",
+          "date": "2026.11.27",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "한은, 기준금리 3.00→3.25% 인상…올해 세 번째, 추가 인상 여지 열어둬",
+          "summary": "한국은행 금융통화위원회가 26일 기준금리를 연 3.00%에서 3.25%로 0.25%p 올렸다. 7월·8월에 이은 올해 세 번째 인상이다.",
+          "why": "물가 상승 압력이 가시화되자 선제적으로 대응했다는 것이 한은의 설명이다.",
+          "soWhat": "점도표 중간값이 3.50%로 나오고 종착점이 3.75%까지 열려 있어 대출금리가 더 오를 수 있다.",
+          "context": {
+            "background": "넉 달 사이 기준금리가 0.75%p 올랐다.",
+            "issueContext": "10월 신규 가계대출 금리는 5.02%, 주담대는 4.98%로 이미 높다.",
+            "coreQuestion": "추가 인상은 물가 안정을 위한 선제 대응일까요, 가계 이자 부담만 키우는 과잉 긴축일까요?",
+            "resolution": "한은은 추가 인상 가능성을 열어둔 채 올해 마지막 통화정책방향 회의를 마쳤다."
+          },
+          "sources": [
+            {
+              "name": "시사저널",
+              "url": "https://www.sisajournal.com/news/articleView.html?idxno=251169"
+            }
+          ],
+          "related": {
+            "title": "[사설]기준금리 인상, 주담대는 15년 만에 최고…'빚투 시대' 저문다",
+            "source": "네이트 뉴스(사설)",
+            "url": "https://m.news.nate.com/view/20261126n39455",
+            "type": "다름"
+          },
+          "topics": [
+            "금리",
+            "한국은행",
+            "통화정책",
+            "가계부채",
+            "대출"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-eco-20261127-2",
+          "date": "2026.11.27",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "코스피 4711.21 마감…하루 만에 반등했지만 금리 인상에 상승분 반납",
+          "summary": "26일 코스피는 전날보다 13.70p(0.29%) 오른 4711.21에 마감했다. 장중 4800선을 되찾았으나 한은 금리 인상 뒤 상승분 대부분을 내줬다.",
+          "why": "전날 6% 넘게 급락한 데 따른 반등 매수와 금리 인상 부담이 맞섰다.",
+          "soWhat": "기관 순매수(7508억원)와 개인·외국인 순매도(1조438억원·1137억원)가 엇갈려 변동성 장세가 이어질 수 있다.",
+          "context": {
+            "background": "코스피는 AI·메모리 우려와 엔비디아 이슈로 이틀 연속 큰 폭으로 움직였다.",
+            "issueContext": "반등 폭이 전날 낙폭의 4.4%에 그쳤다는 점이 부담이다.",
+            "coreQuestion": "코스피는 급락 뒤 반등 국면에 들어섰을까요, 금리 부담에 다시 흔들릴까요?",
+            "resolution": "코스닥은 0.78% 오른 655.71, 달러·원 환율은 1342.7원으로 마감했다."
+          },
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202611261548115574"
+            }
+          ],
+          "related": {
+            "title": "[마감 시황] 코스피, 금리 인상 여파와 외국인·개인 매도에 상승분 대거 반납…4,711.21 강보합 마감",
+            "source": "Businesskorea",
+            "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=282317",
+            "type": "유사"
+          },
+          "topics": [
+            "코스피",
+            "금리",
+            "반도체",
+            "증시",
+            "환율"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261127-1",
+          "date": "2026.11.27",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "주택 종부세 72만6천 명에 고지…1년 새 34.5%↑, 1인당 평균 199만 원",
+          "summary": "재정경제부는 26일 올해 주택분 종부세 고지 인원이 72만6천 명으로 전년보다 18만7천 명(34.5%) 늘었다고 밝혔다. 고지세액은 2조3천억원이다.",
+          "why": "서울을 중심으로 집값이 오르면서 과세 대상이 늘었다.",
+          "soWhat": "12월 15일까지 납부해야 하며, 합산배제 등 특례 신청으로 법인 최종 인원·세액은 줄 수 있다.",
+          "context": {
+            "background": "1세대 1주택자 고지는 23만1천 명(53.0%↑), 서울은 45만9천 명이다.",
+            "issueContext": "보유세 부담이 빠르게 커지면서 실수요자 부담 논란이 이어진다.",
+            "coreQuestion": "종부세 대상 급증은 집값 상승에 따른 정당한 과세일까요, 실수요자까지 덮친 세금 부담일까요?",
+            "resolution": "고지서가 발송됐고 납부 기한은 12월 15일이다."
+          },
+          "sources": [
+            {
+              "name": "헤럴드경제",
+              "url": "https://biz.heraldcorp.com/article/10950766"
+            }
+          ],
+          "related": {
+            "title": "올해 종부세 대상 30% 늘어난 82만명…1년새 19만명 늘었다",
+            "source": "뉴스핌",
+            "url": "https://www.newspim.com/news/view/20261126001062",
+            "type": "다름"
+          },
+          "topics": [
+            "종부세",
+            "부동산",
+            "집값",
+            "세제",
+            "서울"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "kr-oth-20261127-2",
+          "date": "2026.11.27",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "김해 고교 '텀블러 소변' 사건 피해 학생 자퇴…학교·교육청 대응 논란",
+          "summary": "같은 반 여학생 텀블러에 소변을 넣은 남학생에게 학급교체 등 처분이 내려졌고, 피해 학생은 11월 11일 자퇴했다. 경찰은 성분 감정 결과에 따라 추가 혐의 적용을 검토한다.",
+          "why": "분리 조치가 미흡해 피해 학생이 가해 학생과 마주칠 불안 속에 학교를 떠났다.",
+          "soWhat": "경남도교육청은 조사관 연수·컨설팅을 강화하겠다고 밝혔고, 경찰은 강제추행치상 적용 여부를 살핀다.",
+          "context": {
+            "background": "사건은 9월 21일 발생했고 경찰은 처음 재물손괴 혐의로 입건했다.",
+            "issueContext": "처분 수위와 수사가 부실했다는 비판이 나오며, 전담조사관 발언 논란은 피해 측 주장 단계다.",
+            "coreQuestion": "학교폭력 처분은 피해 학생을 보호하기에 충분했을까요, 제도 보완이 필요할까요?",
+            "resolution": "성분 감정과 추가 혐의 검토가 진행 중이다."
+          },
+          "sources": [
+            {
+              "name": "경향신문",
+              "url": "https://www.khan.co.kr/article/202611260600011/"
+            }
+          ],
+          "related": {
+            "title": "여고생 텀블러에 소변 테러…경찰 강제추행치상 혐의 검토",
+            "source": "경남도민일보",
+            "url": "https://www.idomin.com/news/articleView.html?idxno=2020674",
+            "type": "유사"
+          },
+          "topics": [
+            "학교",
+            "청소년",
+            "성범죄",
+            "경찰",
+            "교육"
+          ],
+          "review": "pending"
+        },
         {
           "id": "kr-pol-20261126-1",
           "date": "2026.11.26",
@@ -17119,10 +17334,226 @@
     "US": {
       "countryName": "미국",
       "countryNameEn": "United States",
-      "latestDate": "2026.11.26",
-      "period": "2026.11.25 08:00 ~ 2026.11.26 08:00",
-      "updatedAt": "2026.11.26 08:00 KST",
+      "latestDate": "2026.11.27",
+      "period": "2026.11.26 08:00 ~ 2026.11.27 08:00",
+      "updatedAt": "2026.11.27 08:00 KST",
       "issues": [
+        {
+          "id": "us-pol-20261127-1",
+          "date": "2026.11.27",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프, 추수감사절 장병 통화서 '이란전 승리 눈앞'…종료 시점은 제시 안 해",
+          "summary": "트럼프 대통령은 26일 마러라고에서 장병들과 통화하며 이란전 승리가 눈앞에 있다고 말했다. 이란이 협상에 응할지는 의문이라면서도 종료 시한은 내놓지 않았다.",
+          "why": "이란전이 길어지는 가운데 해상 봉쇄 등 군사 압박을 이어가면서 협상 여지도 남기려는 메시지다.",
+          "soWhat": "군사작전 자금은 1월까지 확보돼 있고, 새 민주당 다수 의회가 추가 군사행동을 제약할 수 있다.",
+          "context": {
+            "background": "트럼프는 이란 해상 봉쇄를 '해군 역사상 가장 성공적인 봉쇄'라고 불렀다.",
+            "issueContext": "비판자들은 종료 시점과 철군 일정이 없다고 지적한다.",
+            "coreQuestion": "트럼프의 '승리 눈앞' 발언은 종전 협상의 신호일까요, 전쟁 장기화의 예고일까요?",
+            "resolution": "구체적인 종전 합의나 일정은 제시되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/nov/26/trump-phones-troops-thanksgiving-victory-hand-iran/"
+            }
+          ],
+          "related": {
+            "title": "TRUMP TELLS U.S. TROOPS ON THANKSGIVING THAT THE IRAN WAR WILL LAST HOWEVER LONG HE WANTS IT TO",
+            "source": "Uniting Now(Substack)",
+            "url": "https://unitingnow.substack.com/p/trump-tells-us-troops-on-thanksgiving",
+            "type": "반박"
+          },
+          "topics": [
+            "트럼프",
+            "이란",
+            "이란전쟁",
+            "의회",
+            "중동"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-pol-20261127-2",
+          "date": "2026.11.27",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "트럼프·뤼터, 마러라고 회담서 러시아에 '우크라 전쟁 확대 말라' 촉구",
+          "summary": "트럼프 대통령과 뤼터 나토 사무총장이 25일 마러라고에서 만나 러시아에 전쟁을 넓힐 행동을 피하라고 촉구했다. 이후 트럼프는 자신의 글에서 우크라이나도 경고 대상에 넣어 공동 메시지와 달랐다.",
+          "why": "선전 3자 회담이 우크라이나 휴전으로 이어지지 못한 뒤 동맹의 불안을 달래려는 자리였다.",
+          "soWhat": "방위비와 주유럽 미군 재검토 논의가 이어져 나토 안팎의 이견이 드러날 수 있다.",
+          "context": {
+            "background": "며칠 전 트럼프는 선전에서 푸틴·시진핑과 만났다.",
+            "issueContext": "일부 나토 동맹국은 푸틴과의 회담과 '친구' 발언을 비판했다.",
+            "coreQuestion": "트럼프의 문구 수정은 단순한 표현 차이일까요, 나토와의 균열일까요?",
+            "resolution": "즉각적인 휴전 합의는 나오지 않았다."
+          },
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html"
+            }
+          ],
+          "related": {
+            "title": "Trump adds Ukraine to warning against expanding war, diverging from joint NATO statement",
+            "source": "Kyiv Independent",
+            "url": "https://kyivindependent.com/trump-adds-ukraine-to-warning-against-expanding-war-diverging-from-joint-nato-statement/",
+            "type": "다름"
+          },
+          "topics": [
+            "트럼프",
+            "러시아",
+            "우크라이나",
+            "유럽",
+            "안보"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261127-1",
+          "date": "2026.11.27",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "미 신규 관세 제안에 중국·EU 등 '수용 불가'…주요 교역국 반발",
+          "summary": "미국이 과잉생산 301조사 결과를 근거로 중국 최대 20%, EU·일본 15% 등 신규 관세를 제안하자 중국·EU 등이 반발했다.",
+          "why": "대법원이 2월 기존 관세를 무효화한 뒤 새 법적 근거로 추진하는 조치다.",
+          "soWhat": "공청회를 거쳐 이르면 1월 발효되고, 협상이 깨지면 중국 관세율은 40%까지 오를 수 있다.",
+          "context": {
+            "background": "조사는 12개국·EU·대만을 대상으로 수개월간 진행됐다.",
+            "issueContext": "EU는 작년 합의한 15% 상한을 지키라고 요구한다.",
+            "coreQuestion": "새 관세는 기존 무역 합의를 흔들까요, 협상 카드로 그칠까요?",
+            "resolution": "제안 단계이며 최종 확정되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20261126-unacceptable-major-economies-push-back-against-new-us-tariffs"
+            }
+          ],
+          "related": {
+            "title": "Trump proposes a new wave of tariffs on China, E.U. and other trade partners",
+            "source": "NBC News",
+            "url": "https://www.nbcnews.com/business/economy/trump-country-specific-tariffs-excess-capacity-rcna611087",
+            "type": "다름"
+          },
+          "topics": [
+            "관세",
+            "미중",
+            "EU",
+            "무역",
+            "공급과잉"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-eco-20261127-2",
+          "date": "2026.11.27",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "10월 PCE 3.8%·근원 3.3%…연준 12월 금리 인상 확률 98%대",
+          "summary": "10월 PCE 물가가 전년 대비 3.8%, 근원 3.3%로 예상을 웃돌아 12월 연준 금리 인상 확률이 98% 안팎까지 올랐다.",
+          "why": "물가가 좀처럼 꺾이지 않는 데다 3분기 GDP가 상향 수정됐다.",
+          "soWhat": "12월 8~9일 FOMC에서 0.25%p 인상이 사실상 기정사실로 보이고 1월 추가 인상 확률은 60% 안팎이다.",
+          "context": {
+            "background": "연준은 올해 이미 금리를 올렸고 시장은 연내 추가 인상을 예상해 왔다.",
+            "issueContext": "AI 주가 급락이 인상 기조에 영향을 줄지가 변수다.",
+            "coreQuestion": "AI 급락이 연준의 인상 기조를 꺾을까요, 물가 대응이 우선일까요?",
+            "resolution": "시장은 12월 인상을 거의 가격에 반영했다."
+          },
+          "sources": [
+            {
+              "name": "Invezz",
+              "url": "https://invezz.com/news/2026/11/26/fed-rate-hike-odds-rise-to-almost-100-can-ai-selloff-force-a-rethink/"
+            }
+          ],
+          "related": {
+            "title": "Economic data spotlight: Fed rate hike bets survived Warsh, but can they survive US PCE inflation?",
+            "source": "investingLive",
+            "url": "https://investinglive.com/news/economic-data-spotlight-fed-rate-hike-bets-survived-warsh-but-can-they-survive-us-pce-inflation/",
+            "type": "유사"
+          },
+          "topics": [
+            "연준",
+            "인플레이션",
+            "금리",
+            "물가",
+            "통화정책"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261127-1",
+          "date": "2026.11.27",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "연방판사, 트럼프의 두 번째 출생시민권 제한 행정명령 집행 차단",
+          "summary": "워싱턴 연방지법 쿠퍼 판사는 25일 트럼프의 두 번째 출생시민권 제한 행정명령(EO 14418) 집행을 소송 대상 집단 아동에 한해 막는 예비 금지명령을 내렸다. 대통령이 출생시민권에 새 예외를 만들 수 없다는 판단이다.",
+          "why": "6월 대법원이 첫 시도를 막은 뒤 정부는 8월 6일 정부 근무자·대리모 출생 등으로 범위를 좁힌 새 명령을 냈다.",
+          "soWhat": "소송이 이어지는 동안 효력이 멈추고, 정부의 항소 여부가 다음 변수다.",
+          "context": {
+            "background": "9월 2일 메릴랜드 판사도 명령을 일부 차단했다.",
+            "issueContext": "백악관은 '오바마가 임명한 활동가 판사'라며 반발했고 ACLU는 환영했다.",
+            "coreQuestion": "대통령은 출생시민권에 예외를 만들 권한이 있을까요, 헌법이 이를 막을까요?",
+            "resolution": "예비 금지명령이 유지되고 본안 소송이 이어진다."
+          },
+          "sources": [
+            {
+              "name": "Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/nov/25/another-judge-blocks-trumps-second-birthright-citizenship-order/"
+            }
+          ],
+          "related": {
+            "title": "Judge Christopher Cooper blocks Trump's second birthright citizenship order",
+            "source": "Fox News",
+            "url": "https://www.foxnews.com/politics/trumps-birthright-citizenship-restrictions-struck-down-dc-federal-judge-called-hater",
+            "type": "다름"
+          },
+          "topics": [
+            "트럼프",
+            "이민",
+            "법원",
+            "헌법",
+            "행정명령"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "us-oth-20261127-2",
+          "date": "2026.11.27",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "FCC, 스페이스X에 AI 데이터센터 위성 100만 기 배치 승인",
+          "summary": "FCC가 25일 스페이스X의 궤도 데이터센터 '스타마인드' 위성 최대 100만 기 배치를 조건부로 승인했다. 2033년 11월까지 1기, 2035년까지 10%, 2038년까지 절반을 올려야 한다.",
+          "why": "AI 연산 수요가 급증하면서 우주 데이터센터 구상이 현실 단계로 들어섰다.",
+          "soWhat": "천문 관측 방해와 궤도 잔해 우려가 커지고, 높은 궤도 위성의 잔해 처리 계획은 심사가 유보됐다.",
+          "context": {
+            "background": "아마존과 미국천문학회가 반대했지만 FCC는 이를 받아들이지 않았다.",
+            "issueContext": "환경단체는 환경 심사 없이 승인됐다고 비판한다.",
+            "coreQuestion": "100만 기 위성은 AI 인프라의 해법일까요, 우주 환경에 대한 무리한 도박일까요?",
+            "resolution": "조건부 승인이며 일부 사안은 유보됐다."
+          },
+          "sources": [
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/11/26/business/spacex-satellites-space-data-centers-intl"
+            }
+          ],
+          "related": {
+            "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+            "source": "Washington Times",
+            "url": "https://www.washingtontimes.com/news/2026/nov/25/fcc-says-spacex-deploy-1-million-satellites-data-centers-space/",
+            "type": "반박"
+          },
+          "topics": [
+            "스페이스X",
+            "AI",
+            "위성",
+            "데이터센터",
+            "우주"
+          ],
+          "review": "pending"
+        },
         {
           "id": "us-pol-20261126-1",
           "date": "2026.11.26",
@@ -33793,10 +34224,186 @@
     "CN": {
       "countryName": "중국",
       "countryNameEn": "China",
-      "latestDate": "2026.11.26",
-      "period": "2026.11.25 08:00 ~ 2026.11.26 08:00",
-      "updatedAt": "2026.11.26 08:00 KST",
+      "latestDate": "2026.11.27",
+      "period": "2026.11.26 08:00 ~ 2026.11.27 08:00",
+      "updatedAt": "2026.11.27 08:00 KST",
       "issues": [
+        {
+          "id": "cn-pol-20261127-1",
+          "date": "2026.11.27",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 국방부 \"중인 국경 정세 전반 안정\"…짱난은 중국 영토 재확인",
+          "summary": "국방부 대변인은 26일 정례회견에서 중인 국경 지역 정세가 전반적으로 안정돼 있다고 밝혔다. 짱난(인도명 아루나찰프라데시)은 중국 영토이며 인도가 불법 설치한 주(州)를 인정하지 않는다고 했다.",
+          "why": "이달 양국 군이 해당 지역에서 고위급 회담을 연 데 대한 기자 질문에 답한 것이다.",
+          "soWhat": "중국은 장성급 회담 등 채널로 합의 이행을 이어가겠다는 입장이다.",
+          "context": {
+            "background": "같은 회견에서는 11월 18~20일 상하이에서 열린 중미 해상군사안전협의도 언급됐다.",
+            "issueContext": "정세 안정 평가와 영유권 주장이 함께 나왔다.",
+            "coreQuestion": "중인 국경의 안정은 이어질까요, 영유권 이견이 다시 긴장으로 번질까요?",
+            "resolution": "중국은 현재 정세를 안정적이라고 평가했다."
+          },
+          "sources": [
+            {
+              "name": "澎湃新闻",
+              "url": "https://www.thepaper.cn/newsDetail_forward_34565139"
+            }
+          ],
+          "related": {
+            "title": "国防部：当前中印边境地区总体保持稳定",
+            "source": "新浪财经",
+            "url": "https://finance.sina.com.cn/jjxw/2026-11-26/doc-inkaaaxe8161928.shtml",
+            "type": "유사"
+          },
+          "topics": [
+            "국방부",
+            "인도",
+            "영유권분쟁",
+            "국경",
+            "중국"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "cn-pol-20261127-2",
+          "date": "2026.11.27",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중국 외교부, 일본에 유기화학무기 조속 폐기 촉구…'무화학무기 세계의 최대 장애'",
+          "summary": "궈자쿤 대변인은 26일 중국이 25일 헤이그 화학무기금지협약 당사국총회 계기에 일본 유기화학무기 부대행사를 열었다고 밝혔다. 일본이 조속히 완전 폐기할 의무가 있으며 지연의 주원인은 일본의 역사 인식과 자원 투입 부족이라고 했다.",
+          "why": "일본은 2007년 폐기 시한을 지키지 못했고 계획이 여러 차례 미뤄졌다는 것이 중국 측 주장이다.",
+          "soWhat": "중일 관계가 껄끄러운 가운데 역사 문제 압박이 이어질 전망이다.",
+          "context": {
+            "background": "중국은 2023년 관련 입장문을 협약 검토회의에 제출한 바 있다.",
+            "issueContext": "이번 보도에는 일본 정부의 반응이 포함돼 있지 않다.",
+            "coreQuestion": "유기 화학무기 폐기 지연은 일본의 이행 의지 부족 때문일까요, 사업상 난관 때문일까요?",
+            "resolution": "일본 측 반응은 확인되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "搜狐",
+              "url": "https://www.sohu.com/a/1106855457_656058"
+            }
+          ],
+          "related": {
+            "title": "外交部：日方应还中国人民以净土",
+            "source": "点新闻",
+            "url": "https://www.dotdotnews.com/a/202611/26/AP6b07e1d1e4b091a65a30bf65.html",
+            "type": "유사"
+          },
+          "topics": [
+            "외교부",
+            "일본",
+            "중일관계",
+            "역사"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261127-1",
+          "date": "2026.11.27",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "상하이종합 3476.88 보합 마감…오후 급락 뒤 반등, 거래대금 1.32조 위안",
+          "summary": "26일 상하이종합지수는 0.01% 오른 3476.88로 마감했다. 선전성분은 0.02% 내린 10084.04, 창업판은 0.29% 오른 2189.82였다.",
+          "why": "AI 관련주가 약했고 귀금속·석탄주가 강세를 보였다.",
+          "soWhat": "상하이종합은 이틀 연속 3500선 아래에서 마감했고 거래대금은 전일보다 약 657억 위안 줄었다.",
+          "context": {
+            "background": "전날 당국이 신용거래 증거금 비율을 낮추는 증시 안정 패키지를 발표했다.",
+            "issueContext": "하락 종목이 1693개로 상승 종목 818개의 두 배를 넘었다.",
+            "coreQuestion": "중국 증시는 3500선을 회복할 수 있을까요, 약세 흐름이 이어질까요?",
+            "resolution": "지수는 보합 마감했지만 장중 한때 창업판·선전성분이 1% 넘게 떨어졌다."
+          },
+          "sources": [
+            {
+              "name": "21财经",
+              "url": "https://m.21jingji.com/article/20261126/herald/496dcf8fa76f10c3591a5385179784d9.html"
+            }
+          ],
+          "related": {
+            "title": "A股每日行情复盘(11月26日)",
+            "source": "同花顺",
+            "url": "http://news.10jqka.com.cn/20261126/c682245336.shtml",
+            "type": "유사"
+          },
+          "topics": [
+            "증시",
+            "AI",
+            "증거금",
+            "상하이"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "cn-eco-20261127-2",
+          "date": "2026.11.27",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "중국 상무부 등 8개 부처, '서비스무역 발전 15차 5개년 규획' 발표",
+          "summary": "상무부 등 8개 부처가 26일 서비스무역 발전 '15·5' 규획을 인쇄·배포했다. 7개 분야 25개 중점 과제와 2030년 목표를 담았다.",
+          "why": "15차 5개년계획 기간 서비스무역을 새 성장 동력으로 키우려는 취지다.",
+          "soWhat": "각 부처가 분야별 과제를 추진하게 되며 구체 이행안은 원문과 후속 조치를 지켜봐야 한다.",
+          "context": {
+            "background": "상무부는 같은 날 정례 브리핑에서 서비스무역 상황을 소개했다.",
+            "issueContext": "상무부는 같은 날 미국의 301 관세 제안에 반대 입장을 밝혔다.",
+            "coreQuestion": "서비스무역 확대는 상품 무역 압박의 완충책이 될까요, 장기 과제에 그칠까요?",
+            "resolution": "규획이 공개됐고 세부 이행은 추후 이어진다."
+          },
+          "sources": [
+            {
+              "name": "中新网",
+              "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737955.shtml"
+            }
+          ],
+          "related": {
+            "title": "牛市早报｜服务贸易发展“十五五”规划印发，新一代通信网建设实施方案发布",
+            "source": "澎湃新闻",
+            "url": "https://thepaper.cn/newsDetail_forward_34567528",
+            "type": "유사"
+          },
+          "topics": [
+            "무역",
+            "5개년계획",
+            "상무부",
+            "서비스업"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "cn-oth-20261127-1",
+          "date": "2026.11.27",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "중국, '신세대 통신망 건설 실시방안' 공개…2030년 6G 착수·저궤도 위성망 구축",
+          "summary": "공신부·국가인터넷정보판공실·발개위가 26일 '신세대 통신망 건설 실시방안'을 공개했다. 2030년까지 5G-A·만조 광망을 중점 지역에 배치하고 저궤도 위성 인터넷을 기본 구축하며 적기에 6G망을 짓는다는 내용이다.",
+          "why": "연결 범위를 지상에서 우주·해양까지 넓히려는 취지다.",
+          "soWhat": "6G 기지국·코어망 장비 개발을 추진하고 전기통신법 제정도 밀어붙인다.",
+          "context": {
+            "background": "방안은 기초망·우주망·국제망·융합망을 함께 키우는 '432' 틀로 짜였다.",
+            "issueContext": "6G 상용 시기·주파수·재원은 공개되지 않았다.",
+            "coreQuestion": "6G 조기 착수는 기술 패권 경쟁의 선제 포석일까요, 기존 망 활용 중심의 점진적 확장일까요?",
+            "resolution": "문건은 공개됐고 구체 일정은 확인되지 않았다."
+          },
+          "sources": [
+            {
+              "name": "中央网信办",
+              "url": "https://www.cac.gov.cn/2026-11/26/c_1797453575920530.htm"
+            }
+          ],
+          "related": {
+            "title": "适时开展6G网络建设、推动制定电信法，新一代通信网建设实施方案有哪些亮点？",
+            "source": "澎湃新闻",
+            "url": "https://www.thepaper.cn/newsDetail_forward_34566582",
+            "type": "다름"
+          },
+          "topics": [
+            "통신",
+            "위성",
+            "인프라",
+            "기술패권"
+          ],
+          "review": "pending"
+        },
         {
           "id": "cn-pol-20261126-1",
           "date": "2026.11.26",
@@ -49229,10 +49836,189 @@
     "JP": {
       "countryName": "일본",
       "countryNameEn": "Japan",
-      "latestDate": "2026.11.26",
-      "period": "2026.11.25 08:00 ~ 2026.11.26 08:00",
-      "updatedAt": "2026.11.26 08:00 KST",
+      "latestDate": "2026.11.27",
+      "period": "2026.11.26 08:00 ~ 2026.11.27 08:00",
+      "updatedAt": "2026.11.27 08:00 KST",
       "issues": [
+        {
+          "id": "jp-pol-20261127-1",
+          "date": "2026.11.27",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "중의원 특별위, 비례 정수 31석 감축법안 표결 연기…여당 '60일 룰' 포기",
+          "summary": "중의원 정치개혁특별위는 26일 비례대표 정수 31석 감축법안 표결을 보류했다. 여당은 '60일 룰'로 이번 주 중의원 통과를 노렸으나 야당 반발로 포기했다.",
+          "why": "여당이 26일 질의 뒤 표결을 제안했지만 야당이 거부해 30일 질의만 합의됐다.",
+          "soWhat": "여당은 30일 특별위 가결, 12월 1일 본회의 통과를 목표로 한다.",
+          "context": {
+            "background": "국민민주당과 공동 제출했고 참의원 자민당에서는 신중론이 강하다.",
+            "issueContext": "보도마다 포기 이유를 야당 저항·일정·참의원 문책결의안 등으로 달리 짚는다.",
+            "coreQuestion": "정수 감축 법안은 이번 국회에서 성립할까요, 참의원에서 제동이 걸릴까요?",
+            "resolution": "표결은 보류됐고 30일 질의가 예정돼 있다."
+          },
+          "sources": [
+            {
+              "name": "時事通信",
+              "url": "https://www.jiji.com/jc/article?k=2026112600982&g=pol"
+            }
+          ],
+          "related": {
+            "title": "定数３１削減法案、衆院委員会採決を見送り…「６０日ルール」適用は困難に",
+            "source": "読売新聞",
+            "url": "https://news.yahoo.co.jp/articles/1cd56c67c0e6c7c4641ccf4f81f8e095cad73c9a",
+            "type": "다름"
+          },
+          "topics": [
+            "중의원",
+            "선거제도",
+            "국민민주당",
+            "참의원",
+            "자민당"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-pol-20261127-2",
+          "date": "2026.11.27",
+          "category": "politics",
+          "categoryLabel": "정치",
+          "title": "다카이치 총리, 마셜제도 대통령과 첫 정상 공동성명…중국 해양 진출 염두",
+          "summary": "다카이치 총리는 26일 하이네 마셜제도 대통령과 회담하고 양국 첫 정상 공동성명 '치반 둘룬·키즈나 파트너십'을 발표했다. 무력·강압에 의한 현상 변경에 반대한다는 입장을 확인했다.",
+          "why": "마셜제도는 중국이 해양 진출 기준으로 삼는 제2열도선 동쪽에 있다.",
+          "soWhat": "군이 없는 나라에 방위장비를 제공하는 OSA를 처음 검토하기로 했다.",
+          "context": {
+            "background": "양국은 '진화한 FOIP' 아래 협력을 강화하기로 했다.",
+            "issueContext": "해상보안·인프라·기후 대책 협력도 포함됐다.",
+            "coreQuestion": "일본의 마셜제도 안보 지원은 지역 안정에 기여할까요, 중국과의 긴장을 키울까요?",
+            "resolution": "공동성명이 발표됐고 OSA는 검토 단계다."
+          },
+          "sources": [
+            {
+              "name": "時事通信",
+              "url": "https://www.jiji.com/jc/article?k=2026112601157&g=int&m=rss"
+            }
+          ],
+          "related": {
+            "title": "軍を持たない国に初の「防衛装備品などを提供するOSA」検討 日・マーシャル首脳会談で安保協力強化へ",
+            "source": "テレビ朝日系(ANN)",
+            "url": "https://news.yahoo.co.jp/articles/87b80d3b5133f7a751bfb0225371c54fdf9b157a",
+            "type": "다름"
+          },
+          "topics": [
+            "다카이치",
+            "중국",
+            "안보",
+            "방위",
+            "외교"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261127-1",
+          "date": "2026.11.27",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "다무라 일은 심의위원 \"12월 인상 판단 가능\"…수개월마다 0.25%p 상정",
+          "summary": "다무라 나오키 일본은행 심의위원은 26일 기자회견에서 9월 인상 이후 금융환경 판단이 3개월 만에도 서는 경우가 충분히 있다고 말했다. 12월 17~18일 회합에서 인상 가능성에 열려 있다는 뜻이다.",
+          "why": "중립금리를 2% 안팎으로 보고 조기에 접근해야 한다는 판단이다.",
+          "soWhat": "기본선은 수개월마다 0.25%p 인상이며, 물가 상방 위험이 커지면 빈도를 높이고 그래도 남으면 폭을 키울 수 있다고 했다.",
+          "context": {
+            "background": "그는 주가 하락 동향도 점검하겠다고 밝혔다.",
+            "issueContext": "한 시장 보고서에 따르면 12월 인상 확률은 1주 전 81%에서 25일 56%로 내려갔다.",
+            "coreQuestion": "일은은 12월에 금리를 올릴까요, 주가 하락을 지켜보며 미룰까요?",
+            "resolution": "결정은 12월 17~18일 금융정책결정회합에서 나온다."
+          },
+          "sources": [
+            {
+              "name": "日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOUB264SY0W6A121C2000000/"
+            }
+          ],
+          "related": {
+            "title": "追加利上げ、１２月含め判断",
+            "source": "時事通信",
+            "url": "https://news.yahoo.co.jp/articles/d81122eed579e32fa2649a529934ecefe8c5970d",
+            "type": "유사"
+          },
+          "topics": [
+            "일본은행",
+            "금리",
+            "엔화",
+            "통화정책",
+            "물가"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-eco-20261127-2",
+          "date": "2026.11.27",
+          "category": "economy",
+          "categoryLabel": "경제",
+          "title": "닛케이평균 487엔 오른 5만7499엔…AI·반도체주 매수 속 상승폭 줄어",
+          "summary": "26일 닛케이평균 종가는 5만7499.16엔으로 전일보다 487.54엔 올랐다. 장중 고가는 5만8251.93엔이었지만 마감 무렵 상승폭이 크게 줄었다.",
+          "why": "전날 미국 증시 반등과 아침 한국 증시 상승에 따른 환매수에 AI 관련주 매수가 겹쳤다.",
+          "soWhat": "어드밴테스트·소프트뱅크그룹 등 AI 관련주가 지수를 떠받쳤다.",
+          "context": {
+            "background": "직전 거래일 닛케이평균은 AI·반도체주 매도로 1600엔 넘게 급락했다.",
+            "issueContext": "장중 등락 폭이 커 방향성이 불분명하다.",
+            "coreQuestion": "닛케이 반등은 추세 전환일까요, 일시적 되돌림일까요?",
+            "resolution": "지수는 상승 마감했다."
+          },
+          "sources": [
+            {
+              "name": "共同通信",
+              "url": "https://news.yahoo.co.jp/articles/39782a59d898f7f65920cf586f36f191875c8bd6"
+            }
+          ],
+          "related": {
+            "title": "年間配当「55円→100円」の増額発表…特別配当による株主還元で急伸した〈注目銘柄〉の正体【11月26日の国内株式市場概況】",
+            "source": "THE GOLD ONLINE",
+            "url": "https://news.yahoo.co.jp/articles/c0e5f85039d8fd9f6108fc08730444068f1b8560",
+            "type": "다름"
+          },
+          "topics": [
+            "닛케이평균",
+            "AI",
+            "반도체",
+            "소프트뱅크",
+            "증시"
+          ],
+          "review": "pending"
+        },
+        {
+          "id": "jp-oth-20261127-1",
+          "date": "2026.11.27",
+          "category": "other",
+          "categoryLabel": "기타",
+          "title": "오사카도 구상 협정서안 정식 결정…자민·공명 '시민 부재·일정 우선' 반발",
+          "summary": "오사카 부·시 법정협의회는 26일 오사카시를 4개 특별구로 재편하는 협정서안을 정식 결정했다. 2031년 1월 1일 제도 이행을 목표로 하며, 자민·공명은 반발했다.",
+          "why": "오사카 유신회가 내년 4월 주민투표를 목표로 일정을 서두르고 있다.",
+          "soWhat": "총무상 협의를 거쳐 2027년 2월 부·시 의회에서 의결되면 세 번째 주민투표가 열린다.",
+          "context": {
+            "background": "법정협에는 유신회 외 정당이 참여를 보류했다.",
+            "issueContext": "공명은 시민을 두고 가는 논의라고, 자민은 일정을 정해 놓고 만든 안이라고 비판했다.",
+            "coreQuestion": "세 번째 오사카도 구상은 주민투표까지 갈 수 있을까요, 의회에서 막힐까요?",
+            "resolution": "협정서안은 결정됐고 의회 표결이 남아 있다."
+          },
+          "sources": [
+            {
+              "name": "時事通信",
+              "url": "https://www.jiji.com/jc/article?k=2026112600112&g=pol"
+            }
+          ],
+          "related": {
+            "title": "大阪都構想「協定書案」が正式決定 吉村知事「副首都にふさわしい大阪を目指していく」 公明と自民会派は改めて反対の意向示す",
+            "source": "読売テレビ",
+            "url": "https://news.yahoo.co.jp/articles/1724c6e0d255a0b53128338a0e733b15ec06f0ba",
+            "type": "유사"
+          },
+          "topics": [
+            "오사카",
+            "유신회",
+            "지방자치",
+            "공명당"
+          ],
+          "review": "pending"
+        },
         {
           "id": "jp-pol-20261126-1",
           "date": "2026.11.26",
